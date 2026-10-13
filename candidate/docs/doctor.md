@@ -1,6 +1,6 @@
 # Bounded read-only doctor
 
-Status: S12 bounded implementation, source and both installed dependency cells verified within the evidence below. This is a partial implementation of OBJ-DX-02, not completion of the full doctor objective.
+Status: bounded diagnostic implementation through S14; exact source and installed evidence below. This is a partial implementation of OBJ-DX-02, not completion of the full doctor objective.
 
 ## Static CLI
 
@@ -42,6 +42,20 @@ Primary sources: https://www.postgresql.org/docs/16/sql-set-transaction.html and
 
 Call `doctor(manifest_bytes, phase="active", engine=planned_runtime_engine, deployment=(host_authenticated_plan, current_external_pin), mapping=existing_registry, sources=reviewed_sources)`. The mapping/source arguments are optional for metadata inspection. The declaration must match the plan and the pin must be ACTIVE and bind its exact digest. An owner engine is refused. Invalid/missing inputs, stale pins, catalog drift, read-only failures and malformed state remain rejected or unavailable. No privileges are repaired.
 
-The inspector reuses the admitted lifecycle attachment checks inside its own read-only transaction. A successful roles check covers the planned runtime role's effective privileges and routine policy at that snapshot, not complete discovery of every external writer. Journal/pin agreement is not cryptographic authentication of the pin's origin. Provider and ciphertext checks remain NOT_INSPECTED; complete/ready remain false. It never calls the maintenance verifier or bypasses its approval requirement. The static CLI continues to inspect only declaration grammar.
+The inspector reuses the admitted lifecycle attachment checks inside its own read-only transaction. A successful roles check covers the planned runtime role's effective privileges and routine policy at that snapshot, not complete discovery of every external writer. Journal/pin agreement is not cryptographic authentication of the pin's origin. Provider and, without the explicit S14 opt-in below, ciphertext checks remain NOT_INSPECTED; complete/ready remain false. It never calls the maintenance verifier or bypasses its approval requirement. The static CLI continues to inspect only declaration grammar.
 
 S13 installed focused suites157PASS on each dependency cell; source hashes unchanged. Last full-suite baseline remains S12; S13 full suite NOT RUN. All seven independent gates remain UNKNOWN.
+
+## Explicit bounded ciphertext observation (S14)
+
+Add `audit_ciphertext=True, keys=existing_trusted_resolver` to the active host API. Defaults are `audit_row_limit=1000` and `audit_byte_limit=16777216`. Limits must be strict integers in1..10000 and1..67108864 respectively. The static CLI does not obtain keys or enable this observation. Supplying keys without explicit opt-in is rejected before database access.
+
+The active schema/role inspection runs first. Within the same REPEATABLE READ/READ ONLY transaction, the audit reads only row/tenant identities and payload columns, then authenticates visible non-NULL CF1 cells with the existing plan-bound tenant policy and bounded key lease. It does not read the old plaintext source columns. No new cryptography, key cache or credentials are introduced. Keys for tenant policies absent from the compiled plan remain refused, consistent with the existing runtime contract.
+
+Row and cumulative byte limits apply across all model tables. The byte budget uses the existing SQL-side conservative projection cost; it excludes metadata queries and the identity-only lookahead probe, so it is neither total transferred bytes nor a process-RSS bound. Row/byte bounds do not bound elapsed time, provider latency, lock waits or server work. A remaining row beyond a bound produces PARTIAL. An identity-only probe distinguishes an exact end boundary from incomplete coverage. Reports include counts and static codes, never plaintext, row identifiers, frames, keys or provider exception text. A trusted host callback is outside the database read-only sandbox.
+
+CHECKED means only that the observed non-NULL cells authenticated at this snapshot. It cannot prove NULL substitution, absent rows, same-context replay/freshness or complete external membership. Any generation admitted by the exact key policy may authenticate; this is not active-write-generation readiness verification. A fixture that deletes a row and replaces all remaining frames with NULL deliberately demonstrates this limit. Provider custody remains NOT_INSPECTED. `ready` and `complete` remain false. This operation never calls the maintenance verifier, changes a journal/pin, or issues a lifecycle certificate. Existing transition approval requirements remain unchanged.
+
+Source evidence: initial missing-API regression3FAIL; expanded audit90PASS after correcting one test SQL expression (the failed setup is retained). Removing authentication causes1FAIL; removing the byte bound causes1FAIL. Exact restoration and added boundary controls:19PASS. Independent CF1/native-value oracles cover multiple tables, fields and tenants. Repeated wheel SHA25643c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080;37 installed modules byte-match. Full installed suites:1831PASS/7FAIL/0SKIP315.40s on2.1.3;1813PASS/7FAIL/18SKIP315.98s on2.0.51. Same seven known legacy-profile failures; source hashes stable. Six later snapshot/projection/READ ONLY/global-row/empty-data controls pass separately on each installed cell, without runtime changes. The isolation-level mutation fails and exact restoration passes. Full-suite acceptance remains open.
+
+AEAD's interface does not itself provide anti-replay, consistent with RFC5116 section1.2: https://www.rfc-editor.org/info/rfc5116/ . This is an established limitation, not a novelty claim.

@@ -10,11 +10,12 @@ from cryptalis.manifest.parser import ManifestInvalid
 
 
 def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
-           search_reviews=(), sources=None, phase="pre_adoption", deployment=None):
+           search_reviews=(), sources=None, phase="pre_adoption", deployment=None,
+           audit_ciphertext=False, keys=None, audit_row_limit=1000, audit_byte_limit=16 * 1024 * 1024):
     """Inspect declaration and, when explicitly supplied, a native PostgreSQL schema.
 
     The caller supplies trusted application objects; no modules or source files
-    are imported by name. No provider or application row values are accessed.
+    are imported by name. Provider/row access requires explicit bounded ciphertext audit opt-in.
     Active mode requires a host-authenticated plan/pin and the existing runtime
     engine; only deployment metadata and effective permissions are inspected. The report cannot qualify deployment even when checks succeed.
     """
@@ -26,7 +27,7 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
               "limits": [
                   "Native pre-adoption and active deployment metadata use distinct inspection modes.",
                   "Writer completeness and value-domain reviews are host assertions, not independent discovery.",
-                  "Provider custody and ciphertext authentication are not inspected; role checks apply only to explicit active mode.",
+                  "Provider custody is not inspected; ciphertext authentication requires explicit active-mode opt-in and bounds.",
                   "Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.",
                   "All seven production gates and actual query routing require separate qualification."]}
     if phase not in ("pre_adoption", "active"):
@@ -44,8 +45,20 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
     checks["manifest"] = {"status": "CHECKED", "scope": "declaration_grammar_only",
                           "sha256": hashlib.sha256(manifest).hexdigest(),
                           "model_count": len(declaration.models)}
+    if (type(audit_ciphertext) is not bool or type(audit_row_limit) is not int
+            or not 1 <= audit_row_limit <= 10000 or type(audit_byte_limit) is not int
+            or not 1 <= audit_byte_limit <= 64 * 1024 * 1024):
+        checks["ciphertext"] = {"status": "REJECTED", "code": "invalid_audit_bounds"}
+        return report
+    if audit_ciphertext and (phase != "active" or keys is None):
+        checks["ciphertext"] = {"status": "UNAVAILABLE", "code": "active_phase_and_explicit_keys_required"}
+        return report
+    if keys is not None and not audit_ciphertext:
+        checks["ciphertext"] = {"status": "REJECTED", "code": "ciphertext_audit_opt_in_required"}
+        return report
     if phase == "active":
-        return _active_report(report, declaration, engine, deployment, mapping, sources)
+        return _active_report(report, declaration, engine, deployment, mapping, sources,
+                              audit_ciphertext, keys, audit_row_limit, audit_byte_limit)
     if deployment is not None:
         checks["deployment"] = {"status": "REJECTED", "code": "deployment_requires_active_phase"}
         return report
@@ -81,7 +94,8 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
     return report
 
 
-def _active_report(report, declaration, engine, deployment, mapping, sources):
+def _active_report(report, declaration, engine, deployment, mapping, sources,
+                   audit_ciphertext, keys, audit_row_limit, audit_byte_limit):
     from sqlalchemy.engine import Engine
     from sqlalchemy.exc import SQLAlchemyError
     from psycopg import Error as PsycopgError
@@ -119,6 +133,9 @@ def _active_report(report, declaration, engine, deployment, mapping, sources):
                 raise InspectionUnavailable(None)
             connection.exec_driver_sql("SET LOCAL search_path = pg_catalog")
             check_attachment(connection, lock, deployment)
+            if audit_ciphertext:
+                from cryptalis._doctor_ciphertext import audit_snapshot
+                checks["ciphertext"] = audit_snapshot(connection, plan, keys, audit_row_limit, audit_byte_limit)
     except TransitionFailure as failure:
         checks["deployment"] = {"status": "REJECTED", "code": failure.code,
                                 "remedy": "Inspect the external pin, deployment state and planned runtime permissions; no repair was attempted."}

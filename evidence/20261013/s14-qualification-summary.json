@@ -1,0 +1,68 @@
+{
+  "slice": "S14",
+  "full_installed": {
+    "sa21": {
+      "passed": 1831,
+      "failed": 7,
+      "errors": 0,
+      "skipped": 0,
+      "pytest_seconds": 315.4
+    },
+    "sa20": {
+      "passed": 1813,
+      "failed": 7,
+      "errors": 0,
+      "skipped": 18,
+      "pytest_seconds": 315.98
+    }
+  },
+  "failure_ids_unchanged": [
+    [
+      "tests.test_deprotection_ordinals",
+      "test_changed_public_staging_refuses_switch"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_public_copy_participates_in_chunk_byte_bound"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_reverse_refuses_unhandled_public_suffix_comment_before_staging"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_reverse_refuses_unhandled_suffix_attributes[column_grant]"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_reverse_refuses_unhandled_suffix_attributes[compression]"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_reverse_refuses_unhandled_suffix_attributes[statistics]"
+    ],
+    [
+      "tests.test_deprotection_ordinals",
+      "test_reverse_refuses_unhandled_suffix_attributes[storage]"
+    ]
+  ],
+  "source_unchanged_each_run": true,
+  "later_additional_tests": {
+    "count": 6,
+    "sa21_seconds": 1.99,
+    "sa20_seconds": 1.81,
+    "runtime_unchanged": true,
+    "not_in_full_counts": true
+  },
+  "mutation_failures": {
+    "authentication": 1,
+    "byte_budget": 1,
+    "snapshot_isolation": 1
+  },
+  "source_files": 183,
+  "source_manifest_sha256": "7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121",
+  "wheel_sha256": "43c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080",
+  "production_gates": "UNKNOWN",
+  "audit_performance": "NOT_MEASURED",
+  "external_review": "NOT_PERFORMED"
+}

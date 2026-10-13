@@ -4,16 +4,16 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T11:35Z`
+- Last updated UTC: `2026-10-13T12:17Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Integrated candidate: `candidate-active-doctor-20261013` (S13); source-inventory SHA-256 `f13777f7e87ffc1b31f1b88f4c2de0846125a64185a8cf6a2e59d863c7423ba2` (180 files). Remote integration `3fed8c8195a40d192ac4236084b01704583fad1c` byte-verified;180-file composite restore PASS. S13 has affected-path qualification; last full-suite baseline S12.
+- Candidate selected for integration: `candidate-ciphertext-doctor-20261013` (S14); source-inventory SHA-256 `7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121` (183 files). Exact remote integration and composite recovery must be verified before promotion.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
-- Durable recovery: S5 archive downloaded from GitHub and3579 files verified; S9 composite174-file restore verified. Latest completed S9 evidence checkpoint `97b4ef6523ebbb1b7ce6f3a0718dc3c2a6074f27`. Older Library IDs below remain historical, not the current canonical ledger.
-- Execution wrapper: unchanged toolchain/lab_session.py and scripts/test_postgres.py dual-role preflight; serialized sessions with an exclusive lab lock. Current full S9 results1774/1756PASS and the same7 legacy-layout failures;18 native2.1-only skips on2.0.51.
+- Durable recovery: S5 GitHub archive restores3579 files; S13 composite180-file restore verified at3006595ee443c629c646e4d7fdd844767985d78d. S14 recovery follows publication. Older Library IDs and chronological entries below are historical.
+- Execution wrapper: unchanged toolchain/lab_session.py and scripts/test_postgres.py dual-role preflight; exclusive lab lock. S14 full1831/1813PASS with same7 legacy failures;18 native-version skips on2.0.51. Six subsequent installed snapshot controls pass separately per cell.
 
-Correction checkpoints named S6–S10 below are date-local engineering slices. They are **not** completion of the seven named integration work units; in particular `S6-ONLINE-MIGRATION` remains open. Append-only entries retain history; the front tables below are the current reconciled status.
+Correction checkpoints named S6–S14 below are date-local engineering slices. They are **not** completion of the seven named integration work units; in particular `S6-ONLINE-MIGRATION` remains open. Append-only entries retain history; the front tables below are the current reconciled status.
 
 ## Core promise, non-negotiable rules
 
@@ -51,7 +51,7 @@ Populate each `Original R01–R07` cross-reference by **reading the actual resea
 | [ ] | `OBJ-LIFE-08` | Real production KMS, initially AWS KMS where authorized, robust credential/region/outage/throttling/revocation/cost testing, with a provider-independent contract and no hard dependency on AWS for local functionality. | EXTERNAL AUTHORIZATION/PROVIDER QUALIFICATION OPEN | R03 | S4-ROTATIONS-KMS | Local provider evidence only; no authorized production KMS cell | Credentials/cloud account/outage/cost tests not claimed | Use authorized real provider resources only; never generate new access implicitly |
 | [ ] | `OBJ-LIFE-09` | Safe install, upgrades, compatibility across versions, decommission and explicit clean uninstall, including unsupported legacy-layout repair or a tracked safe alternative. | PARTIALLY VERIFIED — installed artifacts and retained removal; legacy unresolved | R02/R07 | Lifecycle/release | S8 package-free before/after removal; S9 two offline builds | Seven legacy-layout assertions still fail unchanged | Implement/review safe legacy upgrade route; preserve byte-identical old mailbox |
 | [ ] | `OBJ-DX-01` | Almost zero business/model/query changes; one manifest, named profiles, one attach call, usable status/plan/apply/verify/deprotect/rotate operations and precise startup feedback. | PARTIALLY VERIFIED — manifest/attach path; complete operations CLI incomplete | R06 | S7-PERF-DX-ADOPTION | S8 unqualified upstream app;13 bootstrap/4 fixture lines; C profile/operator steps | No business-source edits in pinned app; remaining setup costs explicit | Unify safe public operational entrypoints without claiming prototype flags as product API |
-| [ ] | `OBJ-DX-02` | `cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges. | PARTIALLY VERIFIED — S13 pre-adoption plus active metadata/planned-role doctor; full coverage OPEN | R01/R06 | Doctor/scanner slice | S12 doctor composes native read-only compiler and bounded source inspection; installed suites recorded below | S13 installed157PASS per cell; active planned-role checks bounded to snapshot; provider/ciphertext remain NOT_INSPECTED | Design/read-only implement doctor with explicit checked/unknown outcomes and no privilege repair |
+| [ ] | `OBJ-DX-02` | `cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges. | PARTIALLY VERIFIED — S14 bounded declaration/schema/planned-role/ciphertext/source diagnostics; provider and full coverage OPEN | R01/R06 | Doctor/scanner slice | S12 doctor composes native read-only compiler and bounded source inspection; installed suites recorded below | S14 explicit bounded frame authentication; snapshot/projection controls6PASS per cell; provider custody uninspected | Design/read-only implement doctor with explicit checked/unknown outcomes and no privilege repair |
 | [ ] | `OBJ-DX-03` | Fully working independent FastAPI/SQLModel integration; a second unrelated application; measure source edit lines, dependency and deployment requirements. Extend thoughtfully to Flask and Django via actually suitable adapters. | PARTIALLY VERIFIED — one pinned real app; second app unresolved | R06 | S2-FASTAPI-E2E | S8 FastAPI58x4PASS with original unqualified tables | FlaskBB native harness failures are not Cryptalis defects | Establish clean unrelated PostgreSQL app baseline; choose suitable adapters honestly |
 | [ ] | `OBJ-DX-04` | Normal SQLAlchemy semantics: ORM identity map, lazy/eager loading, `Session.exec`, sync/async, pooling, migrations, background jobs, serializers, errors and result metadata. | PARTIALLY VERIFIED — bounded sync/async SQLAlchemy/SQLModel | R01/R06 | Adapter qualification | Frozen corpus plus current installed2.0.51/2.1.3 suites | No universal ORM/framework qualification | Cover remaining supported semantics and real application boundaries |
 | [ ] | `OBJ-DX-05` | Accessible, complete docs: one small quickstart, profiles, threat model, leakage, boundaries, operations, recovery, practical examples, diagnostic errors and learning walkthroughs explaining what/why/how for each slice. | PARTIAL DOCUMENTATION; authoritative front tables reconciled | R06/R07 | Documentation integration | Current checklist, checkpoint/defect docs and recovery receipts | Historical entries retained; no stale template values used as current facts | Finish concise quickstart/diagnostics/recovery docs tied to integrated APIs |
@@ -142,11 +142,11 @@ Existing documented targets (not pass claims): added p95 ≤3 ms point/equality;
 
 ## NEXT ACTION (top five; update after each slice)
 
-1. Save S13 recovery/artifacts and retain its focused qualification boundary. Complete doctor coverage remains OPEN.
-2. Integrate a read-only doctor using the existing bounded compatibility_report scanner and native compiler; static scanner already exists. Distinguish checked/unknown scope, do not invoke attach to diagnose, and never repair privileges silently.
-3. Resolve remaining lifecycle/legacy-layout coverage without editing away the seven preserved assertions; fresh-cluster proof waits for the existing unanswered approval.
-4. Establish a clean unrelated PostgreSQL application baseline and reduce remaining manifest-first integration friction.
-5. Continue separately reviewed key-rotation, lower-leakage search and online migration designs; obtain required real-provider/reviewer resources without weakening maintenance safety or inventing budgets.
+1. Publish and byte-verify S14 source, complete evidence and183-file composite recovery; preserve prior checkpoints.
+2. Investigate unresolved legacy-layout transition/restore compatibility; preserve all seven original assertions and approved safety contracts.
+3. Extend remaining diagnostic evidence only where useful: bigint/single-tenant traversal, cross-table byte limits and key-lease outage behavior; provider custody remains unknown.
+4. Establish a clean unrelated PostgreSQL application baseline. Fresh-cluster/new-credential qualification waits for the existing unanswered approval.
+5. Continue separately reviewed full key rotation, lower-leakage search and online migration designs; preserve all original product objectives and independent review requirements.
 
 ## Atomic slice-checkpoint entry template — append once after every slice
 
@@ -179,13 +179,13 @@ No item is removed because it is difficult, unavailable, unsafe under one scheme
 | OBJ-LIFE-03 / OBJ-LIFE-04 | No qualified online/parallel migration | Capture, fencing, ordering and recovery not proved | Secure maintenance fallback | Reviewed protocol plus native concurrency/cutover evidence |
 | OBJ-LIFE-07 / OBJ-LIFE-08 | No production KMS or complete rotation triad | Local provider/rewrap preparation is insufficient | Approved local synthetic experiments | Obtain authorized resources and separate operation proofs |
 | OBJ-LIFE-06 / OBJ-LIFE-09 | Fresh-cluster and legacy-layout restore incomplete | Explicit approval pending; format-specific assertions unresolved | Verified same-host retained recovery; preserve old artifacts | Independent restore and reviewed safe legacy route |
-| OBJ-DX-02 / OBJ-DX-03 | No unified doctor or second unrelated app; bounded static scanner exists | Current CLI and dynamic diagnostic coverage incomplete | Existing manifest inspection and pinned FastAPI path | Implement read-only diagnostic slice; establish clean second native baseline |
+| OBJ-DX-02 / OBJ-DX-03 | Bounded unified doctor exists; complete provider/compatibility coverage and second unrelated app remain open | Current CLI and dynamic diagnostic coverage incomplete | Existing manifest inspection and pinned FastAPI path | Implement read-only diagnostic slice; establish clean second native baseline |
 
 ## Changelog
 
 - **Template created:** No actual source implementation, test or release qualification is claimed by this document.
 
-## Current recovery event
+## Historical recovery event (resolved by later checkpoints)
 
 The newest local candidate and 16:32 recovery directory are absent after an environment reset. Older workspace files remain. Recover Library archive libfile_613eb1e959b481d19e797a89e911a412, expected SHA-256 9c15c1696158fe328443cbcfb76b89ee5896fc025daafb33036b48903cc6d386. Prior recorded runtime results are historical until freshly reproduced. No implementation is promoted during recovery.
 
@@ -528,3 +528,16 @@ The explicit-host doctor API adds phase="active" with deployment=(plan,pin) and 
 Three new controls failed before the API extension. Source17PASS then expanded62PASS. Omitting only the deployment inspector produces2FAIL (wrong owner and schema drift), followed by exact source restoration. Installed affected-path suites:157PASS10.89s onSQLAlchemy2.1.3;157PASS10.52s on2.0.51, zero failures/errors/skips. These cover both doctor modes, CLI, advisory source scanner, migration audit and9 new active controls. Both preserve exact source bytes; PostgreSQL stopped. The full suite was NOT rerun for this isolated diagnostic extension; last full baseline is S12 (1803/1785PASS and7 unresolved legacy-profile failures). Do not label S13 full-suite-qualified.
 
 Wheel1600f108e2d6a44fecc5ecd7b2f38421492f58add9c9ddc764c9a498ad575cf9 reproduced twice;40RECORD entries and36installed modules match. No new cluster, credentials, crypto primitive, key cache or maintenance-approval exemption. Row integrity verification still follows the existing approved verification contract.
+
+
+## S14 bounded ciphertext observation verified, 2026-10-13
+
+The active doctor now accepts explicit ciphertext-audit opt-in, an existing trusted key resolver and strict global row/estimated-byte bounds. Active metadata and planned-role checks precede payload-only observation in one PostgreSQL REPEATABLE READ/READ ONLY transaction. Existing CF1 authentication and exact plan-bound key-policy/lease rules remain unchanged. No new credentials, key cache, provider, journal write or lifecycle certificate. Static CLI and default doctor calls do not access keys or row values.
+
+CHECKED covers visible non-NULL cells only. NULL substitution, missing rows, same-context replay/freshness, external membership and provider custody are not proven. Any generation admitted by the policy can authenticate; active-write-generation readiness is not established. The estimated projection budget excludes metadata/lookahead and does not bound total network bytes, RSS, server work or elapsed time. Reports suppress data and arbitrary provider error text; comprehensive host logging hygiene was not tested. Full doctor and all seven independent gates remain OPEN/UNKNOWN.
+
+Source controls: missing API3FAIL, then90PASS after one test-setup SQL correction (failed setup retained). Authentication removal1FAIL; byte-bound removal1FAIL; exact restoration19PASS. Full installed runtime suites: SQLAlchemy2.1.3 1831PASS/7FAIL/0SKIP315.40s;2.0.51 1813PASS/7FAIL/18SKIP315.98s. Both preserve exactly the seven legacy-layout failure IDs, two fork warnings and stable source hashes; both servers stopped. Full-suite acceptance remains OPEN.
+
+Six additional tests were added after those full runs, with runtime bytes unchanged. All6PASS on each installed dependency cell (1.99s/1.81s): committed interleaved writer retains one snapshot, old-source SELECT independently denied with42501 while payload audit succeeds, audit-stage writes refused with25006 in normal/AUTOCOMMIT modes, global cross-table row bound and empty data. Replacing only REPEATABLE READ with READ COMMITTED makes the snapshot test fail (1 authenticated cell rather than6); exact runtime restoration and installed recheck PASS. Do not describe these six later tests as part of the earlier full-run counts.
+
+Repeated wheel SHA25643c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080; sdist535e554d1df9e3fe59e59b4653e24d3c5ec6bbc1c86cf56ca598d8ae78209109.41RECORD entries and37installed modules verified. No audit latency benchmark, bigint/single-tenant audit-specific campaign or production-provider qualification yet. Native/CF1 independent fixture oracles are software checks, not external security review.
