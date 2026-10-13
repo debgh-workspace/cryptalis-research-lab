@@ -1,0 +1,815 @@
+{
+  "scope": "Finite independent CF1 decode oracle; PUBLIC fixture roots; no database, provider profile, product integration or online qualification",
+  "python": "3.12.14",
+  "cryptography": "50.0.2",
+  "openssl": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "source_sha256": {
+    "tests/reference_cf1_vectors.py": "7be77c31e92ffb7255900b01e4b895ed40c935049ad2063c848492444c7e8e19",
+    "tests/fixtures/cf1_vectors.json": "24c918629ac10d7fb739fd02a946ecdbbcf1de4102bb353cf069cc095a3b286e",
+    "experiments/independent_cf1_decode.py": "1c289bcb8c58658e76b8e61da29c31099ab8f8e7a687e25e421d85ac525c3653",
+    "experiments/verify_independent_cf1_decode.py": "98d1b656b3a7253f3590794c8ab5b4ab59bd4d8c476047548f94dc92e3ce9dba"
+  },
+  "frozen_cf1_vectors": 8,
+  "new_bigint_vectors": 20,
+  "extended_vectors_sha256": "3c975cbee3d465aa40223600c41117186d093fce3cb2267b07857a68cea6efbf",
+  "checks_passed": 196,
+  "expected_mutant_failures_detected": 1,
+  "elapsed_seconds": 1.2367959019975387,
+  "results": [
+    {
+      "case": "published_primitives_and_frozen_fixture_reproduction",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-storage-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_search_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:wrong_search_root",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:search_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid-equality-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-storage-empty:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_search_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:wrong_search_root",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:search_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-equality-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-storage-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_search_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:wrong_search_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:search_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "single-uuid-equality-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-storage-empty:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:sql_null",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_record",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_tenant",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_field_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_domain_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_table_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_descriptor_digest",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_payload_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_payload_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:payload_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_search_root_id",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:wrong_search_root",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:search_generation_pin",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:tag_tamper",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:unknown_flag",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:truncated",
+      "result": "PASS"
+    },
+    {
+      "case": "single-int64-equality-unicode:trailing",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-False-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-False-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-False-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-False-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-False-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-False-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-False-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-False-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-False-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-False-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-True-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-True-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-True-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-True-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-True-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-True-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-True-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-True-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-True-single-False:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-True-single-False:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-False-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-False-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-False-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-False-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-False-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-False-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-False-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-False-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-False-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-False-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-True-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--9223372036854775807-equality-True-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-True-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64--1-equality-True-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-True-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-0-equality-True-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-True-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-1-equality-True-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-True-single-True:decode",
+      "result": "PASS"
+    },
+    {
+      "case": "int64-9223372036854775807-equality-True-single-True:identity_bytes",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_0",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_1",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_2",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_3",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_4",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_5",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_6",
+      "result": "PASS"
+    },
+    {
+      "case": "int64_invalid_record_7",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid_invalid_record_0",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid_invalid_record_1",
+      "result": "PASS"
+    },
+    {
+      "case": "uuid_invalid_record_2",
+      "result": "PASS"
+    },
+    {
+      "case": "typed_zero_not_uuid_zero",
+      "result": "PASS"
+    },
+    {
+      "case": "omitted_expected_record_binding_mutant",
+      "result": "EXPECTED_FAIL_DETECTED"
+    },
+    {
+      "case": "record_binding_restored",
+      "result": "PASS"
+    },
+    {
+      "case": "source_and_frozen_fixtures_unchanged",
+      "result": "PASS"
+    },
+    {
+      "case": "no_product_or_database_modules_imported",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Same AES-GCM-SIV library primitive is shared with the product",
+    "No independent human cryptographic review",
+    "SQL NULL presence, replay freshness and row-set completeness remain outside frame authentication",
+    "No D1 capture/CF1 hook or product phase/capture admission",
+    "No key custody, lease, provider or crash-recovery qualification"
+  ]
+}
