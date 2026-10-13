@@ -1,0 +1,49 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFF                                                                     [100%]
+=================================== FAILURES ===================================
+_ test_unrepresentable_rate_estimate_is_typed_and_read_only[oversized_integer-protect] _
+tests/test_plan_estimate_bounds.py:19: in test_unrepresentable_rate_estimate_is_typed_and_read_only
+    if direction == 'protect': protect_plan(app,kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_transition_rate_estimates.py:15: in protect_plan
+    return app.m.plan(json.dumps(app.plan.document['lock']['declaration']).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:262: in plan
+    if any(type(r) not in (int,float) or not math.isfinite(r) or r <= 0 for r in rates):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:262: in <genexpr>
+    if any(type(r) not in (int,float) or not math.isfinite(r) or r <= 0 for r in rates):
+                                             ^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+_ test_unrepresentable_rate_estimate_is_typed_and_read_only[oversized_integer-reverse] _
+tests/test_plan_estimate_bounds.py:20: in test_unrepresentable_rate_estimate_is_typed_and_read_only
+    else: api().plan(app.plan,app.owner,source_pin=app.pin,keys=keys,
+src/cryptalis/deprotection.py:131: in plan
+    if any(type(v) not in (int,float) or not math.isfinite(v) or v<=0 for v in rates):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:131: in <genexpr>
+    if any(type(v) not in (int,float) or not math.isfinite(v) or v<=0 for v in rates):
+                                             ^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+_ test_unrepresentable_rate_estimate_is_typed_and_read_only[subnormal_float-protect] _
+tests/test_plan_estimate_bounds.py:19: in test_unrepresentable_rate_estimate_is_typed_and_read_only
+    if direction == 'protect': protect_plan(app,kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_transition_rate_estimates.py:15: in protect_plan
+    return app.m.plan(json.dumps(app.plan.document['lock']['declaration']).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:295: in plan
+    'backfill_seconds_estimate':math.ceil(rows/rates[0]), 'verify_seconds_estimate':math.ceil(rows/rates[1]),
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: cannot convert float infinity to integer
+_ test_unrepresentable_rate_estimate_is_typed_and_read_only[subnormal_float-reverse] _
+tests/test_plan_estimate_bounds.py:20: in test_unrepresentable_rate_estimate_is_typed_and_read_only
+    else: api().plan(app.plan,app.owner,source_pin=app.pin,keys=keys,
+src/cryptalis/deprotection.py:159: in plan
+    'writer_pause_seconds_estimate':math.ceil(count/rates[0]+count/rates[1]),
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: cannot convert float infinity to integer
+=========================== short test summary info ============================
+FAILED tests/test_plan_estimate_bounds.py::test_unrepresentable_rate_estimate_is_typed_and_read_only[oversized_integer-protect]
+FAILED tests/test_plan_estimate_bounds.py::test_unrepresentable_rate_estimate_is_typed_and_read_only[oversized_integer-reverse]
+FAILED tests/test_plan_estimate_bounds.py::test_unrepresentable_rate_estimate_is_typed_and_read_only[subnormal_float-protect]
+FAILED tests/test_plan_estimate_bounds.py::test_unrepresentable_rate_estimate_is_typed_and_read_only[subnormal_float-reverse]
+4 failed in 1.12s
