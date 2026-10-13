@@ -1,0 +1,18 @@
+{
+  "slice": "S8",
+  "status": "SOURCE_PROTOTYPE_ONLY; installed qualification pending",
+  "reproduction": "2FAIL2PASS1.47s: native child DELETE and parent cascade work with unqualified child; protected private profile refuses both",
+  "first_correction": "2FAIL2PASS1.45s: resolver placed after lifecycle search_path restriction; no improvement",
+  "corrected_order": "Resolve native search_path before lifecycle inspection, apply pins only after validation;4PASS1.21s",
+  "expanded": "99PASS18.20s including native commit/rollback/savepoint, changed connection search_path, no optin, mapping drift, warm mapper and existing adapter checks",
+  "async_scope": "8PASS3.10s:6 async native comparisons plus2 missing-table-resolution no-guess refusals;27 deselected",
+  "test_correction": "Earlier97PASS2FAIL17.00s asserted PolicyMismatch but DELETE grammar rejects sooner as UnsupportedProtectedOperation; retained failure. Accept either typed refusal for DELETE; independently require PolicyMismatch on SELECT and no DELETE/unchanged rows.",
+  "limits": [
+    "Only direct ordinary unqualified public tables resolving inside already compiled schemas are pinned.",
+    "Protected model mappings excluded from public resolution.",
+    "No new public DML authority; private allowlists and locked effect inventories unchanged.",
+    "No generic schema translation, no table-name guessing.",
+    "No production qualification; all seven gates UNKNOWN.",
+    "Full installed suites and scope-guard mutation checks pending."
+  ]
+}

@@ -410,3 +410,12 @@ Both public protection and reversal planners previously rejected valid fractiona
 Source validation:61PASS; removal of only the field-scope guard produces3FAIL/12PASS, followed by exact restoration15PASS. Installed full PostgreSQL suites through unchanged dual-role preflights: SQLAlchemy2.1.3 1725PASS/7FAIL/0SKIP286.63s;2.0.51 1707PASS/7FAIL/18SKIP289.55s. Both have2 fork warnings. Exact seven legacy-profile failures remain unchanged; full-suite acceptance stays OPEN. Source stability verified; each server stopped cleanly. Reproducible wheel SHA25619efd5eafede07616c45c21be491fe85206f52cd0c1ada53fa76dee8ab2ea6e8. All seven production qualification gates remain UNKNOWN.
 
 Next: independently reproduce the unqualified public-child table integration gap; protected-table physical binding already exists and must not be reimplemented or weakened. New-cluster/credential approval remains pending; existing authorized lab remains usable.
+
+
+## S8 unqualified public-child binding prototype, 2026-10-13
+
+Native differential reproduction:2FAIL2PASS1.47s. Both child DELETE and parent cascade fail only when the public-child mapper is unqualified. Prototype resolves native physical schema before lifecycle inspection restricts search_path, then freezes eligible same-compiled-schema ordinary public table names after successful validation. Protected mappings are excluded. Existing private opt-ins and locked inventories remain mandatory. No table-name guessing or schema translation.
+
+First resolver placement still failed2/4 because the search path was already narrowed; moved resolution before inspection. Initial corrected4PASS. Expanded99PASS18.20s; async and missing-resolution controls8PASS3.10s. Earlier97PASS2FAIL was an over-specific new diagnostic expectation, preserved: DELETE admission can reject before mapping-fingerprint validation. Tests now independently verify typed DELETE refusal, PolicyMismatch on SELECT, zero emitted DELETEs and unchanged rows.
+
+S8 remains a separate source prototype. Installed qualification and guard mutation checks pending. Integrated candidate remains S7. Original15-message mailbox SHA2569b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd reverified. All seven production gates UNKNOWN.
