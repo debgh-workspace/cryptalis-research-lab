@@ -1,0 +1,221 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFFFFFFFFFFFFFFFFFF.....                                            [100%]
+=================================== FAILURES ===================================
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('4f0a...l-105'), ...]) == ([(UUID('4f0a..., None), ...])
+E     
+E     At index 0 diff: [(UUID('4f0afe47-b55b-473f-ae97-ca5cfdd55f87'), 'efbec9eef39c14abc6d3e6b341f2fb99a1b53227a1ff86c573781d5a26e672ed', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_12f868e ... (8101 characters truncated) ... ource_plan_digest': '98103dbf7619bb0f33225ac3193103f0f2e40d31ca0d989fa3ba5631136948b9', 'source_operation_id': '6b30c152-d795-4a19-962f-8f6feb7c45fd'})] != [(UUID('4f0afe47-b55b-473f-ae97-ca5cfdd55f87'), 'efbec9eef39c14abc6d3e6b341f2fb99a1b53227a1ff86c5737...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('5dd6...l-105'), ...]) == ([(UUID('5dd6...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('5dd63a01-84e6-4e06-8b72-f97222d5d8b2'), 'a0d7aa2f95da310d15c5b0b6837211fed2b385ceb710a7a5e904b3bb59b3a2ac', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_54978f1 ... (8101 characters truncated) ... ource_plan_digest': '9d1fd1a71eef812bd950cf1919fa982df554304ac46f6c29033bcdee5f12efee', 'source_operation_id': 'e0c74e06-2b68-494f-aaad-3bf38a345a2a'})] != [(UUID('5dd63a01-84e6-4e06-8b72-f97222d5d8b2'), 'a0d7aa2f95da310d15c5b0b6837211fed2b385ceb710a7a5e90...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('5cf7...l-105'), ...]) == ([(UUID('5cf7...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('5cf7c808-b89c-45cc-919f-e50930236d6f'), '61e9b65955e8fc9e5cb315b31e3c566fd59a392270e79081c22473c6eee375c3', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_8947bda ... (8101 characters truncated) ... ource_plan_digest': '27197fe823e4606d68aa248ed6b9e6ab6e00f6bc0d6390c2ad9d266f01c958fe', 'source_operation_id': 'bde31578-929e-4abb-8a56-eb9fe5c5c93b'})] != [(UUID('5cf7c808-b89c-45cc-919f-e50930236d6f'), '61e9b65955e8fc9e5cb315b31e3c566fd59a392270e79081c22...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('28da...l-105'), ...]) == ([(UUID('28da..., None), ...])
+E     
+E     At index 0 diff: [(UUID('28daa7d4-c5f0-40ca-9cfc-61137083c3e5'), 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_9ba0ac54b3bf ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': '50c0cea221cf6cc59af6f54c7f685f9e6d5f3ce79b35a155a0752a30272f55ef'}}), (UUID('e74ead0f-4aeb-48ed-ae9e-eae8ed35596b'), 'a7269d5d59fae83cc7a24d2564959397f83bb187e6bd93288b2770d...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('0198...l-105'), ...]) == ([(UUID('0198...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('01988cca-9a14-436c-83ea-a823a058c5dc'), 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_e494385edbb7 ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': 'c0a03b6820372d49107707fe0c6a9fb8d1ef04cf59d80bb22bba446dbc2c5a9e'}}), (UUID('45498115-e8af-4f3a-9026-f9a59e9e1407'), 'd18fe10e7b3f7332d53b4a023ee605afdf101f2f61b5171f593b6a2...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('bbbc...l-105'), ...]) == ([(UUID('bbbc...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('bbbc316e-05ab-489b-a91f-22aceb4f118c'), 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_f995d9f42143 ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': '5fd1932814f23da32f2337f7fb8c3139eb4a9f777c3f94468ad3ffb668246d80'}}), (UUID('de8e5f7f-6aa8-4290-9535-f799e5aaaa2f'), '50235801b4a96a573503419dace29755a888eb2319d7c3dc9a1185e...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('a882...l-105'), ...]) == ([(UUID('a882..., None), ...])
+E     
+E     At index 0 diff: [(UUID('a8826e28-5ced-4913-bbaf-e9e92d172778'), '89750ef6dcb695239f4cdad9e1113e6828cad2fdf104eec6ca6b7cb59be5c979', {'phase': 'ACTIVE', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_d98e2348ab3c4624ba ... (9102 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': 'c7b61f8cf37726b60aba64a36f36b4eeea855b135254cb9f3663a59d12eced1c'}}), (UUID('a8e05097-4fe9-4374-a1f5-698b2b185ea7'), '651e88373c48b4f74b7b672afd1e5f3c1a1031f966fee7839cd6a32...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('a7eb...l-105'), ...]) == ([(UUID('a7eb...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('a7ebb764-9754-49ba-8233-646adc46b5d8'), 'e451a8f9bb581fad8bce581628066fdd05e0b977b001b868023570ed5dea6db6', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_1846253 ... (8101 characters truncated) ... ource_plan_digest': 'fff4137c13e4d69f94fda42dccd3eb8cbec114ae399f2615071aca18e14edaa8', 'source_operation_id': 'dd5460aa-0bbb-4fed-beab-07f52b5b4b79'}), (UUID('dd5460aa-0bbb-4fed-beab-07f52b5b4b79'), 'fff4137c13e4d69f94fda42dccd3eb8cbec114ae399f2615071aca1...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('1d4f...l-105'), ...]) == ([(UUID('1d4f...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('1d4f8f75-e19c-442e-adca-b0f87dbbc89b'), 'fc975dfd37764abeb13994fb1e1faec6ec29697b47115e48f54d67a7505838d7', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_fbb3c18 ... (8101 characters truncated) ... ource_plan_digest': 'f92ae20a45b3f48fecd76ab4f1bd3eaf3d3a19593a2e9b65a2296fb5d4c72938', 'source_operation_id': '978b222a-fa1f-4a44-9576-d98ea39e707c'}), (UUID('978b222a-fa1f-4a44-9576-d98ea39e707c'), 'f92ae20a45b3f48fecd76ab4f1bd3eaf3d3a19593a2e9b65a2296fb...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('b950...l-105'), ...]) == ([(UUID('b950..., None), ...])
+E     
+E     At index 0 diff: [(UUID('b950ff2f-2c46-43da-805a-f69833278978'), '2116df7d16d0392805fe47b80a9330f2c0a7d4496960881f9f7f7fb0bf0daa89', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_a1ab519 ... (8101 characters truncated) ... ource_plan_digest': '0303e30866136b4a1f7949b801aa2a54a82fd005a6c57ab95c5d80e49d491aaf', 'source_operation_id': 'cb060f2c-dd71-4648-a5c7-9c9dff05b543'}), (UUID('e6f0d903-258f-4f6d-8c6d-979a67348148'), '0303e30866136b4a1f7949b801aa2a54a82fd005a6c57ab95c5d80e...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('ab12...l-105'), ...]) == ([(UUID('ab12...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('ab1206c3-2801-4590-8da5-d54fe92bcbc7'), 'c7455b2fa058dffb2f4935307cc26f797bc4b2745147722b0793d3a3bb2c6877', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_fbcaada9756f ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': '73c659722cf5441992125fc78f1a1109e267cab36e989483fb1116d56674ae03'}}), (UUID('f98b5699-5d7e-45c0-ac55-384e913255a0'), 'e779d704836c5af004921909970877abee9f2d1d5fae36a1c852720...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('8bce...l-105'), ...]) == ([(UUID('8bce...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('8bce5533-8a0c-4770-9379-ac19a52f0c42'), '694beb2724a698e1de3786177373c83c86ba3473aa999961d21016459eb1c8d7', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_d177f9507589 ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': '341863a838290c2cc1129275b80f6bc33d0046b6f4056ee860f70d8e3ae9ab50'}}), (UUID('f0416387-90bc-4311-8d24-3538a1aab57f'), 'cce50be7160bae554005e90897fde77f53514aaebf6fb28621bdb55...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('ba78...l-105'), ...]) == ([(UUID('ba78..., None), ...])
+E     
+E     At index 0 diff: [(UUID('ba78b344-9730-4e9c-8437-de4665545c29'), '78f63d59888f786e8c797fd648c351c0de25a7d799db7d5726011d22b2925714', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_d64414f ... (8101 characters truncated) ... ource_plan_digest': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'source_operation_id': 'ddeb3687-79f4-43fc-9b64-2a2eb5151c4a'}), (UUID('ddeb3687-79f4-43fc-9b64-2a2eb5151c4a'), '76a9d1ac82102cd38969e67e8df78aff863ad2bfa538d415e75732a...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('6c78...l-105'), ...]) == ([(UUID('6c78...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('6c78d8e0-9d79-43cc-b60c-5ffe621c84de'), 'd5caa5615cfbd48745afbc8309b11caedb0d1c1d3ab34a150794100fda4d4cb8', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_6a6079158233 ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': 'c8762e92f6fb355e4aec8d4963a6ff434227cd668da90415e24a95ae94d3bb8e'}}), (UUID('99bbd8be-c202-42f2-a120-14546b8b7a0b'), 'a5eb8915fd1a4f912cdf244e5b6e630d55937c721c1546c462d294b...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('537a...l-105'), ...]) == ([(UUID('537a...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('537aa231-c6b1-4bdc-a789-91fceed8f38c'), '906b953320ea5ff46b6124b0e62fcad762a800e397215fa537935f1e520a0cdf', {'phase': 'DEPROTECTING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_3a6f24b954d0 ... (9108 characters truncated) ... , 'dependencies': []}}}, 'verification': {'00000000-0000-0000-0000-0000000001f6': '4af7adf68941a94a83549abb3f4349bfc93fd8210c14bce81170557b489ffdd8'}}), (UUID('56911e6c-82c4-4740-b450-f4d4bcfa4b38'), 'e52d9cba752689739e1763c5a498543bda88d1747cd5de0cb79d0fb...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-EXPANDED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('8204...l-105'), ...]) == ([(UUID('8204..., None), ...])
+E     
+E     At index 0 diff: [(UUID('82044e01-1413-4812-993c-cc227333c77c'), '546e23cb7b25efc1e173ea53b1789859d1a9c1cb3d4bc89f5427633b1d938e66', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_f4c377f ... (8038 characters truncated) ... olumns': []}], 'dependencies': []}}}, 'layout_version': 101, 'source_plan_digest': '75d04d3c247812d5cc04beabf0c5f8ebe5e64d27c159932d738ce71e858b5052'}), (UUID('b6fa1e4f-8079-4927-969e-074f17e549f9'), '75d04d3c247812d5cc04beabf0c5f8ebe5e64d27c159932d738ce71...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-BACKFILLED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('7161...l-105'), ...]) == ([(UUID('7161...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('7161bf17-f501-4479-bc36-ce2a93938979'), 'e2a880824f30d3bc9bcfd2ce2cd01cc81190789cc77374c8b00a6a2637d4bde6', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_53e5d1f ... (8038 characters truncated) ... olumns': []}], 'dependencies': []}}}, 'layout_version': 101, 'source_plan_digest': '3b4b4024ecb11868cf27854f10f3bbb7c6de7ec196245c7f038c0b9304f7c341'}), (UUID('9f30f4d5-1ddf-4c9f-b74b-6ba3351e7a6a'), '3b4b4024ecb11868cf27854f10f3bbb7c6de7ec196245c7f038c0b9...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-VERIFIED] _
+tests/test_reverse_predecessor_consistency.py:60: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert after == before, 'Inconsistent predecessor allowed reverse data/schema/journal progress'
+E   AssertionError: Inconsistent predecessor allowed reverse data/schema/journal progress
+E   assert ([(UUID('04da...l-105'), ...]) == ([(UUID('04da...exact'), ...])
+E     
+E     At index 0 diff: [(UUID('04daa649-c633-4932-a947-219071bf212a'), 'eb7e3bb0096877663dbb12f06922c10cb6106a06aa134a0fb6e19a5fb60c2dc0', {'phase': 'PLAINTEXT_PENDING', 'models': {'00000000-0000-0000-0000-0000000001f6': {'rows': 7, 'guard': ['A', 62, True, 0, 'cryptalis_migration_4f6e10f ... (8038 characters truncated) ... olumns': []}], 'dependencies': []}}}, 'layout_version': 101, 'source_plan_digest': 'b17f5ccf940fd4f13919d80ce13b4bccd5f7b6697d9ddc4cec2401824a00f2b1'}), (UUID('e901c96e-468c-47a8-808a-2a216812846e'), 'b17f5ccf940fd4f13919d80ce13b4bccd5f7b6697d9ddc4cec24018...
+E     
+E     ...Full output truncated (2 lines hidden), use '-vv' to show
+_ test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-PLAINTEXT_PENDING] _
+tests/test_reverse_predecessor_consistency.py:61: in test_reverse_resume_refuses_inconsistent_predecessor_without_effects
+    assert failure is not None, 'Inconsistent predecessor was reported as successful reverse state'
+E   AssertionError: Inconsistent predecessor was reported as successful reverse state
+E   assert None is not None
+=========================== short test summary info ============================
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_missing-PLAINTEXT_PENDING]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_digest-PLAINTEXT_PENDING]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[source_phase-PLAINTEXT_PENDING]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_operation-PLAINTEXT_PENDING]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_digest-PLAINTEXT_PENDING]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-EXPANDED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-BACKFILLED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-VERIFIED]
+FAILED tests/test_reverse_predecessor_consistency.py::test_reverse_resume_refuses_inconsistent_predecessor_without_effects[link_missing-PLAINTEXT_PENDING]
+24 failed, 5 passed in 15.54s
