@@ -244,8 +244,8 @@ class _Scan(ast.NodeVisitor):
         sql_binding = qualified.startswith(("sqlalchemy.", "sqlmodel."))
         if sql_binding and leaf in ("delete", "update", "insert", "Delete", "Update", "Insert"):
             self.add("core_dml_refused_if_attached", node,
-                     "The attached factory refuses non-flush Core DML, including DML on unprotected tables.",
-                     "Use ordinary ORM instance writes/deletes; keep bulk capability as an explicit pending requirement.")
+                     "The default attached profile refuses non-flush Core DML, including DML on unprotected tables.",
+                     "Use ordinary ORM instance writes/deletes. Private bounded DELETE opt-ins require exact target, effect-inventory and staging verification; this scan cannot establish them.")
         if sql_binding and leaf in ("text", "TextClause"):
             self.add("raw_sql_refused_if_attached", node,
                      "Textual SQL is not admitted through the attached application factory.",
@@ -271,10 +271,18 @@ class _Scan(ast.NodeVisitor):
                 identity = node.args[1] if len(node.args) > 1 else keywords.get("ident")
                 model = self.models.get(self.qualified(entity))
                 if model is not None and model["record"]["codec"] == "uuid16/v1":
+                    invalid_text = False
                     if isinstance(identity, ast.Constant) and type(identity.value) is str:
+                        # Share the existing runtime grammar; never issue SQL or echo the literal.
+                        from cryptalis.sqlalchemy import _uuid_record_context, UnsupportedUUIDRecordBind
+                        try:
+                            _uuid_record_context(identity.value)
+                        except UnsupportedUUIDRecordBind:
+                            invalid_text = True
+                    if invalid_text:
                         self.add("uuid_text_record_bind_refused_if_attached", node,
-                                 "UUID text record keys are currently refused by protected point-read admission.",
-                                 "Supply a UUID object; UUID-01 requires approval and qualification before text binds are admitted.")
+                                 "This literal does not satisfy the admitted PostgreSQL 16 UUID text grammar.",
+                                 "Supply a UUID object or an admitted UUID text spelling with ordinary typed record binds; verify routing in staging.")
                     elif identity is not None:
                         self.add("record_bind_requires_staging", node,
                                  "This record-key input type is not proven by the source snapshot.",

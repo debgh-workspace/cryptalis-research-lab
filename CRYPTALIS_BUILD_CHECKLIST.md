@@ -6,7 +6,7 @@
 
 - Last updated UTC: `2026-10-13T10:57Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Integrated candidate: `candidate-tuple-encoding-20261013` (S10); source-inventory SHA-256 `a4a7ed06882f34d38c5a9e39f4716068a7e693278a12f7e953460e45f78c9452` (175 files). Remote integration `2f4fb87a342f073b2a89f0b211f08f485480ce33`; recovery receipt `227c62be0766487479196f68aaf8cfa21dfbb060` byte-verified.
+- Integrated candidate selected: `candidate-adoption-diagnostics-20261013` (S11); source-inventory SHA-256 `79e5dd6989fa7ea2b736ff267f188a1962122d4b9d339c37cadc9f2228497c99` (176 files). Exact-commit integration/recovery receipt follows publication.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
@@ -142,7 +142,7 @@ Existing documented targets (not pass claims): added p95 ≤3 ms point/equality;
 
 ## NEXT ACTION (top five; update after each slice)
 
-1. Finish S11 installed diagnostic qualification and preserve its native point-read oracles; S10 is integrated and175-file recovery verified.
+1. Complete S11 remote byte verification and176-file recovery; continue S12 bounded doctor CLI/API with actual read-only database controls.
 2. Integrate a read-only doctor using the existing bounded compatibility_report scanner and native compiler; static scanner already exists. Distinguish checked/unknown scope, do not invoke attach to diagnose, and never repair privileges silently.
 3. Resolve remaining lifecycle/legacy-layout coverage without editing away the seven preserved assertions; fresh-cluster proof waits for the existing unanswered approval.
 4. Establish a clean unrelated PostgreSQL application baseline and reduce remaining manifest-first integration friction.
@@ -492,3 +492,14 @@ Eight real native/protected point-read controls independently verify canonical, 
 Repeated offline wheel SHA256 cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a;39RECORD entries,35installed runtime modules byte-match. Installed full qualification pending. Complete unified doctor remains unimplemented; all seven production gates UNKNOWN.
 
 S11 first installed full cell:1789PASS/7knownFAIL/0SKIP310.59s. Second installed cell running; S11 remains separate, not integrated.
+
+
+## S11 advisory diagnostic currency, 2026-10-13
+
+Reconciliation found an existing bounded source scanner, so it is retained instead of rebuilt. Its UUID literal finding still asserted that UUID-01 was unapproved and all strings refused, although the runtime had already admitted PostgreSQL16 UUID text. Its Core DML warning omitted the private bounded DELETE profile. Five new source-report regressions failed against S10.
+
+The separate S11 candidate reuses the runtime UUID grammar for literal classification, retains a refusal for malformed text, and reports admitted text as requiring staging rather than granting admission. Default Core DML refusal remains; its remedy now explains that private DELETE needs exact target/effect-inventory/staging verification. No runtime query admission, crypto, source execution, SQL execution or privilege change is added by this correction.
+
+Eight real native/protected point-read controls independently verify canonical, compact, braced and four-digit-group spellings recover the same UUID and protected values. Existing invalid-literal and source-sanitization controls remain unchanged. Focused41PASS2.23s. PostgreSQL16 primary source corroborates the alternative spellings: https://www.postgresql.org/docs/16/datatype-uuid.html . No novel grammar claim.
+
+Repeated offline wheel SHA256 cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a;39RECORD entries,35installed runtime modules byte-match. Installed full suites:1789PASS/7FAIL/0SKIP310.59s on2.1.3;1771PASS/7FAIL/18SKIP297.10s on2.0.51. Both retain exactly the seven known legacy-profile failures and two fork warnings. Source hashes unchanged and servers stopped. No full-suite acceptance claim. Complete unified doctor remains unimplemented; all seven production gates UNKNOWN.

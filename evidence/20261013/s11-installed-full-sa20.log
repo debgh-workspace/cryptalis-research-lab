@@ -1,0 +1,88 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+........................................................................ [  4%]
+........................................................................ [  8%]
+........................................................................ [ 12%]
+........................................................................ [ 16%]
+........................................................................ [ 20%]
+........................................................................ [ 24%]
+........................................................................ [ 28%]
+.................................................................FFF..FF [ 32%]
+FF...................................................................... [ 36%]
+........................................................................ [ 40%]
+........................................................................ [ 44%]
+........................................................................ [ 48%]
+........................................................................ [ 52%]
+........................................................................ [ 56%]
+........................................................................ [ 60%]
+........................................................................ [ 64%]
+........................................................................ [ 68%]
+..................................................................ssssss [ 72%]
+ssss.................................................................... [ 76%]
+........................................................................ [ 80%]
+........................................................................ [ 84%]
+........................................................................ [ 88%]
+..................................................................ssssss [ 92%]
+ss...................................................................... [ 96%]
+....................................................................     [100%]
+=================================== FAILURES ===================================
+_____ test_reverse_refuses_unhandled_public_suffix_comment_before_staging ______
+tests/test_deprotection_ordinals.py:25: in test_reverse_refuses_unhandled_public_suffix_comment_before_staging
+    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+__________________ test_changed_public_staging_refuses_switch __________________
+tests/test_deprotection_ordinals.py:36: in test_changed_public_staging_refuses_switch
+    name=c.exec_driver_sql("SELECT column_name FROM information_schema.columns WHERE table_schema=%s AND column_name LIKE '%%_copy_%%'",(app.schema,)).scalar_one()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../release-lab/s11-adoption-diagnostics-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/result.py:1518: in scalar_one
+    return self._only_one_row(
+../release-lab/s11-adoption-diagnostics-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/result.py:799: in _only_one_row
+    raise exc.NoResultFound(
+E   sqlalchemy.exc.NoResultFound: No row was found when one was required
+______________ test_public_copy_participates_in_chunk_byte_bound _______________
+tests/test_deprotection_ordinals.py:47: in test_public_copy_participates_in_chunk_byte_bound
+    with pytest.raises(app.m.TransitionFailure,match='row_exceeds_chunk_byte_limit'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+________ test_reverse_refuses_unhandled_suffix_attributes[column_grant] ________
+tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes
+    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+_________ test_reverse_refuses_unhandled_suffix_attributes[statistics] _________
+tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes
+    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+__________ test_reverse_refuses_unhandled_suffix_attributes[storage] ___________
+tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes
+    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+________ test_reverse_refuses_unhandled_suffix_attributes[compression] _________
+tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes
+    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+=============================== warnings summary ===============================
+tests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-adoption-diagnostics-20261013/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    pid = os.fork()
+
+tests/test_file_development_provider.py::test_inherited_provider_cannot_unwrap_after_fork
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-adoption-diagnostics-20261013/tests/test_file_development_provider.py:67: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    pid=os.fork()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+SKIPPED [8] tests/test_sqlalchemy_async_collection_methods.py:19: Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell
+SKIPPED [2] tests/test_sqlalchemy_async_collection_methods.py:65: Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell
+SKIPPED [8] tests/test_sqlalchemy_session_execution_options.py:11: Session-wide execution options are a native SQLAlchemy 2.1 API
+FAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_public_suffix_comment_before_staging
+FAILED tests/test_deprotection_ordinals.py::test_changed_public_staging_refuses_switch
+FAILED tests/test_deprotection_ordinals.py::test_public_copy_participates_in_chunk_byte_bound
+FAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[column_grant]
+FAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[statistics]
+FAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[storage]
+FAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[compression]
+7 failed, 1771 passed, 18 skipped, 2 warnings in 297.10s (0:04:57)

@@ -1,0 +1,25 @@
+{
+  "slice": "S11",
+  "sa21": {
+    "passed": 1789,
+    "failed": 7,
+    "skipped": 0,
+    "seconds": 310.59
+  },
+  "sa20": {
+    "passed": 1771,
+    "failed": 7,
+    "skipped": 18,
+    "seconds": 297.1
+  },
+  "same_known_failures": true,
+  "source_unchanged": true,
+  "source_green": {
+    "passed": 41,
+    "seconds": 2.23
+  },
+  "red_failed": 5,
+  "wheel_sha256": "cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a",
+  "production_gates": "UNKNOWN",
+  "scope": "Advisory findings only; no admission or key handling changes"
+}

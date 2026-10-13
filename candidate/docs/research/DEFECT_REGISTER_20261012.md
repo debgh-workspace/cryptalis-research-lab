@@ -76,3 +76,14 @@ Installed full PostgreSQL suites: SQLAlchemy2.1.3 1776PASS/7FAIL/0SKIP301.99s;2.
 For an8MiB input, incremental Python-traced peak allocation fell from16,777,664 to8,388,864 bytes. This is not request RSS. Same-session seven-block paired IN2 medians:13.360 to12.653ms on2.1.3,12.359 to11.818ms on2.0.51;7/7 and6/7 favorable blocks. Point/equality results vary; no blanket speedup or production performance claim. All seven production gates remain UNKNOWN.
 
 Next: implement the missing read-only pre-adoption scanner/doctor under explicit checked/unknown boundaries. Existing database only; second cluster and credential approval remains pending. Original online-migration workstream S6 remains OPEN; corrective slice numbering does not imply its completion.
+
+
+## S11 advisory diagnostic currency, 2026-10-13
+
+Reconciliation found an existing bounded source scanner, so it is retained instead of rebuilt. Its UUID literal finding still asserted that UUID-01 was unapproved and all strings refused, although the runtime had already admitted PostgreSQL16 UUID text. Its Core DML warning omitted the private bounded DELETE profile. Five new source-report regressions failed against S10.
+
+The separate S11 candidate reuses the runtime UUID grammar for literal classification, retains a refusal for malformed text, and reports admitted text as requiring staging rather than granting admission. Default Core DML refusal remains; its remedy now explains that private DELETE needs exact target/effect-inventory/staging verification. No runtime query admission, crypto, source execution, SQL execution or privilege change is added by this correction.
+
+Eight real native/protected point-read controls independently verify canonical, compact, braced and four-digit-group spellings recover the same UUID and protected values. Existing invalid-literal and source-sanitization controls remain unchanged. Focused41PASS2.23s. PostgreSQL16 primary source corroborates the alternative spellings: https://www.postgresql.org/docs/16/datatype-uuid.html . No novel grammar claim.
+
+Repeated offline wheel SHA256 cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a;39RECORD entries,35installed runtime modules byte-match. Installed full suites:1789PASS/7FAIL/0SKIP310.59s on2.1.3;1771PASS/7FAIL/18SKIP297.10s on2.0.51. Both retain exactly the seven known legacy-profile failures and two fork warnings. Source hashes unchanged and servers stopped. No full-suite acceptance claim. Complete unified doctor remains unimplemented; all seven production gates UNKNOWN.
