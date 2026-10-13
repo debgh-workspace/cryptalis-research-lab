@@ -1,0 +1,26 @@
+{
+  "classification": "VERIFIED-RUNTIME_PROFILE_MISMATCH",
+  "unchanged_test_sha256": "4855458d1b0847c353accab010b8521cc7374601f272340df8b2367ea8ea9cd5",
+  "legacy_source": "cryptalis-executable/candidate-public-types-strict",
+  "legacy_reverse_source_sha256": "488be27ddd5e08df2f8328c112b7c95332a01b14765bcfbaf4de61286b1996e0",
+  "legacy_result": {
+    "passed": 10,
+    "failed": 0,
+    "seconds": 3.35,
+    "installed": false
+  },
+  "retained_source": "cryptalis-executable/candidate-recovered-s5-20261013",
+  "retained_reverse_source_sha256": "c7bb4a4125a67ceef19b43c0f215f497d0bcf2f35de80a234bd979b064f0f895",
+  "retained_exact_module_result": {
+    "passed": 3,
+    "failed": 7,
+    "source": "complete installed suite"
+  },
+  "root_cause": "Legacy model includes public suffix columns in target/copied columns and rejects unreconstructable metadata. Retained model deliberately includes only protected targets; originals retain visible ordinals. Five metadata-refusal assertions and two public-copy assertions therefore target an absent mechanism.",
+  "not_proven": [
+    "legacy database upgrade compatibility in current candidate",
+    "universal metadata preservation",
+    "full-suite acceptance"
+  ],
+  "next": "Keep historical assertions executable against legacy control; explicitly qualify retained-profile replacement invariants and old-layout refusal. Do not relabel full suite PASS or silently delete failures."
+}
