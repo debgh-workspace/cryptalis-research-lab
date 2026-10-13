@@ -1,0 +1,6 @@
+C7 raw evidence transport
+
+The original raw-receipts.json is stored losslessly as raw-receipts.json.gz. Decompress with gzip -dc raw-receipts.json.gz > raw-receipts.json.
+Original SHA-256: 3db6e76164457756d28bcbe81f4efb5c65498c344d44aaeac66fbaf1f2378bf0 (1034469 bytes).
+Gzip SHA-256: f865da3ad01eadd9a6bd1a1f6fbddcfdab04428aa04f2a616a4564a3821edaf3 (177845 bytes).
+Local decompression was byte-checked. Original bundle includes twelve result records and their reconstruction hashes. No outcomes or samples changed. This transport note supersedes only the uncompressed file-location references in RESULT.md.
