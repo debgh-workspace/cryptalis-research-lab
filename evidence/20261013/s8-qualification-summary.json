@@ -1,0 +1,164 @@
+{
+  "slice": "S8",
+  "status": "Bounded experimental correction verified in both installed cells and pinned real app; full production qualification OPEN",
+  "reproduction": "2FAIL2PASS1.47s: native child DELETE and parent cascade work with unqualified child; protected private profile refuses both",
+  "first_correction": "2FAIL2PASS1.45s: resolver placed after lifecycle search_path restriction; no improvement",
+  "corrected_order": "Resolve native search_path before lifecycle inspection, apply pins only after validation;4PASS1.21s",
+  "expanded": "99PASS18.20s including native commit/rollback/savepoint, changed connection search_path, no optin, mapping drift, warm mapper and existing adapter checks",
+  "async_scope": "8PASS3.10s:6 async native comparisons plus2 missing-table-resolution no-guess refusals;27 deselected",
+  "test_correction": "Earlier97PASS2FAIL17.00s asserted PolicyMismatch but DELETE grammar rejects sooner as UnsupportedProtectedOperation; retained failure. Accept either typed refusal for DELETE; independently require PolicyMismatch on SELECT and no DELETE/unchanged rows.",
+  "limits": [
+    "Only direct ordinary unqualified public tables resolving inside already compiled schemas are pinned.",
+    "Protected model mappings excluded from public resolution.",
+    "No new public DML authority; private allowlists and locked effect inventories unchanged.",
+    "No generic schema translation, no table-name guessing.",
+    "No production qualification; all seven gates UNKNOWN."
+  ],
+  "mutation": "Removal of public schema/name pin guard produces2FAIL0PASS0.73s; exact source restored before byte-matched installed suite.",
+  "primary_sources": [
+    {
+      "url": "https://www.postgresql.org/docs/16/ddl-schemas.html",
+      "finding": "Unqualified relations use the first search-path match, and absent matches error even if another schema contains that name; search-path schemas imply trust in their creators."
+    },
+    {
+      "url": "https://docs.sqlalchemy.org/en/20/core/metadata.html",
+      "finding": "Table.schema and MetaData schema determine qualification. The prototype freezes physical mapping after resolving the original connection path rather than inventing a schema translation."
+    }
+  ],
+  "wheel_sha256": "504224d80ff095071039f691e5a742da8f46536bf73947e8a9e67cefc7677cba",
+  "installed": "Both full installed cells finished; real pinned upstream application running separately",
+  "results": [
+    {
+      "cell": "sa21",
+      "passed": 1760,
+      "failed": 7,
+      "skipped": 0,
+      "seconds": 314.69,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    },
+    {
+      "cell": "sa20",
+      "passed": 1742,
+      "failed": 7,
+      "skipped": 18,
+      "seconds": 302.26,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    }
+  ],
+  "real_application": [
+    {
+      "mode": "native",
+      "scope": "Retained-column research encrypted email equality/uniqueness plus full_name storage through removal and backup recovery; explicit C profile and extra operator grants",
+      "pytest_exit_code": 0,
+      "explicit_table_schema_assignments": 0,
+      "elapsed_seconds": 6.44763622499886,
+      "source_unchanged": true,
+      "application_source_changes": 0,
+      "production_integration_lines": 0,
+      "test_fixture_integration_lines": 0,
+      "integration_points": 0,
+      "counts": {
+        "tests": 58,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "mode": "protected",
+      "scope": "Retained-column research encrypted email equality/uniqueness plus full_name storage through removal and backup recovery; explicit C profile and extra operator grants",
+      "protection_active": true,
+      "pytest_exit_code": 0,
+      "post_suite_lifecycle_seed": {
+        "users": 7,
+        "items": 7,
+        "purpose": "Nonempty independent lifecycle corpus after successful unchanged upstream teardown",
+        "application_source_changes": 0
+      },
+      "raw_storage": [
+        7,
+        6,
+        true
+      ],
+      "independent_frame_oracle": {
+        "rows": 7,
+        "non_null_frames": 6,
+        "exact_match_to_orm": true
+      },
+      "encrypted_email_oracle": {
+        "rows": 7,
+        "all_stored_as_cf1": true,
+        "independent_values_exact": true,
+        "schema_profile": "explicit C collation",
+        "leakage": "equality/frequency retained"
+      },
+      "reverse_plan": {
+        "read_only_plan_created": true,
+        "format": "cryptalis.reverse/retained-native-research-v0",
+        "digest": "5c30b4b3744d64f4501762e8846c63514435817ecfb71fee5ea92101994ec42c"
+      },
+      "decrypt_back": {
+        "phase": "PLAINTEXT_PENDING",
+        "exact_values": true,
+        "native_schema_checked_by_transition": true,
+        "rows": 7,
+        "publication_complete": true,
+        "package_free_application_verified": true
+      },
+      "package_free": {
+        "pytest_exit_code": 0,
+        "package_absent": true,
+        "new_plaintext_runtime_role": true,
+        "application_source_edits": 0,
+        "preserved_values_exact_before_reset": true,
+        "fixture_reset_before_suite": true,
+        "email_values_checked": true,
+        "child_values_checked": true
+      },
+      "extra_operator_step": "Explicit lab-only grants for unprotected Item to the existing plaintext role",
+      "backup_restore_before_removal": {
+        "real_pg_dump_and_psql": true,
+        "exact_independently_decrypted_rows": 7
+      },
+      "after_removal": {
+        "pytest_exit_code": 0,
+        "package_absent": true,
+        "new_plaintext_runtime_role": true,
+        "application_source_edits": 0,
+        "preserved_values_exact_before_reset": true,
+        "fixture_reset_before_suite": true,
+        "email_values_checked": true,
+        "child_values_checked": true
+      },
+      "removal": {
+        "phase": "REMOVED",
+        "old_restore_rejected": true,
+        "backup_recovery_exact": true,
+        "protected_bulk_teardown_still_open": false
+      },
+      "explicit_table_schema_assignments": 0,
+      "elapsed_seconds": 21.630402795002738,
+      "source_unchanged": true,
+      "application_source_changes": 0,
+      "production_integration_lines": 13,
+      "test_fixture_integration_lines": 4,
+      "integration_points": 2,
+      "counts": {
+        "tests": 58,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "real_app_versions": {
+    "python": "3.14.8",
+    "sqlalchemy": "2.0.51",
+    "sqlmodel": "0.0.47",
+    "fastapi": "0.141.1",
+    "upstream_commit": "7257e606cb94eada1dca40173e2b7f99dd549bc6"
+  },
+  "real_app_caveat": "new_plaintext_runtime_role is a historical receipt label: this run reused the existing approved plaintext role, not newly generated credentials. Backup snapshots stay local; published evidence is aggregate/redacted only."
+}

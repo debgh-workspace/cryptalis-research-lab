@@ -310,6 +310,7 @@ class _Attachment:
         self.models = {}
         self.fingerprint = ()
         self.search_pins = {}
+        self.public_schema_pins = ()
 
     def protected(self, expression):
         # ORM annotations can retain a native type from mapping construction.
@@ -350,6 +351,8 @@ class _Attachment:
 
     def validate(self, connection):
         from cryptalis.migration import check_attachment
+        # Resolve before lifecycle inspection narrows the transaction search path.
+        public_schema_pins = _delete_experiment.resolve_public_schema_pins(self, connection)
         check_attachment(connection, json.dumps(self.document, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode(), self.deployment)
         if connection.dialect.name != "postgresql" or connection.dialect.driver != "psycopg":
             raise PolicyMismatch()
@@ -418,6 +421,7 @@ class _Attachment:
                                    mapper.get_property_by_column(tenant).key if tenant is not None else None, mapper.class_, native_text[1], field["payload_column"] if retained else None)
                 self.bindings.append(binding)
             self.models[mapper.class_] = tuple(b for b in self.bindings if b.model is mapper.class_)
+        self.public_schema_pins = public_schema_pins
 
     def schema_error(self, context):
         # Normalize only an owned retained-profile SELECT schema error. Never
@@ -446,6 +450,8 @@ class _Attachment:
             model = next(m for m in self.document["models"] if m["model"] == binding.model.__name__)
             binding.column.table.schema = model["schema"]
             binding.column.type = _Payload(binding, self)
+        for table, schema, name in self.public_schema_pins:
+            table.schema = schema
         self.fingerprint = self._fingerprint()
         engine.clear_compiled_cache()
         # ORM flush uses mapper-owned caches, separate from the engine cache.
@@ -527,7 +533,9 @@ class _Attachment:
 
     def _check(self):
         engine = self.engine.sync_engine if isinstance(self.engine, AsyncEngine) else self.engine
-        if (self._fingerprint() != self.fingerprint or engine.echo or not engine.hide_parameters or
+        if (any((table.schema, table.name) != (schema, name)
+                for table, schema, name in self.public_schema_pins) or
+                self._fingerprint() != self.fingerprint or engine.echo or not engine.hide_parameters or
                 engine.get_execution_options().get("schema_translate_map")):
             raise PolicyMismatch()
         operation = _operation.get()

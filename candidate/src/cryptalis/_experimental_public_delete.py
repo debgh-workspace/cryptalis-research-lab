@@ -40,6 +40,37 @@ class ResultBoundary:
 
 
 
+def resolve_public_schema_pins(owner, connection):
+    """Freeze native attachment-time resolution, without granting DML authority.
+
+    Only direct, ordinary public tables in an already compiled schema qualify.
+    Private DELETE allowlists and locked effect inventories remain mandatory.
+    No guessing by table name or schema translation is allowed.
+    """
+    schemas = {model["schema"] for model in owner.document["models"]}
+    protected = {(model["schema"], model["table"]) for model in owner.document["models"]}
+    protected_models = {model["model"] for model in owner.document["models"]}
+    pins = []
+    for mapper in owner.mapping.mappers:
+        table = mapper.local_table
+        if (mapper.class_.__name__ in protected_models or not isinstance(table, Table) or
+                table.schema is not None or mapper.inherits is not None or
+                mapper.persist_selectable is not table):
+            continue
+        quoted = connection.dialect.identifier_preparer.quote_identifier(table.name)
+        row = connection.execute(text("""
+            SELECT n.nspname, c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+            WHERE c.oid=pg_catalog.to_regclass(:name)
+        """), {"name": quoted}).one_or_none()
+        if (row is None or row[0] not in schemas or row[2] != 'r' or
+                (row[0], row[1]) in protected or table.name.startswith('_cryptalis')):
+            continue
+        pins.append((table, row[0], row[1]))
+    return tuple(pins)
+
+
 def _protected_payload_columns(owner, table):
     bindings = [b for b in owner.bindings
                 if (table.schema, table.name) == (b.column.table.schema, b.column.table.name)]
