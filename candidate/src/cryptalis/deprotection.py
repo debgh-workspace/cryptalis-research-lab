@@ -128,7 +128,7 @@ def plan(source, engine, *, source_pin, keys, plaintext_runtime_role, backfill_r
     if type(plaintext_runtime_role) is not str or not plaintext_runtime_role or plaintext_runtime_role==source.document['runtime_role']:
         raise m.TransitionFailure('distinct_plaintext_runtime_role_required')
     rates=(backfill_rows_per_second,verify_rows_per_second)
-    if any(type(v) not in (int,float) or not math.isfinite(v) or v<=0 for v in rates):
+    if not m._valid_measured_rates(rates):
         raise m.TransitionFailure('missing_measured_rates')
     if any(type(v) is not int or not 1<=v<2**53 for v in (temporary_bytes_per_row,wal_bytes_per_row)):
         raise m.TransitionFailure('missing_measured_storage_or_wal_costs')
@@ -155,8 +155,9 @@ def plan(source, engine, *, source_pin, keys, plaintext_runtime_role, backfill_r
                 policies[str(tenant)]=m._policy(ring)
         readiness=cutover.inventory(c,source.document['lock']['models'],old_role=source.document['runtime_role'],
             new_role=plaintext_runtime_role,owner=source.document['target'][-1])
+    _, _, pause_seconds = m._time_estimates(count, rates)
     estimates={'rows':count,'backfill_rows_per_second':rates[0],'verify_rows_per_second':rates[1],
-               'writer_pause_seconds_estimate':math.ceil(count/rates[0]+count/rates[1]),
+               'writer_pause_seconds_estimate':pause_seconds,
                'temporary_bytes_estimate':count*temporary_bytes_per_row,
                'wal_bytes_estimate':count*wal_bytes_per_row,
                'limits':'Staging/DDL/publication delays excluded; plaintext enters WAL and backups.'}

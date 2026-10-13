@@ -1,0 +1,45 @@
+{
+  "slice": "S9",
+  "status": "Bounded planner numeric rejection verified; full product qualification OPEN",
+  "defect": "Public protection and reversal planners leak OverflowError for huge integer rates and subnormal finite rates;4FAIL1.12s before correction",
+  "correction": "Check integer rates against unchanged artifact counter bound before float conversion. Translate only duration arithmetic overflow/nonrepresentable counters to typed unrepresentable_cost_estimates. Preserve original estimate arithmetic and all format/numeric parser bounds.",
+  "source_results": [
+    "29PASS2.63s initial correction with S6/S7 regressions",
+    "36PASS3.40s expanded invalid/overflow controls plus existing cases",
+    "14PASS1.96s final dedicated suite including zero-row minimum float, maximum finite float and maximum artifact integer controls"
+  ],
+  "limits": [
+    "Estimates are host observations, not qualified upper bounds or performance promises",
+    "No globally expanded numeric admission",
+    "No exception translation around key-provider calls"
+  ],
+  "wheel_sha256": "27d62803d9c6f692d7fa91499983e9e7fcd9fb0c410065fb1223489ffb1da165",
+  "installed_sa21": {
+    "passed": 1774,
+    "failed": 7,
+    "skipped": 0,
+    "seconds": 301.57,
+    "same_failure_ids": true,
+    "source_unchanged": true
+  },
+  "results": [
+    {
+      "cell": "sa21",
+      "passed": 1774,
+      "failed": 7,
+      "skipped": 0,
+      "seconds": 301.57,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    },
+    {
+      "cell": "sa20",
+      "passed": 1756,
+      "failed": 7,
+      "skipped": 18,
+      "seconds": 312.37,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    }
+  ]
+}

@@ -248,6 +248,27 @@ def _runtime_permissions(c, runtime_role, owner, models, operation_id=None, *, r
                 raise TransitionFailure('unsafe_runtime_journal_privileges', operation_id)
 
 
+def _valid_measured_rates(rates):
+    # Integer rates must fit the unchanged artifact counter grammar. Check
+    # bounds before any float conversion, which can itself overflow.
+    return all((type(rate) is int and 0 < rate < 2**53) or
+               (type(rate) is float and math.isfinite(rate) and rate > 0)
+               for rate in rates)
+
+
+def _time_estimates(rows, rates):
+    # Preserve existing estimate arithmetic; these are not qualified bounds.
+    # Reject nonrepresentable results without leaking raw numeric exceptions.
+    try:
+        backfill, verify = rows / rates[0], rows / rates[1]
+        result = (math.ceil(backfill), math.ceil(verify), math.ceil(backfill + verify))
+    except (OverflowError, ValueError):
+        raise TransitionFailure('unrepresentable_cost_estimates') from None
+    if any(not 0 <= value < 2**53 for value in result):
+        raise TransitionFailure('unrepresentable_cost_estimates')
+    return result
+
+
 def plan(manifest, mapping, engine, *, writers, search_reviews=(), keys, runtime_role,
          target_id, backfill_rows_per_second, verify_rows_per_second,
          temporary_bytes_per_row=None, wal_bytes_per_row=None):
@@ -259,7 +280,7 @@ def plan(manifest, mapping, engine, *, writers, search_reviews=(), keys, runtime
     if not isinstance(target_id, UUID) or not target_id.int or not isinstance(runtime_role,str) or not runtime_role:
         raise TransitionFailure('invalid_target_or_runtime_role')
     rates = (backfill_rows_per_second, verify_rows_per_second)
-    if any(type(r) not in (int,float) or not math.isfinite(r) or r <= 0 for r in rates):
+    if not _valid_measured_rates(rates):
         raise TransitionFailure('missing_measured_rates')
     proposal = compile_protection(manifest, mapping, engine, writers=writers, search_reviews=search_reviews)
     if any(type(cost) is not int or not 1<=cost<2**53 for cost in (temporary_bytes_per_row,wal_bytes_per_row)):
@@ -290,12 +311,13 @@ def plan(manifest, mapping, engine, *, writers, search_reviews=(), keys, runtime
         schema=lock['models'][0]['schema']
         if c.exec_driver_sql('SELECT pg_catalog.to_regclass(%s)',(_quote(c,schema)+'.'+_quote(c,JOURNAL),)).scalar_one() is not None:
             raise TransitionFailure('existing_transition_requires_inspection')
+    backfill_seconds, verify_seconds, pause_seconds = _time_estimates(rows, rates)
     estimates={'rows':rows,'plaintext_bytes':plaintext_bytes,'temporary_bytes_estimate':rows*temporary_bytes_per_row,
         'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
-        'backfill_seconds_estimate':math.ceil(rows/rates[0]), 'verify_seconds_estimate':math.ceil(rows/rates[1]),
+        'backfill_seconds_estimate':backfill_seconds, 'verify_seconds_estimate':verify_seconds,
         'backfill_rows_per_second':rates[0], 'verify_rows_per_second':rates[1],
-        'writer_pause_seconds_estimate':math.ceil(rows/rates[0]+rows/rates[1]),
-        'checkpoint_extra_verify_seconds_estimate':math.ceil(rows/rates[1]),
+        'writer_pause_seconds_estimate':pause_seconds,
+        'checkpoint_extra_verify_seconds_estimate':verify_seconds,
         'cost_basis':'Host-supplied per-row staging observations/estimates; not bounds or qualification.',
         'limits':'Host rate estimates exclude lock drain, DDL, index build, publication delay and capacity guarantees.'}
     return MigrationPlan(_canonical({'format':'cryptalis.transition/retained-native-research-v0','kind':'protect','operation_id':str(uuid4()),
