@@ -1,0 +1,46 @@
+{
+  "commit": "9152921f823d8bdd65d9a90aea3ab406e29f7e11",
+  "remote_byte_verification": [
+    {
+      "path": "experiments/s14-ciphertext-doctor/src/cryptalis/doctor.py",
+      "sha": "547c5cde488f88a0aaac24085ffb6dd259890954",
+      "match": true
+    },
+    {
+      "path": "experiments/s14-ciphertext-doctor/src/cryptalis/_doctor_ciphertext.py",
+      "sha": "4c1f9e5e3b37e7af3ef088f5490b67ea56b9796a",
+      "match": true
+    },
+    {
+      "path": "experiments/s14-ciphertext-doctor/tests/test_doctor_ciphertext.py",
+      "sha": "290f76ca34d307fd9a11e2d28d234ebf3a764021",
+      "match": true
+    },
+    {
+      "path": "experiments/s14-ciphertext-doctor/design.md",
+      "sha": "effd05380b7663447bc7fff51233d0d5dba49542",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-artifact-build.json",
+      "sha": "56820d8af8b5468cb542885d42a4cd59b4605e24",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-authentication-mutation.log",
+      "sha": "ddd71c35fdf7e7fee161513cc77450d7eaee82ae",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-byte-bound-mutation.log",
+      "sha": "2f1df389c59e074bb17183fe18fcd34f540851c2",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-restored-bounds.log",
+      "sha": "f0d48c301808ce06218986ef9e50f4b1753177ce",
+      "match": true
+    }
+  ],
+  "scope": "Separate prototype only; S13 remains integrated; full installed tests pending."
+}

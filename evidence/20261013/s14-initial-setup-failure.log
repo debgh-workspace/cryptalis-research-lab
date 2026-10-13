@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+...F.................................................................... [ 80%]
+..................                                                       [100%]
+=================================== FAILURES ===================================
+____________ test_corrupt_frame_is_rejected_without_echo_or_changes ____________
+tests/test_doctor_ciphertext.py::test_corrupt_frame_is_rejected_without_echo_or_changes: ProgrammingError; database failure details suppressed.
+=============================== warnings summary ===============================
+tests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-ciphertext-doctor-20261013/tests/test_cf1.py:365: DeprecationWarning: This process (pid=20) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    pid = os.fork()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_doctor_ciphertext.py::test_corrupt_frame_is_rejected_without_echo_or_changes
+1 failed, 89 passed, 1 warning in 6.80s

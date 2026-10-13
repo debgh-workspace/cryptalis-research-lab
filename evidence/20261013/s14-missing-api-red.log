@@ -1,0 +1,29 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+_ test_explicit_audit_authenticates_only_visible_nonnull_cells_without_changes _
+tests/test_doctor_ciphertext.py:27: in test_explicit_audit_authenticates_only_visible_nonnull_cells_without_changes
+    report=inspect_frames(app)
+           ^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_ciphertext.py:10: in inspect_frames
+    return doctor(raw,phase='active',engine=app.runtime,deployment=(app.plan,app.pin),
+E   TypeError: doctor() got an unexpected keyword argument 'audit_ciphertext'
+_______________________ test_audit_row_cutoff_is_partial _______________________
+tests/test_doctor_ciphertext.py:39: in test_audit_row_cutoff_is_partial
+    audit=inspect_frames(app,audit_row_limit=1)['checks']['ciphertext']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_ciphertext.py:10: in inspect_frames
+    return doctor(raw,phase='active',engine=app.runtime,deployment=(app.plan,app.pin),
+E   TypeError: doctor() got an unexpected keyword argument 'audit_ciphertext'
+________________ test_audit_byte_cutoff_precedes_key_resolution ________________
+tests/test_doctor_ciphertext.py:47: in test_audit_byte_cutoff_precedes_key_resolution
+    audit=inspect_frames(app,keys=resolver,audit_byte_limit=1)['checks']['ciphertext']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_ciphertext.py:10: in inspect_frames
+    return doctor(raw,phase='active',engine=app.runtime,deployment=(app.plan,app.pin),
+E   TypeError: doctor() got an unexpected keyword argument 'audit_ciphertext'
+=========================== short test summary info ============================
+FAILED tests/test_doctor_ciphertext.py::test_explicit_audit_authenticates_only_visible_nonnull_cells_without_changes
+FAILED tests/test_doctor_ciphertext.py::test_audit_row_cutoff_is_partial - Ty...
+FAILED tests/test_doctor_ciphertext.py::test_audit_byte_cutoff_precedes_key_resolution
+3 failed in 0.91s
