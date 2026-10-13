@@ -84,7 +84,7 @@ def test_doctor_incomplete_inputs_and_wrong_phase_are_not_silently_ignored(app):
     raw=json.dumps(declaration()).encode()
     report=doctor(raw,mapping=app[1])
     assert report['checks']['native_admission']['code']=='incomplete_dynamic_inputs'
-    report=doctor(raw,phase='active')
+    report=doctor(raw,phase='unknown_phase')
     assert report['checks']['native_admission']['code']=='unsupported_diagnostic_phase'
 
 

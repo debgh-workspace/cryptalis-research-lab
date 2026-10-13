@@ -1,0 +1,22 @@
+{
+  "slice": "S13",
+  "qualification": "Affected-path installed suites, not full-suite qualification",
+  "sa21": {
+    "passed": 157,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 10.89
+  },
+  "sa20": {
+    "passed": 157,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 10.52
+  },
+  "source_unchanged": true,
+  "red_failed": 3,
+  "mutation_failed": 2,
+  "full_suite": "NOT_RUN; preserved S12 baseline1803/1785PASS7legacyFAIL",
+  "wheel_sha256": "1600f108e2d6a44fecc5ecd7b2f38421492f58add9c9ddc764c9a498ad575cf9",
+  "production_gates": "UNKNOWN"
+}
