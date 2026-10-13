@@ -1,0 +1,23 @@
+{
+  "slice": "S12",
+  "scope": "Partial pre-adoption doctor; no role/provider/ciphertext qualification",
+  "sa21": {
+    "passed": 1803,
+    "failed": 7,
+    "skipped": 0,
+    "seconds": 305.74
+  },
+  "sa20": {
+    "passed": 1785,
+    "failed": 7,
+    "skipped": 18,
+    "seconds": 309.25
+  },
+  "same_known_failures": true,
+  "source_unchanged": true,
+  "source_focused_passed": 169,
+  "mutation_failed": 2,
+  "restored_doctor_passed": 14,
+  "wheel_sha256": "db6e83817fd4bad3e9be8f98b9aebbbc5641ac38f09e64e94ab11be84b77e332",
+  "production_gates": "UNKNOWN"
+}

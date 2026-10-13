@@ -157,6 +157,13 @@ def _parser() -> argparse.ArgumentParser:
         help="Write one machine-readable JSON object.",
     )
     history.set_defaults(handler=_inspect_history_command)
+    doctor = commands.add_parser(
+        "doctor", help="Inspect a protection declaration; database checks require the explicit host API.",
+        allow_abbrev=False,
+    )
+    doctor.add_argument("path", type=Path, help="Protection declaration JSON file.")
+    doctor.add_argument("--json", action="store_true", dest="machine_json")
+    doctor.set_defaults(handler=_doctor_command)
     return parser
 
 
@@ -477,6 +484,22 @@ def _inspect_history_command(arguments: argparse.Namespace) -> int:
     }
     _write_result(result, arguments.machine_json)
     return 0
+
+
+
+def _doctor_command(arguments: argparse.Namespace) -> int:
+    from cryptalis.doctor import doctor
+    raw = _read_manifest(arguments.path, "child", operation="doctor")
+    result = doctor(raw)
+    if arguments.machine_json:
+        output = json.dumps(result, sort_keys=True, separators=(",", ":"))
+    else:
+        output = "Doctor: incomplete; no deployment qualification.\n" + "\n".join(
+            f"{name}: {check['status']}" + (f" ({check['code']})" if "code" in check else "")
+            for name, check in result["checks"].items()
+        ) + "\nDynamic inspection requires explicitly supplied host objects through cryptalis.doctor.doctor."
+    _write_output(output + "\n", sys.stdout, "stdout")
+    return 2 if result["checks"]["manifest"]["status"] == "REJECTED" else 3
 
 
 def main(argv: Sequence[str] | None = None) -> int:
