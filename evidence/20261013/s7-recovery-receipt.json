@@ -1,0 +1,61 @@
+{
+  "commit": "0a6a5d086e34622e668a80bd65de39592c0cd8ea",
+  "remote_byte_verification": [
+    {
+      "path": "candidate/src/cryptalis/_transition_json.py",
+      "sha": "d0f226cbe3b0923cd5bdb9138114256c10f23200",
+      "match": true
+    },
+    {
+      "path": "candidate/src/cryptalis/migration.py",
+      "sha": "4c646f301cbfadaa6e1c93ec96d29cddab30d315",
+      "match": true
+    },
+    {
+      "path": "candidate/src/cryptalis/deprotection.py",
+      "sha": "514fc1cec7ac54040d5bb25d99536b4a0c93b39d",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_transition_rate_estimates.py",
+      "sha": "01991028ac9d5e6ee0a88bc6705f4bb7c17f27e8",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+      "sha": "dcf8a9ffe99ef74e28fec295655905b4c5726f4c",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "sha": "1123074ee59df62beac882615cf0c4e35ac4803b",
+      "match": true
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "f389e14e09a87aef9fc1ced05b413139bb95d496",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s7-installed-full-sa21.log",
+      "sha": "e13c3e354b825a77d05eda55c8178d4e162e6bbd",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s7-installed-full-sa20.log",
+      "sha": "d816861707ea1185a57114908f169d590a2e2265",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s7-qualification-summary.json",
+      "sha": "2865b0605c3f6ed4dbefc718577c8f1a60c25809",
+      "match": true
+    }
+  ],
+  "composite_recovery": {
+    "files": 170,
+    "basis": "Previously verified GitHub S5 plus S6 recovery, with six S7 files matching exact-commit remote bytes",
+    "boundary": "Same-host composite recovery, not fresh machine or credential recovery"
+  },
+  "next": "Reproduce unqualified public-child integration gap without changing admission"
+}
