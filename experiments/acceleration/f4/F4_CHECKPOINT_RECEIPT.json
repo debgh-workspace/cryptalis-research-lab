@@ -1,0 +1,131 @@
+{
+  "format": "cryptalis.research.f4-checkpoint/v1",
+  "recorded_utc": "2026-10-13T21:12:56.852416+00:00",
+  "scope": "Exact two-line removal plan-type guard plus existing removal regression; not full release qualification",
+  "source_files_sha256": {
+    "src/cryptalis/deprotection.py": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+    "tests/test_removal_input_diagnostics.py": "f87f4afdb5d8b9971b71cbd0961a7f9c411f681a06bbb67c279354dd7fdd4fe3"
+  },
+  "frozen_candidate_unchanged": true,
+  "s18_baseline_files": 201,
+  "s18_baseline_files_unchanged": 200,
+  "prior_pure_mutation_proof": {
+    "published_path": "experiments/acceleration/f4/F4_REMOVAL_DIAGNOSTICS_RECEIPT.json",
+    "sha256": "32fabcc543d1976069805316958b2bd8c4ebc32c84f71be66f6d5d6139d49155",
+    "pure_result_per_cell": "3 PASS; 22 public remove calls",
+    "omission_per_cell": "4 failures and 9 raw attribute errors",
+    "isinstance_substitution_per_cell": "4 failures",
+    "exact_restoration_per_cell": "3 PASS",
+    "historical_scope_note": "The prior receipt is preserved byte-for-byte. Its then-pending coordinator PostgreSQL status is superseded only by this checkpoint."
+  },
+  "coordinator_postgresql_evidence": {
+    "sa21_corrected": {
+      "evidence_label": "f4-removal-regression-corrected-sa21-20261013",
+      "role_preflight_passed": true,
+      "source_stability": {
+        "unchanged": true,
+        "entries": 141,
+        "frozen_source_test_hashes_match": true
+      },
+      "external_source_stability": {
+        "unchanged": true,
+        "entries": 0
+      },
+      "postgres_stop_exit_code": 0,
+      "junit_counts": {
+        "tests": 72,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "evidence_sha256": {
+        "tests.log": "474a32e3e203ae07d56ca07799314c49701274bbfcbdbc3e7235c35aab2c38e4",
+        "junit.xml": "8bc5f4dcdd1c2a2d72d5bc3318e6cd3a3c5b7894cb07c41bf1dcf4fafe468bcc",
+        "source-stability.json": "b9e04bf9a16a155070c52530e00d118e29beae7131ad9898e6bfff4bcd1e5c72",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "7205a3f1be585d49a37f17fb3f82411b078edbe1b3697442e08c4ee51e49b8a9"
+      },
+      "classification": "PASS_BOUNDED_REMOVAL_REGRESSION",
+      "passed": 55,
+      "subtests_passed": 17,
+      "elapsed_seconds": 107.86,
+      "junit_count_note": "72 includes 55 primary tests and 17 subtests; it is not 72 primary tests."
+    },
+    "sa20": {
+      "evidence_label": "f4-removal-regression-sa20-20261013",
+      "role_preflight_passed": true,
+      "source_stability": {
+        "unchanged": true,
+        "entries": 141,
+        "frozen_source_test_hashes_match": true
+      },
+      "external_source_stability": {
+        "unchanged": true,
+        "entries": 0
+      },
+      "postgres_stop_exit_code": 0,
+      "junit_counts": {
+        "tests": 72,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "evidence_sha256": {
+        "tests.log": "dec6eea19f8a0beaebd101d59e2264748fcf1abbca05f3dc5365a1ab99f2aedb",
+        "junit.xml": "aa09e71bcbbdb52f77678710c14fa0afd3f003596a117bc4bc325239b08ea781",
+        "source-stability.json": "b9e04bf9a16a155070c52530e00d118e29beae7131ad9898e6bfff4bcd1e5c72",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "fc352015e2c53e5b6ae323f90fab2ce018f224fb380a5f8d9084d22ba5bfabb4"
+      },
+      "classification": "PASS_BOUNDED_REMOVAL_REGRESSION",
+      "passed": 55,
+      "subtests_passed": 17,
+      "elapsed_seconds": 109.57,
+      "junit_count_note": "72 includes 55 primary tests and 17 subtests; it is not 72 primary tests."
+    },
+    "sa21_initial_selection_failure": {
+      "evidence_label": "f4-removal-regression-sa21-20261013",
+      "role_preflight_passed": true,
+      "source_stability": {
+        "unchanged": true,
+        "entries": 141,
+        "frozen_source_test_hashes_match": true
+      },
+      "external_source_stability": {
+        "unchanged": true,
+        "entries": 0
+      },
+      "postgres_stop_exit_code": 0,
+      "junit_counts": {
+        "tests": 0,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "evidence_sha256": {
+        "tests.log": "8a40e8e5d84a8414dcc6d92194b1c688cac3ba9356e66b218f573ecddff5954e",
+        "junit.xml": "1f1ad112e1fde49c1303aff06b7070cd727a5c2cb55a5f2cad4caaaa9c8a5e10",
+        "source-stability.json": "b9e04bf9a16a155070c52530e00d118e29beae7131ad9898e6bfff4bcd1e5c72",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "96c9bd07eacdf0672036425e7115072c7215aa0380389efb26c4cf2d6fa57c40"
+      },
+      "classification": "COORDINATOR_TEST_SELECTION_FAILURE_NOT_RUNTIME_FAILURE",
+      "tests_run": 0,
+      "missing_selector": "tests/test_deprotection_stale_journal.py",
+      "runtime_result": "NOT_RUN",
+      "corrected_by_evidence_label": "f4-removal-regression-corrected-sa21-20261013"
+    }
+  },
+  "internal_review": {
+    "reviewer": "E",
+    "reported_by": "coordinator",
+    "result": "No blocker in independently reviewed exact guard",
+    "limits": "Internal review does not satisfy external security qualification."
+  },
+  "all_seven_production_gates": "UNKNOWN",
+  "publication_scope": "Four files: exact source/test, original pure/mutation receipt, this sanitized checkpoint. No environment values, credentials, database URLs, tests.json, or full raw command metadata.",
+  "worker_actions": "Read/hash verification and checkpoint packaging only; no reruns, database calls, Git actions or frozen-candidate writes."
+}
