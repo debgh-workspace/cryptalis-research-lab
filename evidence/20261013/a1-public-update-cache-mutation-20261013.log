@@ -1,0 +1,95 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_________ test_public_update_repeated_typed_binds_and_empty_set[False] _________
+tests/test_private_public_update.py:140: in test_public_update_repeated_typed_binds_and_empty_set
+    assert exercise(session) == expected
+           ^^^^^^^^^^^^^^^^^
+tests/test_private_public_update.py:132: in exercise
+    counts = [session.execute(statement, parameters).rowcount for parameters in runs]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:881: in _failed_flush_preparation
+    raise failure
+src/cryptalis/sqlalchemy.py:943: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/bulk_persistence.py:1693: in orm_execute_statement
+    return super().orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1668: in _execute_clauseelement
+    ret = self._execute_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1822: in _execute_context
+    return self._exec_single_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1962: in _exec_single_context
+    self._handle_dbapi_exception(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:2335: in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1934: in _exec_single_context
+    if fn(
+src/cryptalis/_sqlalchemy_guard.py:107: in execute
+    check_cursor(context)
+src/cryptalis/sqlalchemy.py:808: in check_cursor
+    _update_experiment.check_cursor(self, context)
+src/cryptalis/_experimental_public_update.py:210: in check_cursor
+    raise owner._control_error()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 13-2438ecb8b432-0.
+E   Roll back the failed Session or SAVEPOINT before retrying.
+_________ test_public_update_repeated_typed_binds_and_empty_set[True] __________
+tests/test_private_public_update.py:142: in test_public_update_repeated_typed_binds_and_empty_set
+    assert exercise(session) == expected
+           ^^^^^^^^^^^^^^^^^
+tests/test_private_public_update.py:133: in exercise
+    counts.append(session.execute(update(target).where(app.public_table.c.id.in_([])).values(label='none')).rowcount)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:881: in _failed_flush_preparation
+    raise failure
+src/cryptalis/sqlalchemy.py:943: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2373: in _execute_internal
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1668: in _execute_clauseelement
+    ret = self._execute_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1822: in _execute_context
+    return self._exec_single_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1962: in _exec_single_context
+    self._handle_dbapi_exception(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:2335: in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1934: in _exec_single_context
+    if fn(
+src/cryptalis/_sqlalchemy_guard.py:107: in execute
+    check_cursor(context)
+src/cryptalis/sqlalchemy.py:806: in check_cursor
+    self.admit(context.compiled.statement, operation.flushing)
+src/cryptalis/sqlalchemy.py:618: in admit
+    raise UnsupportedProtectedOperation()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 13-24391686a28c-1.
+E   Roll back the failed Session or SAVEPOINT before retrying.
+=========================== short test summary info ============================
+FAILED tests/test_private_public_update.py::test_public_update_repeated_typed_binds_and_empty_set[False]
+FAILED tests/test_private_public_update.py::test_public_update_repeated_typed_binds_and_empty_set[True]
+2 failed, 56 deselected in 1.65s

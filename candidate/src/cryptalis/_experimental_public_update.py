@@ -66,11 +66,14 @@ def _mapping_identity(table):
 
 def freeze_mappings(owner):
     """Pin mapping identities at attachment; this grants no UPDATE authority."""
+    schemas = {model["schema"] for model in owner.document["models"]}
     owner._experimental_public_update_pins = {
         mapper.local_table: _mapping_identity(mapper.local_table)
         for mapper in owner.mapping.mappers
         if isinstance(mapper.local_table, Table) and mapper.inherits is None
-        and mapper.persist_selectable is mapper.local_table}
+        and mapper.persist_selectable is mapper.local_table
+        and mapper.local_table.schema in schemas
+        and all(type(column.type) in _TYPES for column in mapper.local_table.c)}
 
 
 def target(owner, statement):
@@ -83,7 +86,11 @@ def target(owner, statement):
             table.schema == 'information_schema' or
             table.schema not in {model['schema'] for model in owner.document['models']}):
         return None
-    if getattr(owner, "_experimental_public_update_pins", {}).get(table) != _mapping_identity(table):
+    # Reject a changed custom type before consulting any of its accessors.
+    if any(type(column.type) not in _TYPES for column in table.c):
+        return None
+    pin = getattr(owner, "_experimental_public_update_pins", {}).get(table)
+    if pin is None or pin != _mapping_identity(table):
         return None
     mappers = [mapper for mapper in owner.mapping.mappers if mapper.local_table is table]
     if (len(mappers) != 1 or mappers[0].inherits is not None or
@@ -93,7 +100,7 @@ def target(owner, statement):
     if (statement._prefixes or statement._hints or statement._independent_ctes or
             statement._with_options or statement._return_defaults or statement.dialect_kwargs):
         return None
-    if any(type(c.type) not in _TYPES or c.onupdate is not None or
+    if any(c.onupdate is not None or
            c.server_onupdate is not None or c.computed is not None for c in table.c):
         return None
     if _assignment_columns(statement, table) is None:
@@ -156,7 +163,9 @@ def prepare(session, statement, parameters):
     names = {node.key for node in visitors.iterate(statement) if isinstance(node, BindParameter)}
     # Connection.execute may derive extra SET columns from parameter keys.
     # Only explicitly present statement binds may be supplied by this profile.
-    if any(type(key) is not str or key not in names for key in parameters):
+    assigned = {column.key for column in _assignment_columns(statement, table)}
+    if any(type(key) is not str or key not in names or
+           (key in table.c and key not in assigned) for key in parameters):
         raise owner._control_error()
     connection = session.connection()
     oid = _inventory_helpers._relation_oid(session, connection, table)
