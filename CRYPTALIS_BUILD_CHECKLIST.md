@@ -4,9 +4,9 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T10:44Z`
+- Last updated UTC: `2026-10-13T10:57Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Integrated candidate selected: `candidate-tuple-encoding-20261013` (S10); source-inventory SHA-256 `a4a7ed06882f34d38c5a9e39f4716068a7e693278a12f7e953460e45f78c9452` (175 files). Exact remote integration receipt is recorded separately after publication.
+- Integrated candidate: `candidate-tuple-encoding-20261013` (S10); source-inventory SHA-256 `a4a7ed06882f34d38c5a9e39f4716068a7e693278a12f7e953460e45f78c9452` (175 files). Remote integration `2f4fb87a342f073b2a89f0b211f08f485480ce33`; recovery receipt `227c62be0766487479196f68aaf8cfa21dfbb060` byte-verified.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
@@ -51,7 +51,7 @@ Populate each `Original R01–R07` cross-reference by **reading the actual resea
 | [ ] | `OBJ-LIFE-08` | Real production KMS, initially AWS KMS where authorized, robust credential/region/outage/throttling/revocation/cost testing, with a provider-independent contract and no hard dependency on AWS for local functionality. | EXTERNAL AUTHORIZATION/PROVIDER QUALIFICATION OPEN | R03 | S4-ROTATIONS-KMS | Local provider evidence only; no authorized production KMS cell | Credentials/cloud account/outage/cost tests not claimed | Use authorized real provider resources only; never generate new access implicitly |
 | [ ] | `OBJ-LIFE-09` | Safe install, upgrades, compatibility across versions, decommission and explicit clean uninstall, including unsupported legacy-layout repair or a tracked safe alternative. | PARTIALLY VERIFIED — installed artifacts and retained removal; legacy unresolved | R02/R07 | Lifecycle/release | S8 package-free before/after removal; S9 two offline builds | Seven legacy-layout assertions still fail unchanged | Implement/review safe legacy upgrade route; preserve byte-identical old mailbox |
 | [ ] | `OBJ-DX-01` | Almost zero business/model/query changes; one manifest, named profiles, one attach call, usable status/plan/apply/verify/deprotect/rotate operations and precise startup feedback. | PARTIALLY VERIFIED — manifest/attach path; complete operations CLI incomplete | R06 | S7-PERF-DX-ADOPTION | S8 unqualified upstream app;13 bootstrap/4 fixture lines; C profile/operator steps | No business-source edits in pinned app; remaining setup costs explicit | Unify safe public operational entrypoints without claiming prototype flags as product API |
-| [ ] | `OBJ-DX-02` | `cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges. | IMPLEMENTATION OPEN — unified doctor absent from current CLI | R01/R06 | Doctor/scanner slice | Current cli.py exposes manifest inspection/history, not complete doctor | Static and dynamic objective not satisfied | Design/read-only implement doctor with explicit checked/unknown outcomes and no privilege repair |
+| [ ] | `OBJ-DX-02` | `cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges. | IMPLEMENTATION OPEN — unified doctor absent from current CLI | R01/R06 | Doctor/scanner slice | Current CLI exposes manifest inspection/history; plan.compatibility_report already supplies bounded source inspection | Static and dynamic objective not satisfied | Design/read-only implement doctor with explicit checked/unknown outcomes and no privilege repair |
 | [ ] | `OBJ-DX-03` | Fully working independent FastAPI/SQLModel integration; a second unrelated application; measure source edit lines, dependency and deployment requirements. Extend thoughtfully to Flask and Django via actually suitable adapters. | PARTIALLY VERIFIED — one pinned real app; second app unresolved | R06 | S2-FASTAPI-E2E | S8 FastAPI58x4PASS with original unqualified tables | FlaskBB native harness failures are not Cryptalis defects | Establish clean unrelated PostgreSQL app baseline; choose suitable adapters honestly |
 | [ ] | `OBJ-DX-04` | Normal SQLAlchemy semantics: ORM identity map, lazy/eager loading, `Session.exec`, sync/async, pooling, migrations, background jobs, serializers, errors and result metadata. | PARTIALLY VERIFIED — bounded sync/async SQLAlchemy/SQLModel | R01/R06 | Adapter qualification | Frozen corpus plus current installed2.0.51/2.1.3 suites | No universal ORM/framework qualification | Cover remaining supported semantics and real application boundaries |
 | [ ] | `OBJ-DX-05` | Accessible, complete docs: one small quickstart, profiles, threat model, leakage, boundaries, operations, recovery, practical examples, diagnostic errors and learning walkthroughs explaining what/why/how for each slice. | PARTIAL DOCUMENTATION; authoritative front tables reconciled | R06/R07 | Documentation integration | Current checklist, checkpoint/defect docs and recovery receipts | Historical entries retained; no stale template values used as current facts | Finish concise quickstart/diagnostics/recovery docs tied to integrated APIs |
@@ -142,8 +142,8 @@ Existing documented targets (not pass claims): added p95 ≤3 ms point/equality;
 
 ## NEXT ACTION (top five; update after each slice)
 
-1. Finish S10 second installed dependency cell and same-session paired performance controls; integrate only exact-wire/validation-preserving changes with verified recovery.
-2. Implement the missing safe, read-only doctor/scanner path from the explicit objective; distinguish verified checks from unknown coverage and never repair privileges silently.
+1. Finish S11 installed diagnostic qualification and preserve its native point-read oracles; S10 is integrated and175-file recovery verified.
+2. Integrate a read-only doctor using the existing bounded compatibility_report scanner and native compiler; static scanner already exists. Distinguish checked/unknown scope, do not invoke attach to diagnose, and never repair privileges silently.
 3. Resolve remaining lifecycle/legacy-layout coverage without editing away the seven preserved assertions; fresh-cluster proof waits for the existing unanswered approval.
 4. Establish a clean unrelated PostgreSQL application baseline and reduce remaining manifest-first integration friction.
 5. Continue separately reviewed key-rotation, lower-leakage search and online migration designs; obtain required real-provider/reviewer resources without weakening maintenance safety or inventing budgets.
@@ -179,7 +179,7 @@ No item is removed because it is difficult, unavailable, unsafe under one scheme
 | OBJ-LIFE-03 / OBJ-LIFE-04 | No qualified online/parallel migration | Capture, fencing, ordering and recovery not proved | Secure maintenance fallback | Reviewed protocol plus native concurrency/cutover evidence |
 | OBJ-LIFE-07 / OBJ-LIFE-08 | No production KMS or complete rotation triad | Local provider/rewrap preparation is insufficient | Approved local synthetic experiments | Obtain authorized resources and separate operation proofs |
 | OBJ-LIFE-06 / OBJ-LIFE-09 | Fresh-cluster and legacy-layout restore incomplete | Explicit approval pending; format-specific assertions unresolved | Verified same-host retained recovery; preserve old artifacts | Independent restore and reviewed safe legacy route |
-| OBJ-DX-02 / OBJ-DX-03 | No complete doctor/scanner or second unrelated app | Current CLI and adoption evidence incomplete | Existing manifest inspection and pinned FastAPI path | Implement read-only diagnostic slice; establish clean second native baseline |
+| OBJ-DX-02 / OBJ-DX-03 | No unified doctor or second unrelated app; bounded static scanner exists | Current CLI and dynamic diagnostic coverage incomplete | Existing manifest inspection and pinned FastAPI path | Implement read-only diagnostic slice; establish clean second native baseline |
 
 ## Changelog
 
@@ -479,3 +479,16 @@ Installed full PostgreSQL suites: SQLAlchemy2.1.3 1776PASS/7FAIL/0SKIP301.99s;2.
 For an8MiB input, incremental Python-traced peak allocation fell from16,777,664 to8,388,864 bytes. This is not request RSS. Same-session seven-block paired IN2 medians:13.360 to12.653ms on2.1.3,12.359 to11.818ms on2.0.51;7/7 and6/7 favorable blocks. Point/equality results vary; no blanket speedup or production performance claim. All seven production gates remain UNKNOWN.
 
 Next: implement the missing read-only pre-adoption scanner/doctor under explicit checked/unknown boundaries. Existing database only; second cluster and credential approval remains pending. Original online-migration workstream S6 remains OPEN; corrective slice numbering does not imply its completion.
+
+
+## S11 advisory diagnostic currency, 2026-10-13
+
+Reconciliation found an existing bounded source scanner, so it is retained instead of rebuilt. Its UUID literal finding still asserted that UUID-01 was unapproved and all strings refused, although the runtime had already admitted PostgreSQL16 UUID text. Its Core DML warning omitted the private bounded DELETE profile. Five new source-report regressions failed against S10.
+
+The separate S11 candidate reuses the runtime UUID grammar for literal classification, retains a refusal for malformed text, and reports admitted text as requiring staging rather than granting admission. Default Core DML refusal remains; its remedy now explains that private DELETE needs exact target/effect-inventory/staging verification. No runtime query admission, crypto, source execution, SQL execution or privilege change is added by this correction.
+
+Eight real native/protected point-read controls independently verify canonical, compact, braced and four-digit-group spellings recover the same UUID and protected values. Existing invalid-literal and source-sanitization controls remain unchanged. Focused41PASS2.23s. PostgreSQL16 primary source corroborates the alternative spellings: https://www.postgresql.org/docs/16/datatype-uuid.html . No novel grammar claim.
+
+Repeated offline wheel SHA256 cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a;39RECORD entries,35installed runtime modules byte-match. Installed full qualification pending. Complete unified doctor remains unimplemented; all seven production gates UNKNOWN.
+
+S11 first installed full cell:1789PASS/7knownFAIL/0SKIP310.59s. Second installed cell running; S11 remains separate, not integrated.

@@ -1,0 +1,32 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFF                                                                    [100%]
+=================================== FAILURES ===================================
+_ test_admitted_uuid_literal_is_not_falsely_reported_as_refused[12345678-1234-5678-1234-567812345678] _
+tests/test_adoption_diagnostic_currency.py:16: in test_admitted_uuid_literal_is_not_falsely_reported_as_refused
+    assert 'uuid_text_record_bind_refused_if_attached' not in codes
+E   AssertionError: assert 'uuid_text_record_bind_refused_if_attached' not in {'uuid_text_record_bind_refused_if_attached'}
+_ test_admitted_uuid_literal_is_not_falsely_reported_as_refused[12345678123456781234567812345678] _
+tests/test_adoption_diagnostic_currency.py:16: in test_admitted_uuid_literal_is_not_falsely_reported_as_refused
+    assert 'uuid_text_record_bind_refused_if_attached' not in codes
+E   AssertionError: assert 'uuid_text_record_bind_refused_if_attached' not in {'uuid_text_record_bind_refused_if_attached'}
+_ test_admitted_uuid_literal_is_not_falsely_reported_as_refused[{12345678-1234-5678-1234-567812345678}] _
+tests/test_adoption_diagnostic_currency.py:16: in test_admitted_uuid_literal_is_not_falsely_reported_as_refused
+    assert 'uuid_text_record_bind_refused_if_attached' not in codes
+E   AssertionError: assert 'uuid_text_record_bind_refused_if_attached' not in {'uuid_text_record_bind_refused_if_attached'}
+_ test_admitted_uuid_literal_is_not_falsely_reported_as_refused[1234-5678-1234-5678-1234-5678-1234-5678] _
+tests/test_adoption_diagnostic_currency.py:16: in test_admitted_uuid_literal_is_not_falsely_reported_as_refused
+    assert 'uuid_text_record_bind_refused_if_attached' not in codes
+E   AssertionError: assert 'uuid_text_record_bind_refused_if_attached' not in {'uuid_text_record_bind_refused_if_attached'}
+______ test_delete_finding_discloses_private_profile_without_granting_it _______
+tests/test_adoption_diagnostic_currency.py:26: in test_delete_finding_discloses_private_profile_without_granting_it
+    assert 'default' in finding['reason'].lower()
+E   AssertionError: assert 'default' in 'the attached factory refuses non-flush core dml, including dml on unprotected tables.'
+E    +  where 'the attached factory refuses non-flush core dml, including dml on unprotected tables.' = <built-in method lower of str object at 0x7f5c9c738530>()
+E    +    where <built-in method lower of str object at 0x7f5c9c738530> = 'The attached factory refuses non-flush Core DML, including DML on unprotected tables.'.lower
+=========================== short test summary info ============================
+FAILED tests/test_adoption_diagnostic_currency.py::test_admitted_uuid_literal_is_not_falsely_reported_as_refused[12345678-1234-5678-1234-567812345678]
+FAILED tests/test_adoption_diagnostic_currency.py::test_admitted_uuid_literal_is_not_falsely_reported_as_refused[12345678123456781234567812345678]
+FAILED tests/test_adoption_diagnostic_currency.py::test_admitted_uuid_literal_is_not_falsely_reported_as_refused[{12345678-1234-5678-1234-567812345678}]
+FAILED tests/test_adoption_diagnostic_currency.py::test_admitted_uuid_literal_is_not_falsely_reported_as_refused[1234-5678-1234-5678-1234-5678-1234-5678]
+FAILED tests/test_adoption_diagnostic_currency.py::test_delete_finding_discloses_private_profile_without_granting_it
+5 failed in 0.51s
