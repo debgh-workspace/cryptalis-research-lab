@@ -1,0 +1,11 @@
+{
+  "tests": 1707,
+  "passed": 1700,
+  "failed": 7,
+  "skipped": 0,
+  "same_seven_failure_ids": true,
+  "source_unchanged": true,
+  "elapsed_pytest_seconds": 283.36,
+  "baseline_difference": "S5 includes four final-removal metadata cases added after frozen S2 full suite. 1700 vs 1696 passes is additional test coverage, not four new fixes.",
+  "runtime_source_changes": false
+}

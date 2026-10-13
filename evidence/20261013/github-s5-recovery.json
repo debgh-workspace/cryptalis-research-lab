@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-10-13T07:22:26.270950+00:00",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "commit": "6ac03d0af2190705f131bd1d55e3d88a253b2994",
+  "remote_downloaded_parts": 12,
+  "archive_sha256": "2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad",
+  "restored_files_verified": 3579,
+  "runtime_replay": "PENDING",
+  "fresh_machine": "NOT_TESTED",
+  "persistent_credentials_after_reset": "UNKNOWN",
+  "original_repo_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
+  "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd"
+}
