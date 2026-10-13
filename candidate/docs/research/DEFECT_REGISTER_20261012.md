@@ -27,3 +27,12 @@ Earlier entries above describe historical candidates; they are not current outco
 ### S5 supplemental reconciliation
 
 All original159IDs/554cells now have fresh exact-key evidence:398IDENTICAL156REJECTED-LOUD0DEFECT. Original20 async defects resolved in this installed candidate. UUID-01 contributes30 authorized refusal→native-match transitions; actual driver-bound spellings preserved. All other historical classifications unchanged. Default bulk-refusal20cases/version and8 warm-write native comparisons/version pass.12SQLModel2.0-only cases pass1.71s. Current VARCHAR40cells matched exact full-suite tests; public-type48cells and10oracle controls/version re-run. Seven legacy reverse-copy full-suite failures remain OPEN. No public-profile/security gate promotion.
+
+
+## S6 integrated diagnostic correction, 2026-10-13
+
+Malformed protection artifacts previously escaped the MigrationPlan constructor as parser, UUID, missing-field or wrong-type exceptions. Ten public malformed-artifact cases establish8RED failures/2controls before correction. The bounded correction translates existing rejection paths to TransitionFailure(code=invalid_plan), suppresses underlying exception display and keeps format/canonical-byte/nonzero UUID/parser bounds unchanged. It does not authenticate an artifact, validate every semantic plan field, admit legacy formats or perform database work during construction.
+
+Source GREEN13PASS includes3 real PostgreSQL plan/protect/reverse controls. Installed complete suites: SQLAlchemy2.1.3 1710PASS/7FAIL/0SKIP287.14s;2.0.51 1692PASS/7FAIL/18SKIP286.75s. All seven failures exactly match prior legacy-profile assertions; no new skip or expectation change. Original legacy test file independently passes10/10 on its original layout implementation. Full-suite acceptance and legacy-layout upgrades remain OPEN. Wheel aa186579a457c1d6b749312071b1786871ee70b652cd3788f1db7cfd9f6da3f1 reproduced twice offline; all34 installed runtime modules byte-match and38 RECORD entries verify. All seven production gates remain UNKNOWN.
+
+Next: reproduce the separate fractional measured-rate planning concern without loosening manifest/lock numeric validation; preserve current correction and all historical failed evidence.

@@ -1,0 +1,30 @@
+{
+  "slice": "S6",
+  "status": "Bounded diagnostic correction verified; full-suite acceptance still OPEN",
+  "results": [
+    {
+      "cell": "sa21",
+      "passed": 1710,
+      "failed": 7,
+      "skipped": 0,
+      "seconds": 287.14,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    },
+    {
+      "cell": "sa20",
+      "passed": 1692,
+      "failed": 7,
+      "skipped": 18,
+      "seconds": 286.75,
+      "same_known_failure_ids": true,
+      "source_unchanged": true
+    }
+  ],
+  "runtime_delta": [
+    "src/cryptalis/migration.py"
+  ],
+  "security_contract_changes": false,
+  "all_production_gates": "UNKNOWN",
+  "wheel_sha256": "aa186579a457c1d6b749312071b1786871ee70b652cd3788f1db7cfd9f6da3f1"
+}

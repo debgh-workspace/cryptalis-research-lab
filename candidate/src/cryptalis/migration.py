@@ -65,12 +65,18 @@ class MaintenanceApproval:
 class MigrationPlan:
     artifact: bytes
     def __post_init__(self):
-        doc = decode_manifest_json(self.artifact)
-        if (doc.get('format') != 'cryptalis.transition/retained-native-research-v0' or _canonical(doc) != self.artifact
-                or doc.get('kind') != 'protect'):
-            raise TransitionFailure('invalid_plan')
-        for name in ('operation_id', 'target_id'):
-            if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+        try:
+            doc = decode_manifest_json(self.artifact)
+            if (doc.get('format') != 'cryptalis.transition/retained-native-research-v0'
+                    or _canonical(doc) != self.artifact or doc.get('kind') != 'protect'):
+                raise ValueError
+            for name in ('operation_id', 'target_id'):
+                if type(doc[name]) is not str or UUID(doc[name]).int == 0:
+                    raise ValueError
+        except (ValueError, TypeError, KeyError):
+            # Construction has no database effects. Keep parser/UUID details and
+            # artifact values out of the public transition failure message.
+            raise TransitionFailure('invalid_plan') from None
     def __str__(self):
         costs = self.document['estimates']
         rates = (f'backfill {costs["backfill_rows_per_second"]:g} rows/s; '

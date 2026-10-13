@@ -13,3 +13,12 @@ Real-app reverse planner now tested: refuses unsupported_reverse_suffix_metadata
 Competing DDL mechanism study: in-place forward and reverse type conversion preserved SELECT * column order, values, table OID, an unrelated FK/view and public comment in a three-row fixture; dropping/renaming the forward column followed by in-place reverse preserved named values but lost positional order. Two mechanism tests PASS. Payloads in this study are explicitly synthetic NON-CRYPTO bytes; this is not encryption/lifecycle evidence. PostgreSQL ALTER TABLE documentation confirms rewrite/lock/disk costs and old-snapshot hazards: https://www.postgresql.org/docs/16/sql-altertable.html . A prospective in-place strategy is a research alternative, not an integrated fix or a repair of legacy already-reordered tables. Retain snapshot fencing. No novelty claim.
 
 Next: fully specified reversible layout alternative with authenticated staging and exact schema checks, legacy-layout repair, protected bulk-DML design, installed real-app verification, second independent app. No release claim; seven gates UNKNOWN.
+
+
+## S6 integrated diagnostic correction, 2026-10-13
+
+Malformed protection artifacts previously escaped the MigrationPlan constructor as parser, UUID, missing-field or wrong-type exceptions. Ten public malformed-artifact cases establish8RED failures/2controls before correction. The bounded correction translates existing rejection paths to TransitionFailure(code=invalid_plan), suppresses underlying exception display and keeps format/canonical-byte/nonzero UUID/parser bounds unchanged. It does not authenticate an artifact, validate every semantic plan field, admit legacy formats or perform database work during construction.
+
+Source GREEN13PASS includes3 real PostgreSQL plan/protect/reverse controls. Installed complete suites: SQLAlchemy2.1.3 1710PASS/7FAIL/0SKIP287.14s;2.0.51 1692PASS/7FAIL/18SKIP286.75s. All seven failures exactly match prior legacy-profile assertions; no new skip or expectation change. Original legacy test file independently passes10/10 on its original layout implementation. Full-suite acceptance and legacy-layout upgrades remain OPEN. Wheel aa186579a457c1d6b749312071b1786871ee70b652cd3788f1db7cfd9f6da3f1 reproduced twice offline; all34 installed runtime modules byte-match and38 RECORD entries verify. All seven production gates remain UNKNOWN.
+
+Next: reproduce the separate fractional measured-rate planning concern without loosening manifest/lock numeric validation; preserve current correction and all historical failed evidence.
