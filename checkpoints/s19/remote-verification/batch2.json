@@ -1,0 +1,32 @@
+{
+  "commit": "8434123d70a9e426b2521457a217368052211804",
+  "tree": "3a325e94360c896f9a8de78f74275d2c10a941a9",
+  "verified": [
+    {
+      "name": "archive.part-06",
+      "exact_bytes_match": true,
+      "blob_sha": "de8b53c0713182077bc29855884b4adc2186f925"
+    },
+    {
+      "name": "archive.part-07",
+      "exact_bytes_match": true,
+      "blob_sha": "f46592e9f77121a79816a595b6e0230a52412e37"
+    },
+    {
+      "name": "archive.part-08",
+      "exact_bytes_match": true,
+      "blob_sha": "0c0d64bbc274862e9f5f736a2bab82c10a19e818"
+    },
+    {
+      "name": "archive.part-09",
+      "exact_bytes_match": true,
+      "blob_sha": "0d6b7dd7270b5a14a8fdee26c534d861d1c452e8"
+    },
+    {
+      "name": "archive.part-10",
+      "exact_bytes_match": true,
+      "blob_sha": "3293be88aadfd9cfdde74ea995df75f7e7f71595"
+    }
+  ],
+  "archive_complete": false
+}

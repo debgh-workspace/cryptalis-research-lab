@@ -1,0 +1,42 @@
+{
+  "commit": "cef208cd0e3205b8e3ed954968d75be73dbcb6d4",
+  "tree": "efe5353ea3d492528ede69e6077127a6b225443e",
+  "verified": [
+    {
+      "name": "archive.part-11",
+      "exact_bytes_match": true,
+      "blob_sha": "2b5eec59e3741ba6496e011e9e93ad6b54efa398"
+    },
+    {
+      "name": "archive.part-12",
+      "exact_bytes_match": true,
+      "blob_sha": "a0f989732556fe55eb914100fff622e40539a7ad"
+    },
+    {
+      "name": "archive.part-13",
+      "exact_bytes_match": true,
+      "blob_sha": "f9be7ca6b671ec8839eca58bd0cc76e7a2207d90"
+    },
+    {
+      "name": "archive.part-14",
+      "exact_bytes_match": true,
+      "blob_sha": "3f566e5ddce83d217e3defdec62cd48f21114302"
+    },
+    {
+      "name": "archive.part-15",
+      "exact_bytes_match": true,
+      "blob_sha": "1e2450783c5f17e74f68afa6e1d37adbbfd94792"
+    },
+    {
+      "name": "archive.part-16",
+      "exact_bytes_match": true,
+      "blob_sha": "802f90b70b13d87a74a030afc98fa70f69aa0d18"
+    },
+    {
+      "name": "archive.part-17",
+      "exact_bytes_match": true,
+      "blob_sha": "a4b060f69c7a7bfa09268761efbd714b2318429d"
+    }
+  ],
+  "archive_complete": true
+}

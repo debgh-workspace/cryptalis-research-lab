@@ -4,9 +4,9 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T21:47Z`
+- Last updated UTC: `2026-10-13T22:56Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Highest fully checked integrated research candidate: S18 `candidate-accel-setup-integrated-20261013`, 201 files, checkpoint `8ea6d5935af3de277e31d7a31fdf93d06ac99139`, recovery metadata head `85f86623a370deb5b71552d404633da8cd7e1b3c`. S19 `candidate-accel-removal-integrated-20261013` has 204 files; source manifest SHA-256 `998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7`; installed SA21 2282 PASS / 7 unchanged legacy FAIL / 56 subtests, SA20 running. Lab main remains S14; main promotion approval is separate.
+- Highest verified bounded integrated research candidate: S19 `candidate-accel-removal-integrated-20261013`,204files,source manifest SHA256 `998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7`. Full installed2282/2236PASS with same7legacyFAIL,56subtests,46SA20skips;realapp58x4PASS;fresh installed restore23PASS17subtests. Complete17-part archive and final receipts remotely byte-verified at `cef208cd0e3205b8e3ed954968d75be73dbcb6d4`. Labmain remainsS14; no mainpromotion.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
@@ -697,3 +697,23 @@ Actual unchanged pinned FastAPI application:58native+58protected+58package-free-
 Complete204-file candidate + selected safe evidence/artifacts/original mailbox archived as CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz,1210016bytes,SHA256fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29. Fresh extraction verifies246payloadfiles; fresh installed environment smoke23PASS17subtests8.42s on existing authorized cluster. No fresh-cluster/whole-workspace backup claim. PriorS18/S17/S5checkpoints retained. Archive includes previous checklist snapshot; this final outcome remains separate qualification/recovery receipt.
 
 S19sourcecheckpoint83fbaeaaa039717396262c45f407fde22937d870 is remote-byte verified; final evidence/archive publication in progress. S19 is now highest locally verified bounded integrated candidate, while highest remotely complete integrated checkpoint remains S18 until archive publication verifies. Main remainsS14; no main promotion.
+
+## B7 interrupted reverse policy-drift proof — 2026-10-13 22:35 UTC
+
+Existing authority boundary only: payload/search policy drift after a committed plaintext chunk refuses; original-policy resume or abort preserves edits made after protection and exact retained frame/journal observations. Four new cases plus two existing controls:6PASS3.97s SA21 and6PASS3.35s SA20,source-stable/stopped. All204S19basefiles unchanged. No payload/search rotation executor or active publication implemented by this slice; OBJ-LIFE-07 remains OPEN.
+
+S19remote archive parts1–5 and final qualification/recovery receipts published86e15442acbe37915996e59f1becbe54550158fa,exactreadback verified; only5/17parts, so remotearchive incomplete. The initial300KB blob and later75KBpart06 approval reviews timed out; neither timeout is a safety denial. Part06 retried once successfully after verifying no remote branch file. Parts06–10 blobs now uploaded; branch batch pending.
+
+## S19 remote recovery complete — 2026-10-13 22:46 UTC
+
+Research branch accel/integration-s19-20261013 head cef208cd0e3205b8e3ed954968d75be73dbcb6d4, tree efe5353ea3d492528ede69e6077127a6b225443e. All17binaryparts read back and matched exact local bytes in three batches, plusfinalqualification/recovery/checklist. Archive SHA256fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29; prior extraction and fresh installed smoke remain valid because bytes match. Embedded archive checklist/qualification precede final restore results; external final receipts supersede them. Originalpublicmain read-only recheck still2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43, originalmailboxchecksum unchanged.
+
+Pending owner decision: capture-backed online preparation prototype with current final writer pause/full verification, request Sentinel_f9407ee631c081d1a92fb471b6262b6f. No new capture privileges or credentials authorized. Genericsecond-app defaults are a documented timing restriction (walkthrough requires IDs/tenant values assigned beforeflush), not a regression in an already-admitted implicit-default route. Polar native baseline additionally blocked by exact uncached Dramatiq fork and public-schema migration/extension requirements; no unsafe substitution or execution.
+
+### 2026-10-13T22:56Z — independent slice progress and publication
+- B7 reverse-policy drift recovery:6PASS per SA21/SA20 cell;4 source/evidence files published and exact remote bytes verified at9d4f65822cfe11e8a29fa99a9b599cc1c746123f. No active rotation executor claim.
+- C8 profiling:6 source/protocol/analysis files published and exact remote bytes verified at573fd72df2b787aa53d32a47e0fb6f8c26534f49. Lossless raw-profile archive remains local, not remotely published.
+- A5 first real PG SA21 run:8PASS2FAIL1.31s. Two attached controls fail at tenant-policy lookup because empty migration inventory omitted tenant. Worker correcting fixture through native pre-transition seed; no runtime change or admitted-default support claim. Failed evidence retained.
+- B8 inactive payload-preparation GREEN SA21:108PASS1.65s (35 new plus affected CF1/lease/rewrap tests),one existing fork warning. Unchanged role preflight/source and server stop verified. Independent source review found no bounded runtime blocker but final-return expiry/PID oracle sensitivity missing. Derivative tests required before integration. Not active rotation/publication.
+- C9 pure prototype:47PASS reported by worker; no DB/timing or integration claim. Written per-block performance protocol and independent review required before timing.
+- Pending owner decisions remain: capture-backed online preparation prototype (Sentinel_f9407ee631c081d1a92fb471b6262b6f); isolated second-app PG16 cluster/test credentials/extensions plus Dramatiq fork63ea404e2204b2d2b3e644053b4b294cb1039ad4 (Sentinel_88690b6b6ec081d181c40faeaa3e6f13). No response/approval inferred.

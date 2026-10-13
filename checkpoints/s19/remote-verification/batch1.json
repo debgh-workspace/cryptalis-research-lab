@@ -1,0 +1,52 @@
+{
+  "commit": "86e15442acbe37915996e59f1becbe54550158fa",
+  "tree": "d0598110001f17a92453dd6b42ceeae87bb250f7",
+  "verified": [
+    {
+      "path": "checkpoints/s19/archive/archive.part-01",
+      "match": true,
+      "sha": "3605c3a122ecd0d2bfe3316258826f2915cff694"
+    },
+    {
+      "path": "checkpoints/s19/archive/archive.part-02",
+      "match": true,
+      "sha": "38d6c1017535ad5845636389f0bf258dd712ce9f"
+    },
+    {
+      "path": "checkpoints/s19/archive/archive.part-03",
+      "match": true,
+      "sha": "df96aa6a99f0abacedf8635931110caafc77711d"
+    },
+    {
+      "path": "checkpoints/s19/archive/archive.part-04",
+      "match": true,
+      "sha": "49a76887c8ad8b36249a3f9a033764ff48e1bbcd"
+    },
+    {
+      "path": "checkpoints/s19/archive/archive.part-05",
+      "match": true,
+      "sha": "ead17bd1b727aa3484ea45989a826032f6b0a9e9"
+    },
+    {
+      "path": "checkpoints/s19/qualification.json",
+      "match": true,
+      "sha": "424022e2161ccea4cea3c849fc80ab30dcfeab3a"
+    },
+    {
+      "path": "checkpoints/s19/recovery-receipt.json",
+      "match": true,
+      "sha": "5762eb63acb0e64df1a20a2adf6174b7b877b737"
+    },
+    {
+      "path": "checkpoints/s19/archive/parts.json",
+      "match": true,
+      "sha": "3ca0b4e8e2e10538844bd989db31f0921e155358"
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "match": true,
+      "sha": "f4e69aff544bf1178427d9925194ce26d2d678e2"
+    }
+  ],
+  "archive_complete": false
+}
