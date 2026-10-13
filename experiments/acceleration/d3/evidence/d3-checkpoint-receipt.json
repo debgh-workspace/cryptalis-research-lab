@@ -1,0 +1,141 @@
+{
+  "schema": "cryptalis.d3-research-checkpoint/v1",
+  "recorded_utc": "2026-10-13T15:33Z",
+  "status": "VERIFIED_FINITE_RESEARCH_ONLY",
+  "summary": "24 prepared D3 cases passed in each exact dependency environment; the unchanged D2 decoder checked committed CF1 frames against complete current synthetic source/native membership and values.",
+  "candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-handoff-20261013",
+  "candidate_source_manifest_sha256": "3c303002751475e1971396cc5c41a7b41a50f76d25260b89c4c446b2f0b593b2",
+  "pre_gate_manifest_sha256": "70b0be681811e763ea14d27eaf204c6fad37211293b31700d7790e51933a6ef1",
+  "post_gate_metadata_changes_only": [
+    "experiments/D3_CF1_HANDOFF_PROGRESS.md",
+    "D3_SOURCE_MANIFEST.json"
+  ],
+  "all_190_D2_inherited_files_unchanged": true,
+  "all_186_frozen_D1_files_unchanged": true,
+  "D2_publication_ready_files_preserved": {
+    "experiments/independent_cf1_decode.py": "1c289bcb8c58658e76b8e61da29c31099ab8f8e7a687e25e421d85ac525c3653",
+    "experiments/verify_independent_cf1_decode.py": "98d1b656b3a7253f3590794c8ab5b4ab59bd4d8c476047548f94dc92e3ce9dba",
+    "experiments/cf1-oracle-receipt-20261013.json": "8b58b112668f1311bbae74f6016ca6dad49f10c5c58dd04e6c29c8c0ed18b85b",
+    "experiments/CF1_ORACLE_PROGRESS.md": "5dd273285dd184323b0c71c64cbe540777810cc690a4a4134b8e344e5b1af1b3"
+  },
+  "executed_D3_python_sha256": {
+    "tests/_online_cf1_lab.py": "35e11958cf83a65c4b3a1e8ed838a407dc0a6fe148251130bc9f98c946f9138d",
+    "tests/test_online_cf1_handoff.py": "b072fa5b3571f404449f91c96026f99ecf2abb668a76d16d4372d6dad2cbf9f7"
+  },
+  "inherited_capture_sha256": "a4bd5e3771491bb721b7cbade79180d5423c2076962e80e23350847fe987cc9e",
+  "independent_decoder_sha256": "1c289bcb8c58658e76b8e61da29c31099ab8f8e7a687e25e421d85ac525c3653",
+  "decoder_provenance": "The pre-gate complete manifest and post-gate manual inherited-file comparison match the unchanged D2 decoder. The standard runner snapshots src/tests Python plus configuration; its snapshot does not itself cover this imported experiments/decoder file.",
+  "cells": [
+    {
+      "sqlalchemy_environment": "2.1.3",
+      "psycopg": "3.3.6",
+      "cryptography": "50.0.2",
+      "scope": "Source-candidate direct psycopg/CF1 fixture, not new ORM or installed-artifact qualification",
+      "evidence_directory": "evidence/d3-online-cf1-handoff-sa21-20261013",
+      "passed": 24,
+      "failed": 0,
+      "pytest_elapsed_seconds": 2.08,
+      "runner_elapsed_seconds": 2.2809554890045547,
+      "dual_role_preflight": "PASS",
+      "source_and_explicit_external_test_stability": true,
+      "server_stop_exit_code": 0,
+      "recorded_source_hashes_match_current": true,
+      "receipt_sha256": "dc2be96fd294c181952c08f3fbf3a51959d273ad3d96a7f48f2b4b62ad278c59",
+      "log_sha256": "672e8cd8ec30397c48ba152820a6b6abe6ffb17b2b5a9e9c4fba802651dc6b06",
+      "source_stability_sha256": "1c2e831c4dafb7d81fb0be52afdfb4122a07a8c67ea322a25fe85180bc6a6512"
+    },
+    {
+      "sqlalchemy_environment": "2.0.51",
+      "psycopg": "3.3.6",
+      "cryptography": "50.0.2",
+      "scope": "Source-candidate direct psycopg/CF1 fixture, not new ORM or installed-artifact qualification",
+      "evidence_directory": "evidence/d3-online-cf1-handoff-sa20-20261013",
+      "passed": 24,
+      "failed": 0,
+      "pytest_elapsed_seconds": 2.65,
+      "runner_elapsed_seconds": 2.9120870920014568,
+      "dual_role_preflight": "PASS",
+      "source_and_explicit_external_test_stability": true,
+      "server_stop_exit_code": 0,
+      "recorded_source_hashes_match_current": true,
+      "receipt_sha256": "4cb47b75f953a4f3f859f5fab7b1c83daa54c76f5b003bbdd3dc505318404b1a",
+      "log_sha256": "dc7192f3a39517888b3c5359726ee3562b0ea66a63ab9a2e748b282390b25e91",
+      "source_stability_sha256": "1c2e831c4dafb7d81fb0be52afdfb4122a07a8c67ea322a25fe85180bc6a6512"
+    }
+  ],
+  "qualified_boundaries": [
+    "Captured update/delete/reinsert/text-NULL transitions under the exact finite schedules",
+    "Operation/context pin refusal and stale/foreign claim refusal in the lab",
+    "Frame insertion and retirement rollback/reconstruction after injected exceptions",
+    "Independent full raw-frame decoding plus exact source/native membership and value comparison"
+  ],
+  "fault_model": "Explicit synchronous Python exceptions and object/connection/cache reconstruction in the same process. The original volatile local fixture provider survives. Cold unwrap is deliberately made to raise and then restored. No process kill, ambiguous COMMIT, service crash, failover or fresh-cluster recovery is represented.",
+  "synthetic_material": "Fixed public roots and synthetic text only; existing volatile DevelopmentKeyProvider fixture, unchanged CF1 algorithms/wire format, no new provider profile or external credential.",
+  "not_qualified": [
+    "Active product integration or lifecycle phases",
+    "Online capture/closure/cutover contract or scan removal",
+    "Deployment writer exclusion, external publication or stale-process fencing",
+    "Actual-use expiry during this D3 transform selection",
+    "Equality index/uniqueness, multi-range parallelism or pause/resource SLO",
+    "Production custody, independent human security review or any full production gate"
+  ],
+  "owner_decisions_pending": [
+    "D-REV-04 capture/enumeration/phase contract",
+    "D-REV-09 current external authority and stale-actor fencing",
+    "D-REV-07 workload and total-exclusion budgets"
+  ],
+  "additional_sensitivity": {
+    "status": "VERIFIED_FINITE_OMISSION_SENSITIVITY",
+    "question_closed": true,
+    "common_test_sha256": "615ffc7b1d424ec930498b1c9350b463cf3dc07049e364b8fc4e8962ce2efa37",
+    "preparation_plan_sha256": "66023f705a6e1065e22166ba7175094cd36a93bfbe432562b74bbd7bfe4d7a30",
+    "original_helper_sha256": "35e11958cf83a65c4b3a1e8ed838a407dc0a6fe148251130bc9f98c946f9138d",
+    "mutant_helper_sha256": "db07aa8d51c257f9ef8bee5ae2da5d38922dd29c9e61b809748eac7b52e8d101",
+    "only_executable_mutation": "Commit exact dirty-token retirement before the separate frame transaction.",
+    "control_behavior": "Inject after-retirement exception, reconstruct a new object/connection/cache with the same surviving provider, continue from durable cursor and drain, then compare every independently decoded committed frame with source/native rows.",
+    "observed_result": "Original control passes; isolated omission fails exactly at complete decoded/native equality. No import/setup/timeout failures are accepted.",
+    "interpretation": "In this schedule, committing retirement before the frame transaction leaves no obligation for key10 after its frame rolls back. The final complete comparison exposes the resulting loss. This is finite sensitivity evidence, not an unbounded atomicity or process-crash proof.",
+    "runs": [
+      {
+        "evidence_directory": "evidence/d3-atomicity-control-20261013",
+        "counts": {
+          "passed": 1
+        },
+        "exit_code": 0,
+        "pytest_elapsed_seconds": 0.39,
+        "dual_role_preflight": "PASS",
+        "source_and_external_test_stability": true,
+        "server_stop_exit_code": 0,
+        "failure_boundary": null,
+        "log_sha256": "b10ce843f0e11db60f6290fa178e85e26e20ca0b7ca7f75f242e107761625916",
+        "runner_receipt_sha256": "2bd656cf13c7812f66e41ee9583c536cd4171552199ac1008bcb16dcf7c3d799"
+      },
+      {
+        "evidence_directory": "evidence/d3-split-retirement-mutant-20261013",
+        "counts": {
+          "failed": 1
+        },
+        "exit_code": 1,
+        "pytest_elapsed_seconds": 0.4,
+        "dual_role_preflight": "PASS",
+        "source_and_external_test_stability": true,
+        "server_stop_exit_code": 0,
+        "failure_boundary": "Independent read-only oracle: assert decoded == native",
+        "log_sha256": "a10ac616aaef4556239b671a12b47182e67e8ddb6101d37975e18a643373f5c0",
+        "runner_receipt_sha256": "72ca9aafe8ba3492c438afa236dff3aa4db13688b28724c328af186a00041fa9"
+      }
+    ],
+    "mutant_candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-split-retirement-20261013",
+    "no_more_database_tests_needed_for_this_question": true
+  },
+  "worker_database_execution": false,
+  "worker_git_writes": false,
+  "new_credentials_or_clusters": false,
+  "publication_scope": "Research checkpoint paths only, in a ten-file first batch and a four-file sensitivity batch. No active candidate/src publication. The intentionally wrong helper remains labeled split-retirement under sensitivity. These batches are bounded checkpoint deltas, not a complete standalone repository archive.",
+  "preserved_pre_sensitivity_artifacts": {
+    "d3-publication-plan-pre-sensitivity.json": "590fcb89dd95f5c2499c1c3e04f684607b0ad06c6ce6a8160baa181c2d02bc01",
+    "d3-checkpoint-receipt-pre-sensitivity.json": "62f4b428eca5dc123ebae444e22729569cfd2cd623d44aa54c3e4c171f47fa2e",
+    "d3-pre-sensitivity-source-manifest.json": "f5a38c9348df4e7cfaf72503dc8947c1cceabdb6d36f722f34d469ed048886fb",
+    "d3-pre-sensitivity-progress.md": "5e400ab78f8407f7fd074ba77262922be858843e1699101bdb3dd1d4afd1e0f6"
+  }
+}
