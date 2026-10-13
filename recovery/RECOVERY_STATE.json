@@ -27,7 +27,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "e82bd6ed36471da30a39d946e77a3ed2377f274c",
+  "latest_verified_remote_commit": "286afef6d183411a59f0af399ef21c224a0e9cbe",
   "latest_integrated_candidate": "candidate-ciphertext-doctor-20261013 (S14); GitHub candidate/",
   "current_experiment": "A publicUPDATE, B inactive rewrap successor, C publicmetadata performance",
   "s5_remote_byte_restore_files": 3579,
@@ -37,13 +37,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-13T13:12Z",
-  "current_operation": "Serialized worker tests; three isolated experimental copies active; S14 remains integrated",
+  "updated_utc": "2026-10-13T13:53Z",
+  "current_operation": "A1 qualified bounded controls; B2 corrected predecessor consistency; C2 ordering refusal correction in progress; coordinator serial DB ownership",
   "notes": "S14 full1831/1813PASS and same7FAIL, source stable;6 later controlsPASS each cell. All183 composite file hashes verified. No production qualification.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "e82bd6ed36471da30a39d946e77a3ed2377f274c",
+  "latest_verified_remote_head": "286afef6d183411a59f0af399ef21c224a0e9cbe",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -53,7 +53,7 @@
     "restored_files": 175
   },
   "next_task": "Finish queued targeted/mutation cells, preserve branch snapshots, integrate only qualified disjoint changes and run installed full boundary",
-  "latest_remote_tree": "8246a3a361b7d40e5c2a2aa7af4d79071170a6c0",
+  "latest_remote_tree": "afbf97cf9552a62d28f64b4984c1ae378689eb09",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
     "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
@@ -254,5 +254,22 @@
       ]
     }
   ],
-  "c1_promotion": "HELD: SA20 predeclared performance consistency gate failed; native exact values passed"
+  "c1_promotion": "HELD: SA20 predeclared performance consistency gate failed; native exact values passed",
+  "branch_heads": {
+    "orm": "b3a3333d60e6db610d424e239023fcfd6e0d4a79",
+    "lifecycle": "e0e66097d6f60726c6e536f487e89229795bba0b",
+    "search": "dd1ad0356bc9c167db6ca7219f47e414224f43e4"
+  },
+  "b2": "24FAIL5PASS RED; corrected94PASS130.84s SA21; not integrated",
+  "c2": "32FAIL58PASS RED; correction pending; not integrated",
+  "worker_count": 6,
+  "native_concurrent_limit_including_coordinator": 7,
+  "s16_pending": {
+    "passed_sa21": 2047,
+    "passed_sa20": 2029,
+    "failures_each": 7,
+    "sa20_native_skips": 18,
+    "promotion": "HELD pending E ordering review and FastAPI replay",
+    "candidate": "candidate-accel-integrated-20261013"
+  }
 }

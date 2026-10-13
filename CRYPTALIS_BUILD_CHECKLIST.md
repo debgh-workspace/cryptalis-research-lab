@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T13:12Z`
+- Last updated UTC: `2026-10-13T13:53Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Integrated candidate: `candidate-ciphertext-doctor-20261013` (S14); source-inventory SHA-256 `7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121` (183 files). Remote integration ad0e6fbff8b6f8fcb565ea45915a442f0c61fa28 byte-verified;183-file composite restore PASS.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -574,3 +574,22 @@ S14 remains the integrated candidate; no worker branch promoted. Initial isolate
 - B inactive rewrap successor plus existing preparation/lease suite:72PASS0.57s after provider-identity correction, under unchanged PostgreSQL role preflight. This does not implement active rewrap. Existing old workers are not retroactively fenced on reads by a new runtime check; persistent stale-write fencing and old-reader policy remain explicit publication blockers. No new role/credential created.
 - C security/native focused suite:260PASS19.43s on SA2.1.3 and260PASS20.70s on SA2.0.51. Same declared seven-pair performance gate PASSED on2.1 but FAILED on2.0: equality median improves13.736%, only4/7 favorable pairs versus required6/7. IN2 improves26.217%,7/7; point regresses0.7595%, within10% bound. All exact native results passed. Promotion HELD; preserve failed gate, no lowered threshold or green-only reruns.
 - All seven independent qualification gates remain UNKNOWN. Fresh-cluster/credential approval remains PENDING.
+
+## S16 integration preparation — 2026-10-13 13:35 UTC
+
+- A1 final mapping-type ordering correction:10 impacted controls PASS2.58s on2.1 andPASS3.08s on2.0, separate from preceding58-case runs. Guard-omission mutant yields2 failures1.65s. Frozen branch b3a3333d60e6db610d424e239023fcfd6e0d4a79,9files readback verified.
+- B1 inactive successor corrected branch e0e66097d6f60726c6e536f487e89229795bba0b,5files verified;72PASS percell. Not included in integrated runtime.
+- B2 REVERSE-PREDECESSOR-01:24FAIL5PASS15.54s before correction. Minimal exact-link/predecessor check:94PASS130.84s affected SA2.1 suite; expanded31PASS15.34s SA2.0;2 later abort/remove checksPASS1.36s SA2.1. Branch bf960b09b93ff2556cc1d252640ec7cc83fb7ba7,5files byteverified. Internal review found no false refusal in existing lost-commit/aborted-idempotence paths; this is not independent external review.
+- C2 ORDER-TEXTUAL-LABEL-01:32FAIL58PASS10.21s on original wrapped ordering controls. First correction430PASS57.53s affected SA2.1. A related TypeCoerce wrapper gap then reproduced12FAIL18PASS3.35s; final correction pending. No protected ordering support is promised.
+- C1 failed performance gate persisted at dd1ad0356bc9c167db6ca7219f47e414224f43e4,3files remotely verified. Excluded from integration.
+- Coordinator owns candidate-accel-integrated-20261013 (verified S14 derivative plus A1/B2/C2 changes). Preliminary offline wheel/sdist repeated builds match; final C2 correction requires a new immutable build. No promotion or combined full-suite result yet. S14 remains highest integrated checkpoint.
+
+## Expanded six-worker mandate — 2026-10-13 13:47–13:53 UTC
+
+Owner attachment libfile_3ebf892c22c481d1be7f16a37a483245 authorizes expansion. Actual supported limit is7 concurrent agents total, permitting6 workers plus coordinator, not8 workers. Three new workers successfully launched: D online enumeration/capture, E defensive independent internal review, F developer experience/framework integration. A retains ORM; B lifecycle/legacy/rotation; C search/security/performance. Coordinator owns builds/release evidence/integration/Git; production custody research remains shared B/C/coordinator. No separately billed external service or new computing infrastructure started; native-agent billing/allowance not exposed.
+
+Measured9CPU threads, one-minute load0.41, available memory8599264kB (~8.2GiB), free disk24.39GiB. Three additional private branches created from286afef6d183411a59f0af399ef21c224a0e9cbe: accel/online-20261013, accel/security-20261013, accel/developer-experience-20261013. New E/F source copies verify183/183 S14files; D takes exclusive ownership of B's separate online-enumeration copy after explicit handoff. SharedPG tests remain serialized through unchanged preflight/lock. Throughput benefit of expansion is not yet measured.
+
+S16 combined installed validation completed:2047PASS7FAIL0SKIP381.08s onSA2.1.3;2029PASS7FAIL18SKIP362.47s onSA2.0.51,2forkwarnings each. Exact same7legacy profile assertions fail; do not label fullsuite green. Package-origin check matches all38modules; wheel d69904464fd70a49a559329536dee2ffa11876afb8dc993fe5ee2b285973fd85 andsdist ecaa571f4855e9cbefebf298a7db2c5b4c5ad0e6f16722e4213dd3a334c72266 repeatedbuildidentical,42RECORDentries checked. RealFastAPI replay is in progress againstS16 using existingPython3.14appcell clone;77dependencyversions identical andpipcheckPASS.
+
+Promotion remains HELD pending independent internal E review's unprojected protected FROM-label ordering hypothesis; no confirmed result yet. All seven independent production gates remain UNKNOWN. Historical legacy test receipts do not certify B2predecessor safety; B is reviewing a separately versioned legacy safety derivative and explicitS16bridge. S14 remains latest promoted runtime.
