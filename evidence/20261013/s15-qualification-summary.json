@@ -1,0 +1,53 @@
+{
+  "slice": "S15",
+  "kind": "bounded compatibility/recovery experiment; integrated runtime remains S14",
+  "cells": {
+    "sa21": {
+      "passed": 2,
+      "failed": 0,
+      "seconds": 6.04,
+      "profile": "legacy source closure and separate byte-matched installedS14 child"
+    },
+    "sa20": {
+      "passed": 2,
+      "failed": 0,
+      "seconds": 5.61,
+      "profile": "legacy source closure and separate byte-matched installedS14 child"
+    }
+  },
+  "initial_failure": "child engine omitted existing hide_parameters=True contract; corrected harness, not product change",
+  "scope": [
+    "Text and VARCHAR(64) protected fields",
+    "latest encrypted edits and wide public Unicode values",
+    "native visible column order/types/typmods/collations/index definitions preserved",
+    "original table OID preserved through both transitions; old encrypted backup restored afterward",
+    "package-free legacy workload before/after removal; current package-free workload before removal",
+    "independent legacy/current CF1 decode agrees",
+    "old encrypted restore rejected by latest current REMOVED pin"
+  ],
+  "limits": [
+    "explicit maintenance and plaintext-at-rest consent",
+    "plaintext may enter WAL/backups; no erasure claim",
+    "strict legacy suffix admission remains",
+    "not generic legacy repair, online upgrade or fresh-cluster proof",
+    "same seven unchanged legacy-profile assertions still fail on retained S14",
+    "backup restore performed after transition; synthetic removal attestation does not independently authenticate a backup"
+  ],
+  "source_manifest": {
+    "files": [
+      {
+        "path": "test_legacy_to_retained_bridge.py",
+        "sha256": "de707a226f300b26896799a9f0ab7119e33537c4ba3a5d1694bc412cce7d7381",
+        "bytes": 6821
+      },
+      {
+        "path": "test_retained_bridge_child.py",
+        "sha256": "4cadd8e9b9c2d9a8f3d0ec09a1c9f4fe72d54b050a956709e7422c03d19ef166",
+        "bytes": 6653
+      }
+    ],
+    "runtime": "Unchanged S14installed package; legacy full source closure candidate-public-types-strict",
+    "boundary": "Separate interpreters; retained original legacy and S14 runtime sources untouched"
+  },
+  "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd"
+}
