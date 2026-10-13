@@ -1,0 +1,374 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.........F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F [ 80%]
+..................                                                       [100%]
+=================================== FAILURES ===================================
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-column-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-column-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-renamed-label-sync-protected] _
+tests/test_sqlalchemy_ordering_labels.py:79: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-renamed-label-async-protected] _
+tests/test_sqlalchemy_ordering_labels.py:108: in test_protected_textual_ordering_modifiers_refuse_before_driver
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_ordering_labels.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+=========================== short test summary info ============================
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_first-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[nulls_last-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_first-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[asc_nulls_last-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_first-renamed-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-column-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-column-label-async-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-renamed-label-sync-protected]
+FAILED tests/test_sqlalchemy_ordering_labels.py::test_protected_textual_ordering_modifiers_refuse_before_driver[desc_nulls_last-renamed-label-async-protected]
+32 failed, 58 passed in 10.21s
