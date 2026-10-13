@@ -16,12 +16,14 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
 
     The caller supplies trusted application objects; no modules or source files
     are imported by name. Provider/row access requires explicit bounded ciphertext audit opt-in.
+    Setup mode resolves existing mapping references and prints review-only host
+    integration text without database or key access. It cannot admit a schema.
     Active mode requires a host-authenticated plan/pin and the existing runtime
     engine; only deployment metadata and effective permissions are inspected. The report cannot qualify deployment even when checks succeed.
     """
     checks = {name: {"status": "NOT_INSPECTED"} for name in (
-        "manifest", "native_admission", "deployment", "compatibility", "roles", "provider", "ciphertext")}
-    report = {"format": "cryptalis.doctor/v1", "phase": phase if phase in ("pre_adoption", "active") else "unknown",
+        "manifest", "setup", "native_admission", "deployment", "compatibility", "roles", "provider", "ciphertext")}
+    report = {"format": "cryptalis.doctor/v1", "phase": phase if phase in ("pre_adoption", "active", "setup") else "unknown",
               "effects": "NONE", "authority": "ADVISORY_NOT_AUTHENTICATED",
               "complete": False, "ready": False, "checks": checks,
               "limits": [
@@ -30,7 +32,7 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
                   "Provider custody is not inspected; ciphertext authentication requires explicit active-mode opt-in and bounds.",
                   "Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.",
                   "All seven production gates and actual query routing require separate qualification."]}
-    if phase not in ("pre_adoption", "active"):
+    if phase not in ("pre_adoption", "active", "setup"):
         checks["native_admission"] = {"status": "REJECTED", "code": "unsupported_diagnostic_phase"}
         return report
     if type(manifest) is not bytes:
@@ -55,6 +57,15 @@ def doctor(manifest: bytes, *, mapping=None, engine=None, writers=None,
         return report
     if keys is not None and not audit_ciphertext:
         checks["ciphertext"] = {"status": "REJECTED", "code": "ciphertext_audit_opt_in_required"}
+        return report
+    if phase == "setup":
+        if (writers is not None or type(search_reviews) is not tuple or len(search_reviews) != 0
+                or sources is not None or deployment is not None):
+            checks["setup"] = {"status": "REJECTED", "code": "setup_accepts_mapping_and_engine_only",
+                               "remedy": "Use setup only for offline mapping/engine inspection; select the existing explicit dynamic phase for database inspection."}
+            return report
+        from cryptalis._doctor_setup import inspect_setup
+        checks["setup"] = inspect_setup(declaration, mapping, engine)
         return report
     if phase == "active":
         return _active_report(report, declaration, engine, deployment, mapping, sources,
