@@ -1,0 +1,17 @@
+{
+  "status": "PREPARED_STATIC_ONLY_NO_DATABASE_RUN",
+  "passing_candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-handoff-20261013",
+  "mutant_candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-split-retirement-20261013",
+  "common_control": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/test_online_cf1_atomicity_sensitivity.py",
+  "common_control_sha256": "615ffc7b1d424ec930498b1c9350b463cf3dc07049e364b8fc4e8962ce2efa37",
+  "selector": "../experiments/test_online_cf1_atomicity_sensitivity.py::test_independent_observer_recovers_frame_after_retirement_fault",
+  "baseline_expected": "1 PASS on unchanged D3",
+  "mutant_expected": "1 FAIL at independent observer assert decoded == native, because key10 was durably retired before its frame transaction rolled back; no setup/timeouts counted",
+  "only_changed_file": "tests/_online_cf1_lab.py",
+  "original_helper_sha256": "35e11958cf83a65c4b3a1e8ed838a407dc0a6fe148251130bc9f98c946f9138d",
+  "mutant_helper_sha256": "db07aa8d51c257f9ef8bee5ae2da5d38922dd29c9e61b809748eac7b52e8d101",
+  "original_candidate_unchanged": true,
+  "source_manifest_sha256": "ad1afae0a0e8fe57e8dde53f01da3170af52f058114500864630a597a66f8599",
+  "diff": "--- D3/tests/_online_cf1_lab.py\n+++ split-retirement/tests/_online_cf1_lab.py\n@@ -124,8 +124,8 @@\n     def install(self, c, claimed, *, fault=None):\n         if claimed.operation != self.operation:\n             return False\n-        # Preparation outside the transaction cannot extend an issued lease.\n         keys = self.crypto.ring.prepare(minimum_validity=min(1, self.crypto.ring.max_age / 2))\n+        # Deliberate omission: retirement commits before the frame transaction.\n         with c.transaction():\n             self._require_pin(c, lock=True)\n             current = c.execute(\"SELECT token FROM dirty WHERE operation=%s AND id=%s FOR UPDATE\",\n@@ -134,14 +134,16 @@\n                 return False\n             frame = (seal_text(claimed.value, self.crypto.field, TENANT, claimed.key, keys)\n                      if claimed.live else None)\n+            retired = c.execute(\"DELETE FROM dirty WHERE operation=%s AND id=%s AND token=%s\",\n+                                (self.operation, claimed.key, claimed.token))\n+            assert retired.rowcount == 1\n+        with c.transaction():\n+            self._require_pin(c, lock=True)\n             c.execute(\"INSERT INTO staged(operation,id,frame,live,token) VALUES(%s,%s,%s,%s,%s) \"\n                       \"ON CONFLICT(operation,id) DO UPDATE SET frame=EXCLUDED.frame,live=EXCLUDED.live,token=EXCLUDED.token\",\n                       (self.operation, claimed.key, frame, claimed.live, claimed.token))\n             if fault == \"after_stage\":\n                 raise RuntimeError(\"CF1 worker after stage\")\n-            retired = c.execute(\"DELETE FROM dirty WHERE operation=%s AND id=%s AND token=%s\",\n-                                (self.operation, claimed.key, claimed.token))\n-            assert retired.rowcount == 1\n             if fault == \"after_retire\":\n                 raise RuntimeError(\"CF1 worker after retire\")\n             return True\n",
+  "limitations": "Synthetic same-process exception/reconstruction; no product or online cutover qualification. Mutant is intentionally incorrect and must never be promoted."
+}

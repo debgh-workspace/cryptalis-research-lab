@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_______ test_independent_observer_recovers_frame_after_retirement_fault ________
+../experiments/test_online_cf1_atomicity_sensitivity.py:32: in test_independent_observer_recovers_frame_after_retirement_fault
+    resumed.finish(worker)
+tests/_online_enumeration_lab.py:180: in finish
+    self.oracle(c)
+tests/_online_cf1_lab.py:166: in oracle
+    assert decoded == native
+           ^^^^^^^^^^^^^^^^^
+E   AssertionError
+=========================== short test summary info ============================
+FAILED ../experiments/test_online_cf1_atomicity_sensitivity.py::test_independent_observer_recovers_frame_after_retirement_fault
+1 failed in 0.40s
