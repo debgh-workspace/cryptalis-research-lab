@@ -1,0 +1,43 @@
+{
+  "exit_code": 3,
+  "input_unchanged": true,
+  "input_sha256": "5e2b818a4d70a515e0877e3ae5803664c953c22d02f2e71c4dee80d7e6e049ff",
+  "report": {
+    "authority": "ADVISORY_NOT_AUTHENTICATED",
+    "checks": {
+      "ciphertext": {
+        "status": "NOT_INSPECTED"
+      },
+      "compatibility": {
+        "status": "NOT_INSPECTED"
+      },
+      "manifest": {
+        "model_count": 1,
+        "scope": "declaration_grammar_only",
+        "sha256": "5e2b818a4d70a515e0877e3ae5803664c953c22d02f2e71c4dee80d7e6e049ff",
+        "status": "CHECKED"
+      },
+      "native_admission": {
+        "status": "NOT_INSPECTED"
+      },
+      "provider": {
+        "status": "NOT_INSPECTED"
+      },
+      "roles": {
+        "status": "NOT_INSPECTED"
+      }
+    },
+    "complete": false,
+    "effects": "NONE",
+    "format": "cryptalis.doctor/v1",
+    "limits": [
+      "Only native pre-adoption schema admission and supplied source snapshots are supported.",
+      "Writer completeness and value-domain reviews are host assertions, not independent discovery.",
+      "Effective-role coverage, provider custody and ciphertext authentication are not inspected.",
+      "Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.",
+      "All seven production gates and actual query routing require separate qualification."
+    ],
+    "phase": "pre_adoption",
+    "ready": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "commit": "6c35a5fb47de8b778eae0b977a97ba01525376ac",
+  "remote_byte_verification": [
+    {
+      "path": "candidate/src/cryptalis/doctor.py",
+      "sha": "9fc039b6cfa671dfe53bf6b9a7df10de7a595ab3",
+      "match": true
+    },
+    {
+      "path": "candidate/src/cryptalis/cli.py",
+      "sha": "5c69c8b72d6d43ea2d882a67800f5ee82e385e44",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_doctor.py",
+      "sha": "f88eb3eb14d86ec873716c8ad17cba525aace665",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/doctor.md",
+      "sha": "1ce7c690d29842a9b593d59a536677809042ea90",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+      "sha": "30e3f8b0d9d7cd26fd0852ccd8ffed2243c024fa",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "sha": "816c0320e1401bf71e0c24ed12d5f58c81061926",
+      "match": true
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "e8d349559b8f52774bf531b0ad6778995b2bb7ef",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s12-source-manifest.json",
+      "sha": "842124705fe821c00c09f37794375e0185afff75",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s12-qualification-summary.json",
+      "sha": "15db21dc016e667a3fac97d6875ad4cb6ad2663b",
+      "match": true
+    }
+  ],
+  "composite_recovery": {
+    "files": 179,
+    "basis": "Verified S11 recovery plus six updates matching exact-commit remote bytes",
+    "boundary": "Same-host byte recovery; no fresh-cluster or credential qualification"
+  }
+}
