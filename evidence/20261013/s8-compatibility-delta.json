@@ -178,6 +178,6 @@
       "seconds": 0.506
     }
   ],
-  "other_dependency_cell": "PENDING",
-  "real_application": "PENDING"
+  "other_dependency_cell": "SQLAlchemy2.0.51: same35 new cases PASS; full1742PASS7FAIL18SKIP",
+  "real_application": "58 native +58 protected +58 package-free before removal +58 after removal PASS; each0errors/failures/skips; same-host synthetic, original app source unchanged"
 }

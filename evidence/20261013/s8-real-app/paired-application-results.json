@@ -1,0 +1,106 @@
+[
+  {
+    "mode": "native",
+    "scope": "Retained-column research encrypted email equality/uniqueness plus full_name storage through removal and backup recovery; explicit C profile and extra operator grants",
+    "pytest_exit_code": 0,
+    "explicit_table_schema_assignments": 0,
+    "elapsed_seconds": 6.44763622499886,
+    "source_unchanged": true,
+    "application_source_changes": 0,
+    "production_integration_lines": 0,
+    "test_fixture_integration_lines": 0,
+    "integration_points": 0,
+    "counts": {
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  {
+    "mode": "protected",
+    "scope": "Retained-column research encrypted email equality/uniqueness plus full_name storage through removal and backup recovery; explicit C profile and extra operator grants",
+    "protection_active": true,
+    "pytest_exit_code": 0,
+    "post_suite_lifecycle_seed": {
+      "users": 7,
+      "items": 7,
+      "purpose": "Nonempty independent lifecycle corpus after successful unchanged upstream teardown",
+      "application_source_changes": 0
+    },
+    "raw_storage": [
+      7,
+      6,
+      true
+    ],
+    "independent_frame_oracle": {
+      "rows": 7,
+      "non_null_frames": 6,
+      "exact_match_to_orm": true
+    },
+    "encrypted_email_oracle": {
+      "rows": 7,
+      "all_stored_as_cf1": true,
+      "independent_values_exact": true,
+      "schema_profile": "explicit C collation",
+      "leakage": "equality/frequency retained"
+    },
+    "reverse_plan": {
+      "read_only_plan_created": true,
+      "format": "cryptalis.reverse/retained-native-research-v0",
+      "digest": "5c30b4b3744d64f4501762e8846c63514435817ecfb71fee5ea92101994ec42c"
+    },
+    "decrypt_back": {
+      "phase": "PLAINTEXT_PENDING",
+      "exact_values": true,
+      "native_schema_checked_by_transition": true,
+      "rows": 7,
+      "publication_complete": true,
+      "package_free_application_verified": true
+    },
+    "package_free": {
+      "pytest_exit_code": 0,
+      "package_absent": true,
+      "new_plaintext_runtime_role": true,
+      "application_source_edits": 0,
+      "preserved_values_exact_before_reset": true,
+      "fixture_reset_before_suite": true,
+      "email_values_checked": true,
+      "child_values_checked": true
+    },
+    "extra_operator_step": "Explicit lab-only grants for unprotected Item to the existing plaintext role",
+    "backup_restore_before_removal": {
+      "real_pg_dump_and_psql": true,
+      "exact_independently_decrypted_rows": 7
+    },
+    "after_removal": {
+      "pytest_exit_code": 0,
+      "package_absent": true,
+      "new_plaintext_runtime_role": true,
+      "application_source_edits": 0,
+      "preserved_values_exact_before_reset": true,
+      "fixture_reset_before_suite": true,
+      "email_values_checked": true,
+      "child_values_checked": true
+    },
+    "removal": {
+      "phase": "REMOVED",
+      "old_restore_rejected": true,
+      "backup_recovery_exact": true,
+      "protected_bulk_teardown_still_open": false
+    },
+    "explicit_table_schema_assignments": 0,
+    "elapsed_seconds": 21.630402795002738,
+    "source_unchanged": true,
+    "application_source_changes": 0,
+    "production_integration_lines": 13,
+    "test_fixture_integration_lines": 4,
+    "integration_points": 2,
+    "counts": {
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  }
+]

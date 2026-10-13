@@ -4,9 +4,11 @@ Private research repository. Original Debrato2005/cryptalis stays read-only; its
 
 ## Current working candidate
 
-`candidate/` contains the integrated experimental S7 source, tests, examples and documentation. S6 normalizes malformed protection-plan rejection; S7 accepts positive finite measured rates only in explicit transition-artifact estimate fields, leaving manifest numeric grammar unchanged. Integer artifacts remain compatible; older readers refuse new fractional artifacts. S8 public-table binding remains separate under experiments/s8-public-binding pending qualification. The root `CRYPTALIS_BUILD_CHECKLIST.md` is the authoritative current ledger. Seven legacy-profile assertions still fail; no production gate is qualified.
+`candidate/` contains integrated experimental S8 source, tests and documentation. S6 normalizes malformed-plan diagnostics; S7 supports bounded fractional measured-rate artifacts; S8 resolves and freezes eligible native unqualified public table mappings. The root checklist is authoritative. Private DELETE/cascade opt-ins and locked inventories remain required.
 
-Installed S7: SQLAlchemy 2.1.3: 1725 passed, 7 failed; 2.0.51: 1707 passed, 7 failed, 18 native-version skips. Full logs and source inventory are in `evidence/20261013/`. Reproducible wheel/sdist and build report are in `experiments/s7-rate-estimates/artifacts/`. Wheel SHA256: 19efd5eafede07616c45c21be491fe85206f52cd0c1ada53fa76dee8ab2ea6e8.
+Installed S8: SQLAlchemy 2.1.3:1760 passed,7 failed; 2.0.51:1742 passed,7 failed,18 native-version skips. The seven legacy-layout assertions remain open, unchanged. Pinned real FastAPI:58 native +58 protected +58 package-free before removal +58 after removal pass, each zero failures/errors/skips, without upstream source edits or per-table schema assignments. Explicit C collation,13 bootstrap/4 fixture lines and operator grants remain. Seven-user/seven-item synthetic recovery matched exactly. No production gate is qualified.
+
+Artifacts: experiments/s8-public-binding/artifacts/. Wheel SHA256:504224d80ff095071039f691e5a742da8f46536bf73947e8a9e67cefc7677cba. Source inventory and same-host173-file composite recovery receipt: evidence/20261013/s8-source-manifest.json and s8-recovery-receipt.json. Prior S5/S6/S7 checkpoints remain in history. Integer artifacts remain compatible; older readers refuse S7 fractional artifacts.
 
 ## Verified recovery baselines
 

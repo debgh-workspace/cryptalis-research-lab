@@ -1,0 +1,60 @@
+{
+  "commit": "248b1158672abf723e3cf66e6f8cb487ec77a89c",
+  "remote_byte_verification": [
+    {
+      "path": "candidate/src/cryptalis/sqlalchemy.py",
+      "sha": "3e46e2b30787862718fab1cc15d051242ae6b6a1",
+      "match": true
+    },
+    {
+      "path": "candidate/src/cryptalis/_experimental_public_delete.py",
+      "sha": "fa443543c83aafb0d2a0ee1e7949c5bc3d7acf79",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_unqualified_public_child.py",
+      "sha": "c1f86aebb07ebd8f8f3d1eb1e8060ecdd42cdcad",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_unqualified_public_child_async.py",
+      "sha": "5ec53468721f4b9d60e798bd2def3df3a9a3e051",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/single_tenant_public_cascade_fixture.py",
+      "sha": "42b7524b6e2bbb164180ccb4de61fde7be4e1d06",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+      "sha": "e345e196aa56d46ce88e7399d5a0b4e1da1cdeed",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "sha": "880048e8cc50643d97f9bcabcb438eaa06b0f1c6",
+      "match": true
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "ec6bc438f4d488a3042f75b29b20bb6cffc0d3a4",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s8-qualification-summary.json",
+      "sha": "a023cae97651f437b3144c4b0962cf90aaa7c45d",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s8-installed-full-sa20.log",
+      "sha": "f1785523b4486c2cfabca071cc8ed01729040894",
+      "match": true
+    }
+  ],
+  "composite_recovery": {
+    "files": 173,
+    "basis": "Verified S7 recovery plus seven updates matching exact-commit remote bytes",
+    "boundary": "Same-host composite file recovery; no fresh-machine or credentials claim"
+  }
+}
