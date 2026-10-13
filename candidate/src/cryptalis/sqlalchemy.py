@@ -28,6 +28,7 @@ from sqlalchemy.sql.dml import Insert, Update, Delete
 from sqlalchemy.types import JSON, NullType, TypeDecorator
 
 from . import _experimental_public_delete as _delete_experiment
+from . import _experimental_public_update as _update_experiment
 from ._sqlalchemy_guard import install_guard
 from ._sqlalchemy_transactions import (install_control, inspect_control, native_scope,
     track_transaction, fail_prepared_flush, after_begin as control_after_begin, after_end as control_after_end)
@@ -452,6 +453,7 @@ class _Attachment:
             binding.column.type = _Payload(binding, self)
         for table, schema, name in self.public_schema_pins:
             table.schema = schema
+        _update_experiment.freeze_mappings(self)
         self.fingerprint = self._fingerprint()
         engine.clear_compiled_cache()
         # ORM flush uses mapper-owned caches, separate from the engine cache.
@@ -608,6 +610,8 @@ class _Attachment:
             return
         if _delete_experiment.target(self, statement) is not None:
             return
+        if _update_experiment.admitted(self, statement):
+            return
         if flushing and isinstance(statement, (Insert, Update, Delete)):
             return
         if not isinstance(statement, Select):
@@ -757,6 +761,8 @@ class _Attachment:
         if execution_options.get("schema_translate_map"):
             raise PolicyMismatch()
         self.admit(statement, operation.flushing)
+        if isinstance(statement, Update) and not operation.flushing:
+            _update_experiment.before_execute(self, connection, statement, multiparams, params)
         if operation.flushing and isinstance(statement, Delete):
             self._prepare_native_delete(connection, statement, multiparams if multiparams else [params], operation)
         if isinstance(statement, (Insert, Update)):
@@ -798,6 +804,8 @@ class _Attachment:
         if context.compiled is None:
             raise UnsupportedProtectedOperation()
         self.admit(context.compiled.statement, operation.flushing)
+        if isinstance(context.compiled.statement, Update) and not operation.flushing:
+            _update_experiment.check_cursor(self, context)
         if operation.flushing and isinstance(context.compiled.statement, Delete):
             self._check_native_delete_cursor(context, operation)
 
@@ -883,13 +891,13 @@ def _failed_flush_preparation(session, failure):
 
 
 def _query_would_autoflush(session, statement, execution_options):
-    """Match the supported native SELECT/private DELETE flush boundary.
+    """Match the supported native SELECT/private DML flush boundary.
 
     SQLAlchemy 2.1 adds Core autoflush, independent of ORM execution options.
     Session.autoflush/no_autoflush still control it. ORM option precedence is
     session-wide (2.1), then statement, then the individual execution call.
     """
-    if (not isinstance(statement, (Select, Delete)) or not session.autoflush
+    if (not isinstance(statement, (Select, Delete, Update)) or not session.autoflush
             or not (session.new or session.dirty or session.deleted)):
         return False
     if statement._propagate_attrs.get("compile_state_plugin") != "orm":
@@ -903,7 +911,8 @@ def _query_would_autoflush(session, statement, execution_options):
 @event.listens_for(_Session, "do_orm_execute", retval=True)
 def _execute(state):
     session = state.session
-    if _delete_experiment.target(session._owner, state.statement) is not None:
+    public_update = _update_experiment.target(session._owner, state.statement) is not None
+    if public_update or _delete_experiment.target(session._owner, state.statement) is not None:
         if state.parameters is not None and not isinstance(state.parameters, dict):
             raise UnsupportedProtectedOperation()
         try:
@@ -914,8 +923,16 @@ def _execute(state):
             raise
         operation = _Operation(session._owner, prepared, session._tenant, session)
         token = _operation.set(operation)
+        update_token = None
         try:
-            _delete_experiment.prepare(session, state.statement)
+            if public_update:
+                permit = _update_experiment.prepare(session, state.statement, state.parameters)
+                update_token = _update_experiment._permit.set(permit)
+                # Exact one-operation statement identity must survive to the driver.
+                # No cached UPDATE may retain or substitute invocation authority.
+                state.update_execution_options(compiled_cache=None)
+            else:
+                _delete_experiment.prepare(session, state.statement)
             boundary = _delete_experiment._result_boundary.get()
             if session._asynchronous and (boundary is None or boundary.session is not session):
                 raise UnsupportedProtectedOperation()
@@ -932,6 +949,8 @@ def _execute(state):
         except ProtectedSchemaMismatch as failure:
             raise failure from None
         finally:
+            if update_token is not None:
+                _update_experiment._permit.reset(update_token)
             _operation.reset(token)
     session._owner.admit(state.statement)
     parameters = state.parameters if isinstance(state.parameters, dict) else {}

@@ -1,0 +1,19 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____ test_public_update_matches_native_state_and_transaction[commit-auto] _____
+tests/test_private_public_update.py:85: in test_public_update_matches_native_state_and_transaction
+    result = session.execute(statement)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:936: in _execute
+    session._owner.admit(state.statement)
+src/cryptalis/sqlalchemy.py:614: in admit
+    raise UnsupportedProtectedOperation()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 13-22507f101e9b-0.
+=========================== short test summary info ============================
+FAILED tests/test_private_public_update.py::test_public_update_matches_native_state_and_transaction[commit-auto]
+1 failed, 30 deselected in 0.62s
