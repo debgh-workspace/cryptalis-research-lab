@@ -1,0 +1,14 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________ test_legacy_plaintext_bridge_then_retained_roundtrip _____________
+../experiments/test_legacy_to_retained_bridge.py:82: in test_legacy_plaintext_bridge_then_retained_roundtrip
+    current_child(config,'roundtrip',tmp_path/'current-roundtrip.log')
+../experiments/test_legacy_to_retained_bridge.py:44: in current_child
+    assert r.returncode==0,'Current-package child failed; inspect retained child log'
+E   AssertionError: Current-package child failed; inspect retained child log
+E   assert 1 == 0
+E    +  where 1 = CompletedProcess(args=['/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s14-ciphertext-doctor-2026101...LED ../experiments/test_retained_bridge_child.py::test_installed_current_bridge_stage\n1 failed in 0.53s\n', stderr='').returncode
+=========================== short test summary info ============================
+FAILED ../experiments/test_legacy_to_retained_bridge.py::test_legacy_plaintext_bridge_then_retained_roundtrip
+1 failed in 2.09s

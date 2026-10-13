@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________________ test_installed_current_bridge_stage ______________________
+../experiments/test_retained_bridge_child.py:58: in test_installed_current_bridge_stage
+    factory=attach(mapping,runtime,lock=proposal.lock_bytes,keys=keys,deployment=(proposal,active))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../release-lab/s14-ciphertext-doctor-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py:1112: in attach
+    owner.activate()
+../release-lab/s14-ciphertext-doctor-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py:445: in activate
+    raise PolicyMismatch()
+E   cryptalis.sqlalchemy.PolicyMismatch: PolicyMismatch during attachment validation. Check the trusted lock, bytea target, search index/check, tenant key policy, mapping, and guarded engine configuration. Attach before application use. Operation 2b-21c170ce22f4-0.
+=========================== short test summary info ============================
+FAILED ../experiments/test_retained_bridge_child.py::test_installed_current_bridge_stage
+1 failed in 0.53s
