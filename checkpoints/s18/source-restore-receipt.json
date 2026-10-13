@@ -1,0 +1,7 @@
+{
+  "source_commit": "5492cc04ee6c5d6696c9e9fc261f12fa61236043",
+  "files_verified": 201,
+  "remote_verified_overlay_files": 11,
+  "base": "previous verified S17 composite restore",
+  "scope": "same-host source reconstruction from byte-verified remote-equivalent files; no new-cluster qualification"
+}

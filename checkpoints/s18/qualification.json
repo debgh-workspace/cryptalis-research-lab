@@ -1,0 +1,177 @@
+{
+  "status": "bounded integrated research candidate; no production qualification",
+  "candidate": "candidate-accel-setup-integrated-20261013",
+  "source_commit": "5492cc04ee6c5d6696c9e9fc261f12fa61236043",
+  "all_seven_qualification_gates": "UNKNOWN",
+  "main_promotion": "not attempted; explicit approval pending after earlier S17 denial",
+  "full_sa21": {
+    "passed": 2259,
+    "failed": 7,
+    "subtests_passed": 39,
+    "seconds": 393.34
+  },
+  "full_sa20": {
+    "passed": 2213,
+    "failed": 7,
+    "skipped": 46,
+    "subtests_passed": 39,
+    "seconds": 393.95
+  },
+  "failure_scope": "Same exact seven untouched legacy suffix-copy profile assertions. Full suites are not green. B5 native property coverage preserves rather than erases those failures.",
+  "runtime_delta_from_s17": [
+    "src/cryptalis/doctor.py",
+    "src/cryptalis/_doctor_setup.py"
+  ],
+  "new_capability": "Explicit offline doctor setup phase: bounded existing-mapper/local-engine validation and static host-reference template; ready/complete false, no database/key/transition authority",
+  "integration_limits": "No measured real-app line reduction. Actual app still13 external bootstrap+4fixturelines,0appsourceedits. Model-only setup oracle is separate from app replay.",
+  "real_fastapi": [
+    {
+      "path": "native/application-junit.xml",
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "path": "protected/application-junit.xml",
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "path": "protected/package-free-junit.xml",
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "path": "protected/after-removal/package-free-junit.xml",
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "existing_plaintext_role_reused": true,
+  "historical_receipt_field_warning": "new_plaintext_runtime_role=true is historical wording; no new role created",
+  "legacy_bridge": "Not rerun: S17 explicit B4 bridge2PASS percell retained as prior evidence; lifecycle/adapter/crypto bytes unchanged. No new S18-specific bridge claim.",
+  "source_restore": {
+    "source_commit": "5492cc04ee6c5d6696c9e9fc261f12fa61236043",
+    "files_verified": 201,
+    "remote_verified_overlay_files": 11,
+    "base": "previous verified S17 composite restore",
+    "scope": "same-host source reconstruction from byte-verified remote-equivalent files; no new-cluster qualification"
+  },
+  "build": {
+    "artifacts": [
+      {
+        "name": ".gitignore",
+        "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+        "bytes": 1,
+        "identical_rebuild": true
+      },
+      {
+        "name": "cryptalis-0.1.0-py3-none-any.whl",
+        "sha256": "c0f71703e6f98845f405027f5f431ec2f0b8274b7f7d79914bfde0371504353d",
+        "bytes": 130978,
+        "identical_rebuild": true
+      },
+      {
+        "name": "cryptalis-0.1.0.tar.gz",
+        "sha256": "ee530e15cf301c5f77775c054defa82522be05ec483b59b35596bf1d760edf5a",
+        "bytes": 110692,
+        "identical_rebuild": true
+      }
+    ],
+    "source_manifest": {
+      "src/cryptalis/_sqlalchemy_search.py": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63",
+      "src/cryptalis/_transition_json.py": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19",
+      "src/cryptalis/_doctor_ciphertext.py": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755",
+      "src/cryptalis/deprotection.py": "74269171bafe4e771a1b9591acc4c939dec91d7688bccf94f4766da68b4b7004",
+      "src/cryptalis/_doctor_setup.py": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6",
+      "src/cryptalis/_native_text.py": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170",
+      "src/cryptalis/__main__.py": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707",
+      "src/cryptalis/_experimental_public_delete.py": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270",
+      "src/cryptalis/sqlalchemy.py": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+      "src/cryptalis/__init__.py": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2",
+      "src/cryptalis/migration.py": "64c9ff601a36352f5cee74d6d11b4ff8a469f10475816b2fac335327f7afe1b8",
+      "src/cryptalis/_sqlalchemy_guard.py": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819",
+      "src/cryptalis/doctor.py": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72",
+      "src/cryptalis/_experimental_public_update.py": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3",
+      "src/cryptalis/cutover.py": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783",
+      "src/cryptalis/_sqlmodel_support.py": "878617cd732040f0e83b6c6991d53884a2bf0927384bc58c71225d85bf7e2f6f",
+      "src/cryptalis/_sqlalchemy_transactions.py": "cb128481811576d8f16b233d4a30fca060eb9a1bfc4459d5e7e129434cc522ec",
+      "src/cryptalis/cli.py": "0df0b4f0101933b3a069024965b7bc5a3374747aff53d37099d2f22efc105efe",
+      "src/cryptalis/contracts/transition.py": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923",
+      "src/cryptalis/contracts/active_state.py": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532",
+      "src/cryptalis/contracts/__init__.py": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660",
+      "src/cryptalis/contracts/development_authority.py": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7",
+      "src/cryptalis/manifest/descriptor.py": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d",
+      "src/cryptalis/manifest/canonical.py": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8",
+      "src/cryptalis/manifest/parser.py": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448",
+      "src/cryptalis/manifest/__init__.py": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd",
+      "src/cryptalis/manifest/routines.py": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8",
+      "src/cryptalis/manifest/header.py": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a",
+      "src/cryptalis/manifest/compiler.py": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b",
+      "src/cryptalis/manifest/declaration.py": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b",
+      "src/cryptalis/manifest/compatibility.py": "60c725dd0e7c567c579ea444beea2f80e32d27e7a8ccfb2d0938f668fda69099",
+      "src/cryptalis/crypto/_candidate_wrap.py": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4",
+      "src/cryptalis/crypto/__init__.py": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2",
+      "src/cryptalis/crypto/development_file.py": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4",
+      "src/cryptalis/crypto/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+      "src/cryptalis/crypto/keys.py": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56",
+      "src/cryptalis/crypto/_candidate_envelope.py": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f",
+      "src/cryptalis/crypto/_candidate_scalar.py": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a",
+      "src/cryptalis/crypto/_rewrap.py": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b",
+      "pyproject.toml": "d1cdc106d57da65ce0217748dffd3d54795a424e6ba6df1f3aca2bd6ff0360ed",
+      "uv.lock": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+      "LICENSE": "7f5a6a6ca9e6e2d6e75ec8530612396f3eebd2659c79a6ca123bf30a933f23df",
+      "README.md": "a0fbe0cbc8646d8c00eeaebac27fde419047cb420473759b4194ee5d3c925595"
+    },
+    "record_entries_verified": 43,
+    "source_unchanged": true,
+    "scope": "Same-host offline repeated build only; candidate installed suite pending; no commit or release qualification."
+  },
+  "receipts": {
+    "s18-installed-full-sa21-20261013": {
+      "source-stability.json": {
+        "unchanged": true
+      },
+      "external-source-stability.json": {
+        "unchanged": true
+      },
+      "postgres-stop.json": {
+        "exit_code": 0
+      },
+      "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n.............................................................................................................................. [  5%]\n........................................................................ [  8%]\n........................................................................ [ 11%]\n........................................................................ [ 15%]\n........................................................................ [ 18%]\n........................................................................ [ 21%]\n........................................................................ [ 24%]\n...............FFF..FFFF................................................ [ 27%]\n................................................... [ 30%]\n........................................................................ [ 33%]\n........................................................................ [ 36%]\n........................................................................ [ 39%]\n........................................................................ [ 42%]\n........................................................................ [ 45%]\n........................................................................ [ 49%]\n........................................................................ [ 52%]\n........................................................................ [ 55%]\n........................................................................ [ 58%]\n........................................................................ [ 61%]\n........................................................................ [ 65%]\n........................................................................ [ 68%]\n........................................................................ [ 71%]\n........................................................................ [ 74%]\n........................................................................ [ 77%]\n........................................................................ [ 80%]\n........................................................................ [ 84%]\n........................................................................ [ 87%]\n........................................................................ [ 90%]\n........................................................................ [ 93%]\n........................................................................ [ 96%]\n........................................................................ [ 99%]\n.                                                                        [100%]\n=================================== FAILURES ===================================\n_____ test_reverse_refuses_unhandled_public_suffix_comment_before_staging ______\ntests/test_deprotection_ordinals.py:25: in test_reverse_refuses_unhandled_public_suffix_comment_before_staging\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n__________________ test_changed_public_staging_refuses_switch __________________\ntests/test_deprotection_ordinals.py:36: in test_changed_public_staging_refuses_switch\n    name=c.exec_driver_sql(\"SELECT column_name FROM information_schema.columns WHERE table_schema=%s AND column_name LIKE '%%_copy_%%'\",(app.schema,)).scalar_one()\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n../release-lab/s18-manifest-setup-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py:1066: in scalar_one\n    return self._only_one_row(\nlib/sqlalchemy/engine/_result_cy.py:538: in sqlalchemy.engine._result_cy.BaseResultInternal._only_one_row\n    ???\nE   sqlalchemy.exc.NoResultFound: No row was found when one was required\n______________ test_public_copy_participates_in_chunk_byte_bound _______________\ntests/test_deprotection_ordinals.py:47: in test_public_copy_participates_in_chunk_byte_bound\n    with pytest.raises(app.m.TransitionFailure,match='row_exceeds_chunk_byte_limit'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n________ test_reverse_refuses_unhandled_suffix_attributes[column_grant] ________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n_________ test_reverse_refuses_unhandled_suffix_attributes[statistics] _________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n__________ test_reverse_refuses_unhandled_suffix_attributes[storage] ___________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n________ test_reverse_refuses_unhandled_suffix_attributes[compression] _________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-setup-integrated-20261013/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\ntests/test_file_development_provider.py::test_inherited_provider_cannot_unwrap_after_fork\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-setup-integrated-20261013/tests/test_file_development_provider.py:67: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid=os.fork()\n\ntests/test_textual_clause_boundary.py: 48 warnings\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-setup-integrated-20261013/tests/test_textual_clause_boundary.py:29: SADeprecationWarning: Passing expression to ``distinct`` to generate a DISTINCT ON clause is deprecated. Use instead the ``postgresql.distinct_on`` function as an extension.\n    return statement.distinct(expression)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_public_suffix_comment_before_staging\nFAILED tests/test_deprotection_ordinals.py::test_changed_public_staging_refuses_switch\nFAILED tests/test_deprotection_ordinals.py::test_public_copy_participates_in_chunk_byte_bound\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[column_grant]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[statistics]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[storage]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[compression]\n7 failed, 2259 passed, 50 warnings, 39 subtests passed in 393.34s (0:06:33)\n"
+    },
+    "s18-installed-full-sa20-20261013": {
+      "source-stability.json": {
+        "unchanged": true
+      },
+      "external-source-stability.json": {
+        "unchanged": true
+      },
+      "postgres-stop.json": {
+        "exit_code": 0
+      },
+      "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n.............................................................................................................................. [  5%]\n........................................................................ [  8%]\n........................................................................ [ 11%]\n........................................................................ [ 15%]\n........................................................................ [ 18%]\n........................................................................ [ 21%]\n........................................................................ [ 24%]\n...............FFF..FFFF................................................ [ 27%]\n................................................... [ 30%]\n........................................................................ [ 33%]\n........................................................................ [ 36%]\n........................................................................ [ 39%]\n........................................................................ [ 42%]\n........................................................................ [ 45%]\n........................................................................ [ 49%]\n........................................................................ [ 52%]\n........................................................................ [ 55%]\n........................................................................ [ 58%]\n........................................................................ [ 61%]\n.......................................................................s [ 65%]\nsssssssss............................................................... [ 68%]\n........................................................................ [ 71%]\n........................................................................ [ 74%]\n........................................................................ [ 77%]\n........................................................................ [ 80%]\n........................................................................ [ 84%]\n...................................................ssssssss............. [ 87%]\n.ssssssss........................ssssssss....ssss............ssss....sss [ 90%]\ns....................................................................... [ 93%]\n........................................................................ [ 96%]\n........................................................................ [ 99%]\n.                                                                        [100%]\n=================================== FAILURES ===================================\n_____ test_reverse_refuses_unhandled_public_suffix_comment_before_staging ______\ntests/test_deprotection_ordinals.py:25: in test_reverse_refuses_unhandled_public_suffix_comment_before_staging\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n__________________ test_changed_public_staging_refuses_switch __________________\ntests/test_deprotection_ordinals.py:36: in test_changed_public_staging_refuses_switch\n    name=c.exec_driver_sql(\"SELECT column_name FROM information_schema.columns WHERE table_schema=%s AND column_name LIKE '%%_copy_%%'\",(app.schema,)).scalar_one()\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n../release-lab/s18-manifest-setup-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/result.py:1518: in scalar_one\n    return self._only_one_row(\n../release-lab/s18-manifest-setup-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/result.py:799: in _only_one_row\n    raise exc.NoResultFound(\nE   sqlalchemy.exc.NoResultFound: No row was found when one was required\n______________ test_public_copy_participates_in_chunk_byte_bound _______________\ntests/test_deprotection_ordinals.py:47: in test_public_copy_participates_in_chunk_byte_bound\n    with pytest.raises(app.m.TransitionFailure,match='row_exceeds_chunk_byte_limit'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n________ test_reverse_refuses_unhandled_suffix_attributes[column_grant] ________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n_________ test_reverse_refuses_unhandled_suffix_attributes[statistics] _________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n__________ test_reverse_refuses_unhandled_suffix_attributes[storage] ___________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n________ test_reverse_refuses_unhandled_suffix_attributes[compression] _________\ntests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-setup-integrated-20261013/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\ntests/test_file_development_provider.py::test_inherited_provider_cannot_unwrap_after_fork\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-setup-integrated-20261013/tests/test_file_development_provider.py:67: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid=os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nSKIPPED [8] tests/test_sqlalchemy_async_collection_methods.py:19: Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell\nSKIPPED [2] tests/test_sqlalchemy_async_collection_methods.py:65: Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell\nSKIPPED [8] tests/test_sqlalchemy_session_execution_options.py:11: Session-wide execution options are a native SQLAlchemy 2.1 API\nSKIPPED [16] tests/test_textual_clause_boundary.py:70: Native SQLAlchemy 2.0 has no distinct_on syntax extension\nSKIPPED [12] tests/test_textual_clause_boundary.py:72: Native SQLAlchemy 2.0 has no generic aggregate_order_by API\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_public_suffix_comment_before_staging\nFAILED tests/test_deprotection_ordinals.py::test_changed_public_staging_refuses_switch\nFAILED tests/test_deprotection_ordinals.py::test_public_copy_participates_in_chunk_byte_bound\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[column_grant]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[statistics]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[storage]\nFAILED tests/test_deprotection_ordinals.py::test_reverse_refuses_unhandled_suffix_attributes[compression]\n7 failed, 2213 passed, 46 skipped, 2 warnings, 39 subtests passed in 393.95s (0:06:33)\n"
+    },
+    "s18-real-fastapi-unqualified-20261013": {
+      "source-stability.json": {
+        "unchanged": true
+      },
+      "external-source-stability.json": {
+        "unchanged": true
+      },
+      "postgres-stop.json": {
+        "exit_code": 0
+      },
+      "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n.                                                                        [100%]\n1 passed in 32.78s\n"
+    }
+  },
+  "excluded": "C1/C5 held performance changes; D online prototypes; F2 provider prototype; active rewrap successor",
+  "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd"
+}

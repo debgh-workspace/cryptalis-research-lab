@@ -629,3 +629,27 @@ Source staged in two remotely byte-matched batches on accel/integration-s17-2026
 ## Publication decision — 2026-10-13 15:02 UTC
 
 S17 research branch checkpoint ab40f030f377de564b7db58925ec76e919e4910c remotely verified: both artifacts, all17changed source files and195-file restored composite. Main promotion was denied by action review because research checkpoint authority did not explicitly cover moving an unqualified candidate onto main. Explicit user approval requested; no bypass/retry. Main remains123bceafa969c3d9e992768be612b7efb7cb0a07 with S14 runtime. Continue independent isolated work.
+
+## Independent post-S17 slices — 2026-10-13 15:18 UTC
+
+- A3 new native optimistic-versioning oracle:4PASS1.78s SA2.1 and4PASS1.47s SA2.0. Exact integer version_id_col, ordinary stale UPDATE/DELETE, sync/async, root transactions, rollback/retry and independent stored-value verification.195inherited S17files unchanged. Does not expand private bulk UPDATE or qualify all version generators.
+- B5 initial four new reverse/ACL oracles plus affected controls:35PASS11.85s SA2.1 and35PASS11.21s SA2.0. Internal independent review confirms exact historical7failures remain, native catalog/value assertions genuine. Observer caveat: column-name checks and last-rowcount alone do not prove all fetched public bytes absent; stronger observer is being prepared, no runtime defect claimed.
+- D3 isolated captured-text CF1 handoff:24PASS2.08s SA2.1 and24PASS2.65s SA2.0. D1capture/enumeration unchanged, D2 decoder independently verifies final current frames and rejects six corrupted/incomplete alternatives. Synthetic one-field/storage-only finite research; no online cutover/publication, process-death, live provider or performance qualification.
+- C5 separate no-textual-reference admission fast-path hypothesis: deterministic100/100 redundant walks removed in in-memory experiment, existing admission counts preserved; pure predeclared gate FAILED SA2.0 IN2 consistency7/9 versus8/9 required. Runtime unchanged; no DB benchmark or promotion. C1 also remains held.
+- D2 offline oracle published b132ba2b9e0fee260a736e82c9b729b02c435d84,4files remote-byte verified. F2 offline provider shape validator published a5b895d65d379d58fecdbe3ba85ff76bb0a80b32,9files verified. F2 internalreview found no actionable gap in narrowclaims, but authenticated provider binding/transport association/lease/cancellation/fork/rewrap/publication remain unproven; context metadata notapproved for real provider.
+
+## S18 integration preparation — 2026-10-13 15:46 UTC
+
+F3 explicit offline setup diagnosis resolves existing mapped selectors and checks local engine logging without connection/key access, model/schema duplication or transition authority.14puremethods percell and62affectedPGtests+21subtests percell PASS7.41/7.07s. Internalreview found no actionable bounded blocker. No measured integration-line reduction or new real-app replay is claimed. Exact8-file research snapshot4129f952d78a5f94612111811462d5fc5c263415 remote-byte verified.
+
+S18 composes exactF3runtime with S17 and adds A3/B5finalindependentoracles;201files,only doctor.py/new_doctor_setup.py runtimechanges. Offline repeatedwheel c0f71703e6f98845f405027f5f431ec2f0b8274b7f7d79914bfde0371504353d andsdist ee530e15cf301c5f77775c054defa82522be05ec483b59b35596bf1d760edf5a match;43RECORDentries and39installedmodules verified. InstalledSA21 full2259PASS7samelegacyFAIL39subtests393.34s;SA20 running. S18notyetpublished/integratedqualified.
+
+B5strongerobserver37PASS10.93/10.19s plusfinalfirst-backfill1PASS0.62/0.71s,bycomposition; old35case/37casebytes preserved. B5branch5f18111b014b1c6e589bb425e3ead4d7e7239726,10filesverified. D3atomicitycontrol1PASS0.39s andisolatedsplitretirement1FAIL0.40s precisely independent decoded==native. D3source/evidence10filecommit8a8fd8d5c9278d84aee7e06adcf2b329104852a8 and4fileproofcommitd3718eba3ca543995a9a937112b5f83f284c53b9 verified. Initial network-error ref update reconciled via missingbranchfile before exact expected-head retry; no duplicatecommit.
+
+C6 onepredeclaredidenticalcodeA/A diagnostic found9/36pairedtiming differences>=10%;GC overlaps one largegap,remainingcausesunresolved. It cannot explainawayC5failure. No speedpromotion.15:27resource sample9CPU/load0.375/8.5GiBavailable islatercontext only,notcausal evidence. Mainapproval remains pending; originalrepo/mailbox unchanged; all7gatesUNKNOWN.
+
+## S18 bounded results — 2026-10-13 15:55 UTC
+
+InstalledSA2.1:2259PASS7unchangedlegacyFAIL39subtests393.34s. InstalledSA2.0:2213PASS7sameFAIL46nativeAPI skips39subtests393.95s. ActualpinnedFastAPI58x4PASS,0fail/error/skip,existingrole reused. All3sessionssource/externalstable andstopped.201-filecompositerestore verified. S17explicitlegacybridge retained asprior evidence; unchanged lifecycle/adapter/cryptobytes,notrelabeledasnewS18bridge.
+
+Sourcepublishedonlyonaccel/integration-s18-20261013 in10-fileand3-filebatches b6324897a33f7f494707d8ba5c3a0dfbc362940f then5492cc04ee6c5d6696c9e9fc261f12fa61236043; exactreadbackpassed. Artifact/qualificationpublicationpending. No mainretry/attempt. Originalmailboxunchanged;all7qualificationgatesUNKNOWN.
