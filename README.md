@@ -4,11 +4,11 @@ Private research repository. Original Debrato2005/cryptalis stays read-only; its
 
 ## Current working candidate
 
-`candidate/` contains integrated experimental S9 source, tests and documentation. S6 normalizes malformed-plan diagnostics; S7 supports bounded fractional measured-rate artifacts; S8 resolves and freezes eligible native unqualified public table mappings. S9 bounds planner numeric rejection without changing estimate formulas. The root checklist is authoritative. Private DELETE/cascade opt-ins and locked inventories remain required.
+`candidate/` contains integrated experimental S10 source, tests and documentation. S6 normalizes malformed-plan diagnostics; S7 supports bounded fractional measured-rate artifacts; S8 resolves and freezes eligible native unqualified public table mappings. S9 bounds planner numeric rejection without changing estimate formulas. S10 reduces temporary tuple serialization allocations without changing wire bytes or key lifetime. The root checklist is authoritative. Private DELETE/cascade opt-ins and locked inventories remain required.
 
-Installed S9: SQLAlchemy 2.1.3:1774 passed,7 failed; 2.0.51:1756 passed,7 failed,18 native-version skips. The seven legacy-layout assertions remain open, unchanged. Last real-app check on S8: pinned FastAPI:58 native +58 protected +58 package-free before removal +58 after removal pass, each zero failures/errors/skips, without upstream source edits or per-table schema assignments. Explicit C collation,13 bootstrap/4 fixture lines and operator grants remain. Seven-user/seven-item synthetic recovery matched exactly. No production gate is qualified.
+Installed S10: SQLAlchemy 2.1.3:1776 passed,7 failed; 2.0.51:1758 passed,7 failed,18 native-version skips. The seven legacy-layout assertions remain open, unchanged. Last real-app check on S8: pinned FastAPI:58 native +58 protected +58 package-free before removal +58 after removal pass, each zero failures/errors/skips, without upstream source edits or per-table schema assignments. Explicit C collation,13 bootstrap/4 fixture lines and operator grants remain. Seven-user/seven-item synthetic recovery matched exactly. No production gate is qualified.
 
-Artifacts: experiments/s9-estimate-bounds/artifacts/. Wheel SHA256:27d62803d9c6f692d7fa91499983e9e7fcd9fb0c410065fb1223489ffb1da165. Source inventory and same-host174-file composite recovery receipt: evidence/20261013/s9-source-manifest.json and s9-recovery-receipt.json. Prior S5/S6/S7/S8 checkpoints remain in history. Integer artifacts remain compatible; older readers refuse S7 fractional artifacts.
+Artifacts: experiments/s10-tuple-encoding/artifacts/. Wheel SHA256:f773483c07aa97d588585acb69c55d988263ed56713b214d62393d161458a9b6. Source inventory and same-host175-file composite recovery receipt: evidence/20261013/s10-source-manifest.json and s10-recovery-receipt.json. Prior S5/S6/S7/S8/S9 checkpoints remain in history. Integer artifacts remain compatible; older readers refuse S7 fractional artifacts.
 
 ## Verified recovery baselines
 
@@ -19,3 +19,5 @@ S5 full checkpoint: concatenate/recover the archive with `python checkpoints/s5/
 Never commit private keys, credentials, runtime homes or live databases. Use only authorized isolated PostgreSQL databases and the unchanged dual-role preflight. New test credentials/fresh cluster qualification remain subject to explicit approval.
 
 Older workspace evidence beyond the recovered S5 archive remains separately inventoried and is not claimed completely published. This repository is not a production deployment or release.
+
+S10 synthetic 8MiB encoder traced peak:16,777,664 to8,388,864 bytes. Same-session paired IN2 medians improved modestly in both dependency cells; point/equality effects varied. No general speedup, process-RSS, tail-latency or production performance qualification.
