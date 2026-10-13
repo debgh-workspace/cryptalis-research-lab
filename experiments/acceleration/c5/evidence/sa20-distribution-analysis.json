@@ -1,0 +1,190 @@
+{
+  "status": "HELD: predeclared consistency failure, not an overall median regression",
+  "source_receipt": "admission-pure-sa20.json",
+  "source_receipt_sha256": "755897d2ebc9d7a1a0c42a99a6e18ab9b0dc6e04b587274ce5763de652b29937",
+  "predeclared_gate": {
+    "primary_median_reduction_percent_min": 10,
+    "favorable_pairs_min": 8,
+    "pairs": 9
+  },
+  "observed": {
+    "median_reduction_percent": 16.75632020818096,
+    "favorable_pairs": 7,
+    "mean_baseline_us": 109.72909088888889,
+    "mean_candidate_us": 92.86136533333332,
+    "median_paired_reduction_percent": 19.47513782619069,
+    "baseline_first_favorable": 4,
+    "baseline_first_pairs": 5,
+    "candidate_first_favorable": 3,
+    "candidate_first_pairs": 4
+  },
+  "all_in2_pairs": [
+    {
+      "block": 0,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": 101.626792,
+      "candidate": 81.001818,
+      "candidate_minus_baseline_us": -20.624973999999995,
+      "reduction_percent": 20.2948194999602
+    },
+    {
+      "block": 1,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": 88.01445,
+      "baseline": 103.47477,
+      "candidate_minus_baseline_us": -15.46032000000001,
+      "reduction_percent": 14.941149422221484
+    },
+    {
+      "block": 2,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": 109.00516800000001,
+      "candidate": 110.208896,
+      "candidate_minus_baseline_us": 1.203727999999984,
+      "reduction_percent": -1.1042852573742044
+    },
+    {
+      "block": 3,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": 73.18063599999999,
+      "baseline": 102.91657000000001,
+      "candidate_minus_baseline_us": -29.735934000000015,
+      "reduction_percent": 28.893242361264093
+    },
+    {
+      "block": 4,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": 133.249936,
+      "candidate": 75.653672,
+      "candidate_minus_baseline_us": -57.59626399999999,
+      "reduction_percent": 43.2242338938159
+    },
+    {
+      "block": 5,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": 89.623558,
+      "baseline": 111.299238,
+      "candidate_minus_baseline_us": -21.67568,
+      "reduction_percent": 19.47513782619069
+    },
+    {
+      "block": 6,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": 116.32923600000001,
+      "candidate": 82.77690799999999,
+      "candidate_minus_baseline_us": -33.55232800000002,
+      "reduction_percent": 28.842558546503316
+    },
+    {
+      "block": 7,
+      "order": [
+        "candidate",
+        "baseline"
+      ],
+      "candidate": 137.15054199999997,
+      "baseline": 105.73109,
+      "candidate_minus_baseline_us": 31.41945199999998,
+      "reduction_percent": -29.71637954361388
+    },
+    {
+      "block": 8,
+      "order": [
+        "baseline",
+        "candidate"
+      ],
+      "baseline": 103.929018,
+      "candidate": 98.141808,
+      "candidate_minus_baseline_us": -5.787210000000002,
+      "reduction_percent": 5.568425557528122
+    }
+  ],
+  "adjacent_block7_cells": [
+    {
+      "block": 7,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 69.71708
+    },
+    {
+      "block": 7,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 98.473054
+    },
+    {
+      "block": 7,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 75.885072
+    },
+    {
+      "block": 7,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 165.251932
+    },
+    {
+      "block": 7,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 137.15054199999997
+    },
+    {
+      "block": 7,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 105.73109
+    },
+    {
+      "block": 7,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 150.876248
+    },
+    {
+      "block": 7,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 167.90863000000002
+    }
+  ],
+  "resource_evidence": {
+    "captured": "perf_counter_ns elapsed per 500-call cell; fixed loop order; separate cProfile counts",
+    "not_captured": [
+      "per-call timings",
+      "process/thread CPU during timed cells",
+      "raw monotonic comparison",
+      "GC events",
+      "scheduler/host contention",
+      "native database brackets"
+    ],
+    "conclusion": "Existing evidence cannot distinguish transient scheduling, GC, or clock/harness effects. No timer defect or causal noise correction is established."
+  },
+  "next_independent_question": {
+    "kind": "measurement negative control, not C5 retest",
+    "question": "Does the identical baseline measured as A/A produce materially asymmetric paired cells under this harness, and do observed differences track wall-only time or GC?",
+    "proposal": "One predeclared nine-block A/A sweep, both slots invoking the exact same S17 admission method, same families and500-call cells. Record wall, raw monotonic, process/thread CPU and GC start/stop markers without changing GC or system settings. Report every pair and any telemetry inconsistency. Do not test or select an optimized winner, rerun C5, or revise its failed classification.",
+    "execution": "NOT RUN; coordinator decision pending"
+  }
+}

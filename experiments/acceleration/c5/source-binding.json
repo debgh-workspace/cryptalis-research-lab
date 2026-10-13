@@ -1,0 +1,25 @@
+{
+  "status": "HELD: SA20 IN2 consistency gate failed; no runtime correction or promotion",
+  "baseline_repository": "debgh-workspace/cryptalis-research-lab",
+  "baseline_branch": "accel/integration-s17-20261013",
+  "baseline_checkpoint_commit": "ab40f030f377de564b7db58925ec76e919e4910c",
+  "checkpoint_provenance": "Coordinator reports remotely byte-verified S17 research checkpoint; main promotion is separate and not implied.",
+  "baseline_source_files": 195,
+  "baseline_source_manifest_sha256": "70a5293e76486f243305968c7a58b8fa8c6be97d5bec5508593529b9eacc49e7",
+  "baseline_sqlalchemy_sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+  "baseline_wheel_sha256": "b7b788edbab99a0110c35a6885c9b7387b34b0ed3a84507445b8cd423ff14aa0",
+  "counterfactual_admit_source_sha256": "b4000469501eb36d5fbf940a82d4c81475dc8b29d3b6b5bc74327bd3fd549295",
+  "experiment_sha256": "1caf27244000cec001bc6327edf85de1d1515d99a754632ac01b46e41ae607ad",
+  "predeclared_gate_sha256": "215f38cb7dacfffe25f9d52150a02d3930c85312bf12d871b040170cc711ce92",
+  "dependency_cells": [
+    "Python3.12 / SQLAlchemy2.1.3",
+    "Python3.12 / SQLAlchemy2.0.51"
+  ],
+  "recovery": "Use the exact complete S17 source referenced by this manifest and checkpoint. The probe imports cryptalis plus S17 test_textual_clause_boundary and its helper modules. It asserts the original sqlalchemy.py hash, then applies two exact source replacements to an in-memory method. The baseline runtime file and complete source manifest accompany this record.",
+  "execution_scope": "Pure synthetic SQLAlchemy AST admission. No engine, database, provider, credentials or live data. No repeat of the failed gate is authorized by publication.",
+  "raw_receipts": {
+    "admission-pure-sa21.json": "979de19fe5f5d932182e8a6ba9dce22f1f170f900d67e90216a334a0ee613b84",
+    "admission-pure-sa20.json": "755897d2ebc9d7a1a0c42a99a6e18ab9b0dc6e04b587274ce5763de652b29937"
+  },
+  "safety_limits": "Immutable/generative AST controls only; no concurrent internal AST mutation qualification. Cancellation coverage does not establish a post-call cancellation boundary. No end-to-end/native DB or production performance claim."
+}

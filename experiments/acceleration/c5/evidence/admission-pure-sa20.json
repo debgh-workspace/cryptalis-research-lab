@@ -1,0 +1,551 @@
+{
+  "scope": "Pure admission only; not end-to-end latency or native DB verification",
+  "sqlalchemy": "2.0.51",
+  "baseline_sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+  "counterfactual_sha256": "b4000469501eb36d5fbf940a82d4c81475dc8b29d3b6b5bc74327bd3fd549295",
+  "outcome_controls": 50,
+  "thread_checks": 1024,
+  "cancellation": {
+    "cancelled": 2,
+    "completed": 6,
+    "owner_state_unchanged": true
+  },
+  "call_counts_per_100": {
+    "point": {
+      "baseline": {
+        "references": 700,
+        "_admit_textual_references": 100,
+        "admit": 100,
+        "protected": 1600,
+        "shares_lineage": 1500,
+        "iterate": 5800
+      },
+      "candidate": {
+        "admit": 100,
+        "protected": 1500,
+        "shares_lineage": 1400,
+        "iterate": 5600
+      }
+    },
+    "equality": {
+      "baseline": {
+        "references": 700,
+        "_admit_textual_references": 100,
+        "search_shape": 200,
+        "admit": 100,
+        "protected": 1600,
+        "shares_lineage": 1800,
+        "iterate": 5500
+      },
+      "candidate": {
+        "admit": 100,
+        "search_shape": 200,
+        "protected": 1500,
+        "shares_lineage": 1700,
+        "iterate": 5300
+      }
+    },
+    "in2": {
+      "baseline": {
+        "references": 700,
+        "_admit_textual_references": 100,
+        "search_shape": 200,
+        "admit": 100,
+        "protected": 1600,
+        "shares_lineage": 1800,
+        "iterate": 5500
+      },
+      "candidate": {
+        "admit": 100,
+        "search_shape": 200,
+        "protected": 1500,
+        "shares_lineage": 1700,
+        "iterate": 5300
+      }
+    },
+    "public_label": {
+      "baseline": {
+        "references": 700,
+        "_admit_textual_references": 100,
+        "admit": 100,
+        "protected": 1400,
+        "shares_lineage": 1100,
+        "iterate": 4900
+      },
+      "candidate": {
+        "references": 700,
+        "_admit_textual_references": 100,
+        "admit": 100,
+        "protected": 1400,
+        "shares_lineage": 1100,
+        "iterate": 4900
+      }
+    }
+  },
+  "mechanism_gate": true,
+  "pure_speed_gate": false,
+  "aggregate": [
+    {
+      "family": "point",
+      "before_us": 104.233094,
+      "after_us": 79.662628,
+      "reduction_percent": 23.57261504681037,
+      "favorable_pairs": 9
+    },
+    {
+      "family": "equality",
+      "before_us": 116.26985,
+      "after_us": 83.541332,
+      "reduction_percent": 28.148757394973853,
+      "favorable_pairs": 9
+    },
+    {
+      "family": "in2",
+      "before_us": 105.73109,
+      "after_us": 88.01445,
+      "reduction_percent": 16.75632020818096,
+      "favorable_pairs": 7
+    },
+    {
+      "family": "public_label",
+      "before_us": 154.273888,
+      "after_us": 159.440684,
+      "reduction_percent": -3.349105974434251,
+      "favorable_pairs": 5
+    }
+  ],
+  "records": [
+    {
+      "block": 0,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 104.233094
+    },
+    {
+      "block": 0,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 83.04887
+    },
+    {
+      "block": 0,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 111.413488
+    },
+    {
+      "block": 0,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 83.416428
+    },
+    {
+      "block": 0,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 101.626792
+    },
+    {
+      "block": 0,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 81.001818
+    },
+    {
+      "block": 0,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 150.981204
+    },
+    {
+      "block": 0,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 160.64041
+    },
+    {
+      "block": 1,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 79.662628
+    },
+    {
+      "block": 1,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 101.637448
+    },
+    {
+      "block": 1,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 85.441868
+    },
+    {
+      "block": 1,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 102.922078
+    },
+    {
+      "block": 1,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 88.01445
+    },
+    {
+      "block": 1,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 103.47477
+    },
+    {
+      "block": 1,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 169.07861
+    },
+    {
+      "block": 1,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 159.54516
+    },
+    {
+      "block": 2,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 112.205272
+    },
+    {
+      "block": 2,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 81.01015
+    },
+    {
+      "block": 2,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 108.44812399999999
+    },
+    {
+      "block": 2,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 91.382144
+    },
+    {
+      "block": 2,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 109.00516800000001
+    },
+    {
+      "block": 2,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 110.208896
+    },
+    {
+      "block": 2,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 126.852454
+    },
+    {
+      "block": 2,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 125.194596
+    },
+    {
+      "block": 3,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 69.176344
+    },
+    {
+      "block": 3,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 88.23728
+    },
+    {
+      "block": 3,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 71.553462
+    },
+    {
+      "block": 3,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 90.231612
+    },
+    {
+      "block": 3,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 73.18063599999999
+    },
+    {
+      "block": 3,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 102.91657000000001
+    },
+    {
+      "block": 3,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 134.70877
+    },
+    {
+      "block": 3,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 180.28226
+    },
+    {
+      "block": 4,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 119.056648
+    },
+    {
+      "block": 4,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 76.750804
+    },
+    {
+      "block": 4,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 132.706946
+    },
+    {
+      "block": 4,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 83.541332
+    },
+    {
+      "block": 4,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 133.249936
+    },
+    {
+      "block": 4,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 75.653672
+    },
+    {
+      "block": 4,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 138.283348
+    },
+    {
+      "block": 4,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 164.29888
+    },
+    {
+      "block": 5,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 75.247294
+    },
+    {
+      "block": 5,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 128.28304
+    },
+    {
+      "block": 5,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 76.042824
+    },
+    {
+      "block": 5,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 132.565938
+    },
+    {
+      "block": 5,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 89.623558
+    },
+    {
+      "block": 5,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 111.299238
+    },
+    {
+      "block": 5,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 159.440684
+    },
+    {
+      "block": 5,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 154.273888
+    },
+    {
+      "block": 6,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 103.10274199999999
+    },
+    {
+      "block": 6,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 86.74037799999999
+    },
+    {
+      "block": 6,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 123.76303
+    },
+    {
+      "block": 6,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 100.05844599999999
+    },
+    {
+      "block": 6,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 116.32923600000001
+    },
+    {
+      "block": 6,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 82.77690799999999
+    },
+    {
+      "block": 6,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 141.051478
+    },
+    {
+      "block": 6,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 137.211432
+    },
+    {
+      "block": 7,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 69.71708
+    },
+    {
+      "block": 7,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 98.473054
+    },
+    {
+      "block": 7,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 75.885072
+    },
+    {
+      "block": 7,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 165.251932
+    },
+    {
+      "block": 7,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 137.15054199999997
+    },
+    {
+      "block": 7,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 105.73109
+    },
+    {
+      "block": 7,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 150.876248
+    },
+    {
+      "block": 7,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 167.90863000000002
+    },
+    {
+      "block": 8,
+      "family": "point",
+      "variant": "baseline",
+      "us_per_admission": 124.642106
+    },
+    {
+      "block": 8,
+      "family": "point",
+      "variant": "candidate",
+      "us_per_admission": 84.02359200000001
+    },
+    {
+      "block": 8,
+      "family": "equality",
+      "variant": "baseline",
+      "us_per_admission": 116.26985
+    },
+    {
+      "block": 8,
+      "family": "equality",
+      "variant": "candidate",
+      "us_per_admission": 94.560722
+    },
+    {
+      "block": 8,
+      "family": "in2",
+      "variant": "baseline",
+      "us_per_admission": 103.929018
+    },
+    {
+      "block": 8,
+      "family": "in2",
+      "variant": "candidate",
+      "us_per_admission": 98.141808
+    },
+    {
+      "block": 8,
+      "family": "public_label",
+      "variant": "baseline",
+      "us_per_admission": 171.95266800000002
+    },
+    {
+      "block": 8,
+      "family": "public_label",
+      "variant": "candidate",
+      "us_per_admission": 169.47935
+    }
+  ]
+}
