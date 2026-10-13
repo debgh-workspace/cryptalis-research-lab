@@ -486,6 +486,8 @@ def remove(p,engine,*,pin,approval,plaintext_approval,removal_approval):
     Attestation strings identify externally checked evidence; this function does
     not authenticate a backup or run the host application on the caller's behalf.
     """
+    if type(p) is not DeprotectionPlan:
+        raise m.TransitionFailure('external_reverse_policy_mismatch')
     if (type(removal_approval) is not RemovalApproval or removal_approval.plan_digest!=p.digest
             or removal_approval.old_workers_stopped is not True
             or any(type(v) is not str or not v.strip() for v in
