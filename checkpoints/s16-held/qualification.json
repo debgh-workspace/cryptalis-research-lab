@@ -1,0 +1,37 @@
+{
+  "candidate": "candidate-accel-integrated-20261013",
+  "source_files": 188,
+  "status": "HELD; do not promote",
+  "sa21": {
+    "passed": 2047,
+    "failed": 7,
+    "skipped": 0,
+    "seconds": 381.08
+  },
+  "sa20": {
+    "passed": 2029,
+    "failed": 7,
+    "skipped": 18,
+    "seconds": 362.47
+  },
+  "same_seven_legacy_failures": true,
+  "real_fastapi": {
+    "native": 58,
+    "protected": 58,
+    "package_free_before_removal": 58,
+    "package_free_after_removal": 58,
+    "failures_errors_skips": 0,
+    "application_source_edits": 0,
+    "explicit_schema_assignments": 0,
+    "bootstrap_lines": 13,
+    "fixture_lines": 4,
+    "existing_plaintext_role_reused": true
+  },
+  "hold_reasons": [
+    "E1 additional textual FROM/GROUP and other textual clauses omissions",
+    "A2 private UPDATE native driver-error state mismatch"
+  ],
+  "wheel_sha256": "d69904464fd70a49a559329536dee2ffa11876afb8dc993fe5ee2b285973fd85",
+  "sdist_sha256": "ecaa571f4855e9cbefebf298a7db2c5b4c5ad0e6f16722e4213dd3a334c72266",
+  "all_seven_independent_gates": "UNKNOWN"
+}
