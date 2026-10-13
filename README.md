@@ -4,9 +4,9 @@ Private research repository. Original Debrato2005/cryptalis stays read-only; its
 
 ## Current working candidate
 
-`candidate/` contains the integrated experimental S6 source, tests, examples and documentation. S6 narrowly normalizes malformed protection-plan rejection to the existing typed failure. The root `CRYPTALIS_BUILD_CHECKLIST.md` is the authoritative current ledger. Seven legacy-profile assertions still fail; no production gate is qualified.
+`candidate/` contains the integrated experimental S7 source, tests, examples and documentation. S6 normalizes malformed protection-plan rejection; S7 accepts positive finite measured rates only in explicit transition-artifact estimate fields, leaving manifest numeric grammar unchanged. Integer artifacts remain compatible; older readers refuse new fractional artifacts. S8 public-table binding remains separate under experiments/s8-public-binding pending qualification. The root `CRYPTALIS_BUILD_CHECKLIST.md` is the authoritative current ledger. Seven legacy-profile assertions still fail; no production gate is qualified.
 
-Installed S6: SQLAlchemy 2.1.3: 1710 passed, 7 failed; 2.0.51: 1692 passed, 7 failed, 18 native-version skips. Full logs and source inventory are in `evidence/20261013/`. Reproducible wheel/sdist and build report are in `experiments/s6-plan-diagnostics/artifacts/`. Wheel SHA256: aa186579a457c1d6b749312071b1786871ee70b652cd3788f1db7cfd9f6da3f1.
+Installed S7: SQLAlchemy 2.1.3: 1725 passed, 7 failed; 2.0.51: 1707 passed, 7 failed, 18 native-version skips. Full logs and source inventory are in `evidence/20261013/`. Reproducible wheel/sdist and build report are in `experiments/s7-rate-estimates/artifacts/`. Wheel SHA256: 19efd5eafede07616c45c21be491fe85206f52cd0c1ada53fa76dee8ab2ea6e8.
 
 ## Verified recovery baselines
 

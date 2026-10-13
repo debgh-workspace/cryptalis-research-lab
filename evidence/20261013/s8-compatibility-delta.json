@@ -1,0 +1,183 @@
+{
+  "scope": "Additive S8 synthetic native comparisons and rejection controls; does not rewrite the frozen159-ID554-cell corpus",
+  "sqlalchemy": "2.1.3",
+  "cases": [
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-commit-child-True]",
+      "status": "PASS",
+      "seconds": 0.362
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-commit-child-False]",
+      "status": "PASS",
+      "seconds": 0.317
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-commit-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.381
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-commit-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.324
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-rollback-child-True]",
+      "status": "PASS",
+      "seconds": 0.334
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-rollback-child-False]",
+      "status": "PASS",
+      "seconds": 0.821
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-rollback-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.452
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-rollback-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.327
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-savepoint-child-True]",
+      "status": "PASS",
+      "seconds": 0.303
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-savepoint-child-False]",
+      "status": "PASS",
+      "seconds": 0.328
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-savepoint-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.301
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[False-savepoint-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.328
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-commit-child-True]",
+      "status": "PASS",
+      "seconds": 0.312
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-commit-child-False]",
+      "status": "PASS",
+      "seconds": 0.33
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-commit-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.327
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-commit-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.311
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-rollback-child-True]",
+      "status": "PASS",
+      "seconds": 0.29
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-rollback-child-False]",
+      "status": "PASS",
+      "seconds": 0.293
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-rollback-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.339
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-rollback-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.321
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-savepoint-child-True]",
+      "status": "PASS",
+      "seconds": 0.309
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-savepoint-child-False]",
+      "status": "PASS",
+      "seconds": 0.294
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-savepoint-parent_cascade-True]",
+      "status": "PASS",
+      "seconds": 0.343
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_delete_matches_native[True-savepoint-parent_cascade-False]",
+      "status": "PASS",
+      "seconds": 0.316
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_public_schema_binding_does_not_grant_or_retarget_delete[no_optin]",
+      "status": "PASS",
+      "seconds": 0.279
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_public_schema_binding_does_not_grant_or_retarget_delete[schema_drift]",
+      "status": "PASS",
+      "seconds": 0.282
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_public_schema_binding_does_not_grant_or_retarget_delete[name_drift]",
+      "status": "PASS",
+      "seconds": 0.271
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_does_not_guess_manifest_schema[child]",
+      "status": "PASS",
+      "seconds": 0.256
+    },
+    {
+      "case": "tests.test_unqualified_public_child::test_unqualified_child_does_not_guess_manifest_schema[parent_cascade]",
+      "status": "PASS",
+      "seconds": 0.273
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[commit-child]",
+      "status": "PASS",
+      "seconds": 0.825
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[commit-parent_cascade]",
+      "status": "PASS",
+      "seconds": 0.419
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[rollback-child]",
+      "status": "PASS",
+      "seconds": 0.396
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[rollback-parent_cascade]",
+      "status": "PASS",
+      "seconds": 0.412
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[savepoint-child]",
+      "status": "PASS",
+      "seconds": 0.436
+    },
+    {
+      "case": "tests.test_unqualified_public_child_async::test_async_unqualified_child_matches_native[savepoint-parent_cascade]",
+      "status": "PASS",
+      "seconds": 0.506
+    }
+  ],
+  "other_dependency_cell": "PENDING",
+  "real_application": "PENDING"
+}
