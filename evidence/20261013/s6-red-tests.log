@@ -1,0 +1,114 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFF..                                                               [100%]
+=================================== FAILURES ===================================
+__________ test_invalid_protection_artifact_has_safe_typed_failure[{] __________
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:68: in __post_init__
+    doc = decode_manifest_json(self.artifact)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/manifest/parser.py:95: in decode_manifest_json
+    _check_nesting(raw)
+src/cryptalis/manifest/parser.py:70: in _check_nesting
+    raise ManifestInvalid("Invalid manifest JSON")
+E   cryptalis.manifest.parser.ManifestInvalid: Invalid manifest JSON
+_________ test_invalid_protection_artifact_has_safe_typed_failure[[]] __________
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:68: in __post_init__
+    doc = decode_manifest_json(self.artifact)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/manifest/parser.py:109: in decode_manifest_json
+    raise ManifestInvalid("Manifest root must be an object")
+E   cryptalis.manifest.parser.ManifestInvalid: Manifest root must be an object
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"a","format":"b"}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:68: in __post_init__
+    doc = decode_manifest_json(self.artifact)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/manifest/parser.py:98: in decode_manifest_json
+    document = json.loads(
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py:359: in loads
+    return cls(**kw).decode(s)
+           ^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py:338: in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py:354: in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/manifest/parser.py:22: in _unique_object
+    raise ManifestInvalid("Duplicate manifest member")
+E   cryptalis.manifest.parser.ManifestInvalid: Duplicate manifest member
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"PRIVATE_ARTIFACT_SENTINEL","target_id":"00000000-0000-0000-0000-000000000002"}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:73: in __post_init__
+    if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+       ^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py:178: in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+E   ValueError: badly formed hexadecimal UUID string
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":null,"target_id":"00000000-0000-0000-0000-000000000002"}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:73: in __post_init__
+    if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+       ^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py:172: in __init__
+    raise TypeError('one of the hex, bytes, bytes_le, fields, '
+E   TypeError: one of the hex, bytes, bytes_le, fields, or int arguments must be given
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":7,"target_id":"00000000-0000-0000-0000-000000000002"}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:73: in __post_init__
+    if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+       ^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py:175: in __init__
+    hex = hex.replace('urn:', '').replace('uuid:', '')
+          ^^^^^^^^^^^
+E   AttributeError: 'int' object has no attribute 'replace'
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"00000000-0000-0000-0000-000000000001","target_id":[]}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:73: in __post_init__
+    if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+       ^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py:175: in __init__
+    hex = hex.replace('urn:', '').replace('uuid:', '')
+          ^^^^^^^^^^^
+E   AttributeError: 'list' object has no attribute 'replace'
+_ test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"00000000-0000-0000-0000-000000000001"}] _
+tests/test_migration_plan_diagnostics.py:35: in test_invalid_protection_artifact_has_safe_typed_failure
+    MigrationPlan(raw)
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:73: in __post_init__
+    if UUID(doc[name]).int == 0: raise TransitionFailure('invalid_plan')
+            ^^^^^^^^^
+E   KeyError: 'target_id'
+=========================== short test summary info ============================
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[[]]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"a","format":"b"}]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"PRIVATE_ARTIFACT_SENTINEL","target_id":"00000000-0000-0000-0000-000000000002"}]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":null,"target_id":"00000000-0000-0000-0000-000000000002"}]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":7,"target_id":"00000000-0000-0000-0000-000000000002"}]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"00000000-0000-0000-0000-000000000001","target_id":[]}]
+FAILED tests/test_migration_plan_diagnostics.py::test_invalid_protection_artifact_has_safe_typed_failure[{"format":"cryptalis.transition/retained-native-research-v0","kind":"protect","operation_id":"00000000-0000-0000-0000-000000000001"}]
+8 failed, 2 passed in 0.46s
