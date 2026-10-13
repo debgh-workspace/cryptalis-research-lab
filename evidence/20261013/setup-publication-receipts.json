@@ -1,0 +1,697 @@
+[
+  {
+    "commit": "faf43209d8c25d69eaa87a5df5bab3aa8a96eaeb",
+    "files": [
+      {
+        "path": "candidate/docs/_reset/notes.md",
+        "blob_sha": "19a19eae09a142a973b319348bf6db6659730dc4",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/architecture/README.md",
+        "blob_sha": "910ea2e85da1eb6fcc6116bd22027077f90c4643",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/build-guide.md",
+        "blob_sha": "077e1bbffa06d976375594f66e9418b227ee3775",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/compatibility.md",
+        "blob_sha": "357dd630ccf5671b3ab9d0c23e6e2d6544a57d72",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/decisions.md",
+        "blob_sha": "478a944a4dca19155284493c1c8bb2646decbab1",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/lifecycle.md",
+        "blob_sha": "a56ec9bcb7cbcdfe4e2177824ca6fdbd6263b148",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/prior-art.md",
+        "blob_sha": "c38d99bf68ebe058d52da31a844a50c3416846b3",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/CURRENT_COMPATIBILITY_CORPUS_20261012.json",
+        "blob_sha": "45fa50eab8cf4a0e82b5d0328add4bfcc4dde666",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+        "blob_sha": "4537b56d991fa4a698b4842c22a9e16614b20fda",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+        "blob_sha": "7a2e9ec6f7e76c416ce51937205ffabbc48766f9",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "57c763f975c48c0162b9160514cf913bc7c1acc1",
+    "files": [
+      {
+        "path": "candidate/docs/research/DELETE_TEMPORAL_CHECKPOINT_20261012.md",
+        "blob_sha": "41e9fbeea2a20192c0b5c62c8dd0a1c25157c3e8",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/INPLACE_LAYOUT_RESEARCH_20261012.md",
+        "blob_sha": "7cd7c0db907bd555fccc9245a9f1945a6ec56b09",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/LAYOUT_COST_AND_COMPETING_DESIGNS_20261012.md",
+        "blob_sha": "9a5b3a0d5cbee23c5c37ad5729d4d3887a1fe086",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/NATIVE_DELETE_CHECKPOINT_20261012.md",
+        "blob_sha": "08cc438a69599ab9e08c9bb6fefa5d598ca78efd",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/NOT_INCLUDED_20261012.md",
+        "blob_sha": "07708eca29193926b9261003a39de1332150f083",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/README.md",
+        "blob_sha": "2ff62a791ad410244b8b31a4621400be44f96d88",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/RESEARCH_CANDIDATES.md",
+        "blob_sha": "6b069e347ea76f1a7a1a18f20ed6b7a7fd97ec04",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/SEARCHABLE_REVERSIBLE_CHECKPOINT_20261012.md",
+        "blob_sha": "650a7bab1cf56c26792e6f0da9ba49c6738f4c7a",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/council-review-1/report.md",
+        "blob_sha": "611c9b3691d513fead70cd21234bcd0217bec91e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/council-review-2/report.md",
+        "blob_sha": "68329923b2d7f85ad6cfce50b552008d66c8ea9f",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "76bff350568fbae2e73ccd3724121b7b449dd96f",
+    "files": [
+      {
+        "path": "candidate/docs/research/council-review-2/work-ledger.md",
+        "blob_sha": "06357c3ff320c5ce19ea4d4e4702577c5b830d95",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/cryptographer-review-packet.md",
+        "blob_sha": "001a33a6d7e76f8e6b59b9b85cd0210a72991a8d",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/hardening-evidence.md",
+        "blob_sha": "cacb0265f2576018348e7f70324d9724aadd6630",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/hardening-resolution.md",
+        "blob_sha": "7a8138ae9022f11c1d7f716ea2be50f0c055868d",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/performance-checkpoint.md",
+        "blob_sha": "a5f4e28655dec0582931170620f42b6b3614abfc",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/reset-crypto-authority-evidence.md",
+        "blob_sha": "9de59c8b4846337835c2b61e70fc5a655dc17e93",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/reset-integration-search-evidence.md",
+        "blob_sha": "db897d077ff95e7e8d810b357c376a4841d901ed",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/reset-leakage-semantics-evidence.md",
+        "blob_sha": "333fd97580e8b111c991566805ed4fd12defc047",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/reset-operations-release-evidence.md",
+        "blob_sha": "569481f1964f4410d9bbeb0ba7cb0aeaacb899cc",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/research/reset-traceability.md",
+        "blob_sha": "a8302d7c35689fd6bc62da3f0ef8b4208d8769c1",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "9fd44643ec5b5ea1ca9968ffae9d59b88f205a59",
+    "files": [
+      {
+        "path": "candidate/docs/research/revamp-evidence.md",
+        "blob_sha": "27b14b5760999e055dc8db0db006af0eabbcafdd",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/security.md",
+        "blob_sha": "f11be3c2983c13121172c40fe20a5dd36f3b95ac",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/status.md",
+        "blob_sha": "bb6864d00101c08a6f8967b81021077313170035",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/walkthrough-migration.md",
+        "blob_sha": "5ce25bc6f7b9edfcf0c6ed5c19202be00e0f9a54",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/walkthrough-search.md",
+        "blob_sha": "4650fdcc7d01f30562f6f36f2b2b05e422ebbaaa",
+        "content_match": true
+      },
+      {
+        "path": "candidate/docs/walkthrough-sqlalchemy.md",
+        "blob_sha": "52fa586799cec13430e4bd62b1ea963e7659ac99",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/active-state/genesis.json",
+        "blob_sha": "c13dc4a2ab304d45dd61f395c86143f5814f976e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/active-state/successor.json",
+        "blob_sha": "d323c012b342d9b6819e4700069b1c0af88b308e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/demo_manifest_history.py",
+        "blob_sha": "dc8fe7a4a781924baa3889c8c930d88dcaebbdde",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/demo_smolink_crypto.py",
+        "blob_sha": "b79943faaae3a49bc13172e4c082e582645ade60",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "78584cd2e0a6e502c599b00296d60fd4f4908da3",
+    "files": [
+      {
+        "path": "candidate/examples/envelopes/f1-structural.hex",
+        "blob_sha": "580d7b0d0401c2c11ebb2145388f7e88101e9f6a",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/envelopes/w1-structural.hex",
+        "blob_sha": "bcc7d2f926f95ce6171a4c9bdf591e977b6b1a08",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/field-formats/parameterless.json",
+        "blob_sha": "5822a150c6d320d5214b20e2d82e1f1a43464f64",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/manifests/genesis.json",
+        "blob_sha": "7270ce2464f67310daa905aa06addc7be343fb00",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/manifests/invalid-duplicate.json",
+        "blob_sha": "9edd5b2b87da30b2df1b6a0d624471890b630b16",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/manifests/invalid-successor.json",
+        "blob_sha": "b211f26cced2ec3e924b15792d4fc40de3d345be",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/manifests/successor.json",
+        "blob_sha": "ed2f67f243d68eae9e475c9de0bcb9dc33daabd8",
+        "content_match": true
+      },
+      {
+        "path": "candidate/examples/scalars/candidate-vectors.json",
+        "blob_sha": "7e901aeac3912998024af53af6c3c1640f2083cd",
+        "content_match": true
+      },
+      {
+        "path": "candidate/scripts/test_postgres.py",
+        "blob_sha": "db348ff3cf448a5828f4050615c49dd167a3abd2",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/conftest.py",
+        "blob_sha": "eb1985d84179a74b0f1f1fa4d1dabd39879fe147",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "aa480d839f3f72b6e7e5991ae809faf70aa3d094",
+    "files": [
+      {
+        "path": "candidate/tests/deprotection_native_worker.py",
+        "blob_sha": "f26f6c97073b6fee54d46a798b0654b6f9b5b68c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/deprotection_worker.py",
+        "blob_sha": "4f8cd2412beb7cfde40a810c9ddbe6ab18635efb",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/fixtures/cf1_vectors.json",
+        "blob_sha": "c68160345878197b52d295fa76033fb073d55f44",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/migration_commit_proxy.py",
+        "blob_sha": "6d25f173dce9a1eb0444189782dc7295e4cc6db0",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/migration_worker.py",
+        "blob_sha": "beae6aa18bced6aaa703bfda241fd89c43ae98e5",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/profile_membership.py",
+        "blob_sha": "0e411449643750f7da1ce5f80b2a7bc58a7a970f",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/profile_migration.py",
+        "blob_sha": "a95bf3b92f69f28de9d79459527c19c27795f9f7",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/profile_migration_step_a.py",
+        "blob_sha": "e77f730ec019d56a4484e532457965f8f58486fd",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/profile_sqlalchemy_adapter.py",
+        "blob_sha": "96edb4a8a109b71e139718d59fd67e3ea347d72a",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/profile_sqlalchemy_search.py",
+        "blob_sha": "4266c9d1da3eaa98f12ce1527e7e36bbfc9c4364",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "48cf69ec4cfd62edb9d29ca0fd6c710d90b440a7",
+    "files": [
+      {
+        "path": "candidate/tests/reference_cf1_vectors.py",
+        "blob_sha": "e1350529d3aa685cac7ef3946c66e08b9ef77b0b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/regress_migration.py",
+        "blob_sha": "2f91065a307fddfc2cb2ff46b2674518b45cede0",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/regress_migration_corrective.py",
+        "blob_sha": "53711b6d9b34f7d4994c6624207515874dd276b8",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/regress_migration_lock_queue.py",
+        "blob_sha": "b21aca7a3a16cefe716d9acbc10ee168c15ae358",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/regress_migration_membership.py",
+        "blob_sha": "ea8cb736ef53f7da4c901ee2f58ec99ab65613c7",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/regress_migration_pause.py",
+        "blob_sha": "3dad9b535941be2fb7c35beb564370f712a1f878",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_active_state.py",
+        "blob_sha": "18a86b35a09e0ab92d5bd071563c1b1dcc348b04",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_candidate_envelope.py",
+        "blob_sha": "14673669bbab6c1a7c3c4d6656db09af88be8da9",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_candidate_scalar.py",
+        "blob_sha": "3ebb423cf9784f3150f41e14034c0897d5c9ea03",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_candidate_wrap.py",
+        "blob_sha": "080c1ede14592e7c12b004ac1d39c33a847f7b91",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "ad98fa2de163809ffd32a7aeeaf9003e90906456",
+    "files": [
+      {
+        "path": "candidate/tests/test_catalog_search_path.py",
+        "blob_sha": "6e4a26bfc17422a5a407dd00b625e3901d213be7",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_cf1.py",
+        "blob_sha": "93a4d00db0f560c8c238ad727b9a5006c4e3a364",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_cf1_backend_failures.py",
+        "blob_sha": "a7d3f597698370454742d2a7558e7f9490f46a39",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_cli.py",
+        "blob_sha": "dfd3b37018638799e060d16431bbc764239840a5",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_cli_history.py",
+        "blob_sha": "3a4eaff1480c8a9599ac11a7d0aec1172f6a0f01",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_compatibility_report.py",
+        "blob_sha": "e3abbc61110d76e71b5309fcdb76e5ec48d2db05",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_database_diagnostics.py",
+        "blob_sha": "6f8d0f82e988ab68299fb6954496aea62a90d9d4",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_deprotection.py",
+        "blob_sha": "ea0e02c14e93e588a0c35736d76787beec07f024",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_deprotection_ordinals.py",
+        "blob_sha": "d9858759943d485e15454e995fccc98d571ffbba",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_development_authority.py",
+        "blob_sha": "4ac273e224b32e42dc5c4cc4314ad99675c6a796",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "e0b2663fa13d742b69c61caffa287cc302b540f6",
+    "files": [
+      {
+        "path": "candidate/tests/test_file_development_provider.py",
+        "blob_sha": "ad6d6ddebede0aa3803bfa8823ea1b54c3b8202f",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_file_provider_postgres.py",
+        "blob_sha": "1c2602eb48ebb6abc68aa2e3d1bbb5b38400f4b6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_key_lease_renewal.py",
+        "blob_sha": "15532b2acf0dd0dd62f5454860a5a3c03e1b557f",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_manifest_canonical.py",
+        "blob_sha": "82c8477d90999e1dfb3b280886df3db9cff8db8b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_manifest_header.py",
+        "blob_sha": "e266d7671328fbc90c27fbd06be933cbd7180700",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_manifest_parser.py",
+        "blob_sha": "953542a136a1e0a6c5d70492fa16b05c4a6c0921",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration.py",
+        "blob_sha": "cbede5bbde8f734b726f12314b4e54d713224fad",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_audit.py",
+        "blob_sha": "e1c1ef831775f5a66d376bc51710472ed54a3aa3",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_byte_bounds.py",
+        "blob_sha": "6af96c66143893aa20f01c6822725cc201e9ca14",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_fault_selector.py",
+        "blob_sha": "38c3c4930152134a52589e9735fe6d249b4d4dec",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "88aa90f6c5837a15e6a99154581749387ede8a4b",
+    "files": [
+      {
+        "path": "candidate/tests/test_migration_key_leases.py",
+        "blob_sha": "aeeea90cc803eed6a28d153c52c8263c6f458bc6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_lock_queue.py",
+        "blob_sha": "3fe9452a97cf03d1f8f773b4e76f1d554b53685c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_membership.py",
+        "blob_sha": "10174edefdba6e8d2b2e4c489a0f4606be718d81",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_multitable.py",
+        "blob_sha": "13c1ad78b98e0958e787424156e4a8610a85e415",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_pause.py",
+        "blob_sha": "887949308e51bc64b2161b0fd7753eff836c8f4b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_role_template.py",
+        "blob_sha": "15067410e370f52d9d8888604fb9c10930f88f83",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_runtime_privileges.py",
+        "blob_sha": "cbaf8bbec1f551b7def0aeee6d683dfa72fb7e11",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_migration_snapshot_boundary.py",
+        "blob_sha": "d0bf918d87ce51601428b13a97e2b8c36367fb56",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_protection_compiler.py",
+        "blob_sha": "7943eaf92cd0742562a8b8814ebd87abbfdfc0c7",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_protection_declaration.py",
+        "blob_sha": "eaeaf1cad4f8e47f9916bd65bf80ec527e62f288",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "4088691c5d40d781d52401bc41560ff7ec0f1194",
+    "files": [
+      {
+        "path": "candidate/tests/test_query_capability_survey.py",
+        "blob_sha": "6baf5951a086c0babc557dff7840861a127b5db9",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_retained_public_metadata.py",
+        "blob_sha": "0b466a20ba07b3016a879a6b4390237c9859842b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_retained_schema_errors.py",
+        "blob_sha": "a5b9c17150d950cf0ed87b6bc3831ed25cfb872c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_rewrap_preparation.py",
+        "blob_sha": "189be7c8c4749350881b8b173c14fc6a33932b2c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_routine_admission.py",
+        "blob_sha": "d9121025f0daf66300361d9ac3e15efd8b54b1c0",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_smolink_crypto_demo.py",
+        "blob_sha": "3d2315e99ca2f8df1535f5adc1096a6c03b7526b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_adapter.py",
+        "blob_sha": "d4b34dfcecd4ad2349dfb2b0283fbd9cb812ac83",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_async_cleanup.py",
+        "blob_sha": "bffb10372e0dcb07ea0e5c10292ef7705b397ad6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_async_collection_methods.py",
+        "blob_sha": "d27ac0eaa810a90ddaa6f0d3413cec6b055c9bb1",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_core_autoflush_boundary.py",
+        "blob_sha": "fbc5c44d171b5a803e06592935a4803322bb3a99",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "4f3de16575d2b5c09f43f880dc3d2d3f52c52ec3",
+    "files": [
+      {
+        "path": "candidate/tests/test_sqlalchemy_flush_preparation_failure.py",
+        "blob_sha": "c9892655898b7467dfd7c0dbab75ca04315eddd6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_negative_predicates.py",
+        "blob_sha": "33ee4f5fea6d2baec980ec9aba7dd8a65274b76d",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_outer_nulls.py",
+        "blob_sha": "a10c3a3b592d06918fac3645180f964758634f95",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_provider_implicit_flush.py",
+        "blob_sha": "ce24618bdca5f99c6455d53cae157665c41f6ce5",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_provider_no_flush.py",
+        "blob_sha": "da8c1aab65eb9830d956f40d76116bb03bc76e52",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_savepoint_faults.py",
+        "blob_sha": "0896f20dcb4c341e298a26fddd778577a3c123ae",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_savepoints.py",
+        "blob_sha": "ca96bd21a342b2f921e7113818df26b88f69f856",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_search.py",
+        "blob_sha": "425fa8f76cd6ef6c76df05083e800bd8fbb26dca",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_session_execution_options.py",
+        "blob_sha": "b24d5f5dec3bf40e3bc7ae3e4f7455334cb919fa",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_sqlalchemy_thread_isolation.py",
+        "blob_sha": "c5175e78b7ca90d711d8b886399817201963c00c",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "480c9ab76edad91bc35e18bf4d7f52ffbac87f3c",
+    "files": [
+      {
+        "path": "candidate/tests/test_transition.py",
+        "blob_sha": "cc56d1a41a7d2dc78cd4db2332a6da946c550194",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_varchar_admission.py",
+        "blob_sha": "3c3259064e5fd7b61c76860bf5a5acbdf5c42d1b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_varchar_failure_boundary.py",
+        "blob_sha": "e68738479f61c4ec26cf328bc94cf85c0c59678c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_varchar_lifecycle.py",
+        "blob_sha": "ee5ca399de9a9813c40989868f799470360dbd2e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_varchar_runtime.py",
+        "blob_sha": "40d7ab2507eff912174bca9924f50a4bb525c1f1",
+        "content_match": true
+      },
+      {
+        "path": "candidate/tests/test_warm_mapper_attachment.py",
+        "blob_sha": "d713ad95d241d5088ec6c3bf99e977cb74104cea",
+        "content_match": true
+      }
+    ]
+  }
+]

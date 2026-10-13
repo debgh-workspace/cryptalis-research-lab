@@ -1,0 +1,227 @@
+[
+  {
+    "commit": "3468c813f3c53c3c7fa4b1bbb9ac5356de02feae",
+    "files": [
+      {
+        "path": "candidate/README.md",
+        "blob_sha": "be04d5e4e416df623d1f55f7420c3bc4aec87f9e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/LICENSE",
+        "blob_sha": "093947076e414cae1ce17434657e3b993d83428d",
+        "content_match": true
+      },
+      {
+        "path": "candidate/pyproject.toml",
+        "blob_sha": "9ec5b9f97cd33b3f521065cbb0642f3b57a8dc04",
+        "content_match": true
+      },
+      {
+        "path": "candidate/uv.lock",
+        "blob_sha": "c95eebcb8fb150d65d67e80415f122edc01a6eca",
+        "content_match": true
+      },
+      {
+        "path": "candidate/AGENTS.md",
+        "blob_sha": "19ce00c1f039f12eddf6e9a68343c68df68fc8b1",
+        "content_match": true
+      },
+      {
+        "path": "candidate/ENGINEERING_PLAYBOOK.md",
+        "blob_sha": "750792f90313a4cf7469df565f932619ea00cf03",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/__init__.py",
+        "blob_sha": "195c72525a3973b3c6a30b932a232239f0f5292b",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/__main__.py",
+        "blob_sha": "95f51922c30db8711a59a6a65b74a281e8766ef5",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "b25870129b39a9daa4fe44511264b562df3f9ace",
+    "files": [
+      {
+        "path": "candidate/src/cryptalis/_experimental_public_delete.py",
+        "blob_sha": "8f1d6edd5b871d0d1a19f118b0ace3dd5aad1a54",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_native_text.py",
+        "blob_sha": "94454d2461518d1418e13d77013899723e7d534c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_sqlalchemy_guard.py",
+        "blob_sha": "a6f8d1eb27467a49aaed688e40cba46897eab370",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_sqlalchemy_search.py",
+        "blob_sha": "89dfe6fc2f9159e95dd9cfeab1e2d0e0f19993b6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_sqlalchemy_transactions.py",
+        "blob_sha": "294e61a0bdf9da82d5b4600da5267b22072d1e05",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_sqlmodel_support.py",
+        "blob_sha": "50c3214130106d83e4b393194d1f3e2200069bec",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/cli.py",
+        "blob_sha": "8766c91c0de8d85b69c1c915b8315a826a691655",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/contracts/__init__.py",
+        "blob_sha": "35ecbe21ac7f58379e2732b5f21ab9e94192ace7",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "0b8e289fb10d0d69eecca08680919ad484cdec6c",
+    "files": [
+      {
+        "path": "candidate/src/cryptalis/contracts/active_state.py",
+        "blob_sha": "47fa1b0a03fffd168ee16a9f11e1f7f35427e38c",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/contracts/development_authority.py",
+        "blob_sha": "f974e7066e76fa202f968dd9d5357915bdb8cce8",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/contracts/transition.py",
+        "blob_sha": "8f0c8bbfae90d7e2ffebe21b60c0b535d3a52799",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/__init__.py",
+        "blob_sha": "53cefab1b254383051ba43a587c8a2da1e1a8f00",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/_candidate_envelope.py",
+        "blob_sha": "4b18e68c4ffd5516ecdcbebc015705391636e0fe",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/_candidate_scalar.py",
+        "blob_sha": "8038eb9f901d5b4efa4ffbc371c6458f13a1a277",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/_candidate_wrap.py",
+        "blob_sha": "bd0df1c82d7669cab45f47af62223a8650aeaa3d",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/_rewrap.py",
+        "blob_sha": "a423319f7797193c819123a517c6ebd6b769b483",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "6e9b9a1eacf96b5339bcd1e58788397877b53159",
+    "files": [
+      {
+        "path": "candidate/src/cryptalis/crypto/cf1.py",
+        "blob_sha": "b49a55b44afd82e09a613bf57500ccd6d1bec146",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/development_file.py",
+        "blob_sha": "7b738c0b45260204fa982ba8b2da53afd600c005",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/keys.py",
+        "blob_sha": "fde0866d1179a0d0e211bb2f65d01bc40ffd4413",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/cutover.py",
+        "blob_sha": "1bccb65455a394fccb6a7b74f5606109e81b19f0",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/deprotection.py",
+        "blob_sha": "f6d8a3ad9c5906527ff724fc0a064d8da7952c91",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/__init__.py",
+        "blob_sha": "633b0f4e900d31cb5e951d57bb9caffe28ce071a",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/canonical.py",
+        "blob_sha": "ad12271ef932e0d7b7a446506855dec37b77be2f",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/compatibility.py",
+        "blob_sha": "f930242854c49e3fc6e7e799d92fb445817e6533",
+        "content_match": true
+      }
+    ]
+  },
+  {
+    "commit": "9d21de8631f674bfa871b18d1a871fd43fdb71d3",
+    "files": [
+      {
+        "path": "candidate/src/cryptalis/manifest/compiler.py",
+        "blob_sha": "6667c8460d68e73311317584676ecf92e4d1c238",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/declaration.py",
+        "blob_sha": "e1c416ff3026645ffbdce2db4a4d3f284418b2f5",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/descriptor.py",
+        "blob_sha": "2bab980c181c5c673d6d9a69debcd01c66b5aff6",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/header.py",
+        "blob_sha": "4643bfb4d36e71d69f3aa5b8b3b383749a250c11",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/parser.py",
+        "blob_sha": "8f31f46a1d94f82faaf261d3ce1dcb246fea9e83",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/manifest/routines.py",
+        "blob_sha": "789d9ee2a7e939ca150c548fa00f348b211a12fc",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/migration.py",
+        "blob_sha": "5cffb160331630154ab187c6a201916a4d69ca3e",
+        "content_match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/sqlalchemy.py",
+        "blob_sha": "c26a819b4ce9f5f76d23d4c7e1eccd6ef3b285a1",
+        "content_match": true
+      }
+    ]
+  }
+]
