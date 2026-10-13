@@ -1,0 +1,61 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.F.F.F.F....                                                             [100%]
+=================================== FAILURES ===================================
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-attached] _
+tests/test_textual_clause_boundary.py:132: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:91: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-attached] _
+tests/test_textual_clause_boundary.py:132: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:124: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:112: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:132: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:91: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-attached] _
+tests/test_textual_clause_boundary.py:132: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:124: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:112: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+=========================== short test summary info ============================
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-attached]
+4 failed, 8 passed, 68 deselected in 2.03s
