@@ -625,3 +625,7 @@ Actual pinned FastAPI app passes58native+58protected+58packagefreebeforeREMOVED+
 Complete B4 legacy-safety derivative to explicitly pinned installed S17 bridge:2PASS6.67s SA2.1,2PASS6.97s SA2.0. Text/VARCHAR latest values and schema checks, package-free removal and old-backup stale-pin refusal remain bounded maintenance evidence, not online/generic migration or fresh-cluster recovery. All five sessions source-stable and stopped.195-file composite source restore verified.
 
 Source staged in two remotely byte-matched batches on accel/integration-s17-20261013:1360c75cd7893ab3fba0b217817417801e59dcd7 then2ae4048a5b9eb4384db56a547b8245b4848b2622. Artifact/evidence publication and final main promotion verification pending. C4 experimental commit34126c1b0b4dc681999c4e18390c5d0ebca580fb; A2 9a1d1e6dc28c82153750962162e5a40cc0731584; B4 47fe55039398e83f1a44bf4a1f5340c094dc3cb0. Each10files read back exactly. All seven full gates UNKNOWN; original mailbox unchanged.
+
+## Publication decision — 2026-10-13 15:02 UTC
+
+S17 research branch checkpoint ab40f030f377de564b7db58925ec76e919e4910c remotely verified: both artifacts, all17changed source files and195-file restored composite. Main promotion was denied by action review because research checkpoint authority did not explicitly cover moving an unqualified candidate onto main. Explicit user approval requested; no bypass/retry. Main remains123bceafa969c3d9e992768be612b7efb7cb0a07 with S14 runtime. Continue independent isolated work.
