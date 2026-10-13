@@ -1,0 +1,13 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+____________ test_corrupt_frame_is_rejected_without_echo_or_changes ____________
+tests/test_doctor_ciphertext.py:61: in test_corrupt_frame_is_rejected_without_echo_or_changes
+    assert report['checks']['ciphertext']['status']=='REJECTED'
+E   AssertionError: assert 'CHECKED' == 'REJECTED'
+E     
+E     - REJECTED
+E     + CHECKED
+=========================== short test summary info ============================
+FAILED tests/test_doctor_ciphertext.py::test_corrupt_frame_is_rejected_without_echo_or_changes
+1 failed, 14 deselected in 0.41s

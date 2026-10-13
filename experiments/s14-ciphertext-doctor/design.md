@@ -1,0 +1,11 @@
+# S14 explicit observational ciphertext audit
+
+Scope: implement the mandate's read-only ciphertext diagnostics without changing maintenance verification or approval requirements. This is a distinct, opt-in observation at a REPEATABLE READ/READ ONLY snapshot. It must never call apply, verify, _verify, _save or issue a transition certificate. Existing metadata/planned-runtime checks run first in the same transaction.
+
+Inputs: active host-authenticated plan/pin, planned runtime engine, explicit audit_ciphertext=True and existing trusted key resolver. No new provider credentials, cluster, grants or persistent access. Default doctor calls retain no key/row-value access. Explicit finite row/byte budgets return PARTIAL, never a false all-data check. SQL-side byte-prefix admission reuses the already tested _stream with a copied projection containing only identities and payload columns. Original field source columns are not selected. Budget measures the documented conservative byte cost, not Python process RSS.
+
+Authentication: existing FieldDescriptor and CF1 open_text with existing Keyring.prepare; no new crypto, raw-key cache, normalized query input, nonce logic or bypass. Preserve the same plan-bound tenant key-policy digest as runtime attachment. Source review showed that unplanned new tenant policies are currently refused; this audit must not weaken that existing contract. No plaintext, row identifiers, frames, keys or provider errors in the returned report. Provider custody remains NOT_INSPECTED.
+
+Important limits: only visible non-NULL cells at the snapshot are authenticated. NULL substitution, absent rows, same-context replay/freshness, host authorization, malicious omissions and externally complete row membership cannot be proven without separately trusted evidence. A successful observation leaves ready/complete false and never changes the journal or external pin. All seven production gates remain UNKNOWN.
+
+Acceptance: independent native fixture values and CF1 oracle; normal/NULL/empty data, corrupt frame/context mismatch, missing/wrong tenant keys, row/byte cutoffs before provider use, strict bounds, no implicit audit, no journal/catalog/row changes, PostgreSQL write-refusal including AUTOCOMMIT, and explicit known omission/NULL limitations. Retain failures and do not modify the maintenance verifier's approval contract.
