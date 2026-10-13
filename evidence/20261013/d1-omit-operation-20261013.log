@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+______________ test_observer_rejects_claim_from_another_operation ______________
+../experiments/test_online_enumeration_sensitivity.py:62: in test_observer_rejects_claim_from_another_operation
+    current.finish(b)
+tests/_online_enumeration_lab.py:178: in finish
+    self.oracle(c)
+tests/_online_enumeration_lab.py:193: in oracle
+    assert stage == native
+           ^^^^^^^^^^^^^^^
+E   AssertionError
+=========================== short test summary info ============================
+FAILED ../experiments/test_online_enumeration_sensitivity.py::test_observer_rejects_claim_from_another_operation
+1 failed in 0.17s

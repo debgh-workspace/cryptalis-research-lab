@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_____________ test_observer_covers_insert_behind_committed_cursor ______________
+../experiments/test_online_enumeration_sensitivity.py:37: in test_observer_covers_insert_behind_committed_cursor
+    lab.finish(scanner)
+tests/_online_enumeration_lab.py:180: in finish
+    self.oracle(c)
+tests/_online_enumeration_lab.py:195: in oracle
+    assert stage == native
+           ^^^^^^^^^^^^^^^
+E   AssertionError
+=========================== short test summary info ============================
+FAILED ../experiments/test_online_enumeration_sensitivity.py::test_observer_covers_insert_behind_committed_cursor
+1 failed in 0.12s

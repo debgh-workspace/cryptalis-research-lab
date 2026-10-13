@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+___________ test_observer_covers_page_rollback_after_reconstruction ____________
+../experiments/test_online_enumeration_sensitivity.py:48: in test_observer_covers_page_rollback_after_reconstruction
+    resumed.finish(scanner)
+tests/_online_enumeration_lab.py:182: in finish
+    self.oracle(c)
+tests/_online_enumeration_lab.py:197: in oracle
+    assert stage == native
+           ^^^^^^^^^^^^^^^
+E   AssertionError
+=========================== short test summary info ============================
+FAILED ../experiments/test_online_enumeration_sensitivity.py::test_observer_covers_page_rollback_after_reconstruction
+1 failed in 0.18s

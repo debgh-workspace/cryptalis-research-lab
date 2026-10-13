@@ -1,0 +1,146 @@
+{
+  "schema": "cryptalis.lab-online-enumeration-receipt/v1",
+  "verified_utc": "2026-10-13T14:14Z",
+  "status": "VERIFIED_FINITE_RESEARCH_ONLY",
+  "summary": "D1 passes 31 finite enumeration schedules plus 4 observer controls. Four isolated one-helper omissions each fail the intended independent committed stage/native comparison; no setup or timeout failure is counted as sensitivity evidence.",
+  "scope": "Synthetic owned schemas on the one existing PostgreSQL 16 cluster, coordinator-serialized through unchanged dual-role preflights. One immutable bigint key domain, one durable cursor, operation-scoped dirty identities, same-process object/connection reconstruction, explicitly terminated test writer schedules, mandatory complete comparison.",
+  "original_186_file_manifest_unchanged": true,
+  "original_manifest_sha256": "3c35cc1d51ef390c0ef0f323f021cecdd73582d0fe9bd3a53bfc918979747d3b",
+  "original_addition_sha256": {
+    "tests/_online_enumeration_lab.py": "a4bd5e3771491bb721b7cbade79180d5423c2076962e80e23350847fe987cc9e",
+    "tests/test_online_enumeration_handoff.py": "6e197feb74e9e8c446d04e31a501b5433b3b7f702b24f3a58bb7681b4f55d49b",
+    "WORKSTREAM_PROGRESS.md": "7b80bc9d81e0d01bd5adcd92d126ada6710080bfefd34c7ec99b7b18f6577426"
+  },
+  "shared_observer_tests_sha256": "a331e3319b615c4f4e80e1f52f9e90e56605614efa05f6c7588c064f62e5e575",
+  "mutation_plan_sha256": "d01c55bd5ea5ef70d5e4ec052d37c0dbd9c46fb220bf56aac09699a512c9ceb2",
+  "runs": [
+    {
+      "evidence": "evidence/d1-online-enumeration-initial-20261013",
+      "counts": {
+        "passed": 31
+      },
+      "test_elapsed_seconds": 2.65,
+      "runner_exit_code": 0,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "a5fbd5d3bc1924434fdeb09e2a95cd3e8009e82e79dd21344cbe21ba9486855c",
+      "test_log_sha256": "e768111ed10398d852ff0110dbcafe702e6faefc9f0d886d862be09356e5f4fd"
+    },
+    {
+      "evidence": "evidence/d1-online-sensitivity-baseline-20261013",
+      "counts": {
+        "passed": 4
+      },
+      "test_elapsed_seconds": 0.36,
+      "runner_exit_code": 0,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "727e61880045ac7994092a831ebd4391fa2bba31dd4115c3b854445e4902520e",
+      "test_log_sha256": "ecdf3e2ea58e42cdccabcc414ee1cdd4bd48392736a9ae75b4862e026e973dbb"
+    },
+    {
+      "evidence": "evidence/d1-omit-capture-20261013",
+      "counts": {
+        "failed": 1
+      },
+      "test_elapsed_seconds": 0.12,
+      "runner_exit_code": 1,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "4960f1b439f5355ada3ea9448c335ba40296b022e3fbd5f23493c87fd666f10c",
+      "test_log_sha256": "1fbf313e785cf31145e5c583092f30b9689f8ffeb830689e31a2d4d47337c5c2",
+      "omission": "omit-capture",
+      "failure_boundary": "Independent read-only observer: assert stage == native",
+      "mutant_helper_sha256": "c8c133d463a7a7bf224c5913178f7d93a0d004d165ab61768df13e79cd1fb8a3"
+    },
+    {
+      "evidence": "evidence/d1-split-cursor-20261013",
+      "counts": {
+        "failed": 1
+      },
+      "test_elapsed_seconds": 0.18,
+      "runner_exit_code": 1,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "58fe1328323a6173574db25d5c17135c12dd426cbeb0dd7c09614cdc30832591",
+      "test_log_sha256": "199775db337526eca8182a06d299ebad8fded3840d26fc3cf12253e25a37baf5",
+      "omission": "split-cursor",
+      "failure_boundary": "Independent read-only observer: assert stage == native",
+      "mutant_helper_sha256": "85e683c4013bcb64b5114444360c7398be36da5f491643d61925faed0f73d1a6"
+    },
+    {
+      "evidence": "evidence/d1-omit-operation-20261013",
+      "counts": {
+        "failed": 1
+      },
+      "test_elapsed_seconds": 0.17,
+      "runner_exit_code": 1,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "83e1fa7a000c290845e2becac102d639cd61f44058ce4cb91149045fb25367fd",
+      "test_log_sha256": "121a965bbc9cf30e6ee16f5a8d88614bdb4a4bb4e17e7c4380a50e0d7b3841a8",
+      "omission": "omit-operation",
+      "failure_boundary": "Independent read-only observer: assert stage == native",
+      "mutant_helper_sha256": "c7e3b02919d8656edd16a6927e2a5083090044bc3e485a5741a953aafdd1fc28"
+    },
+    {
+      "evidence": "evidence/d1-capture-greatest-20261013",
+      "counts": {
+        "failed": 1
+      },
+      "test_elapsed_seconds": 0.15,
+      "runner_exit_code": 1,
+      "dual_role_preflight": "PASS",
+      "server_stop_exit_code": 0,
+      "source_and_external_test_bytes_unchanged": true,
+      "runner_receipt_sha256": "4e0439f08cfe5ddbe2c031829e47f0136e20d5933b73ee3e222a435f5cf198ea",
+      "test_log_sha256": "6a391ebf5242d96c6abed98ad2579ea94bdc3cf1223ae57d71382e43fc376f9f",
+      "omission": "capture-greatest",
+      "failure_boundary": "Independent read-only observer: assert stage == native",
+      "mutant_helper_sha256": "c3850970025c07ca56461be655383989fc409b0c949bdb321b8f8f7951c0b924"
+    }
+  ],
+  "cp65_source_sha256_unchanged": {
+    "test_online_retirement_protocol.py": "e108aea9bc18dd7448edcd9f17491d9b42b56ffa352158a9a759d9683a008b1d",
+    "test_online_initial_inventory.py": "7280f0df41114bd48048359017b8ce1d6807a4c446ac122aefef95a83ddff0a7",
+    "test_online_inventory_version_alternative.py": "2da9e453f6a75725a3bedd49cbf96952bc7606887683f7e41a90f184be93d63d"
+  },
+  "cp65_23_old_cases_rerun": false,
+  "worker_database_runs": 0,
+  "worker_git_writes": 0,
+  "qualified_conclusion": "The tested schedules need committed capture behind a completed cursor, atomic inventory progress and dirty publication, operation-bound claims, and capture replacement rather than numeric GREATEST. This is sensitivity evidence for this finite fixture, not an unbounded proof.",
+  "not_qualified": [
+    "Product online migration or runtime capture admission",
+    "CF1 integration in D1",
+    "Multi-range/parallel enumeration",
+    "SIGKILL, lost COMMIT reply, failover or fresh-cluster restore",
+    "Production writer fencing, external publication or phase transitions",
+    "Production key custody, security review or writer-pause SLA"
+  ],
+  "next_step_proposal_only": {
+    "name": "FINITE-CF1-ENUMERATION-01",
+    "prior_art_in_this_lab": [
+      "checkpoints/CP56-online-staged-frame-verification.md",
+      "experiments/test_online_stage_frame_verification.py",
+      "candidate-accel-online-enumeration-20261013/tests/test_cf1.py",
+      "candidate-accel-online-enumeration-20261013/tests/test_migration.py"
+    ],
+    "prerequisite": "Keep D1 and its sensitivity controls frozen. In a separate synthetic initial-protection-only fixture, replace staged text with existing CF1 storage-only frames using one pinned field descriptor, tenant and payload policy. Preserve source/native plaintext solely as explicit lab oracles.",
+    "independent_oracle_gap": "The existing migration independent_open decoder uses record.bytes and therefore assumes UUID identities. D1 uses bigint. Qualify an independent int64-be/v1 framing/HKDF/context decoder against existing frozen bigint CF1 vectors before relying on it; do not merely call product open_text as the only oracle. The primitive can remain the existing library AES-GCM-SIV; this is not independent cryptographic review.",
+    "trusted_binding": "Supply expected operation, field descriptor, tenant, provider/wrapper/root identities and generation from the test-owned expected artifact. Database metadata may be checked against it but cannot select new authority. Do not persist root secrets, extend leases, cache prepared material beyond the current contract, or admit header-selected keys.",
+    "finite_acceptance": [
+      "Healthy enumeration/capture schedules recover exact NULL, empty and Unicode values by a separate read-only full decoder comparison after scheduled writers stop.",
+      "Wrong row, tenant, field, generation or changed expected policy refuses without retiring dirty work; correct-policy object reconstruction remains resumable.",
+      "Cold preparation failure and actual-use expiry preserve stage/retirement atomicity; prepare through the existing provider and never extend an issued lease.",
+      "Valid stale frame, missing row, extra row and NULL substitution fail full current-source comparison even if frame authentication succeeds.",
+      "Frame insert and exact dirty-token retirement roll back together on an injected failure; no final verification scan is removed."
+    ],
+    "owner_contract_still_missing": "Before product integration, D-REV-04 needs an explicit initial-protection capture/enumeration exception and reviewed transition ownership. Current contracts still require maintenance writer exclusion and full verification. Proposed FENCED_READY/ACTIVE_VALIDATING states and capture-trigger admission are not approved by this receipt. D-REV-09 separately governs real external publication/stale-actor fencing; D-REV-07 separately supplies workload and total-exclusion budgets. A finite CF1 fixture can test a prerequisite without claiming those owner decisions.",
+    "implementation_started": false
+  }
+}
