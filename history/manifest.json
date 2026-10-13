@@ -1,0 +1,47 @@
+{
+  "bytes": 1605504,
+  "sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
+  "parts": [
+    {
+      "path": "history/original-history.bundle.part000",
+      "bytes": 262144,
+      "sha256": "6f2e4cbc1defeb8434545f266391161847737703231a86c68c33c4f2daa340cd"
+    },
+    {
+      "path": "history/original-history.bundle.part001",
+      "bytes": 262144,
+      "sha256": "8ea1f42b8bfa74066e72d391b52232fbcf612dddb2e500f22dc4d9cd09de5c85"
+    },
+    {
+      "path": "history/original-history.bundle.part002",
+      "bytes": 262144,
+      "sha256": "83cb33d8d496d8782058e5872a03505741150f2a20786d019a5727c8e74a08f7"
+    },
+    {
+      "path": "history/original-history.bundle.part003",
+      "bytes": 262144,
+      "sha256": "81b30bef6c5ce6f6d33df7224f5207a5c4ba38ba0fdd471c50b05724b99f6e1a"
+    },
+    {
+      "path": "history/original-history.bundle.part004",
+      "bytes": 262144,
+      "sha256": "19c21756f9daaa429e9ec208d57814fb82e3899d8ceceb49456bb64f10cd699c"
+    },
+    {
+      "path": "history/original-history.bundle.part005",
+      "bytes": 262144,
+      "sha256": "73b272b00ee25644deec52a8e155a9be2f9899a11deaf9a5b7f6a1dddae22cee"
+    },
+    {
+      "path": "history/original-history.bundle.part006",
+      "bytes": 32640,
+      "sha256": "9b2675b72f4a64d04617529e1930d1b6b07b77ece560e4941a4079d5a13ccf10"
+    }
+  ],
+  "git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
+  "git_bundle_verify": "PASS",
+  "isolated_no_checkout_clone": "PASS",
+  "secret_scan_blobs": 654,
+  "secret_scan_findings": 0,
+  "limits": "Finite pattern scan. Original existing history objects preserved; no original commits rewritten."
+}
