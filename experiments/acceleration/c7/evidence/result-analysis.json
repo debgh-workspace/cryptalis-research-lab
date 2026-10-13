@@ -1,0 +1,311 @@
+{
+  "scope": "Finite research baseline, not product/API admission",
+  "semantic_comparison_groups": 112,
+  "failure_and_recovery_controls": 32,
+  "pytest_correctness": "8 PASS across both versions and sizes",
+  "pytest_cost": "4 FAIL across both versions and sizes",
+  "workload_submetrics_pass": 1,
+  "workload_submetrics_total": 8,
+  "overall_size_cell_cost_gates": "All four FAIL",
+  "all_cost_observations": 640,
+  "timed_cost_observations": 480,
+  "cost": [
+    {
+      "sqlalchemy": "2.0.51",
+      "n": 1000,
+      "case": "eq-0",
+      "native_p50_ms": 1.377789,
+      "scan_p50_ms": 29.092117000000002,
+      "native_p95_ms": 1.808237,
+      "scan_p95_ms": 32.413532,
+      "added_p95_ms": 30.605294999999998,
+      "unchanged_target_ms": 3,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 21.11507422399221,
+      "p95_ratio_scan_over_native": 17.925488749538914,
+      "median_paired_added_ms": 27.7391535,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        1.664055,
+        1.797837,
+        1.808237,
+        1.82431
+      ],
+      "result_rows": 91,
+      "logical_scan_bytes": 95593
+    },
+    {
+      "sqlalchemy": "2.0.51",
+      "n": 1000,
+      "case": "in20",
+      "native_p50_ms": 2.6733625,
+      "scan_p50_ms": 33.2355335,
+      "native_p95_ms": 41.954158,
+      "scan_p95_ms": 44.37986,
+      "added_p95_ms": 2.425702000000001,
+      "unchanged_target_ms": 8,
+      "target_met": true,
+      "p50_ratio_scan_over_native": 12.432108814274159,
+      "p95_ratio_scan_over_native": 1.0578179164029462,
+      "median_paired_added_ms": 29.483208,
+      "scan_faster_pairs": 2,
+      "native_four_largest_ms": [
+        3.98011,
+        5.394545,
+        41.954158,
+        62.345818
+      ],
+      "result_rows": 455,
+      "logical_scan_bytes": 95593
+    },
+    {
+      "sqlalchemy": "2.1.3",
+      "n": 1000,
+      "case": "eq-0",
+      "native_p50_ms": 1.2297989999999999,
+      "scan_p50_ms": 28.767656,
+      "native_p95_ms": 1.65892,
+      "scan_p95_ms": 33.61336,
+      "added_p95_ms": 31.95444,
+      "unchanged_target_ms": 3,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 23.392160832786498,
+      "p95_ratio_scan_over_native": 20.262194680876714,
+      "median_paired_added_ms": 27.5944725,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        1.647253,
+        1.65183,
+        1.65892,
+        1.690246
+      ],
+      "result_rows": 91,
+      "logical_scan_bytes": 95593
+    },
+    {
+      "sqlalchemy": "2.1.3",
+      "n": 1000,
+      "case": "in20",
+      "native_p50_ms": 2.357067,
+      "scan_p50_ms": 29.333465500000003,
+      "native_p95_ms": 3.939154,
+      "scan_p95_ms": 31.886851,
+      "added_p95_ms": 27.947697,
+      "unchanged_target_ms": 8,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 12.444901014693263,
+      "p95_ratio_scan_over_native": 8.094847523097599,
+      "median_paired_added_ms": 27.0189565,
+      "scan_faster_pairs": 1,
+      "native_four_largest_ms": [
+        2.729024,
+        3.375896,
+        3.939154,
+        38.827901
+      ],
+      "result_rows": 455,
+      "logical_scan_bytes": 95593
+    },
+    {
+      "sqlalchemy": "2.0.51",
+      "n": 10000,
+      "case": "eq-0",
+      "native_p50_ms": 3.3162925000000003,
+      "scan_p50_ms": 310.2852785,
+      "native_p95_ms": 4.82717,
+      "scan_p95_ms": 372.723772,
+      "added_p95_ms": 367.896602,
+      "unchanged_target_ms": 3,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 93.56390562653927,
+      "p95_ratio_scan_over_native": 77.21372398320341,
+      "median_paired_added_ms": 306.7196435,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        4.5344,
+        4.62347,
+        4.82717,
+        4.943492
+      ],
+      "result_rows": 909,
+      "logical_scan_bytes": 956383
+    },
+    {
+      "sqlalchemy": "2.0.51",
+      "n": 10000,
+      "case": "in20",
+      "native_p50_ms": 14.3117105,
+      "scan_p50_ms": 309.3603325,
+      "native_p95_ms": 122.839664,
+      "scan_p95_ms": 417.865191,
+      "added_p95_ms": 295.025527,
+      "unchanged_target_ms": 8,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 21.615888086892202,
+      "p95_ratio_scan_over_native": 3.4017122596492935,
+      "median_paired_added_ms": 293.6383755,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        117.507244,
+        119.147186,
+        122.839664,
+        123.506527
+      ],
+      "result_rows": 4545,
+      "logical_scan_bytes": 956383
+    },
+    {
+      "sqlalchemy": "2.1.3",
+      "n": 10000,
+      "case": "eq-0",
+      "native_p50_ms": 3.4893574999999997,
+      "scan_p50_ms": 301.952931,
+      "native_p95_ms": 82.690659,
+      "scan_p95_ms": 397.020558,
+      "added_p95_ms": 314.329899,
+      "unchanged_target_ms": 3,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 86.5353954130524,
+      "p95_ratio_scan_over_native": 4.801274567179347,
+      "median_paired_added_ms": 290.3975665,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        6.339034,
+        82.299584,
+        82.690659,
+        90.208847
+      ],
+      "result_rows": 909,
+      "logical_scan_bytes": 956383
+    },
+    {
+      "sqlalchemy": "2.1.3",
+      "n": 10000,
+      "case": "in20",
+      "native_p50_ms": 13.21539,
+      "scan_p50_ms": 296.716795,
+      "native_p95_ms": 114.592238,
+      "scan_p95_ms": 396.710593,
+      "added_p95_ms": 282.118355,
+      "unchanged_target_ms": 8,
+      "target_met": false,
+      "p50_ratio_scan_over_native": 22.452367656194784,
+      "p95_ratio_scan_over_native": 3.4619325001750996,
+      "median_paired_added_ms": 282.8113115,
+      "scan_faster_pairs": 0,
+      "native_four_largest_ms": [
+        18.986629,
+        107.294714,
+        114.592238,
+        117.665639
+      ],
+      "result_rows": 4545,
+      "logical_scan_bytes": 956383
+    }
+  ],
+  "suites": [
+    {
+      "directory": "c7-fixed-scan-n1000-correctness-sa21-20261013",
+      "junit_sha256": "695f02b946152e2d00f1509c31002b78282e7df08855ba83e31b97e53717b310",
+      "tests_log_sha256": "68ec35b390742456007ef71499d80e0cd8b436b67a88db7c3207679316c2828f",
+      "nodes": [
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_native_semantics_and_structure[n1000]",
+          "seconds": 2.201,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_admission_and_incomplete_results[n1000]",
+          "seconds": 0.206,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_native_semantics_and_structure[n10000]",
+          "seconds": 18.388,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_admission_and_incomplete_results[n10000]",
+          "seconds": 1.071,
+          "outcome": "PASS"
+        }
+      ],
+      "source_unchanged": true
+    },
+    {
+      "directory": "c7-fixed-scan-correctness-sa20-20261013",
+      "junit_sha256": "d211be4fc28aa8689ef01b95b08f154f3ad7e5d4c6c5fe59764c58fd4ec2f2da",
+      "tests_log_sha256": "858468e66cd66a70aabd6388dac248f1ddf82493c48a46b205d0c577c3832cb1",
+      "nodes": [
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_native_semantics_and_structure[n1000]",
+          "seconds": 1.897,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_admission_and_incomplete_results[n1000]",
+          "seconds": 0.205,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_native_semantics_and_structure[n10000]",
+          "seconds": 17.116,
+          "outcome": "PASS"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_admission_and_incomplete_results[n10000]",
+          "seconds": 0.928,
+          "outcome": "PASS"
+        }
+      ],
+      "source_unchanged": true
+    },
+    {
+      "directory": "c7-fixed-scan-cost-sa21-20261013",
+      "junit_sha256": "e19c6506c8cb1d81cce811cd5447b366f485ef9b9928a4f99ad93a765e649953",
+      "tests_log_sha256": "e86c77af880f97e0400b1ba3315985d65bf5f7417cd0763ff68a9f9e54e51352",
+      "nodes": [
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n1000]",
+          "seconds": 3.048,
+          "outcome": "FAIL"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n10000]",
+          "seconds": 31.114,
+          "outcome": "FAIL"
+        }
+      ],
+      "source_unchanged": true
+    },
+    {
+      "directory": "c7-fixed-scan-cost-sa20-20261013",
+      "junit_sha256": "63af31bb95dc28946a94cb9b604f36ff5fc2714368d9576d9ffc6478752e7fec",
+      "tests_log_sha256": "ffc930ce9184ea840b9833c0ebd28c3d72a888ac4e45779b577a312d22609c3b",
+      "nodes": [
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n1000]",
+          "seconds": 3.307,
+          "outcome": "FAIL"
+        },
+        {
+          "nodeid": "tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n10000]",
+          "seconds": 30.515,
+          "outcome": "FAIL"
+        }
+      ],
+      "source_unchanged": true
+    }
+  ],
+  "selection_note": "SA21 correctness directory contains n1000 but -k n1000 also matched n10000. Actual four JUnit nodes cover both sizes. No 10k rerun occurred.",
+  "nominal_pass_note": "SA20 n1000 IN20 added p95=2.425702000000001 ms passes its unchanged 8 ms target. Native p95=41.954158 ms; native median=2.6733625 ms. Preserve the result and all spikes; no noise adjustment, exclusion or retry.",
+  "privacy_limits": [
+    "Structural event and logical-partition equality only; no full wire/timing independence",
+    "Separate REPEATABLE READ transactions over unchanged synthetic fixtures, not shared/exported snapshot",
+    "Per-scan row/byte checks after a partition arrives, not pre-transfer/RSS bounds",
+    "Visible cooperative cancellation, errors, access occurrence and subsequent app behavior remain leakage",
+    "Existing leased keyring cache retained; no new cross-scan plaintext/result cache",
+    "Returned-value authentication does not establish hostile-server completeness, freshness, authenticated NULL or hidden public metadata"
+  ],
+  "safe_log_sanitization": "Only connection fingerprint strings in four preflight-success lines were omitted. Exact outcomes and test output retained; original full-log SHA256 values remain in suite provenance."
+}

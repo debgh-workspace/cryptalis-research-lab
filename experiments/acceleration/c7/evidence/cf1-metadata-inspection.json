@@ -1,0 +1,157 @@
+{
+  "scope": "Read-only source inspection and structural parsing of all eight existing public CF1 fixture vectors. No crypto execution, DB, runtime change or privacy proof.",
+  "source_sha256": {
+    "src/cryptalis/crypto/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+    "src/cryptalis/manifest/compiler.py": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b",
+    "src/cryptalis/manifest/declaration.py": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b",
+    "tests/fixtures/cf1_vectors.json": "24c918629ac10d7fb739fd02a946ecdbbcf1de4102bb353cf069cc095a3b286e",
+    "docs/security.md": "27546dd4022c4a3353066bec05dee76e97cda8a4f1e16e26b656e7572b0abc45",
+    "docs/compatibility.md": "aeba6decd4f8030b999538c2d3871440e00f9b0f623cb764970cdec2fb242176",
+    "docs/architecture/README.md": "c75a472623784d33cb150a43ae42e560804ebd562b25a5ae43e9e76b03257e52",
+    "docs/lifecycle.md": "093bfc35266da35ad343210bb09bf97e8cea47e27e1843317d913eb01fbe8b8f",
+    "src/cryptalis/sqlalchemy.py": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe"
+  },
+  "profiles": {
+    "queries=[];accept_leakage=[]": "cf1-storage/v1: term absent; search generation zero",
+    "queries nonempty; matching leakage acceptance": "cf1-packed-equality/v1: deterministic 32-byte term at frame[14:46]; unique implies equality"
+  },
+  "vectors": [
+    {
+      "vector": "uuid-storage-unicode",
+      "representation": "cf1-storage/v1",
+      "flags": 0,
+      "header_bytes": 14,
+      "search_generation": 0,
+      "term_bytes": 0,
+      "overhead_bytes": 42,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "uuid-equality-unicode",
+      "representation": "cf1-packed-equality/v1",
+      "flags": 1,
+      "header_bytes": 46,
+      "search_generation": 11,
+      "term_bytes": 32,
+      "overhead_bytes": 74,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "int64-storage-empty",
+      "representation": "cf1-storage/v1",
+      "flags": 0,
+      "header_bytes": 14,
+      "search_generation": 0,
+      "term_bytes": 0,
+      "overhead_bytes": 42,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "int64-equality-unicode",
+      "representation": "cf1-packed-equality/v1",
+      "flags": 1,
+      "header_bytes": 46,
+      "search_generation": 11,
+      "term_bytes": 32,
+      "overhead_bytes": 74,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "single-uuid-storage-unicode",
+      "representation": "cf1-storage/v1",
+      "flags": 0,
+      "header_bytes": 14,
+      "search_generation": 0,
+      "term_bytes": 0,
+      "overhead_bytes": 42,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "single-uuid-equality-unicode",
+      "representation": "cf1-packed-equality/v1",
+      "flags": 1,
+      "header_bytes": 46,
+      "search_generation": 11,
+      "term_bytes": 32,
+      "overhead_bytes": 74,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "single-int64-storage-empty",
+      "representation": "cf1-storage/v1",
+      "flags": 0,
+      "header_bytes": 14,
+      "search_generation": 0,
+      "term_bytes": 0,
+      "overhead_bytes": 42,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    },
+    {
+      "vector": "single-int64-equality-unicode",
+      "representation": "cf1-packed-equality/v1",
+      "flags": 1,
+      "header_bytes": 46,
+      "search_generation": 11,
+      "term_bytes": 32,
+      "overhead_bytes": 74,
+      "structural_checks": {
+        "flags": true,
+        "header_length": true,
+        "search_generation": true,
+        "term_length": true,
+        "nonce_offset": true,
+        "encoded_length_overhead": true
+      }
+    }
+  ],
+  "conclusion": "No hidden equality term identified in storage-only. Packed equality discloses equality classes within its stable key/domain/generation. Length/NULL/public linkage still leak as documented."
+}

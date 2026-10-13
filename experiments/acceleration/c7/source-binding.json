@@ -1,0 +1,24 @@
+{
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "publication_branch": "accel/search-20261013",
+  "baseline_checkpoint": "ab40f030f377de564b7db58925ec76e919e4910c",
+  "baseline_manifest_sha256": "70a5293e76486f243305968c7a58b8fa8c6be97d5bec5508593529b9eacc49e7",
+  "baseline_files_unchanged": 195,
+  "baseline_module_sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+  "harness_sha256": "a95cf8d9d26916b3e688876c635c7f577dae7f25872110c679e39136c06de760",
+  "original_protocol_sha256": "8db8d0b85dcbc277e39376a8ee2291829d96b9e48b3a0384cb622fb19028184d",
+  "clarification_sha256": "73dcebf6350f5b36f91444ebca7317f3ffa3c36cd10bf42919d4312da2d4674d",
+  "coordinator_owned": "All database runs, existing credential/role preflights and publication. Worker did static/pure preparation and offline receipt analysis only.",
+  "preserved_failures": {
+    "C1": "held",
+    "C5": "failed and held; checkpoint94adea55905b1c69838df0f0fc725d1924eaf0b8",
+    "C7_cost": "all four size/cell gates failed; one of eight workload submetrics nominally passed"
+  },
+  "recovery": "Restore S17 195-file manifest and source, then add harness and frozen original protocol. Existing tests/test_migration.py supplies only public synthetic key fixtures and independent decoder. This checkpoint does not replace product runtime. Raw bundle originals are byte-recoverable using its encoding instruction; verify every hash. Do not rerun failed cost gates hoping for a pass.",
+  "recovery_layout": {
+    "harness": "tests/test_fixed_scope_scan_research.py",
+    "protocol": "experiments/scan-baseline/PROTOCOL.md",
+    "assessment": "docs/research/FIXED_SCOPE_SCAN_ASSESSMENT_20261013.md",
+    "instruction": "Materialize the exact 195-file S17 source tree from its manifest first, then place these archived files at their original relative locations. Publication is an evidence archive, not a standalone installed test package or runtime replacement."
+  }
+}

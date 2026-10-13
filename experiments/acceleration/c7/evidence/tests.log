@@ -1,0 +1,63 @@
+=== c7-fixed-scan-n1000-correctness-sa21-20261013 / tests.log (original SHA256 68ec35b390742456007ef71499d80e0cd8b436b67a88db7c3207679316c2828f) ===
+PostgreSQL preflight passed [connection fingerprints omitted]
+....                                                                     [100%]
+4 passed, 2 deselected in 22.11s
+
+
+=== c7-fixed-scan-correctness-sa20-20261013 / tests.log (original SHA256 858468e66cd66a70aabd6388dac248f1ddf82493c48a46b205d0c577c3832cb1) ===
+PostgreSQL preflight passed [connection fingerprints omitted]
+....                                                                     [100%]
+4 passed, 2 deselected in 20.26s
+
+
+=== c7-fixed-scan-cost-sa21-20261013 / tests.log (original SHA256 e86c77af880f97e0400b1ba3315985d65bf5f7417cd0763ff68a9f9e54e51352) ===
+PostgreSQL preflight passed [connection fingerprints omitted]
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_____________________ test_fixed_scope_finite_cost[n1000] ______________________
+tests/test_fixed_scope_scan_research.py:469: in test_fixed_scope_finite_cost
+    assert receipt["cost_gate"] == "PASS", "Research scan missed unchanged latency envelope; retain failed receipt"
+E   AssertionError: Research scan missed unchanged latency envelope; retain failed receipt
+E   assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+_____________________ test_fixed_scope_finite_cost[n10000] _____________________
+tests/test_fixed_scope_scan_research.py:469: in test_fixed_scope_finite_cost
+    assert receipt["cost_gate"] == "PASS", "Research scan missed unchanged latency envelope; retain failed receipt"
+E   AssertionError: Research scan missed unchanged latency envelope; retain failed receipt
+E   assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+=========================== short test summary info ============================
+FAILED tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n1000]
+FAILED tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n10000]
+2 failed, 4 deselected in 34.31s
+
+
+=== c7-fixed-scan-cost-sa20-20261013 / tests.log (original SHA256 ffc930ce9184ea840b9833c0ebd28c3d72a888ac4e45779b577a312d22609c3b) ===
+PostgreSQL preflight passed [connection fingerprints omitted]
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_____________________ test_fixed_scope_finite_cost[n1000] ______________________
+tests/test_fixed_scope_scan_research.py:469: in test_fixed_scope_finite_cost
+    assert receipt["cost_gate"] == "PASS", "Research scan missed unchanged latency envelope; retain failed receipt"
+E   AssertionError: Research scan missed unchanged latency envelope; retain failed receipt
+E   assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+_____________________ test_fixed_scope_finite_cost[n10000] _____________________
+tests/test_fixed_scope_scan_research.py:469: in test_fixed_scope_finite_cost
+    assert receipt["cost_gate"] == "PASS", "Research scan missed unchanged latency envelope; retain failed receipt"
+E   AssertionError: Research scan missed unchanged latency envelope; retain failed receipt
+E   assert 'FAIL' == 'PASS'
+E     
+E     - PASS
+E     + FAIL
+=========================== short test summary info ============================
+FAILED tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n1000]
+FAILED tests/test_fixed_scope_scan_research.py::test_fixed_scope_finite_cost[n10000]
+2 failed, 4 deselected in 33.97s
+
