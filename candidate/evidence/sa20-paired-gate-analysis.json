@@ -1,0 +1,71 @@
+{
+  "receipt": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/c1-public-metadata-paired-sa20-20261013/public-metadata-paired.json",
+  "receipt_sha256": "e777b0eed9172994086b83dae2b99d4f48144602d1fcd219754aa8e9614d976f",
+  "gate_status": "FAIL unchanged; 4/7 favorable equality blocks below predeclared 6/7",
+  "equality_blocks": [
+    {
+      "block": 0,
+      "native_ms": 0.41329499999999997,
+      "baseline_ms": 7.440622,
+      "candidate_ms": 8.514584,
+      "saved_ms": -1.073961999999999,
+      "cpu_saved_ms": -0.9871500000000006
+    },
+    {
+      "block": 1,
+      "native_ms": 0.3023775,
+      "baseline_ms": 10.908544500000001,
+      "candidate_ms": 8.2085775,
+      "saved_ms": 2.699967000000001,
+      "cpu_saved_ms": 2.4371934999999993
+    },
+    {
+      "block": 2,
+      "native_ms": 0.42971400000000004,
+      "baseline_ms": 10.545117999999999,
+      "candidate_ms": 7.30138,
+      "saved_ms": 3.2437379999999987,
+      "cpu_saved_ms": 2.925169500000001
+    },
+    {
+      "block": 3,
+      "native_ms": 0.391468,
+      "baseline_ms": 12.5750195,
+      "candidate_ms": 8.9354955,
+      "saved_ms": 3.6395239999999998,
+      "cpu_saved_ms": 3.1287009999999995
+    },
+    {
+      "block": 4,
+      "native_ms": 0.4535095,
+      "baseline_ms": 8.220242500000001,
+      "candidate_ms": 9.0595865,
+      "saved_ms": -0.8393439999999988,
+      "cpu_saved_ms": -0.7712639999999986
+    },
+    {
+      "block": 5,
+      "native_ms": 0.4483315,
+      "baseline_ms": 7.5050609999999995,
+      "candidate_ms": 9.249698,
+      "saved_ms": -1.7446370000000009,
+      "cpu_saved_ms": -1.6988665000000012
+    },
+    {
+      "block": 6,
+      "native_ms": 0.4794815,
+      "baseline_ms": 9.870428,
+      "candidate_ms": 7.3524,
+      "saved_ms": 2.518028,
+      "cpu_saved_ms": 2.550170999999999
+    }
+  ],
+  "native_equality_range_ms": [
+    0.3023775,
+    0.4794815
+  ],
+  "native_max_over_min": 1.5857049548990914,
+  "cpu_and_wall_delta_signs_agree": true,
+  "interpretation": "Native and protected block times vary; CPU medians agree with all wall-time signs, so SQL wait alone does not explain variation. Native cells do not bracket each protected variant. Neither source of variation nor causal corrected speed is established for this failed consistency gate.",
+  "recommendation": "Do not promote as a cross-version-qualified performance correction. Preserve C1 isolated and the failed receipt; no automatic rerun, threshold lowering or removal of equality workload."
+}
