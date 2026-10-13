@@ -1,0 +1,67 @@
+{
+  "archive_bytes": 2915204,
+  "archive_sha256": "2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad",
+  "parts": [
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part000",
+      "bytes": 262144,
+      "sha256": "811df21be1637371a8f80d633c58490e99d1eb266d29a76aa8d1e4d6028564f2"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part001",
+      "bytes": 262144,
+      "sha256": "8c2d86674702e41f6896fdd539b2e6e72a06f575f1212061a1d0eb5677c8a407"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part002",
+      "bytes": 262144,
+      "sha256": "02536d37bec4cd9a669b7b3ab241a86a1a4ed00acc9a52ada30fda2c362a99fd"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part003",
+      "bytes": 262144,
+      "sha256": "319a02fb5d1af5edf00ff51212c20f4dabba2937daf23f9ea96be1e7f825f9d9"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part004",
+      "bytes": 262144,
+      "sha256": "fae3033511b9b715e2e9aeab32e1e6d0008ae59615337d963bba66090e165938"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part005",
+      "bytes": 262144,
+      "sha256": "568439a9db2fc868c35b7c2665df156b1733460bab5b3b7d9d9e558942d2ff86"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part006",
+      "bytes": 262144,
+      "sha256": "5fdaf2213bb7344aaa4cb5cdc1e2f1f02ae55f630f077ed107ebfb44a3224e68"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part007",
+      "bytes": 262144,
+      "sha256": "d3fac36dd9ccad6fd5cf5bf1ad1e3b8c2d3a2885332748bcd901b8987cdfa7c4"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part008",
+      "bytes": 262144,
+      "sha256": "c496fa56203076b9e706fbbc165ec61fc0345b6c5f89a97dff0f416180316386"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part009",
+      "bytes": 262144,
+      "sha256": "35d6e939131bdcb73a59422de30584f418f17c5470b326aad91bbbcbdcf63083"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part010",
+      "bytes": 262144,
+      "sha256": "a5d83555aa548ede20bb00fb674f69d21878c1e5b02dd16fad9b12ecb07c2b51"
+    },
+    {
+      "path": "checkpoints/s5/archive.tar.xz.part011",
+      "bytes": 31620,
+      "sha256": "a134c1792beb4b24e4e6bf4844218a62f5795041dc77d23ebd99133873dd135f"
+    }
+  ],
+  "manifest_entries": 3579
+}
