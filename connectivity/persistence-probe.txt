@@ -1,0 +1,4 @@
+Cryptalis repository persistence probe
+Repository: debgh-workspace/cryptalis-research-lab
+Revision: 1
+Purpose: non-sensitive connector write/read/recovery verification
