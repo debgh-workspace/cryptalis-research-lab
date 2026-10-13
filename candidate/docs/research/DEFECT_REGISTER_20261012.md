@@ -36,3 +36,12 @@ Malformed protection artifacts previously escaped the MigrationPlan constructor 
 Source GREEN13PASS includes3 real PostgreSQL plan/protect/reverse controls. Installed complete suites: SQLAlchemy2.1.3 1710PASS/7FAIL/0SKIP287.14s;2.0.51 1692PASS/7FAIL/18SKIP286.75s. All seven failures exactly match prior legacy-profile assertions; no new skip or expectation change. Original legacy test file independently passes10/10 on its original layout implementation. Full-suite acceptance and legacy-layout upgrades remain OPEN. Wheel aa186579a457c1d6b749312071b1786871ee70b652cd3788f1db7cfd9f6da3f1 reproduced twice offline; all34 installed runtime modules byte-match and38 RECORD entries verify. All seven production gates remain UNKNOWN.
 
 Next: reproduce the separate fractional measured-rate planning concern without loosening manifest/lock numeric validation; preserve current correction and all historical failed evidence.
+
+
+## S7 installed measured-rate correction, 2026-10-13
+
+Both public protection and reversal planners previously rejected valid fractional measured rates after accepting their inputs (RED 2FAIL). A separate transition-artifact decoder now permits positive finite floats only in the two explicit estimate-rate fields and the corresponding reverse source-plan fields. Manifest, lock and descriptor numeric grammar remains unchanged. This is not artifact authentication or comprehensive semantic validation. Existing integer artifacts roundtrip unchanged; older readers refuse new fractional artifacts.
+
+Source validation:61PASS; removal of only the field-scope guard produces3FAIL/12PASS, followed by exact restoration15PASS. Installed full PostgreSQL suites through unchanged dual-role preflights: SQLAlchemy2.1.3 1725PASS/7FAIL/0SKIP286.63s;2.0.51 1707PASS/7FAIL/18SKIP289.55s. Both have2 fork warnings. Exact seven legacy-profile failures remain unchanged; full-suite acceptance stays OPEN. Source stability verified; each server stopped cleanly. Reproducible wheel SHA25619efd5eafede07616c45c21be491fe85206f52cd0c1ada53fa76dee8ab2ea6e8. All seven production qualification gates remain UNKNOWN.
+
+Next: independently reproduce the unqualified public-child table integration gap; protected-table physical binding already exists and must not be reimplemented or weakened. New-cluster/credential approval remains pending; existing authorized lab remains usable.

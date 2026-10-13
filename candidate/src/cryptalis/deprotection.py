@@ -16,7 +16,7 @@ from cryptalis import cutover
 from cryptalis._native_text import source_text_type
 from cryptalis.crypto.cf1 import FieldDescriptor, open_text
 from cryptalis.manifest.compiler import _canonical, _previous_lock
-from cryptalis.manifest.parser import decode_manifest_json
+from cryptalis._transition_json import decode_transition_json
 
 PHASES = ('PREPARED', 'EXPANDED', 'BACKFILLED', 'VERIFIED',
           'PLAINTEXT_PENDING', 'PLAINTEXT_ACTIVE')
@@ -29,7 +29,7 @@ class DeprotectionPlan:
 
     def __post_init__(self):
         try:
-            d = decode_manifest_json(self.artifact)
+            d = decode_transition_json(self.artifact, reverse=True)
             if (d['format'] != 'cryptalis.reverse/retained-native-research-v0' or d['kind'] != 'deprotect'
                     or _canonical(d) != self.artifact):
                 raise ValueError

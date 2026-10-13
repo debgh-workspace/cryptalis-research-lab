@@ -1,0 +1,30 @@
+{
+  "slice": "S7",
+  "status": "Finite measured-rate correction verified in installed candidate; full-suite acceptance OPEN",
+  "results": [
+    {
+      "cell": "sa21",
+      "passed": 1725,
+      "failed": 7,
+      "skipped": 0,
+      "seconds": 286.63,
+      "same_known_failure_ids": true,
+      "source_unchanged": true,
+      "server_stopped": true
+    },
+    {
+      "cell": "sa20",
+      "passed": 1707,
+      "failed": 7,
+      "skipped": 18,
+      "seconds": 289.55,
+      "same_known_failure_ids": true,
+      "source_unchanged": true,
+      "server_stopped": true
+    }
+  ],
+  "all_production_gates": "UNKNOWN",
+  "wheel_sha256": "19efd5eafede07616c45c21be491fe85206f52cd0c1ada53fa76dee8ab2ea6e8",
+  "compatibility": "Integer artifacts unchanged; older readers refuse fractional artifacts",
+  "scope": "Only explicit positive finite rate fields in transition artifacts; manifest parser unchanged"
+}

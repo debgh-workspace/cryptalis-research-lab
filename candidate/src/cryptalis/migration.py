@@ -19,7 +19,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from cryptalis.crypto.cf1 import FieldDescriptor, seal_text, open_text
 from cryptalis.crypto.keys import CryptoFailure, Keyring
 from cryptalis.manifest.compiler import compile_protection, _schema_facts, _canonical, _previous_lock
-from cryptalis.manifest.parser import decode_manifest_json
+from cryptalis._transition_json import decode_transition_json
 from cryptalis.manifest.routines import routine_inventory
 
 JOURNAL = '_cryptalis_journal'
@@ -66,7 +66,7 @@ class MigrationPlan:
     artifact: bytes
     def __post_init__(self):
         try:
-            doc = decode_manifest_json(self.artifact)
+            doc = decode_transition_json(self.artifact)
             if (doc.get('format') != 'cryptalis.transition/retained-native-research-v0'
                     or _canonical(doc) != self.artifact or doc.get('kind') != 'protect'):
                 raise ValueError
