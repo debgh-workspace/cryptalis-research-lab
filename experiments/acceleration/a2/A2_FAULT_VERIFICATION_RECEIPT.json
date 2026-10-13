@@ -1,0 +1,182 @@
+{
+  "format": "cryptalis.a2-public-update-faults/research-v1",
+  "candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-orm-faults-20261013",
+  "base_receipt": "A2_BASE_RECEIPT.json",
+  "source_sha256": {
+    "src/cryptalis/sqlalchemy.py": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+    "src/cryptalis/_experimental_public_update.py": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3",
+    "tests/test_private_public_update_faults.py": "b02b835db801c7b0bc735323ea91e058ed8d2bc1e3408b39604ea1aa280281e6"
+  },
+  "contract": "Native DBAPI execution errors retain native transaction state; actual failed autoflush and non-driver provider/cancellation/post-result exceptions retain scoped cleanup. Public-table UPDATE remains private/off by default.",
+  "final_cases": {
+    "native_overflow": 4,
+    "real_autoflush_integrity_error": 4,
+    "cold_unavailable_and_expired_renewal": 8,
+    "real_preparation_task_cancellation": 2,
+    "synthetic_post_native_result_boundary": 2
+  },
+  "scope_limits": [
+    "Post-result exception is synthetic after native _ensure_sync_result completion, not a reproduced natural driver-finalization failure.",
+    "Dependency cells: SQLAlchemy 2.1.3 and 2.0.51, existing PG16 lab; no fresh cluster/provider custody claim.",
+    "Worker ran only pure/static checks; coordinator owns all listed database cells.",
+    "Full installed S17 integration is coordinator-owned and was still running when this receipt was written.",
+    "Thirty-five current private DELETE controls passed in the earlier SA2.1 combined run; no separate final SA2.0 DELETE claim is made here."
+  ],
+  "receipts": [
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-public-update-overflow-red-20261013",
+      "pytest_summary": "4 failed in 2.15s",
+      "counts": {
+        "failed": 4
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "failed": 4
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "6e1484898bebfa6ddf30a7ec49f8ebd7acc693597b3e25a073160c895d43531c",
+      "test_sha256": "5b153b89a07d03f7f816bdd6dea0aec29bca93cb784d37f54fd4fdc903889858"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-public-update-overflow-corrected-20261013",
+      "pytest_summary": "4 passed in 2.01s",
+      "counts": {
+        "passed": 4
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 4
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "f69b486d0d96429422bedb1c04731a1a30d5903e8aa5eb5efed6db19ee1d7719",
+      "test_sha256": "5b153b89a07d03f7f816bdd6dea0aec29bca93cb784d37f54fd4fdc903889858"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-public-update-final-sa21-20261013",
+      "pytest_summary": "3 failed, 52 passed in 17.97s",
+      "counts": {
+        "passed": 52,
+        "failed": 3
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 17,
+          "failed": 3
+        },
+        "tests/test_unqualified_public_child.py": {
+          "passed": 29
+        },
+        "tests/test_unqualified_public_child_async.py": {
+          "passed": 6
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "2d61ec64cb7f234fcce6c873b15b99dd3f1a93e280eddf31d45c2fb657842fe3"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-public-update-fixture-corrected-20261013",
+      "pytest_summary": "2 failed, 2 passed, 16 deselected in 1.89s",
+      "counts": {
+        "passed": 2,
+        "failed": 2
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 2,
+          "failed": 2
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "a5bad905a29def1ac5bf422a9a7a12e5619567a0c9b8dafe6b6812192f69fd1f"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-synthetic-post-result-boundary-20261013",
+      "pytest_summary": "2 failed, 18 deselected in 1.06s",
+      "counts": {
+        "failed": 2
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "failed": 2
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "7cdf845aa25c0325179247b56420d70657ce17b6c06e623863a6a047aa33a6fe"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-post-result-guarded-probe-corrected-20261013",
+      "pytest_summary": "2 passed, 18 deselected in 1.06s",
+      "counts": {
+        "passed": 2
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 2
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "b02b835db801c7b0bc735323ea91e058ed8d2bc1e3408b39604ea1aa280281e6"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-final-faults-sa21-20261013",
+      "pytest_summary": "20 passed in 8.15s",
+      "counts": {
+        "passed": 20
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 20
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "b02b835db801c7b0bc735323ea91e058ed8d2bc1e3408b39604ea1aa280281e6"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-final-faults-sa20-20261013",
+      "pytest_summary": "20 passed in 7.90s",
+      "counts": {
+        "passed": 20
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "passed": 20
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "ef764a712b60c6c33e694937ed23ce56f21b8374f081d276b0f076310a9d3b89",
+      "test_sha256": "b02b835db801c7b0bc735323ea91e058ed8d2bc1e3408b39604ea1aa280281e6"
+    },
+    {
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a2-outer-exemption-mutant-20261013",
+      "pytest_summary": "2 failed, 18 deselected in 1.23s",
+      "counts": {
+        "failed": 2
+      },
+      "modules": {
+        "tests/test_private_public_update_faults.py": {
+          "failed": 2
+        }
+      },
+      "source_stable": true,
+      "postgres_stop_exit_code": 0,
+      "runtime_sha256": "f69b486d0d96429422bedb1c04731a1a30d5903e8aa5eb5efed6db19ee1d7719",
+      "test_sha256": "b02b835db801c7b0bc735323ea91e058ed8d2bc1e3408b39604ea1aa280281e6"
+    }
+  ],
+  "all_seven_production_gates": "UNKNOWN"
+}

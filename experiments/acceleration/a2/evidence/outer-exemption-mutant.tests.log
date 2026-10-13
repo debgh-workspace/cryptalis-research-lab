@@ -1,0 +1,41 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+_ test_public_update_async_synthetic_post_result_failure_is_quarantined[root] __
+tests/test_private_public_update_faults.py:447: in test_public_update_async_synthetic_post_result_failure_is_quarantined
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_private_public_update_faults.py:415: in scenario
+    assert session.is_active is (not attached), f'attached={attached}'
+E   AssertionError: attached=True
+E   assert True is not True
+E    +  where True = <cryptalis.sqlalchemy._AsyncSession object at 0x7f32487d02f0>.is_active
+_ test_public_update_async_synthetic_post_result_failure_is_quarantined[savepoint] _
+tests/test_private_public_update_faults.py:447: in test_public_update_async_synthetic_post_result_failure_is_quarantined
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_private_public_update_faults.py:415: in scenario
+    assert session.is_active is (not attached), f'attached={attached}'
+E   AssertionError: attached=True
+E   assert True is not True
+E    +  where True = <cryptalis.sqlalchemy._AsyncSession object at 0x7f324871e930>.is_active
+=========================== short test summary info ============================
+FAILED tests/test_private_public_update_faults.py::test_public_update_async_synthetic_post_result_failure_is_quarantined[root]
+FAILED tests/test_private_public_update_faults.py::test_public_update_async_synthetic_post_result_failure_is_quarantined[savepoint]
+2 failed, 18 deselected in 1.23s

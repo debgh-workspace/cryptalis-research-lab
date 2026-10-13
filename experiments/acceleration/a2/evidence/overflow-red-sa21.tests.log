@@ -1,0 +1,41 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFF                                                                     [100%]
+=================================== FAILURES ===================================
+___ test_public_update_database_error_matches_native_transaction[root-sync] ____
+tests/test_private_public_update_faults.py:108: in test_public_update_database_error_matches_native_transaction
+    assert observations[0] == observations[1], f'Native/attached failed transaction differs: {observations}'
+E   AssertionError: Native/attached failed transaction differs: [(True, True, False, True, ('available', None)), (False, True, False, False, ('available', None))]
+E   assert (True, True, ...lable', None)) == (False, True,...lable', None))
+E     
+E     At index 0 diff: True != False
+E     Use -v to get more diff
+___ test_public_update_database_error_matches_native_transaction[root-async] ___
+tests/test_private_public_update_faults.py:108: in test_public_update_database_error_matches_native_transaction
+    assert observations[0] == observations[1], f'Native/attached failed transaction differs: {observations}'
+E   AssertionError: Native/attached failed transaction differs: [(True, True, False, True, ('available', None)), (False, True, False, False, ('available', None))]
+E   assert (True, True, ...lable', None)) == (False, True,...lable', None))
+E     
+E     At index 0 diff: True != False
+E     Use -v to get more diff
+_ test_public_update_database_error_matches_native_transaction[savepoint-sync] _
+tests/test_private_public_update_faults.py:108: in test_public_update_database_error_matches_native_transaction
+    assert observations[0] == observations[1], f'Native/attached failed transaction differs: {observations}'
+E   AssertionError: Native/attached failed transaction differs: [(True, True, True, True, ('locked', None)), (False, True, True, False, ('locked', None))]
+E   assert (True, True, ...ocked', None)) == (False, True,...ocked', None))
+E     
+E     At index 0 diff: True != False
+E     Use -v to get more diff
+_ test_public_update_database_error_matches_native_transaction[savepoint-async] _
+tests/test_private_public_update_faults.py:108: in test_public_update_database_error_matches_native_transaction
+    assert observations[0] == observations[1], f'Native/attached failed transaction differs: {observations}'
+E   AssertionError: Native/attached failed transaction differs: [(True, True, True, True, ('locked', None)), (False, True, True, False, ('locked', None))]
+E   assert (True, True, ...ocked', None)) == (False, True,...ocked', None))
+E     
+E     At index 0 diff: True != False
+E     Use -v to get more diff
+=========================== short test summary info ============================
+FAILED tests/test_private_public_update_faults.py::test_public_update_database_error_matches_native_transaction[root-sync]
+FAILED tests/test_private_public_update_faults.py::test_public_update_database_error_matches_native_transaction[root-async]
+FAILED tests/test_private_public_update_faults.py::test_public_update_database_error_matches_native_transaction[savepoint-sync]
+FAILED tests/test_private_public_update_faults.py::test_public_update_database_error_matches_native_transaction[savepoint-async]
+4 failed in 2.15s
