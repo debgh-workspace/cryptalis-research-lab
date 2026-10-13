@@ -1,0 +1,21 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+___________________ test_active_doctor_refuses_owner_engine ____________________
+tests/test_doctor_active.py:44: in test_active_doctor_refuses_owner_engine
+    assert report['checks']['deployment']['status']=='REJECTED'
+E   AssertionError: assert 'CHECKED' == 'REJECTED'
+E     
+E     - REJECTED
+E     + CHECKED
+____________ test_active_doctor_refuses_schema_drift_without_repair ____________
+tests/test_doctor_active.py:78: in test_active_doctor_refuses_schema_drift_without_repair
+    assert report['checks']['deployment']['status']=='REJECTED'
+E   AssertionError: assert 'CHECKED' == 'REJECTED'
+E     
+E     - REJECTED
+E     + CHECKED
+=========================== short test summary info ============================
+FAILED tests/test_doctor_active.py::test_active_doctor_refuses_owner_engine
+FAILED tests/test_doctor_active.py::test_active_doctor_refuses_schema_drift_without_repair
+2 failed, 6 deselected in 0.65s

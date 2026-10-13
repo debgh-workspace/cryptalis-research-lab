@@ -6,7 +6,7 @@
 
 - Last updated UTC: `2026-10-13T11:35Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Integrated candidate selected: `candidate-active-doctor-20261013` (S13); source-inventory SHA-256 `f13777f7e87ffc1b31f1b88f4c2de0846125a64185a8cf6a2e59d863c7423ba2` (180 files). Exact-commit integration/recovery receipt follows publication; S13 has affected-path qualification, last full-suite baseline S12.
+- Integrated candidate: `candidate-active-doctor-20261013` (S13); source-inventory SHA-256 `f13777f7e87ffc1b31f1b88f4c2de0846125a64185a8cf6a2e59d863c7423ba2` (180 files). Remote integration `3fed8c8195a40d192ac4236084b01704583fad1c` byte-verified;180-file composite restore PASS. S13 has affected-path qualification; last full-suite baseline S12.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
@@ -142,7 +142,7 @@ Existing documented targets (not pass claims): added p95 ≤3 ms point/equality;
 
 ## NEXT ACTION (top five; update after each slice)
 
-1. Verify S12 remote source/artifact bytes and179-file recovery; keep full doctor coverage explicitly OPEN.
+1. Save S13 recovery/artifacts and retain its focused qualification boundary. Complete doctor coverage remains OPEN.
 2. Integrate a read-only doctor using the existing bounded compatibility_report scanner and native compiler; static scanner already exists. Distinguish checked/unknown scope, do not invoke attach to diagnose, and never repair privileges silently.
 3. Resolve remaining lifecycle/legacy-layout coverage without editing away the seven preserved assertions; fresh-cluster proof waits for the existing unanswered approval.
 4. Establish a clean unrelated PostgreSQL application baseline and reduce remaining manifest-first integration friction.

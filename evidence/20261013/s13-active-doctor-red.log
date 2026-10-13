@@ -1,0 +1,29 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+__ test_active_doctor_checks_deployment_and_runtime_role_without_rows_or_keys __
+tests/test_doctor_active.py:29: in test_active_doctor_checks_deployment_and_runtime_role_without_rows_or_keys
+    try: report=inspect_active(app)
+                ^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_active.py:19: in inspect_active
+    return doctor(declaration,phase='active',mapping=app.mapping,engine=kwargs.pop('engine',app.runtime),
+E   TypeError: doctor() got an unexpected keyword argument 'deployment'
+___________________ test_active_doctor_refuses_owner_engine ____________________
+tests/test_doctor_active.py:43: in test_active_doctor_refuses_owner_engine
+    report=inspect_active(app,engine=app.owner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_active.py:19: in inspect_active
+    return doctor(declaration,phase='active',mapping=app.mapping,engine=kwargs.pop('engine',app.runtime),
+E   TypeError: doctor() got an unexpected keyword argument 'deployment'
+________________ test_active_doctor_refuses_stale_external_pin _________________
+tests/test_doctor_active.py:52: in test_active_doctor_refuses_stale_external_pin
+    report=inspect_active(app,pin=replace(app.pin,phase='PREPARED'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_doctor_active.py:19: in inspect_active
+    return doctor(declaration,phase='active',mapping=app.mapping,engine=kwargs.pop('engine',app.runtime),
+E   TypeError: doctor() got an unexpected keyword argument 'deployment'
+=========================== short test summary info ============================
+FAILED tests/test_doctor_active.py::test_active_doctor_checks_deployment_and_runtime_role_without_rows_or_keys
+FAILED tests/test_doctor_active.py::test_active_doctor_refuses_owner_engine
+FAILED tests/test_doctor_active.py::test_active_doctor_refuses_stale_external_pin
+3 failed in 0.90s
