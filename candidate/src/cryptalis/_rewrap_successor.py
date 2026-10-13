@@ -190,6 +190,13 @@ def verify(plan, source, *, source_pin, source_keys, target_keys):
     try:
         _matches_source(plan, source, source_pin)
         pairs = _rings(source, source_keys, target_keys)
+        # Warm material is still bound to the policy's exact provider identity.
+        # Checking an identity is local; it is not a provider availability probe.
+        for _, old, new in pairs:
+            for ring in (old, new):
+                ring._check()
+                for wrapper in ring.policy.wrappers:
+                    ring._provider(wrapper)
         d = plan.document
         snapshots = []
         for tenant, old, new in pairs:
@@ -205,16 +212,22 @@ def verify(plan, source, *, source_pin, source_keys, target_keys):
                 if a.context != c or b.context != c or not compare_digest(a.root, b.root):
                     raise m.TransitionFailure('rewrap_root_mismatch', plan.operation_id)
             snapshots.extend((old_keys, new_keys))
-        # A later tenant/provider call cannot outlive any earlier root lease.
-        for prepared in snapshots:
-            for wrapper in prepared.policy.wrappers:
-                c = wrapper.context
-                prepared._resolve(c.domain_id, c.tenant_id, c.purpose, c.generation)
-        # Callbacks must not change the policy after its initial admission.
+        # Callbacks must not change the policy or provider identity after its
+        # initial admission, including during the final target unwrap.
         for tenant, old, new in pairs:
             if (m._policy(old) != d['source_key_policies'][str(tenant)]
                     or m._policy(new) != d['target_key_policies'][str(tenant)]):
                 raise m.TransitionFailure('rewrap_key_policy_changed', plan.operation_id)
+            for ring in (old, new):
+                ring._check()
+                for wrapper in ring.policy.wrappers:
+                    ring._provider(wrapper)
+        # Check leases last: a later tenant/provider identity callback cannot
+        # outlive any earlier material's original deadline.
+        for prepared in snapshots:
+            for wrapper in prepared.policy.wrappers:
+                c = wrapper.context
+                prepared._resolve(c.domain_id, c.tenant_id, c.purpose, c.generation)
     except m.TransitionFailure:
         raise
     except Exception:
