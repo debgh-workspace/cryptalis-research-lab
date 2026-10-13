@@ -1,0 +1,9 @@
+test_accepted_settings_continue_to_existing_admission (__main__.AttachmentEnginePreflightTests.test_accepted_settings_continue_to_existing_admission) ... ok
+test_async_unsafe_settings_fail_before_connection_or_keys (__main__.AttachmentEnginePreflightTests.test_async_unsafe_settings_fail_before_connection_or_keys) ... ok
+test_malformed_lock_keeps_existing_policy_failure (__main__.AttachmentEnginePreflightTests.test_malformed_lock_keeps_existing_policy_failure) ... ok
+test_sync_unsafe_settings_fail_before_connection_or_keys (__main__.AttachmentEnginePreflightTests.test_sync_unsafe_settings_fail_before_connection_or_keys) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.099s
+
+OK

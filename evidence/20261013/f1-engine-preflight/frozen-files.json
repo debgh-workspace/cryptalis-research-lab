@@ -1,0 +1,38 @@
+{
+  "slice": "DX-ENGINE-PREFLIGHT-01",
+  "baseline": "S14",
+  "runtime_sha256": "ae52d494024e09ebf330d152598b2f852b4fc8183f1260e067c520fc0013e2b1",
+  "unchanged_methods": [
+    "activate",
+    "_check",
+    "validate"
+  ],
+  "files": [
+    {
+      "path": "src/cryptalis/sqlalchemy.py",
+      "sha256": "ae52d494024e09ebf330d152598b2f852b4fc8183f1260e067c520fc0013e2b1",
+      "bytes": 57959,
+      "kind": "modified"
+    },
+    {
+      "path": "tests/test_attachment_engine_preflight.py",
+      "sha256": "118c49e0ef14b30ecd4d35e43c0458a33382c765e5610342b488b6d88756ef86",
+      "bytes": 5031,
+      "kind": "new"
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "sha256": "c75a472623784d33cb150a43ae42e560804ebd562b25a5ae43e9e76b03257e52",
+      "bytes": 22317,
+      "kind": "modified"
+    },
+    {
+      "path": "docs/research/DX_ENGINE_PREFLIGHT_20261013.md",
+      "sha256": "913a9b42b39646f80c0c55f37b47c57f323d988a75a94f065f45d6ce7a7259c3",
+      "bytes": 3400,
+      "kind": "new"
+    }
+  ],
+  "postgresql_runs": "NOT_RUN; coordinator only",
+  "independent_gates": "UNKNOWN"
+}

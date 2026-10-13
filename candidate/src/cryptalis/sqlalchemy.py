@@ -67,6 +67,11 @@ class PolicyMismatch(CryptoFailure):
     remedy = "Check the trusted lock, bytea target, search index/check, tenant key policy, mapping, and guarded engine configuration. Attach before application use."
 
 
+class UnsafeEngineLogging(PolicyMismatch):
+    stage = "engine logging admission"
+    remedy = "Create the runtime engine with echo=False and hide_parameters=True. Keep those settings for the attached engine and review host logging separately."
+
+
 class ProtectedSchemaMismatch(PolicyMismatch):
     stage = "protected SELECT execution"
     effects = "transaction_requires_rollback"
@@ -1074,6 +1079,9 @@ def attach(mapping: registry, engine: Engine | AsyncEngine, *, lock: bytes, keys
         if (not isinstance(mapping, registry) or not isinstance(engine, (Engine, AsyncEngine)) or
                 document["schema"] != "cryptalis.lock/v1" or document["profile"] != "cf1"):
             raise PolicyMismatch()
+        native_engine = engine.sync_engine if isinstance(engine, AsyncEngine) else engine
+        if native_engine.echo or not native_engine.hide_parameters:
+            raise UnsafeEngineLogging()
         owner = _Attachment(mapping, engine, document, keys, deployment)
         if isinstance(engine, AsyncEngine):
             if uses_sqlmodel(mapping):

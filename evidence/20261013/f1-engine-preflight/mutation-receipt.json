@@ -1,0 +1,26 @@
+{
+  "scope": "pure public attach preflight; no database/key access",
+  "source_sha256": "ae52d494024e09ebf330d152598b2f852b4fc8183f1260e067c520fc0013e2b1",
+  "runs": [
+    {
+      "cell": "sa20",
+      "exit_code": 1,
+      "expected_failure": true,
+      "twelve_failures": true
+    },
+    {
+      "cell": "sa21",
+      "exit_code": 1,
+      "expected_failure": true,
+      "twelve_failures": true
+    },
+    {
+      "cell": "sa20",
+      "restored_exit_code": 0
+    },
+    {
+      "cell": "sa21",
+      "restored_exit_code": 0
+    }
+  ]
+}
