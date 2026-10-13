@@ -1,0 +1,23 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+......FFF......                                                          [100%]
+=================================== FAILURES ===================================
+__ test_float_admission_does_not_expand_beyond_measured_rate_paths[row_count] __
+tests/test_transition_rate_estimates.py:67: in test_float_admission_does_not_expand_beyond_measured_rate_paths
+    with pytest.raises(TransitionFailure, match='invalid_plan'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+_ test_float_admission_does_not_expand_beyond_measured_rate_paths[policy_digest] _
+tests/test_transition_rate_estimates.py:67: in test_float_admission_does_not_expand_beyond_measured_rate_paths
+    with pytest.raises(TransitionFailure, match='invalid_plan'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+_ test_float_admission_does_not_expand_beyond_measured_rate_paths[unexpected_nested_rates] _
+tests/test_transition_rate_estimates.py:67: in test_float_admission_does_not_expand_beyond_measured_rate_paths
+    with pytest.raises(TransitionFailure, match='invalid_plan'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+=========================== short test summary info ============================
+FAILED tests/test_transition_rate_estimates.py::test_float_admission_does_not_expand_beyond_measured_rate_paths[row_count]
+FAILED tests/test_transition_rate_estimates.py::test_float_admission_does_not_expand_beyond_measured_rate_paths[policy_digest]
+FAILED tests/test_transition_rate_estimates.py::test_float_admission_does_not_expand_beyond_measured_rate_paths[unexpected_nested_rates]
+3 failed, 12 passed in 1.94s

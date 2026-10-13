@@ -1,0 +1,11 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.......F.....................................................            [100%]
+=================================== FAILURES ===================================
+_ test_float_admission_does_not_expand_beyond_measured_rate_paths[key_generation] _
+tests/test_transition_rate_estimates.py:62: in test_float_admission_does_not_expand_beyond_measured_rate_paths
+    doc['key_policies'][tenant]['payload_generation'] = 1.0
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: 'str' object does not support item assignment
+=========================== short test summary info ============================
+FAILED tests/test_transition_rate_estimates.py::test_float_admission_does_not_expand_beyond_measured_rate_paths[key_generation]
+1 failed, 60 passed in 2.66s

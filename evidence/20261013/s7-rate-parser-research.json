@@ -1,0 +1,33 @@
+{
+  "status": "REPRODUCED_AND_SOURCE_CORRECTED_INSTALLED_QUALIFICATION_PENDING",
+  "question": "Positive finite float measured rates admitted by planner may fail strict integer-only artifact parsing.",
+  "sources": [
+    {
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "finding": "parse_float controls decoding of JSON non-integer tokens; parse_constant separately controls NaN/Infinity tokens. Default encoder permits nonfinite values unless allow_nan=False."
+    },
+    {
+      "path": "candidate/src/cryptalis/migration.py",
+      "finding": "Planner accepts type int or float, finite and positive; MigrationPlan calls decode_manifest_json."
+    },
+    {
+      "path": "candidate/src/cryptalis/manifest/parser.py",
+      "finding": "parse_float and parse_constant both use integer-only rejection."
+    }
+  ],
+  "constraints": [
+    "Do not broaden numeric admission in manifests, compiler locks, generations or IDs.",
+    "Keep finite positive measured-rate semantics and canonical artifact bytes explicit.",
+    "Reproduce public planner path on authorized PostgreSQL before choosing correction."
+  ],
+  "alternatives": [
+    "Explicit artifact-only whitelist for finite positive rate paths, leaving manifest parser strict.",
+    "Versioned decimal-string or rational rate representation; requires compatibility work.",
+    "Reject float API inputs explicitly; does not satisfy the currently implied finite-float support and leaves objective open."
+  ],
+  "initial_status": "SOURCE_INSPECTED_NOT_YET_REPRODUCED",
+  "real_pg_red": "Both public planner paths fail at finite20.5/10.25 rates:2FAIL0.70s",
+  "chosen_design": "Separate bounded transition-artifact decoder; only two rate paths plus reverse source-plan rate paths admit positive finite floats. Shared manifest decoder remains untouched.",
+  "alternatives_decision": "Versioned decimal/rational representation adds schema/reader complexity; rounding would alter input estimates. Field-scoped decoding preserves JSON float semantics already accepted at the planner API while keeping other numeric paths strict.",
+  "compatibility": "Prior integer-only artifacts remain byte-identical. New fractional-rate artifacts require the corrected reader; older readers refuse them."
+}

@@ -1,0 +1,27 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+___ test_fractional_measured_rates_survive_read_only_plan_roundtrip[protect] ___
+tests/test_transition_rate_estimates.py:24: in test_fractional_measured_rates_survive_read_only_plan_roundtrip
+    plan = app.m.plan(json.dumps(app.plan.document['lock']['declaration']).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:301: in plan
+    return MigrationPlan(_canonical({'format':'cryptalis.transition/retained-native-research-v0','kind':'protect','operation_id':str(uuid4()),
+<string>:4: in __init__
+    ???
+src/cryptalis/migration.py:79: in __post_init__
+    raise TransitionFailure('invalid_plan') from None
+E   cryptalis.migration.TransitionFailure: invalid_plan; operation=unstarted; SQLSTATE=UNKNOWN. Keep writers stopped. Inspect this operation and the external current policy before resume.
+___ test_fractional_measured_rates_survive_read_only_plan_roundtrip[reverse] ___
+tests/test_transition_rate_estimates.py:29: in test_fractional_measured_rates_survive_read_only_plan_roundtrip
+    plan = api().plan(app.plan, app.owner, source_pin=app.pin, keys=keys,
+src/cryptalis/deprotection.py:163: in plan
+    return DeprotectionPlan(_canonical({'format':'cryptalis.reverse/retained-native-research-v0','kind':'deprotect',
+<string>:4: in __init__
+    ???
+src/cryptalis/deprotection.py:69: in __post_init__
+    raise m.TransitionFailure('invalid_reverse_plan') from None
+E   cryptalis.migration.TransitionFailure: invalid_reverse_plan; operation=unstarted; SQLSTATE=UNKNOWN. Keep writers stopped. Inspect this operation and the external current policy before resume.
+=========================== short test summary info ============================
+FAILED tests/test_transition_rate_estimates.py::test_fractional_measured_rates_survive_read_only_plan_roundtrip[protect]
+FAILED tests/test_transition_rate_estimates.py::test_fractional_measured_rates_survive_read_only_plan_roundtrip[reverse]
+2 failed in 0.70s
