@@ -1,0 +1,21 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+________ test_doctor_native_write_injection_is_database_rejected[False] ________
+tests/test_doctor.py:57: in test_doctor_native_write_injection_is_database_rejected
+    assert report['checks']['native_admission']['status']=='UNAVAILABLE'
+E   AssertionError: assert 'CHECKED' == 'UNAVAILABLE'
+E     
+E     - UNAVAILABLE
+E     + CHECKED
+________ test_doctor_native_write_injection_is_database_rejected[True] _________
+tests/test_doctor.py:57: in test_doctor_native_write_injection_is_database_rejected
+    assert report['checks']['native_admission']['status']=='UNAVAILABLE'
+E   AssertionError: assert 'CHECKED' == 'UNAVAILABLE'
+E     
+E     - UNAVAILABLE
+E     + CHECKED
+=========================== short test summary info ============================
+FAILED tests/test_doctor.py::test_doctor_native_write_injection_is_database_rejected[False]
+FAILED tests/test_doctor.py::test_doctor_native_write_injection_is_database_rejected[True]
+2 failed, 12 deselected in 0.22s
