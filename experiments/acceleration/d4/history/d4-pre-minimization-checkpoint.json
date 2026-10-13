@@ -1,0 +1,53 @@
+{
+  "schema": "cryptalis.d4-pre-minimization-checkpoint/v1",
+  "status": "VERIFIED_FINITE_PRE_DATA_MINIMIZATION_ONLY",
+  "recorded_utc": "2026-10-13T16:02:10.807490+00:00",
+  "source_manifest_sha256": "cf3036914b2d430fcb4469bcc5c48b626697875b7ff667927fbf6a514b4889ff",
+  "preserved_overlay": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/d4-pre-minimization-overlay",
+  "preserved_overlay_sha256": {
+    "tests/_online_cf1_process_lab.py": "3f1b7182691adc4178c7446441e586f362c7e9301972c4e6a8d16080f69c815e",
+    "tests/test_online_cf1_process_death.py": "1ce7438997faaabadf3032cf94563bf8257e34e3f18b57c4dd58b015608ec782",
+    "experiments/D4_PROCESS_DEATH_PROGRESS.md": "e6f51cd0842d5e90595f39d5d89761c58ee583d70ae4efcc4b4bf645780c969a",
+    "D4_SOURCE_MANIFEST.json": "cf3036914b2d430fcb4469bcc5c48b626697875b7ff667927fbf6a514b4889ff"
+  },
+  "cells": [
+    {
+      "sqlalchemy_environment": "2.1.3",
+      "passed": 12,
+      "pytest_elapsed_seconds": 7.34,
+      "evidence_directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/d4-cf1-process-death-sa21-20261013",
+      "dual_role_preflight": "PASS",
+      "source_stability": true,
+      "external_stability": true,
+      "server_stop_exit_code": 0,
+      "evidence_sha256": {
+        "tests.log": "f705e16b24731822ebb0c54c590b9b4e8183a2a5b5414e73a705c2ebba1f72a4",
+        "runner-receipt.json": "a56933ee185c4e5ed48dde33ccdebe5dc7de7dd3757e72bb9552e1253791f298",
+        "source-stability.json": "fc1e4096d20309386c75a1a4c795ab1d2b1543148bc725e4c1753bcb5067b41b",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "47c882735731e6f66d4cab51c7725587841d20bf7fa61a63f6891a676edf33d4"
+      }
+    },
+    {
+      "sqlalchemy_environment": "2.0.51",
+      "passed": 12,
+      "pytest_elapsed_seconds": 6.38,
+      "evidence_directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/d4-cf1-process-death-sa20-20261013",
+      "dual_role_preflight": "PASS",
+      "source_stability": true,
+      "external_stability": true,
+      "server_stop_exit_code": 0,
+      "evidence_sha256": {
+        "tests.log": "0d48e30d6b1aa2e428ab43011c64952878a9f372599db532e58f846da6052047",
+        "runner-receipt.json": "11e9d604bce9d091bf99c9a926ed245f82799b6189d1835a5c31f36356a78156",
+        "source-stability.json": "fc1e4096d20309386c75a1a4c795ab1d2b1543148bc725e4c1753bcb5067b41b",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "1b49cb5f2a27237efc530f6617b67dfd73ade804ea777e75a2da931d4d6463ee"
+      }
+    }
+  ],
+  "correction": "Remove unused public synthetic plaintext from the child claim packet. Fixture data minimization only; no runtime/product defect. Post-change validation required.",
+  "boundary": "Transaction worker loss at acknowledged before/after COMMIT only; original sealing supervisor/provider survive. No ambiguous COMMIT or server failure."
+}

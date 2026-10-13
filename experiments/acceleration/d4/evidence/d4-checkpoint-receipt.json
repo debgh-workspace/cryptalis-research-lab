@@ -1,0 +1,122 @@
+{
+  "schema": "cryptalis.d4-research-checkpoint/v1",
+  "status": "VERIFIED_FINITE_TRANSACTION_PROCESS_LOSS_ONLY",
+  "recorded_utc": "2026-10-13T16:08:50.294907+00:00",
+  "summary": "All 12 corrected-source cases passed in each exact dependency environment. Each owned child was killed and reaped at the acknowledged before-COMMIT or after-successful-COMMIT boundary; final raw CF1 frames matched the complete native/source state through unchanged D2 independent decoding.",
+  "candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-process-death-20261013",
+  "candidate_source_manifest_sha256": "41ea1b03c67b2ad3e8aa9d31323e19308a9ac1a28810d7ac50a511e850467e8f",
+  "pre_gate_manifest_sha256": "6c6e2d3eedbec5d6c3f0852753dc6f85e37a1aa6a0fe46d9d906a26636ee64f3",
+  "all_194_D3_inherited_files_unchanged": true,
+  "executed_D4_python_sha256": {
+    "tests/_online_cf1_process_lab.py": "3ecd1967a625492bf9b54cba32bbe6dc6956b5e0c681ae54b7a48041a6dc55da",
+    "tests/test_online_cf1_process_death.py": "1ce7438997faaabadf3032cf94563bf8257e34e3f18b57c4dd58b015608ec782"
+  },
+  "post_gate_metadata_changes_only": [
+    "experiments/D4_PROCESS_DEATH_PROGRESS.md",
+    "D4_SOURCE_MANIFEST.json"
+  ],
+  "cells": [
+    {
+      "sqlalchemy_environment": "2.1.3",
+      "scope": "Source-candidate direct psycopg/CF1; no new ORM or installed-wheel qualification",
+      "evidence_directory": "evidence/d4-minimized-ipc-sa21-20261013",
+      "passed": 12,
+      "failed": 0,
+      "pytest_elapsed_seconds": 7.04,
+      "runner_elapsed_seconds": 7.274472211996908,
+      "dual_role_preflight": "PASS",
+      "source_and_explicit_external_test_stability": true,
+      "server_stop_exit_code": 0,
+      "recorded_source_hashes_match_current": true,
+      "evidence_sha256": {
+        "tests.log": "795b5b3264ec21f201fb65850447855291bb8125dcdc69abc31e60c012186894",
+        "runner-receipt.json": "7eb3d8471767d9bfd8f682c7ce1419a30b56aa781e2e586fca788c88a17d89c8",
+        "source-stability.json": "13cc1ff67de87fcfb4851b19451c7761d7ea22d21b0b4b02ebfcd2b8c02394af",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "4d21b1b2e0ed0891f0fa84ce9d2b064257667d7feed4490b7fa86ec69c34074b"
+      }
+    },
+    {
+      "sqlalchemy_environment": "2.0.51",
+      "scope": "Source-candidate direct psycopg/CF1; no new ORM or installed-wheel qualification",
+      "evidence_directory": "evidence/d4-minimized-ipc-sa20-20261013",
+      "passed": 12,
+      "failed": 0,
+      "pytest_elapsed_seconds": 6.89,
+      "runner_elapsed_seconds": 7.153521061998617,
+      "dual_role_preflight": "PASS",
+      "source_and_explicit_external_test_stability": true,
+      "server_stop_exit_code": 0,
+      "recorded_source_hashes_match_current": true,
+      "evidence_sha256": {
+        "tests.log": "31e190e6837213f04537f7a5a35b0e42414230b6ace1caa1ceba6065c2958359",
+        "runner-receipt.json": "0cd9f2a17fce009d5fd55646a7776dbf05fce8bb5c77d146cc316cbdf88f3623",
+        "source-stability.json": "13cc1ff67de87fcfb4851b19451c7761d7ea22d21b0b4b02ebfcd2b8c02394af",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "8350a09c96d03fc3f81a780493fac716cddc52d6dcdeabd53fa74b05afa6fa4b"
+      }
+    }
+  ],
+  "fixture_data_minimization": {
+    "status": "CORRECTED_AND_REVALIDATED",
+    "description": "The original transported Claim carried an unused public synthetic plaintext value. Only a value-free FrameCommitClaim now crosses into the child. This was fixture data minimization, not a runtime/product defect.",
+    "fields": [
+      "operation",
+      "key",
+      "token",
+      "live"
+    ],
+    "live_bit_reason": "Distinguishes a deleted-row tombstone from a live SQL NULL frame.",
+    "checks_unchanged": [
+      "expected operation",
+      "full operation/context pin under share lock",
+      "exact current dirty token under row lock",
+      "atomic frame insertion and exact retirement"
+    ],
+    "prior_overlay": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/d4-pre-minimization-overlay",
+    "prior_checkpoint_sha256": "2b4f64cb6e8d3db6bf54adf4520a512445d0136c767915dc8bdf473f343856e4",
+    "prior_helper_sha256": "3f1b7182691adc4178c7446441e586f362c7e9301972c4e6a8d16080f69c815e"
+  },
+  "process_boundary": {
+    "start_method": "spawn",
+    "kill_target": "Only the Process object newly created by that test",
+    "signal": "SIGKILL",
+    "required_exitcode": -9,
+    "max_owned_children_per_case": 1,
+    "database_server_signal": false,
+    "cross_process_provider_or_prepared_key_transfer": false,
+    "encryption_supervisor_survives": true,
+    "original_volatile_provider_survives": true,
+    "barriers": [
+      "before commit permission",
+      "after COMMIT returned and was acknowledged"
+    ]
+  },
+  "independent_decoder_sha256": "1c289bcb8c58658e76b8e61da29c31099ab8f8e7a687e25e421d85ac525c3653",
+  "decoder_provenance": "The complete pre-gate manifest and unchanged inherited-file comparison supplement the standard runner, which snapshots src/tests but not this imported experiments decoder.",
+  "not_qualified": [
+    "No ambiguous-COMMIT or lost-acknowledgement outcome: only before commit permission and after successful COMMIT acknowledgement.",
+    "Encryption supervisor and original volatile fixture provider survive; no encryption-worker/provider-owner recovery or transferred live keys.",
+    "No PostgreSQL backend/server kill, crash recovery, restart, failover, power loss, or fresh-cluster restore.",
+    "No active product integration, online closure/cutover, scan removal, authority/fencing, workload SLO, installed-wheel or new ORM qualification.",
+    "Encryption-worker key preparation/sealing death or actual-use expiry, provider-owner restart/custody recovery, network-partition/unknown-commit reconciliation."
+  ],
+  "owner_decisions_pending": [
+    "D-REV-04",
+    "D-REV-09",
+    "D-REV-07"
+  ],
+  "full_independent_final_scan_required": true,
+  "same_finite_question_closed": true,
+  "additional_database_tests_needed_for_same_question": false,
+  "recovery_overlay_sha256": "c547994f329e97b342ae43267af600e999005c4c3706a6e4d02a71be6e0a06ce",
+  "local_byte_restore": {
+    "directory": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/d4-byte-restore",
+    "verified_file_count": 198,
+    "exact_inventory_match": true,
+    "database_execution": false
+  },
+  "worker_database_or_git_actions": false
+}
