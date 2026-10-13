@@ -1,0 +1,55 @@
+{
+  "commit": "d4546958feca5f8a104b5b5dba83e33877ee5874",
+  "remote_byte_verification": [
+    {
+      "path": "candidate/src/cryptalis/manifest/compatibility.py",
+      "sha": "0181c737ec70923bfb160837646e04517559aec6",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_adoption_diagnostic_currency.py",
+      "sha": "098bd6167191aee36cea908a10436db4e443b1f5",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+      "sha": "55b52b6a9aeaf58c3aff5d7406e0479927dc4e38",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "sha": "a904f7ca887022892d1c55c5e755bd2058bab1bf",
+      "match": true
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "0d1f443a3cb55e6ada9f64fe97c039f260fb1eba",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s11-source-manifest.json",
+      "sha": "8dea7e98fdaaffca94496f51af908b50227af260",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s11-qualification-summary.json",
+      "sha": "c786a4b90a386cd540ac7af7105cb4a1cbc229b9",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s11-installed-full-sa21.log",
+      "sha": "5eedd21af36ff1bddef89bb3fc04adc8dcad6911",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s11-installed-full-sa20.log",
+      "sha": "1af2d74eb5334751c08b163ecd33ded5a39b2d68",
+      "match": true
+    }
+  ],
+  "composite_recovery": {
+    "files": 176,
+    "basis": "Verified S10 recovery plus four updates matching exact-commit remote bytes",
+    "boundary": "Same-host byte recovery only; no fresh cluster or credential claim"
+  }
+}

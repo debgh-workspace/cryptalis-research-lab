@@ -23,3 +23,5 @@ Every report must distinguish checked/rejected/unavailable/not-inspected; report
 - Clear behavior for active encrypted layout; reject unsupported diagnostic mode rather than silently applying plaintext schema criteria.
 
 This draft does not authorize new credentials, new clusters, production providers, mutation, or crypto/cache changes.
+
+Primary sources checked2026-10-13: https://www.postgresql.org/docs/16/sql-set-transaction.html and https://docs.sqlalchemy.org/en/20/dialects/postgresql.html#setting-read-only-deferrable . PostgreSQL READ ONLY is a high-level database safeguard, not a guarantee of zero physical disk writes or protection from trusted host callbacks; existing temporary-table writes are a documented exception. The diagnostic report must retain that boundary.
