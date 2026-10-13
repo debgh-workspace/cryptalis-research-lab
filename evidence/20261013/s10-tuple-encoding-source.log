@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+........................................................................ [ 47%]
+........................................................................ [ 95%]
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-tuple-encoding-20261013/tests/test_cf1.py:365: DeprecationWarning: This process (pid=21) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    pid = os.fork()
+
+tests/test_file_development_provider.py::test_inherited_provider_cannot_unwrap_after_fork
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-tuple-encoding-20261013/tests/test_file_development_provider.py:67: DeprecationWarning: This process (pid=21) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    pid=os.fork()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+151 passed, 2 warnings in 7.64s

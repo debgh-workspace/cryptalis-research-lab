@@ -1,0 +1,86 @@
+{
+  "scope": "Pure synthetic function experiment, not product benchmark; same encoding and checks; no caches or retained keys",
+  "oracle_cases": 131,
+  "invalid_type_cases": 7,
+  "records": [
+    {
+      "block": 0,
+      "variant": "original",
+      "ns_per_call": 1556.32244
+    },
+    {
+      "block": 0,
+      "variant": "one_pass",
+      "ns_per_call": 1041.43114
+    },
+    {
+      "block": 1,
+      "variant": "one_pass",
+      "ns_per_call": 1048.56202
+    },
+    {
+      "block": 1,
+      "variant": "original",
+      "ns_per_call": 1607.92356
+    },
+    {
+      "block": 2,
+      "variant": "original",
+      "ns_per_call": 1523.53622
+    },
+    {
+      "block": 2,
+      "variant": "one_pass",
+      "ns_per_call": 1084.85702
+    },
+    {
+      "block": 3,
+      "variant": "one_pass",
+      "ns_per_call": 1067.9156
+    },
+    {
+      "block": 3,
+      "variant": "original",
+      "ns_per_call": 1557.56486
+    },
+    {
+      "block": 4,
+      "variant": "original",
+      "ns_per_call": 1535.14188
+    },
+    {
+      "block": 4,
+      "variant": "one_pass",
+      "ns_per_call": 1007.3564
+    },
+    {
+      "block": 5,
+      "variant": "one_pass",
+      "ns_per_call": 998.47254
+    },
+    {
+      "block": 5,
+      "variant": "original",
+      "ns_per_call": 1550.06384
+    },
+    {
+      "block": 6,
+      "variant": "original",
+      "ns_per_call": 1558.43314
+    },
+    {
+      "block": 6,
+      "variant": "one_pass",
+      "ns_per_call": 1046.22318
+    }
+  ],
+  "median_ns": {
+    "original": 1556.32244,
+    "one_pass": 1046.22318
+  },
+  "large_value_bytes": 8388608,
+  "tracemalloc_peak_bytes": {
+    "original": 16777664,
+    "one_pass": 8388864
+  }
+}

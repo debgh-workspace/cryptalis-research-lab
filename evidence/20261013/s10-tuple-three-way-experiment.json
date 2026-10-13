@@ -1,0 +1,123 @@
+{
+  "scope": "Pure synthetic function experiment, not product benchmark; same encoding and checks; no caches or retained keys",
+  "oracle_cases": 131,
+  "invalid_type_cases": 7,
+  "records": [
+    {
+      "block": 0,
+      "variant": "original",
+      "ns_per_call": 1449.35918
+    },
+    {
+      "block": 0,
+      "variant": "one_pass",
+      "ns_per_call": 1053.92128
+    },
+    {
+      "block": 0,
+      "variant": "bytearray",
+      "ns_per_call": 1355.2685
+    },
+    {
+      "block": 1,
+      "variant": "bytearray",
+      "ns_per_call": 1288.6817
+    },
+    {
+      "block": 1,
+      "variant": "one_pass",
+      "ns_per_call": 923.14448
+    },
+    {
+      "block": 1,
+      "variant": "original",
+      "ns_per_call": 1637.2325
+    },
+    {
+      "block": 2,
+      "variant": "original",
+      "ns_per_call": 1500.49324
+    },
+    {
+      "block": 2,
+      "variant": "one_pass",
+      "ns_per_call": 941.85844
+    },
+    {
+      "block": 2,
+      "variant": "bytearray",
+      "ns_per_call": 1270.58086
+    },
+    {
+      "block": 3,
+      "variant": "bytearray",
+      "ns_per_call": 1250.1628
+    },
+    {
+      "block": 3,
+      "variant": "one_pass",
+      "ns_per_call": 969.92274
+    },
+    {
+      "block": 3,
+      "variant": "original",
+      "ns_per_call": 1513.11382
+    },
+    {
+      "block": 4,
+      "variant": "original",
+      "ns_per_call": 1498.55338
+    },
+    {
+      "block": 4,
+      "variant": "one_pass",
+      "ns_per_call": 947.23114
+    },
+    {
+      "block": 4,
+      "variant": "bytearray",
+      "ns_per_call": 1274.76522
+    },
+    {
+      "block": 5,
+      "variant": "bytearray",
+      "ns_per_call": 1297.15838
+    },
+    {
+      "block": 5,
+      "variant": "one_pass",
+      "ns_per_call": 946.88344
+    },
+    {
+      "block": 5,
+      "variant": "original",
+      "ns_per_call": 1547.0788
+    },
+    {
+      "block": 6,
+      "variant": "original",
+      "ns_per_call": 1562.05786
+    },
+    {
+      "block": 6,
+      "variant": "one_pass",
+      "ns_per_call": 955.24754
+    },
+    {
+      "block": 6,
+      "variant": "bytearray",
+      "ns_per_call": 1299.96812
+    }
+  ],
+  "median_ns": {
+    "original": 1513.11382,
+    "one_pass": 947.23114,
+    "bytearray": 1288.6817
+  },
+  "large_value_bytes": 8388608,
+  "tracemalloc_peak_bytes": {
+    "original": 16777664,
+    "one_pass": 8388864,
+    "bytearray": 16777374
+  }
+}
