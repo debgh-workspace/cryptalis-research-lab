@@ -1,0 +1,398 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F................ [ 90%]
+........                                                                 [100%]
+=================================== FAILURES ===================================
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-table_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-table_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-table_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-table_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_from_bare-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-table_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-table_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_qualified-sync-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_qualified-async-attached] _
+tests/test_textual_from_boundary.py:121: in test_protected_textual_from_or_qualified_name_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, modifier), refuse=protected)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_unprojected_protected_textual_group_requires_refusal[from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:128: in test_unprojected_protected_textual_group_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, grouped=True),
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_unprojected_protected_textual_group_requires_refusal[from_bare-async-attached] _
+tests/test_textual_from_boundary.py:128: in test_unprojected_protected_textual_group_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, grouped=True),
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_unprojected_protected_textual_group_requires_refusal[alias_from_bare-sync-attached] _
+tests/test_textual_from_boundary.py:128: in test_unprojected_protected_textual_group_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, grouped=True),
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_unprojected_protected_textual_group_requires_refusal[alias_from_bare-async-attached] _
+tests/test_textual_from_boundary.py:128: in test_unprojected_protected_textual_group_requires_refusal
+    _exercise(protected, mode, lambda app: _queries(app, shape, grouped=True),
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+=========================== short test summary info ============================
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-table_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-table_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[plain-alias_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-table_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-table_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[desc_nulls_last-alias_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-table_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-table_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_qualified-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_protected_textual_from_or_qualified_name_requires_refusal[coerced_asc-alias_qualified-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_unprojected_protected_textual_group_requires_refusal[from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_unprojected_protected_textual_group_requires_refusal[from_bare-async-attached]
+FAILED tests/test_textual_from_boundary.py::test_unprojected_protected_textual_group_requires_refusal[alias_from_bare-sync-attached]
+FAILED tests/test_textual_from_boundary.py::test_unprojected_protected_textual_group_requires_refusal[alias_from_bare-async-attached]
+28 failed, 52 passed in 9.50s

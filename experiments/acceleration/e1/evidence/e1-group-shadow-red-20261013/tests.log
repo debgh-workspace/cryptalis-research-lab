@@ -1,0 +1,33 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.F.F                                                                     [100%]
+=================================== FAILURES ===================================
+_ test_group_name_shadow_resolves_protected_input_and_requires_refusal[sync-attached] _
+tests/test_textual_group_shadow_boundary.py:20: in test_group_name_shadow_resolves_protected_input_and_requires_refusal
+    _exercise(protected, mode, queries, refuse=protected, grouped=True)
+tests/test_textual_from_boundary.py:80: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_group_name_shadow_resolves_protected_input_and_requires_refusal[async-attached] _
+tests/test_textual_group_shadow_boundary.py:20: in test_group_name_shadow_resolves_protected_input_and_requires_refusal
+    _exercise(protected, mode, queries, refuse=protected, grouped=True)
+tests/test_textual_from_boundary.py:113: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_from_boundary.py:101: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+=========================== short test summary info ============================
+FAILED tests/test_textual_group_shadow_boundary.py::test_group_name_shadow_resolves_protected_input_and_requires_refusal[sync-attached]
+FAILED tests/test_textual_group_shadow_boundary.py::test_group_name_shadow_resolves_protected_input_and_requires_refusal[async-attached]
+2 failed, 2 passed in 0.60s

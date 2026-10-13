@@ -1,0 +1,1328 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.FFFFFFFFF.F.F.F.F................FFFF.... [ 90%]
+........                                                                 [100%]
+=================================== FAILURES ===================================
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_order-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_order-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_order-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_order-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_partition-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_partition-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_partition-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[window_partition-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-native] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:94: in _exercise
+    actual = consume(session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:89: in _exercise
+    session.execute(candidate)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:1000: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-native] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:115: in scenario
+    actual = consume(await session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:199: in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:110: in scenario
+    await session.execute(candidate)
+src/cryptalis/sqlalchemy.py:1076: in method
+    return await native(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:212: in greenlet_spawn
+    result = context.switch(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:1000: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-native] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:94: in _exercise
+    actual = consume(session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:89: in _exercise
+    session.execute(candidate)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:1000: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-native] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:115: in scenario
+    actual = consume(await session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:199: in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:110: in scenario
+    await session.execute(candidate)
+src/cryptalis/sqlalchemy.py:1076: in method
+    return await native(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:212: in greenlet_spawn
+    result = context.switch(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:1000: in _execute
+    return state.invoke_statement()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:480: in invoke_statement
+    return self.session._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_ test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:88: in _exercise
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+_ test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-attached] _
+tests/test_textual_clause_boundary.py:129: in test_protected_textual_clause_requires_predriver_refusal
+    _exercise(protected, mode, clause, alias, public=False, refuse=protected)
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:109: in scenario
+    with pytest.raises(UnsupportedProtectedOperation):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE UnsupportedProtectedOperation
+______ test_public_textual_clause_matches_native[within_group-table-sync] ______
+tests/test_textual_clause_boundary.py:136: in test_public_textual_clause_matches_native
+    outcomes = [_exercise(protected, mode, clause, alias, public=True, refuse=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:94: in _exercise
+    actual = consume(session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_____ test_public_textual_clause_matches_native[within_group-table-async] ______
+tests/test_textual_clause_boundary.py:136: in test_public_textual_clause_matches_native
+    outcomes = [_exercise(protected, mode, clause, alias, public=True, refuse=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:115: in scenario
+    actual = consume(await session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:199: in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+______ test_public_textual_clause_matches_native[within_group-alias-sync] ______
+tests/test_textual_clause_boundary.py:136: in test_public_textual_clause_matches_native
+    outcomes = [_exercise(protected, mode, clause, alias, public=True, refuse=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:94: in _exercise
+    actual = consume(session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+_____ test_public_textual_clause_matches_native[within_group-alias-async] ______
+tests/test_textual_clause_boundary.py:136: in test_public_textual_clause_matches_native
+    outcomes = [_exercise(protected, mode, clause, alias, public=True, refuse=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:121: in _exercise
+    return asyncio.run(scenario())
+           ^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_textual_clause_boundary.py:115: in scenario
+    actual = consume(await session.execute(candidate))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:651: in execute
+    result = await greenlet_spawn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:199: in greenlet_spawn
+    result = context.switch(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2363: in _execute_internal
+    compile_state_cls.orm_execute_statement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:316: in orm_execute_statement
+    result = conn.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1659: in _execute_clauseelement
+    elem._compile_w_cache(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:733: in _compile_w_cache
+    compiled_sql = self._compiler(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:330: in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:1543: in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:936: in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:972: in process
+    return obj._compiler_dispatch(self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py:128: in _compiler_dispatch
+    return meth(self, **kw)  # type: ignore[no-any-return]  # noqa: E501
+           ^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py:5120: in visit_select
+    compile_state = select_stmt._compile_state_factory(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/base.py:936: in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:461: in create_for_statement
+    return cls._create_orm_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py:1267: in _create_orm_context
+    SelectState.__init__(self, self.statement, compiler, **kw)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:4906: in __init__
+    self.columns_plus_names = statement._generate_columns_plus_names(True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py:2498: in _generate_columns_plus_names
+    expr_label = c._expression_label
+                 ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1714: in _expression_label
+    if getattr(self, "name", None) is not None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1581: in __getattr__
+    return getattr(self.comparator, key)
+                   ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1449: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:1567: in comparator
+    comparator_factory = self.type.comparator_factory
+                         ^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:1337: in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:4931: in type
+    wgt = self.element.within_group_type(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/functions.py:2125: in within_group_type
+    return order_by[0].type
+           ^^^^^^^^^^^
+E   IndexError: list index out of range
+=============================== warnings summary ===============================
+tests/test_textual_clause_boundary.py: 48 warnings
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-search-resolution-20261013/tests/test_textual_clause_boundary.py:29: SADeprecationWarning: Passing expression to ``distinct`` to generate a DISTINCT ON clause is deprecated. Use instead the ``postgresql.distinct_on`` function as an extension.
+    return statement.distinct(expression)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_legacy-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_order-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_order-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_order-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_order-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_partition-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_partition-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_partition-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[window_partition-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-native]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-native]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-native]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-native]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[within_group-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-attached]
+FAILED tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-attached]
+FAILED tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[within_group-table-sync]
+FAILED tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[within_group-table-async]
+FAILED tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[within_group-alias-sync]
+FAILED tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[within_group-alias-async]
+32 failed, 48 passed, 48 warnings in 17.78s
