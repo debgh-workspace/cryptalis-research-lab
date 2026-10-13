@@ -1,0 +1,154 @@
+{
+  "format": "cryptalis.research.a4-checkpoint/v1",
+  "verified_utc": "2026-10-13T21:14:40Z",
+  "scope": "Exact integer-versioned ordinary ORM UPDATE/DELETE conflicts within native SAVEPOINTs, sync and async; root commit and rollback.",
+  "new_test_sha256": {
+    "tests/test_sqlalchemy_versioned_savepoints.py": "fb5556204289e677b8b688af8ff28111ea8766477d99e8cd5482f54499efd143"
+  },
+  "base_binding": {
+    "published_path": "experiments/acceleration/a4/A4_S18_BASE_BINDING.json",
+    "sha256": "cc46d735ce1bc939dc9432a67d569ae95833eaa5c7854013751939ce07c2f749",
+    "inherited_files": 201,
+    "inherited_files_unchanged": 201,
+    "source_files_after_test_overlay": 202
+  },
+  "runtime_changes": false,
+  "preflight_sha256": "118952d57d777d692adf1f1447fedbb612030fd3266c9374680d347bb501fd12",
+  "coordinator_postgresql_evidence": {
+    "sa21": {
+      "evidence_label": "a4-versioned-savepoints-sa21-20261013",
+      "sqlalchemy_version": "2.1.3",
+      "version_binding": "Coordinator-selected interpreter; its present distribution metadata matches the pinned cell. Original raw run records are retained locally.",
+      "classification": "PASS_BOUNDED_VERSIONED_SAVEPOINT_ORACLE",
+      "passed": 8,
+      "elapsed_seconds": 3.77,
+      "junit_counts": {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "junit_seconds": 3.774,
+      "case_names": [
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-update-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-update-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-delete-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-delete-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-update-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-update-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-delete-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-delete-async]"
+      ],
+      "source_snapshot_entries": 141,
+      "source_before_after_unchanged": true,
+      "frozen_source_test_hashes_match": true,
+      "package_origin_is_candidate_source": true,
+      "preflight_script_unchanged": true,
+      "configured_owner_runtime_preflights": {
+        "select_1_each": "passed",
+        "distinct_configuration_fingerprints": true,
+        "new_credentials_created": false
+      },
+      "external_source_stability": {
+        "unchanged": true,
+        "entries": 0
+      },
+      "candidate_receipts_restored": true,
+      "recorded_postgres_shutdown_exit_code": 0,
+      "shutdown_scope": "The named run records successful shutdown. This is not a probe of current shared database state.",
+      "evidence_sha256": {
+        "tests.log": "2a870d9c52f6df7d3fbd51bacfe3c799b3980892e97177a878cb511d17152bc2",
+        "junit.xml": "8d34df75f531d236a79efb1a75375dffc7ed7838b2afe57cfe9b57275c26f475",
+        "runner-receipt.json": "346e3956b8389b52b1d60b5175746a68d513573b96750d347a64d055e4f5100d",
+        "source-before.json": "61bba622775a3c3567d94bfe7fef1ccadf0f5d8d50fd014441a00727dc222195",
+        "source-stability.json": "957353bfe4b7038d7bfbf2147f923e8d0ca27ebe0a420819855481a9e2bbdd0a",
+        "source-root.json": "b21445666ec123180481d8a037b9fb8b7fc35c3b99c75e3773bf28fb1ff0d674",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "package-origin.log": "d34fa68d6e11d6c2c5967bfca514526b3bb14c414e22431a97600adb68ee7e15",
+        "package-origin.json": "d6ce5fe9196399dff36e7b049462123ebf4998396c284eefcd696b76f393ad88",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "readiness.json": "caca0f546e07f64aa499ce9ff3a20c426c52fb269d3e46e9c40c15ba1c9f8833",
+        "postgres-stop.json": "8418cc0a8ce3ac0152f2a586edac5c13998b5b8d01909db8daf0cbcffefebe93",
+        "postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d",
+        "candidate-corpus-isolation.json": "0caf6971e7b3044f421ed9aa8b2194e7abcd9ba17287ee94b390711af54f90eb"
+      }
+    },
+    "sa20": {
+      "evidence_label": "a4-versioned-savepoints-sa20-20261013",
+      "sqlalchemy_version": "2.0.51",
+      "version_binding": "Coordinator-selected interpreter; its present distribution metadata matches the pinned cell. Original raw run records are retained locally.",
+      "classification": "PASS_BOUNDED_VERSIONED_SAVEPOINT_ORACLE",
+      "passed": 8,
+      "elapsed_seconds": 2.7,
+      "junit_counts": {
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "junit_seconds": 2.702,
+      "case_names": [
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-update-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-update-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-delete-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[commit-delete-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-update-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-update-async]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-delete-sync]",
+        "test_stale_savepoint_preserves_outer_work_and_native_version_retry[rollback-delete-async]"
+      ],
+      "source_snapshot_entries": 141,
+      "source_before_after_unchanged": true,
+      "frozen_source_test_hashes_match": true,
+      "package_origin_is_candidate_source": true,
+      "preflight_script_unchanged": true,
+      "configured_owner_runtime_preflights": {
+        "select_1_each": "passed",
+        "distinct_configuration_fingerprints": true,
+        "new_credentials_created": false
+      },
+      "external_source_stability": {
+        "unchanged": true,
+        "entries": 0
+      },
+      "candidate_receipts_restored": true,
+      "recorded_postgres_shutdown_exit_code": 0,
+      "shutdown_scope": "The named run records successful shutdown. This is not a probe of current shared database state.",
+      "evidence_sha256": {
+        "tests.log": "cabe8b3f9af4649ccc6867d6bfad7c10744c59e093cdae184eacdf7853588f8e",
+        "junit.xml": "fc4674fa43f0d33cb4907d6cc9b7fd03f2d1ee1d779c9c88157b515213e9e245",
+        "runner-receipt.json": "8d935d7cd27ec64b2bb6f50b038b2a244a9df139c7c7c04a528103d90b6a757b",
+        "source-before.json": "61bba622775a3c3567d94bfe7fef1ccadf0f5d8d50fd014441a00727dc222195",
+        "source-stability.json": "957353bfe4b7038d7bfbf2147f923e8d0ca27ebe0a420819855481a9e2bbdd0a",
+        "source-root.json": "b21445666ec123180481d8a037b9fb8b7fc35c3b99c75e3773bf28fb1ff0d674",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "package-origin.log": "d34fa68d6e11d6c2c5967bfca514526b3bb14c414e22431a97600adb68ee7e15",
+        "package-origin.json": "e41d1ca7d315a54e2256703538d749a0c0ac5a7252b9532c79c058d40059c496",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "readiness.json": "c869e26aece8fae1fc2a4766d7a4af81f77eefc2490243b361da102eb4243d7d",
+        "postgres-stop.json": "c0a57ac488200d5d96fe2420103caf19ed68616f83f08897edb77b3041cc3b0a",
+        "postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d",
+        "candidate-corpus-isolation.json": "0caf6971e7b3044f421ed9aa8b2194e7abcd9ba17287ee94b390711af54f90eb"
+      }
+    }
+  },
+  "verified_bounded_outcomes": [
+    "Exact native StaleDataError and public ORM/Session state match for stale nested UPDATE and DELETE.",
+    "A successful inner protected write/version increment is rolled back with the failed SAVEPOINT.",
+    "The failed SAVEPOINT can be closed without rolling back earlier outer work; an owner NOWAIT probe verifies release of the inner row lock.",
+    "Explicit refresh restores winner and sibling values/versions, and a second SAVEPOINT retries successfully.",
+    "Root commit preserves earlier outer work and the accepted retry; root rollback restores exact prior ciphertext bytes even after retry SAVEPOINT release.",
+    "Independent CF1 decoding verifies final membership, text, labels and versions; retained native protected slots are NULL; new ordinary sessions read the same values."
+  ],
+  "limits": [
+    "Synthetic, one protected storage-only text field and default integer version_id_col generator.",
+    "No new ORM grammar, bulk DML, alternate/server-generated version generators or isolation-level matrix.",
+    "No malicious-database freshness, production provider, concurrent writer exclusion, deployment or production qualification.",
+    "Only the eight-case A4 suite ran in each cell; full S18 suites were not rerun for this checkpoint.",
+    "Seven historical legacy-profile failures remain prior unresolved full-suite evidence; they are not converted to passes by this focused slice.",
+    "The internal implementation/readback review does not substitute for independent human security review."
+  ],
+  "all_seven_production_gates": "UNKNOWN",
+  "publication_scope": "Three files: exact new test, full 201-file S18 hash binding with the one-test overlay, and this sanitized checkpoint. No credential values, connection fingerprints, environment values, raw commands, hostnames or raw run metadata are published.",
+  "worker_actions": "Read/hash verification and new metadata packaging outside the frozen candidate only. No tests, database calls, credential access, Git actions or frozen-candidate writes."
+}
