@@ -1,0 +1,258 @@
+{
+  "observed_at_utc": "2026-10-13T12:23Z",
+  "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
+  "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
+  "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "original_mailbox_messages": 15,
+  "latest_candidate_status": "S14 integrated;183-file recovery verified",
+  "latest_archive": {
+    "name": "CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz",
+    "library_file_id": "libfile_d022220ef99c81d18e14d8eb84616f6d",
+    "sha256": "2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad",
+    "bytes": 2915204
+  },
+  "checklist": {
+    "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+    "status": "Current local and GitHub root ledger; old Library version is historical"
+  },
+  "remote": "https://github.com/debgh-workspace/cryptalis-research-lab",
+  "remote_authentication": "GitHub connector verified read/write with expected-head lease and exact remote byte checks; SSH remains unverified",
+  "remote_visibility": "VERIFIED private via authenticated GitHub repository metadata 2026-10-13T06:49Z",
+  "secret_storage": "No supported durable-secret API found among currently available tools; local workspace has demonstrated rollback. Do not claim private key survives reset.",
+  "github_connector_identity": "debgh-workspace",
+  "repository_id": "1416574626",
+  "connector_permissions": {
+    "pull": true,
+    "push": true
+  },
+  "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
+  "current_research_repository": "debgh-workspace/cryptalis-research-lab",
+  "latest_verified_remote_commit": "e82bd6ed36471da30a39d946e77a3ed2377f274c",
+  "latest_integrated_candidate": "candidate-ciphertext-doctor-20261013 (S14); GitHub candidate/",
+  "current_experiment": "A publicUPDATE, B inactive rewrap successor, C publicmetadata performance",
+  "s5_remote_byte_restore_files": 3579,
+  "s6_composite_source_restore_files": 168,
+  "history_bundle_published": true,
+  "original_repository_writes_authorized": false,
+  "research_repository_checkpoint_writes_authorized": true,
+  "unattended_hourly_schedule_enabled": true,
+  "fresh_cluster_credential_approval": "PENDING",
+  "updated_utc": "2026-10-13T13:12Z",
+  "current_operation": "Serialized worker tests; three isolated experimental copies active; S14 remains integrated",
+  "notes": "S14 full1831/1813PASS and same7FAIL, source stable;6 later controlsPASS each cell. All183 composite file hashes verified. No production qualification.",
+  "s7_composite_source_restore_files": 170,
+  "s8_composite_source_restore_files": 173,
+  "s9_composite_source_restore_files": 174,
+  "latest_verified_remote_head": "e82bd6ed36471da30a39d946e77a3ed2377f274c",
+  "s10": {
+    "status": "integrated; installed full suites and composite recovery verified",
+    "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
+    "passed_sa21": 1776,
+    "passed_sa20": 1758,
+    "known_failures_each": 7,
+    "restored_files": 175
+  },
+  "next_task": "Finish queued targeted/mutation cells, preserve branch snapshots, integrate only qualified disjoint changes and run installed full boundary",
+  "latest_remote_tree": "8246a3a361b7d40e5c2a2aa7af4d79071170a6c0",
+  "s11": {
+    "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
+    "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
+    "wheel_sha256": "cbc0ba6a34bf4d8d9c617da881005f94625555868886dce7d1aef82cbc63d99a",
+    "evidence": "cryptalis-executable/evidence/s11-installed-full-sa20-20261013",
+    "single_writer": true
+  },
+  "s12": {
+    "status": "integrated;1803/1785PASS withsame7FAIL;179-file composite restore and remote source/artifact bytes verified",
+    "candidate": "cryptalis-executable/candidate-doctor-20261013",
+    "evidence": "cryptalis-executable/evidence/s12-installed-full-sa20-20261013",
+    "wheel_sha256": "db6e83817fd4bad3e9be8f98b9aebbbc5641ac38f09e64e94ab11be84b77e332",
+    "integration_commit": "6c35a5fb47de8b778eae0b977a97ba01525376ac",
+    "recovery_commit": "1faeb25307d286a7ac2eac95a1f9c8427f5a087c"
+  },
+  "s13": {
+    "status": "integrated; affected-path157PASS per cell, fullS13NOTRUN;180-file restore and remote bytes verified",
+    "candidate": "cryptalis-executable/candidate-active-doctor-20261013",
+    "integration_commit": "3fed8c8195a40d192ac4236084b01704583fad1c",
+    "recovery_commit": "3006595ee443c629c646e4d7fdd844767985d78d",
+    "wheel_sha256": "1600f108e2d6a44fecc5ecd7b2f38421492f58add9c9ddc764c9a498ad575cf9"
+  },
+  "s14": {
+    "status": "integrated; full and later focused checks verified",
+    "candidate": "cryptalis-executable/candidate-ciphertext-doctor-20261013",
+    "wheel_sha256": "43c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080",
+    "source_restored_passed": 19,
+    "authentication_mutation_failed": 1,
+    "byte_bound_mutation_failed": 1,
+    "integration_commit": "ad0e6fbff8b6f8fcb565ea45915a442f0c61fa28",
+    "recovery_commit": "2065cb78f3c7126f207fc62c35887ddd204925af",
+    "restored_files": 183
+  },
+  "acceleration": {
+    "received_utc": "2026-10-13T12:36:11Z",
+    "deadline_utc": "2026-10-16T12:36:11Z",
+    "baseline_commit": "2065cb78f3c7126f207fc62c35887ddd204925af",
+    "workers": [
+      "advance_orm_compatibility",
+      "advance_lifecycle_safety",
+      "advance_search_performance"
+    ],
+    "db_tests": "coordinator serialized only",
+    "billing": "unknown; external paid services not started"
+  },
+  "s15": {
+    "status": "bounded bridge experiment published and readback verified; runtime unchanged",
+    "commit": "e82bd6ed36471da30a39d946e77a3ed2377f274c",
+    "passed_per_cell": 2,
+    "legacy_plaintext_exposure": "explicit synthetic maintenance/consent; not generic or online upgrade"
+  },
+  "experimental_branches": [
+    {
+      "name": "orm",
+      "tree": "331f7ed13c1c5afe960197393903c5f5e611f8a4",
+      "files": 9,
+      "commit": "15d267ace19ced537f0b17e2878cc1b77c6884af",
+      "updated": true,
+      "verified": [
+        {
+          "path": "candidate/src/cryptalis/sqlalchemy.py",
+          "sha": "7957ae863d69f172b5ba67061bb4de9b25fc9478",
+          "match": true
+        },
+        {
+          "path": "candidate/src/cryptalis/_experimental_public_update.py",
+          "sha": "ab22a7911cc5974d5d72a3ed0e7c55d466328f72",
+          "match": true
+        },
+        {
+          "path": "candidate/tests/test_private_public_update.py",
+          "sha": "7f68ccab5a13a649f4bc86617ccaf7f1d8b9b663",
+          "match": true
+        },
+        {
+          "path": "experiments/acceleration/orm/initial-failed/src/cryptalis/sqlalchemy.py",
+          "sha": "c3b370cef3e5cb2344221b9ce05a463a6121b1b0",
+          "match": true
+        },
+        {
+          "path": "experiments/acceleration/orm/initial-failed/src/cryptalis/_experimental_public_update.py",
+          "sha": "e00c5accbe87339026cb8ce2e613d1571ad7f667",
+          "match": true
+        },
+        {
+          "path": "experiments/acceleration/orm/initial-failed/tests/test_private_public_update.py",
+          "sha": "fe6aa87a8fa377c7d853f0e7a9f96d20d6833464",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/a1-public-update-red.log",
+          "sha": "8a7b528a7557df063705bc49331461ece4ecd973",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/a1-public-update-green.log",
+          "sha": "4c31ccd54fdf70b169bf7da6fb8ea190146c31ae",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/a1-public-update-corrected.log",
+          "sha": "b152148bec41d1d3764bc43b164380c69c799a00",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "tree": "caea5157f65a49260c00bb30057bea949bf4812e",
+      "files": 10,
+      "commit": "d97b58cd6b104d7a09feb1b23e64a546f8195cd6",
+      "updated": true,
+      "verified": [
+        {
+          "path": "candidate/src/cryptalis/crypto/cf1.py",
+          "sha": "116a02daf3a71c5612ae0d1d6979c67b7e001166",
+          "match": true
+        },
+        {
+          "path": "candidate/src/cryptalis/crypto/keys.py",
+          "sha": "4b3ab7662e2241159a120440ad18011d8a97598c",
+          "match": true
+        },
+        {
+          "path": "candidate/tests/test_cf1_public_metadata.py",
+          "sha": "4c5c1f15c21312820a764ffe271cb14d84adf3c3",
+          "match": true
+        },
+        {
+          "path": "candidate/experiments/profile_public_metadata.py",
+          "sha": "7fad3490a55170ea698d2986887bb15d255c88f8",
+          "match": true
+        },
+        {
+          "path": "candidate/experiments/test_public_metadata_paired.py",
+          "sha": "073efb92a95e2494b427ab246b68dd2660d8a94c",
+          "match": true
+        },
+        {
+          "path": "candidate/WORKSTREAM_PROGRESS.md",
+          "sha": "6d6fab87b316dacb1135a7492810a72f4d15a818",
+          "match": true
+        },
+        {
+          "path": "candidate/evidence/public-metadata-implemented.json",
+          "sha": "4a0e986dc2f2aa7f95b170cf8467e5107fe76ee7",
+          "match": true
+        },
+        {
+          "path": "candidate/evidence/public-metadata-prototype.json",
+          "sha": "f0362a4c0f2facbf7618591f55a4050a2a27406d",
+          "match": true
+        },
+        {
+          "path": "candidate/evidence/public-metadata-mutations.json",
+          "sha": "c2607f2e83c37e5de1bbd1a456e1b6578f490a5a",
+          "match": true
+        },
+        {
+          "path": "candidate/evidence/public-metadata-thread-serialization.json",
+          "sha": "76ca4fd943bc36c7cabb68512448f2428efc33ac",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "lifecycle",
+      "tree": "8a5607c61b56fd0e1256b65241531bbb1f388db8",
+      "files": 5,
+      "commit": "9de52eb6fff406e98e4a8c4476f1e4d1f31fd4d0",
+      "updated": true,
+      "verified": [
+        {
+          "path": "candidate/src/cryptalis/_rewrap_successor.py",
+          "sha": "791180ff6dc824dd8c7550bc58ec30f56d6e55d7",
+          "match": true
+        },
+        {
+          "path": "candidate/tests/test_rewrap_successor.py",
+          "sha": "d76b19830067def9c6b2a4b21dc02293fa2c8708",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/b1-rewrap-successor-red.log",
+          "sha": "60b8ffc5d1c53a77f1b4cd9035430a7ee93684b1",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/b1-rewrap-successor-green.log",
+          "sha": "548b911448e513cee7bf40ca9f5bfe0372bc4a44",
+          "match": true
+        },
+        {
+          "path": "evidence/20261013/b1-rewrap-successor-expanded-red.log",
+          "sha": "4b1c99914725edef0d6a4ae3135c0e237eada447",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "c1_promotion": "HELD: SA20 predeclared performance consistency gate failed; native exact values passed"
+}

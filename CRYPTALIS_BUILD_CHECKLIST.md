@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T12:48Z`
+- Last updated UTC: `2026-10-13T13:12Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Integrated candidate: `candidate-ciphertext-doctor-20261013` (S14); source-inventory SHA-256 `7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121` (183 files). Remote integration ad0e6fbff8b6f8fcb565ea45915a442f0c61fa28 byte-verified;183-file composite restore PASS.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -565,3 +565,12 @@ A bounded legacy→plaintext→retained-native journey is now exercised using co
 Latest encrypted edits, wide public Unicode values, visible SELECT* order, native types/typmods/collations/index definitions and table OID survive legacy removal plus current re-protection/deprotection/removal. Independent CF1 decoders agree. Package-free legacy CRUD passes before/after removal; current package-free CRUD passes before removal. Actual encrypted legacy dump restore remains independently readable and is rejected by the newer current REMOVED pin. Physical suffix attnums are not preserved by legacy reconstruction.
 
 An initial child setup omitted the required hide_parameters=True engine policy and correctly failed attachment; this was a harness correction, not a product security relaxation. The failed receipt is retained. Strict legacy suffix metadata refusal remains; no generic repair, transparent/online upgrade, secure erasure, fresh-cluster or production claim. Plaintext/WAL exposure requires explicit real-operation consent. Synthetic removal attestations precede the end-of-test restore and do not independently authenticate backups. Seven original ordinal assertions remain untouched and still fail on the retained profile. All seven gates UNKNOWN.
+
+## Acceleration experimental checkpoint — 2026-10-13 13:12 UTC
+
+S14 remains the integrated candidate; no worker branch promoted. Initial isolated branch snapshots were remotely byte-verified: ORM15d267ace19ced537f0b17e2878cc1b77c6884af(9 files), searchd97b58cd6b104d7a09feb1b23e64a546f8195cd6(10), lifecycle9de52eb6fff406e98e4a8c4476f1e4d1f31fd4d0(5). These snapshots precede later corrections.
+
+- A expanded frozen public-only UPDATE suite:57PASS16.58s on SA2.1.3. A later pure custom-type default-path defect is confirmed and correction pending. Not integrated or protected-field bulk UPDATE support.
+- B inactive rewrap successor plus existing preparation/lease suite:72PASS0.57s after provider-identity correction, under unchanged PostgreSQL role preflight. This does not implement active rewrap. Existing old workers are not retroactively fenced on reads by a new runtime check; persistent stale-write fencing and old-reader policy remain explicit publication blockers. No new role/credential created.
+- C security/native focused suite:260PASS19.43s on SA2.1.3 and260PASS20.70s on SA2.0.51. Same declared seven-pair performance gate PASSED on2.1 but FAILED on2.0: equality median improves13.736%, only4/7 favorable pairs versus required6/7. IN2 improves26.217%,7/7; point regresses0.7595%, within10% bound. All exact native results passed. Promotion HELD; preserve failed gate, no lowered threshold or green-only reruns.
+- All seven independent qualification gates remain UNKNOWN. Fresh-cluster/credential approval remains PENDING.

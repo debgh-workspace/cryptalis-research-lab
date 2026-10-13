@@ -1,0 +1,149 @@
+[
+  {
+    "name": "orm",
+    "tree": "331f7ed13c1c5afe960197393903c5f5e611f8a4",
+    "files": 9,
+    "commit": "15d267ace19ced537f0b17e2878cc1b77c6884af",
+    "updated": true,
+    "verified": [
+      {
+        "path": "candidate/src/cryptalis/sqlalchemy.py",
+        "sha": "7957ae863d69f172b5ba67061bb4de9b25fc9478",
+        "match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/_experimental_public_update.py",
+        "sha": "ab22a7911cc5974d5d72a3ed0e7c55d466328f72",
+        "match": true
+      },
+      {
+        "path": "candidate/tests/test_private_public_update.py",
+        "sha": "7f68ccab5a13a649f4bc86617ccaf7f1d8b9b663",
+        "match": true
+      },
+      {
+        "path": "experiments/acceleration/orm/initial-failed/src/cryptalis/sqlalchemy.py",
+        "sha": "c3b370cef3e5cb2344221b9ce05a463a6121b1b0",
+        "match": true
+      },
+      {
+        "path": "experiments/acceleration/orm/initial-failed/src/cryptalis/_experimental_public_update.py",
+        "sha": "e00c5accbe87339026cb8ce2e613d1571ad7f667",
+        "match": true
+      },
+      {
+        "path": "experiments/acceleration/orm/initial-failed/tests/test_private_public_update.py",
+        "sha": "fe6aa87a8fa377c7d853f0e7a9f96d20d6833464",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/a1-public-update-red.log",
+        "sha": "8a7b528a7557df063705bc49331461ece4ecd973",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/a1-public-update-green.log",
+        "sha": "4c31ccd54fdf70b169bf7da6fb8ea190146c31ae",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/a1-public-update-corrected.log",
+        "sha": "b152148bec41d1d3764bc43b164380c69c799a00",
+        "match": true
+      }
+    ]
+  },
+  {
+    "name": "search",
+    "tree": "caea5157f65a49260c00bb30057bea949bf4812e",
+    "files": 10,
+    "commit": "d97b58cd6b104d7a09feb1b23e64a546f8195cd6",
+    "updated": true,
+    "verified": [
+      {
+        "path": "candidate/src/cryptalis/crypto/cf1.py",
+        "sha": "116a02daf3a71c5612ae0d1d6979c67b7e001166",
+        "match": true
+      },
+      {
+        "path": "candidate/src/cryptalis/crypto/keys.py",
+        "sha": "4b3ab7662e2241159a120440ad18011d8a97598c",
+        "match": true
+      },
+      {
+        "path": "candidate/tests/test_cf1_public_metadata.py",
+        "sha": "4c5c1f15c21312820a764ffe271cb14d84adf3c3",
+        "match": true
+      },
+      {
+        "path": "candidate/experiments/profile_public_metadata.py",
+        "sha": "7fad3490a55170ea698d2986887bb15d255c88f8",
+        "match": true
+      },
+      {
+        "path": "candidate/experiments/test_public_metadata_paired.py",
+        "sha": "073efb92a95e2494b427ab246b68dd2660d8a94c",
+        "match": true
+      },
+      {
+        "path": "candidate/WORKSTREAM_PROGRESS.md",
+        "sha": "6d6fab87b316dacb1135a7492810a72f4d15a818",
+        "match": true
+      },
+      {
+        "path": "candidate/evidence/public-metadata-implemented.json",
+        "sha": "4a0e986dc2f2aa7f95b170cf8467e5107fe76ee7",
+        "match": true
+      },
+      {
+        "path": "candidate/evidence/public-metadata-prototype.json",
+        "sha": "f0362a4c0f2facbf7618591f55a4050a2a27406d",
+        "match": true
+      },
+      {
+        "path": "candidate/evidence/public-metadata-mutations.json",
+        "sha": "c2607f2e83c37e5de1bbd1a456e1b6578f490a5a",
+        "match": true
+      },
+      {
+        "path": "candidate/evidence/public-metadata-thread-serialization.json",
+        "sha": "76ca4fd943bc36c7cabb68512448f2428efc33ac",
+        "match": true
+      }
+    ]
+  },
+  {
+    "name": "lifecycle",
+    "tree": "8a5607c61b56fd0e1256b65241531bbb1f388db8",
+    "files": 5,
+    "commit": "9de52eb6fff406e98e4a8c4476f1e4d1f31fd4d0",
+    "updated": true,
+    "verified": [
+      {
+        "path": "candidate/src/cryptalis/_rewrap_successor.py",
+        "sha": "791180ff6dc824dd8c7550bc58ec30f56d6e55d7",
+        "match": true
+      },
+      {
+        "path": "candidate/tests/test_rewrap_successor.py",
+        "sha": "d76b19830067def9c6b2a4b21dc02293fa2c8708",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/b1-rewrap-successor-red.log",
+        "sha": "60b8ffc5d1c53a77f1b4cd9035430a7ee93684b1",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/b1-rewrap-successor-green.log",
+        "sha": "548b911448e513cee7bf40ca9f5bfe0372bc4a44",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/b1-rewrap-successor-expanded-red.log",
+        "sha": "4b1c99914725edef0d6a4ae3135c0e237eada447",
+        "match": true
+      }
+    ]
+  }
+]
