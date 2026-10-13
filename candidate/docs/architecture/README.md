@@ -124,6 +124,11 @@ Attachment returns a factory called as `sessions(tenant_id=tenant_uuid)`. Await 
 The compiler lock must be trusted by the host. Physical protected columns must already be `bytea`.
 This call does not perform a schema/data transition. Attach before application sessions or model use.
 The engine must use PostgreSQL/psycopg, `echo=False`, and `hide_parameters=True`, with no checked-out connections at activation.
+`UnsafeEngineLogging`, a `PolicyMismatch` subtype, reports an unsafe logging
+configuration at attachment entry, before connection or key access. Construct
+the runtime engine with the settings above and keep them while attached.
+Attachment does not change the engine settings. Activation and operation-time
+policy checks remain in force. Host logs and custom callbacks require separate review.
 Ordinary ORM flush writes, direct projections and declared equality/IN are implemented. Core/bulk writes and unadmitted grammar reject.
 Mapped text attributes remain ordinary `str` or NULL. Generated projections carry row and tenant context for authentication.
 Protected projections and predicates disable compilation caching because their processors retain prepared material and operation context.

@@ -16,18 +16,20 @@ from uuid import UUID
 from sqlalchemy import __version__ as _sqlalchemy_version
 from sqlalchemy import BigInteger, LargeBinary, Text, Uuid, event, func, inspect, type_coerce
 from sqlalchemy.engine import Engine
+from sqlalchemy.exc import DBAPIError
 from sqlalchemy.ext.asyncio import AsyncEngine, AsyncSession, AsyncSessionTransaction
 from sqlalchemy.util.concurrency import await_only
 from sqlalchemy.orm import Session, registry
 from sqlalchemy.orm.attributes import NO_VALUE
 from sqlalchemy.sql import operators, visitors
-from sqlalchemy.sql.elements import BinaryExpression, BindParameter, BooleanClauseList, Cast, ColumnClause, Grouping, Label, TextClause, UnaryExpression
+from sqlalchemy.sql.elements import BinaryExpression, BindParameter, BooleanClauseList, Cast, ColumnClause, Grouping, Label, TextClause, TypeCoerce, UnaryExpression
 from sqlalchemy.sql.functions import FunctionElement
 from sqlalchemy.sql.selectable import Alias, CTE, FromClause, Select, Join, Subquery
 from sqlalchemy.sql.dml import Insert, Update, Delete
 from sqlalchemy.types import JSON, NullType, TypeDecorator
 
 from . import _experimental_public_delete as _delete_experiment
+from . import _experimental_public_update as _update_experiment
 from ._sqlalchemy_guard import install_guard
 from ._sqlalchemy_transactions import (install_control, inspect_control, native_scope,
     track_transaction, fail_prepared_flush, after_begin as control_after_begin, after_end as control_after_end)
@@ -65,6 +67,11 @@ def _uuid_record_context(value):
 class PolicyMismatch(CryptoFailure):
     stage = "attachment validation"
     remedy = "Check the trusted lock, bytea target, search index/check, tenant key policy, mapping, and guarded engine configuration. Attach before application use."
+
+
+class UnsafeEngineLogging(PolicyMismatch):
+    stage = "engine logging admission"
+    remedy = "Create the runtime engine with echo=False and hide_parameters=True. Keep those settings for the attached engine and review host logging separately."
 
 
 class ProtectedSchemaMismatch(PolicyMismatch):
@@ -318,6 +325,79 @@ class _Attachment:
         return any(isinstance(node, ColumnClause) and any(node.shares_lineage(b.column) for b in self.bindings)
                    for node in visitors.iterate(expression))
 
+    def _admit_textual_references(self, statement):
+        # Label references have no column lineage. Check every local occurrence,
+        # not just outer ORDER/GROUP clauses; nested SELECTs own their namespace.
+        selected_roots = tuple(statement._all_selected_columns)
+        order_roots = tuple(statement._order_by_clauses)
+        group_roots = tuple(statement._group_by_clauses)
+        distinct_roots = tuple(statement._distinct_on)
+        roots = [(c, True, True) for c in selected_roots]
+        roots += [(c, False, False) for c in order_roots + distinct_roots]
+        roots += [(c, False, True) for c in group_roots]
+        assigned = {id(c) for c in selected_roots + order_roots + group_roots + distinct_roots}
+        roots += [(c, False, True) for c in statement.get_children() if id(c) not in assigned]
+        resolution = None
+
+        def references(part, within_columns, input_first):
+            if isinstance(part, Select):
+                return
+            visit = getattr(part, "__visit_name__", None)
+            if visit == "postgresql_distinct_on":
+                # SQLAlchemy 2.1 syntax extension; 2.0 uses _distinct_on above.
+                for child in part._distinct_on:
+                    yield from references(child, False, False)
+                return
+            if visit == "textual_label_reference":
+                yield part.element, within_columns, input_first
+                return
+            transparent = isinstance(part, (Grouping, TypeCoerce)) or (
+                isinstance(part, UnaryExpression) and part.modifier in (
+                    operators.asc_op, operators.desc_op,
+                    operators.nulls_first_op, operators.nulls_last_op))
+            # A comma-separated ORDER BY list preserves each bare label.
+            transparent = transparent or visit == "order_by_list"
+            for child in part.get_children():
+                yield from references(child, within_columns, input_first or not transparent)
+
+        for root, within_columns, input_first in roots:
+            if any(root is clause for clause in order_roots + group_roots) and self.protected(root):
+                raise UnsupportedProtectedOperation()
+            for textual, within_columns, input_first in references(root, within_columns, input_first):
+                if resolution is None:
+                    try:
+                        # Empty compilation state supplies the native namespaces
+                        # without rendering protected columns or capturing keys.
+                        dialect = self.engine.dialect
+                        state = statement._compile_state_factory(
+                            statement, dialect.statement_compiler(dialect, None))
+                        combined, from_only, _ = state._label_resolve_dict
+                        selected = tuple(state.statement._all_selected_columns)
+                        sources = tuple(c for source in state.froms for c in source.c)
+                        resolution = combined, from_only, selected, sources
+                    except Exception:
+                        raise UnsupportedProtectedOperation() from None
+                combined, from_only, selected, sources = resolution
+                resolved = (from_only if within_columns else combined).get(textual)
+                if resolved is None:
+                    raise UnsupportedProtectedOperation()
+                if within_columns:
+                    candidates = tuple(c for c in sources if c._allow_label_resolve and c.key == textual)
+                else:
+                    # Labels render unqualified. GROUP BY and names embedded in
+                    # expressions use PostgreSQL input-name precedence; bare
+                    # ORDER BY / DISTINCT ON output labels retain precedence.
+                    inputs = tuple(c for c in sources if c.name == resolved.name)
+                    if isinstance(resolved, Label) and input_first and inputs:
+                        candidates = inputs
+                    else:
+                        candidates = tuple(c for c in selected if c._allow_label_resolve and
+                                           (c._tq_label or c.key) == textual)
+                        if not candidates:
+                            candidates = tuple(c for c in sources if c._allow_label_resolve and c.key == textual)
+                if not candidates or any(self.protected(c) for c in candidates):
+                    raise UnsupportedProtectedOperation()
+
     def _ring(self, tenant):
         if not isinstance(tenant, UUID):
             raise PolicyMismatch()
@@ -452,6 +532,7 @@ class _Attachment:
             binding.column.type = _Payload(binding, self)
         for table, schema, name in self.public_schema_pins:
             table.schema = schema
+        _update_experiment.freeze_mappings(self)
         self.fingerprint = self._fingerprint()
         engine.clear_compiled_cache()
         # ORM flush uses mapper-owned caches, separate from the engine cache.
@@ -608,6 +689,8 @@ class _Attachment:
             return
         if _delete_experiment.target(self, statement) is not None:
             return
+        if _update_experiment.admitted(self, statement):
+            return
         if flushing and isinstance(statement, (Insert, Update, Delete)):
             return
         if not isinstance(statement, Select):
@@ -694,16 +777,7 @@ class _Attachment:
                         if match is None:
                             raise UnsupportedProtectedOperation()
                         eligible.pop(match)
-                remaining = list(node.order_by(None).group_by(None).get_children())
-                for child in node.get_children():
-                    match = next((i for i, candidate in enumerate(remaining) if child is candidate or child.compare(candidate)), None)
-                    if match is not None:
-                        remaining.pop(match)
-                        continue
-                    textual = getattr(child, "element", None)
-                    labeled = type(textual) is str and any(c.key == textual and self.protected(c) for c in node.selected_columns)
-                    if self.protected(child) or labeled:
-                        raise UnsupportedProtectedOperation()
+                self._admit_textual_references(node)
 
     def prepare_rows(self, session, operation):
         for obj in tuple(session.new) + tuple(session.dirty) + tuple(session.deleted):
@@ -757,6 +831,8 @@ class _Attachment:
         if execution_options.get("schema_translate_map"):
             raise PolicyMismatch()
         self.admit(statement, operation.flushing)
+        if isinstance(statement, Update) and not operation.flushing:
+            _update_experiment.before_execute(self, connection, statement, multiparams, params)
         if operation.flushing and isinstance(statement, Delete):
             self._prepare_native_delete(connection, statement, multiparams if multiparams else [params], operation)
         if isinstance(statement, (Insert, Update)):
@@ -798,6 +874,8 @@ class _Attachment:
         if context.compiled is None:
             raise UnsupportedProtectedOperation()
         self.admit(context.compiled.statement, operation.flushing)
+        if isinstance(context.compiled.statement, Update) and not operation.flushing:
+            _update_experiment.check_cursor(self, context)
         if operation.flushing and isinstance(context.compiled.statement, Delete):
             self._check_native_delete_cursor(context, operation)
 
@@ -883,13 +961,13 @@ def _failed_flush_preparation(session, failure):
 
 
 def _query_would_autoflush(session, statement, execution_options):
-    """Match the supported native SELECT/private DELETE flush boundary.
+    """Match the supported native SELECT/private DML flush boundary.
 
     SQLAlchemy 2.1 adds Core autoflush, independent of ORM execution options.
     Session.autoflush/no_autoflush still control it. ORM option precedence is
     session-wide (2.1), then statement, then the individual execution call.
     """
-    if (not isinstance(statement, (Select, Delete)) or not session.autoflush
+    if (not isinstance(statement, (Select, Delete, Update)) or not session.autoflush
             or not (session.new or session.dirty or session.deleted)):
         return False
     if statement._propagate_attrs.get("compile_state_plugin") != "orm":
@@ -903,7 +981,8 @@ def _query_would_autoflush(session, statement, execution_options):
 @event.listens_for(_Session, "do_orm_execute", retval=True)
 def _execute(state):
     session = state.session
-    if _delete_experiment.target(session._owner, state.statement) is not None:
+    public_update = _update_experiment.target(session._owner, state.statement) is not None
+    if public_update or _delete_experiment.target(session._owner, state.statement) is not None:
         if state.parameters is not None and not isinstance(state.parameters, dict):
             raise UnsupportedProtectedOperation()
         try:
@@ -914,8 +993,16 @@ def _execute(state):
             raise
         operation = _Operation(session._owner, prepared, session._tenant, session)
         token = _operation.set(operation)
+        update_token = None
         try:
-            _delete_experiment.prepare(session, state.statement)
+            if public_update:
+                permit = _update_experiment.prepare(session, state.statement, state.parameters)
+                update_token = _update_experiment._permit.set(permit)
+                # Exact one-operation statement identity must survive to the driver.
+                # No cached UPDATE may retain or substitute invocation authority.
+                state.update_execution_options(compiled_cache=None)
+            else:
+                _delete_experiment.prepare(session, state.statement)
             boundary = _delete_experiment._result_boundary.get()
             if session._asynchronous and (boundary is None or boundary.session is not session):
                 raise UnsupportedProtectedOperation()
@@ -927,11 +1014,17 @@ def _execute(state):
             except BaseException as failure:
                 if boundary is not None and boundary.session is session:
                     boundary.cleaned = True
-                _failed_flush_preparation(session, failure)
+                # A native driver error in bulk DML is not a failed ORM flush.
+                # SQLAlchemy already owns its transaction state (including any
+                # real autoflush failure); do not replace it with flush state.
+                if not isinstance(failure, DBAPIError):
+                    _failed_flush_preparation(session, failure)
                 raise
         except ProtectedSchemaMismatch as failure:
             raise failure from None
         finally:
+            if update_token is not None:
+                _update_experiment._permit.reset(update_token)
             _operation.reset(token)
     session._owner.admit(state.statement)
     parameters = state.parameters if isinstance(state.parameters, dict) else {}
@@ -1074,6 +1167,9 @@ def attach(mapping: registry, engine: Engine | AsyncEngine, *, lock: bytes, keys
         if (not isinstance(mapping, registry) or not isinstance(engine, (Engine, AsyncEngine)) or
                 document["schema"] != "cryptalis.lock/v1" or document["profile"] != "cf1"):
             raise PolicyMismatch()
+        native_engine = engine.sync_engine if isinstance(engine, AsyncEngine) else engine
+        if native_engine.echo or not native_engine.hide_parameters:
+            raise UnsafeEngineLogging()
         owner = _Attachment(mapping, engine, document, keys, deployment)
         if isinstance(engine, AsyncEngine):
             if uses_sqlmodel(mapping):

@@ -205,6 +205,19 @@ def _state(c,p,pin,*,allow_aborted=False):
         raise m.TransitionFailure('restored_state_behind_external_pin',p.operation_id)
     if phase=='PLAINTEXT_ACTIVE' and pin.phase not in ('PLAINTEXT_ACTIVATING','PLAINTEXT_ACTIVE','REMOVING'):
         raise m.TransitionFailure('external_policy_behind_database',p.operation_id)
+    # The reverse marker is only one half of expansion's atomic journal pair.
+    # Resume must not progress a one-sided restore or a changed predecessor.
+    # Completed aborts return above: a newer reverse may now own that source.
+    source=p.source
+    if (state.get('source_operation_id')!=str(source.operation_id)
+            or state.get('source_plan_digest')!=source.digest):
+        raise m.TransitionFailure('source_state_changed',p.operation_id)
+    predecessor=c.exec_driver_sql(
+        f'SELECT plan_digest,state FROM {m._journal(c,p)} WHERE operation_id=%s',
+        (source.operation_id,)).one_or_none()
+    if (predecessor is None or predecessor[0]!=source.digest
+            or type(predecessor[1]) is not dict or predecessor[1].get('phase')!='DEPROTECTING'):
+        raise m.TransitionFailure('source_state_changed',p.operation_id)
     return state
 
 
