@@ -127,3 +127,61 @@ Repeated wheel SHA25643c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263
 - C1 public-metadata optimization is EXCLUDED:2.0 equality performance consistency failed4/7 versus required6/7. Inactive B1 rewrap successor is EXCLUDED from this runtime; active rewrap remains open.
 
 All seven independent qualification gates remain UNKNOWN. The same seven legacy-layout full-suite failures remain open pending this integration run.
+
+
+# S17 defect and evidence addendum
+
+This supplements the frozen candidate defect register. It does not change a
+security contract or reclassify the seven historical full-suite failures.
+S17 research checkpoint: ab40f030f377de564b7db58925ec76e919e4910c.
+The default branch still contains S14; moving S17 to main requires the pending
+explicit owner approval after the action-review denial.
+
+## Corrected within the bounded S17 candidate
+
+- Native private-DML driver errors: four real integer-overflow cases showed
+  non-native Session failure state. The correction exempts DBAPIError only at
+  the inner native invocation; outer post-result cleanup remains unconditional.
+  Final twenty-case fault suite passes both pinned SQLAlchemy versions. Removing
+  outer cleanup fails both synthetic post-result quarantine controls. These
+  injections do not prove a natural psycopg result-finalization failure.
+- Textual query references: independent tests confirmed 28 missing FROM/qualified
+  reference refusals and two GROUP shadow-precedence omissions. Further window,
+  DISTINCT ON and ordered-aggregate cases required local-scope resolution. Twelve
+  initial native fixture errors were corrected and are not product defects.
+  Final bounded correction passes 284 focused SA2.1 cases and 401 affected SA2.0
+  cases with 28 native-API skips. This implements refusal of unsupported protected
+  operations, not new protected ordering/range/aggregate support.
+- Reverse predecessor consistency: exact operation/digest/predecessor checks
+  reject the tested malformed durable links. B2 is included in S17; B4 applies
+  the same correction separately to the complete legacy package. Legacy formats
+  are not overlaid onto the retained runtime.
+- Attachment diagnostics: unsafe engine logging is rejected before connection
+  and key access with a fixed diagnostic. Existing logging requirements and
+  later checks remain in force; no sensitive URL or caller data is printed.
+
+## Evidence limits and unresolved work
+
+- Full installed S17 suites are not green: SA2.1 has 2235 passes and seven
+  historical legacy suffix-copy failures; SA2.0 has 2189 passes, the same seven
+  failures and 46 unavailable-native-API skips. Each has 18 passing subtests.
+  Separate legacy and retained property evidence does not erase these results.
+- A3 adds passing ordinary integer-versioned ORM stale UPDATE/DELETE comparisons
+  in sync/async root transactions. Other versioning modes remain unqualified.
+- B5 strengthens reverse-byte and public-column observations. Its original
+  column-name/last-rowcount observer was insufficient for categorical transport
+  claims. Later native-buffer/provenance controls and first-attempt observation
+  are revision-specific evidence; they are not runtime bug corrections.
+- C1 and C5 performance candidates remain held after their predeclared
+  consistency gates failed. A later identical-code A/A diagnostic found variance
+  but cannot explain away or reverse either failure. No speed claim is promoted.
+- D1–D3 capture/enumeration/CF1 experiments are finite synthetic research. They
+  do not implement an approved product online closure, writer fence or cutover.
+- F2 is only an offline provider-response shape validator. Authenticated durable
+  provider binding, real transport, leases, outage/retry, rewrap and publication
+  remain unproven. Real-provider context metadata is not approved.
+- All seven independent qualification gates remain UNKNOWN. New cluster,
+  credentials and live-provider access still require action-time approval.
+
+The original 15-commit mailbox remains unchanged. Failed experiments and earlier
+candidate revisions are retained separately from proposed successors.

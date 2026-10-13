@@ -1,0 +1,1 @@
+PARTIAL SOURCE PUBLICATION. S18 combines S17 with offline manifest setup diagnostics and A3/B5 oracles. Full installed SA21:2259 passed,7 unchanged legacy-profile failures,39 subtests passed. SA20 is pending. Main promotion remains separately blocked pending explicit owner approval. All seven qualification gates UNKNOWN.

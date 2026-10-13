@@ -30,6 +30,79 @@ Pre-adoption checks: declaration grammar, bounded native schema/mapping/compiler
 
 The caller supplies trusted engine/registry objects. Read-only database transactions do not sandbox host callbacks, prevent every physical disk write, or establish complete writer inventory. PostgreSQL also permits writes to existing temporary tables in read-only transactions. Independent production gates remain UNKNOWN.
 
+## Offline manifest-first setup prototype
+
+**IMPLEMENTED and pure-tested in an isolated S17-derived candidate.** This new
+explicit phase reuses the existing host API. It does not change the static CLI
+or the default pre-adoption and active inspection paths.
+
+```python
+from cryptalis.doctor import doctor
+report = doctor(manifest_bytes, phase="setup",
+                mapping=existing_registry, engine=existing_runtime_engine)
+setup = report["checks"]["setup"]
+if "template" in setup:
+    print(setup["template"])  # Review this text; doctor never executes it.
+```
+
+Use the application's authoritative registry and existing PostgreSQL/psycopg
+engine. There is no second model declaration or import-by-string mechanism.
+The manifest uses mapped attribute names. A physical column name that differs
+from its mapped attribute is not an alternative selector. Model names must
+resolve unambiguously within the supplied registry. Protected fields and tenant
+context must resolve to direct ordinary table columns. Hybrid properties,
+synonyms, SQL expressions and relationships are not direct field references.
+Primary-key and tenant-context attributes cannot be protected fields.
+
+The setup check uses ordinary mapper property iteration without mapper
+configuration or descriptor evaluation. It does not inspect type reprs, defaults,
+application values or engine URLs. It refuses custom dialect hooks and custom
+logging/translation values. Native engine flags must already satisfy
+`echo=False` and `hide_parameters=True`; setup never changes them. Schema
+translation is refused. Custom/subclassed registries, mappers and engines can
+return UNAVAILABLE. Host-created objects must remain trusted and stable during
+inspection. This diagnostic is not a sandbox for arbitrary object mutation.
+
+The local inspection covers at most 2,048 mappers and 16,384 properties across
+declared models. Exhaustion returns UNAVAILABLE and no template. These bounds
+do not bound host-object construction, total process memory or elapsed time.
+Diagnostics contain static codes/remedies and zero-based model/field indexes in
+the parser's canonical declaration order. They do not echo supplied identifiers.
+
+Without an engine, valid mapping references produce PARTIAL and no template.
+With checked local settings, CHECKED means only manifest-reference and local
+engine inspection. It does not mean native type, default, constraint, privilege,
+server-version, lock, deployment or writer admission. The fixed template names
+seven explicit host objects: registry, engine, trusted lock, key resolver,
+current plan, current ACTIVE pin and authenticated tenant. It contains no
+credentials, schema definitions, key material or engine construction.
+
+Run reviewed integration only after the normal protection transition and
+external ACTIVE publication, before application sessions or model use. Bind
+the template names to independently trusted existing objects. Ensure that the
+trusted lock and plan match the reviewed manifest. Keep the existing runtime
+checks. Async-engine text belongs in an async startup function; SQLModel remains
+limited to the existing qualified 0.0.47 synchronous path on SQLAlchemy 2.0.
+
+Setup rejects writer/source/deployment/audit inputs instead of silently using
+them. No database or key access occurs. `ready` and `complete` remain false;
+native admission, deployment, roles, provider and ciphertext stay NOT_INSPECTED.
+The text does not grant query capabilities or generate private application
+profile flags. It does not perform migration, integration installation or
+removal. The static CLI still checks declaration grammar only.
+
+Evidence: 14 pure tests pass on SQLAlchemy 2.0.51 and 2.1.3. They include nine
+selector/context mistakes, three unsafe logging configurations, no-connect
+sentinels, descriptor/default/type-repr sentinels, parser/key refusal precedence,
+bounded inspection and executable sync/async template forwarding. Four omission
+controls fail in each cell; exact restoration passes. A separate oracle imports
+only the pinned FastAPI template's existing model module: one declared model,
+two fields, seven rejected setup defects, zero connections, schema copies,
+mapping mutations or app-source edits. This is not an application replay.
+The recorded S17 application integration cost remains 13 external bootstrap
+lines plus four fixture lines and zero application-source edits. No reduction
+in those runtime integration lines is claimed. See [the research receipt](research/MANIFEST_SETUP_20261013.md).
+
 ## Evidence
 
 Initial76PASS2.81s. Expanded169PASS6.24s including existing compiler/scanner/CLI tests. Removing only compiler read-only enforcement/assertion makes both new ordinary/AUTOCOMMIT write-refusal controls fail; exact compiler bytes restored, then14 doctor tests PASS0.43s. This mutation uses a zero-row DELETE against disposable synthetic tables; it does not mutate customer data.

@@ -583,3 +583,7 @@ The refreshed core differential corpus is still186PASS/10FAIL per version, with 
 ## S16 integration candidate status — 2026-10-13
 
 The chronological entries above are historical, not the latest completed-checkpoint summary. Authoritative current requirements and prior S14 full evidence are maintained in the research repository root CRYPTALIS_BUILD_CHECKLIST.md. This isolated S16 candidate combines defensive reverse-predecessor consistency and protected textual-ordering refusal corrections, plus private off-by-default public-table UPDATE. It is not yet promoted: combined installed full-suite checks and recovery/readback remain pending. C1 performance optimization and inactive B1 root-rewrap prototype are not included. No new public query or active rotation capability is claimed; all seven independent gates remain UNKNOWN.
+
+## S18 setup candidate — pending integrated qualification, 2026-10-13
+
+This isolated derivative composes S17 runtime with F3 explicit offline doctor setup diagnostics and the unchanged A3/B5 native-property tests. F3 affected doctor gates passed62cases+21subtests per pinned dependency cell; full installed S18 qualification is pending. No online protocol, provider prototype or held performance candidate is included. S17 remains the highest bounded verified integrated research branch; main remains S14 pending explicit promotion approval. All seven qualification gates UNKNOWN.

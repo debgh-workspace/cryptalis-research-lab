@@ -129,6 +129,17 @@ configuration at attachment entry, before connection or key access. Construct
 the runtime engine with the settings above and keep them while attached.
 Attachment does not change the engine settings. Activation and operation-time
 policy checks remain in force. Host logs and custom callbacks require separate review.
+
+**IMPLEMENTED, isolated setup prototype:** `doctor(manifest_bytes, phase="setup",
+mapping=existing_registry, engine=existing_runtime_engine)` checks existing
+mapped attribute references and local engine settings. It returns fixed,
+review-only integration text that refers to trusted host objects. It does not
+copy model definitions, configure mappers, connect, obtain keys or apply a
+transition. `ready` and `complete` stay false. A checked setup is neither native
+schema admission nor application-profile permission. The existing compiler,
+deployment and attachment checks remain required. See the [setup boundary and
+evidence](../doctor.md#offline-manifest-first-setup-prototype).
+
 Ordinary ORM flush writes, direct projections and declared equality/IN are implemented. Core/bulk writes and unadmitted grammar reject.
 Mapped text attributes remain ordinary `str` or NULL. Generated projections carry row and tenant context for authentication.
 Protected projections and predicates disable compilation caching because their processors retain prepared material and operation context.
