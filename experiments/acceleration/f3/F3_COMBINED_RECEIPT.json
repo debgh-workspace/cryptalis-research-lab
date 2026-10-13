@@ -1,0 +1,203 @@
+{
+  "schema": "cryptalis.research.f3-evidence/v1",
+  "recorded_utc": "2026-10-13T15:36:00Z",
+  "scope": "Offline manifest selectors/local engine checks and fixed host-object template; no deployment authority",
+  "source_frozen": true,
+  "baseline": {
+    "name": "S17",
+    "file_count": 195,
+    "unchanged_files": 192,
+    "manifest_sha256": "70a5293e76486f243305968c7a58b8fa8c6be97d5bec5508593529b9eacc49e7"
+  },
+  "source_files_sha256": {
+    "docs/architecture/README.md": "20623faaa261e9c071f2a2d014d6b37cdef245c2d46c5a953ac509bf0f7a0c59",
+    "docs/doctor.md": "722c650fda4da8bf27c1d27a751a88f363da314293aadd40b969b7ececd06c2e",
+    "docs/research/MANIFEST_SETUP_20261013.md": "1dca76e91c8fb5bf3a152ec56cda558a92276a58ad96366b3ba3a2398c96a118",
+    "experiments/manifest_setup_fastapi_models.py": "220f4640722c520948afd7db4179f8c4c815eb51da4ae71cca73a4a0d7fa51aa",
+    "src/cryptalis/_doctor_setup.py": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6",
+    "src/cryptalis/doctor.py": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72",
+    "tests/test_doctor_setup.py": "1f6c10d1e470dac43a352f436e98bc57bd3af9fd8e662a8dfc45875815f9d833"
+  },
+  "patch_sha256": "58981d769b52d6ae5bc034f64d20732d6cb771a3ca6149fa96436a5113573a00",
+  "public_api": "cryptalis.doctor.doctor(manifest_bytes, phase=\"setup\", mapping=existing_registry, engine=existing_runtime_engine)",
+  "ready": false,
+  "complete": false,
+  "production_gates": "ALL_SEVEN_UNKNOWN",
+  "pure": {
+    "test_selector": "tests/test_doctor_setup.py",
+    "sa20": {
+      "passed": 14,
+      "python": "3.12.14",
+      "sqlalchemy": "2.0.51",
+      "elapsed_seconds": 0.067,
+      "log_sha256": "12c82627769b598caf968a7d62cd3ac1a19fdc9b317c52baa0f675699ba28cfe"
+    },
+    "sa21": {
+      "passed": 14,
+      "python": "3.12.14",
+      "sqlalchemy": "2.1.3",
+      "elapsed_seconds": 0.07,
+      "log_sha256": "ba5a18bdbd41f4a4de26677863175c14163a0e9a048c82f6c1d008b0aeeee956"
+    },
+    "initial_red": {
+      "methods": 8,
+      "failures": 21,
+      "log_sha256": "a9e963b3857202b0f23ac44b8085068be522bf67a9e68ba62b975b4c9bc0795f"
+    },
+    "defect_inputs": {
+      "selector_context_cases": 9,
+      "unsafe_logging_cases": 3
+    },
+    "template_proof": "Sync and async identity forwarding with replacement attach/context objects; not a real attachment"
+  },
+  "actual_model_only_oracle": {
+    "complete": false,
+    "connection_attempts": 0,
+    "declared_fields": 2,
+    "declared_models": 1,
+    "defect_cells": 7,
+    "existing_mappers": 2,
+    "mapping_mutations": 0,
+    "model_source_sha256": "4696396c84832a50ca9d60337c2b6ba24e961f2ee5b5e660d8081fb929ebf459",
+    "positive_cells": 1,
+    "ready": false,
+    "result": "PASS",
+    "schema_copies": 0,
+    "scope": "pinned_actual_models_offline_selector_oracle_only",
+    "source_edits": 0,
+    "sqlalchemy": "2.0.51",
+    "sqlmodel": "0.0.47",
+    "upstream_commit": "7257e606cb94eada1dca40173e2b7f99dd549bc6"
+  },
+  "model_oracle_log_sha256": "968cfe1315125187384ade5b2eda0473790650bff277fb2ee46fe1689cbab870",
+  "omission_controls": {
+    "original_sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6",
+    "mutants": {
+      "logging_guard": {
+        "sa20": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=3)"
+        },
+        "sa21": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=3)"
+        }
+      },
+      "context_guard": {
+        "sa20": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=1)"
+        },
+        "sa21": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=1)"
+        }
+      },
+      "mapping_configuration": {
+        "sa20": {
+          "exit_code": 1,
+          "summary": "FAILED (errors=20)"
+        },
+        "sa21": {
+          "exit_code": 1,
+          "summary": "FAILED (errors=20)"
+        }
+      },
+      "metaclass_name_hook": {
+        "sa20": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=1)"
+        },
+        "sa21": {
+          "exit_code": 1,
+          "summary": "FAILED (failures=1)"
+        }
+      }
+    },
+    "restored_sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6",
+    "restored": {
+      "sa20": {
+        "exit_code": 0,
+        "summary": "OK"
+      },
+      "sa21": {
+        "exit_code": 0,
+        "summary": "OK"
+      }
+    }
+  },
+  "coordinator_pg_regression": {
+    "sa21": {
+      "runner": "coordinator unchanged-role PostgreSQL gate",
+      "passed": 62,
+      "subtests_passed": 21,
+      "failed": 0,
+      "elapsed_seconds": 7.41,
+      "role_preflight_passed": true,
+      "source_unchanged": true,
+      "source_stability_entries": 138,
+      "external_source_unchanged": true,
+      "external_source_entries": 0,
+      "postgres_stop_exit_code": 0,
+      "evidence_sha256": {
+        "tests.log": "29ca3671f7d5deeb60f9ccda6741b50089bf7b2ed0f8ec862ae300eba5a1a531",
+        "source-stability.json": "b48696950245df8ae678dc984d41c4f542cd9a45661aada27faf969f4ae4d465",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "6b7551a9fb19125088433a0380a7d346ed6ab589ae19b508fb9064be0e500cb5"
+      }
+    },
+    "sa20": {
+      "runner": "coordinator unchanged-role PostgreSQL gate",
+      "passed": 62,
+      "subtests_passed": 21,
+      "failed": 0,
+      "elapsed_seconds": 7.07,
+      "role_preflight_passed": true,
+      "source_unchanged": true,
+      "source_stability_entries": 138,
+      "external_source_unchanged": true,
+      "external_source_entries": 0,
+      "postgres_stop_exit_code": 0,
+      "evidence_sha256": {
+        "tests.log": "cd108cf84a0ab812c0f48f1b80b26bef4fecdc6fc2b7e5e4a02b4066d1ecd58b",
+        "source-stability.json": "b48696950245df8ae678dc984d41c4f542cd9a45661aada27faf969f4ae4d465",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "postgres-stop.json": "d6bdc913e04233216d4177793a26c5b6ae6682ea4caee41dc84f3aa338d8e11c"
+      }
+    }
+  },
+  "replay_scope": {
+    "new_full_app_replay": false,
+    "s17_recorded_fastapi_tests_per_cell": 58,
+    "s17_recorded_cells": 4,
+    "external_bootstrap_lines": 13,
+    "fixture_lines": 4,
+    "app_source_edits": 0,
+    "runtime_integration_line_reduction_claimed": false
+  },
+  "review_status": "Internal review E found no actionable blocker within the declared offline scope; no production promotion inferred",
+  "publication_safety": "Counts, static outcomes and hashes only. No environment contents, connection strings, credentials, raw tests.json or provider material.",
+  "independent_internal_review": {
+    "recorded_utc": "2026-10-13T15:41:41.010439+00:00",
+    "reviewer": "E",
+    "result": "NO_ACTIONABLE_BLOCKER_WITHIN_DECLARED_OFFLINE_SCOPE",
+    "basis": "Reviewer source/hash examination and existing executable receipts; no reviewer DB calls",
+    "frozen_source_files_checked": 7,
+    "existing_evidence_hashes_checked": 29,
+    "checks": [
+      "Parser/key refusal precedence retained",
+      "Setup returns before database/provider/transition work",
+      "Ordinary mapper iteration avoids configuration",
+      "Descriptor/name/default/type-repr controls and fixed diagnostic/template redaction supported",
+      "Existing active helper unchanged; ready/complete false"
+    ],
+    "limits": [
+      "Internal review is not independent external security qualification",
+      "Pure/model-only evidence is not real attachment or a new full-app replay",
+      "Reviewer did not run PostgreSQL; completed coordinator PostgreSQL gates are recorded separately"
+    ],
+    "prior_receipt_sha256": "39ffe608dbb7b25c70986764469555a27c2675b4501737b5f5d66fb8444ab7a0"
+  }
+}
