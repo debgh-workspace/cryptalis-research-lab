@@ -1,0 +1,26 @@
+{
+  "slice": "KMS-BOUNDARY-01",
+  "status": "OFFLINE_RESEARCH_ONLY; PROVISIONAL_CONTEXT_NOT_APPROVED",
+  "original_s14_files_unchanged": 183,
+  "generic_provider_contract": "UNCHANGED",
+  "sdk_network_database_runs": "NONE",
+  "gates": "UNKNOWN",
+  "files": [
+    {
+      "path": "experiments/kms_boundary.py",
+      "sha256": "33b40d39d0404fca5da0339e9067485eb0fc4dac517c7c5d9276328bf6fe45a0",
+      "bytes": 5110
+    },
+    {
+      "path": "tests/test_kms_boundary_prototype.py",
+      "sha256": "54640eb9d6e6e60111d1d86765cd913d0b4373af9342ea98db95a1247ada6dae",
+      "bytes": 12102
+    },
+    {
+      "path": "docs/research/KMS_BOUNDARY_20261013.md",
+      "sha256": "dffcd5618f56d8a256e4defaabc7cfb871744151b32079ec1485573944a5f771",
+      "bytes": 7177
+    }
+  ],
+  "patch_sha256": "6305b1978bf5ab7c2e863ac9484f276aadcbab4c2b91a4fefdce3a165ffb2fef"
+}

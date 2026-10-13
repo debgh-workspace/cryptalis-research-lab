@@ -1,0 +1,148 @@
+test_binding_and_requests_are_immutable_and_arguments_are_fresh (__main__.KmsBoundaryPrototypeTests.test_binding_and_requests_are_immutable_and_arguments_are_fresh) ... ERROR
+test_binding_rejects_unpinned_or_malformed_key_identifiers (__main__.KmsBoundaryPrototypeTests.test_binding_rejects_unpinned_or_malformed_key_identifiers) ... ERROR
+test_every_context_field_and_provider_affects_expected_aad (__main__.KmsBoundaryPrototypeTests.test_every_context_field_and_provider_affects_expected_aad) ... ERROR
+test_exact_requests_use_pinned_arn_bytes_and_expected_context (__main__.KmsBoundaryPrototypeTests.test_exact_requests_use_pinned_arn_bytes_and_expected_context) ... ERROR
+test_request_representations_omit_root_and_ciphertext (__main__.KmsBoundaryPrototypeTests.test_request_representations_omit_root_and_ciphertext) ... ERROR
+test_response_key_and_algorithm_are_mandatory_and_exact (__main__.KmsBoundaryPrototypeTests.test_response_key_and_algorithm_are_mandatory_and_exact) ... ERROR
+test_response_lengths_types_and_recipient_mode_fail_closed (__main__.KmsBoundaryPrototypeTests.test_response_lengths_types_and_recipient_mode_fail_closed) ... ERROR
+test_unwrap_applies_kms_blob_bound_before_any_transport (__main__.KmsBoundaryPrototypeTests.test_unwrap_applies_kms_blob_bound_before_any_transport) ... ERROR
+test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch (__main__.KmsBoundaryPrototypeTests.test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch) ... ERROR
+test_valid_responses_preserve_exact_root_wrapper_and_context (__main__.KmsBoundaryPrototypeTests.test_valid_responses_preserve_exact_root_wrapper_and_context) ... ERROR
+test_wrap_rejects_wrong_root_type_or_length_and_context (__main__.KmsBoundaryPrototypeTests.test_wrap_rejects_wrong_root_type_or_length_and_context) ... ERROR
+
+======================================================================
+ERROR: test_binding_and_requests_are_immutable_and_arguments_are_fresh (__main__.KmsBoundaryPrototypeTests.test_binding_and_requests_are_immutable_and_arguments_are_fresh)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1278d7ad9-0.
+
+======================================================================
+ERROR: test_binding_rejects_unpinned_or_malformed_key_identifiers (__main__.KmsBoundaryPrototypeTests.test_binding_rejects_unpinned_or_malformed_key_identifiers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f127935adb-1.
+
+======================================================================
+ERROR: test_every_context_field_and_provider_affects_expected_aad (__main__.KmsBoundaryPrototypeTests.test_every_context_field_and_provider_affects_expected_aad)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f12795668e-2.
+
+======================================================================
+ERROR: test_exact_requests_use_pinned_arn_bytes_and_expected_context (__main__.KmsBoundaryPrototypeTests.test_exact_requests_use_pinned_arn_bytes_and_expected_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f127976f48-3.
+
+======================================================================
+ERROR: test_request_representations_omit_root_and_ciphertext (__main__.KmsBoundaryPrototypeTests.test_request_representations_omit_root_and_ciphertext)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f12798f22e-4.
+
+======================================================================
+ERROR: test_response_key_and_algorithm_are_mandatory_and_exact (__main__.KmsBoundaryPrototypeTests.test_response_key_and_algorithm_are_mandatory_and_exact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1279a3116-5.
+
+======================================================================
+ERROR: test_response_lengths_types_and_recipient_mode_fail_closed (__main__.KmsBoundaryPrototypeTests.test_response_lengths_types_and_recipient_mode_fail_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1279b6c00-6.
+
+======================================================================
+ERROR: test_unwrap_applies_kms_blob_bound_before_any_transport (__main__.KmsBoundaryPrototypeTests.test_unwrap_applies_kms_blob_bound_before_any_transport)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1279c99c6-7.
+
+======================================================================
+ERROR: test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch (__main__.KmsBoundaryPrototypeTests.test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1279dc03b-8.
+
+======================================================================
+ERROR: test_valid_responses_preserve_exact_root_wrapper_and_context (__main__.KmsBoundaryPrototypeTests.test_valid_responses_preserve_exact_root_wrapper_and_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f1279eeb75-9.
+
+======================================================================
+ERROR: test_wrap_rejects_wrong_root_type_or_length_and_context (__main__.KmsBoundaryPrototypeTests.test_wrap_rejects_wrong_root_type_or_length_and_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/tests/test_kms_boundary_prototype.py", line 42, in setUp
+    self.wrap = WrapRequest(self.binding, CONTEXT, ROOT)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in __init__
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-kms-boundary-20261013/experiments/kms_boundary.py", line 77, in __post_init__
+    raise KmsBoundaryRejected()
+experiments.kms_boundary.KmsBoundaryRejected: KmsBoundaryRejected during provisional offline KMS boundary. Check the synthetic pinned binding, exact context, and bounded SDK-shaped values. This experiment is not a production provider. Operation 5-26f127a05e79-a.
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+FAILED (errors=11)

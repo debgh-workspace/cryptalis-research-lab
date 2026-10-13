@@ -1,0 +1,17 @@
+test_binding_and_requests_are_immutable_and_arguments_are_fresh (__main__.KmsBoundaryPrototypeTests.test_binding_and_requests_are_immutable_and_arguments_are_fresh) ... ok
+test_binding_rejects_unpinned_or_malformed_key_identifiers (__main__.KmsBoundaryPrototypeTests.test_binding_rejects_unpinned_or_malformed_key_identifiers) ... ok
+test_every_context_field_and_provider_affects_expected_aad (__main__.KmsBoundaryPrototypeTests.test_every_context_field_and_provider_affects_expected_aad) ... ok
+test_exact_requests_use_pinned_arn_bytes_and_expected_context (__main__.KmsBoundaryPrototypeTests.test_exact_requests_use_pinned_arn_bytes_and_expected_context) ... ok
+test_request_representations_omit_root_and_ciphertext (__main__.KmsBoundaryPrototypeTests.test_request_representations_omit_root_and_ciphertext) ... ok
+test_response_key_and_algorithm_are_mandatory_and_exact (__main__.KmsBoundaryPrototypeTests.test_response_key_and_algorithm_are_mandatory_and_exact) ... ok
+test_response_lengths_types_and_recipient_mode_fail_closed (__main__.KmsBoundaryPrototypeTests.test_response_lengths_types_and_recipient_mode_fail_closed) ... ok
+test_sdk_response_shapes_reject_custom_equality_values (__main__.KmsBoundaryPrototypeTests.test_sdk_response_shapes_reject_custom_equality_values) ... ok
+test_unwrap_applies_kms_blob_bound_before_any_transport (__main__.KmsBoundaryPrototypeTests.test_unwrap_applies_kms_blob_bound_before_any_transport) ... ok
+test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch (__main__.KmsBoundaryPrototypeTests.test_unwrap_rejects_wrapper_provider_or_expected_context_mismatch) ... ok
+test_valid_responses_preserve_exact_root_wrapper_and_context (__main__.KmsBoundaryPrototypeTests.test_valid_responses_preserve_exact_root_wrapper_and_context) ... ok
+test_wrap_rejects_wrong_root_type_or_length_and_context (__main__.KmsBoundaryPrototypeTests.test_wrap_rejects_wrong_root_type_or_length_and_context) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
