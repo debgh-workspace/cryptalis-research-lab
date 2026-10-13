@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_INSPECTED; next focused application experiment not run",
+  "current_finding": "Core compiler already resolves unqualified protected Table objects through to_regclass and freezes qualified schema at attach. The remaining private public-child DELETE profile rejects an unqualified allowlisted public table and matches cascade children by exact schema/name. Do not reimplement already present protected-table resolution.",
+  "source_locations": [
+    "candidate/src/cryptalis/manifest/compiler.py:750",
+    "candidate/src/cryptalis/sqlalchemy.py:444",
+    "candidate/src/cryptalis/_experimental_public_delete.py:61",
+    "candidate/src/cryptalis/_experimental_public_delete.py:254"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://docs.sqlalchemy.org/en/21/core/connections.html",
+      "finding": "schema_translate_map applies to Table/Sequence-derived SQL, not literal text; ORM requires one map per session. 2.1 session-option behavior differs from2.0."
+    },
+    {
+      "url": "https://cipherstash.com/docs/reference/proxy",
+      "finding": "Vendor describes a PostgreSQL-wire proxy integration that encrypts parameters and decrypts results; this is an alternate deployment/trust boundary, not Cryptalis implementation evidence."
+    },
+    {
+      "url": "https://cipherstash.com/docs/reference/proxy/message-flow",
+      "finding": "Vendor describes Parse/Bind column mapping and parameter rewriting; no competitor code execution or behavior reproduction performed."
+    }
+  ],
+  "next_scope": "Reproduce the exact unqualified public-child refusal with native baseline; compare explicit manifest physical binding against broad schema translation. Keep off-by-default profile and exact table ownership/OID/search-path safeguards. Broader query/profile admission requires its own qualification and any required owner decision.",
+  "prior_research": "S5 CIPHERSTASH_GITHUB_INTEGRATION_REVIEW.md already records pinned source review and separate license boundaries. No repeated source acquisition or license copying."
+}
