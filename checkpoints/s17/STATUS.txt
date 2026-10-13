@@ -1,0 +1,1 @@
+PARTIAL SOURCE PUBLICATION. S17 combined qualification pending. This branch is not a release or a promoted candidate. Full SA21: 2235 passed, 7 unchanged legacy-profile failures, 18 subtests passed. SA20 and explicit bridge/app checks pending. All seven qualification gates UNKNOWN.
