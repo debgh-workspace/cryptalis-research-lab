@@ -1,0 +1,20 @@
+{
+  "status": "Completed one unchanged-code A/A diagnostic; no product optimization or admission",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "publication_branch": "accel/search-20261013",
+  "baseline_checkpoint": {
+    "commit": "ab40f030f377de564b7db58925ec76e919e4910c",
+    "manifest_sha256": "70a5293e76486f243305968c7a58b8fa8c6be97d5bec5508593529b9eacc49e7",
+    "files": 195,
+    "sqlalchemy_sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe"
+  },
+  "failed_c5_checkpoint": {
+    "commit": "94adea55905b1c69838df0f0fc725d1924eaf0b8",
+    "baseline_module_path": "experiments/acceleration/c5/baseline/src/cryptalis/sqlalchemy.py",
+    "manifest_path": "experiments/acceleration/c5/baseline/source-manifest.json",
+    "status": "FAIL; held; unchanged by A/A diagnostic"
+  },
+  "execution": "Exactly one pure SQLAlchemy 2.0.51 sweep, 9 blocks x 4 families x 2 identical-code slots x 500 timed admissions. No database.",
+  "claim": "Material paired variance in this instrumented diagnostic; no attribution of earlier C5 failure, no timing correction or rerun.",
+  "raw_receipt_sha256": "7d6be793a168d635bac4e53416d27a788324e66cadfeacb944304ba4b2b113ef"
+}

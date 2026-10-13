@@ -1,0 +1,258 @@
+{
+  "raw_sha256": "7d6be793a168d635bac4e53416d27a788324e66cadfeacb944304ba4b2b113ef",
+  "classification": "MATERIAL_PAIRED_VARIANCE",
+  "failure": null,
+  "total_cells": 72,
+  "total_timed_admissions": 36000,
+  "total_pairs": 36,
+  "families": {
+    "point": {
+      "median_microseconds_per_admission": {
+        "A": 97.56291,
+        "B": 96.313174
+      },
+      "B_minus_A_marginal_median_percent": -1.2809540018845262,
+      "median_B_minus_A_paired_percent": -0.1965721269413654,
+      "B_faster_pairs": 5,
+      "material_pairs": 3,
+      "pair_count": 9
+    },
+    "equality": {
+      "median_microseconds_per_admission": {
+        "A": 94.627402,
+        "B": 99.813154
+      },
+      "B_minus_A_marginal_median_percent": 5.48018004340856,
+      "median_B_minus_A_paired_percent": -5.390752991235229,
+      "B_faster_pairs": 5,
+      "material_pairs": 2,
+      "pair_count": 9
+    },
+    "in2": {
+      "median_microseconds_per_admission": {
+        "A": 104.83781,
+        "B": 100.309502
+      },
+      "B_minus_A_marginal_median_percent": -4.319346235866631,
+      "median_B_minus_A_paired_percent": -0.8124559210976239,
+      "B_faster_pairs": 5,
+      "material_pairs": 3,
+      "pair_count": 9
+    },
+    "public_label": {
+      "median_microseconds_per_admission": {
+        "A": 142.049398,
+        "B": 148.53394
+      },
+      "B_minus_A_marginal_median_percent": 4.564990835089639,
+      "median_B_minus_A_paired_percent": 1.1772663662433398,
+      "B_faster_pairs": 3,
+      "material_pairs": 1,
+      "pair_count": 9
+    }
+  },
+  "all_material_pairs": [
+    {
+      "family": "point",
+      "block": 0,
+      "order": [
+        "A",
+        "B"
+      ],
+      "B_minus_A_wall_ms": 25.369024999999993,
+      "B_minus_A_thread_ms": 25.383812,
+      "B_minus_A_percent": 57.722815445353284,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.11929400000000001,
+      "B_gc_ms": 24.273035
+    },
+    {
+      "family": "point",
+      "block": 2,
+      "order": [
+        "A",
+        "B"
+      ],
+      "B_minus_A_wall_ms": 7.936073999999998,
+      "B_minus_A_thread_ms": 7.944409,
+      "B_minus_A_percent": 15.962246581584818,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.147377,
+      "B_gc_ms": 0.254854
+    },
+    {
+      "family": "point",
+      "block": 3,
+      "order": [
+        "B",
+        "A"
+      ],
+      "B_minus_A_wall_ms": 18.847198999999996,
+      "B_minus_A_thread_ms": 18.837658000000005,
+      "B_minus_A_percent": 37.91698053415039,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.101089,
+      "B_gc_ms": 0.220304
+    },
+    {
+      "family": "equality",
+      "block": 2,
+      "order": [
+        "A",
+        "B"
+      ],
+      "B_minus_A_wall_ms": -8.923410999999994,
+      "B_minus_A_thread_ms": -8.921819999999997,
+      "B_minus_A_percent": -12.531365237995791,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.267123,
+      "B_gc_ms": 0.131463
+    },
+    {
+      "family": "equality",
+      "block": 3,
+      "order": [
+        "B",
+        "A"
+      ],
+      "B_minus_A_wall_ms": -12.904238,
+      "B_minus_A_thread_ms": -12.878493999999996,
+      "B_minus_A_percent": -19.635336349740523,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.234344,
+      "B_gc_ms": 0.284648
+    },
+    {
+      "family": "in2",
+      "block": 1,
+      "order": [
+        "B",
+        "A"
+      ],
+      "B_minus_A_wall_ms": -9.298969,
+      "B_minus_A_thread_ms": -9.308434999999989,
+      "B_minus_A_percent": -12.432386556501013,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.24520999999999998,
+      "B_gc_ms": 0.235136
+    },
+    {
+      "family": "in2",
+      "block": 2,
+      "order": [
+        "A",
+        "B"
+      ],
+      "B_minus_A_wall_ms": -8.490003000000002,
+      "B_minus_A_thread_ms": -8.488343999999998,
+      "B_minus_A_percent": -15.307313409865309,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.219453,
+      "B_gc_ms": 0.17724
+    },
+    {
+      "family": "in2",
+      "block": 5,
+      "order": [
+        "B",
+        "A"
+      ],
+      "B_minus_A_wall_ms": -6.968530999999999,
+      "B_minus_A_thread_ms": -6.978096999999998,
+      "B_minus_A_percent": -13.161970161284364,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.185031,
+      "B_gc_ms": 0.089051
+    },
+    {
+      "family": "public_label",
+      "block": 1,
+      "order": [
+        "B",
+        "A"
+      ],
+      "B_minus_A_wall_ms": 20.711292,
+      "B_minus_A_thread_ms": 20.71162799999999,
+      "B_minus_A_percent": 31.545754124883143,
+      "material": true,
+      "wall_dominant": false,
+      "A_gc_ms": 0.33687500000000004,
+      "B_gc_ms": 0.23407299999999998
+    }
+  ],
+  "wall_dominant_pairs": 0,
+  "clock_disagreements": 0,
+  "maximum_cell_wall_minus_thread_absolute_ms": 0.044451999999999714,
+  "maximum_cell_wall_minus_raw_absolute_ms": 0.001665000000002692,
+  "gc_by_generation": {
+    "0": {
+      "count": 134,
+      "total_wall_ms": 13.22637,
+      "maximum_wall_ms": 0.657495,
+      "collected": 104184,
+      "uncollectable": 0
+    },
+    "1": {
+      "count": 12,
+      "total_wall_ms": 2.505689,
+      "maximum_wall_ms": 1.040827,
+      "collected": 9567,
+      "uncollectable": 0
+    },
+    "2": {
+      "count": 1,
+      "total_wall_ms": 23.19222,
+      "maximum_wall_ms": 23.19222,
+      "collected": 636,
+      "uncollectable": 0
+    }
+  },
+  "generation_2_spans": [
+    {
+      "generation": 2,
+      "start": {
+        "wall_ns": 47241937478933,
+        "raw_ns": 47242720577831,
+        "process_ns": 546372987,
+        "thread_ns": 546373778
+      },
+      "end": {
+        "wall_ns": 47241960671153,
+        "raw_ns": 47242743773025,
+        "process_ns": 569571818,
+        "thread_ns": 569573560
+      },
+      "elapsed_ms": {
+        "wall_ns": 23.19222,
+        "raw_ns": 23.195194,
+        "process_ns": 23.198831,
+        "thread_ns": 23.199782
+      },
+      "scope": {
+        "phase": "timed",
+        "block": 0,
+        "family": "point",
+        "slot": "B",
+        "batch": 5
+      },
+      "collected": 636,
+      "uncollectable": 0
+    }
+  ],
+  "limits": [
+    "All pairs and GC spans retained; no subtraction, correction or exclusion.",
+    "Paired medians and differences of marginal medians are different estimands and may have different signs.",
+    "CPU duration tracking wall duration does not identify the cause of variation or establish equal instruction counts.",
+    "Telemetry and retained observation objects can alter allocation and GC behavior.",
+    "No contemporaneous system-load or hardware-frequency sample was collected.",
+    "A/A observations do not explain the earlier C5 failure or change its gate result."
+  ]
+}
