@@ -1,0 +1,32 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.........................FF............................................. [ 72%]
+...........................                                              [100%]
+=================================== FAILURES ===================================
+__ test_public_schema_binding_does_not_grant_or_retarget_delete[schema_drift] __
+tests/test_unqualified_public_child.py:92: in test_public_schema_binding_does_not_grant_or_retarget_delete
+    session.execute(delete(app.PublicItem).where(app.PublicItem.label == 'child-1'))
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:936: in _execute
+    session._owner.admit(state.statement)
+src/cryptalis/sqlalchemy.py:614: in admit
+    raise UnsupportedProtectedOperation()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 14-17c7647a5846-1.
+___ test_public_schema_binding_does_not_grant_or_retarget_delete[name_drift] ___
+tests/test_unqualified_public_child.py:92: in test_public_schema_binding_does_not_grant_or_retarget_delete
+    session.execute(delete(app.PublicItem).where(app.PublicItem.label == 'child-1'))
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:936: in _execute
+    session._owner.admit(state.statement)
+src/cryptalis/sqlalchemy.py:614: in admit
+    raise UnsupportedProtectedOperation()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 14-17c779b9d4d2-2.
+=========================== short test summary info ============================
+FAILED tests/test_unqualified_public_child.py::test_public_schema_binding_does_not_grant_or_retarget_delete[schema_drift]
+FAILED tests/test_unqualified_public_child.py::test_public_schema_binding_does_not_grant_or_retarget_delete[name_drift]
+2 failed, 97 passed in 17.00s

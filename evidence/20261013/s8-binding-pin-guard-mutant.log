@@ -1,0 +1,17 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+__ test_public_schema_binding_does_not_grant_or_retarget_delete[schema_drift] __
+tests/test_unqualified_public_child.py:95: in test_public_schema_binding_does_not_grant_or_retarget_delete
+    with pytest.raises(PolicyMismatch):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE PolicyMismatch
+___ test_public_schema_binding_does_not_grant_or_retarget_delete[name_drift] ___
+tests/test_unqualified_public_child.py:95: in test_public_schema_binding_does_not_grant_or_retarget_delete
+    with pytest.raises(PolicyMismatch):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE PolicyMismatch
+=========================== short test summary info ============================
+FAILED tests/test_unqualified_public_child.py::test_public_schema_binding_does_not_grant_or_retarget_delete[schema_drift]
+FAILED tests/test_unqualified_public_child.py::test_public_schema_binding_does_not_grant_or_retarget_delete[name_drift]
+2 failed, 27 deselected in 0.73s

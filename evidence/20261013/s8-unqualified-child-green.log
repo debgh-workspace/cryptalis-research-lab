@@ -1,0 +1,36 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+.F.F                                                                     [100%]
+=================================== FAILURES ===================================
+__________ test_unqualified_child_delete_matches_native[child-False] ___________
+tests/test_unqualified_public_child.py:46: in test_unqualified_child_delete_matches_native
+    assert session.execute(statement).rowcount == expected_count
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:934: in _execute
+    session._owner.admit(state.statement)
+src/cryptalis/sqlalchemy.py:612: in admit
+    raise UnsupportedProtectedOperation()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 14-17ae370e2bb4-0.
+______ test_unqualified_child_delete_matches_native[parent_cascade-False] ______
+tests/test_unqualified_public_child.py:46: in test_unqualified_child_delete_matches_native
+    assert session.execute(statement).rowcount == expected_count
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2473: in execute
+    return self._execute_internal(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:2307: in _execute_internal
+    fn_result: Optional[Result[Unpack[TupleAny]]] = fn(
+src/cryptalis/sqlalchemy.py:916: in _execute
+    _delete_experiment.prepare(session, state.statement)
+src/cryptalis/_experimental_public_delete.py:327: in prepare
+    return _prepare_public_children(session, connection, table)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/_experimental_public_delete.py:286: in _prepare_public_children
+    raise owner._control_error()
+E   cryptalis.sqlalchemy.UnsupportedProtectedOperation: UnsupportedProtectedOperation during SQLAlchemy admission. Use the attached factory, ordinary ORM writes, direct projections, and declared equality/IN with ordinary text binds. Remove unsupported SQL or bind codecs. Operation 14-17ae5e869fb0-1.
+=========================== short test summary info ============================
+FAILED tests/test_unqualified_public_child.py::test_unqualified_child_delete_matches_native[child-False]
+FAILED tests/test_unqualified_public_child.py::test_unqualified_child_delete_matches_native[parent_cascade-False]
+2 failed, 2 passed in 1.45s

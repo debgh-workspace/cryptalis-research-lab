@@ -14,5 +14,18 @@
     "No generic schema translation, no table-name guessing.",
     "No production qualification; all seven gates UNKNOWN.",
     "Full installed suites and scope-guard mutation checks pending."
-  ]
+  ],
+  "mutation": "Removal of public schema/name pin guard produces2FAIL0PASS0.73s; exact source restored before byte-matched installed suite.",
+  "primary_sources": [
+    {
+      "url": "https://www.postgresql.org/docs/16/ddl-schemas.html",
+      "finding": "Unqualified relations use the first search-path match, and absent matches error even if another schema contains that name; search-path schemas imply trust in their creators."
+    },
+    {
+      "url": "https://docs.sqlalchemy.org/en/20/core/metadata.html",
+      "finding": "Table.schema and MetaData schema determine qualification. The prototype freezes physical mapping after resolving the original connection path rather than inventing a schema translation."
+    }
+  ],
+  "wheel_sha256": "504224d80ff095071039f691e5a742da8f46536bf73947e8a9e67cefc7677cba",
+  "installed": "SA2.1.3 full suite in progress; SA2.0.51 environment prepared; no simultaneous database tests"
 }
