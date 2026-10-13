@@ -1,0 +1,17 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+...........................FF....                                        [100%]
+=================================== FAILURES ===================================
+_ test_changed_target_provider_identity_refuses_even_with_live_material[False] _
+tests/test_rewrap_successor.py:185: in test_changed_target_provider_identity_refuses_even_with_live_material
+    with pytest.raises(m.TransitionFailure): prepare(f)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+_ test_changed_target_provider_identity_refuses_even_with_live_material[True] __
+tests/test_rewrap_successor.py:185: in test_changed_target_provider_identity_refuses_even_with_live_material
+    with pytest.raises(m.TransitionFailure): prepare(f)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE TransitionFailure
+=========================== short test summary info ============================
+FAILED tests/test_rewrap_successor.py::test_changed_target_provider_identity_refuses_even_with_live_material[False]
+FAILED tests/test_rewrap_successor.py::test_changed_target_provider_identity_refuses_even_with_live_material[True]
+2 failed, 31 passed in 0.67s
