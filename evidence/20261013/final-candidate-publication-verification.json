@@ -1,0 +1,33 @@
+{
+  "commit": "7b6502a14810905dedad6857be750a6e3db7e7f7",
+  "candidate_files": 167,
+  "unchanged_from_verified_s5": true,
+  "final_batch": [
+    {
+      "path": "candidate/docs/research/CRYPTALIS_FINAL_REVAMP_BLUEPRINT.md",
+      "sha": "bce199ab572732de1be037bb35f4495aef622752",
+      "content_match": true,
+      "verification_method": "Exact commit path resolves to expected blob; complete UTF-8 blob read matches local source"
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "8d443d5f61091a59bcf0f97f43a14e33c9035825",
+      "content_match": true
+    },
+    {
+      "path": "evidence/20261013/source-publication-receipts.json",
+      "sha": "2e10ae6ad2c0457c97f41ed5981a583e3141b1d6",
+      "content_match": true
+    },
+    {
+      "path": "evidence/20261013/setup-publication-receipts.json",
+      "sha": "20c309e10d1922aaf5745c8f2a3e3c0d3a4da721",
+      "content_match": true
+    },
+    {
+      "path": "evidence/20261013/candidate-publication-manifest.json",
+      "sha": "8cb89779dca95d57c4f194dcb7065dccca94d838",
+      "content_match": true
+    }
+  ]
+}
