@@ -4,7 +4,7 @@
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S17 bounded integrated research candidate verified on branch; S14 remains main runtime",
+  "latest_candidate_status": "S18 bounded installed/app/recovery research checkpoint verified; main still S14",
   "latest_archive": {
     "name": "CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz",
     "library_file_id": "libfile_d022220ef99c81d18e14d8eb84616f6d",
@@ -27,8 +27,8 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "ab40f030f377de564b7db58925ec76e919e4910c",
-  "latest_integrated_candidate": "candidate-accel-integrated-r2-20261013 (S17), research branch only; main remains S14",
+  "latest_verified_remote_commit": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
+  "latest_integrated_candidate": "candidate-accel-setup-integrated-20261013 (S18), research branch only",
   "current_experiment": "A optimistic ORM versioning; B retained-profile safety mapping; C new performance hypothesis; D CF1 capture oracle; E offline provider boundary review; F manifest-first integration",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
@@ -37,8 +37,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-13T15:02Z",
-  "current_operation": "No DB run active; S17 fully archived on research branch, main promotion denied pending explicit user approval",
+  "updated_utc": "2026-10-13T16:01Z",
+  "current_operation": "No active PG session. D4 initial12PASS percell reviewed; packet minimization revision pending. C7 research-only fixedscan harness prepared by worker.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -52,7 +52,7 @@
     "known_failures_each": 7,
     "restored_files": 175
   },
-  "next_task": "Continue isolated research work; await explicit main promotion approval, never bypass denial",
+  "next_task": "Verify D4 minimized IPC revision, preserve evidence, run finite C7 baseline when frozen; main approval remains pending",
   "latest_remote_tree": "ae940375a278b39bd00e60dc7dc5bb35b3ae609f",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
@@ -259,12 +259,14 @@
   ],
   "c1_promotion": "HELD: SA20 predeclared performance consistency gate failed; native exact values passed",
   "branch_heads": {
-    "orm": "9a1d1e6dc28c82153750962162e5a40cc0731584",
-    "lifecycle": "47fe55039398e83f1a44bf4a1f5340c094dc3cb0",
-    "search": "34126c1b0b4dc681999c4e18390c5d0ebca580fb",
-    "online": "201ab4e9e3ddba749167ed472237390713b6a973",
-    "developer_experience": "f45f10c988e0d0212d12a8fb99676309b36eac39",
-    "integration_s17": "ab40f030f377de564b7db58925ec76e919e4910c"
+    "orm": "f1c81c0b8d0d5360af838359b2b3876282f59489",
+    "lifecycle": "5f18111b014b1c6e589bb425e3ead4d7e7239726",
+    "search": "94adea55905b1c69838df0f0fc725d1924eaf0b8",
+    "online": "d3718eba3ca543995a9a937112b5f83f284c53b9",
+    "developer_experience": "4129f952d78a5f94612111811462d5fc5c263415",
+    "integration_s17": "c20b3e98ec7cfb939d7be1391ca82ebd87b3d2f3",
+    "security": "c9732661e389b863d1ecb94f0b9b678109b62373",
+    "integration_s18": "8ea6d5935af3de277e31d7a31fdf93d06ac99139"
   },
   "b2": "24FAIL5PASS RED; corrected94PASS130.84s SA21; not integrated",
   "c2": "32FAIL58PASS RED; correction pending; not integrated",
@@ -303,5 +305,42 @@
     "artifact_remote_bytes_verified": true,
     "real_fastapi": "58x4PASS",
     "explicit_bridge": "2PASS each cell"
-  }
+  },
+  "s18_pending": {
+    "candidate": "candidate-accel-setup-integrated-20261013",
+    "files": 201,
+    "full_sa21": {
+      "passed": 2259,
+      "failed": 7,
+      "subtests_passed": 39,
+      "seconds": 393.34
+    },
+    "full_sa20": {
+      "passed": 2213,
+      "failed": 7,
+      "skipped": 46,
+      "subtests_passed": 39,
+      "seconds": 393.95
+    },
+    "main_promotion": "not attempted; previous main approval still pending",
+    "checkpoint_commit": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
+    "branch": "accel/integration-s18-20261013",
+    "artifact_remote_bytes_verified": true,
+    "real_fastapi": "58x4PASS; zero failures/errors/skips",
+    "source_restore_files": 201,
+    "status": "bounded integration verified; all seven full gates UNKNOWN"
+  },
+  "pending_main_promotion_approval": {
+    "request_message_id": "Sentinel_ceed07db3d6c81d196383ec20dfbe226",
+    "requested_at_utc": "2026-10-13T15:02:42Z",
+    "repository": "debgh-workspace/cryptalis-research-lab",
+    "branch": "main",
+    "specific_checkpoint": "ab40f030f377de564b7db58925ec76e919e4910c",
+    "status": "PENDING",
+    "scope_note": "No approval inferred from later generic automation prompt; do not treat an answer limited to S17 as approval of S18 or future unqualified main updates."
+  },
+  "latest_main_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
+  "latest_research_branch": "accel/integration-s18-20261013",
+  "latest_research_branch_head": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
+  "latest_research_tree": "97ca26cd05f3a783a8a462fa2435131cae22484f"
 }

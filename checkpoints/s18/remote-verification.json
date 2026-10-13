@@ -1,0 +1,115 @@
+{
+  "branch": "accel/integration-s18-20261013",
+  "checkpoint_commit": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
+  "source_commits": [
+    "b6324897a33f7f494707d8ba5c3a0dfbc362940f",
+    "5492cc04ee6c5d6696c9e9fc261f12fa61236043"
+  ],
+  "source_batch1": [
+    {
+      "path": "candidate/docs/doctor.md",
+      "match": true,
+      "sha": "9d7688aef28a5b51228a04a781b12a145039e75f"
+    },
+    {
+      "path": "candidate/docs/status.md",
+      "match": true,
+      "sha": "420719e56b7c54e462070aec73473ae6e6a88a27"
+    },
+    {
+      "path": "candidate/tests/test_doctor_setup.py",
+      "match": true,
+      "sha": "a6a637e9a1c9827c62d4e0842a6b3160182e1dc7"
+    },
+    {
+      "path": "candidate/tests/test_retained_profile_safety_oracles.py",
+      "match": true,
+      "sha": "be06b825e3ec0ab4fb664654ee4b7ec7c6237f8b"
+    },
+    {
+      "path": "candidate/tests/test_sqlalchemy_optimistic_versioning.py",
+      "match": true,
+      "sha": "ce88f0e26dd742c7150bb720d9dde65726ee043a"
+    },
+    {
+      "path": "candidate/experiments/manifest_setup_fastapi_models.py",
+      "match": true,
+      "sha": "647962a47644c32569773a2e1274d7b9572db7bd"
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "match": true,
+      "sha": "a40e57abb2f574479e08de5b0994bf0813fa6ac7"
+    },
+    {
+      "path": "candidate/docs/research/MANIFEST_SETUP_20261013.md",
+      "match": true,
+      "sha": "d455dccb8557ff1e5fd54b732bc5e0412694c74c"
+    },
+    {
+      "path": "candidate/docs/architecture/README.md",
+      "match": true,
+      "sha": "b55a4659096f59705f56b855f0441a04451267f6"
+    },
+    {
+      "path": "checkpoints/s18/STATUS.txt",
+      "match": true,
+      "sha": "66c9fedee7f30188768d96a9c295810583e7cfef"
+    }
+  ],
+  "source_batch2": [
+    {
+      "path": "candidate/src/cryptalis/_doctor_setup.py",
+      "match": true,
+      "sha": "fc54ab864603fd9e7bec26cc79348ae8f7e483a2"
+    },
+    {
+      "path": "candidate/src/cryptalis/doctor.py",
+      "match": true,
+      "sha": "df1a4c9b748ad8c00ab536becf4d296f30a4f807"
+    },
+    {
+      "path": "checkpoints/s18/STATUS.txt",
+      "match": true,
+      "sha": "395397ca4904b59f0aa0174e064c15cc9545e60e"
+    }
+  ],
+  "artifacts_evidence": [
+    {
+      "path": "checkpoints/s18/qualification.json",
+      "match": true,
+      "sha": "adf88d0bf5dd9963ea2ad15b26b9fb025e555122"
+    },
+    {
+      "path": "checkpoints/s18/source-manifest.json",
+      "match": true,
+      "sha": "9b7d45fa68b09ead77a3970ea7bbafb97bc69655"
+    },
+    {
+      "path": "checkpoints/s18/source-restore-receipt.json",
+      "match": true,
+      "sha": "3b1896656df9a9ad6f33effa5efaebcd3140d264"
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "match": true,
+      "sha": "54471ca42ac8a86a67d0ea5579d195a6ef0af997"
+    },
+    {
+      "path": "checkpoints/s18/dist/cryptalis-0.1.0-py3-none-any.whl",
+      "match": true,
+      "sha": "7da6106cbee3937c74472ccae5cbc39cd0b02bfc"
+    },
+    {
+      "path": "checkpoints/s18/dist/cryptalis-0.1.0.tar.gz",
+      "match": true,
+      "sha": "1a50e6bb840f361a0f78c0c937423d91194c5793"
+    },
+    {
+      "path": "checkpoints/s18/STATUS.txt",
+      "match": true,
+      "sha": "339796ff3b41565bdbafad12097263de1ef0260e"
+    }
+  ],
+  "main_promotion": "Not attempted; previous explicit S17 approval request pending"
+}

@@ -653,3 +653,5 @@ C6 onepredeclaredidenticalcodeA/A diagnostic found9/36pairedtiming differences>=
 InstalledSA2.1:2259PASS7unchangedlegacyFAIL39subtests393.34s. InstalledSA2.0:2213PASS7sameFAIL46nativeAPI skips39subtests393.95s. ActualpinnedFastAPI58x4PASS,0fail/error/skip,existingrole reused. All3sessionssource/externalstable andstopped.201-filecompositerestore verified. S17explicitlegacybridge retained asprior evidence; unchanged lifecycle/adapter/cryptobytes,notrelabeledasnewS18bridge.
 
 Sourcepublishedonlyonaccel/integration-s18-20261013 in10-fileand3-filebatches b6324897a33f7f494707d8ba5c3a0dfbc362940f then5492cc04ee6c5d6696c9e9fc261f12fa61236043; exactreadbackpassed. Artifact/qualificationpublicationpending. No mainretry/attempt. Originalmailboxunchanged;all7qualificationgatesUNKNOWN.
+
+S18 final research checkpoint8ea6d5935af3de277e31d7a31fdf93d06ac99139: all7finalartifact/evidencefiles remotely matched,includingwheel/sdistbytes. Mainunchanged; no deniedactionretry. D4 transaction-workerprocessloss12PASS7.34s SA2.1;SA2.0 inprogress. No encryption-worker/provider/ambiguousCOMMIT/server-crash qualification.
