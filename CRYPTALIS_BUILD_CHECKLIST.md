@@ -593,3 +593,35 @@ Measured9CPU threads, one-minute load0.41, available memory8599264kB (~8.2GiB), 
 S16 combined installed validation completed:2047PASS7FAIL0SKIP381.08s onSA2.1.3;2029PASS7FAIL18SKIP362.47s onSA2.0.51,2forkwarnings each. Exact same7legacy profile assertions fail; do not label fullsuite green. Package-origin check matches all38modules; wheel d69904464fd70a49a559329536dee2ffa11876afb8dc993fe5ee2b285973fd85 andsdist ecaa571f4855e9cbefebf298a7db2c5b4c5ad0e6f16722e4213dd3a334c72266 repeatedbuildidentical,42RECORDentries checked. RealFastAPI replay is in progress againstS16 using existingPython3.14appcell clone;77dependencyversions identical andpipcheckPASS.
 
 Promotion remains HELD pending independent internal E review's unprojected protected FROM-label ordering hypothesis; no confirmed result yet. All seven independent production gates remain UNKNOWN. Historical legacy test receipts do not certify B2predecessor safety; B is reviewing a separately versioned legacy safety derivative and explicitS16bridge. S14 remains latest promoted runtime.
+
+## Expanded verification checkpoint — 2026-10-13 14:27 UTC
+
+S16 remains HELD, not promoted: both installed full receipts2047/2029PASS withsame7legacyfailures, plus unchangedrealFastAPI58x4PASS. E's separate oracles confirmed30 further missing textual FROM/GROUP refusals. A2 found4 native driver-error transaction-state mismatches. These are corrected in experimental successors; no silent acceptance of S16.
+
+- C3:204PASS23.30s SA2.1,349affectedPASS43.31s SA2.0. Finite variant inventory then found DISTINCT ON/window/ordered-aggregate omissions: initialremaining80cases32FAIL48PASS included12 invalid native WITHIN GROUP fixture cases. The corrected12-case subset yields4 genuine missingrefusals/8PASS. C4 reviewed local-scope correction passes284cases31.08s SA2.1;48warnings are upstream legacyDISTINCTON deprecation. SA2.0 andcombinedregression remain pending.
+- A2: initial4FAIL2.15s, minimal4PASS2.01s. Expanded3FAIL52PASS17.97s contained cancellation-phase and unreachable driver-hook fixture errors. Native before-flush cancellation correction passes bothcases; finalization proof now explicitly injects a synthetic failure only after genuine native result completion, not a claimed natural psycopg fault. Final result pending.
+- F1 engine logging preflight:76PASS plus18subtests8.34s underrealPG/unchangedpreflight; pure18cells and guard-omission sensitivity pass bothversions. Branchf45f10c988e0d0212d12a8fb99676309b36eac39,9files exactreadback. Notyetcombined.
+- B4 complete separate legacy-safety derivative:26FAIL15PASS20.61s beforeminimalpredecessorcorrection;41PASS17.72s SA2.1 and117affectedPASS134.17s SA2.0,including10unchangedhistoricalordinalassertions. Explicit-target bridge prepared, notrun againstfinalcurrentcandidate. Legacyartifactformats/layout2 unchanged.
+- D1 finite online enumeration research:31PASS2.65s;4independentobservercontrolsPASS0.36s;fourone-omissioncopieseachfail fullstage/native comparison(0.12/0.18/0.17/0.15s). Branch201ab4e9e3ddba749167ed472237390713b6a973 preservesexactsource/evidence;186-filecompositerestore verified. No productioncapture/CF1/cutover/scan-removal/onlinequalification.
+- D2 independentCF1decode prerequisite:workerreports196purechecks,8frozenvectors+20int64vectors,onebindingomissiondetected; noD1hook/provider/productintegration.
+- F2 KMS-boundary research:workerreports13puretests percell,sixguardomissionsdetected;synthetic/provisionalcontext, noSDK/transport/liveKMS/runtimeprovider. G-PROVIDER remainsUNKNOWN.
+
+Freshcluster/credentials/liveprovider approvals andexternalreviews remainpending;allsevenindependentgatesUNKNOWN. The hourlytaskprompt nowreflectssixworkers;24/48/72auditdeadlineunchanged.
+
+## S17 composition qualification — 2026-10-13 14:42 UTC
+
+- C4 final bounded PostgreSQL receipts:284PASS31.08s SA2.1 and401PASS28SKIP45.51s SA2.0; skips are unavailable native2.1 APIs. Independent internal review found no actionable blocker; not independent external qualification.
+- A2 final20cases PASS8.15s SA2.1 andPASS7.90s SA2.0. Synthetic post-result guard omission yields2FAIL1.23s at the exact root/SAVEPOINT quarantine assertion. This is synthetic fault injection after genuine result completion, not a natural driver-finalization failure. Original four driver-overflow mismatches and failed fixture stages remain preserved.
+- Held S16 archived separately at6635f7b4e27db856079aa64aa890c622f18e9409; all10 remote file contents match. Main promoted runtime remainsS14.
+- S17 composes A1/B2/C4/A2/F1, excludes C1 failed-performance optimization and inactive B1 successor. Runtime sqlalchemy SHA256 fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe. Clean three-way merges preserve exact independent oracle bytes.
+- Repeated offline S17 wheel/sdist byte-identical;42 RECORD entries verified. Wheel b7b788edbab99a0110c35a6885c9b7387b34b0ed3a84507445b8cd423ff14aa0; sdist93f062d35d7a11274afa59d3891b497e8f6730046992f67526e418d82af4407b. Installed full SA2.1 running; SA2.0 queued. Full combined outcomes, real-app replay and explicit legacy-safety bridge pending. All seven qualification gates UNKNOWN.
+
+## S17 bounded integration checkpoint — 2026-10-13 14:58 UTC
+
+Final combined installed results: SA2.1 2235PASS7FAIL18subtests388.64s; SA2.0 2189PASS7FAIL46SKIP18subtests387.73s. The exact seven legacy suffix-copy profile failures remain untouched; this is not a green full suite. The46skips are unavailable native2.1 APIs. Same-host source and external-source stability pass.
+
+Actual pinned FastAPI app passes58native+58protected+58packagefreebeforeREMOVED+58after,0fail/error/skip; no application edits,13bootstrap+4fixturelines. Explicit Ccollation/operator grants remain required. Existing plaintext role reused; historical receipt key new_plaintext_runtime_role is misleading and does not indicate role creation.
+
+Complete B4 legacy-safety derivative to explicitly pinned installed S17 bridge:2PASS6.67s SA2.1,2PASS6.97s SA2.0. Text/VARCHAR latest values and schema checks, package-free removal and old-backup stale-pin refusal remain bounded maintenance evidence, not online/generic migration or fresh-cluster recovery. All five sessions source-stable and stopped.195-file composite source restore verified.
+
+Source staged in two remotely byte-matched batches on accel/integration-s17-20261013:1360c75cd7893ab3fba0b217817417801e59dcd7 then2ae4048a5b9eb4384db56a547b8245b4848b2622. Artifact/evidence publication and final main promotion verification pending. C4 experimental commit34126c1b0b4dc681999c4e18390c5d0ebca580fb; A2 9a1d1e6dc28c82153750962162e5a40cc0731584; B4 47fe55039398e83f1a44bf4a1f5340c094dc3cb0. Each10files read back exactly. All seven full gates UNKNOWN; original mailbox unchanged.

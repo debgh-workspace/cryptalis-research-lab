@@ -1,0 +1,7 @@
+{
+  "commit": "2ae4048a5b9eb4384db56a547b8245b4848b2622",
+  "files_verified": 195,
+  "remote_verified_overlay_files": 17,
+  "base": "previous verified S14 composite restore",
+  "scope": "same-host source reconstruction from byte-verified remote-equivalent files; no new-cluster qualification"
+}
