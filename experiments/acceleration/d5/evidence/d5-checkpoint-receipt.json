@@ -1,0 +1,133 @@
+{
+  "schema": "cryptalis.d5-research-checkpoint/v1",
+  "status": "VERIFIED_FINITE_RESEARCH_ONLY",
+  "recorded_utc": "2026-10-13T21:15:30.577636+00:00",
+  "summary": "The exact ten-case frozen slice passed in both dependency environments. Pending native writes can remain invisible to two complete old snapshots, and successful drain batches can leave fresh obligations. Under the fixed tested schedules, stopping those writers and performing one final drain yields complete independent D2/source/native equality.",
+  "candidate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-convergence-20261013",
+  "frozen_preparation_manifest_sha256": "022b1721c6d961c088880cf143de1412ccd5441447df08ce735af18612e701a2",
+  "frozen_test_sha256": "b807a70b3d923811a2a3381eeeb0c9ce6edf4ba23a87a6dcf272084a7e33aba8",
+  "candidate_file_count": 201,
+  "all_198_D4_files_unchanged": true,
+  "all_201_frozen_candidate_files_unchanged": true,
+  "candidate_mutated_for_receipt": false,
+  "base_binding_sha256": "bc0869ae689e4808daa490fb2dbf024ca565a9a171defd17842e7c9ea37bf2da",
+  "cells": [
+    {
+      "sqlalchemy_environment": "2.1.3",
+      "evidence_directory": "evidence/d5-online-convergence-sa21-20261013",
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pytest_elapsed_seconds": 1.28,
+      "runner_elapsed_seconds": 1.5146169580111746,
+      "exact_ten_case_junit_match": true,
+      "source_origin": {
+        "package_origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-convergence-20261013/src/cryptalis/__init__.py",
+        "expected_source": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-convergence-20261013/src",
+        "verified": true
+      },
+      "dual_role_preflight": "PASS",
+      "readiness_exit_code": 0,
+      "source_and_explicit_external_stability": true,
+      "recorded_source_hashes_match_frozen_candidate": true,
+      "server_stop_exit_code": 0,
+      "server_stop_log_confirms_stopped": true,
+      "evidence_sha256": {
+        "tests.log": "26efc7bb12901931439590c4487be50ac14e3b1fc843e39da4f2ca38cecf7ee4",
+        "runner-receipt.json": "46454ca42bd95a4ce9d8b2011da65c00a30c572872b7d3e5abb2d8fe27039374",
+        "junit.xml": "d66532e975f5f9f35375bb2abe2dd11a850960c22cc1b2d587d97076ce04ecce",
+        "source-stability.json": "701a8aaf726bf5d90796011e3d2c27c8d665b4d6c8cb6b0a1a83d81d78d66314",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.json": "43be4519884000d175ad048a5511655053f7365d9597d1d891d8b31d8cadcf5d",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "package-origin.json": "412fc84110bdeee792b094d7e293a4d8d88532d4b33a1a554e8e9f2e8ab7fd48",
+        "package-origin.log": "8282b5223a8e9e50721058c49074305bf8ba41dd6639eaad475f81ed2b1ba3a4",
+        "postgres-stop.json": "cbadde269985993986fd59a682c59e0712a92c3bb1a1b46ac8ae009165b0ef10",
+        "postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+      }
+    },
+    {
+      "sqlalchemy_environment": "2.0.51",
+      "evidence_directory": "evidence/d5-online-convergence-sa20-20261013",
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "pytest_elapsed_seconds": 1.14,
+      "runner_elapsed_seconds": 1.3155239449988585,
+      "exact_ten_case_junit_match": true,
+      "source_origin": {
+        "package_origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-convergence-20261013/src/cryptalis/__init__.py",
+        "expected_source": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-online-cf1-convergence-20261013/src",
+        "verified": true
+      },
+      "dual_role_preflight": "PASS",
+      "readiness_exit_code": 0,
+      "source_and_explicit_external_stability": true,
+      "recorded_source_hashes_match_frozen_candidate": true,
+      "server_stop_exit_code": 0,
+      "server_stop_log_confirms_stopped": true,
+      "evidence_sha256": {
+        "tests.log": "474787bd9a2973f36a1c410ce871f0af2ab3262f150bfe5b680134d46b895d8e",
+        "runner-receipt.json": "efdf4ff5f8262c2d304cb69a45d03295e5251d4923e09e9430b5349ccdc4a2af",
+        "junit.xml": "f853205890c83df67e1b95ddb529dc3666c5ad990e4c2e79b79694c1feb87c07",
+        "source-stability.json": "701a8aaf726bf5d90796011e3d2c27c8d665b4d6c8cb6b0a1a83d81d78d66314",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "readiness.json": "16328a18c15f30617e18d697016722663a14039efa0885ec886cfcec05d0caca",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08",
+        "package-origin.json": "ff5ed429beb13d78b2840ffef8105cf92cb4f81e1369a995a80aefa3e4eac1a8",
+        "package-origin.log": "8282b5223a8e9e50721058c49074305bf8ba41dd6639eaad475f81ed2b1ba3a4",
+        "postgres-stop.json": "67e4ccbbf11bde8ab71746cf430c9c688546558d90350e598ca8cfb50a54fcc2",
+        "postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+      }
+    }
+  ],
+  "exact_case_names": [
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[update]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[delete]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[delete_reinsert]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[to_null]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[from_null]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[insert_behind]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[insert_between]",
+    "test_empty_queue_and_full_snapshots_do_not_close_over_pending_writer[insert_ahead]",
+    "test_three_late_commits_leave_work_then_stopped_writers_converge[same_key]",
+    "test_three_late_commits_leave_work_then_stopped_writers_converge[alternating_keys]"
+  ],
+  "verified_finite_obligations": [
+    "Eight schedules: uncommitted update/delete/reinsert/NULL transitions and behind/between/ahead inserts coexist with two correct empty-queue full snapshots.",
+    "After each pending writer commits, exactly one dirty identity is visible, stage bytes are unchanged, and independently decoded stage values differ from current native/source values.",
+    "Two three-round same-key/alternating-key schedules consume every selected claim successfully while each late native commit leaves one fresh obligation.",
+    "After each fixed writer schedule stops, one final drain clears the queue without reseeding completed inventory, matches complete membership and exact values, and preserves unrelated frame bytes.",
+    "Both the new read-only repeatable-read D2 observer and unchanged D3 full oracle succeed at the final stopped-writer state."
+  ],
+  "independent_oracle": {
+    "decoder_sha256": "1c289bcb8c58658e76b8e61da29c31099ab8f8e7a687e25e421d85ac525c3653",
+    "expected_context": "Fixed public descriptor/digest, tenant, row and root; no product decrypt routine supplies expected output.",
+    "comparison": "Complete ordered native/source membership and every independently decoded live frame, plus fixed mutation-model values; SQL NULL and tombstones remain distinct.",
+    "negative_controls": "Late committed states explicitly require decoded/native inequality and rejection by complete-current assertion.",
+    "provenance_limit": "The standard runner snapshots src/tests and selected external files, not the imported D2 experiments decoder. Its exact hash is bound by the unchanged full preparation manifest and the post-run 198-file inherited comparison."
+  },
+  "stopping_criterion": "End the fixed writer schedule, then require one final drain to produce empty dirty membership, unchanged complete inventory and full independent decoded/source/native equality. Any mismatch fails; no retry-until-success loop.",
+  "not_qualified": [
+    "Deployment-wide writer exclusion, source-table closure/fencing protocol, new phase or online cutover authority.",
+    "Convergence under indefinitely continuing writes, arbitrary schedules, fairness, sustained-rate or pause/resource SLO.",
+    "Ambiguous COMMIT, process/provider-owner failure, server crash/failover or fresh-cluster restore.",
+    "New capture admission, parallel ranges, mutable identities/tenants, installed artifact or ORM semantics.",
+    "Statements use deterministic overlapping transactions on separate PostgreSQL connections, issued by one test thread; no arbitrary concurrent-client schedule or throughput qualification.",
+    "The explicit end of the synthetic writer schedule is the only stop assumption; neither matching snapshots nor queue emptiness establishes deployment-wide writer exclusion.",
+    "Source-candidate direct psycopg/CF1 tests in two dependency environments are not installed-wheel or new ORM qualification.",
+    "No production provider, independent human security review, full-gate promotion or complete online engine claim."
+  ],
+  "owner_decisions_pending": [
+    "D-REV-04",
+    "D-REV-09",
+    "D-REV-07"
+  ],
+  "full_independent_terminal_verification_required": true,
+  "new_product_phase_or_authority": false,
+  "online_product_promotion": false,
+  "question_closed_only_for_recorded_schedules": true,
+  "no_rerun_performed": true,
+  "worker_database_git_network_provider_credential_actions": false,
+  "preparation_metadata_note": "The candidate manifest/progress remain historical PREPARED bytes deliberately. This external source-bound receipt records the subsequent verified runs without rewriting the frozen candidate."
+}
