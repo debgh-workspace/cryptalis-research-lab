@@ -1,0 +1,92 @@
+{
+  "archive": "CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz",
+  "archive_sha256": "fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29",
+  "parts": [
+    {
+      "name": "archive.part-01",
+      "bytes": 75000,
+      "sha256": "8589e5ec5cb553e373bd41bb3f3e07e2dc0103a6783240087c67c3d4087b3a82"
+    },
+    {
+      "name": "archive.part-02",
+      "bytes": 75000,
+      "sha256": "08613bc07550e0456c8967583916e56b4723c1e494c51b9a8a8098c5f945faff"
+    },
+    {
+      "name": "archive.part-03",
+      "bytes": 75000,
+      "sha256": "1aa4f1a211e6decda65e0e6657f9565807c5e47a578a5cad7c4a23216d5c2bbe"
+    },
+    {
+      "name": "archive.part-04",
+      "bytes": 75000,
+      "sha256": "23017955e5b2781b7399deaf074dbae2da92a916c3a0d32499ef619d24d5aa36"
+    },
+    {
+      "name": "archive.part-05",
+      "bytes": 75000,
+      "sha256": "15501fcd4ac774ec29761b31a8eb734a2529ed41b76b2394262faaf2a31d0b6e"
+    },
+    {
+      "name": "archive.part-06",
+      "bytes": 75000,
+      "sha256": "d1b550c97704de54db61caf87c00e20aa065a0fe091d064797089814555ffe57"
+    },
+    {
+      "name": "archive.part-07",
+      "bytes": 75000,
+      "sha256": "ecd68d45f5e38c8d446e3b79c9ae6e5bdd3d6a7bd8033b1db144075da887182a"
+    },
+    {
+      "name": "archive.part-08",
+      "bytes": 75000,
+      "sha256": "7d838c34eaf95d2012290a09c028f1dc79f4b72bf1c64aa90f7428153803c155"
+    },
+    {
+      "name": "archive.part-09",
+      "bytes": 75000,
+      "sha256": "d9bcd9471c79bf593fce98d68805b7e48f50c43b1875e596cf371732e02eeb9c"
+    },
+    {
+      "name": "archive.part-10",
+      "bytes": 75000,
+      "sha256": "b09e24c4315549ecd7638b1e5feb7665b22a655b4c479252900e343f5de67bdf"
+    },
+    {
+      "name": "archive.part-11",
+      "bytes": 75000,
+      "sha256": "8ab5b3c691331715dd738f07476661b3a869d4e4f006c2b99a2f585db8f5193e"
+    },
+    {
+      "name": "archive.part-12",
+      "bytes": 75000,
+      "sha256": "b32c7c7c50d74f40ebbe2112e0a92d8cc1d9c18bb7f123f13d72c5aa4d3d2496"
+    },
+    {
+      "name": "archive.part-13",
+      "bytes": 75000,
+      "sha256": "53f43f07be17ae01dc5a1a5511cda1b0142f9e83e36fc0129a733d852a90e902"
+    },
+    {
+      "name": "archive.part-14",
+      "bytes": 75000,
+      "sha256": "817769d45b6cca8d46829cb703878bec4a453754a4eab9d9943203b59e31e918"
+    },
+    {
+      "name": "archive.part-15",
+      "bytes": 75000,
+      "sha256": "1014c429bf2184bd5c0877e46892b8e899708052b4b49558d16bcb68afe79cc3"
+    },
+    {
+      "name": "archive.part-16",
+      "bytes": 75000,
+      "sha256": "2c9ad72c372e34e655c83f277e36e73e4f69437af80f514c449cdc731d492cfc"
+    },
+    {
+      "name": "archive.part-17",
+      "bytes": 10016,
+      "sha256": "6ffa31f98ff960d6b9966a86c24e2fe2bc356897d67e0b43327854633b8eae14"
+    }
+  ],
+  "recovery": "Concatenate archive.part-* in numeric order, verify archive hash, extract with data filtering. These17small parts replace the unuploaded5larger-part transport only."
+}

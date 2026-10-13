@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T21:23Z`
+- Last updated UTC: `2026-10-13T21:47Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest fully checked integrated research candidate: S18 `candidate-accel-setup-integrated-20261013`, 201 files, checkpoint `8ea6d5935af3de277e31d7a31fdf93d06ac99139`, recovery metadata head `85f86623a370deb5b71552d404633da8cd7e1b3c`. S19 `candidate-accel-removal-integrated-20261013` has 204 files; source manifest SHA-256 `998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7`; installed SA21 2282 PASS / 7 unchanged legacy FAIL / 56 subtests, SA20 running. Lab main remains S14; main promotion approval is separate.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -687,3 +687,13 @@ Owner message Sentinel_3543e548227081d1b114b6783c635e45 repeats the full master 
 ## Publication scope clarified by owner — 2026-10-13 21:23 UTC
 
 Owner message Sentinel_a0e9169d427481d1b2bf18f5d2a40b7b explicitly clarifies that no commits/pushes applies only to Debrato2005/cryptalis and requires continued checkpoint commits/pushes to debgh-workspace/cryptalis-research-lab. Research-branch publication resumes. Original repository/mailbox remain read-only. Separate denied main-promotion action is not retried or inferred approved by this generic branch-publication clarification.
+
+## S19 integrated checkpoint verified locally — 2026-10-13 21:47 UTC
+
+Installed full SA21:2282PASS7unchangedlegacyFAIL56subtests386.75s,50warnings. SA20:2236PASS7sameFAIL46nativeAPI SKIP56subtests386.85s,2warnings. All source/external inventories stable, installed39modules byte-matched, servers stopped. Full suites remain non-green; all seven qualification gates UNKNOWN.
+
+Actual unchanged pinned FastAPI application:58native+58protected+58package-free-before+58package-free-after removal PASS,0errors/failures/skips. Outer1PASS32.05s. New offlinePython3.14environment preserves77installed package versions and local editable application; initial resolver mistakenly treated app==0.1.0 as registry package, then explicit existing local path corrected setup. No appsource/role/preflight changes. This is affected removal-path integration evidence.
+
+Complete204-file candidate + selected safe evidence/artifacts/original mailbox archived as CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz,1210016bytes,SHA256fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29. Fresh extraction verifies246payloadfiles; fresh installed environment smoke23PASS17subtests8.42s on existing authorized cluster. No fresh-cluster/whole-workspace backup claim. PriorS18/S17/S5checkpoints retained. Archive includes previous checklist snapshot; this final outcome remains separate qualification/recovery receipt.
+
+S19sourcecheckpoint83fbaeaaa039717396262c45f407fde22937d870 is remote-byte verified; final evidence/archive publication in progress. S19 is now highest locally verified bounded integrated candidate, while highest remotely complete integrated checkpoint remains S18 until archive publication verifies. Main remainsS14; no main promotion.

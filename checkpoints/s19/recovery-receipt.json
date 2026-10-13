@@ -1,0 +1,19 @@
+{
+  "archive": "CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz",
+  "sha256": "fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29",
+  "bytes": 1210016,
+  "verified_files": 246,
+  "candidate_files": 204,
+  "same_host_fresh_extraction": true,
+  "fresh_environment_smoke": {
+    "passed": 23,
+    "subtests_passed": 17,
+    "seconds": 8.42,
+    "source_unchanged": true,
+    "external_source_unchanged": true,
+    "installed_modules_byte_matched": 39,
+    "postgres_stopped": true,
+    "summary": "23 passed, 17 subtests passed in 8.42s"
+  },
+  "fresh_cluster": "NOT RUN; approval pending"
+}

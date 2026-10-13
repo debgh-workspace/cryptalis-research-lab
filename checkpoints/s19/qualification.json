@@ -1,0 +1,129 @@
+{
+  "candidate": "candidate-accel-removal-integrated-20261013",
+  "source_commit": "83fbaeaaa039717396262c45f407fde22937d870",
+  "all_seven_qualification_gates": "UNKNOWN",
+  "status": "bounded integrated research qualification; not production",
+  "cells": {
+    "sa21": {
+      "junit": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "7",
+        "skipped": "0",
+        "tests": "2345",
+        "time": "386.722",
+        "timestamp": "2026-10-13T21:15:08.996056+00:00",
+        "hostname": "311c85efc72a"
+      },
+      "failures": [
+        "test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "test_changed_public_staging_refuses_switch",
+        "test_public_copy_participates_in_chunk_byte_bound",
+        "test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "test_reverse_refuses_unhandled_suffix_attributes[storage]",
+        "test_reverse_refuses_unhandled_suffix_attributes[compression]"
+      ],
+      "summary": "7 failed, 2282 passed, 50 warnings, 56 subtests passed in 386.75s (0:06:26)",
+      "source_unchanged": true,
+      "external_source_unchanged": true,
+      "postgres_stopped": true,
+      "tests_log_sha256": "9f9cf5af31c502e1eec9148ebc1ee796b90341e0c61aa1f4e655098de71d48fe"
+    },
+    "sa20": {
+      "junit": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "7",
+        "skipped": "46",
+        "tests": "2345",
+        "time": "386.823",
+        "timestamp": "2026-10-13T21:21:55.000596+00:00",
+        "hostname": "311c85efc72a"
+      },
+      "failures": [
+        "test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "test_changed_public_staging_refuses_switch",
+        "test_public_copy_participates_in_chunk_byte_bound",
+        "test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "test_reverse_refuses_unhandled_suffix_attributes[storage]",
+        "test_reverse_refuses_unhandled_suffix_attributes[compression]"
+      ],
+      "summary": "7 failed, 2236 passed, 46 skipped, 2 warnings, 56 subtests passed in 386.85s (0:06:26)",
+      "source_unchanged": true,
+      "external_source_unchanged": true,
+      "postgres_stopped": true,
+      "tests_log_sha256": "6d4475bc942806ddc3fd8366d62f88dbf757bf9a924564385bf6851ac4185ca8"
+    }
+  },
+  "realapp": {
+    "native": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "58",
+      "time": "5.595",
+      "timestamp": "2026-10-13T21:42:11.721904+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "protected": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "58",
+      "time": "5.480",
+      "timestamp": "2026-10-13T21:42:19.341697+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "package_free_before": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "58",
+      "time": "5.964",
+      "timestamp": "2026-10-13T21:42:26.172728+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "package_free_after": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "58",
+      "time": "5.640",
+      "timestamp": "2026-10-13T21:42:34.075249+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "outer_summary": "1 passed in 32.05s"
+  },
+  "limitations": [
+    "Same seven untouched legacy profile failures; full suite is not green",
+    "Fresh cluster/credential and external review approvals remain pending",
+    "Realapp existing plaintext role reused, no new role created",
+    "No active rotation, online closure or new search profile admitted",
+    "Fresh directory and fresh installed environment verified on same host/existing authorized cluster; independent-machine/fresh-cluster recovery remains unqualified"
+  ],
+  "recovery": {
+    "archive": "CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz",
+    "sha256": "fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29",
+    "bytes": 1210016,
+    "verified_files": 246,
+    "candidate_files": 204,
+    "same_host_fresh_extraction": true,
+    "fresh_environment_smoke": {
+      "passed": 23,
+      "subtests_passed": 17,
+      "seconds": 8.42,
+      "source_unchanged": true,
+      "external_source_unchanged": true,
+      "installed_modules_byte_matched": 39,
+      "postgres_stopped": true,
+      "summary": "23 passed, 17 subtests passed in 8.42s"
+    },
+    "fresh_cluster": "NOT RUN; approval pending"
+  }
+}
