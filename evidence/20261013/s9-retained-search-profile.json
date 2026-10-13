@@ -1,0 +1,1922 @@
+{
+  "scope": "Instrumented diagnostic profiles only; do not compare instrumented seconds to uninstrumented benchmark latency",
+  "reports": [
+    {
+      "family": "point",
+      "rows": 1,
+      "iterations": 40,
+      "top_cumulative": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/test_retained_search_profile_20261013.py",
+          "line": 31,
+          "function": "<lambda>",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000245141,
+          "cumulative_seconds": 0.17081078900000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2406,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000111211,
+          "cumulative_seconds": 0.161549501
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2201,
+          "function": "_execute_internal",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.0006831770000000001,
+          "cumulative_seconds": 0.16143829
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 903,
+          "function": "_execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0005768230000000001,
+          "cumulative_seconds": 0.160345188
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 382,
+          "function": "invoke_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 7.3167e-05,
+          "cumulative_seconds": 0.116667345
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py",
+          "line": 306,
+          "function": "orm_execute_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 7.4491e-05,
+          "cumulative_seconds": 0.11484643900000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1404,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 5.2613000000000006e-05,
+          "cumulative_seconds": 0.113390947
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 524,
+          "function": "_execute_on_connection",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 4.2386000000000004e-05,
+          "cumulative_seconds": 0.11333833400000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1618,
+          "function": "_execute_clauseelement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000329718,
+          "cumulative_seconds": 0.11329594800000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 694,
+          "function": "_compile_w_cache",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00010960000000000001,
+          "cumulative_seconds": 0.065566568
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 324,
+          "function": "_compiler",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 8.4294e-05,
+          "cumulative_seconds": 0.065456968
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 1449,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00021024700000000002,
+          "cumulative_seconds": 0.065372674
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 893,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00014665000000000001,
+          "cumulative_seconds": 0.06516242700000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 971,
+          "function": "process",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 3.1267000000000004e-05,
+          "cumulative_seconds": 0.065004528
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 116,
+          "function": "_compiler_dispatch",
+          "primitive_calls": 40,
+          "total_calls": 920,
+          "self_seconds": 0.037820503000000005,
+          "cumulative_seconds": 0.064973261
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 5092,
+          "function": "visit_select",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000593099,
+          "cumulative_seconds": 0.064890179
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 481,
+          "function": "_label_select_column",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.00104651,
+          "cumulative_seconds": 0.053836100000000005
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 4817,
+          "function": "_label_select_column",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.000397028,
+          "cumulative_seconds": 0.052674200000000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2681,
+          "function": "visit_label",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00021722200000000002,
+          "cumulative_seconds": 0.044239056000000006
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 605,
+          "function": "admit",
+          "primitive_calls": 120,
+          "total_calls": 120,
+          "self_seconds": 0.006600418,
+          "cumulative_seconds": 0.044196672
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 3030,
+          "function": "visit_type_coerce",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.00011368700000000001,
+          "cumulative_seconds": 0.043725769000000005
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 3180,
+          "function": "visit_function",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.0012590300000000002,
+          "cumulative_seconds": 0.043484645
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2950,
+          "function": "_generate_delimited_list",
+          "primitive_calls": 80,
+          "total_calls": 120,
+          "self_seconds": 9.755400000000001e-05,
+          "cumulative_seconds": 0.043281388000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'str' objects>",
+          "primitive_calls": 240,
+          "total_calls": 320,
+          "self_seconds": 0.000213451,
+          "cumulative_seconds": 0.043260173000000006
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2951,
+          "function": "<genexpr>",
+          "primitive_calls": 240,
+          "total_calls": 360,
+          "self_seconds": 0.000138591,
+          "cumulative_seconds": 0.043104818
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2953,
+          "function": "<genexpr>",
+          "primitive_calls": 240,
+          "total_calls": 360,
+          "self_seconds": 0.00023622400000000002,
+          "cumulative_seconds": 0.043006979
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 3239,
+          "function": "function_argspec",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 6.8581e-05,
+          "cumulative_seconds": 0.042969877000000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2583,
+          "function": "visit_grouping",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 8.402e-05,
+          "cumulative_seconds": 0.042886965000000006
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 2983,
+          "function": "visit_clauselist",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.00010292000000000001,
+          "cumulative_seconds": 0.042800602
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1767,
+          "function": "_execute_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00018956700000000002,
+          "cumulative_seconds": 0.029916677000000003
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1826,
+          "function": "_exec_single_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00038408,
+          "cumulative_seconds": 0.028188206
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_guard.py",
+          "line": 106,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 7.9048e-05,
+          "cumulative_seconds": 0.02343991
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 802,
+          "function": "iterate",
+          "primitive_calls": 8240,
+          "total_calls": 8240,
+          "self_seconds": 0.006902332000000001,
+          "cumulative_seconds": 0.020080357
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1576,
+          "function": "_invoke_before_exec_event",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00012415900000000002,
+          "cumulative_seconds": 0.017374816
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 747,
+          "function": "before_execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00013480300000000002,
+          "cumulative_seconds": 0.017125955
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 791,
+          "function": "check_cursor",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000127173,
+          "cumulative_seconds": 0.014747811000000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 315,
+          "function": "protected",
+          "primitive_calls": 1880,
+          "total_calls": 1880,
+          "self_seconds": 0.00157995,
+          "cumulative_seconds": 0.014681563000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 2640,
+          "total_calls": 4360,
+          "self_seconds": 0.002088363,
+          "cumulative_seconds": 0.014461121
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 818,
+          "function": "_keys",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 2.9184e-05,
+          "cumulative_seconds": 0.012346895
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 346,
+          "function": "prepare",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 8.414e-05,
+          "cumulative_seconds": 0.012317711
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_search.py",
+          "line": 54,
+          "function": "rewrite_search",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000330394,
+          "cumulative_seconds": 0.009678327
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/loading.py",
+          "line": 214,
+          "function": "chunks",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.00017694800000000001,
+          "cumulative_seconds": 0.008761391
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_guard.py",
+          "line": 44,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 6.1575e-05,
+          "cumulative_seconds": 0.008550252000000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/cursor.py",
+          "line": 100,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 9.3737e-05,
+          "cumulative_seconds": 0.008466865
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/connection.py",
+          "line": 479,
+          "function": "wait",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.003566351,
+          "cumulative_seconds": 0.008354913
+        }
+      ],
+      "top_self": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 116,
+          "function": "_compiler_dispatch",
+          "primitive_calls": 40,
+          "total_calls": 920,
+          "self_seconds": 0.037820503000000005,
+          "cumulative_seconds": 0.064973261
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 802,
+          "function": "iterate",
+          "primitive_calls": 8240,
+          "total_calls": 8240,
+          "self_seconds": 0.006902332000000001,
+          "cumulative_seconds": 0.020080357
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 605,
+          "function": "admit",
+          "primitive_calls": 120,
+          "total_calls": 120,
+          "self_seconds": 0.006600418,
+          "cumulative_seconds": 0.044196672
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 470,
+          "function": "<genexpr>",
+          "primitive_calls": 12760,
+          "total_calls": 12760,
+          "self_seconds": 0.004961745,
+          "cumulative_seconds": 0.005985567000000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/connection.py",
+          "line": 479,
+          "function": "wait",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.003566351,
+          "cumulative_seconds": 0.008354913
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 20560,
+          "total_calls": 20560,
+          "self_seconds": 0.0035493200000000003,
+          "cumulative_seconds": 0.003757526
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 444,
+          "function": "get_children",
+          "primitive_calls": 3200,
+          "total_calls": 3200,
+          "self_seconds": 0.002787079,
+          "cumulative_seconds": 0.0071159100000000005
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+          "line": 344,
+          "function": "raw_decode",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.0027424840000000003,
+          "cumulative_seconds": 0.0027424840000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 2640,
+          "total_calls": 4360,
+          "self_seconds": 0.002088363,
+          "cumulative_seconds": 0.014461121
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 502,
+          "function": "run_generated_dispatch",
+          "primitive_calls": 3320,
+          "total_calls": 3320,
+          "self_seconds": 0.001820046,
+          "cumulative_seconds": 0.004115264
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 315,
+          "function": "protected",
+          "primitive_calls": 1880,
+          "total_calls": 1880,
+          "self_seconds": 0.00157995,
+          "cumulative_seconds": 0.014681563000000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 1669,
+          "function": "shares_lineage",
+          "primitive_calls": 2120,
+          "total_calls": 2120,
+          "self_seconds": 0.0014706320000000001,
+          "cumulative_seconds": 0.001993805
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py",
+          "line": 6178,
+          "function": "get_children",
+          "primitive_calls": 840,
+          "total_calls": 840,
+          "self_seconds": 0.001425239,
+          "cumulative_seconds": 0.004084328
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 318,
+          "function": "<genexpr>",
+          "primitive_calls": 3280,
+          "total_calls": 3280,
+          "self_seconds": 0.0013694170000000002,
+          "cumulative_seconds": 0.0029456720000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "primitive_calls": 4320,
+          "total_calls": 4440,
+          "self_seconds": 0.0013357,
+          "cumulative_seconds": 0.0023885350000000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/coercions.py",
+          "line": 323,
+          "function": "expect",
+          "primitive_calls": 680,
+          "total_calls": 680,
+          "self_seconds": 0.001331193,
+          "cumulative_seconds": 0.002827029
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0013266080000000002,
+          "cumulative_seconds": 0.0013266080000000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 3180,
+          "function": "visit_function",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.0012590300000000002,
+          "cumulative_seconds": 0.043484645
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/_cursor_base.py",
+          "line": 583,
+          "function": "_send_query_prepared",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.001257813,
+          "cumulative_seconds": 0.001257813
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 344,
+          "function": "prepare",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0012255780000000002,
+          "cumulative_seconds": 0.00403274
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 504,
+          "function": "visit_column",
+          "primitive_calls": 200,
+          "total_calls": 200,
+          "self_seconds": 0.001149545,
+          "cumulative_seconds": 0.003562533
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/selectable.py",
+          "line": 5377,
+          "function": "_iterate_from_elements",
+          "primitive_calls": 1440,
+          "total_calls": 1440,
+          "self_seconds": 0.00109789,
+          "cumulative_seconds": 0.002139985
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py",
+          "line": 1282,
+          "function": "_setup_for_generate",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.001071722,
+          "cumulative_seconds": 0.0029630420000000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 481,
+          "function": "_label_select_column",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.00104651,
+          "cumulative_seconds": 0.053836100000000005
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 240,
+          "function": "__eq__",
+          "primitive_calls": 760,
+          "total_calls": 760,
+          "self_seconds": 0.0009263110000000001,
+          "cumulative_seconds": 0.000988161
+        }
+      ]
+    },
+    {
+      "family": "equality",
+      "rows": 143,
+      "iterations": 40,
+      "top_cumulative": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/test_retained_search_profile_20261013.py",
+          "line": 31,
+          "function": "<lambda>",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.001371699,
+          "cumulative_seconds": 0.805570565
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/loading.py",
+          "line": 214,
+          "function": "chunks",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.005480792,
+          "cumulative_seconds": 0.5847634500000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/type_api.py",
+          "line": 2269,
+          "function": "process",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.0024869920000000004,
+          "cumulative_seconds": 0.5385287200000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 144,
+          "function": "process_result_value",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.017355566,
+          "cumulative_seconds": 0.536041728
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 181,
+          "function": "open_text",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.046813092,
+          "cumulative_seconds": 0.48075927900000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2406,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000176309,
+          "cumulative_seconds": 0.219003359
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2201,
+          "function": "_execute_internal",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.0014875320000000002,
+          "cumulative_seconds": 0.21882705000000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 903,
+          "function": "_execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.001050945,
+          "cumulative_seconds": 0.216256214
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 81,
+          "function": "tuple_bytes",
+          "primitive_calls": 34440,
+          "total_calls": 34440,
+          "self_seconds": 0.037481745000000004,
+          "cumulative_seconds": 0.215286683
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 99,
+          "function": "_derive",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.028929991000000002,
+          "cumulative_seconds": 0.17502166400000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 109,
+          "function": "_term",
+          "primitive_calls": 5760,
+          "total_calls": 5760,
+          "self_seconds": 0.016412174,
+          "cumulative_seconds": 0.17236321400000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 382,
+          "function": "invoke_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00013966100000000002,
+          "cumulative_seconds": 0.154762528
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py",
+          "line": 306,
+          "function": "orm_execute_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00016050100000000001,
+          "cumulative_seconds": 0.151734894
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1404,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000123084,
+          "cumulative_seconds": 0.14922775500000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 524,
+          "function": "_execute_on_connection",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 7.1474e-05,
+          "cumulative_seconds": 0.14910467100000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1618,
+          "function": "_execute_clauseelement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00060943,
+          "cumulative_seconds": 0.149033197
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'bytes' objects>",
+          "primitive_calls": 34440,
+          "total_calls": 34440,
+          "self_seconds": 0.02610028,
+          "cumulative_seconds": 0.10077609800000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 42040,
+          "total_calls": 43600,
+          "self_seconds": 0.024557191000000003,
+          "cumulative_seconds": 0.083757236
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 605,
+          "function": "admit",
+          "primitive_calls": 120,
+          "total_calls": 120,
+          "self_seconds": 0.008970866000000001,
+          "cumulative_seconds": 0.08227427300000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 85,
+          "function": "<genexpr>",
+          "primitive_calls": 189360,
+          "total_calls": 189360,
+          "self_seconds": 0.048954572,
+          "cumulative_seconds": 0.074675818
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1767,
+          "function": "_execute_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000349877,
+          "cumulative_seconds": 0.07159668300000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1826,
+          "function": "_exec_single_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0007359630000000001,
+          "cumulative_seconds": 0.064532265
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 146,
+          "function": "_aad",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.004162477,
+          "cumulative_seconds": 0.057818611000000006
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_guard.py",
+          "line": 106,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00016851,
+          "cumulative_seconds": 0.057007111000000006
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'derive' of 'cryptography.hazmat.primitives.kdf.hkdf.HKDF' objects>",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.037974715,
+          "cumulative_seconds": 0.049856702
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 263,
+          "function": "_resolve",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.022370545000000002,
+          "cumulative_seconds": 0.046699821
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 83,
+          "function": "<genexpr>",
+          "primitive_calls": 189360,
+          "total_calls": 189360,
+          "self_seconds": 0.037038163,
+          "cumulative_seconds": 0.046539608
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/cursor.py",
+          "line": 2376,
+          "function": "_fetchall_impl",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 4.0872000000000004e-05,
+          "cumulative_seconds": 0.040753938
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/cursor.py",
+          "line": 1309,
+          "function": "fetchall",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00012400400000000001,
+          "cumulative_seconds": 0.040713066
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/cursor.py",
+          "line": 274,
+          "function": "fetchall",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.003419917,
+          "cumulative_seconds": 0.040131486
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 694,
+          "function": "_compile_w_cache",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00019403900000000002,
+          "cumulative_seconds": 0.039505706
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 324,
+          "function": "_compiler",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000153478,
+          "cumulative_seconds": 0.039311667
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 1449,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000294989,
+          "cumulative_seconds": 0.039158189
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 893,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000288137,
+          "cumulative_seconds": 0.0388632
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 971,
+          "function": "process",
+          "primitive_calls": 40,
+          "total_calls": 160,
+          "self_seconds": 0.00017667100000000002,
+          "cumulative_seconds": 0.038557498
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 116,
+          "function": "_compiler_dispatch",
+          "primitive_calls": 40,
+          "total_calls": 1040,
+          "self_seconds": 0.0022432420000000003,
+          "cumulative_seconds": 0.038503288000000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 5092,
+          "function": "visit_select",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000796337,
+          "cumulative_seconds": 0.038363028
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1576,
+          "function": "_invoke_before_exec_event",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00023752000000000002,
+          "cumulative_seconds": 0.037188437000000005
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/types/json.py",
+          "line": 256,
+          "function": "load",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.004329697,
+          "cumulative_seconds": 0.036643184
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 747,
+          "function": "before_execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00033787000000000004,
+          "cumulative_seconds": 0.036614069
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+          "line": 299,
+          "function": "loads",
+          "primitive_calls": 5760,
+          "total_calls": 5760,
+          "self_seconds": 0.005226882,
+          "cumulative_seconds": 0.034970116
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 139,
+          "function": "__init__",
+          "primitive_calls": 11520,
+          "total_calls": 11520,
+          "self_seconds": 0.021065503000000003,
+          "cumulative_seconds": 0.030936721
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to_bytes' of 'int' objects>",
+          "primitive_calls": 269720,
+          "total_calls": 269720,
+          "self_seconds": 0.030448038,
+          "cumulative_seconds": 0.030448038
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 802,
+          "function": "iterate",
+          "primitive_calls": 8880,
+          "total_calls": 8880,
+          "self_seconds": 0.009206198,
+          "cumulative_seconds": 0.028692444
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 791,
+          "function": "check_cursor",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000214307,
+          "cumulative_seconds": 0.028582344000000003
+        }
+      ],
+      "top_self": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 85,
+          "function": "<genexpr>",
+          "primitive_calls": 189360,
+          "total_calls": 189360,
+          "self_seconds": 0.048954572,
+          "cumulative_seconds": 0.074675818
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 181,
+          "function": "open_text",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.046813092,
+          "cumulative_seconds": 0.48075927900000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'derive' of 'cryptography.hazmat.primitives.kdf.hkdf.HKDF' objects>",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.037974715,
+          "cumulative_seconds": 0.049856702
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 81,
+          "function": "tuple_bytes",
+          "primitive_calls": 34440,
+          "total_calls": 34440,
+          "self_seconds": 0.037481745000000004,
+          "cumulative_seconds": 0.215286683
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 83,
+          "function": "<genexpr>",
+          "primitive_calls": 189360,
+          "total_calls": 189360,
+          "self_seconds": 0.037038163,
+          "cumulative_seconds": 0.046539608
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to_bytes' of 'int' objects>",
+          "primitive_calls": 269720,
+          "total_calls": 269720,
+          "self_seconds": 0.030448038,
+          "cumulative_seconds": 0.030448038
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 99,
+          "function": "_derive",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.028929991000000002,
+          "cumulative_seconds": 0.17502166400000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 420720,
+          "total_calls": 420720,
+          "self_seconds": 0.028566150000000002,
+          "cumulative_seconds": 0.028566150000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'bytes' objects>",
+          "primitive_calls": 34440,
+          "total_calls": 34440,
+          "self_seconds": 0.02610028,
+          "cumulative_seconds": 0.10077609800000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 42040,
+          "total_calls": 43600,
+          "self_seconds": 0.024557191000000003,
+          "cumulative_seconds": 0.083757236
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 263,
+          "function": "_resolve",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.022370545000000002,
+          "cumulative_seconds": 0.046699821
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 139,
+          "function": "__init__",
+          "primitive_calls": 11520,
+          "total_calls": 11520,
+          "self_seconds": 0.021065503000000003,
+          "cumulative_seconds": 0.030936721
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/connection.py",
+          "line": 479,
+          "function": "wait",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.018287034,
+          "cumulative_seconds": 0.027790644000000003
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 144,
+          "function": "process_result_value",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.017355566,
+          "cumulative_seconds": 0.536041728
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 109,
+          "function": "_term",
+          "primitive_calls": 5760,
+          "total_calls": 5760,
+          "self_seconds": 0.016412174,
+          "cumulative_seconds": 0.17236321400000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 137400,
+          "total_calls": 137400,
+          "self_seconds": 0.014982514,
+          "cumulative_seconds": 0.01536496
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 285,
+          "function": "bytes",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.013052393,
+          "cumulative_seconds": 0.021658808
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 240,
+          "function": "__eq__",
+          "primitive_calls": 69040,
+          "total_calls": 69040,
+          "self_seconds": 0.012426782,
+          "cumulative_seconds": 0.017995578
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'decrypt' of 'cryptography.hazmat.bindings._rust.openssl.aead.AESGCMSIV' objects>",
+          "primitive_calls": 5720,
+          "total_calls": 5720,
+          "self_seconds": 0.011583169,
+          "cumulative_seconds": 0.011583169
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+          "line": 333,
+          "function": "decode",
+          "primitive_calls": 5760,
+          "total_calls": 5760,
+          "self_seconds": 0.009406447,
+          "cumulative_seconds": 0.020293544
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 802,
+          "function": "iterate",
+          "primitive_calls": 8880,
+          "total_calls": 8880,
+          "self_seconds": 0.009206198,
+          "cumulative_seconds": 0.028692444
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 605,
+          "function": "admit",
+          "primitive_calls": 120,
+          "total_calls": 120,
+          "self_seconds": 0.008970866000000001,
+          "cumulative_seconds": 0.08227427300000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _abc._abc_instancecheck>",
+          "primitive_calls": 28840,
+          "total_calls": 28840,
+          "self_seconds": 0.008280648,
+          "cumulative_seconds": 0.008280648
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+          "line": 344,
+          "function": "raw_decode",
+          "primitive_calls": 5760,
+          "total_calls": 5760,
+          "self_seconds": 0.006564292,
+          "cumulative_seconds": 0.006564292
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py",
+          "line": 470,
+          "function": "<genexpr>",
+          "primitive_calls": 14760,
+          "total_calls": 14760,
+          "self_seconds": 0.006109871,
+          "cumulative_seconds": 0.007341808000000001
+        }
+      ]
+    },
+    {
+      "family": "in2",
+      "rows": 286,
+      "iterations": 40,
+      "top_cumulative": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/test_retained_search_profile_20261013.py",
+          "line": 31,
+          "function": "<lambda>",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.002380464,
+          "cumulative_seconds": 1.409670581
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/loading.py",
+          "line": 214,
+          "function": "chunks",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.013470329000000001,
+          "cumulative_seconds": 1.154276761
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/type_api.py",
+          "line": 2269,
+          "function": "process",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.006666244,
+          "cumulative_seconds": 1.0616039160000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 144,
+          "function": "process_result_value",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.035230249000000005,
+          "cumulative_seconds": 1.054937672
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 181,
+          "function": "open_text",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.09198294200000001,
+          "cumulative_seconds": 0.944528679
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 81,
+          "function": "tuple_bytes",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.073287102,
+          "cumulative_seconds": 0.426172276
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 99,
+          "function": "_derive",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.054180906,
+          "cumulative_seconds": 0.337111496
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 109,
+          "function": "_term",
+          "primitive_calls": 11520,
+          "total_calls": 11520,
+          "self_seconds": 0.030517814,
+          "cumulative_seconds": 0.33442441100000003
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2406,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000217612,
+          "cumulative_seconds": 0.252541525
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 2201,
+          "function": "_execute_internal",
+          "primitive_calls": 40,
+          "total_calls": 80,
+          "self_seconds": 0.002016527,
+          "cumulative_seconds": 0.252323913
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 903,
+          "function": "_execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.001566267,
+          "cumulative_seconds": 0.24888791100000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'bytes' objects>",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.051396516,
+          "cumulative_seconds": 0.199251602
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py",
+          "line": 382,
+          "function": "invoke_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000169421,
+          "cumulative_seconds": 0.18136849000000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/context.py",
+          "line": 306,
+          "function": "orm_execute_statement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000216218,
+          "cumulative_seconds": 0.177732686
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1404,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000153134,
+          "cumulative_seconds": 0.17505188700000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 524,
+          "function": "_execute_on_connection",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 9.5908e-05,
+          "cumulative_seconds": 0.17489875300000002
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1618,
+          "function": "_execute_clauseelement",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0007177230000000001,
+          "cumulative_seconds": 0.174802845
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 82200,
+          "total_calls": 83760,
+          "self_seconds": 0.047222558000000005,
+          "cumulative_seconds": 0.154989178
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 85,
+          "function": "<genexpr>",
+          "primitive_calls": 378720,
+          "total_calls": 378720,
+          "self_seconds": 0.09787324600000001,
+          "cumulative_seconds": 0.147855086
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 146,
+          "function": "_aad",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.008389702,
+          "cumulative_seconds": 0.11571252800000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'derive' of 'cryptography.hazmat.primitives.kdf.hkdf.HKDF' objects>",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.07692175200000001,
+          "cumulative_seconds": 0.095069865
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1767,
+          "function": "_execute_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000469079,
+          "cumulative_seconds": 0.09494596000000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 83,
+          "function": "<genexpr>",
+          "primitive_calls": 378720,
+          "total_calls": 378720,
+          "self_seconds": 0.074155041,
+          "cumulative_seconds": 0.09396870800000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 263,
+          "function": "_resolve",
+          "primitive_calls": 45920,
+          "total_calls": 45920,
+          "self_seconds": 0.045690077,
+          "cumulative_seconds": 0.092819786
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 605,
+          "function": "admit",
+          "primitive_calls": 120,
+          "total_calls": 120,
+          "self_seconds": 0.008762492,
+          "cumulative_seconds": 0.082872291
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py",
+          "line": 1826,
+          "function": "_exec_single_context",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.0008946070000000001,
+          "cumulative_seconds": 0.082250007
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/cursor.py",
+          "line": 2376,
+          "function": "_fetchall_impl",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 4.8976e-05,
+          "cumulative_seconds": 0.079202516
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/cursor.py",
+          "line": 1309,
+          "function": "fetchall",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000143614,
+          "cumulative_seconds": 0.07915354000000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/cursor.py",
+          "line": 274,
+          "function": "fetchall",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.007107462,
+          "cumulative_seconds": 0.078547082
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_guard.py",
+          "line": 106,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000161151,
+          "cumulative_seconds": 0.073613628
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/types/json.py",
+          "line": 256,
+          "function": "load",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.009977081,
+          "cumulative_seconds": 0.07136600600000001
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+          "line": 299,
+          "function": "loads",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.01004179,
+          "cumulative_seconds": 0.06405400800000001
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 139,
+          "function": "__init__",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.041912682,
+          "cumulative_seconds": 0.061699147
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 839560,
+          "total_calls": 839560,
+          "self_seconds": 0.05756005,
+          "cumulative_seconds": 0.05756005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to_bytes' of 'int' objects>",
+          "primitive_calls": 539360,
+          "total_calls": 539360,
+          "self_seconds": 0.05729717300000001,
+          "cumulative_seconds": 0.05729717300000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/_sqlalchemy_guard.py",
+          "line": 44,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00014483400000000002,
+          "cumulative_seconds": 0.04306692
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/cursor.py",
+          "line": 100,
+          "function": "execute",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.00024279500000000002,
+          "cumulative_seconds": 0.042893224
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 285,
+          "function": "bytes",
+          "primitive_calls": 137680,
+          "total_calls": 137680,
+          "self_seconds": 0.025554356,
+          "cumulative_seconds": 0.042792256
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/connection.py",
+          "line": 479,
+          "function": "wait",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.030374944,
+          "cumulative_seconds": 0.042626614
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 694,
+          "function": "_compile_w_cache",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000243111,
+          "cumulative_seconds": 0.042358081000000006
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 137,
+          "function": "_context",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.011032504,
+          "cumulative_seconds": 0.042189734
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py",
+          "line": 324,
+          "function": "_compiler",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000249153,
+          "cumulative_seconds": 0.04211497
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 1449,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000313009,
+          "cumulative_seconds": 0.041865817
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 893,
+          "function": "__init__",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.000274465,
+          "cumulative_seconds": 0.041552808000000004
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py",
+          "line": 971,
+          "function": "process",
+          "primitive_calls": 40,
+          "total_calls": 160,
+          "self_seconds": 0.000185508,
+          "cumulative_seconds": 0.041259198000000004
+        }
+      ],
+      "top_self": [
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 85,
+          "function": "<genexpr>",
+          "primitive_calls": 378720,
+          "total_calls": 378720,
+          "self_seconds": 0.09787324600000001,
+          "cumulative_seconds": 0.147855086
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 181,
+          "function": "open_text",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.09198294200000001,
+          "cumulative_seconds": 0.944528679
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'derive' of 'cryptography.hazmat.primitives.kdf.hkdf.HKDF' objects>",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.07692175200000001,
+          "cumulative_seconds": 0.095069865
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 83,
+          "function": "<genexpr>",
+          "primitive_calls": 378720,
+          "total_calls": 378720,
+          "self_seconds": 0.074155041,
+          "cumulative_seconds": 0.09396870800000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 81,
+          "function": "tuple_bytes",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.073287102,
+          "cumulative_seconds": 0.426172276
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 839560,
+          "total_calls": 839560,
+          "self_seconds": 0.05756005,
+          "cumulative_seconds": 0.05756005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to_bytes' of 'int' objects>",
+          "primitive_calls": 539360,
+          "total_calls": 539360,
+          "self_seconds": 0.05729717300000001,
+          "cumulative_seconds": 0.05729717300000001
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 99,
+          "function": "_derive",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.054180906,
+          "cumulative_seconds": 0.337111496
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'bytes' objects>",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.051396516,
+          "cumulative_seconds": 0.199251602
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.any>",
+          "primitive_calls": 82200,
+          "total_calls": 83760,
+          "self_seconds": 0.047222558000000005,
+          "cumulative_seconds": 0.154989178
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/keys.py",
+          "line": 263,
+          "function": "_resolve",
+          "primitive_calls": 45920,
+          "total_calls": 45920,
+          "self_seconds": 0.045690077,
+          "cumulative_seconds": 0.092819786
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 139,
+          "function": "__init__",
+          "primitive_calls": 22960,
+          "total_calls": 22960,
+          "self_seconds": 0.041912682,
+          "cumulative_seconds": 0.061699147
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/sqlalchemy.py",
+          "line": 144,
+          "function": "process_result_value",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.035230249000000005,
+          "cumulative_seconds": 1.054937672
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 109,
+          "function": "_term",
+          "primitive_calls": 11520,
+          "total_calls": 11520,
+          "self_seconds": 0.030517814,
+          "cumulative_seconds": 0.33442441100000003
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/psycopg/connection.py",
+          "line": 479,
+          "function": "wait",
+          "primitive_calls": 40,
+          "total_calls": 40,
+          "self_seconds": 0.030374944,
+          "cumulative_seconds": 0.042626614
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 285,
+          "function": "bytes",
+          "primitive_calls": 137680,
+          "total_calls": 137680,
+          "self_seconds": 0.025554356,
+          "cumulative_seconds": 0.042792256
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+          "line": 240,
+          "function": "__eq__",
+          "primitive_calls": 137840,
+          "total_calls": 137840,
+          "self_seconds": 0.025281710000000002,
+          "cumulative_seconds": 0.035883780000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'decrypt' of 'cryptography.hazmat.bindings._rust.openssl.aead.AESGCMSIV' objects>",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.022714670000000003,
+          "cumulative_seconds": 0.022714670000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 246320,
+          "total_calls": 246320,
+          "self_seconds": 0.022476857000000003,
+          "cumulative_seconds": 0.022917825000000003
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/sqlalchemy/orm/loading.py",
+          "line": 214,
+          "function": "chunks",
+          "primitive_calls": 80,
+          "total_calls": 80,
+          "self_seconds": 0.013470329000000001,
+          "cumulative_seconds": 1.154276761
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+          "line": 333,
+          "function": "decode",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.012545588000000002,
+          "cumulative_seconds": 0.034505918000000003
+        },
+        {
+          "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+          "line": 344,
+          "function": "raw_decode",
+          "primitive_calls": 11480,
+          "total_calls": 11480,
+          "self_seconds": 0.012137060000000002,
+          "cumulative_seconds": 0.012137060000000002
+        },
+        {
+          "file": "<frozen abc>",
+          "line": 117,
+          "function": "__instancecheck__",
+          "primitive_calls": 57560,
+          "total_calls": 57560,
+          "self_seconds": 0.011955265000000001,
+          "cumulative_seconds": 0.022658591000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'replace' of 'str' objects>",
+          "primitive_calls": 68880,
+          "total_calls": 68880,
+          "self_seconds": 0.011231569,
+          "cumulative_seconds": 0.011231569
+        },
+        {
+          "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s9-estimate-bounds-20261013/wheel-venv/lib/python3.12/site-packages/cryptalis/crypto/cf1.py",
+          "line": 137,
+          "function": "_context",
+          "primitive_calls": 11440,
+          "total_calls": 11440,
+          "self_seconds": 0.011032504,
+          "cumulative_seconds": 0.042189734
+        }
+      ]
+    }
+  ]
+}
