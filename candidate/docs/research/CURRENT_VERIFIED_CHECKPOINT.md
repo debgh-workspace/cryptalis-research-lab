@@ -51,3 +51,14 @@ Both public planners leaked OverflowError when converting oversized integer rate
 Source29PASS then36PASS; final dedicated14 cases PASS1.96s. Installed2.1.3:1774PASS7FAIL0SKIP301.57s;2.0.51:1756PASS7FAIL18SKIP312.37s, each2 known fork warnings. Same seven legacy-layout failure IDs; full-suite acceptance stays OPEN. All35 installed modules byte-match and source hashes remain fixed. Repeated offline wheel SHA25627d62803d9c6f692d7fa91499983e9e7fcd9fb0c410065fb1223489ffb1da165;39 RECORD entries. All seven production gates remain UNKNOWN.
 
 Next: run the separately prepared retained-layout native/driver/attached benchmark, with exact results and bounded warm same-host measurements. It does not reuse obsolete cache-profile benchmark assumptions. No production latency or throughput claim follows from the result.
+
+
+## S10 allocation correction verified, 2026-10-13
+
+The tuple encoder now joins count/length prefixes and original part references in one pass. Wire bytes and strict bytes-only checks are unchanged. No key cache, compiled cache, nonce, AEAD, HKDF, authentication, key lifetime or validation change. Independent writer oracle includes132 cases and7 invalid-type controls. Focused source151PASS.
+
+Installed full PostgreSQL suites: SQLAlchemy2.1.3 1776PASS/7FAIL/0SKIP301.99s;2.0.51 1758PASS/7FAIL/18SKIP303.38s. Both retain exactly the seven known legacy-profile failures and two fork warnings. Source hashes match; both servers stopped. Full-suite acceptance remains OPEN. Wheel SHA256 f773483c07aa97d588585acb69c55d988263ed56713b214d62393d161458a9b6; repeated offline build identical.
+
+For an8MiB input, incremental Python-traced peak allocation fell from16,777,664 to8,388,864 bytes. This is not request RSS. Same-session seven-block paired IN2 medians:13.360 to12.653ms on2.1.3,12.359 to11.818ms on2.0.51;7/7 and6/7 favorable blocks. Point/equality results vary; no blanket speedup or production performance claim. All seven production gates remain UNKNOWN.
+
+Next: implement the missing read-only pre-adoption scanner/doctor under explicit checked/unknown boundaries. Existing database only; second cluster and credential approval remains pending. Original online-migration workstream S6 remains OPEN; corrective slice numbering does not imply its completion.

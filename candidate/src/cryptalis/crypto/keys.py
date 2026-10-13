@@ -80,9 +80,18 @@ class KeyUnavailable(CryptoFailure):
 
 def tuple_bytes(*parts: bytes) -> bytes:
     """CF1 length-prefixed tuple, with no implicit conversion."""
-    if len(parts) > 0xFFFFFFFF or any(type(p) is not bytes or len(p) > 0xFFFFFFFF for p in parts):
+    if len(parts) > 0xFFFFFFFF:
         raise InvalidContext()
-    return len(parts).to_bytes(4, "big") + b"".join(len(p).to_bytes(4, "big") + p for p in parts)
+    encoded = [len(parts).to_bytes(4, "big")]
+    for part in parts:
+        if type(part) is not bytes:
+            raise InvalidContext()
+        size = len(part)
+        if size > 0xFFFFFFFF:
+            raise InvalidContext()
+        encoded.append(size.to_bytes(4, "big"))
+        encoded.append(part)
+    return b"".join(encoded)
 
 
 def _identity(value):

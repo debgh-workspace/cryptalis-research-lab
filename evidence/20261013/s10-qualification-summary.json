@@ -1,0 +1,255 @@
+{
+  "slice": "S10",
+  "status": "Installed paired qualification complete; bounded allocation correction selected for integration",
+  "mechanism": "CF1 tuple_bytes retains exact uint32 framing and strict bytes-only checks; one pass builds prefix/part references and joins once, avoiding intermediate prefixed payload copies. No cache, key retention, primitive, authentication or validation changes.",
+  "three_way_microbenchmark": {
+    "scope": "Pure synthetic function experiment, not product benchmark; same encoding and checks; no caches or retained keys",
+    "oracle_cases": 131,
+    "invalid_type_cases": 7,
+    "records": [
+      {
+        "block": 0,
+        "variant": "original",
+        "ns_per_call": 1449.35918
+      },
+      {
+        "block": 0,
+        "variant": "one_pass",
+        "ns_per_call": 1053.92128
+      },
+      {
+        "block": 0,
+        "variant": "bytearray",
+        "ns_per_call": 1355.2685
+      },
+      {
+        "block": 1,
+        "variant": "bytearray",
+        "ns_per_call": 1288.6817
+      },
+      {
+        "block": 1,
+        "variant": "one_pass",
+        "ns_per_call": 923.14448
+      },
+      {
+        "block": 1,
+        "variant": "original",
+        "ns_per_call": 1637.2325
+      },
+      {
+        "block": 2,
+        "variant": "original",
+        "ns_per_call": 1500.49324
+      },
+      {
+        "block": 2,
+        "variant": "one_pass",
+        "ns_per_call": 941.85844
+      },
+      {
+        "block": 2,
+        "variant": "bytearray",
+        "ns_per_call": 1270.58086
+      },
+      {
+        "block": 3,
+        "variant": "bytearray",
+        "ns_per_call": 1250.1628
+      },
+      {
+        "block": 3,
+        "variant": "one_pass",
+        "ns_per_call": 969.92274
+      },
+      {
+        "block": 3,
+        "variant": "original",
+        "ns_per_call": 1513.11382
+      },
+      {
+        "block": 4,
+        "variant": "original",
+        "ns_per_call": 1498.55338
+      },
+      {
+        "block": 4,
+        "variant": "one_pass",
+        "ns_per_call": 947.23114
+      },
+      {
+        "block": 4,
+        "variant": "bytearray",
+        "ns_per_call": 1274.76522
+      },
+      {
+        "block": 5,
+        "variant": "bytearray",
+        "ns_per_call": 1297.15838
+      },
+      {
+        "block": 5,
+        "variant": "one_pass",
+        "ns_per_call": 946.88344
+      },
+      {
+        "block": 5,
+        "variant": "original",
+        "ns_per_call": 1547.0788
+      },
+      {
+        "block": 6,
+        "variant": "original",
+        "ns_per_call": 1562.05786
+      },
+      {
+        "block": 6,
+        "variant": "one_pass",
+        "ns_per_call": 955.24754
+      },
+      {
+        "block": 6,
+        "variant": "bytearray",
+        "ns_per_call": 1299.96812
+      }
+    ],
+    "median_ns": {
+      "original": 1513.11382,
+      "one_pass": 947.23114,
+      "bytearray": 1288.6817
+    },
+    "large_value_bytes": 8388608,
+    "tracemalloc_peak_bytes": {
+      "original": 16777664,
+      "one_pass": 8388864,
+      "bytearray": 16777374
+    }
+  },
+  "source_result": "151PASS7.64s including independent wire writer, strict-type controls, CF1, key lease/fork and PostgreSQL search tests;2 known fork warnings",
+  "installed_benchmark": "Both paired sessions completed with exact decoded results and unchanged source. Cross-process observations retained but not used as causal proof.",
+  "wheel_sha256": "f773483c07aa97d588585acb69c55d988263ed56713b214d62393d161458a9b6",
+  "production_gates": "UNKNOWN",
+  "installed_sa21": {
+    "passed": 1776,
+    "failed": 7,
+    "skipped": 0,
+    "seconds": 301.99,
+    "same_known_failures": true,
+    "source_unchanged": true
+  },
+  "paired_sa21": [
+    {
+      "family": "point",
+      "median_ms": {
+        "original": 1.7315975,
+        "one_pass": 1.7740905
+      },
+      "paired_saved_ms": [
+        0.10269649999999997,
+        -0.012352999999999836,
+        -0.38010350000000015,
+        -0.042493000000000114,
+        0.0667184999999999,
+        0.0783554999999998,
+        -0.14034199999999997
+      ],
+      "positive_pairs": 3
+    },
+    {
+      "family": "equality",
+      "median_ms": {
+        "original": 7.641111,
+        "one_pass": 7.1860325
+      },
+      "paired_saved_ms": [
+        0.6588940000000001,
+        0.38428099999999965,
+        -0.8617875000000002,
+        1.0928819999999995,
+        0.410679,
+        0.030429000000000705,
+        1.2125735000000013
+      ],
+      "positive_pairs": 6
+    },
+    {
+      "family": "in2",
+      "median_ms": {
+        "original": 13.3597445,
+        "one_pass": 12.6531595
+      },
+      "paired_saved_ms": [
+        1.5048379999999995,
+        0.6707230000000024,
+        0.3300345000000018,
+        2.492559999999999,
+        0.4039294999999985,
+        0.5040509999999987,
+        0.22880699999999976
+      ],
+      "positive_pairs": 7
+    }
+  ],
+  "interpretation": "Temporary encoding allocation decreased in the 8MiB synthetic case. Same-session IN2 observations favor the new encoder in7/7 and6/7 blocks; point and equality effects vary by dependency cell. No blanket speedup, tail-latency, RSS or production qualification.",
+  "installed_sa20": {
+    "passed": 1758,
+    "failed": 7,
+    "skipped": 18,
+    "seconds": 303.38,
+    "same_known_failures": true,
+    "source_unchanged": true
+  },
+  "paired_sa20": [
+    {
+      "family": "point",
+      "median_ms": {
+        "original": 1.660764,
+        "one_pass": 1.5465710000000001
+      },
+      "paired_saved_ms": [
+        0.3106920000000002,
+        -0.023059500000000233,
+        0.19128600000000007,
+        -0.09774900000000009,
+        0.15482299999999993,
+        0.03932749999999996,
+        0.04845149999999987
+      ],
+      "positive_pairs": 5
+    },
+    {
+      "family": "equality",
+      "median_ms": {
+        "original": 7.160812,
+        "one_pass": 7.079488
+      },
+      "paired_saved_ms": [
+        -0.0047914999999996155,
+        1.0751575000000004,
+        0.3887535,
+        0.1861309999999996,
+        -0.9199739999999998,
+        -0.09037149999999983,
+        0.5248875000000002
+      ],
+      "positive_pairs": 4
+    },
+    {
+      "family": "in2",
+      "median_ms": {
+        "original": 12.3589865,
+        "one_pass": 11.81818
+      },
+      "paired_saved_ms": [
+        1.5130769999999991,
+        1.7100969999999993,
+        0.14670249999999996,
+        -0.6911564999999982,
+        0.11667700000000103,
+        1.3267379999999989,
+        1.337378000000001
+      ],
+      "positive_pairs": 6
+    }
+  ]
+}
