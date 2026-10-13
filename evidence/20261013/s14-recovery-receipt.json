@@ -1,0 +1,61 @@
+{
+  "commit": "ad0e6fbff8b6f8fcb565ea45915a442f0c61fa28",
+  "remote_byte_verification": [
+    {
+      "path": "candidate/src/cryptalis/doctor.py",
+      "sha": "547c5cde488f88a0aaac24085ffb6dd259890954",
+      "match": true
+    },
+    {
+      "path": "candidate/src/cryptalis/_doctor_ciphertext.py",
+      "sha": "4c1f9e5e3b37e7af3ef088f5490b67ea56b9796a",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_doctor_ciphertext.py",
+      "sha": "290f76ca34d307fd9a11e2d28d234ebf3a764021",
+      "match": true
+    },
+    {
+      "path": "candidate/tests/test_doctor_snapshot.py",
+      "sha": "2dd6d5cf01cf41a1978c2e7f93b4e999d710e0e9",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/doctor.md",
+      "sha": "174a3d4c9913d97cccf056192650dd0e053eaa2f",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/CURRENT_VERIFIED_CHECKPOINT.md",
+      "sha": "a131a405003ce076afbb462e16c7790c09c31427",
+      "match": true
+    },
+    {
+      "path": "candidate/docs/research/DEFECT_REGISTER_20261012.md",
+      "sha": "468a09ecb6992873fe04f6d0774f140c6764abfb",
+      "match": true
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha": "750563b1f5157b84d9156cc9d9cf613a41ad307d",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-source-manifest.json",
+      "sha": "f8be68c6cedba9254fcc6503dfc8c0c1b846c023",
+      "match": true
+    },
+    {
+      "path": "evidence/20261013/s14-qualification-summary.json",
+      "sha": "66e3e7bf27d442585d92174eb3787688a4db4869",
+      "match": true
+    }
+  ],
+  "composite_recovery": {
+    "files": 183,
+    "basis": "Verified S13 180-file restore plus seven exact-remote-matched updates (three new files)",
+    "boundary": "Same-host candidate byte recovery; no new cluster, credential or clean-machine proof",
+    "instructions": "Recover candidate/ and evidence/20261013/s14-source-manifest.json from the exact recorded commit; verify each path byte count and SHA256 before running unchanged role preflights."
+  }
+}

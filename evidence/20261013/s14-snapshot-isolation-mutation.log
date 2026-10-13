@@ -1,0 +1,10 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_________ test_ciphertext_audit_keeps_snapshot_across_committed_writer _________
+tests/test_doctor_snapshot.py:25: in test_ciphertext_audit_keeps_snapshot_across_committed_writer
+    assert report['rows_observed']==7 and report['nonnull_cells_authenticated']==6
+E   assert (7 == 7 and 1 == 6)
+=========================== short test summary info ============================
+FAILED tests/test_doctor_snapshot.py::test_ciphertext_audit_keeps_snapshot_across_committed_writer
+1 failed in 0.40s

@@ -6,11 +6,11 @@
 
 - Last updated UTC: `2026-10-13T12:17Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Candidate selected for integration: `candidate-ciphertext-doctor-20261013` (S14); source-inventory SHA-256 `7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121` (183 files). Exact remote integration and composite recovery must be verified before promotion.
+- Integrated candidate: `candidate-ciphertext-doctor-20261013` (S14); source-inventory SHA-256 `7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121` (183 files). Remote integration ad0e6fbff8b6f8fcb565ea45915a442f0c61fa28 byte-verified;183-file composite restore PASS.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
-- Durable recovery: S5 GitHub archive restores3579 files; S13 composite180-file restore verified at3006595ee443c629c646e4d7fdd844767985d78d. S14 recovery follows publication. Older Library IDs and chronological entries below are historical.
+- Durable recovery: S5 GitHub archive restores3579 files; S13 composite180-file restore verified at3006595ee443c629c646e4d7fdd844767985d78d. S14 composite183-file restore verified after exact remote integration readback. Older Library IDs and chronological entries below are historical.
 - Execution wrapper: unchanged toolchain/lab_session.py and scripts/test_postgres.py dual-role preflight; exclusive lab lock. S14 full1831/1813PASS with same7 legacy failures;18 native-version skips on2.0.51. Six subsequent installed snapshot controls pass separately per cell.
 
 Correction checkpoints named S6–S14 below are date-local engineering slices. They are **not** completion of the seven named integration work units; in particular `S6-ONLINE-MIGRATION` remains open. Append-only entries retain history; the front tables below are the current reconciled status.
@@ -142,7 +142,7 @@ Existing documented targets (not pass claims): added p95 ≤3 ms point/equality;
 
 ## NEXT ACTION (top five; update after each slice)
 
-1. Publish and byte-verify S14 source, complete evidence and183-file composite recovery; preserve prior checkpoints.
+1. Preserve verified S14 source, artifacts,183-file recovery and remaining evidence readback; prior checkpoints retained.
 2. Investigate unresolved legacy-layout transition/restore compatibility; preserve all seven original assertions and approved safety contracts.
 3. Extend remaining diagnostic evidence only where useful: bigint/single-tenant traversal, cross-table byte limits and key-lease outage behavior; provider custody remains unknown.
 4. Establish a clean unrelated PostgreSQL application baseline. Fresh-cluster/new-credential qualification waits for the existing unanswered approval.

@@ -1,0 +1,87 @@
+{
+  "prototype": {
+    "commit": "9152921f823d8bdd65d9a90aea3ab406e29f7e11",
+    "verified": [
+      {
+        "path": "experiments/s14-ciphertext-doctor/src/cryptalis/doctor.py",
+        "sha": "547c5cde488f88a0aaac24085ffb6dd259890954",
+        "match": true
+      },
+      {
+        "path": "experiments/s14-ciphertext-doctor/src/cryptalis/_doctor_ciphertext.py",
+        "sha": "4c1f9e5e3b37e7af3ef088f5490b67ea56b9796a",
+        "match": true
+      },
+      {
+        "path": "experiments/s14-ciphertext-doctor/tests/test_doctor_ciphertext.py",
+        "sha": "290f76ca34d307fd9a11e2d28d234ebf3a764021",
+        "match": true
+      },
+      {
+        "path": "experiments/s14-ciphertext-doctor/design.md",
+        "sha": "effd05380b7663447bc7fff51233d0d5dba49542",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-artifact-build.json",
+        "sha": "56820d8af8b5468cb542885d42a4cd59b4605e24",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-authentication-mutation.log",
+        "sha": "ddd71c35fdf7e7fee161513cc77450d7eaee82ae",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-byte-bound-mutation.log",
+        "sha": "2f1df389c59e074bb17183fe18fcd34f540851c2",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-restored-bounds.log",
+        "sha": "f0d48c301808ce06218986ef9e50f4b1753177ce",
+        "match": true
+      }
+    ]
+  },
+  "artifacts_evidence": {
+    "commit": "f194ae6d98728d0c8a8d0996fe17e63c738132ad",
+    "verified": [
+      {
+        "path": "experiments/s14-ciphertext-doctor/artifacts/cryptalis-0.1.0-py3-none-any.whl",
+        "sha": "11b4929b0fd618a8cc0554532a79cd3ffa67ffce",
+        "match": true
+      },
+      {
+        "path": "experiments/s14-ciphertext-doctor/artifacts/cryptalis-0.1.0.tar.gz",
+        "sha": "9dd794ed437f901eb43081eb9afb7ed7093bc77f",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-missing-api-red.log",
+        "sha": "a22cd6b3ee66e26f9b5c8a95b8209b745eeee3cb",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-initial-setup-failure.log",
+        "sha": "a4ec5bf8d5743c0f6d39daea36bbc7cdc08aa27a",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-corrected-source.log",
+        "sha": "aea1021ce24bda9798d99ac95c542dbd3e300b32",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-installed-full-sa21.log",
+        "sha": "9520fe2bababa32d66a94b6b782e299c0a0a940d",
+        "match": true
+      },
+      {
+        "path": "evidence/20261013/s14-prototype-publication.json",
+        "sha": "20b1efd59a13380799fd03c36ef97511cf5947e3",
+        "match": true
+      }
+    ]
+  }
+}
