@@ -8,6 +8,7 @@ import hashlib
 import json
 import os
 from dataclasses import dataclass
+from functools import cached_property
 from hmac import compare_digest
 from uuid import UUID
 
@@ -72,6 +73,13 @@ class FieldDescriptor:
     def equality(self):
         return self.representation == "cf1-packed-equality/v1"
 
+    @cached_property
+    def _cf1_search_info(self):
+        # Only public immutable descriptor bytes. Every term still derives its
+        # key from the currently resolved material and authenticates normally.
+        return tuple_bytes(b"CF1/search-key", self.field_id.bytes,
+                           b"utf8-exact/v1", b"identity/v1", b"equality")
+
     def _record(self, tenant, record):
         _native_uuid(tenant)
         if self.tenant_codec == "single-tenant-uuid/v1" and tenant != self.table_id:
@@ -97,9 +105,7 @@ def _encode(value):
 
 
 def _derive(material, info):
-    c = material.context
-    salt = hashlib.sha256(tuple_bytes(b"CF1/root", c.domain_id.bytes, c.tenant_id.bytes,
-                                     c.root_id.bytes, c.generation.to_bytes(4, "big"))).digest()
+    salt = material.context._cf1_root_salt
     try:
         return HKDF(algorithm=hashes.SHA256(), length=32, salt=salt, info=info).derive(material.root)
     except Exception:
@@ -107,8 +113,7 @@ def _derive(material, info):
 
 
 def _term(encoded, field, material):
-    key = _derive(material, tuple_bytes(b"CF1/search-key", field.field_id.bytes,
-                                       b"utf8-exact/v1", b"identity/v1", b"equality"))
+    key = _derive(material, field._cf1_search_info)
     try:
         mac = hmac.HMAC(key, hashes.SHA256())
         mac.update(tuple_bytes(b"equality", encoded))

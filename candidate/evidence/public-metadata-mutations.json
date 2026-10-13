@@ -1,0 +1,18 @@
+[
+  {
+    "mutation": "KeyContext._cf1_root_salt",
+    "expected": "independent transcript control rejects missing context",
+    "detected": true,
+    "failures": 1,
+    "errors": 0,
+    "log": "evidence/public-metadata-mutation-_cf1_root_salt.log"
+  },
+  {
+    "mutation": "FieldDescriptor._cf1_search_info",
+    "expected": "independent transcript control rejects missing context",
+    "detected": true,
+    "failures": 1,
+    "errors": 0,
+    "log": "evidence/public-metadata-mutation-_cf1_search_info.log"
+  }
+]

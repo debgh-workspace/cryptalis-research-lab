@@ -5,11 +5,13 @@ bytes cannot provide a verified zeroization guarantee.
 """
 
 import asyncio
+import hashlib
 import os
 import threading
 import time
 from itertools import count
 from dataclasses import dataclass, field
+from functools import cached_property
 from hmac import compare_digest
 from types import MappingProxyType
 from typing import Protocol
@@ -125,6 +127,14 @@ class KeyContext:
         _generation(self.generation)
         if self.purpose not in ("payload", "search"):
             raise InvalidContext()
+
+    @cached_property
+    def _cf1_root_salt(self):
+        # Public immutable context only. No root/derived key is retained here.
+        # Not a dataclass field: wire serialization/equality stay unchanged.
+        return hashlib.sha256(tuple_bytes(b"CF1/root", self.domain_id.bytes,
+                                          self.tenant_id.bytes, self.root_id.bytes,
+                                          self.generation.to_bytes(4, "big"))).digest()
 
     def _aad(self, provider_id):
         _identity(provider_id)

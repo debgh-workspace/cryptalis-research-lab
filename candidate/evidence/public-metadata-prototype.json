@@ -1,0 +1,523 @@
+{
+  "scope": "Pure warm CF1 metadata-only prototype, synthetic frozen vectors, same process alternating pairs. No SQL/native result, production or independent security qualification.",
+  "gate_passed": false,
+  "implemented": false,
+  "python": "3.12.14",
+  "cryptography": "50.0.2",
+  "pid": 2,
+  "source_sha256": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-search-20261013/src/cryptalis/crypto/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-search-20261013/experiments/profile_public_metadata.py": "5b93734f520b11121a70a1b30ef5849453c7e28a90fda41d7b01c3486eae84ea"
+  },
+  "aggregate": [
+    {
+      "family": "open_storage",
+      "baseline_ns": 14017.959,
+      "candidate_ns": 12385.226,
+      "reduction_percent": 11.64743740511725,
+      "favorable_pairs": 9
+    },
+    {
+      "family": "open_equality",
+      "baseline_ns": 22688.199,
+      "candidate_ns": 20629.956,
+      "reduction_percent": 9.071865951105252,
+      "favorable_pairs": 8
+    },
+    {
+      "family": "query_term",
+      "baseline_ns": 9446.722,
+      "candidate_ns": 7373.15375,
+      "reduction_percent": 21.950135189751528,
+      "favorable_pairs": 9
+    }
+  ],
+  "records": [
+    {
+      "block": 0,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 14423.53775,
+      "raw_ns_each": 14422.982,
+      "cpu_ns_each": 14418.6365
+    },
+    {
+      "block": 0,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 26094.025,
+      "raw_ns_each": 26094.06575,
+      "cpu_ns_each": 26088.70975
+    },
+    {
+      "block": 0,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 9636.8505,
+      "raw_ns_each": 9636.64575,
+      "cpu_ns_each": 9635.6825
+    },
+    {
+      "block": 0,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13642.74725,
+      "raw_ns_each": 13642.41025,
+      "cpu_ns_each": 13635.08775
+    },
+    {
+      "block": 0,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 17807.35725,
+      "raw_ns_each": 17807.19775,
+      "cpu_ns_each": 17794.94575
+    },
+    {
+      "block": 0,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 6562.49225,
+      "raw_ns_each": 6562.28475,
+      "cpu_ns_each": 6561.49925
+    },
+    {
+      "block": 1,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 10541.24925,
+      "raw_ns_each": 10541.222,
+      "cpu_ns_each": 10540.509
+    },
+    {
+      "block": 1,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 17562.83825,
+      "raw_ns_each": 17562.9255,
+      "cpu_ns_each": 17561.92525
+    },
+    {
+      "block": 1,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 6819.82625,
+      "raw_ns_each": 6819.4275,
+      "cpu_ns_each": 6818.59425
+    },
+    {
+      "block": 1,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 12988.19625,
+      "raw_ns_each": 12988.0865,
+      "cpu_ns_each": 12964.6625
+    },
+    {
+      "block": 1,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22348.9925,
+      "raw_ns_each": 22349.01925,
+      "cpu_ns_each": 22347.944
+    },
+    {
+      "block": 1,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 9011.22925,
+      "raw_ns_each": 9010.90925,
+      "cpu_ns_each": 9006.3305
+    },
+    {
+      "block": 2,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13774.5025,
+      "raw_ns_each": 13774.34675,
+      "cpu_ns_each": 13773.296
+    },
+    {
+      "block": 2,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22688.199,
+      "raw_ns_each": 22688.30675,
+      "cpu_ns_each": 22687.32675
+    },
+    {
+      "block": 2,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 9413.949,
+      "raw_ns_each": 9413.90925,
+      "cpu_ns_each": 9412.81825
+    },
+    {
+      "block": 2,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13022.7545,
+      "raw_ns_each": 13022.55775,
+      "cpu_ns_each": 13019.266
+    },
+    {
+      "block": 2,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 20678.9365,
+      "raw_ns_each": 20679.0675,
+      "cpu_ns_each": 20678.03975
+    },
+    {
+      "block": 2,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7373.15375,
+      "raw_ns_each": 7373.1015,
+      "cpu_ns_each": 7372.391
+    },
+    {
+      "block": 3,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 12551.432,
+      "raw_ns_each": 12551.39125,
+      "cpu_ns_each": 12550.35325
+    },
+    {
+      "block": 3,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 20818.1015,
+      "raw_ns_each": 20818.24825,
+      "cpu_ns_each": 20801.7025
+    },
+    {
+      "block": 3,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7520.1415,
+      "raw_ns_each": 7520.0405,
+      "cpu_ns_each": 7519.177
+    },
+    {
+      "block": 3,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 14095.143,
+      "raw_ns_each": 14095.1455,
+      "cpu_ns_each": 14091.481
+    },
+    {
+      "block": 3,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 21879.976,
+      "raw_ns_each": 21880.1965,
+      "cpu_ns_each": 21874.52675
+    },
+    {
+      "block": 3,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 8981.2905,
+      "raw_ns_each": 8981.26525,
+      "cpu_ns_each": 8980.14925
+    },
+    {
+      "block": 4,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13414.548,
+      "raw_ns_each": 13414.56875,
+      "cpu_ns_each": 13413.37525
+    },
+    {
+      "block": 4,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22432.24675,
+      "raw_ns_each": 22432.40825,
+      "cpu_ns_each": 22431.2205
+    },
+    {
+      "block": 4,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 10184.7095,
+      "raw_ns_each": 10184.63625,
+      "cpu_ns_each": 10183.39525
+    },
+    {
+      "block": 4,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 12119.71775,
+      "raw_ns_each": 12119.7115,
+      "cpu_ns_each": 12118.365
+    },
+    {
+      "block": 4,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 20629.956,
+      "raw_ns_each": 20629.958,
+      "cpu_ns_each": 20628.7
+    },
+    {
+      "block": 4,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 6997.912,
+      "raw_ns_each": 6997.84325,
+      "cpu_ns_each": 6996.98975
+    },
+    {
+      "block": 5,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 12385.226,
+      "raw_ns_each": 12385.139,
+      "cpu_ns_each": 12383.783
+    },
+    {
+      "block": 5,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 20606.091,
+      "raw_ns_each": 20606.30025,
+      "cpu_ns_each": 20605.2325
+    },
+    {
+      "block": 5,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7478.3255,
+      "raw_ns_each": 7478.1655,
+      "cpu_ns_each": 7477.1745
+    },
+    {
+      "block": 5,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 14017.959,
+      "raw_ns_each": 14017.90175,
+      "cpu_ns_each": 14014.57275
+    },
+    {
+      "block": 5,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22796.803,
+      "raw_ns_each": 22797.046,
+      "cpu_ns_each": 22795.84825
+    },
+    {
+      "block": 5,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 8789.81525,
+      "raw_ns_each": 8789.7125,
+      "cpu_ns_each": 8788.6265
+    },
+    {
+      "block": 6,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13662.1705,
+      "raw_ns_each": 13662.295,
+      "cpu_ns_each": 13646.47475
+    },
+    {
+      "block": 6,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22303.75875,
+      "raw_ns_each": 22303.7695,
+      "cpu_ns_each": 22302.604
+    },
+    {
+      "block": 6,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 9446.722,
+      "raw_ns_each": 9446.673,
+      "cpu_ns_each": 9443.57875
+    },
+    {
+      "block": 6,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 11346.7835,
+      "raw_ns_each": 11346.7485,
+      "cpu_ns_each": 11341.121
+    },
+    {
+      "block": 6,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 20581.818,
+      "raw_ns_each": 20581.95675,
+      "cpu_ns_each": 20580.78875
+    },
+    {
+      "block": 6,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7602.74475,
+      "raw_ns_each": 7602.55325,
+      "cpu_ns_each": 7601.3845
+    },
+    {
+      "block": 7,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 13096.37475,
+      "raw_ns_each": 13096.2425,
+      "cpu_ns_each": 13012.30825
+    },
+    {
+      "block": 7,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 21302.20475,
+      "raw_ns_each": 21302.34875,
+      "cpu_ns_each": 21301.31375
+    },
+    {
+      "block": 7,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7240.0565,
+      "raw_ns_each": 7239.956,
+      "cpu_ns_each": 7239.015
+    },
+    {
+      "block": 7,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 15940.75775,
+      "raw_ns_each": 15940.79775,
+      "cpu_ns_each": 15939.737
+    },
+    {
+      "block": 7,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 26033.22975,
+      "raw_ns_each": 26033.49425,
+      "cpu_ns_each": 26032.1515
+    },
+    {
+      "block": 7,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 10676.56725,
+      "raw_ns_each": 10676.55075,
+      "cpu_ns_each": 10675.37725
+    },
+    {
+      "block": 8,
+      "variant": "baseline",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 18555.4755,
+      "raw_ns_each": 18555.6245,
+      "cpu_ns_each": 18554.43375
+    },
+    {
+      "block": 8,
+      "variant": "baseline",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 22690.92425,
+      "raw_ns_each": 22690.97925,
+      "cpu_ns_each": 22687.66575
+    },
+    {
+      "block": 8,
+      "variant": "baseline",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 9554.0515,
+      "raw_ns_each": 9553.895,
+      "cpu_ns_each": 9552.58125
+    },
+    {
+      "block": 8,
+      "variant": "public_metadata",
+      "family": "open_storage",
+      "iterations": 4000,
+      "ns_each": 11204.5955,
+      "raw_ns_each": 11204.54425,
+      "cpu_ns_each": 11203.531
+    },
+    {
+      "block": 8,
+      "variant": "public_metadata",
+      "family": "open_equality",
+      "iterations": 4000,
+      "ns_each": 23509.8995,
+      "raw_ns_each": 23510.11725,
+      "cpu_ns_each": 23495.0215
+    },
+    {
+      "block": 8,
+      "variant": "public_metadata",
+      "family": "query_term",
+      "iterations": 4000,
+      "ns_each": 7484.347,
+      "raw_ns_each": 7484.217,
+      "cpu_ns_each": 7483.03575
+    }
+  ]
+}

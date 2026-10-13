@@ -1,0 +1,14 @@
+{
+  "scope": "Pure shared-public-context concurrent use, serialization and copying; synthetic roots only; no DB or timing claim",
+  "threads": 8,
+  "jobs": 128,
+  "different_root_sets_sharing_context": 2,
+  "all_independent_transcripts_match": true,
+  "asdict_hash_equality_stable": true,
+  "copy_deepcopy_trusted_pickle_replace_stable": true,
+  "note": "Pickle check is trusted local object compatibility only. Never unpickle untrusted input.",
+  "public_cache_bytes": {
+    "root_salt": 32,
+    "search_info": 86
+  }
+}
