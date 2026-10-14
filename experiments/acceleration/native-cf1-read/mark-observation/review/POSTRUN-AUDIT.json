@@ -1,0 +1,20 @@
+{
+  "ordered_ids_unique": true,
+  "populations": {
+    "baselines": 4,
+    "negative_controls": 8,
+    "helpers": 48
+  },
+  "mode0_exact": true,
+  "mode1_exact": true,
+  "mode_correspondence": true,
+  "source_pins_preserved_in_build": true,
+  "binary_link": true,
+  "manifest_link": true,
+  "build_clean": true,
+  "bounded_launches": true,
+  "launch_modes": true,
+  "backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "binary_sha256": "289226d2c3cd4b8ae6316b5457f8dcdd2be04c92bf45bc3934af90e00d0c6528",
+  "manifest_sha256": "b70cfd9895309386bc8c5968987a003af893a0d0fd750f83ec0f40c955e6ceac"
+}
