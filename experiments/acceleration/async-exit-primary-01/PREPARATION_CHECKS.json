@@ -1,0 +1,26 @@
+{
+  "scope": "Static source/data preparation only; no product imports or test/DB/install/network execution",
+  "baseline_files_verified": 216,
+  "red_files": 217,
+  "green_files": 217,
+  "baseline_changed": false,
+  "red_added": [
+    "tests/test_sqlalchemy_async_exit_double_failure.py"
+  ],
+  "red_modified": [],
+  "green_added": [
+    "tests/test_sqlalchemy_async_exit_double_failure.py"
+  ],
+  "green_modified": [
+    "src/cryptalis/sqlalchemy.py"
+  ],
+  "new_static_node_count": 22,
+  "existing_regression_static_node_count": 24,
+  "ast_parsed_python_files_in_red_and_green": 316,
+  "test_bytes_identical_red_green": true,
+  "runtime_delta_only_one_file": true,
+  "runtime_verification": "NOT_RUN",
+  "frozen_input_files": 672,
+  "red_green_test_bytes_equal": true,
+  "notes": "Bash syntax check and independent source/command review remain separate from this data-only freeze."
+}
