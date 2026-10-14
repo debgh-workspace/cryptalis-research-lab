@@ -1,0 +1,63 @@
+{
+  "archive": "CRYPTALIS_S25_INSTALLED_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "6646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a",
+  "bytes": 960636,
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "566a2564d4cb84571486872b3361acb8703ff1f0532a4bc15d6c6e55edf464d4"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "7b69e729560c5b14ebe62c9b2f8412a1939158c2598aa604784ef5390974db49"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "cc3f1493e63323f001d057a0f91dbac38e6341df3d1781efa7daf56fc0639761"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 96000,
+      "sha256": "b73444d8bf33dc2e0d0a3caaec15a13e752da359db3f7d6747ee09c723ac1c26"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 96000,
+      "sha256": "d8760b1e7622756dc9bb7b333379bd242e83b362af85cde86ff1b1d4e6bee2d4"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 96000,
+      "sha256": "b493f42374c080c142fad9793d104773c870795add0f6df252f89fed597c8c79"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 96000,
+      "sha256": "17dccddf40f2d53e21e1ea62232674f7eac80b93953c282d495cb0eec05054e5"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 96000,
+      "sha256": "4c1e7a5628cb652369aaa088b54079a6408245ace1772b1ae463e6cd72dd5dee"
+    },
+    {
+      "name": "part-09.bin",
+      "bytes": 96000,
+      "sha256": "51705364658d50ac5f9bb48fee51ad5375785a173eac57b002a9bae36033210d"
+    },
+    {
+      "name": "part-10.bin",
+      "bytes": 96000,
+      "sha256": "dfda6b6ce1c40b1acc9458091d5c34a88543d617f07fdc9383205f50b1c3aab2"
+    },
+    {
+      "name": "part-11.bin",
+      "bytes": 636,
+      "sha256": "3e4d27e0d7eb649ba3095e59d487ef8f596fcd233741700931ced0392b383494"
+    }
+  ],
+  "scope": "Selected installed S25 evidence only; no full source/runtime/dependency/database restore."
+}
