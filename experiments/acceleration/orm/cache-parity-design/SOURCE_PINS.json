@@ -1,0 +1,21 @@
+{
+  "scope": "source-only; no candidate imports or execution",
+  "files": {
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/__init__.py": "a9adec906730591e19e14ee9c76406d0e03e9ca0063472f0b09f6affd939d802",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/_elements_constructors.py": "8f7c8799641d16bbc4410a75a1653fb399f2c341bab10cf3ff36c61c21a8feae",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py": "ccfa2677dcae266e4327d2627bced5e70d8cf1972fea6addd67c75ef840a4a6a",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py": "d862c8095e1ee74e98eb9b6e8942e98235974d2c0ee8b318c472fc8e7b46d62e",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/cache_key.py": "3a2849a8e56c754d05fc84a1af4148a6d4d11ed22533550867fe4b47c2d07744",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py": "de49e59123dd4e6118784c1b82415127f120a8ad38ef86973ab5fc28605378d9",
+    "cryptalis-executable/repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py": "9a92107da1c58688d84c9b8c9b15a936fb6fad94d8c9b8e36690bf169e5e7958",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/__init__.py": "585a8f5acb190fc9789f4bcf821b8b53adf57bbc27344f52bcf8f6bcecaad5a5",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/sql/_elements_constructors.py": "e1dcdc312d31352bf115d5ccc71fb6a7b38af7c4abba2fdc5aad3a0a4d0a9544",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/sql/elements.py": "2a85480d879f833e6df86d5630028e04c1b0e83b62a351490b6b3b6c322bab81",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/sql/compiler.py": "bc6ed1aafad01f1cfba799a285340021f2d0b7638a1e745eee9b494cd2bc627b",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/sql/cache_key.py": "004d0b1c1de1fae90213de6cbd6f4751c33bad65105a824a7bd4d85bda4ac4a7",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/base.py": "53f38e544004d329ac38e243104bf4bbbaf7d0f0cecabd112b1923b78dde5614",
+    "cryptalis-executable/release-lab/s19-removal-boundary-sa20-20261013/lib/python3.12/site-packages/sqlalchemy/engine/default.py": "43886cde55bc6ec1da223a20319c811f8d46a81282c60455691df2cb632a0c2f",
+    "cryptalis-executable/candidate-accel-payload-integrated-20261014/src/cryptalis/sqlalchemy.py": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+    "cryptalis-executable/candidate-accel-payload-integrated-20261014/src/cryptalis/_sqlalchemy_search.py": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+  }
+}
