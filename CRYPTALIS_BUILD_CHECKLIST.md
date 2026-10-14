@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T13:50Z`
+- Last updated UTC: `2026-10-14T14:16Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded integrated research candidate: S20 `candidate-accel-payload-integrated-20261014`,208files (all204S19files unchanged plus4additions). Installed2337/2291PASS, same7legacyFAIL,56subtests,46SA20skips;freshinstalledrestore55PASS4.58s. Source45ea95be055a9092a90bd04b339d7649819e26b7 and qualification d1e85244b207e0c45bfe46b9b9886b9a477c1037 remotely byte-verified. S20 source/research archive is now remotely complete at ddc5c8776176cff93e280c6cfd44248fb42e0d74:24parts reconstructed exactly,216payloadfiles verified,55installedsmokePASS4.94s. PriorS19archive retained. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -915,3 +915,16 @@ One reviewed static license inventory run0.162s,exit0,empty stderr.73pins,eight 
 Exact locked qualification environment resourcegap: all13Linux/CPython3.12runtime+test originaldistributionarchives absent in inspectedworkspace; unpackedcaches cannot prove officialZIP hashes. Separatemissing-wheel-candidates.tsvrecords exactlockedURLs/hashes. Two officialfiles.pythonhosted.org probes for lockedpycparser3.0 timedout(urllibHEAD; boundedcurlHEAD connectiontimeout5002ms/exit28 after reviewed networkaccess request). No download,install,environmentcreation or testrepeat. Need originalhashmatchingarchives or a reachableauthorizedofficialdownloadroute; existingenvironmentsuntouched.
 
 Optional source-releasehardening preparation authorized: isolatedS20 derivative,only pyproject source-include=["uv.lock"], independentlyreviewedexactbackend/timestamp/buildscope beforeexecution. Expectednewdirect/fromsdistwheels must match existingS20byteforbyte; no runtime/dependencychange or PGtestrepeat. This does not resolve environmentdrift, builder-range pinning or cleanmachinequalification.
+
+
+## 2026-10-14 14:16 UTC — S20 source-lock packaging checkpoint
+
+Status: optional packaging hardening PASS, independently reviewed. Highest runtime candidate remains S20; seven legacy failures and all seven UNKNOWN gates remain unchanged.
+
+- The isolated 208-file derivative changes only pyproject.toml to include uv.lock in the source distribution. Four bounded offline builds succeeded. Both new sdists are identical, 142870 bytes, SHA256 46a7e99426282cdcb386ed24a0af2cae6ebf7ba8278598fa701857b5caaab0aa. Both direct and source-archive-built wheels exactly equal original S20, SHA256 a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7. All 40 modules and 44 hashed RECORD entries remain unchanged.
+- Independent archive inspection: 51 to 52 members, 45 to 46 regular files; only uv.lock added, only two pyproject payloads changed. Missing/altered lock negative controls both rejected. Reviewed v3 parent wrapper completed with limits restored and all integrity groups verified. V2 unexecuted preparation remains preserved.
+- Source batch 4e3de9845e72bf50a4c7a7a210d6cfd29c012e18: 8 exact remote files. Artifact/evidence batch 1c70d2a4fd0c7f1399b6464b190ebf6c6efe06f9: 8 exact remote files; all 3 downloaded binary parts reconstruct the exact 142870-byte archive. Launcher batch 6a37d33ccdc5ea658223e61de76f28e6fed746b2: 8 exact remote files.
+- Composite remote-source restore verifies all 208 derivative files. Initial observer key-format mismatch (./ prefix) is preserved separately; correction changed comparison normalization only, not source bytes.
+- Local full capsule: 1953728 bytes, SHA256 1fc8081b795a6e0416a69bdd995ff92137c9b980e3d139bfe6e731ad8f13116c; all 295 files freshly extracted and compared. This capsule is LOCAL ONLY. Exact Python/uv and dependencies remain external, with 124 references checked. Remote artifact/source restoration does not imply this entire capsule is published.
+- Release environment defect remains OPEN: original locked dependency wheel archives unavailable, installed pycparser/iniconfig metadata differs from lock. No dependencies changed or runtime/PostgreSQL tests repeated. Same-host build identity does not establish clean-machine reproducibility or qualification.
+- Next dependent steps: acquire exact official dependency archives through an authorized reachable route; obtain pending native error-policy decision before timing; retain pending lifecycle, migration and new-cluster permissions. Do not reinterpret preserved test failures, unsupported native operations or performance gate failures as completed capabilities.

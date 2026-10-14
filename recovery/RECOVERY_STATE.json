@@ -799,12 +799,24 @@
     }
   },
   "latest_24h_audit_commit": "2bd59248c21c45537a9a734c53f57407409c36df",
-  "latest_reconciliation_utc": "2026-10-14T13:50:00Z",
+  "latest_reconciliation_utc": "2026-10-14T14:16:00Z",
   "native_sanitizer_status": "T/S v2 plus corrected D v3 independently audited:3418 positive observations,12 intended negatives; original D provenance failure preserved; leak UNKNOWN",
   "latest_search_checkpoint": "4fbac8bd28d35c57d3b929868cde46287bbb7e7f",
   "latest_orm_checkpoint": "a690c5d0563531d3a0da210f0c33b29595ed2e72",
   "latest_release_evidence_checkpoint": "9c41b4461ca6625a031f753799c54c0d3c46ee52",
   "release_env_lock_defect": "OPEN: current pycparser/iniconfig metadata mismatch, original wheel archives missing; no install/test rerun",
   "native_timing_owner_decision": "PENDING Sentinel_4f098287705081d189fcf808f0148c97",
-  "packaging_hardening": "source-only derivative; bounded outer launcher in preparation; no builds yet"
+  "packaging_hardening": {
+    "status": "PASS scoped optional packaging; runtime wheel unchanged",
+    "artifact_commit": "1c70d2a4fd0c7f1399b6464b190ebf6c6efe06f9",
+    "launcher_commit": "6a37d33ccdc5ea658223e61de76f28e6fed746b2",
+    "source_commit": "4e3de9845e72bf50a4c7a7a210d6cfd29c012e18",
+    "remote_archive_sha256": "46a7e99426282cdcb386ed24a0af2cae6ebf7ba8278598fa701857b5caaab0aa",
+    "remote_archive_bytes": 142870,
+    "remote_composite_source_files_verified": 208,
+    "local_capsule_sha256": "1fc8081b795a6e0416a69bdd995ff92137c9b980e3d139bfe6e731ad8f13116c",
+    "local_capsule_files_verified": 295,
+    "full_capsule_remote": false,
+    "gates": "all seven UNKNOWN"
+  }
 }

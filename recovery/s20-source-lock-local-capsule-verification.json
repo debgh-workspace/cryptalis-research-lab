@@ -1,0 +1,20 @@
+{
+  "archive": "s20-source-lock-release-evidence-20261014.tar.gz",
+  "archive_bytes": 1953728,
+  "archive_files_verified": 295,
+  "archive_sha256": "1fc8081b795a6e0416a69bdd995ff92137c9b980e3d139bfe6e731ad8f13116c",
+  "built_distribution_artifacts": 4,
+  "candidate_or_restored_binary_execution": false,
+  "derivative_source_files": 208,
+  "external_current_recorded_mismatches": [],
+  "external_dependencies_unchanged": true,
+  "external_dependency_files": 124,
+  "payload_bytes": 5446018,
+  "payload_files": 287,
+  "prior_checkpoint_top_level_files_unchanged": true,
+  "private_empty_cache_directories_excluded": 6,
+  "publication": false,
+  "sources_before_after_equal": true,
+  "status": "PASS local fresh extraction and every-file byte comparison only",
+  "uncompressed_capsule_bytes": 5660488
+}

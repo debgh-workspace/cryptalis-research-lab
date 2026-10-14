@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 208,
+  "base_remote_archive_commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+  "overlay_commit": "4e3de9845e72bf50a4c7a7a210d6cfd29c012e18",
+  "pyproject_sha256": "4653756dfe6a3dd1a185f636efb1ea0135b5235d9cdc138f30667d1f0975487f",
+  "observer_correction": "Removed exact ./ manifest prefix after preserving initial mismatch; no restored bytes changed",
+  "scope": "fresh composite source restoration from verified remote S20 extraction and exact fetched overlay; no rebuild or product import"
+}
