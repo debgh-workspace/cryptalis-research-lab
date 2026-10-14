@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_ONLY_NOT_COMPILED_NOT_EXECUTED",
+  "compiler": "gcc Debian 14.2.0-19",
+  "allocation_bytes": 131071,
+  "ordered_modes": [
+    "clean",
+    "free",
+    "leak"
+  ],
+  "pins": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-leak-controls-20261014/leak_control.c": "e0ba833a37e8fff514e0f26354f311c6b55517bb85641f141307e08989ec4e81",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-leak-controls-20261014/PLAN.md": "366a345cb163d8b7503d546662abd872d61521cddb98e85139686efd71a409b3",
+    "/usr/bin/gcc": "a23ecab8ff08f09ad8c80602c2c5df7f49e09c25905cb8975902e101bf72635f",
+    "/usr/libexec/gcc/x86_64-linux-gnu/14/cc1": "02675980109a4a5496cddf67d5286de57942759edc830deaa525e36f9a2a0291",
+    "/usr/bin/as": "07dd8551ea0aa065975e4dddb8e1bb7dc308d12d54eca22c3858db79467c7cb9",
+    "/usr/bin/ld": "d2766988b6a1b1d1518cdc09242e726d1f24e151e16410ada3092b11ffd9081b",
+    "/lib/x86_64-linux-gnu/libasan.so.8": "f5c57422d80671ced6cffe350f92c8ab9bec23fda9b155658aac630d2bc2a240",
+    "/lib/x86_64-linux-gnu/libubsan.so.1": "c3912c88d4d1d3772d44c2a77fcda85ebf2790e6efc3602f9489a4e23f4899e2",
+    "/lib/x86_64-linux-gnu/libc.so.6": "9792e3cbb541c8f44c7acf5f14f4022ea62998ecc787d326bed4d8b6547dfd92"
+  }
+}

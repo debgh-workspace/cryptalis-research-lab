@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "./leak_control",
+    "clean"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-leak-controls-20261014",
+  "status": "CAPTURED",
+  "environment_overlay": {
+    "ASAN_OPTIONS": "detect_leaks=1:leak_check_at_exit=1:halt_on_error=1:abort_on_error=0",
+    "LSAN_OPTIONS": "exitcode=23:report_objects=1",
+    "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+  },
+  "exit": 23,
+  "problem": null,
+  "captured_bytes": {
+    "stdout": 51,
+    "stderr": 222
+  },
+  "stdout_sha256": "86593d8c57ec998148b8537af29f37463fede7976b39dd205cef1288fb4b267d",
+  "stderr_sha256": "610799dc65fa45c9f0d3012f675dbffd7dc3f6f02c03a489c6f73046744f1e69"
+}
