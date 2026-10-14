@@ -1,0 +1,16 @@
+{
+  "archive_sha256": "99c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010",
+  "compressed_bytes": 1857500,
+  "regular_unique_safe_members": 492,
+  "explicit_evidence_allowlist_entries": 272,
+  "source_files": 212,
+  "metadata_files": 8,
+  "all_manifest_hashes_and_sizes_match": true,
+  "existing_fresh_restore_matches": true,
+  "independent_fresh_restore_files_verified": 492,
+  "nested_distribution_files_scanned": 182,
+  "bounded_pattern_findings": [],
+  "external_recorded_pins": 3317,
+  "external_dependency_bytes_not_included": true,
+  "restored_code_executed": false
+}

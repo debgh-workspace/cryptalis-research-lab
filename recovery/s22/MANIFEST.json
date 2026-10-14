@@ -1,0 +1,244 @@
+{
+  "archive": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz",
+  "bytes": 1857500,
+  "sha256": "99c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010",
+  "parts": [
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part01",
+      "bytes": 48000,
+      "sha256": "46735b84e95cd9ec1308a95f6c487b355e11bdab7519bc14c2171b5ec82998bc",
+      "git_blob_sha": "85b9a8f0557f383d3f408549daa1f4f7fe7672e1"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part02",
+      "bytes": 48000,
+      "sha256": "bccedc997c88fff20ac9677220e61d8d47b4bf18455d61934680b28c9f39a9f7",
+      "git_blob_sha": "32d33f8f10f30bac326ec3f12c861751df1ed63f"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part03",
+      "bytes": 48000,
+      "sha256": "bfd388d33ddb669030fa1979fd7812f9771a753c88a4092294f6419a3e44b1e5",
+      "git_blob_sha": "8f5f431ae73d7a9481f06464420a70659c09901f"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part04",
+      "bytes": 48000,
+      "sha256": "dfb451dc3574733ff354588464653f3b570619c22a13dd34849cd69fb6126277",
+      "git_blob_sha": "6cd2e1d0b84da748ec992efb41b6d57888cf237c"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part05",
+      "bytes": 48000,
+      "sha256": "2f695dcfb09a1c0fc99dee29f1c850d4a0e59deacf6ed62a5de6a734466b8926",
+      "git_blob_sha": "40cedcd64d97d58f6e07b2c249103052f0c9a3bc"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part06",
+      "bytes": 48000,
+      "sha256": "d843ce6cb67ce3a3b9f6b7bb2e97ab62929b60638b07b28dff68b4d4cd5cdb70",
+      "git_blob_sha": "4ca62e9e2d78a7d72937f68d45f3021508ae7114"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part07",
+      "bytes": 48000,
+      "sha256": "0ca8ef79276517821e113ab9c9108b894ed3585f19df4db7104f8911d7221f41",
+      "git_blob_sha": "467b8764634ed9b4efc202a6d188d22ee1662b2f"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part08",
+      "bytes": 48000,
+      "sha256": "170cc57cb9e093a00a0566b73f5792ca5812f3e98ec42e6232e3d5922722c6e1",
+      "git_blob_sha": "4167e54629a4b70d56b3b05a5ade98a0613c64b2"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part09",
+      "bytes": 48000,
+      "sha256": "376738ac8da59960838ec5c812764d4977825b5b99acb694f767e4905addbb85",
+      "git_blob_sha": "9f0f41d06924f06bfb6c39a07d9cff124acbfe4e"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part10",
+      "bytes": 48000,
+      "sha256": "8473b8e358a70a2850d4b8b1de94f2b0ec69a49b4e14d0fcf69a39ca02f46f27",
+      "git_blob_sha": "d56e596cc07e012b01d710425339422f7300ac5d"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part11",
+      "bytes": 48000,
+      "sha256": "9addd1e3a7a6d268d4b5e6ccee2818e7d8c9eb619ccb3888419b086fc0d84f44",
+      "git_blob_sha": "f397ac30dd3038feec65953f78c89b84b0fe40e4"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part12",
+      "bytes": 48000,
+      "sha256": "d7320e612f247eb19f878b45c2fd9111511647a2bb275a22c7fffe17465acfa3",
+      "git_blob_sha": "6ecf073b5c43196415d293a1298d371a2975efb0"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part13",
+      "bytes": 48000,
+      "sha256": "a1f59502fbe4363b3bd2f9759f333c9176bfe5056d5c5cb609c86d4ed5cc969f",
+      "git_blob_sha": "5f775077f32938ff4721966d8a45894da4188112"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part14",
+      "bytes": 48000,
+      "sha256": "5885dc41bafef295d84d005ac903d60c831d1c5059e25ca5f81a013d242caace",
+      "git_blob_sha": "2475806c5a282f3303adcbe68af15e88b91e996a"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part15",
+      "bytes": 48000,
+      "sha256": "cf5c469081f3dc8948502a0d0e0e29c5d3dc8d9b96f669113d85b9b09c821d81",
+      "git_blob_sha": "36377cb38571dcb452b1d53c20ca134c0e28f055"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part16",
+      "bytes": 48000,
+      "sha256": "766c4b0294095eba190414193360a7b6f308e0b7750c068cd69da851f1434837",
+      "git_blob_sha": "3ca2b769418d8f0285442fed4d39459df8ada0cc"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part17",
+      "bytes": 48000,
+      "sha256": "2f5999c41a0b882573e4df815d5bc33c93f38b210f856e8e253376690091bca2",
+      "git_blob_sha": "5c50744373bc94ddc0f2f45c69e5a3bdbf0efc9f"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part18",
+      "bytes": 48000,
+      "sha256": "9240320c1016d314f29d4ed555b69e1ab6e7bd7faf646efb00bc68fade4f5cdd",
+      "git_blob_sha": "e557075a0eb306ac3245442033dc643032f95f57"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part19",
+      "bytes": 48000,
+      "sha256": "7b09826a3c45db12d7df4ffd4d0471f3df470538e6102c1818bc8f5e4e49c9e7",
+      "git_blob_sha": "c6bcfbfe3348db91fc4c504cf847c8af569acc5e"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part20",
+      "bytes": 48000,
+      "sha256": "a14be4a6ae2e6629352e2991693fe70d86988d1e1caf55a33bfb8cfe6bc1d6da",
+      "git_blob_sha": "4fbf559287caa8860e214f909b106cd9d09b09fb"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part21",
+      "bytes": 48000,
+      "sha256": "a411be22d8743d52507c7c2f32c4a114bb4ec7d5101006c6776a2a0a76289884",
+      "git_blob_sha": "8215c67b62b8a8085e08f64bda9023016fbc1cd8"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part22",
+      "bytes": 48000,
+      "sha256": "2868cb73c8ee8080e7785b436f4393d6ab35a44a5c3da0b8a4a91b164f0d1cf7",
+      "git_blob_sha": "d8e9687ac0db0650a2145759baf259af692bd255"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part23",
+      "bytes": 48000,
+      "sha256": "e3d9f93ceb8709426d23cbaf00d11db5afcc832315f55a2c8e1632e871f11057",
+      "git_blob_sha": "f196b13094ee24fb92fc1b31b31010b53f6c72d0"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part24",
+      "bytes": 48000,
+      "sha256": "83418e240be7e1963d78797a03275b21226bebd11a951c7a18fa415b7b2e857d",
+      "git_blob_sha": "c90e65f37e9c9764df90965a81f4502b7c8e65de"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part25",
+      "bytes": 48000,
+      "sha256": "2f0d1f94276a9c687bff512d86520583eb6ea4a9483ec03ab5b9e50dc8b40943",
+      "git_blob_sha": "50337476ef4136c3d6975301bdcaf272640ee4f4"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part26",
+      "bytes": 48000,
+      "sha256": "a01a8ebd0ffcc2177ba6156d1f1d98a27cdeb02a130b2dbbf3f9104927077c5e",
+      "git_blob_sha": "d61b6b5cf45ee405efca7f4a66db7f086d67caa2"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part27",
+      "bytes": 48000,
+      "sha256": "ba56a9f80e9a19bd54407116d0b60e04d6d7063f47f98626787a451cebac6f9e",
+      "git_blob_sha": "4e16581a1eb53d74a13a35758d46072b214dc857"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part28",
+      "bytes": 48000,
+      "sha256": "77c31244d66a234233dfe241814e19f1464c32530dddcc5ecddf9a5ee0b31abb",
+      "git_blob_sha": "6d9ca80d253cd15a8ab5d2c7225a04001a773a91"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part29",
+      "bytes": 48000,
+      "sha256": "4cba62ee4d64069c6a2a431b64b2ccce37dd309808503c9321dd4bb4811a8850",
+      "git_blob_sha": "5d987d28f3096f8e19baa677044e4fb2f395b86b"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part30",
+      "bytes": 48000,
+      "sha256": "796ac1fa4dd6fc27233562643f8894f793ed16a38c14f4ca02f9c90218c77f6d",
+      "git_blob_sha": "15bd4c2202edc6182f86c69d841c0ff4a5f2d75b"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part31",
+      "bytes": 48000,
+      "sha256": "a7bb69db8619c756f09cdb286a8dec43919ea61ea495ef5bc7b1dc8c07a25573",
+      "git_blob_sha": "bf96c93ef272e5350eecebdcd1da18f2904a0ca7"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part32",
+      "bytes": 48000,
+      "sha256": "a4cc6aad8afc3bd314745ced30cc8714e34433b6d25275ad052631d5eebb50e0",
+      "git_blob_sha": "431835c7c34a84bf802c640e53c2f8fd57f66559"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part33",
+      "bytes": 48000,
+      "sha256": "b20176a8d56f448d60a6e0253d825dd2d5240a7446bd83cc993699fec14fd0f2",
+      "git_blob_sha": "89583dfcea5d600d6283172a0f0fbeb55715c971"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part34",
+      "bytes": 48000,
+      "sha256": "38b568057b8c2f2aa329f7fe61ab0dd21395a44f2cd91fdb20e9aeb9935fff6b",
+      "git_blob_sha": "067fbf59f42255b644eb10d894ed81f350118aa3"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part35",
+      "bytes": 48000,
+      "sha256": "f7d4c337b1fd35682c690ff765432ae309a11344664477bfdb77f4c87dd80461",
+      "git_blob_sha": "d2a116d575ce6ee0e868eb167b8f1fcc8b6bb611"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part36",
+      "bytes": 48000,
+      "sha256": "97f7adfb1bd6eda583b797406cf4009d9d2011a99b7c6d472075d88a43eceab6",
+      "git_blob_sha": "b755f22dfd658dafa7395f0ab695b2e0e03b3178"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part37",
+      "bytes": 48000,
+      "sha256": "47093225e861e5c10a10685801411c2aa5b939f3e1ebbc97ff620b269a2c66d2",
+      "git_blob_sha": "79464c3e352955023a6d736ca2f889d96ba21432"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part38",
+      "bytes": 48000,
+      "sha256": "931936bdcbe91b550170ae0a5c9d46be670fc411ae9c3c01297dfdef67d67df8",
+      "git_blob_sha": "c3d6b0eaeca6e1baf51aeca17744f0e0e05b1b12"
+    },
+    {
+      "name": "CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz.part39",
+      "bytes": 33500,
+      "sha256": "cb24bddb404c746e7b60b1f0a29b8ab3de769329296184474fa5c12b02548f42",
+      "git_blob_sha": "e5f3498758e80fd8ad07ae2d403153f63cc85b5d"
+    }
+  ],
+  "scope": "S22 source and explicitly allowlisted evidence; current corpus refresh excluded; no external dependency/runtime/database restoration",
+  "source_files": 212,
+  "archive_files": 492
+}
