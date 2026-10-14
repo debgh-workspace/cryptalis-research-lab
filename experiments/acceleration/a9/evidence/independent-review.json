@@ -1,0 +1,14 @@
+{
+  "status": "HOLD; bounded opaque-placement feasibility only",
+  "verified": "Eight source hashes per pinned environment and five artifact hashes match; 12 recorded cases each. No reruns by reviewer.",
+  "missing_proof": [
+    "Complete execution default-set classification, including mixed no-arg and context-aware defaults; stored wrapped callable signature is insufficient.",
+    "Fault cases accept any Exception; exact causality/stage/native failure parity and retry not yet established.",
+    "No-arg synthetic output uses UUID only and does not consume captured private plaintext.",
+    "Native error/.params and nonempty log collector calibration incomplete.",
+    "Fixed safe exceptions do not qualify arbitrary callback/adapter/codec error privacy.",
+    "Combined UOW/connection/attempt admission, actual CF1, IMV, post-listener final argument checks, partial batches, reentrancy and async cancellation absent."
+  ],
+  "context_default_identity": "Native retained context/list identity true; routed false in both cells; incompatibility remains open.",
+  "next": "Separate R2 pure-only experiment targets missing causality, retry, retrieval and collector calibration. No protected admission or cryptography."
+}

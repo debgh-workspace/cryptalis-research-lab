@@ -1,0 +1,22 @@
+{
+  "2.1.3": {
+    "__init__.py": "a9adec906730591e19e14ee9c76406d0e03e9ca0063472f0b09f6affd939d802",
+    "orm/persistence.py": "99788cd676a4fa3fa34c2b6c2b0f57e18a563f365c730c1e0f28a9b058778055",
+    "orm/dependency.py": "82a514262ecb305d91204beaee1c3fc3e59f6e95bc097cd26835b94135b93654",
+    "orm/sync.py": "8f5bf983433fd3f7122a2bfa5047a4f8384f5802fd792a5ce2163d675e1cf7cf",
+    "orm/events.py": "7e20d9472377fa292391010eca9b800e591cfc96fd35764475dff02008a292b2",
+    "engine/base.py": "de49e59123dd4e6118784c1b82415127f120a8ad38ef86973ab5fc28605378d9",
+    "engine/default.py": "9a92107da1c58688d84c9b8c9b15a936fb6fad94d8c9b8e36690bf169e5e7958",
+    "sql/compiler.py": "d862c8095e1ee74e98eb9b6e8942e98235974d2c0ee8b318c472fc8e7b46d62e"
+  },
+  "2.0.51": {
+    "__init__.py": "585a8f5acb190fc9789f4bcf821b8b53adf57bbc27344f52bcf8f6bcecaad5a5",
+    "orm/persistence.py": "dd62e385ef70b3c0bc0fa9497085768c03a33418f623cc02433980d6249f9c2f",
+    "orm/dependency.py": "0e4bed2a0bc8c6a622403826bffd15ac315a6db40b28821a5bdbd011a16d91a2",
+    "orm/sync.py": "df2726b160072b8cf051fbdf5e3d9ee2fe7c333990f4a50b5b2e1ac281b3a0c2",
+    "orm/events.py": "8386df91c26c4459e3cb37d61f143ce21d8608d3c72912f95f439e40137a1d24",
+    "engine/base.py": "53f38e544004d329ac38e243104bf4bbbaf7d0f0cecabd112b1923b78dde5614",
+    "engine/default.py": "43886cde55bc6ec1da223a20319c811f8d46a81282c60455691df2cb632a0c2f",
+    "sql/compiler.py": "bc6ed1aafad01f1cfba799a285340021f2d0b7638a1e745eee9b494cd2bc627b"
+  }
+}

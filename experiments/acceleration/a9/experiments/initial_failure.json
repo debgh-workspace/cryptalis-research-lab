@@ -1,0 +1,6 @@
+{
+  "source_sha256": "63bb40b7a9e096562077398fba9566a84a2e2b44de5df5e85e8d1dfaad33c100",
+  "cell": "2.1.3",
+  "exit_code": 1,
+  "failure": "Observer used hasattr for class-level current_parameters; deleting absent instance attribute raised AttributeError, wrapped by native StatementError. No database connection existed."
+}

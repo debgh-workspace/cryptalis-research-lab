@@ -1,0 +1,199 @@
+{
+  "sqlalchemy": "2.1.3",
+  "database": "NONE: local fake DBAPI only",
+  "cases": [
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": null,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "context",
+      "failure": null,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "retained_context_list_identity": [
+        true
+      ]
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": null,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "constructor",
+      "callbacks": 0,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "default",
+      "callbacks": 1,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "processor",
+      "callbacks": 1,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "driver",
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "DBAPIError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": null,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "retained_context_list_identity": [
+        false
+      ]
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": "constructor",
+      "callbacks": 0,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": "default",
+      "callbacks": 1,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": [
+        false
+      ]
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": "processor",
+      "callbacks": 1,
+      "driver_calls": 0,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": [
+        false
+      ]
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": "driver",
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "handle_error",
+        "exception.params"
+      ],
+      "error": "DBAPIError",
+      "retained_callback_plain": true,
+      "retained_context_list_identity": [
+        false
+      ]
+    }
+  ],
+  "status": "BOUNDED FEASIBILITY; context-reflection incompatibility observed"
+}
