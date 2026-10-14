@@ -1,0 +1,154 @@
+{
+  "archive": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+  "archive_bytes": 1132692,
+  "archive_sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+  "encoding": "base64; decode each numbered part separately, concatenate in numeric order",
+  "parts": [
+    {
+      "name": "archive.part-01.b64",
+      "bytes": 49152,
+      "decoded_sha256": "e5ef5d86d9d9830872930b072c46e1bd84e1f5b63ed6dc04f308121ee36a877d",
+      "text_sha256": "1b604b6cf4bf4cfae9297bf7806408ab0e83b8bb67a2c3e86708521fb3225e0b"
+    },
+    {
+      "name": "archive.part-02.b64",
+      "bytes": 49152,
+      "decoded_sha256": "f2706a5a4ac23df54c743b3088c155bf6552d6645d54a06183b714b41ac13317",
+      "text_sha256": "05aa3c98f04bed4ad032f301d8b39fd02a1edbc89e1795ca8e934d492cf6ff1f"
+    },
+    {
+      "name": "archive.part-03.b64",
+      "bytes": 49152,
+      "decoded_sha256": "e46d55acbf91eb470a0a82c2e20fa6132ef9c1937ecba991f1f939fbb2eb1f3a",
+      "text_sha256": "6afc49cbcddd07cf033a3859d2b6e72f3a7d1da23c2e85e6d6126c8df8c0bd46"
+    },
+    {
+      "name": "archive.part-04.b64",
+      "bytes": 49152,
+      "decoded_sha256": "83e4d67cdef2a7fd991ac7a02290d7e19e3ccbbdb0f129d85a1214a4e19f857f",
+      "text_sha256": "9dd64b20192cb0b3f479795c9445c9ea64c651f8973fe8b30da18bb947a30946"
+    },
+    {
+      "name": "archive.part-05.b64",
+      "bytes": 49152,
+      "decoded_sha256": "52c9bdbdd4555f41f89ce810ffbff0b3ca544a83336e937908f7e9f5056712fa",
+      "text_sha256": "969dc352ec99989145464e17b896685a341512442ef407da242dca7a2b828e6e"
+    },
+    {
+      "name": "archive.part-06.b64",
+      "bytes": 49152,
+      "decoded_sha256": "37a74e0e185b2894ff75ea18dbc8a02a86dad03a3c40c404453019f3a4480432",
+      "text_sha256": "d4bd66408fe9e4d03b4ed7f07179332fd14e45aa534fbf6603dcef38d7b636a4"
+    },
+    {
+      "name": "archive.part-07.b64",
+      "bytes": 49152,
+      "decoded_sha256": "7c06655aa359e7a1bcfbdd5ed2b86caa1a8f61da3ed46038b04b6fd6bed92e23",
+      "text_sha256": "d90e252eaab83da29f186b91be4ecf7c24f9729fc0b3ac61920984289a0b6304"
+    },
+    {
+      "name": "archive.part-08.b64",
+      "bytes": 49152,
+      "decoded_sha256": "e3449613cb180d2fd93822d3c6e3474cde094a278c711d6f15642c047049e8bc",
+      "text_sha256": "112b17805d6780ae40e82a96269a6a99a58fa21a3d7a897d58289c015abe41da"
+    },
+    {
+      "name": "archive.part-09.b64",
+      "bytes": 49152,
+      "decoded_sha256": "a2ba1db9be929ee7060ce71668d7fbfe368b585d3707d8a4e06b84fefeeb4caf",
+      "text_sha256": "84dc83723111e37d8511949a240489ecddff90b3f6831907cd3e33c61ecca4dc"
+    },
+    {
+      "name": "archive.part-10.b64",
+      "bytes": 49152,
+      "decoded_sha256": "43de7f026c9e1fe00abd6f58b8cc0792a9b2ea15c9495acc7299a8f80a0da2dc",
+      "text_sha256": "a37db90e565a7af9590c9183fd8174e4c3114a7ca77432e2f786b623c4d963f2"
+    },
+    {
+      "name": "archive.part-11.b64",
+      "bytes": 49152,
+      "decoded_sha256": "8636554a0c9e27d6c4e73570c1c7a852b0d0685ea6f8550ee70b924de54c6502",
+      "text_sha256": "839fbb33ef231b4081567995936ea021e3f1f25e2275a0ce8b15960d7c769aca"
+    },
+    {
+      "name": "archive.part-12.b64",
+      "bytes": 49152,
+      "decoded_sha256": "48f3a0d5d3b37de6db61d07c5ce1a758a6ddfcd4acd7f48ae3886705a18fecfd",
+      "text_sha256": "f171bba869182283782921ab6edcec8ce6074a5887d1b9b25d2b7cb30efbfdc8"
+    },
+    {
+      "name": "archive.part-13.b64",
+      "bytes": 49152,
+      "decoded_sha256": "53c8d9a39fe4a057808e8364605dc12d0dfa7fae3c8e1643cc1885542d32d9a4",
+      "text_sha256": "a2082459b7b57b03cee776d13e7fb102005ff9bc92584551a047a2cc52067262"
+    },
+    {
+      "name": "archive.part-14.b64",
+      "bytes": 49152,
+      "decoded_sha256": "edaf30a4458c9bb02fb06699273ba925e2558ba6e5015eaf843dddb7c6bf8195",
+      "text_sha256": "500f7b525077cdefc9bb2fd04f5a263f561a506d03212f873b367d0e52b82c45"
+    },
+    {
+      "name": "archive.part-15.b64",
+      "bytes": 49152,
+      "decoded_sha256": "048f1c64d7941115a63fed2051c815c2eb6c99155e26a0b602926e296df22d4f",
+      "text_sha256": "c2138b53cbf63debe57a6eb1e08213cedcf679f72efc38e7307970779a7a2709"
+    },
+    {
+      "name": "archive.part-16.b64",
+      "bytes": 49152,
+      "decoded_sha256": "b3d8dca1ec03053731e911bae3f49520ff26ae487a0d6f628838730396a208a7",
+      "text_sha256": "9a2d6073edd6d4c88ff33a845533967b923b4e7d1e2d6dfd09de51c539878feb"
+    },
+    {
+      "name": "archive.part-17.b64",
+      "bytes": 49152,
+      "decoded_sha256": "478062b7b42faf1e10d1fc0fc123a63caf63d26495a402887760899801ce4cb7",
+      "text_sha256": "0e86d3fd79635b09e2c903a9de355fd7dd0956d02df60b9b27ef0edcc5f3ac22"
+    },
+    {
+      "name": "archive.part-18.b64",
+      "bytes": 49152,
+      "decoded_sha256": "ae95d1134ce64f674d221d213799c7b84919c455e76ebcdfd05456cc8ac58a3c",
+      "text_sha256": "f3a829904b7c76631aabcca8dfe99a4579eb17babf86bf0b6f727302670ea23e"
+    },
+    {
+      "name": "archive.part-19.b64",
+      "bytes": 49152,
+      "decoded_sha256": "2a25eed4afb5db0e739724ccb0de87212bbd930a340af9a0ae74d3b196ad880a",
+      "text_sha256": "b1036cab9ffdd34a3279416d4613212840909bba8fee522c86c33f5b1951954b"
+    },
+    {
+      "name": "archive.part-20.b64",
+      "bytes": 49152,
+      "decoded_sha256": "8bc4e913b82929b454c857b3c98b9bae313a1e2036e118cfa900f8094dd5d734",
+      "text_sha256": "9761fe4b028cfbcc50a33d90f92cb49dbca438e0d7da278267d219524f455fe4"
+    },
+    {
+      "name": "archive.part-21.b64",
+      "bytes": 49152,
+      "decoded_sha256": "75e2598d4a29d0effa02bbcba2b8b63598e5974338a5689145b46333407c680c",
+      "text_sha256": "bb1d33b4b5602a8f87f61825208505518f2534f466b456c696add5f4851fbef9"
+    },
+    {
+      "name": "archive.part-22.b64",
+      "bytes": 49152,
+      "decoded_sha256": "4b548487045516e8b18c031f1832e01cb8d62bbcfdf024b3faff906215346e20",
+      "text_sha256": "c73693a3837e6404752dbce21d81fbcd45833c0d7ba626e5ae618235fdd45853"
+    },
+    {
+      "name": "archive.part-23.b64",
+      "bytes": 49152,
+      "decoded_sha256": "7f1b380ce75c54d9d985c80fd595f6a80203e095e596ebb1de16b82db0ec7508",
+      "text_sha256": "8228b68ceb5c68e36029e4727d1cf1481435556e6124eed19348bb3415e4fd4e"
+    },
+    {
+      "name": "archive.part-24.b64",
+      "bytes": 2196,
+      "decoded_sha256": "5dc3b09460f2a75c0e9a62c5198ff8b46354384f6eea52779ed4c94e56630e60",
+      "text_sha256": "97b1d41e4e76784d86bf4acfb74eba256899b63fa932d38dc75862c0f6d5e9e1"
+    }
+  ],
+  "scope": "S20 source/research package; historical pending status inside superseded by checkpoints/s20/qualification.json; not whole workspace or new-cluster proof",
+  "prior_checkpoints_preserved": true
+}
