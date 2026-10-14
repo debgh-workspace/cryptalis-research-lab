@@ -1,0 +1,34 @@
+{
+  "status": "PASS_SCOPED_PACKAGING",
+  "sdist_sha256": "7cee7fc8e265ac0a23753f18aba34a999171072bae15a006e001cc2146ed78b7",
+  "wheel_sha256": "346eac4f4cf54bac270e25dce6f7d97cdb591ac2969a00a3b9c073a0e4a20c57",
+  "source_files": 212,
+  "runtime_modules": 40,
+  "record_hashed_entries": 44,
+  "changed_source_files": [
+    "src/cryptalis/manifest/compatibility.py"
+  ],
+  "added_source_files": [
+    "tests/test_compatibility_namedexpr.py",
+    "tests/test_compatibility_statement_bindings.py"
+  ],
+  "changed_wheel_members": [
+    "cryptalis/manifest/compatibility.py",
+    "cryptalis-0.1.0.dist-info/RECORD"
+  ],
+  "negative_controls": [
+    {
+      "id": "missing_lock",
+      "rejected": true
+    },
+    {
+      "id": "altered_lock",
+      "rejected": true
+    }
+  ],
+  "gates": "ALL_SEVEN_UNKNOWN",
+  "limits": [
+    "Same-host pinned-builder equality only; no independent reproducibility or dependency provenance.",
+    "No runtime tests, installation, database, dependency changes or release qualification."
+  ]
+}

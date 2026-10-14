@@ -1,0 +1,58 @@
+{
+  "terminal": "7 failed, 2623 passed, 50 warnings, 56 subtests passed in 407.51s (0:06:47)",
+  "outcomes": {
+    "passed": 2623,
+    "failed": 7
+  },
+  "progress": {
+    "setup/passed": 2630,
+    "call/passed": 2679,
+    "teardown/passed": 2630,
+    "call/failed": 7
+  },
+  "starts": 2630,
+  "failure_ids": [
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+    "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+    "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]"
+  ],
+  "prior_outcome_changes": [],
+  "added_cases_by_file": {
+    "tests.test_compatibility_statement_bindings": 78,
+    "tests.test_compatibility_namedexpr": 20
+  },
+  "added_case_outcomes": {
+    "passed": 98
+  },
+  "root": {
+    "source_root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s22-scanner-20261014",
+    "candidate_override": true,
+    "preflight_unchanged": true
+  },
+  "origin": {
+    "package_origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s22-scanner-20261014/src/cryptalis/__init__.py",
+    "expected_source": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s22-scanner-20261014/src",
+    "verified": true
+  },
+  "source_inventory_count": 151,
+  "before_after_identical": true,
+  "current_inventory_mismatches": [],
+  "full_preparation_count": 212,
+  "current_preparation_mismatches": [],
+  "preflight_hash_unchanged": true,
+  "conftest_hash_unchanged": true,
+  "safe_hashes": {
+    "tests.log": "3018fe633d3d44541840a9ec47f06d17a77089f9ad3a1f0af8dbb16479fdc771",
+    "junit.xml": "cbf4acf5fe5514fd67135edf9f0df9f9a6671aaffa954acb9a825c68020e0a7e",
+    "progress.jsonl": "be21f4170c429773812fd8728b561bafcd8c0f152831d4b79ab5c0e61314bfbb",
+    "source-before.json": "f87b1b7ee27d374b6bb6a6090050c99c720689cda7bdb0f6873263ee6218b510",
+    "source-stability.json": "1421d616c07067fe0af10dcac9de1439fae75f74ab7d5315f5f8d0e566d2a166",
+    "source-root.json": "34b0b3fdc54d1c45eb3506123896f194f315c5fc1facadee13e1a9b9324cf9cb",
+    "package-origin.log": "f3c0f5e38e49fee41281ce3e9e2fac1e0c98e1167064eeb221dadef73e3d6f1d",
+    "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+  }
+}
