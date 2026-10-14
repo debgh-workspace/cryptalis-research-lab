@@ -1,0 +1,13 @@
+# Frozen direct ABI and actual-fork supplement
+
+Scope approved by coordinator before execution, 2026-10-14. No execution yet.
+
+106 predeclared entries: all 100 historical ABI IDs with exactly one expected exception class and exact safe exception args; 2 actual-fork entries (storage/equality), each comparing full inherited refusal and fresh-child success; 4 synthetic supervisor controls (silent child, write then hang, excessive protocol, invalid JSON). ABI expectations derive from the unchanged C validation branches. Fork exact expectations derive from previously frozen original/exact-admission public-input recipes and diagnostics, not native observations. The finite malformed-input inventory is complete for the old supplemental matrix; it does not claim exhaustive ABI input coverage.
+
+Each fork observation compares diagnostic class, code, stage, retryable, effects, remedy, canonical args, explicit cause absence, operation-ID presence, complete resolution trace and native-entry count; successful text and type are exact. Public grid-000-1 and grid-100-1 only. No provider or PostgreSQL object is opened/inherited. An inherited PreparedKeys must fail at its first payload resolve; fresh child-created public material succeeds. No actual post-decode fork claim.
+
+Run both optimization modes. Before each positive run, two downstream observation mutations must be rejected after verifying the real record: wrong ABI exception category and omitted inherited resolution trace. These are oracle controls, not native mutants.
+
+Containment: session-isolated outer processes; 60-second outer timeout kills only the owned process group and reaps its direct child. Fork children set their own Linux parent-death SIGKILL and check the parent race. A monotonic inner deadline (10 seconds for fork, 1 second for synthetic controls) covers pipe and child exit, with nonblocking 8192-byte protocol cap, kill/reap and FD-close finally cleanup. Synthetic hangs intentionally sleep 30 seconds but must be killed at deadline. Deadline measurements are containment, never performance observations. Unexpected child exit fails admission. Unexpected ABI classes and messages fail exact comparison; unexpected unrelated exceptions escape and fail the process.
+
+Every execution enforces inherited input/build/dependency pins plus local manifest/driver pins before candidate import. All original fixtures, cases, normal C source/binary, wrapper and product files remain untouched. No builds, installations, provider changes, Git, PostgreSQL, new clusters or timing. Existing full provider/backend/leak/security/concurrency qualification and full DESIGN admission remain HOLD.
