@@ -1,0 +1,13 @@
+# Bounded owned-resource accounting
+
+Root approved this finite diagnostic-only slice before compilation/execution. No performance, database, Git, installs or product changes.
+
+Source is copied from the original helper and instrumented only at successful acquisitions and matching cleanup calls. Ten classes: MD, MD_CTX, KDF, KDF_CTX, CIPHER, CIPHER_CTX, MAC, MAC_CTX, scratch allocation, reserved Python bytes. Per-call acquisitions, releases, ownership transfers, persistent outstanding count, peak outstanding count; scratch also records live/peak requested bytes. Python bytes transfer means successful return, not deallocation. Inspection snapshot's Python allocations are outside the boundary. Stack buffers are not allocations. No hooks/interposition within Python, libc, OpenSSL or providers. GIL-held sequential research only.
+
+Finite manifest: original 149 exact fault-oracle cases, valid/term-refusal/recovery (3), plus direct native before/refusal/recovery for arity, selector and frame admission in both representations (18). Successful public payload is exactly abcdefg in the original fault cases. The authenticated wrong-term fixture is retained from prior audited public fixtures. Existing 31 equality/17 storage selectors short circuit before calls; actual allocator/provider failure and exhaustion are not simulated.
+
+Resource expectations come from the source acquisition-stage inventory and predeclared selector cutoff, never measured output. Eight EVP categories always release all acquired references; scratch releases once if acquired; reserved result releases on refusal or transfers ownership on success. Digest/KDF instances are sequentially freed between payload/search derivation, so expected per-class peak is one even when acquisition count is two. Scratch capacity uses the pinned EVP_MAX_BLOCK_LENGTH=32 plus input plaintext length. Persistent live counters are not reset between calls; only per-call deltas and peaks reset. This catches outstanding accounting across recovery calls.
+
+Downstream negative controls first verify a real observed record, then change one recorded release count or one transfer count and require the exact accounting comparator to reject it. They do not skip frees, mutate native control flow, or demonstrate all possible instrumentation defects.
+
+Limits: counts show matched owned-reference release calls in these executions, not actual internal allocator frees, full leak freedom, erasure, real provider/allocator exhaustion, arbitrary partial failures, queue/cipher-property branches, abort/cancellation, overlapping concurrency, general ABI coverage, provider identity/custody, packaging or security qualification. Existing broader admission and timing holds remain.
