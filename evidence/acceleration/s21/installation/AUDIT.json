@@ -1,0 +1,34 @@
+{
+  "sa21": {
+    "original_inventory_entries_verified": 1672,
+    "installed_wheel_payload_entries": 44,
+    "modules": 40,
+    "installed_record_rows": 50,
+    "installed_record_sha256": "3f08dce886db08f1e40096ba0abbb9615218e526fe638f4c3ea3742cb69fde80",
+    "installer_additions": [
+      "../../../bin/cryptalis",
+      "cryptalis-0.1.0.dist-info/INSTALLER",
+      "cryptalis-0.1.0.dist-info/REQUESTED",
+      "cryptalis-0.1.0.dist-info/direct_url.json",
+      "cryptalis-0.1.0.dist-info/uv_cache.json"
+    ],
+    "historic_dependency_inventory_entries": 1582,
+    "current_dependency_bytecode_not_audited": true
+  },
+  "sa20": {
+    "original_inventory_entries_verified": 1672,
+    "installed_wheel_payload_entries": 44,
+    "modules": 40,
+    "installed_record_rows": 50,
+    "installed_record_sha256": "7952f4770e429b8d3186b64be13821d5ac78cc37448e2eab38c9119a0424b535",
+    "installer_additions": [
+      "../../../bin/cryptalis",
+      "cryptalis-0.1.0.dist-info/INSTALLER",
+      "cryptalis-0.1.0.dist-info/REQUESTED",
+      "cryptalis-0.1.0.dist-info/direct_url.json",
+      "cryptalis-0.1.0.dist-info/uv_cache.json"
+    ],
+    "historic_dependency_inventory_entries": 1582,
+    "current_dependency_bytecode_not_audited": true
+  }
+}

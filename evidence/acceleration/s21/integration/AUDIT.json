@@ -1,0 +1,97 @@
+{
+  "scope": "source-overlay full suite, not installed-artifact qualification",
+  "preparation_sha256": "e1e3555ec97bea01c3e816cb73143d63d304b24d08e798589335826456b2be46",
+  "composition_count": 210,
+  "composition_mismatches": [],
+  "source_lock_changes": [
+    "src/cryptalis/migration.py",
+    "src/cryptalis/manifest/compatibility.py"
+  ],
+  "source_lock_additions": [
+    "tests/test_compatibility_string_bindings.py",
+    "tests/test_maintenance_budget_boundary.py"
+  ],
+  "cells": {
+    "sa21": {
+      "terminal": "7 failed, 2525 passed, 50 warnings, 56 subtests passed in 419.65s (0:06:59)",
+      "testcase_outcomes": {
+        "passed": 2525,
+        "failure": 7
+      },
+      "progress_phase_outcomes": {
+        "setup/passed": 2532,
+        "call/passed": 2581,
+        "teardown/passed": 2532,
+        "call/failed": 7
+      },
+      "starts": 2532,
+      "subtests_passed": 56,
+      "failure_ids": [
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+        "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]"
+      ],
+      "old_case_outcome_changes": [],
+      "added_testcases": 188,
+      "source_inventory_count": 149,
+      "before_after_identical": true,
+      "current_source_mismatches": [],
+      "safe_evidence_sha256": {
+        "tests.log": "d73069a050e81ee0c23b71b8fcac040e8b9803bea7b1bbbe6942699498222ecf",
+        "junit.xml": "73e34e97b76f51e8db4c79f368d9a597e213bed7dc07640ef8b1dff91db04465",
+        "progress.jsonl": "935fb8fb1c837a851727ed4e027a58fce68f088328a923a1fcfcd4e8b3092233",
+        "source-before.json": "c6b78cfd83a9703279d0ac82aa0169bdbcdabf229331f06dc9c0ba16bba7bd93",
+        "source-stability.json": "5f3ac39393311bc8ee9f05f3b95582aa018b3d041ffa61682bf1f9e96d1ca5ba",
+        "source-root.json": "2f73e01f62deb8a7208797a8ca3054154d3b43ddfd9c36a320fdd0b4604b6e89",
+        "package-origin.log": "8dd8f1b77773570a1bb4039ad97aba54c26ff2d96bd902dd73bec8f7a637454e",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+      }
+    },
+    "sa20": {
+      "terminal": "7 failed, 2479 passed, 46 skipped, 2 warnings, 56 subtests passed in 417.97s (0:06:57)",
+      "testcase_outcomes": {
+        "passed": 2479,
+        "failure": 7,
+        "skipped": 46
+      },
+      "progress_phase_outcomes": {
+        "setup/passed": 2514,
+        "call/passed": 2535,
+        "teardown/passed": 2532,
+        "call/failed": 7,
+        "setup/skipped": 18,
+        "call/skipped": 28
+      },
+      "starts": 2532,
+      "subtests_passed": 56,
+      "failure_ids": [
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+        "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]"
+      ],
+      "old_case_outcome_changes": [],
+      "added_testcases": 188,
+      "source_inventory_count": 149,
+      "before_after_identical": true,
+      "current_source_mismatches": [],
+      "safe_evidence_sha256": {
+        "tests.log": "cdebf6f8cac7f40642d93fae7572c72909988996546d966fb34b4135ecbcb232",
+        "junit.xml": "1651f59b36f38510b9d84479751f2d614f921678193c93a4ed87c76e7e7099db",
+        "progress.jsonl": "918072da15f7afbef26d09bf01c2d91061fb04290c60c0572523293d089215d0",
+        "source-before.json": "c6b78cfd83a9703279d0ac82aa0169bdbcdabf229331f06dc9c0ba16bba7bd93",
+        "source-stability.json": "5f3ac39393311bc8ee9f05f3b95582aa018b3d041ffa61682bf1f9e96d1ca5ba",
+        "source-root.json": "2f73e01f62deb8a7208797a8ca3054154d3b43ddfd9c36a320fdd0b4604b6e89",
+        "package-origin.log": "8dd8f1b77773570a1bb4039ad97aba54c26ff2d96bd902dd73bec8f7a637454e",
+        "readiness.log": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+      }
+    }
+  }
+}
