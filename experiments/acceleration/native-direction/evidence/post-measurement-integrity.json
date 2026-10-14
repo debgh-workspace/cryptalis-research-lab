@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+    "MICRO_PROTOCOL.md": "f85af0be9a48ad0d52af7ed70f9da9f39fb3eb02b1a13eebd529fdf5c2385f90",
+    "measure_direction.py": "f26823bfe6d13b7d57eaa8c0e5e52132c34fc18f6f59ed8a2447b50469c2a99c",
+    "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed"
+  },
+  "all_unchanged": true,
+  "independent_review": "pending",
+  "product_qualified": false
+}
