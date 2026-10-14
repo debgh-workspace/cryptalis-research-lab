@@ -1,0 +1,71 @@
+[
+  {
+    "name": "release-O0",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "release",
+      "evidence/release-O0.json"
+    ],
+    "exit": 1,
+    "receipt_sha256": "e263582cde47754e2d9070c70dad43311933a8736c0c165003079488ec5af55c"
+  },
+  {
+    "name": "transfer-O0",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "transfer",
+      "evidence/transfer-O0.json"
+    ],
+    "exit": 1,
+    "receipt_sha256": "03acc4c527f9b296a67fcd8f69f5aab13afcdf258e864966921093e5afe5a4eb"
+  },
+  {
+    "name": "positive-O0",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "positive",
+      "evidence/positive-O0.json"
+    ],
+    "exit": 0,
+    "receipt_sha256": "2ebeadc83013ba7bf27eb1d37f665eb0c32fa5d5aa80146103267ee302c628e8"
+  },
+  {
+    "name": "release-O1",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "release",
+      "evidence/release-O1.json"
+    ],
+    "exit": 1,
+    "receipt_sha256": "4e5912610e9b950fb0c5879ff532bc7a36b48e24f26e0a2ed9e5ad43e59207b8"
+  },
+  {
+    "name": "transfer-O1",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "transfer",
+      "evidence/transfer-O1.json"
+    ],
+    "exit": 1,
+    "receipt_sha256": "84701748a49244d052f3f3bb11c0e6825173811125f6d0e97af0da426a6d9379"
+  },
+  {
+    "name": "positive-O1",
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-resource-balance-20261014/run.py",
+      "positive",
+      "evidence/positive-O1.json"
+    ],
+    "exit": 0,
+    "receipt_sha256": "2204bb93ded7966cdb0b8edcda55f3524a0792d529ac3565999c5bb76079ea2c"
+  }
+]

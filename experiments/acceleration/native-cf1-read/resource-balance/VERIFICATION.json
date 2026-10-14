@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "observations_per_mode": 170,
+  "negative_controls": 4,
+  "verified_pins": 692,
+  "per_mode_totals": {
+    "MD": {
+      "acquired": 246,
+      "released": 246,
+      "transferred": 0
+    },
+    "MD_CTX": {
+      "acquired": 243,
+      "released": 243,
+      "transferred": 0
+    },
+    "KDF": {
+      "acquired": 231,
+      "released": 231,
+      "transferred": 0
+    },
+    "KDF_CTX": {
+      "acquired": 228,
+      "released": 228,
+      "transferred": 0
+    },
+    "CIPHER": {
+      "acquired": 146,
+      "released": 146,
+      "transferred": 0
+    },
+    "CIPHER_CTX": {
+      "acquired": 144,
+      "released": 144,
+      "transferred": 0
+    },
+    "MAC": {
+      "acquired": 76,
+      "released": 76,
+      "transferred": 0
+    },
+    "MAC_CTX": {
+      "acquired": 75,
+      "released": 75,
+      "transferred": 0
+    },
+    "scratch": {
+      "acquired": 136,
+      "released": 136,
+      "transferred": 0
+    },
+    "result": {
+      "acquired": 138,
+      "released": 28,
+      "transferred": 110
+    }
+  },
+  "scope": "Helper-owned reference accounting only; full leak/security/timing admission HOLD"
+}
