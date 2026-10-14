@@ -1,0 +1,28 @@
+{
+  "scope": "Finite return-expiry supplement; no full qualification",
+  "files": {
+    "LAUNCHES.json": "9cc909970ae1ae9bda1e82ea2c0611878825ecfd5a6be0eabc2df23cbec83c51",
+    "PINS.json": "9fdaf8c6e5cc8dd2c6a5f125447639fae60c6e2694b394438b17602fbcc72d38",
+    "RESULTS.md": "2cd91f6600e144e1d9723baaffc6ada0fdd78e26c761e54d34d3dfe5327abd66",
+    "SCOPE.md": "06ca646829bbe250513dbe2cc119c0c4913587efcaaced812316e1becbdb1ec4",
+    "cases.json": "61526cc88cd30e869a8f2bffbeba86a97dc9343d8ddcad30fecb2235690a553e",
+    "evidence/freeze-01.json": "4f0bec9dad9fae4240f2802926fcad236e3c2af05dde57edc7ec391c6a758718",
+    "evidence/metadata-o0-01-launch.json": "acf985e1f1ba068f273362fb5e913b653971dbf04a20588c2a4f6d281e53c387",
+    "evidence/metadata-o0-01.json": "68e7ceed016e15e8160c063b047f236f9d2a27a636f8f8d5239e3add6a8100b7",
+    "evidence/metadata-o1-01-launch.json": "3200c78ad976d5fadd79cf37c344fb0517b01131c8234cced9f46f25f77bda70",
+    "evidence/metadata-o1-01.json": "758fb78a06ab5c40850cf11e6aeb0059b834e033b3c7914d9e19e8d330385a93",
+    "evidence/positive-o0-01-launch.json": "b840a6544ad0e7dc3eddd35d7d85d781ab837847d8646045f119d028bec97d59",
+    "evidence/positive-o0-01.json": "301b97980dd7158c6215b33af9ae63f5e767edfba384289d3b2b8b178842c998",
+    "evidence/positive-o1-01-launch.json": "e6af7b0ee693a49bf5569799bd8b9bab565b22916db54cb1acc3af71657733e9",
+    "evidence/positive-o1-01.json": "21d3f22f00e4790c8584024b18cfdbb222f79597d11f944b788c17bd703627fd",
+    "evidence/trace-o0-01-launch.json": "88db3125074ed8e528ba0b8b4d80d85dc2169ee2dcaa655aabbaa4f47f903339",
+    "evidence/trace-o0-01.json": "4b1fb36e1a0ada17ecb0fb0447099b82970e4153125bb580ce5f68fb828f1b5f",
+    "evidence/trace-o1-01-launch.json": "8006b3876369a8fbe95c41e24b779f0412ce592276cfbe9bd7623d43d09725a6",
+    "evidence/trace-o1-01.json": "2445fd4d8d0ed52cad84c0b0ddde38be5f600d4a13a8c97b8ffe9aee5b48d5e1",
+    "freeze.py": "170cb2948a89cb86996c85efd571842825aff9d40680cf7854be6330e47b724d",
+    "launch_all.py": "cf0e9201a2085aaa77c4c2c7f37c2e1457cba005a7d42e19f57415144ea32e29",
+    "prepare.py": "e5ee6669057d86baabcec8877368a052f577fd73897ca2eb5552c3b73d177490",
+    "run.py": "f805d9cc0741eff832d865b3781bfee52e28d6df6f452d1e4893ca8d5fa5029f",
+    "runtime.py": "10585a7ded85b2f16149d8e0413685716f891930e63a468c341e6a2fbb1786f5"
+  }
+}

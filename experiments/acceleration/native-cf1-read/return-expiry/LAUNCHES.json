@@ -1,0 +1,83 @@
+[
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "metadata",
+      "evidence/metadata-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 76, in run\n    exact(changed,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 20, in exact\n    if not same(a,b):raise RuntimeError('Exact return-expiry mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact return-expiry mismatch\n",
+    "result_sha256": "68e7ceed016e15e8160c063b047f236f9d2a27a636f8f8d5239e3add6a8100b7"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "trace",
+      "evidence/trace-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 76, in run\n    exact(changed,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 20, in exact\n    if not same(a,b):raise RuntimeError('Exact return-expiry mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact return-expiry mismatch\n",
+    "result_sha256": "4b1fb36e1a0ada17ecb0fb0447099b82970e4153125bb580ce5f68fb828f1b5f"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "positive",
+      "evidence/positive-o0-01.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "result_sha256": "301b97980dd7158c6215b33af9ae63f5e767edfba384289d3b2b8b178842c998"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "metadata",
+      "evidence/metadata-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 76, in run\n    exact(changed,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 20, in exact\n    if not same(a,b):raise RuntimeError('Exact return-expiry mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact return-expiry mismatch\n",
+    "result_sha256": "758fb78a06ab5c40850cf11e6aeb0059b834e033b3c7914d9e19e8d330385a93"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "trace",
+      "evidence/trace-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 76, in run\n    exact(changed,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/runtime.py\", line 20, in exact\n    if not same(a,b):raise RuntimeError('Exact return-expiry mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact return-expiry mismatch\n",
+    "result_sha256": "2445fd4d8d0ed52cad84c0b0ddde38be5f600d4a13a8c97b8ffe9aee5b48d5e1"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-return-expiry-20261014/run.py",
+      "positive",
+      "evidence/positive-o1-01.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "result_sha256": "21d3f22f00e4790c8584024b18cfdbb222f79597d11f944b788c17bd703627fd"
+  }
+]

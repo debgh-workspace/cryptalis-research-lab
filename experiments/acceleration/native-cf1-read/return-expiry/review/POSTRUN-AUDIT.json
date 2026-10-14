@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "data_only": true,
+  "pins_verified": 684,
+  "artifact_files_verified": 23,
+  "cases_sha256": "61526cc88cd30e869a8f2bffbeba86a97dc9343d8ddcad30fecb2235690a553e",
+  "pins_sha256": "9fdaf8c6e5cc8dd2c6a5f125447639fae60c6e2694b394438b17602fbcc72d38",
+  "artifacts_sha256": "e819a3b5b966014dd3dac767b2a5bea348585e95e595a5ef9557485181a30adf",
+  "launches": [
+    {
+      "mode": "metadata",
+      "optimization": 0,
+      "exit": 1,
+      "full_record_verified": true
+    },
+    {
+      "mode": "trace",
+      "optimization": 0,
+      "exit": 1,
+      "full_record_verified": true
+    },
+    {
+      "mode": "positive",
+      "optimization": 0,
+      "exit": 0,
+      "full_record_verified": true
+    },
+    {
+      "mode": "metadata",
+      "optimization": 1,
+      "exit": 1,
+      "full_record_verified": true
+    },
+    {
+      "mode": "trace",
+      "optimization": 1,
+      "exit": 1,
+      "full_record_verified": true
+    },
+    {
+      "mode": "positive",
+      "optimization": 1,
+      "exit": 0,
+      "full_record_verified": true
+    }
+  ],
+  "unexpected_failures": false
+}
