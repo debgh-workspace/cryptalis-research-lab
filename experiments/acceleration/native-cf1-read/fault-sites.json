@@ -1,0 +1,6 @@
+{
+  "1":"payload.digest.fetch", "2":"payload.digest.context", "3":"payload.digest.init", "4":"payload.digest.update", "5":"payload.digest.final", "6":"payload.kdf.fetch", "7":"payload.kdf.context", "8":"payload.kdf.derive",
+  "10":"cipher.fetch", "11":"cipher.context", "12":"cipher.init", "13":"python.result.allocate", "14":"plaintext.scratch.allocate", "15":"cipher.tag", "16":"cipher.aad", "17":"cipher.data", "18":"cipher.final",
+  "21":"search.digest.fetch", "22":"search.digest.context", "23":"search.digest.init", "24":"search.digest.update", "25":"search.digest.final", "26":"search.kdf.fetch", "27":"search.kdf.context", "28":"search.kdf.derive",
+  "30":"mac.fetch", "31":"mac.context", "32":"mac.init", "33":"mac.update.prefix", "34":"mac.update.plaintext", "35":"mac.final"
+}
