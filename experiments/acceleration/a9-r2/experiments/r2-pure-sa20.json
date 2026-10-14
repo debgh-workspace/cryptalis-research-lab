@@ -1,0 +1,411 @@
+{
+  "sqlalchemy": "2.0.51",
+  "database": "NONE: local fake DBAPI only",
+  "cases": [
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": "constructor",
+      "row_count": 1,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": true,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "constructor",
+      "row_count": 1,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": "default",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": true,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "default",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": "processor",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default",
+        "processor"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": true,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "processor",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "StatementError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default",
+        "processor"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": "driver",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 2,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "DBAPIError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": true,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": "driver",
+      "row_count": 1,
+      "callbacks": 2,
+      "driver_calls": 2,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "handle_error",
+        "exception.params",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": "DBAPIError",
+      "retained_callback_plain": true,
+      "failed_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "retry_stages": [
+        "constructor",
+        "default",
+        "processor",
+        "driver"
+      ],
+      "exact_original_exception_identity": true,
+      "rollback_transient": true,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": true,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "noarg",
+      "failure": null,
+      "row_count": 2,
+      "callbacks": 2,
+      "driver_calls": 2,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "failed_stages": [],
+      "retry_stages": [],
+      "exact_original_exception_identity": null,
+      "rollback_transient": null,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": true,
+      "callback": "noarg",
+      "failure": null,
+      "row_count": 2,
+      "callbacks": 2,
+      "driver_calls": 2,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute",
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "failed_stages": [],
+      "retry_stages": [],
+      "exact_original_exception_identity": null,
+      "rollback_transient": null,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": []
+    },
+    {
+      "routed": false,
+      "callback": "context",
+      "failure": null,
+      "row_count": 1,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "failed_stages": [],
+      "retry_stages": [],
+      "exact_original_exception_identity": null,
+      "rollback_transient": null,
+      "public_marker_association_checked": false,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": [
+        true
+      ]
+    },
+    {
+      "routed": true,
+      "callback": "context",
+      "failure": null,
+      "row_count": 1,
+      "callbacks": 1,
+      "driver_calls": 1,
+      "surfaces": [
+        "before_execute",
+        "before_cursor",
+        "after_execute"
+      ],
+      "error": null,
+      "retained_callback_plain": true,
+      "failed_stages": [],
+      "retry_stages": [],
+      "exact_original_exception_identity": null,
+      "rollback_transient": null,
+      "public_marker_association_checked": true,
+      "log_capture_nonempty": true,
+      "diagnostic_marker_detected": true,
+      "native_error_parameters_calibrated": false,
+      "retry_fresh_tokens": null,
+      "retained_context_list_identity": [
+        false
+      ]
+    }
+  ],
+  "status": "BOUNDED FEASIBILITY; context-reflection incompatibility observed"
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "pure fake DBAPI; no crypto, actual DB or runtime integration",
+  "a9_inherited_files_unchanged": 228,
+  "source_hash_manifest_sha256": "e5b70419b6c38c9621e714bffa9bce0443b681b2d215102c05e72b6e51a3aa7c",
+  "files": {
+    "OPAQUE_ROUTING_R2_REVIEW.md": "412b14eeba48bfe69cee1ecd54bc458117e807185f66adb8c91129a1b482117f",
+    "experiments/r2-pure-sa20.json": "0a6d8fd757c9caf6e60163a8d88774b80008ded103a8aa1826030bf97c77b276",
+    "experiments/r2_two_row_collector_failure.py.disabled": "95d49c3a24bb165056b3e1c25e728f8c6ca9f40b7322384f45f7593acb0543cc",
+    "experiments/r2-pure-sa21.json": "3ccebfbe4f3b10f347eaaf440e139695815a69823278c112799f7484472f9a82",
+    "experiments/opaque_failure_retry_r2.py": "7d8a65c8adc3eae4c9c167f24c9757eef070f5296150ffdcfdad91cb0328d347"
+  },
+  "results": {
+    "r2-pure-sa21.json": 12,
+    "r2-pure-sa20.json": 12
+  },
+  "context_identity_counterexample": {
+    "native": true,
+    "routed": false
+  },
+  "real_pg_authorized": false
+}
