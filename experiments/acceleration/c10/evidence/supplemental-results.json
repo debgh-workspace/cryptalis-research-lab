@@ -1,0 +1,46 @@
+{
+  "sa21": {
+    "junit": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "26",
+      "time": "6.021",
+      "timestamp": "2026-10-14T06:15:00.418193+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "junit_sha256": "922fd3ea5b91e9e9bd57cbc3e4add3077a1166a3e81d6fde587a4e55b3f3fd5e",
+    "source_unchanged": true,
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n..........................                                               [100%]\n26 passed in 6.02s\n",
+    "oracle_metadata_sha256": "3fdbcc13ed5e601143121b29d9cfa3f2de42e4dd12b2a31122f8e502aba338dd",
+    "variant_scenarios": {
+      "native": 96,
+      "original": 96,
+      "candidate": 96
+    },
+    "oracle_status": "complete"
+  },
+  "sa20": {
+    "junit": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "16",
+      "time": "4.858",
+      "timestamp": "2026-10-14T06:15:32.824370+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "junit_sha256": "76634887eb40cb7f1cea7d2e75fb36c4d6d0a5e3ebef0da41db714963d37faab",
+    "source_unchanged": true,
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n................                                                         [100%]\n16 passed in 4.86s\n",
+    "oracle_metadata_sha256": "8a52210e9d636daaa16f7810ffec90104e09f07300a86080e7ea5576bd8ac953",
+    "variant_scenarios": {
+      "native": 96,
+      "original": 96,
+      "candidate": 96
+    },
+    "oracle_status": "complete"
+  }
+}
