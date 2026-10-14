@@ -1,0 +1,36 @@
+{
+  "sa21": {
+    "junit": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "213",
+      "time": "10.960",
+      "timestamp": "2026-10-14T05:59:31.255368+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "junit_sha256": "d17f234af417bad61a4fe3ccb397a32d550ba70889faa3f843f2dbbf7c14955a",
+    "source_unchanged": true,
+    "stopped": true,
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n........................................................................ [ 33%]\n........................................................................ [ 67%]\n.....................................................................    [100%]\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-term-framing-20261014/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n213 passed, 1 warning in 10.96s\n",
+    "package_origin": true
+  },
+  "sa20": {
+    "junit": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "213",
+      "time": "11.334",
+      "timestamp": "2026-10-14T05:59:53.446830+00:00",
+      "hostname": "311c85efc72a"
+    },
+    "junit_sha256": "f3471bc5d5556e1cb0e30179643ac92c2844cf58c5493723c42469dd915a838d",
+    "source_unchanged": true,
+    "stopped": true,
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n........................................................................ [ 33%]\n........................................................................ [ 67%]\n.....................................................................    [100%]\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-accel-term-framing-20261014/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n213 passed, 1 warning in 11.33s\n",
+    "package_origin": true
+  }
+}
