@@ -1,0 +1,63 @@
+{
+  "archive": "CRYPTALIS_S23_COMMENTS_CORRECTION_ADDON_20261014_v2.tar.xz",
+  "bytes": 422800,
+  "sha256": "9a2ef07e8b67983fe161428529a35e2e5885f8ac4a648184c0c88203a6ad69c4",
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 48000,
+      "sha256": "6065339c54eebbd2d22c6ea6f4d663edd97ca65b63a3081fa22dfe3abb7f3a37",
+      "git_blob_sha": "6b87b41c893673ffe4e8e16a80efae8e2bfabcc1"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 48000,
+      "sha256": "775d7ab52d7dda876d3c471c0af445b5f855fe089c06c951bbcad0e36e1b605a",
+      "git_blob_sha": "89b9e8c89144923d1bfaddb65b6c74153f155a7b"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 48000,
+      "sha256": "e8689f1ecf40bc3bacac8c1fd69bfa7ac819665e7805c69cf9b444e372e07abc",
+      "git_blob_sha": "ac59808ba7c3a41597a759328de57a4d5db059b2"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 48000,
+      "sha256": "16a1c7dd47f2be774ae45ef1f1f7cb0ca47ac4b0c9db73fecdbb60cd14aaed7a",
+      "git_blob_sha": "ae280160fac363bb5fd0cc4724d6d652f869781e"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 48000,
+      "sha256": "3b905e8338c7116f96af6db3d5efa7aeef5eaca297ed7c3cfddf74c35fb2d646",
+      "git_blob_sha": "3ef6984dcaad76ab006756d554419458a72725de"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 48000,
+      "sha256": "72335369241d667897300feac404964917e315757a4deac7c75614bd1f18b0a5",
+      "git_blob_sha": "ba17bce45e91b49e2b5df93d8048b343332eaabd"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 48000,
+      "sha256": "51d723c3363f60a1e3eaf6c03f7d6dd7dd7cbe2e946079f98ca914d96721080f",
+      "git_blob_sha": "59d3a3c7d0fec8512f853c99179805b9a652d070"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 48000,
+      "sha256": "254574f42ce27846424dd8749811d8f255ad964c63f89b27b86786b282450564",
+      "git_blob_sha": "d97d39b79c2c429fcb6843893ccd91ae57326068"
+    },
+    {
+      "name": "part-09.bin",
+      "bytes": 38800,
+      "sha256": "32e8c9104850a0eae1e78a469f3fa25b9f5c8b72ab2be98e19c69d4016bdcdf0",
+      "git_blob_sha": "b448341a161a57a82ab18c2c2ad3dd66e81f8b47"
+    }
+  ],
+  "requires": "S23 source capsule SHA41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+  "scope": "Source/evidence only, not dependencies/runtime/DB restore"
+}
