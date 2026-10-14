@@ -1,0 +1,53 @@
+[
+  {
+    "run": "b9b-negatives-sa21-20261014",
+    "junit_sha256": "72de0b9fd6e0ee00596307e18dea0fbedc294bd70beb5d70854f872a64e63809",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "2",
+        "skipped": "0",
+        "tests": "55",
+        "time": "29.732",
+        "timestamp": "2026-10-14T09:46:22.600426+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "tracked_source_unchanged": true
+  },
+  {
+    "run": "b9b-negatives-r2-sa21-20261014",
+    "junit_sha256": "902a431360c64cb50e4ad6f0006eb8b8c7855f17320ee18becc8a4cdfe10ebd8",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "55",
+        "time": "27.815",
+        "timestamp": "2026-10-14T09:51:05.561794+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "tracked_source_unchanged": true
+  },
+  {
+    "run": "b9b-negatives-r2-sa20-20261014",
+    "junit_sha256": "c406fbc96363e03cf6de0c29c4a09da4deafbd0c2ae56d1881ed2fc615e50aa7",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "55",
+        "time": "27.455",
+        "timestamp": "2026-10-14T09:53:02.319508+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "tracked_source_unchanged": true
+  }
+]
