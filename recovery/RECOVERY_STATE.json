@@ -40,8 +40,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T08:10Z",
-  "current_operation": "native complete exact-output wrapper results awaiting independent postrun audit; dependent archives and synthetic switch await owner approval",
+  "updated_utc": "2026-10-14T11:23:00Z",
+  "current_operation": "Marked-queue finite supplement approved after static review; tuple-only control preparation; leak detector clean baseline failed, no dependent leak runs.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -573,5 +573,102 @@
       },
       "reason": "lagged exact S20 remote recovery receipt"
     }
-  ]
+  ],
+  "research_1123": {
+    "verified_publications": {
+      "native-abi-evidence-verification": {
+        "commit": "d08a6a7d96d110873432ed39b8a431f75b8ae53e",
+        "tree": "6c1759acc0c6ce626ca26c5501fa7b609d6ef234",
+        "files": [
+          "experiments/acceleration/native-cf1-read/abi-fork/VERIFICATION.json",
+          "experiments/acceleration/native-cf1-read/abi-fork/LAUNCHES.json",
+          "experiments/acceleration/native-cf1-read/abi-fork/verify_data.py",
+          "experiments/acceleration/native-cf1-read/abi-fork/evidence/r2-o0-positive.json",
+          "experiments/acceleration/native-cf1-read/abi-fork/evidence/r2-o1-positive.json",
+          "experiments/acceleration/native-cf1-read/abi-fork/evidence/o0-abi.json",
+          "experiments/acceleration/native-cf1-read/abi-fork/evidence/o0-abi.json.launch",
+          "experiments/acceleration/native-cf1-read/abi-fork/review/EXECUTION_AUDIT.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-return-source-verification": {
+        "commit": "f579f677969bf54e753a2355b118b4bf57774f27",
+        "tree": "03a0b8122fbc999d3e076f77547fc4dfab80b886",
+        "files": [
+          "experiments/acceleration/native-cf1-read/return-expiry/SCOPE.md",
+          "experiments/acceleration/native-cf1-read/return-expiry/RESULTS.md",
+          "experiments/acceleration/native-cf1-read/return-expiry/cases.json",
+          "experiments/acceleration/native-cf1-read/return-expiry/freeze.py",
+          "experiments/acceleration/native-cf1-read/return-expiry/runtime.py",
+          "experiments/acceleration/native-cf1-read/return-expiry/run.py",
+          "experiments/acceleration/native-cf1-read/return-expiry/launch_all.py",
+          "experiments/acceleration/native-cf1-read/return-expiry/prepare.py"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-backend-source-verification": {
+        "commit": "183ba3a8276028fa435923c474bb1166105d8286",
+        "tree": "d75e88e4f272118677dcff71819adfac6a559409",
+        "files": [
+          "experiments/acceleration/native-cf1-read/backend-observation/SCOPE.md",
+          "experiments/acceleration/native-cf1-read/backend-observation/RESULTS.md",
+          "experiments/acceleration/native-cf1-read/backend-observation/ERRATUM.md",
+          "experiments/acceleration/native-cf1-read/backend-observation/cases.json",
+          "experiments/acceleration/native-cf1-read/backend-observation/native_cf1.c",
+          "experiments/acceleration/native-cf1-read/backend-observation/prepare.py",
+          "experiments/acceleration/native-cf1-read/backend-observation/run.py",
+          "experiments/acceleration/native-cf1-read/backend-observation/build.py"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-return-audit-verification": {
+        "commit": "9ccd706ae6007fdae97eee9f3946aaa24f8d1621",
+        "tree": "99511ab9c93124d2fd8f3de13fca15b0c898d54a",
+        "files": [
+          "experiments/acceleration/native-cf1-read/return-expiry/PINS.json",
+          "experiments/acceleration/native-cf1-read/return-expiry/ARTIFACTS.json",
+          "experiments/acceleration/native-cf1-read/return-expiry/LAUNCHES.json",
+          "experiments/acceleration/native-cf1-read/return-expiry/review/REVIEW.md",
+          "experiments/acceleration/native-cf1-read/return-expiry/review/POSTRUN-REVIEW.md",
+          "experiments/acceleration/native-cf1-read/return-expiry/review/POSTRUN-AUDIT.json",
+          "experiments/acceleration/native-cf1-read/return-expiry/review/audit_receipts.py"
+        ],
+        "exact_remote_bytes": true
+      },
+      "public-default-remote-verification": {
+        "commit": "ecd76647632f5208ad2367e0d4041696c0fcbc08",
+        "tree": "0a3488af6f3a2c71a7ac7de310a9184f624341c9",
+        "files": [
+          "experiments/acceleration/public-default-boundary/REVIEW.md",
+          "experiments/acceleration/public-default-boundary/RECEIPT.json",
+          "experiments/acceleration/public-default-boundary/REVIEW_INITIAL.md",
+          "experiments/acceleration/public-default-boundary/initial_probe.py.disabled",
+          "experiments/acceleration/public-default-boundary/public_boundary_probe.py",
+          "experiments/acceleration/public-default-boundary/public_dialect_probe.py",
+          "experiments/acceleration/public-default-boundary/sa20.json",
+          "experiments/acceleration/public-default-boundary/sa21.json",
+          "experiments/acceleration/public-default-boundary/dialect-sa20.json",
+          "experiments/acceleration/public-default-boundary/dialect-sa21.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "b9b-recovery-evidence-verification": {
+        "commit": "f31386573d6252a84ad43d19f98eed7c8b7dd967",
+        "tree": "16f5879b37b510a5b5f2bc0cee0dd9f48c3b3f6e",
+        "files": [
+          "experiments/acceleration/b9b/recovery/remote-overlay-prepare.json",
+          "experiments/acceleration/b9b/recovery/remote-overlay-restore-result.json",
+          "experiments/acceleration/b9b/recovery/publication-blocker.json",
+          "experiments/acceleration/b9b/negative-audit/REVIEW.md",
+          "experiments/acceleration/b9b/negative-audit/verification.json",
+          "experiments/acceleration/b9b/recovery/GIT_SAFETY_AUDIT.md"
+        ],
+        "exact_remote_bytes": true
+      }
+    },
+    "leak_support": "Standalone clean control detector fatal exit23; free/leak NOT RUN; CF1 leak evidence UNKNOWN",
+    "integrated_candidate": "S20 unchanged",
+    "all_seven_full_gates": "UNKNOWN",
+    "approval_blocks": "Previously pending main, archive, rotation activation, private-hook, cluster and provider decisions remain pending; no inferred approval."
+  }
 }

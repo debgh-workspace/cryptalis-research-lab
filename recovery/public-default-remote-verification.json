@@ -1,0 +1,17 @@
+{
+  "commit": "ecd76647632f5208ad2367e0d4041696c0fcbc08",
+  "tree": "0a3488af6f3a2c71a7ac7de310a9184f624341c9",
+  "files": [
+    "experiments/acceleration/public-default-boundary/REVIEW.md",
+    "experiments/acceleration/public-default-boundary/RECEIPT.json",
+    "experiments/acceleration/public-default-boundary/REVIEW_INITIAL.md",
+    "experiments/acceleration/public-default-boundary/initial_probe.py.disabled",
+    "experiments/acceleration/public-default-boundary/public_boundary_probe.py",
+    "experiments/acceleration/public-default-boundary/public_dialect_probe.py",
+    "experiments/acceleration/public-default-boundary/sa20.json",
+    "experiments/acceleration/public-default-boundary/sa21.json",
+    "experiments/acceleration/public-default-boundary/dialect-sa20.json",
+    "experiments/acceleration/public-default-boundary/dialect-sa21.json"
+  ],
+  "exact_remote_bytes": true
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "d08a6a7d96d110873432ed39b8a431f75b8ae53e",
+  "tree": "6c1759acc0c6ce626ca26c5501fa7b609d6ef234",
+  "files": [
+    "experiments/acceleration/native-cf1-read/abi-fork/VERIFICATION.json",
+    "experiments/acceleration/native-cf1-read/abi-fork/LAUNCHES.json",
+    "experiments/acceleration/native-cf1-read/abi-fork/verify_data.py",
+    "experiments/acceleration/native-cf1-read/abi-fork/evidence/r2-o0-positive.json",
+    "experiments/acceleration/native-cf1-read/abi-fork/evidence/r2-o1-positive.json",
+    "experiments/acceleration/native-cf1-read/abi-fork/evidence/o0-abi.json",
+    "experiments/acceleration/native-cf1-read/abi-fork/evidence/o0-abi.json.launch",
+    "experiments/acceleration/native-cf1-read/abi-fork/review/EXECUTION_AUDIT.json"
+  ],
+  "exact_remote_bytes": true
+}

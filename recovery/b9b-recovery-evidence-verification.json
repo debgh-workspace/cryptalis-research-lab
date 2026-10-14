@@ -1,0 +1,13 @@
+{
+  "commit": "f31386573d6252a84ad43d19f98eed7c8b7dd967",
+  "tree": "16f5879b37b510a5b5f2bc0cee0dd9f48c3b3f6e",
+  "files": [
+    "experiments/acceleration/b9b/recovery/remote-overlay-prepare.json",
+    "experiments/acceleration/b9b/recovery/remote-overlay-restore-result.json",
+    "experiments/acceleration/b9b/recovery/publication-blocker.json",
+    "experiments/acceleration/b9b/negative-audit/REVIEW.md",
+    "experiments/acceleration/b9b/negative-audit/verification.json",
+    "experiments/acceleration/b9b/recovery/GIT_SAFETY_AUDIT.md"
+  ],
+  "exact_remote_bytes": true
+}

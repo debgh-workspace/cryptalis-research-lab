@@ -1,0 +1,14 @@
+{
+  "commit": "9ccd706ae6007fdae97eee9f3946aaa24f8d1621",
+  "tree": "99511ab9c93124d2fd8f3de13fca15b0c898d54a",
+  "files": [
+    "experiments/acceleration/native-cf1-read/return-expiry/PINS.json",
+    "experiments/acceleration/native-cf1-read/return-expiry/ARTIFACTS.json",
+    "experiments/acceleration/native-cf1-read/return-expiry/LAUNCHES.json",
+    "experiments/acceleration/native-cf1-read/return-expiry/review/REVIEW.md",
+    "experiments/acceleration/native-cf1-read/return-expiry/review/POSTRUN-REVIEW.md",
+    "experiments/acceleration/native-cf1-read/return-expiry/review/POSTRUN-AUDIT.json",
+    "experiments/acceleration/native-cf1-read/return-expiry/review/audit_receipts.py"
+  ],
+  "exact_remote_bytes": true
+}
