@@ -1,0 +1,18 @@
+# Independent v4 stored-data audit
+
+2026-10-14. **PASS for consistency of the frozen diagnostic evidence.** This audit read JSON, source bytes and binary bytes for hashes only. It did not import a candidate, rebuild, rerun tests or perform timing.
+
+The retained audit script audit_v4_data.py performs 11,120 explicit comparisons and writes POSTRUN-AUDIT-v4.json. An additional direct data check confirmed both exact supervised build command arrays. Findings:
+
+- All 1,329 frozen input pins remain unchanged, including the native C/wrapper, independent expectations and preserved versions. All 105 result-artifact pins match.
+- Exact inventory is two diagnostic builds plus 24 test launches: four positives and 20 intended sensitivity failures. All 26 supervisors link to matching child receipt hashes and report reaped leaders, no deadline/cap reason, empty integrity findings and empty cache inventories. Current private cache directories are also empty. Stream hashes and byte counts match stored logs and remain below their caps.
+- Both child builds and supervisors report PASS. Build commands, pinned dependency sets and binary hashes verify. Every run's accepted-build link identifies the exact corresponding successful build supervisor and child receipt. Run commands, startup flags, optimization mode, candidate paths, binary hashes, manifest hashes and freeze identity agree.
+- D has exactly 374 positive observations in each mode; F has exactly 314. Ordered complete IDs, without duplicates, match the pre-run inventory. Every recorded direct expected byte/error/counter field and every public wrapper outcome, resolution trace and nested native record match. Original fault expectations and frozen vector output are independently anchored back to earlier manifests rather than accepted from aggregate summaries. Positive observation lists are identical across normal/-O.
+- Every positive observation's acquired encrypt/decrypt-base/working counts balance its corresponding free calls. Per D run, totals are [326,322,318,314,310,306,302,326,318,310,240]. Per F run, totals are [0,0,0,0,266,0,262,0,0,266,200]. These reproduce the author summary; they are inventory-weighted owned API counters, not performance data or proof of provider-internal allocator behavior.
+- All 20 sensitivity runs fail at the intended exact record and inventory position, with exit1, child FAIL, supervisor EXPECTED_FAIL and the exact mismatch error. Verified originals equal the independent expectations. Output adds exactly 00; copy/free change exactly counter5/counter7 to999; stage changes exactly the stage; trace appends exactly its first event. Other fields are unchanged. Earlier observations match the expected prefix. No generic nonzero/crash/timeout was accepted as a successful negative.
+
+## Limits and remaining gates
+
+Stored receipts are internally consistent evidence, not signed attestation that every reported machine action occurred. Fault selectors bypass operations; sensitivity mutations test validator discrimination and do not replace the source-removal mutants. Balanced API counters do not prove all provider allocations, actual failed-copy internals or complete erasure.
+
+This is the D/F diagnostic slice only. The full normal D 1,098-case wrapper suite, 106 ABI/actual-fork cases, two immediate-native-return expiry cases, skip-term/skip-final-resolution removal mutants, and accepted provider/queue/resource/tooling dispositions remain separate. The original failure-policy decision and five-arm timing protocol remain unresolved by these data. No full DESIGN pass, mechanism performance claim, backend adoption or S20 promotion follows.
