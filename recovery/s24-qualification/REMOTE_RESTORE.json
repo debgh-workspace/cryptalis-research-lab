@@ -1,0 +1,74 @@
+{
+  "status": "PASS_DATA_ONLY_REMOTE_ADDITIVE_BYTE_RESTORE",
+  "archive": "CRYPTALIS_S24_QUALIFICATION_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "fd0c48e128167fd25e3200eda67bcf176dfb35d831224ef6c1c9ff919ae900f3",
+  "bytes": 749740,
+  "parts": 8,
+  "part_readbacks": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "2a5c8ebe7fec5af682cfc5348533bf5fe575dddfffb52fd672acabcbefa2a45c"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "592ed544bbe902befb8d8091002284ad5f60d8a1b9f72e6cc7b0745bd222bbe0"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "127ef153c4010e7c79a5525990c61486b48053d439187e5826f322c0eacd80c0"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 96000,
+      "sha256": "bfb1534e8630ba74800a9890532d0bc2307f42958a182afe41006f519855b019"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 96000,
+      "sha256": "a01254ec933404999ceffa4e478b4dc7ed2b37cedcf8bf1371f77bf033307dd3"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 96000,
+      "sha256": "f7cdfaa46ca828f269f216d24bbbbfb6446dd85497220348930218db23fedba1"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 96000,
+      "sha256": "ad463bf52384112e6a4357d86f56e28fb530fad1ba0f0c4c24121dd2b9951d68"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 77740,
+      "sha256": "d30ae9d135aaebb0982e4e99e9ead7b080c22b13ff2fd9cd47d8ce19c0e412bd"
+    }
+  ],
+  "part_manifest_sha256": "15d33fb2d31d390c2ba11310bf2e62ea41764168b8698c24241e7d60b0a84130",
+  "regular_members": 523,
+  "member_bytes": 11029169,
+  "payload_manifest_entries": 522,
+  "payload_manifest_sha256": "0f7b0e5a027042c1dffaa3eabcff3fa59a5e00ebc413de377d386fcfcdf3b1f8",
+  "payload_bytes": 10842652,
+  "selected_inputs": 514,
+  "selected_input_bytes": 10617893,
+  "allowlist_sha256": "93d29bc49bd75ddb339155df5ce083738309c7011332944e22fa4ab6dbaf4750",
+  "fresh_extraction_complete_readback": true,
+  "referenced_source_files_not_reconstructed": 214,
+  "referenced_source_capsule_sha256": "17691c7d230ba97cb3d7f6d0a4f1e999c48a3e3bfa8af296539f478f0f24764d",
+  "source_manifest_sha256": "6c7ca4ecda9e4d0628aa8a8fe4626e36c8708622f020c73c8320210948cd003d",
+  "non_standalone_additive_only": true,
+  "full_source_capsule_embedded": false,
+  "restored_code_imported_or_executed": false,
+  "tests_database_build_install_git_remote_actions": false,
+  "remote_commit_authenticated_by_this_script": false,
+  "publication_authorized_by_this_script": false,
+  "all_seven_qualification_gates": "UNKNOWN",
+  "seven_historical_failures": "UNRESOLVED_AND_NOT_WAIVED",
+  "pending_acceptance_approved": false,
+  "promotion": "HOLD",
+  "performance_promotion": false,
+  "scope": "Exact selected additive qualification-evidence bytes only. Full r3 source is referenced separately. No complete checkout, dependencies, installed environment, credentials, providers, database, operational recovery, independent runtime qualification or standalone rerunnable historical audit. Historical, installed-scope, native-ID and statistics limitations remain unchanged. The coordinator separately authenticates remote commit and readback transport."
+}
