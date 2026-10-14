@@ -1238,3 +1238,7 @@ All11 parts and manifest read back exactly from finalcommitc94d26fde742d27efd87f
 ### G5 reviewer evidence-scope incident — 2026-10-14 22:25 UTC
 
 First G5SA21 reviewer read prohibited tests.json and postgres-stop.json in a combined tool read. Review stopped and is not accepted. Reviewer reports no files created, no values in authored messages, and no original changes. Root did not inspect those contents. No raw phase files were uploaded to GitHub. A separate reviewer now uses an explicit safe-file allowlist; its result remains pending. Incident record: persistence-recovery-20261013/g5-review-scope-incident-2225.json, containing filenames/status only. The earlier review cannot be described as compliant or reused as qualification evidence.
+
+### G5 safe independent audit — 2026-10-14 22:30 UTC
+
+Replacement reviewer using explicit approved safe files accepts G5SA21:21PASS/78deselected/21warnings/7.27s, all exactcase/phases/finalmarkers; three natural missing/continuation/stale-present branches OBSERVED. All261pins/215source/154runner/6external/38packet/26prior+26archivedcorpus comparisons pass; safe phaseexits0 and serverstopped. This result relies only on the replacement review; earlier prohibited-file review remains stopped/nonaccepted. G5SA20 started through unchanged serialized wrapper after that clearance. No native RLS/provider/privilegedremoval/performance/production claim.

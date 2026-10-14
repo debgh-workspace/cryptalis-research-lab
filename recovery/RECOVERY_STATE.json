@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T22:17:00Z",
+  "observed_at_utc": "2026-10-14T22:30:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -1247,7 +1247,7 @@
       "pass": 38,
       "seconds": 5.26
     },
-    "remote_head": "c94d26fde742d27efd87f09bed229e5f519db9d7",
+    "remote_head": "5d877c4fd9bad53122f788d00fbe9b55a7515242",
     "full_archive_verified_parts": 18,
     "full_archive_complete": true,
     "active_db": null,
@@ -1299,5 +1299,17 @@
     "fresh_remote_restore_members": 309,
     "provenance_sha256": "8bda50fe8152368723987bbeb1bc9c197e26cd42d868612ac3e4e7d526af8738"
   },
-  "statistics_g4_sa21": "15 PASS in3.57s, observed native missing snapshot; independent audit pending"
+  "statistics_g4_sa21": "15 PASS3.57s independently accepted",
+  "statistics_g4_sa20": "15 PASS3.65s independently accepted",
+  "statistics_g5_sa21": "21 PASS7.27s; separate safe independent audit ACCEPT_BOUNDED_RUNTIME. First prohibited-read review stopped and notaccepted.",
+  "next_correctness_slice": {
+    "candidate": "candidate-next-unblocked-correctness-20261014",
+    "baseline": "S25",
+    "finding": "Async transaction pre-exit key preparation failure may be replaced by native rollback failure",
+    "evidence": "Static source and pinned native contract only; runtime unrun",
+    "fix_scope": "Primary identity, safe UNKNOWN/nonretryable diagnostics and best-effort public invalidation; no guaranteed physical quarantine",
+    "red_candidate": "candidate-next-unblocked-correctness-red-20261014",
+    "status": "SOURCE_PREPARATION_IN_PROGRESS"
+  },
+  "statistics_g5_sa20": "21 PASS6.81s; safe independent audit pending"
 }

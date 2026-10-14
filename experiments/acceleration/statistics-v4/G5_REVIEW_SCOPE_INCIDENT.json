@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-14T22:25:00Z",
+  "reviewer": "audit_native_layout_evidence",
+  "prohibited_filenames_accessed": [
+    "evidence/s24-statistics-v4-g5-layouts-sa21-reviewed/tests.json",
+    "evidence/s24-statistics-v4-g5-layouts-sa21-reviewed/postgres-stop.json"
+  ],
+  "exposure_boundary": "contents appeared in reviewer tool response; root did not read contents",
+  "authored_messages_containing_values": false,
+  "created_files": [],
+  "originals_modified": false,
+  "remote_upload_of_raw_files": false,
+  "review_disposition": "STOPPED_NOT_ACCEPTED",
+  "replacement": "verify_layout_safe_receipts with explicit safe-file allowlist",
+  "no_raw_values_in_this_record": true
+}
