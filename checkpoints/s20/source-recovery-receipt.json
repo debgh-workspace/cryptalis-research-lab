@@ -1,0 +1,16 @@
+{
+  "archive": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+  "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+  "bytes": 1132692,
+  "verified_files": 216,
+  "candidate_files": 208,
+  "fresh_extraction": true,
+  "installed_restored_smoke": {
+    "passed": 55,
+    "seconds": 4.58,
+    "cell": "SA2.0.51",
+    "existing_authorized_cluster": true
+  },
+  "remote_archive": "NOT PUBLISHED",
+  "full_qualification": "2337/2291 PASS, same7legacyFAIL,56subtests;all7gatesUNKNOWN"
+}

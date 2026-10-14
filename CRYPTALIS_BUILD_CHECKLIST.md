@@ -4,14 +4,14 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-13T22:56Z`
+- Last updated UTC: `2026-10-14T04:44Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded integrated research candidate: S19 `candidate-accel-removal-integrated-20261013`,204files,source manifest SHA256 `998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7`. Full installed2282/2236PASS with same7legacyFAIL,56subtests,46SA20skips;realapp58x4PASS;fresh installed restore23PASS17subtests. Complete17-part archive and final receipts remotely byte-verified at `cef208cd0e3205b8e3ed954968d75be73dbcb6d4`. Labmain remainsS14; no mainpromotion.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
-- Last verifiably restorable recovery archive and SHA-256: `CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz`, `2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad`;3579file checksums verified; extracted293PASS44.18s plusSQLModel12PASS1.86s. Existing isolated database only; fresh-cluster proof pending permission.
+- Latest verified integrated recovery archive: `CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz`, SHA256 `fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29`;246payloadfiles including204candidatefiles,17remote parts byte-verified, freshinstalledrestore23PASS17subtests. Prior3579-fileS5archive remains preserved. Existing isolated database only; fresh-cluster proof pending permission.
 - Durable recovery: S5 GitHub archive restores3579 files; S13 composite180-file restore verified at3006595ee443c629c646e4d7fdd844767985d78d. S14 composite183-file restore verified after exact remote integration readback. Older Library IDs and chronological entries below are historical.
-- Execution wrapper: unchanged toolchain/lab_session.py and scripts/test_postgres.py dual-role preflight; exclusive lab lock. S18 full 2259/2213 PASS with the same 7 legacy failures, 46 native-version skips on SA2.0 and 39 subtests per cell. S19 is being requalified against the new removal-input boundary.
+- Execution wrapper: unchanged toolchain/lab_session.py and scripts/test_postgres.py dual-role preflight; exclusive lab lock. S18 full 2259/2213 PASS with the same 7 legacy failures, 46 native-version skips on SA2.0 and 39 subtests per cell. S19 qualification and remote recovery are complete within the stated limits. S20 installed qualification is in progress.
 
 Correction checkpoints named S6–S19 below are date-local engineering slices. They are **not** completion of the seven named integration work units; in particular `S6-ONLINE-MIGRATION` remains open. Append-only entries retain history; the front tables below are the current reconciled status.
 
@@ -717,3 +717,19 @@ Pending owner decision: capture-backed online preparation prototype with current
 - B8 inactive payload-preparation GREEN SA21:108PASS1.65s (35 new plus affected CF1/lease/rewrap tests),one existing fork warning. Unchanged role preflight/source and server stop verified. Independent source review found no bounded runtime blocker but final-return expiry/PID oracle sensitivity missing. Derivative tests required before integration. Not active rotation/publication.
 - C9 pure prototype:47PASS reported by worker; no DB/timing or integration claim. Written per-block performance protocol and independent review required before timing.
 - Pending owner decisions remain: capture-backed online preparation prototype (Sentinel_f9407ee631c081d1a92fb471b6262b6f); isolated second-app PG16 cluster/test credentials/extensions plus Dramatiq fork63ea404e2204b2d2b3e644053b4b294cb1039ad4 (Sentinel_88690b6b6ec081d181c40faeaa3e6f13). No response/approval inferred.
+
+### 2026-10-13T23:05Z — A5 corrected fixture evidence
+Corrected native-default boundary tests: SA21 existing receipt10PASS1.06s; SA20 coordinator10PASS1.00s. Unchanged role preflights and server stop verified. Original8PASS2FAIL fixture-error evidence retained. SA21 launch provenance is not recovered; do not claim a new coordinator rerun. Duplicate evidence-path attempt safely refused before DB. Exclusive lock verified free before SA20, unchanged wrapper acquired it. These tests establish native timing and current loud unsupported-route refusal, not support for implicit client UUID defaults.
+
+### 2026-10-14T04:35Z — B8 final-return verification
+Inactive payload preparation plus affected companions:114PASS1.84s SA21,114PASS1.72s SA20; one existing fork warning per cell. Six final-row source/target lease expiry and PID-loss controls pass for one/two-row batches. Separate mutation removing only final _binding causes all6controls to fail DID NOT RAISE on both cells. This verifies oracle sensitivity; mutated candidate is never promoted. All sources stable, unchanged role preflights, servers stopped. Original module unchanged; inactive batch preparation still not active product rotation. C8 cancelled raw-part upload reconciled: branch path still404; no raw archive publication claimed.
+
+### 2026-10-14T04:40Z — S20 integration started
+B8five-file research checkpointf8801a2bc6794b6983c5893559cb042770bdc1b9 exactremoteverified. Independent read-only review cleared boundedinactivepackaging;41currentB8cases supersedehistorical35-case scope prose. S20derivative208files preservesall204S19files and addsprivatebatchmodule+B8/B7/A5tests. Repeatedofflinewheel/sdistidentical,44RECORDentries,40installedmodulesbyte-matched. SA21fullinstalledsuiteRUNNING;S19remainshighestqualifiedboundedcandidate. Activepolicyrotation/journaledcutovernotimplemented.
+
+A5source/review/correctedresults published4files at9e440ed437166e9e30312f4e1134e0378ef37b84,exactremoteverified. S20source6filecheckpoint45ea95be055a9092a90bd04b339d7649819e26b7 exactremoteverified; fullinstalledSA21stillrunning. C8rawarchive now explicitly pendingtoolapprovalSentinel_cfd6883f647c81d1b28b089b8b09143f; no retry before approval.
+
+S20fullinstalledSA21 completed2337PASS7samelegacyFAIL56subtests384.67s. ExactfailureIDs comparedtoS19andmatch. SA20RUNNING;restored208sourcehashesverified,freshrestoredwheelinstalled,smokependingDBqueue. No realapp rerun needed solely for uncalledprivateaddition; priorS19app proof remains historical, not relabelledS20.
+
+### 2026-10-14T04:53Z — S20 full cells and restore verified
+InstalledSA21:2337PASS7sameFAIL56subtests384.67s;SA20:2291PASS7sameFAIL46nativeAPIskips56subtests374.40s. ExactfailureIDs matchS19bothcells;source/externalstable,40installedmodulesmatch,serverstopped. Restored208-filecandidate+freshinstalledwheelfocused55PASS4.58s. Localarchive02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68,1132692bytes,216payloadfilesverified;archivecontains earlier pendingstatus, finalexternalreceipts supersede. Remote source45ea95beverified; completeS20binaryarchive notpublished, so S19 remains highest remotely complete archive. Productactive rotation andall7gatesremainopen. C9first51-casePGgate isnowrunning.

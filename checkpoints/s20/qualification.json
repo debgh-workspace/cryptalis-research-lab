@@ -1,0 +1,48 @@
+{
+  "cells": {
+    "sa21": {
+      "passed": 2337,
+      "failed": 7,
+      "skipped": 0,
+      "subtests_passed": 56,
+      "seconds": 384.67,
+      "same_failure_ids_as_s19": true,
+      "source_unchanged": true,
+      "server_stopped": true,
+      "failure_ids": [
+        "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+        "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]"
+      ]
+    },
+    "sa20": {
+      "passed": 2291,
+      "failed": 7,
+      "skipped": 46,
+      "subtests_passed": 56,
+      "seconds": 374.4,
+      "same_failure_ids_as_s19": true,
+      "source_unchanged": true,
+      "server_stopped": true,
+      "failure_ids": [
+        "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+        "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+        "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]"
+      ]
+    }
+  },
+  "all_seven_gates": "UNKNOWN",
+  "restore_smoke": {
+    "passed": 55,
+    "seconds": 4.58
+  },
+  "real_app": "Historical S19 proof; not rerun for uncalled addition"
+}
