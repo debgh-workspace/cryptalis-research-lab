@@ -1,0 +1,119 @@
+{
+  "schema": "cryptalis.source-only-packet-preparation/v2",
+  "prepared_utc_date": "2026-10-14",
+  "candidate": "candidate-online-closure-v2-20261014",
+  "experiment": "experiments/online-closure-v2-20261014",
+  "status": "DOCUMENTARY_PREPARATION_COMPLETE_NOT_IMPORTED_NOT_COMPILED_NOT_RUN",
+  "complete_scope": [
+    "Current candidate/source/input/packet identities",
+    "Exact V1-to-V2 and D5-to-V2 source deltas",
+    "All 14 inherited base methods and additional presealed/barrier routes",
+    "Preserved original V2 source-check file and all three V1 snapshots",
+    "Closed prospective publication allowlist"
+  ],
+  "incomplete_scope": [
+    "Independent acceptance of newly assembled documentary packet",
+    "Coordinator admission to execute even the standalone source checks",
+    "Durable online closer and atomic guard/PAUSED implementation",
+    "Runtime-role mapping and deployment-wide source-writer/owner/DDL exclusion",
+    "Controlled byte-bounded paused finisher and full final verifier",
+    "Capture/handoff, guard, rotation/provider approvals and runtime qualification"
+  ],
+  "preparation_methods": [
+    "Read known source/documents as text",
+    "Read existing JSON manifests as data only",
+    "Enumerate candidate file paths and symlinks",
+    "SHA256 and byte-length computation for explicit source/input paths",
+    "Data-only manifest equality comparison",
+    "Generate unified text deltas without applying them",
+    "Write new documentary packet files only"
+  ],
+  "retained_comparisons": {
+    "v1_source_manifest_entries_matched": 201,
+    "d5_base_manifest_entries_matched": 201,
+    "v1_packet_entries_matched": 6,
+    "v1_input_entries_matched": 10,
+    "total": 418,
+    "mismatches": 0,
+    "v1_snapshots_additionally_matched": 3,
+    "v2_existing_source_check_sha256": "f64548836f1534c38bc15e6cf34c761468875d098627a8952fa41ecda45e77e4"
+  },
+  "initial_v2_packet_files": {
+    "README_v1_retained.md": {
+      "sha256": "2280e3e1c6709748f7d472d2ae115e75844d3bd479abc835a7bf3574a7b11e9e",
+      "bytes": 8027
+    },
+    "V1_MANIFEST_SNAPSHOT.json": {
+      "sha256": "d8530c49fe8fbd1281757a69060961c4cf24461efa4ccdaeaa0aade700a5c2c3",
+      "bytes": 22649
+    },
+    "V1_PACKET_MANIFEST_SNAPSHOT.json": {
+      "sha256": "a68b2464063851440063746620580b0f50e46d3be923f1a2f845f84b29acc690",
+      "bytes": 713
+    },
+    "test_online_closure_source.py": {
+      "sha256": "f64548836f1534c38bc15e6cf34c761468875d098627a8952fa41ecda45e77e4",
+      "bytes": 7309
+    }
+  },
+  "source_observations": {
+    "regular_files": 201,
+    "symlinks": 0,
+    "v1_to_v2_changed_files": [
+      "tests/_online_cf1_process_lab.py"
+    ],
+    "d5_to_v2_changed_files": [
+      "tests/_online_cf1_lab.py",
+      "tests/_online_cf1_process_lab.py"
+    ],
+    "structural_test_methods_prepared": 8,
+    "base_methods_inventoried": 14,
+    "child_immediate_refusal_methods": [
+      "install",
+      "drain",
+      "finish"
+    ],
+    "v1_successful_inherited_write_bypass": "NEVER_ESTABLISHED"
+  },
+  "preparation_incident": {
+    "operation": "Read-only file listing",
+    "incorrect_path": "reviewer-notes/online-closure-independent-20261014",
+    "error": "find: ‘reviewer-notes/online-closure-independent-20261014’: No such file or directory",
+    "command_exit_status": 1,
+    "actual_review_path": "reviewer-notes/online-closure-source-independent-20261014/REVIEW.md",
+    "disposition": "Incorrect path was identified; the actual review was read. On reading the copied candidate fail-loud rule, further work paused. Coordinator explicitly authorized continued source-only assembly using the verified path and asked that this incident be recorded. No runtime scope expansion or retry of the failed listing."
+  },
+  "prior_incidents_preserved": "V1 review retains its corrected provisional NULL/tombstone interpretation and failed independent upstream-source opening; V2 review retains its failed Git status and authorized filesystem continuation. Neither review nor any original failure receipt was edited.",
+  "final_packet_file_count": 15,
+  "new_documentary_files": 11,
+  "new_code_or_test_edits": false,
+  "candidate_imports": false,
+  "candidate_compilation": false,
+  "source_ast_parsing": false,
+  "tests_executed": false,
+  "pytest_collection": false,
+  "database_actions": false,
+  "credentials_read": false,
+  "provider_actions": false,
+  "capture_installation": false,
+  "guard_installation": false,
+  "phase_transition": false,
+  "git_actions": false,
+  "remote_actions": false,
+  "checklist_changes": false,
+  "publication": false,
+  "independent_final_packet_acceptance": "NOT_YET_OBTAINED",
+  "pending_capture_handoff_request": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
+  "promotion": "HOLD",
+  "runtime_advancement": false,
+  "gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  }
+}
+

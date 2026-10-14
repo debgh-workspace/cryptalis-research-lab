@@ -1,0 +1,104 @@
+--- candidate-accel-online-cf1-convergence-20261013/tests/_online_cf1_lab.py
++++ candidate-online-closure-v2-20261014/tests/_online_cf1_lab.py
+@@ -32,6 +32,10 @@
+     pass
+ 
+ 
++class FixturePhaseMismatch(ValueError):
++    pass
++
++
+ @dataclass(frozen=True)
+ class FixtureCrypto:
+     provider: object
+@@ -99,13 +103,45 @@
+             c.execute("ALTER TABLE operation ADD COLUMN crypto_pin text")
+             c.execute("UPDATE operation SET crypto_pin=%s WHERE id=%s", (self.expected_pin, self.operation))
+             c.execute("ALTER TABLE operation ALTER COLUMN crypto_pin SET NOT NULL")
++            # Lab-only admission state; no PAUSED transition is implemented.
++            c.execute("ALTER TABLE operation ADD COLUMN phase text NOT NULL DEFAULT 'PREPARING' "
++                      "CHECK (phase IN ('PREPARING','PAUSED','PAUSED_VERIFIED'))")
+ 
+     def _require_pin(self, c, *, lock=False):
+-        query = "SELECT crypto_pin FROM operation WHERE singleton AND id=%s"
++        query = "SELECT crypto_pin,phase FROM operation WHERE singleton AND id=%s"
+         if lock:
+             query += " FOR SHARE"
+-        if c.execute(query, (self.operation,)).fetchone() != (self.expected_pin,):
++        row = c.execute(query, (self.operation,)).fetchone()
++        if row is None or row[0] != self.expected_pin:
+             raise FixturePinMismatch("fixture operation/context pin mismatch")
++        # This locked read is admission, not a cached phase observation.
++        # Read-only reconstruction/oracle may inspect paused state.
++        if lock and row[1] != "PREPARING":
++            raise FixturePhaseMismatch("fixture preparation phase required")
++
++    @contextmanager
++    def preparation_worker_barrier(self, c):
++        """Hold only the cooperative-worker barrier, never claim writer closure.
++
++        NO KEY UPDATE drains admitted SHARE holders while allowing capture FK
++        KEY SHARE checks. Do not replace it with FOR UPDATE or alter key fields.
++        There is deliberately no phase write, source lock, guard installation,
++        finisher, publication, or success certificate here. Those remain pending.
++        """
++        with c.transaction():
++            row = c.execute("SELECT crypto_pin,phase FROM operation WHERE singleton AND id=%s "
++                            "FOR NO KEY UPDATE", (self.operation,)).fetchone()
++            if row is None or row[0] != self.expected_pin:
++                raise FixturePinMismatch("fixture operation/context pin mismatch")
++            if row[1] != "PREPARING":
++                raise FixturePhaseMismatch("fixture preparation phase required")
++            yield
++
++    def seed(self, c, key):
++        # The inherited direct producer must not bypass page admission.
++        with c.transaction():
++            self._require_pin(c, lock=True)
++            return super().seed(c, key)
+ 
+     @classmethod
+     def reconstruct(cls, schema, operation, crypto):
+--- candidate-accel-online-cf1-convergence-20261013/tests/_online_cf1_process_lab.py
++++ candidate-online-closure-v2-20261014/tests/_online_cf1_process_lab.py
+@@ -33,6 +33,10 @@
+     live: bool
+ 
+ 
++class FixtureRouteUnsupported(ValueError):
++    pass
++
++
+ class ChildFrameLab(EnumerationLab):
+     # Reuse the exact D3 operation/context-pin check, without a crypto object.
+     _require_pin = CF1EnumerationLab._require_pin
+@@ -45,6 +49,29 @@
+             lab._require_pin(c)
+         return lab
+ 
++    def seed(self, c, key):
++        # Even direct inherited inventory production shares phase admission.
++        with c.transaction():
++            self._require_pin(c, lock=True)
++            return super().seed(c, key)
++
++    def page(self, c, **options):
++        with c.transaction():
++            self._require_pin(c, lock=True)
++            return super().page(c, **options)
++
++    def install(self, c, claimed, *, fault=False):
++        # Inherited install is the incompatible plaintext-stage implementation.
++        raise FixtureRouteUnsupported("presealed fixture installation required")
++
++    def drain(self, c):
++        # This child has no sealing provider and must not use plaintext drain.
++        raise FixtureRouteUnsupported("presealed fixture installation required")
++
++    def finish(self, c):
++        # Refuse before inherited finish can advance inventory or call drain.
++        raise FixtureRouteUnsupported("presealed fixture installation required")
++
+     def install_presealed(self, c, claimed, frame):
+         """The D3 frame/retirement SQL boundary, with sealing already complete.
+ 

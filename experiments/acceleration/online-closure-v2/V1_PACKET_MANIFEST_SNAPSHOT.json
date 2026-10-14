@@ -1,0 +1,14 @@
+{
+  "database_calls": false,
+  "files_excluding_self": {
+    "BASE_MANIFEST.json": "81bcff22cae6d11a5d8b008528f9413d3b37ae58c72e038212f5e796e830c0d8",
+    "CANDIDATE_MANIFEST.json": "d8530c49fe8fbd1281757a69060961c4cf24461efa4ccdaeaa0aade700a5c2c3",
+    "INPUTS.json": "fa2f16576780ea7cfdaedff993a00c447667b8de6b0fab5cc72d84db430e1904",
+    "README.md": "2280e3e1c6709748f7d472d2ae115e75844d3bd479abc835a7bf3574a7b11e9e",
+    "SOURCE_DELTA.patch": "76bd44fabcf36c12a8c75261eb6cef9b83c0aa82d44c593a2c48edd96850058d",
+    "test_online_closure_source.py": "9e8d8f7ee9b6ce15378a338828d89835c2de4bb4e8c9ee41f7c812ed0d9e19c8"
+  },
+  "project_imports": false,
+  "status": "PREPARED_NOT_RUN",
+  "tests_executed": false
+}

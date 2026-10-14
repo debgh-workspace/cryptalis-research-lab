@@ -1,0 +1,52 @@
+--- experiments/online-closure-20261014/test_online_closure_source.py
++++ experiments/online-closure-v2-20261014/test_online_closure_source.py
+@@ -8,7 +8,7 @@
+ import unittest
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+-CANDIDATE = ROOT / 'candidate-online-closure-20261014'
++CANDIDATE = ROOT / 'candidate-online-closure-v2-20261014'
+ 
+ 
+ def method(filename, classname, name):
+@@ -87,5 +87,40 @@
+         self.assertEqual(current, ast.get_source_segment(original_source, original))
+ 
+ 
++    def test_child_plaintext_stage_routes_refuse_before_any_effect(self):
++        for name in ('install', 'drain', 'finish'):
++            with self.subTest(route=name):
++                node, _ = method('_online_cf1_process_lab.py', 'ChildFrameLab', name)
++                self.assertEqual(len(node.body), 1)
++                refusal = node.body[0]
++                self.assertIsInstance(refusal, ast.Raise)
++                self.assertIsInstance(refusal.exc, ast.Call)
++                self.assertIsInstance(refusal.exc.func, ast.Name)
++                self.assertEqual(refusal.exc.func.id, 'FixtureRouteUnsupported')
++                self.assertFalse(calls(node, 'execute'))
++                self.assertFalse(calls(node, 'transaction'))
++
++    def test_full_base_api_is_classified_and_write_dispatch_is_explicit(self):
++        source = (CANDIDATE / 'tests/_online_enumeration_lab.py').read_text()
++        base = next(n for n in ast.parse(source).body
++                    if isinstance(n, ast.ClassDef) and n.name == 'EnumerationLab')
++        names = {n.name for n in base.body if isinstance(n, ast.FunctionDef)}
++        read_only = {'connect', 'reconstruct', 'claim', 'oracle', 'snapshot'}
++        owner_or_native = {'__init__', 'close', 'install_capture', 'write'}
++        prep = {'seed', 'page', 'install', 'drain', 'finish'}
++        self.assertEqual(names, read_only | owner_or_native | prep)
++        child_source = (CANDIDATE / 'tests/_online_cf1_process_lab.py').read_text()
++        child = next(n for n in ast.parse(child_source).body
++                     if isinstance(n, ast.ClassDef) and n.name == 'ChildFrameLab')
++        child_names = {n.name for n in child.body if isinstance(n, ast.FunctionDef)}
++        self.assertTrue(prep <= child_names)
++        # CF1's inherited composition dynamically dispatches to gated overrides.
++        for name, expected_calls in (('drain', {'claim', 'install'}),
++                                     ('finish', {'page', 'drain', 'oracle'})):
++            node = next(n for n in base.body if isinstance(n, ast.FunctionDef) and n.name == name)
++            for target in expected_calls:
++                self.assertTrue(any(isinstance(c.func.value, ast.Name)
++                                    and c.func.value.id == 'self' for c in calls(node, target)))
++
+ if __name__ == '__main__':
+     unittest.main()

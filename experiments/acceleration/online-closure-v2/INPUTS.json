@@ -1,0 +1,135 @@
+{
+  "schema": "cryptalis.online-closure-source-inputs/v2",
+  "prepared_utc_date": "2026-10-14",
+  "path_root": "cryptalis-executable",
+  "status": "RETAINED_INPUT_BYTES_PINNED_NOT_REEXECUTED",
+  "input_file_count": 31,
+  "semantics": "Hashes and byte lengths identify existing inputs. Historical test receipts are not V2 runs; reviewer decisions describe their reviewed snapshots. Listed inputs are not a publication allowlist.",
+  "files": {
+    "checkpoints/CP65-online-initial-inventory.md": {
+      "sha256": "0fc2103db64b4d6b2dd92e424393e1ea79b5c7e672f16f9ea2935c0652cb648f",
+      "bytes": 8147
+    },
+    "evidence/d3-online-cf1-handoff-sa20-20261013/junit.xml": {
+      "sha256": "1ded838cafc059191ce5c65d340a434b52eae21e287a01447ee99855cc8aa119",
+      "bytes": 3713
+    },
+    "evidence/d3-online-cf1-handoff-sa21-20261013/junit.xml": {
+      "sha256": "d374f07bec74e9c5d140bd5ec7510009f5c9a6e2ee8a5d58e836f8088b922d44",
+      "bytes": 3713
+    },
+    "evidence/d4-cf1-process-death-sa20-20261013/junit.xml": {
+      "sha256": "3b229b3c0d782424ec218b00278b4c99f409be319ca92b54738ee1f2d4931b15",
+      "bytes": 2187
+    },
+    "evidence/d4-cf1-process-death-sa21-20261013/junit.xml": {
+      "sha256": "ecc345d41e8357e77676cf0ad0f5f8ce9604520b2c1d22fe32e21c3aa208e255",
+      "bytes": 2187
+    },
+    "evidence/d5-online-convergence-sa20-20261013/junit.xml": {
+      "sha256": "f853205890c83df67e1b95ddb529dc3666c5ad990e4c2e79b79694c1feb87c07",
+      "bytes": 1837
+    },
+    "evidence/d5-online-convergence-sa21-20261013/junit.xml": {
+      "sha256": "d66532e975f5f9f35375bb2abe2dd11a850960c22cc1b2d587d97076ce04ecce",
+      "bytes": 1837
+    },
+    "experiments/online-closure-20261014/BASE_MANIFEST.json": {
+      "sha256": "81bcff22cae6d11a5d8b008528f9413d3b37ae58c72e038212f5e796e830c0d8",
+      "bytes": 22114
+    },
+    "experiments/online-closure-20261014/CANDIDATE_MANIFEST.json": {
+      "sha256": "d8530c49fe8fbd1281757a69060961c4cf24461efa4ccdaeaa0aade700a5c2c3",
+      "bytes": 22649
+    },
+    "experiments/online-closure-20261014/INPUTS.json": {
+      "sha256": "fa2f16576780ea7cfdaedff993a00c447667b8de6b0fab5cc72d84db430e1904",
+      "bytes": 1681
+    },
+    "experiments/online-closure-20261014/PACKET_MANIFEST.json": {
+      "sha256": "a68b2464063851440063746620580b0f50e46d3be923f1a2f845f84b29acc690",
+      "bytes": 713
+    },
+    "experiments/online-closure-20261014/README.md": {
+      "sha256": "2280e3e1c6709748f7d472d2ae115e75844d3bd479abc835a7bf3574a7b11e9e",
+      "bytes": 8027
+    },
+    "experiments/online-closure-20261014/SOURCE_DELTA.patch": {
+      "sha256": "76bd44fabcf36c12a8c75261eb6cef9b83c0aa82d44c593a2c48edd96850058d",
+      "bytes": 3561
+    },
+    "experiments/online-closure-20261014/test_online_closure_source.py": {
+      "sha256": "9e8d8f7ee9b6ce15378a338828d89835c2de4bb4e8c9ee41f7c812ed0d9e19c8",
+      "bytes": 5021
+    },
+    "reviewer-notes/online-closure-source-independent-20261014/REVIEW.md": {
+      "sha256": "e24d9a7d2cba6a4ad9238dd696490565bd61c2f7a3c2b90589e8258418e432a9",
+      "bytes": 9459
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/FINAL_PACKET_RECHECK.txt": {
+      "sha256": "0553de38179a854fdfbe54a335702dd027649a6942952aa01c6946f0494947ee",
+      "bytes": 283
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/FINAL_SOURCE_RECHECK.txt": {
+      "sha256": "c0fe98c956ea32fc563f9194a72d2d9a6bff5a4a466eb387f428df9fa5fadb46",
+      "bytes": 15177
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/FINAL_V2_FILES.txt": {
+      "sha256": "71afe06a61266b32c19322063086a9f522601e1509d7a783477db7add9c2395d",
+      "bytes": 6936
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/PRESERVED_V1_HASH_CHECKS.tsv": {
+      "sha256": "1998941d9b888ffbca9fb28067c664a4762af9e9986dd319752c521679cd802e",
+      "bytes": 60993
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/RESULT.json": {
+      "sha256": "7ab79a895f54c690256ff1dec2c3c2fbe0c73b42fe10542e793137993533f6fb",
+      "bytes": 1214
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/REVIEW.md": {
+      "sha256": "6a29aa7bbdf7abc21aa5133bb952918fe8479ecb41002234789d63aa291936a6",
+      "bytes": 10499
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V1_FILES.txt": {
+      "sha256": "71afe06a61266b32c19322063086a9f522601e1509d7a783477db7add9c2395d",
+      "bytes": 6936
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V1_TO_V2_SOURCE_DELTA.patch": {
+      "sha256": "734fd45b8ac6d3a74111b79bda9378f3b258113d1bf7418ef65fb701244aa72f",
+      "bytes": 1327
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V1_TO_V2_TEST_DELTA.patch": {
+      "sha256": "a5803566780f0bfb703bf00e3d9e8b636cb8f49a8fce3651c3ba7b26229fe950",
+      "bytes": 2931
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V1_V2_HASHES.tsv": {
+      "sha256": "f2e317b4ee1b363e224dc137f7dfc80b02e6c3ed5e61145f538ad84883966424",
+      "bytes": 33066
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V2_FILES.txt": {
+      "sha256": "71afe06a61266b32c19322063086a9f522601e1509d7a783477db7add9c2395d",
+      "bytes": 6936
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V2_PACKET_SHA256SUMS.txt": {
+      "sha256": "9b59b967eded8946ba322e1ae9c7d779c975cb31c12c2fd478a733beb3b80a49",
+      "bytes": 531
+    },
+    "reviewer-notes/online-closure-v2-independent-20261014/V2_SOURCE_SHA256SUMS.txt": {
+      "sha256": "6920ff0a8b44465e1e00cebf0ec8b0bf5aaee3fbc238cc37d888ffe00a67266f",
+      "bytes": 27639
+    },
+    "reviewer-notes/s23-online-followup-20261014/source-review.md": {
+      "sha256": "7e15b4e63769ac738e48c73907192b84e25ff9429f75f5da6648eb7819b432db",
+      "bytes": 9431
+    },
+    "reviewer-notes/s24-related-online-repos-20261014/PROPOSAL.md": {
+      "sha256": "135912c440c849c9e78b98daa962e6ed02b2e6ff0b7cfdfa2d2d4995ede5d616",
+      "bytes": 14565
+    },
+    "reviewer-notes/s24-related-online-repos-20261014/SOURCES.json": {
+      "sha256": "66d2b5d3bce2d88f78f590281c038260bb3a968162c7d1249c9cd2027b56d2df",
+      "bytes": 4240
+    }
+  }
+}
+

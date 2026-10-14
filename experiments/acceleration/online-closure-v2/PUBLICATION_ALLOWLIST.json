@@ -1,0 +1,47 @@
+{
+  "schema": "cryptalis.prospective-publication-allowlist/v1",
+  "path_root": "cryptalis-executable",
+  "status": "PROSPECTIVE_ALLOWLIST_ONLY_NO_PUBLICATION_AUTHORITY",
+  "publication_authorized": false,
+  "published": false,
+  "policy": "Only these exact regular-file paths may be considered in a later separately authorized publication. Verify frozen hashes, inspect intended recipient/access scope, and obtain required permission before sharing. No glob or recursive directory publication is allowed.",
+  "allowed_paths": [
+    "candidate-online-closure-v2-20261014/docs/lifecycle.md",
+    "candidate-online-closure-v2-20261014/docs/status.md",
+    "candidate-online-closure-v2-20261014/experiments/independent_cf1_decode.py",
+    "candidate-online-closure-v2-20261014/tests/_online_cf1_lab.py",
+    "candidate-online-closure-v2-20261014/tests/_online_cf1_process_lab.py",
+    "candidate-online-closure-v2-20261014/tests/_online_enumeration_lab.py",
+    "experiments/online-closure-v2-20261014/BASE_TO_V2_SOURCE_DELTA.patch",
+    "experiments/online-closure-v2-20261014/CANDIDATE_MANIFEST.json",
+    "experiments/online-closure-v2-20261014/INHERITED_ROUTE_INVENTORY.md",
+    "experiments/online-closure-v2-20261014/INPUTS.json",
+    "experiments/online-closure-v2-20261014/PACKET_MANIFEST.json",
+    "experiments/online-closure-v2-20261014/PREPARATION_RECEIPT.json",
+    "experiments/online-closure-v2-20261014/PUBLICATION_ALLOWLIST.json",
+    "experiments/online-closure-v2-20261014/README.md",
+    "experiments/online-closure-v2-20261014/README_v1_retained.md",
+    "experiments/online-closure-v2-20261014/SOURCE_DELTA.patch",
+    "experiments/online-closure-v2-20261014/SOURCE_SHA256SUMS.txt",
+    "experiments/online-closure-v2-20261014/TEST_DELTA.patch",
+    "experiments/online-closure-v2-20261014/V1_MANIFEST_SNAPSHOT.json",
+    "experiments/online-closure-v2-20261014/V1_PACKET_MANIFEST_SNAPSHOT.json",
+    "experiments/online-closure-v2-20261014/test_online_closure_source.py",
+    "reviewer-notes/online-closure-source-independent-20261014/REVIEW.md",
+    "reviewer-notes/online-closure-v2-independent-20261014/REVIEW.md"
+  ],
+  "excluded_categories": [
+    "All paths not exactly listed above, including other INPUTS.json targets and all other candidate files",
+    "Passwords, credentials, private connection URL files, authentication tokens, key material and secret environment values",
+    "Raw phase/trace JSON, raw database or stage/queue snapshots, dumps, worker IPC payloads and unrestricted logs",
+    "Cache and bytecode directories/files, including __pycache__, .pytest_cache, .mypy_cache, .ruff_cache and *.pyc",
+    "Git metadata, installed environments, temporary files, archives and symlinks"
+  ],
+  "json_exception_policy": "Only the exact documentary JSON manifest/receipt/allowlist paths above are eligible. A .json extension, hash reference or historical evidence label does not permit raw phase/trace JSON publication.",
+  "identity_sources": [
+    "experiments/online-closure-v2-20261014/PACKET_MANIFEST.json",
+    "experiments/online-closure-v2-20261014/CANDIDATE_MANIFEST.json",
+    "experiments/online-closure-v2-20261014/INPUTS.json"
+  ]
+}
+
