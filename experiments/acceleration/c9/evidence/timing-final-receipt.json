@@ -1,0 +1,576 @@
+{
+  "archive": "C9_FROZEN_TIMING_COMPLETE_20261014.tar.xz",
+  "archive_sha256": "d222956571f34e0cf5e0d41502056be228dd140a001d52d6a8fb59f58aa95230",
+  "bytes": 590088,
+  "files": {
+    "sa21/native-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sa21/summary.json": "2d8d3515545716e933ae377d79e890378e75dcafaa161c1b6db8b62f9b2867f4",
+    "sa21/original-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sa21/metadata.json": "10de9c9ee3fa07342b1c967418a7ad654230d632e90e3f677cfaef662bb6b082",
+    "sa21/samples.jsonl": "088605925f682368d19da929e515a11dfe5776ea3a84a50b54ccd178f3902b44",
+    "sa21/candidate-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sa20/native-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sa20/summary.json": "dffd0df3e3b7ee23315e84e2f6818571108a37500bf8cfe0aec79a556e4523e8",
+    "sa20/original-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sa20/metadata.json": "8fc6811cf5805b3251d952de54392f5aede3f825c76db1d06f9127a5a983390b",
+    "sa20/samples.jsonl": "0bc03db55ab1dddebece708e6f8907a9b60aa5a747de7facaf490cef14a5d615",
+    "sa20/candidate-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "same_host_extract_exact": true,
+  "remote_raw_archive": "NOT PUBLISHED",
+  "cells": {
+    "sa21": {
+      "metadata_sha256": "10de9c9ee3fa07342b1c967418a7ad654230d632e90e3f677cfaef662bb6b082",
+      "raw_samples_sha256": "088605925f682368d19da929e515a11dfe5776ea3a84a50b54ccd178f3902b44",
+      "observations": 5250,
+      "summary": {
+        "workloads": {
+          "in20-miss-ids": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  305539.5,
+                  343701.0,
+                  334483.0,
+                  301543.5,
+                  304568.5,
+                  245641.5,
+                  306085.0
+                ],
+                "median_of_block_medians_ns": 305539.5,
+                "nearest_rank_p95_ns": 519495
+              },
+              "original": {
+                "block_medians_ns": [
+                  1902079.5,
+                  1897832.5,
+                  1987605.0,
+                  2015285.5,
+                  1853347.0,
+                  2079655.5,
+                  2047117.0
+                ],
+                "median_of_block_medians_ns": 1987605.0,
+                "nearest_rank_p95_ns": 2546887
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  2016402.5,
+                  2018305.5,
+                  1955913.0,
+                  2201896.0,
+                  1933860.5,
+                  2074622.5,
+                  2051844.5
+                ],
+                "median_of_block_medians_ns": 2018305.5,
+                "nearest_rank_p95_ns": 2759701
+              }
+            },
+            "primary": true,
+            "reduction_percent": -1.5445976438980582,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 1.0154459764389805,
+            "relative_pass": false,
+            "candidate_minus_native_p95_ns": 2240206,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": true
+          },
+          "in20-hot-ids": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  591575.5,
+                  596969.0,
+                  653646.5,
+                  666741.0,
+                  623822.5,
+                  566563.5,
+                  553454.5
+                ],
+                "median_of_block_medians_ns": 596969.0,
+                "nearest_rank_p95_ns": 898943
+              },
+              "original": {
+                "block_medians_ns": [
+                  2659884.5,
+                  2518286.0,
+                  2393401.5,
+                  2370218.0,
+                  2223417.0,
+                  2447051.5,
+                  2484796.0
+                ],
+                "median_of_block_medians_ns": 2447051.5,
+                "nearest_rank_p95_ns": 3550145
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  2407442.5,
+                  2482428.0,
+                  2445649.5,
+                  2417923.0,
+                  2301171.0,
+                  2514166.5,
+                  2714328.5
+                ],
+                "median_of_block_medians_ns": 2445649.5,
+                "nearest_rank_p95_ns": 3294579
+              }
+            },
+            "primary": true,
+            "reduction_percent": 0.057293440697917475,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 0.9994270655930209,
+            "relative_pass": false,
+            "candidate_minus_native_p95_ns": 2395636,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": true
+          },
+          "in20-hot-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  574860.5,
+                  598175.0,
+                  550114.0,
+                  571896.5,
+                  579127.0,
+                  611730.0,
+                  611856.0
+                ],
+                "median_of_block_medians_ns": 579127.0,
+                "nearest_rank_p95_ns": 825184
+              },
+              "original": {
+                "block_medians_ns": [
+                  11702968.0,
+                  11572195.5,
+                  12022978.0,
+                  13189204.0,
+                  12422096.0,
+                  13181921.0,
+                  12266114.5
+                ],
+                "median_of_block_medians_ns": 12266114.5,
+                "nearest_rank_p95_ns": 15012943
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  11794187.0,
+                  12160541.5,
+                  12137281.5,
+                  12736095.0,
+                  13127877.5,
+                  12173322.5,
+                  12347495.0
+                ],
+                "median_of_block_medians_ns": 12173322.5,
+                "nearest_rank_p95_ns": 15796893
+              }
+            },
+            "primary": false,
+            "reduction_percent": 0.7564905740933692,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 0.9924350942590663,
+            "relative_pass": true,
+            "candidate_minus_native_p95_ns": 14971709,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": false
+          },
+          "equality-hot-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  283772.5,
+                  291409.0,
+                  323251.0,
+                  282290.0,
+                  391531.0,
+                  301549.0,
+                  305534.0
+                ],
+                "median_of_block_medians_ns": 301549.0,
+                "nearest_rank_p95_ns": 497352
+              },
+              "original": {
+                "block_medians_ns": [
+                  6508979.0,
+                  7034732.5,
+                  6695358.0,
+                  6979190.5,
+                  7503846.5,
+                  7629401.0,
+                  6685378.0
+                ],
+                "median_of_block_medians_ns": 6979190.5,
+                "nearest_rank_p95_ns": 9327104
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  6324222.5,
+                  6669805.5,
+                  6924675.5,
+                  7061742.5,
+                  6281112.0,
+                  6745030.5,
+                  7037777.5
+                ],
+                "median_of_block_medians_ns": 6745030.5,
+                "nearest_rank_p95_ns": 8255369
+              }
+            },
+            "primary": false,
+            "reduction_percent": 3.355116900735121,
+            "strictly_favorable_blocks": 4,
+            "candidate_original_ratio": 0.9664488309926488,
+            "relative_pass": true,
+            "candidate_minus_native_p95_ns": 7758017,
+            "absolute_limit_ns": 3000000,
+            "absolute_pass": false
+          },
+          "point-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  130928.0,
+                  213193.5,
+                  127778.5,
+                  175333.0,
+                  204882.0,
+                  195152.5,
+                  126236.0
+                ],
+                "median_of_block_medians_ns": 175333.0,
+                "nearest_rank_p95_ns": 271089
+              },
+              "original": {
+                "block_medians_ns": [
+                  1463654.0,
+                  1602097.5,
+                  1755878.5,
+                  1557867.5,
+                  1840103.0,
+                  1690182.0,
+                  1526266.0
+                ],
+                "median_of_block_medians_ns": 1602097.5,
+                "nearest_rank_p95_ns": 2272635
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  1534022.5,
+                  1529085.5,
+                  1848926.0,
+                  1649782.5,
+                  1558523.5,
+                  1801741.5,
+                  1578132.5
+                ],
+                "median_of_block_medians_ns": 1578132.5,
+                "nearest_rank_p95_ns": 2508341
+              }
+            },
+            "primary": false,
+            "reduction_percent": 1.4958515321320955,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 0.985041484678679,
+            "relative_pass": true,
+            "candidate_minus_native_p95_ns": 2237252,
+            "absolute_limit_ns": null,
+            "absolute_pass": null
+          }
+        },
+        "internal_relative_pass": false,
+        "absolute_added_p95_pass": false,
+        "clock_anomalies": [],
+        "clock_differences": {
+          "wall_minus_raw_ns": {
+            "min": -273249,
+            "max": 16600
+          }
+        },
+        "product_qualified": false
+      },
+      "source_after_verified": true,
+      "all_worker_exits_zero": true
+    },
+    "sa20": {
+      "metadata_sha256": "8fc6811cf5805b3251d952de54392f5aede3f825c76db1d06f9127a5a983390b",
+      "raw_samples_sha256": "0bc03db55ab1dddebece708e6f8907a9b60aa5a747de7facaf490cef14a5d615",
+      "observations": 5250,
+      "summary": {
+        "workloads": {
+          "in20-miss-ids": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  248711.5,
+                  246032.0,
+                  297052.0,
+                  227474.5,
+                  235421.0,
+                  268990.5,
+                  258275.0
+                ],
+                "median_of_block_medians_ns": 248711.5,
+                "nearest_rank_p95_ns": 389253
+              },
+              "original": {
+                "block_medians_ns": [
+                  1778136.5,
+                  1866546.0,
+                  1998435.0,
+                  1801876.5,
+                  2106563.5,
+                  1947906.0,
+                  1841259.5
+                ],
+                "median_of_block_medians_ns": 1866546.0,
+                "nearest_rank_p95_ns": 2609029
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  1843783.0,
+                  1872739.5,
+                  1881953.5,
+                  1814650.5,
+                  2063240.0,
+                  2434998.0,
+                  1986488.0
+                ],
+                "median_of_block_medians_ns": 1881953.5,
+                "nearest_rank_p95_ns": 3212426
+              }
+            },
+            "primary": true,
+            "reduction_percent": -0.8254551454933337,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 1.0082545514549333,
+            "relative_pass": false,
+            "candidate_minus_native_p95_ns": 2823173,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": true
+          },
+          "in20-hot-ids": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  587419.0,
+                  625159.5,
+                  543785.5,
+                  515974.5,
+                  642354.5,
+                  662474.5,
+                  635464.5
+                ],
+                "median_of_block_medians_ns": 625159.5,
+                "nearest_rank_p95_ns": 926554
+              },
+              "original": {
+                "block_medians_ns": [
+                  2263716.0,
+                  2332676.5,
+                  2257822.5,
+                  2175766.5,
+                  2497798.5,
+                  2535636.0,
+                  3162688.0
+                ],
+                "median_of_block_medians_ns": 2332676.5,
+                "nearest_rank_p95_ns": 4117768
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  2325767.5,
+                  2353519.5,
+                  2189752.5,
+                  2246370.5,
+                  2524713.5,
+                  2792173.5,
+                  2673662.5
+                ],
+                "median_of_block_medians_ns": 2353519.5,
+                "nearest_rank_p95_ns": 3661727
+              }
+            },
+            "primary": true,
+            "reduction_percent": -0.8935229552833408,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 1.0089352295528333,
+            "relative_pass": false,
+            "candidate_minus_native_p95_ns": 2735173,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": true
+          },
+          "in20-hot-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  627503.0,
+                  597639.0,
+                  587815.0,
+                  629230.5,
+                  677416.0,
+                  628835.5,
+                  593688.5
+                ],
+                "median_of_block_medians_ns": 627503.0,
+                "nearest_rank_p95_ns": 913194
+              },
+              "original": {
+                "block_medians_ns": [
+                  11888674.5,
+                  10999625.0,
+                  11448126.5,
+                  11849031.5,
+                  13716043.0,
+                  11688579.0,
+                  13309840.5
+                ],
+                "median_of_block_medians_ns": 11849031.5,
+                "nearest_rank_p95_ns": 15361563
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  13714846.5,
+                  12088201.0,
+                  11217767.0,
+                  12568070.0,
+                  13298403.5,
+                  13216342.5,
+                  13667682.0
+                ],
+                "median_of_block_medians_ns": 13216342.5,
+                "nearest_rank_p95_ns": 17329540
+              }
+            },
+            "primary": false,
+            "reduction_percent": -11.539432568813746,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 1.1153943256881376,
+            "relative_pass": false,
+            "candidate_minus_native_p95_ns": 16416346,
+            "absolute_limit_ns": 8000000,
+            "absolute_pass": false
+          },
+          "equality-hot-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  297372.5,
+                  352669.5,
+                  309925.5,
+                  340861.5,
+                  324953.0,
+                  317452.0,
+                  307692.5
+                ],
+                "median_of_block_medians_ns": 317452.0,
+                "nearest_rank_p95_ns": 553825
+              },
+              "original": {
+                "block_medians_ns": [
+                  6080639.5,
+                  6342754.5,
+                  6135203.5,
+                  6712171.5,
+                  6435864.5,
+                  6935310.0,
+                  6648310.0
+                ],
+                "median_of_block_medians_ns": 6435864.5,
+                "nearest_rank_p95_ns": 8212124
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  6717296.5,
+                  6603984.5,
+                  6445690.0,
+                  8163010.5,
+                  6927193.5,
+                  7221675.5,
+                  6488119.5
+                ],
+                "median_of_block_medians_ns": 6717296.5,
+                "nearest_rank_p95_ns": 9224019
+              }
+            },
+            "primary": false,
+            "reduction_percent": -4.372870187058786,
+            "strictly_favorable_blocks": 1,
+            "candidate_original_ratio": 1.0437287018705879,
+            "relative_pass": true,
+            "candidate_minus_native_p95_ns": 8670194,
+            "absolute_limit_ns": 3000000,
+            "absolute_pass": false
+          },
+          "point-text": {
+            "variants": {
+              "native": {
+                "block_medians_ns": [
+                  116937.0,
+                  136911.0,
+                  137532.5,
+                  127377.0,
+                  192614.0,
+                  145299.0,
+                  138288.5
+                ],
+                "median_of_block_medians_ns": 137532.5,
+                "nearest_rank_p95_ns": 245231
+              },
+              "original": {
+                "block_medians_ns": [
+                  1434980.5,
+                  1405532.5,
+                  1420114.5,
+                  1498970.0,
+                  1578427.0,
+                  1633904.5,
+                  1722434.0
+                ],
+                "median_of_block_medians_ns": 1498970.0,
+                "nearest_rank_p95_ns": 1939764
+              },
+              "candidate": {
+                "block_medians_ns": [
+                  1441044.5,
+                  1867272.0,
+                  1444285.5,
+                  1701547.5,
+                  1648731.0,
+                  1610254.5,
+                  1597610.5
+                ],
+                "median_of_block_medians_ns": 1610254.5,
+                "nearest_rank_p95_ns": 2234547
+              }
+            },
+            "primary": false,
+            "reduction_percent": -7.424064524306691,
+            "strictly_favorable_blocks": 2,
+            "candidate_original_ratio": 1.0742406452430668,
+            "relative_pass": true,
+            "candidate_minus_native_p95_ns": 1989316,
+            "absolute_limit_ns": null,
+            "absolute_pass": null
+          }
+        },
+        "internal_relative_pass": false,
+        "absolute_added_p95_pass": false,
+        "clock_anomalies": [],
+        "clock_differences": {
+          "wall_minus_raw_ns": {
+            "min": -59881,
+            "max": 274047
+          }
+        },
+        "product_qualified": false
+      },
+      "source_after_verified": true,
+      "all_worker_exits_zero": true
+    }
+  },
+  "disposition": "HOLD C9; both frozen relative and absolute diagnostic gates fail; no retry or promotion"
+}
