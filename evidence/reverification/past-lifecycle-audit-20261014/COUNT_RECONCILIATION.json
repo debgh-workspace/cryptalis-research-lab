@@ -1,0 +1,46 @@
+{
+  "20": {
+    "progress_counts": {
+      "('setup', 'passed')": 2326,
+      "('call', 'passed')": 2347,
+      "('teardown', 'passed')": 2344,
+      "('call', 'failed')": 7,
+      "('setup', 'skipped')": 18,
+      "('call', 'skipped')": 28
+    },
+    "junit_skip_count": 46,
+    "s19_s20_failure_ids_equal": true,
+    "failure_ids": [
+      "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+      "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]"
+    ],
+    "s19_junit_sha256": "f29276ecd58ff500ad51843ac30f75d4eaea782a1b86b61437ddffa71473b82b",
+    "progress_sha256": "ca1e309e4052d64f09256a42190acebbe973d1679dff1f17db8f023528de2051"
+  },
+  "21": {
+    "progress_counts": {
+      "('setup', 'passed')": 2344,
+      "('call', 'passed')": 2393,
+      "('teardown', 'passed')": 2344,
+      "('call', 'failed')": 7
+    },
+    "junit_skip_count": 0,
+    "s19_s20_failure_ids_equal": true,
+    "failure_ids": [
+      "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+      "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]"
+    ],
+    "s19_junit_sha256": "a553dc7e1105a75429ad7c837e801dcd9b8c4cccb0efefab4dce3abca54f61c9",
+    "progress_sha256": "468454c421021a3af4d016cbea0f3f4254e06225c7d7380ae67b314c3dd823d0"
+  }
+}

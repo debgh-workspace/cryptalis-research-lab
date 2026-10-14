@@ -1,0 +1,579 @@
+{
+  "b8-final-boundary-green-sa21-20261014": {
+    "receipt_counts": {
+      "passed": 114
+    },
+    "receipt_exit": 0,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "passed": 41
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "114",
+        "time": "1.841",
+        "timestamp": "2026-10-14T04:34:35.702639+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "passed": 41
+      }
+    },
+    "failure_ids": [],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_before": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_after": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "07543a0150dd8b6fdfe565ed7ea442c3da94611d2d6babb436edd115ba75077d",
+      "source-stability.json": "64ff7078862d8e5241b4c49a58046de08cf2ea29a6960edbcbd64fb0c7f3ac68",
+      "junit.xml": "7d0075e6087394177df7aa832e3627041291b613a9d1771f1af3862a79c5afb0"
+    }
+  },
+  "b8-final-boundary-green-sa20-20261014": {
+    "receipt_counts": {
+      "passed": 114
+    },
+    "receipt_exit": 0,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "passed": 41
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "114",
+        "time": "1.722",
+        "timestamp": "2026-10-14T04:34:38.699282+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "passed": 41
+      }
+    },
+    "failure_ids": [],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_before": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_after": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "b5add6dbc1a79caf7f7020354b3efa264fff8c4b6c71280eb633fbeaf687775f",
+      "source-stability.json": "64ff7078862d8e5241b4c49a58046de08cf2ea29a6960edbcbd64fb0c7f3ac68",
+      "junit.xml": "8c099d1668d3352c73ea29e4539ba5436cb6c572d16406acdc2693ccb6c73b2c"
+    }
+  },
+  "b8-final-binding-sensitivity-sa21-20261014": {
+    "receipt_counts": {
+      "failed": 6
+    },
+    "receipt_exit": 1,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "failed": 6
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "6",
+        "skipped": "0",
+        "tests": "6",
+        "time": "0.131",
+        "timestamp": "2026-10-14T04:35:02.575051+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "failed": 6
+      }
+    },
+    "failure_ids": [
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[1-source]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[1-target]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[2-source]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[2-target]",
+      "tests.test_payload_rotation_preparation::test_pid_change_after_final_seal_cannot_return_the_completed_batch[1]",
+      "tests.test_payload_rotation_preparation::test_pid_change_after_final_seal_cannot_return_the_completed_batch[2]"
+    ],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250",
+        "recorded_before": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250",
+        "recorded_after": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "9bd69c8d827679b88101cdf6b12d91a6922fe244bad0f0bfbda7234fb312db19",
+      "source-stability.json": "31df94d057dc58176d9a24bff9c2443824ae2959b279e4932dfe40b68564c6ea",
+      "junit.xml": "1f28406986713c52a03607d1efa460cea4e6aad4d988e880d2bc1c8f7e967a92"
+    }
+  },
+  "b8-final-binding-sensitivity-sa20-20261014": {
+    "receipt_counts": {
+      "failed": 6
+    },
+    "receipt_exit": 1,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "failed": 6
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "6",
+        "skipped": "0",
+        "tests": "6",
+        "time": "0.102",
+        "timestamp": "2026-10-14T04:35:03.607606+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "failed": 6
+      }
+    },
+    "failure_ids": [
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[1-source]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[1-target]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[2-source]",
+      "tests.test_payload_rotation_preparation::test_expiry_after_final_seal_cannot_return_the_completed_batch[2-target]",
+      "tests.test_payload_rotation_preparation::test_pid_change_after_final_seal_cannot_return_the_completed_batch[1]",
+      "tests.test_payload_rotation_preparation::test_pid_change_after_final_seal_cannot_return_the_completed_batch[2]"
+    ],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250",
+        "recorded_before": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250",
+        "recorded_after": "7ac8408f146c13be4d3225284d1fe71f6bc49d9ffd0ab1023cb9ee5e209c8250"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "0b95400bc8edda89160bf97c34e3333d84e13d5f6fa9e14e54c0bffc208e720f",
+      "source-stability.json": "31df94d057dc58176d9a24bff9c2443824ae2959b279e4932dfe40b68564c6ea",
+      "junit.xml": "e622c43a361b66667f4eb4c89dc63288672b1a7949e3e9c749c55c9f0d78acbe"
+    }
+  },
+  "b7-reverse-policy-drift-sa21-20261013": {
+    "receipt_counts": {
+      "passed": 6
+    },
+    "receipt_exit": 0,
+    "receipt_module_counts": {
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "passed": 4
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "6",
+        "time": "3.973",
+        "timestamp": "2026-10-13T22:30:00.763403+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_reverse_policy_drift_recovery": {
+        "passed": 4
+      }
+    },
+    "failure_ids": [],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_before": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_after": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5"
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "072d0676e323aba9e2fc97e5e855b95dd911bcd657fffef36cec282d3525f9d2",
+      "source-stability.json": "c4dfb74f68033c99bb0424e8e7d8c4f4e642e645cdbda0bc052853602d6af3bd",
+      "junit.xml": "d79dd83d74056115ffde20756f303178df2da6f428524e1495be255527e1382d"
+    }
+  },
+  "b7-reverse-policy-drift-sa20-20261013": {
+    "receipt_counts": {
+      "passed": 6
+    },
+    "receipt_exit": 0,
+    "receipt_module_counts": {
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "passed": 4
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "6",
+        "time": "3.349",
+        "timestamp": "2026-10-13T22:31:27.747923+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_reverse_policy_drift_recovery": {
+        "passed": 4
+      }
+    },
+    "failure_ids": [],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": null,
+        "recorded_before": null,
+        "recorded_after": null
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_before": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_after": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5"
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "37a79be323f09ba3444c709bedb7bef7d4ed772584d1ebbb88ef635f7a82e5ff",
+      "source-stability.json": "c4dfb74f68033c99bb0424e8e7d8c4f4e642e645cdbda0bc052853602d6af3bd",
+      "junit.xml": "7a05838ae910faa3ba83deafcec30f88f4fab7bca4d58864900d152ff734d4a3"
+    }
+  },
+  "s20-installed-full-sa21-20261014": {
+    "receipt_counts": {
+      "passed": 2393,
+      "failed": 7
+    },
+    "receipt_exit": 1,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "passed": 41
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "passed": 4
+      },
+      "tests/test_reverse_predecessor_consistency.py": {
+        "passed": 31
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "7",
+        "skipped": "0",
+        "tests": "2400",
+        "time": "384.656",
+        "timestamp": "2026-10-14T04:39:47.757961+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "passed": 41
+      },
+      "tests.test_reverse_policy_drift_recovery": {
+        "passed": 4
+      },
+      "tests.test_reverse_predecessor_consistency": {
+        "passed": 31
+      }
+    },
+    "failure_ids": [
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+      "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+      "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]"
+    ],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_before": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_after": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_before": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_after": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5"
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "6ccc813c4fd583b5c130cccf4ba18bf704b982b8752d10062d5e3d541ee66d08",
+      "source-stability.json": "8854cd5617423d809b42b309e800c2eaed11b6d7dfe4dd33c40c6bc11653b1aa",
+      "junit.xml": "26ca888f0ab242361cda3a344aa9ae88c14bc97e94649be125b3b1756adda2fa"
+    }
+  },
+  "s20-installed-full-sa20-20261014": {
+    "receipt_counts": {
+      "passed": 2347,
+      "failed": 7,
+      "skipped": 28
+    },
+    "receipt_exit": 1,
+    "receipt_module_counts": {
+      "tests/test_payload_rotation_preparation.py": {
+        "passed": 41
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "passed": 4
+      },
+      "tests/test_reverse_predecessor_consistency.py": {
+        "passed": 31
+      }
+    },
+    "suite_attributes": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "7",
+        "skipped": "46",
+        "tests": "2400",
+        "time": "374.370",
+        "timestamp": "2026-10-14T04:46:29.215219+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "selected_junit_modules": {
+      "tests.test_payload_rotation_preparation": {
+        "passed": 41
+      },
+      "tests.test_reverse_policy_drift_recovery": {
+        "passed": 4
+      },
+      "tests.test_reverse_predecessor_consistency": {
+        "passed": 31
+      }
+    },
+    "failure_ids": [
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+      "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+      "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]"
+    ],
+    "stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "hashes": {
+      "src/cryptalis/crypto/_payload_rotation.py": {
+        "current_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "snapshot_sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_before": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+        "recorded_after": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+      },
+      "tests/test_payload_rotation_preparation.py": {
+        "current_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "snapshot_sha256": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_before": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a",
+        "recorded_after": "eb841213900dd279efbfcbc47c18c99e5fa714308f594f65e3aa335c71be481a"
+      },
+      "src/cryptalis/deprotection.py": {
+        "current_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "snapshot_sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_before": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+        "recorded_after": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+      },
+      "tests/test_reverse_policy_drift_recovery.py": {
+        "current_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "snapshot_sha256": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_before": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5",
+        "recorded_after": "22c0d97956346dd606abdf1de88e1d605917741868b3f0fe45aeeaa6f188eeb5"
+      }
+    },
+    "file_pins": {
+      "runner-receipt.json": "8f203b86a8bf48078ded5306505971232450ff91d839d1532040cc4a72ec4e85",
+      "source-stability.json": "8854cd5617423d809b42b309e800c2eaed11b6d7dfe4dd33c40c6bc11653b1aa",
+      "junit.xml": "86b121789b28a037ce799c75cb7088de08baca84eccafd4304b62dbfca0ffef4"
+    }
+  }
+}
