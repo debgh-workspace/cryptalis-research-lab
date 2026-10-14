@@ -1,0 +1,293 @@
+{
+  "cell": "sa20",
+  "scope": "Independent terminal evidence review only. No database or test execution. All seven production gates remain UNKNOWN.",
+  "baseline": "evidence/s23-planning-full-sa20-20261014",
+  "failed_r2": "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21",
+  "current": "evidence/s24-test-oracles-r3-aggregate-sa20-20261014",
+  "receipt": {
+    "scope": "Isolated authorized research; all production gates UNKNOWN",
+    "base_revision": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
+    "fixing_revision": "worktree-8faa43b3aa46dd11",
+    "preflight": {
+      "select_1_each": "passed",
+      "sha256_prefixes": [
+        "76053d5b",
+        "a38ab71b"
+      ]
+    },
+    "pytest_args": [
+      "-q",
+      "-c",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s24-test-oracles-r3-20261014/pyproject.toml",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s24-test-oracles-r3-20261014/tests",
+      "--tb=short",
+      "-ra",
+      "-p",
+      "lab_progress",
+      "-o",
+      "faulthandler_timeout=180",
+      "--junitxml=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/s24-test-oracles-r3-aggregate-sa20-20261014/junit.xml"
+    ],
+    "counts": {
+      "passed": 2642,
+      "failed": 7,
+      "skipped": 28
+    },
+    "exit_code": 1,
+    "elapsed_seconds": 421.0915718260221,
+    "gates": {
+      "G-ADAPTER": "UNKNOWN",
+      "G-CRYPTO": "UNKNOWN",
+      "G-QUERY": "UNKNOWN",
+      "G-LIFECYCLE": "UNKNOWN",
+      "G-PROVIDER": "UNKNOWN",
+      "G-POLICY": "UNKNOWN",
+      "G-RELEASE": "UNKNOWN"
+    }
+  },
+  "log_summary": "7 failed, 2586 passed, 46 skipped, 2 warnings, 56 subtests passed in 419.88s (0:06:59)",
+  "junit": {
+    "ordinary_cases": 2639,
+    "status_counts": {
+      "passed": 2586,
+      "failure": 7,
+      "skipped": 46
+    },
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "7",
+        "skipped": "46",
+        "tests": "2695",
+        "time": "419.841",
+        "timestamp": "2026-10-14T19:49:25.842504+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "all_identities_unique": true
+  },
+  "baseline_comparison": {
+    "ordinary_cases": 2638,
+    "status_counts": {
+      "passed": 2585,
+      "failure": 7,
+      "skipped": 46
+    },
+    "removed_ids": [],
+    "added_ids": {
+      "tests.test_doctor_active::test_new_format_malformed_inner_plan_is_rejected_at_constructor_without_raw_error": "passed"
+    },
+    "changed_original_outcomes": {},
+    "same_seven_failures": true,
+    "historical_failure_messages_unchanged": true,
+    "historical_failures": {
+      "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch": "sqlalchemy.exc.NoResultFound: No row was found when one was required",
+      "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound": "Failed: DID NOT RAISE TransitionFailure",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging": "Failed: DID NOT RAISE TransitionFailure",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]": "Failed: DID NOT RAISE TransitionFailure",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]": "Failed: DID NOT RAISE TransitionFailure",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]": "Failed: DID NOT RAISE TransitionFailure",
+      "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]": "Failed: DID NOT RAISE TransitionFailure"
+    },
+    "skip_ids_identical": true,
+    "skip_reasons_unchanged": true
+  },
+  "r2_comparison": {
+    "removed_ids": [],
+    "added_ids": {
+      "tests.test_doctor_active::test_new_format_malformed_inner_plan_is_rejected_at_constructor_without_raw_error": "passed"
+    },
+    "introduced_failures": [
+      "tests.test_doctor_active::test_active_doctor_malformed_inner_plan_is_rejected_without_raw_error",
+      "tests.test_doctor_ciphertext::test_multitable_multitenant_multifield_audit_matches_independent_oracle",
+      "tests.test_migration_multitable::test_reused_descriptors_still_reject_valid_wrong_context_frames[field]",
+      "tests.test_migration_multitable::test_reused_descriptors_still_reject_valid_wrong_context_frames[record]",
+      "tests.test_migration_multitable::test_reused_descriptors_still_reject_valid_wrong_context_frames[tenant]",
+      "tests.test_migration_multitable::test_same_schema_existing_function_is_not_replaced_or_adopted",
+      "tests.test_migration_multitable::test_same_schema_failed_second_expansion_is_atomic_and_resumable",
+      "tests.test_migration_multitable::test_same_schema_second_guard_retirement_failure_keeps_all_fences[activation]",
+      "tests.test_migration_multitable::test_same_schema_sigkill_resume_keeps_committed_frames[ACTIVE]",
+      "tests.test_migration_multitable::test_same_schema_sigkill_resume_keeps_committed_frames[BACKFILLED]",
+      "tests.test_migration_multitable::test_same_schema_sigkill_resume_keeps_committed_frames[EXPANDED]",
+      "tests.test_migration_multitable::test_same_schema_sigkill_resume_keeps_committed_frames[PENDING]",
+      "tests.test_migration_multitable::test_same_schema_sigkill_resume_keeps_committed_frames[VERIFIED]",
+      "tests.test_migration_multitable::test_same_schema_tables_publish_and_use_native_application_values",
+      "tests.test_migration_multitable::test_second_table_fence_drift_cannot_remove_first_table_fence[activation]",
+      "tests.test_retained_profile_safety_oracles::test_retained_reverse_protected_byte_refusal_preserves_exact_state_and_recovers[backfill]",
+      "tests.test_retained_profile_safety_oracles::test_retained_reverse_protected_byte_refusal_preserves_exact_state_and_recovers[verify]",
+      "tests.test_retained_public_metadata::test_retained_public_metadata_survives_current_data_reverse[column_grant]",
+      "tests.test_retained_public_metadata::test_retained_public_metadata_survives_current_data_reverse[comment]",
+      "tests.test_retained_public_metadata::test_retained_public_metadata_survives_current_data_reverse[compression]",
+      "tests.test_retained_public_metadata::test_retained_public_metadata_survives_current_data_reverse[statistics]",
+      "tests.test_retained_public_metadata::test_retained_public_metadata_survives_current_data_reverse[storage]",
+      "tests.test_sqlalchemy_optimistic_versioning::test_stale_versioned_orm_write_matches_native_and_recovers[delete-async]",
+      "tests.test_sqlalchemy_optimistic_versioning::test_stale_versioned_orm_write_matches_native_and_recovers[delete-sync]",
+      "tests.test_sqlalchemy_optimistic_versioning::test_stale_versioned_orm_write_matches_native_and_recovers[update-async]",
+      "tests.test_sqlalchemy_optimistic_versioning::test_stale_versioned_orm_write_matches_native_and_recovers[update-sync]"
+    ],
+    "introduced_failures_now_passing": true,
+    "fixed_failure_count": 26,
+    "note": "The failed r2 comparison is SA21; SA20 uses its own frozen S23 suite for exact outcomes and skip equivalence."
+  },
+  "progress": {
+    "ordinary_starts": 2639,
+    "unique_starts": 2639,
+    "ordinary_start_ids_removed": [],
+    "ordinary_start_ids_added": [
+      "tests/test_doctor_active.py::test_new_format_malformed_inner_plan_is_rejected_at_constructor_without_raw_error"
+    ],
+    "call_reports": 2677,
+    "subtest_report_excess": 56,
+    "call_report_unique_identities": 2621,
+    "skip_reports_by_phase": {
+      "setup": 18,
+      "call": 28
+    },
+    "call_report_statuses": {
+      "skipped": 28,
+      "failed": 7,
+      "passed": 2642
+    },
+    "removed_call_reports": [],
+    "added_call_reports": [
+      [
+        "tests/test_doctor_active.py::test_new_format_malformed_inner_plan_is_rejected_at_constructor_without_raw_error",
+        "passed",
+        1
+      ]
+    ],
+    "nonpass_setup_teardown": [],
+    "subtest_note": "Passing subtests are reported separately from ordinary cases. JUnit suite test totals and runner passed counts include subtest reports; JUnit testcase elements do not."
+  },
+  "source": {
+    "snapshot_before_after_equal": true,
+    "snapshot_reports_unchanged": true,
+    "external_before_after_equal": true,
+    "external_reports_unchanged": true,
+    "candidate_vs_snapshot": {
+      "count": 153,
+      "missing": [],
+      "mismatches": []
+    },
+    "archived_source_vs_snapshot": {
+      "count": 153,
+      "missing": [],
+      "mismatches": []
+    },
+    "candidate_vs_receipt": {
+      "count": 152,
+      "missing": [],
+      "mismatches": []
+    },
+    "receipt_vs_snapshot_common_hashes_equal": true,
+    "receipt_only_paths": [
+      "scripts/test_postgres.py"
+    ],
+    "snapshot_only_paths": [
+      "pyproject.toml",
+      "uv.lock"
+    ],
+    "S23_to_r2_manifest": {
+      "removed": [],
+      "added": [
+        "src/cryptalis/_object_comments.py"
+      ],
+      "changed": [
+        "src/cryptalis/deprotection.py",
+        "src/cryptalis/migration.py",
+        "src/cryptalis/sqlalchemy.py",
+        "tests/test_deprotection.py",
+        "tests/test_migration.py"
+      ]
+    },
+    "r2_to_r3_manifest": {
+      "removed": [],
+      "added": [],
+      "changed": [
+        "tests/test_doctor_active.py",
+        "tests/test_migration_multitable.py",
+        "tests/test_retained_profile_safety_oracles.py",
+        "tests/test_retained_public_metadata.py",
+        "tests/test_sqlalchemy_optimistic_versioning.py"
+      ]
+    },
+    "r2_to_r3_snapshot_manifest": {
+      "removed": [],
+      "added": [],
+      "changed": [
+        "tests/test_doctor_active.py",
+        "tests/test_migration_multitable.py",
+        "tests/test_retained_profile_safety_oracles.py",
+        "tests/test_retained_public_metadata.py",
+        "tests/test_sqlalchemy_optimistic_versioning.py"
+      ]
+    },
+    "removed_test_function_definitions": [],
+    "added_test_function_definitions": [
+      "test_doctor_active.py::test_new_format_malformed_inner_plan_is_rejected_at_constructor_without_raw_error"
+    ],
+    "skip_xfail_decorators_unchanged_from_r2": true,
+    "historical_failed_test_file_unchanged": true
+  },
+  "corpus": {
+    "isolation_receipt": {
+      "patterns": [
+        "compatibility*corpus-v1-sa*.json",
+        "master-s4-compatibility*corpus-v1-sa*.json"
+      ],
+      "archived": [
+        {
+          "name": "master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+          "sha256": "65f12c5e9515005488fc9fc8a30fb89efbe286c0ed68c49881438b96a577333d"
+        }
+      ],
+      "deleted_during_run": [],
+      "primary_receipts_restored": true,
+      "errors": []
+    },
+    "prior_archives": {
+      "count": 26,
+      "missing": [],
+      "mismatches": []
+    },
+    "candidate_archives": {
+      "count": 1,
+      "missing": [],
+      "mismatches": []
+    },
+    "current_primary_receipts": {
+      "count": 26,
+      "missing": [],
+      "mismatches": []
+    },
+    "primary_receipts_note": "This is a point-in-time filesystem check; a later authorized run may temporarily write its own candidate corpus."
+  },
+  "stop_log": "waiting for server to shut down.... done\nserver stopped",
+  "evidence_sha256": {
+    "evidence/s23-planning-full-sa20-20261014/junit.xml": "f60158c4a2c01593b661a5a46c717d5488660198320f3076a7822b07277acf42",
+    "evidence/s23-planning-full-sa20-20261014/runner-receipt.json": "40b2f0cae8fe7f20eba5d461476001cbb58bd28e0b309de6103b95a9290778dc",
+    "evidence/s23-planning-full-sa20-20261014/progress.jsonl": "290ba222f1ff814b279bc4f15888d8051ea9af65be7879f9991504b9fd453f4b",
+    "evidence/s23-planning-full-sa20-20261014/tests.log": "03217c5ebc0417581ca1151c206b6b526ff09bd0c7720ef440e020ee5c470a5f",
+    "evidence/s23-planning-full-sa20-20261014/source-stability.json": "4a30a2ce79a3bbe878d7fdf7c12b939ecf69406c865d9b88bccba9dd6687a025",
+    "evidence/s23-planning-full-sa20-20261014/external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+    "evidence/s23-planning-full-sa20-20261014/candidate-corpus-isolation.json": "90fb06af3250c7254a4e4913acee39e349c13a884d4367743d9e9327d3a76d5c",
+    "evidence/s23-planning-full-sa20-20261014/postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/junit.xml": "48bc31808564158130b19ae3938f662c7f25ea2436b7fea1b2590e62d8a180d2",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/runner-receipt.json": "d8b3942c8cab09f7c1fcffd32919ebe12708534a050aa42818cb338883488fe6",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/progress.jsonl": "ec77a86321fed26ab94b789dbbf91d0b1b3bc5fafc123c8687fa7cd4f2f83130",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/tests.log": "f22278ca3710bd2b5970887316719d8a9f7d0fb285d8c3cf93bf7dc4554f2205",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/source-stability.json": "22506fb6a85ad3398a7f27355044a2b5aa38443357c1840c787b9b436a9f93ef",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/candidate-corpus-isolation.json": "2b3bfabf0d5291d4f4fcbf7b32e59b6038869886d92900e97d4ff97697ca47c2",
+    "evidence/s24-comments-integrated-r2-20261014-aggregate-sa21/postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/junit.xml": "b64cd488fbc06be812211d6d1ed81c78c255ce0342327f0e56a68795be87fc85",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/runner-receipt.json": "e726c61fe9620e03ae08138775ad3f61e13b73356693b38cdcc2f1a9f2dd47dc",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/progress.jsonl": "198a33bfd1bf0c7eccb297a3a6b3c670777739db9fddb20aa09593dfcd68182c",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/tests.log": "f9edf91472410a12c34b55b5ed003f9d29d31defc5c12ff252160584f28954f4",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/source-stability.json": "88513c398e6d4cbd1e4628d69238e4ccc6daa427f5d4974f2165072f13bf1b11",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/candidate-corpus-isolation.json": "76155ad36751001c19e756b85c37f160763e4b35d6076c1d3e0a85635adfe15e",
+    "evidence/s24-test-oracles-r3-aggregate-sa20-20261014/postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+  }
+}
