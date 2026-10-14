@@ -1,0 +1,1629 @@
+{
+  "scope": "New correction only; full DESIGN HOLD, no timings",
+  "positive_count": 43,
+  "cases": [
+    {
+      "id": "table-derived/000",
+      "kind": "context",
+      "fixture": "table-000",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/000/valid",
+      "kind": "context",
+      "fixture": "grid-000-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/000/malformed",
+      "kind": "context",
+      "fixture": "grid-000-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/001",
+      "kind": "context",
+      "fixture": "table-001",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/001/valid",
+      "kind": "context",
+      "fixture": "grid-001-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/001/malformed",
+      "kind": "context",
+      "fixture": "grid-001-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/010",
+      "kind": "context",
+      "fixture": "table-010",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/010/valid",
+      "kind": "context",
+      "fixture": "grid-010-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/010/malformed",
+      "kind": "context",
+      "fixture": "grid-010-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/011",
+      "kind": "context",
+      "fixture": "table-011",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/011/valid",
+      "kind": "context",
+      "fixture": "grid-011-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/011/malformed",
+      "kind": "context",
+      "fixture": "grid-011-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/100",
+      "kind": "context",
+      "fixture": "table-100",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/100/valid",
+      "kind": "context",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/100/malformed",
+      "kind": "context",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/101",
+      "kind": "context",
+      "fixture": "table-101",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/101/valid",
+      "kind": "context",
+      "fixture": "grid-101-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/101/malformed",
+      "kind": "context",
+      "fixture": "grid-101-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/110",
+      "kind": "context",
+      "fixture": "table-110",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/110/valid",
+      "kind": "context",
+      "fixture": "grid-110-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/110/malformed",
+      "kind": "context",
+      "fixture": "grid-110-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "table-derived/111",
+      "kind": "context",
+      "fixture": "table-111",
+      "expected": {
+        "exception": "AuthenticationFailed",
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000000de",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "policy-domain/111/valid",
+      "kind": "context",
+      "fixture": "grid-111-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": false
+    },
+    {
+      "id": "policy-domain/111/malformed",
+      "kind": "context",
+      "fixture": "grid-111-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": []
+      },
+      "native_calls": 0,
+      "policy_domain": "00000000-0000-0000-0000-00000000014d",
+      "empty_frame": true
+    },
+    {
+      "id": "scope/0/0",
+      "kind": "scope",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-0"
+    },
+    {
+      "id": "scope/0/1",
+      "kind": "scope",
+      "fixture": "scope-B-0",
+      "expected": {
+        "value": "scope-B-雪",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-0"
+    },
+    {
+      "id": "scope/0/2",
+      "kind": "scope",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-0"
+    },
+    {
+      "id": "scope-null/0",
+      "kind": "scope",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": null,
+        "value_type": "NoneType",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 0,
+      "group": "scope-0",
+      "null_frame": true
+    },
+    {
+      "id": "lifecycle/0/valid",
+      "kind": "lifecycle",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "life-0",
+      "state": "valid"
+    },
+    {
+      "id": "lifecycle/0/expire",
+      "kind": "lifecycle",
+      "fixture": "grid-000-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 0,
+      "group": "life-0",
+      "state": "expire"
+    },
+    {
+      "id": "lifecycle/0/fresh",
+      "kind": "lifecycle",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "life-0",
+      "state": "fresh"
+    },
+    {
+      "id": "decode-expiry/0/payload",
+      "kind": "decode-expiry",
+      "fixture": "grid-000-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "purpose": "payload"
+    },
+    {
+      "id": "post-native-pid/0",
+      "kind": "post-native-pid",
+      "fixture": "grid-000-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    },
+    {
+      "id": "scope/1/0",
+      "kind": "scope",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-1"
+    },
+    {
+      "id": "scope/1/1",
+      "kind": "scope",
+      "fixture": "scope-B-1",
+      "expected": {
+        "value": "scope-B-雪",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-0000000001bc",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-1"
+    },
+    {
+      "id": "scope/1/2",
+      "kind": "scope",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "scope-1"
+    },
+    {
+      "id": "scope-null/1",
+      "kind": "scope",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": null,
+        "value_type": "NoneType",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 0,
+      "group": "scope-1",
+      "null_frame": true
+    },
+    {
+      "id": "lifecycle/1/valid",
+      "kind": "lifecycle",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "life-1",
+      "state": "valid"
+    },
+    {
+      "id": "lifecycle/1/expire",
+      "kind": "lifecycle",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 0,
+      "group": "life-1",
+      "state": "expire"
+    },
+    {
+      "id": "lifecycle/1/fresh",
+      "kind": "lifecycle",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "group": "life-1",
+      "state": "fresh"
+    },
+    {
+      "id": "decode-expiry/1/payload",
+      "kind": "decode-expiry",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "purpose": "payload"
+    },
+    {
+      "id": "decode-expiry/1/search",
+      "kind": "decode-expiry",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ]
+      },
+      "native_calls": 1,
+      "purpose": "search"
+    },
+    {
+      "id": "post-native-pid/1",
+      "kind": "post-native-pid",
+      "fixture": "grid-100-1",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ]
+      },
+      "native_calls": 1
+    }
+  ],
+  "negative": {
+    "id": "actual-output-perturbation",
+    "fixture": "grid-100-1",
+    "original_expected": {
+      "value": "abcdefg",
+      "value_type": "str",
+      "trace": [
+        [
+          "00000000-0000-0000-0000-000000000001",
+          "00000000-0000-0000-0000-000000000004",
+          "payload",
+          7
+        ],
+        [
+          "00000000-0000-0000-0000-000000000001",
+          "00000000-0000-0000-0000-000000000004",
+          "search",
+          9
+        ],
+        [
+          "00000000-0000-0000-0000-000000000001",
+          "00000000-0000-0000-0000-000000000004",
+          "payload",
+          7
+        ],
+        [
+          "00000000-0000-0000-0000-000000000001",
+          "00000000-0000-0000-0000-000000000004",
+          "search",
+          9
+        ]
+      ]
+    },
+    "mutation": "append literal !CORRECTION-NEGATIVE! to actual candidate result AFTER validating unmodified result",
+    "expected_exit": 1,
+    "expected_error": "Mismatch: actual-output-perturbation",
+    "native_calls": 1
+  },
+  "fixtures": {
+    "grid-000-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "4a1403e171d9cfa4fa5047323bc7fab24c9d90e696cd8fefe61c234d1ab520cb",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-000-1.bin",
+      "frame_sha256": "ef6e7fb39123e11c3e1753ba7df95708c3d5b73735a693b26e189ea0398eb743",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-000": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "39e68bbe888bdd9dae69e586726a8c31880861d521a2b4c664d20a3d5bac1ff3",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-000-1.bin",
+      "frame_sha256": "ef6e7fb39123e11c3e1753ba7df95708c3d5b73735a693b26e189ea0398eb743",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-001-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "63184d2b773ae5f6539997f7b1bdd47c37c8a75050e07ab7d08d699599db16c9",
+      "tenant_id": "00000000-0000-0000-0000-000000000002",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-001-1.bin",
+      "frame_sha256": "f4f65a58d17ca280cdeb3ca792f3e02d668565eaf79cc347623f8fc7cae267bb",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-001": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "e1de0b53879efb9805ff91dcc094a6e198cfbe5b525060527d9425913f0ad546",
+      "tenant_id": "00000000-0000-0000-0000-0000000000de",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-001-1.bin",
+      "frame_sha256": "f4f65a58d17ca280cdeb3ca792f3e02d668565eaf79cc347623f8fc7cae267bb",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-010-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "644da8dbaf70c86d9bea75747b95d3a3ad56c2b794ed7f466fb66501de91fe8d",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-010-1.bin",
+      "frame_sha256": "a79120b7825c275af2939851470fcda9ba35300f59a299e3650362c9babdfd22",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-010": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "398e02697bd7e4b04dafef16da82f75ad2ba9c48baaf8ebc069adfc90d20b745",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-010-1.bin",
+      "frame_sha256": "a79120b7825c275af2939851470fcda9ba35300f59a299e3650362c9babdfd22",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-011-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "a30d5f56228976ff304b3c0dba506671ef895915315c622731a0fe3bc122c82d",
+      "tenant_id": "00000000-0000-0000-0000-000000000002",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-011-1.bin",
+      "frame_sha256": "f46188105459f9fba9f35d204c3ae45a04ecfd340b3f9441777747e50afb423f",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-011": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "28b8acad78aacec693bc7143e3b4f280ca651ca38a3d2c7ba6fade8c38df0bd4",
+      "tenant_id": "00000000-0000-0000-0000-0000000000de",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-011-1.bin",
+      "frame_sha256": "f46188105459f9fba9f35d204c3ae45a04ecfd340b3f9441777747e50afb423f",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-100-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "16296ba1b1a6373833125244247fc9cd20c0c112cd19e13e2081071afc65e9e7",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-100-1.bin",
+      "frame_sha256": "c408bce53b269e42ab11a6efd7a9b806375edbdd9f71d048fc2e5af76b673a75",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-100": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "57defccc5c87d98b3c7eccdd00c7e8c4b019ef53d0d55e594bd0f8e89bea7707",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-100-1.bin",
+      "frame_sha256": "c408bce53b269e42ab11a6efd7a9b806375edbdd9f71d048fc2e5af76b673a75",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-101-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "aa39b9841123d35a82b0320da52fac87835494f73b39fa1c79f7f841735cab37",
+      "tenant_id": "00000000-0000-0000-0000-000000000002",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-101-1.bin",
+      "frame_sha256": "87e7389e448cee22f6cb866e3aac627bee5e7496fed3bbb4810fe1d191f309b4",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-101": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "c9d699cf30b330f7813f85d2e4f8c5e9b14099c25beab560b485f905e9a0e749",
+      "tenant_id": "00000000-0000-0000-0000-0000000000de",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-101-1.bin",
+      "frame_sha256": "87e7389e448cee22f6cb866e3aac627bee5e7496fed3bbb4810fe1d191f309b4",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-110-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "8f7fa2cfada8896935c58e5f432add6c19c5a32983f69942ad7d80d9577fb3aa",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-110-1.bin",
+      "frame_sha256": "bf59987e1e533f3c9bb9d5adccd3642d5bf665566a1c47685ac3db473fbe4b35",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-110": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "e62f6606507d9181fdfec9068a892fbdbbaab34b8f5d90c96cd128d61aa4c717",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-110-1.bin",
+      "frame_sha256": "bf59987e1e533f3c9bb9d5adccd3642d5bf665566a1c47685ac3db473fbe4b35",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-111-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "48a22c2f6335c0c1c449c39e8549d87dc66a1df820a0cc14fbdee30254034683",
+      "tenant_id": "00000000-0000-0000-0000-000000000002",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-111-1.bin",
+      "frame_sha256": "f4cf289d1a7d462c5a3a656a5258969024bfd2abb734ca4a113a54d46b736eae",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "table-111": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-0000000000de",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "int64-be/v1",
+        "tenant_codec": "single-tenant-uuid/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "4e8038f9eb3df8d2575dcf896d79a6294639d9dcb5309d4fb3709f8ceaf7de55",
+      "tenant_id": "00000000-0000-0000-0000-0000000000de",
+      "record_id": 5,
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-111-1.bin",
+      "frame_sha256": "f4cf289d1a7d462c5a3a656a5258969024bfd2abb734ca4a113a54d46b736eae",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "scope-B-0": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "4a1403e171d9cfa4fa5047323bc7fab24c9d90e696cd8fefe61c234d1ab520cb",
+      "tenant_id": "00000000-0000-0000-0000-0000000001bc",
+      "record_id": "00000000-0000-0000-0000-00000000022b",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/scope-B-0.bin",
+      "frame_sha256": "70e9a3c08eabbd1d489e51a6bd4fd46e6218e37e29f0fee5ebf46821b93c5af8",
+      "frame_origin": "correction",
+      "text": "scope-B-雪",
+      "encoded_text": "73636f70652d422de99baa"
+    },
+    "scope-B-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "16296ba1b1a6373833125244247fc9cd20c0c112cd19e13e2081071afc65e9e7",
+      "tenant_id": "00000000-0000-0000-0000-0000000001bc",
+      "record_id": "00000000-0000-0000-0000-00000000022b",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/scope-B-1.bin",
+      "frame_sha256": "4c9cd604315d13aba0334dc10ce33b5a0894141445fc768cef8e2d6e119620ce",
+      "frame_origin": "correction",
+      "text": "scope-B-雪",
+      "encoded_text": "73636f70652d422de99baa"
+    }
+  },
+  "optimization_modes": [
+    0,
+    1
+  ],
+  "expected_python": "3.12.14",
+  "expected_oracle": "50.0.2 / OpenSSL 4.0.3 29 Sep 2026",
+  "expected_native": "OpenSSL 3.5.7 9 Jun 2026"
+}
