@@ -1,0 +1,134 @@
+{
+  "method": "Static source review and Python standard-library data/hash/AST/XML inspection only; no test execution, application imports, PostgreSQL, Git, credentials or shared-source edits.",
+  "candidate": "candidate-accel-orm-expired-version-20261014",
+  "inherited_receipt_count": 208,
+  "inherited_receipt_mismatches": [],
+  "freeze_mismatches": [],
+  "test_sha256": "fc3df9e6f68eaf1d690115bf822113c5c39e1d858959bf1f47424429a0df5980",
+  "ast_parse": "passed",
+  "test_assertions": 13,
+  "cells": {
+    "sa21": {
+      "junit": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "8",
+        "time": "2.849",
+        "timestamp": "2026-10-14T10:17:35.646038+00:00",
+        "hostname": "311c85efc72a"
+      },
+      "case_names": [
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-update-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-update-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-delete-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-delete-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-update-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-update-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-delete-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-delete-async]"
+      ],
+      "distinct_cases": 8,
+      "counts": {
+        "passed": 8
+      },
+      "exit_code": 0,
+      "pytest_args": [
+        "-q",
+        "tests/test_sqlalchemy_expired_version.py",
+        "--tb=short",
+        "-ra",
+        "-p",
+        "lab_progress",
+        "-o",
+        "faulthandler_timeout=180",
+        "--junitxml=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a10-expired-version-sa21-20261014/junit.xml"
+      ],
+      "runner_hash_count": 147,
+      "runner_hash_mismatches": [],
+      "stability_count": 148,
+      "stability_before_equals_after": true,
+      "stability_current_mismatches": [],
+      "gates": {
+        "G-ADAPTER": "UNKNOWN",
+        "G-CRYPTO": "UNKNOWN",
+        "G-QUERY": "UNKNOWN",
+        "G-LIFECYCLE": "UNKNOWN",
+        "G-PROVIDER": "UNKNOWN",
+        "G-POLICY": "UNKNOWN",
+        "G-RELEASE": "UNKNOWN"
+      },
+      "evidence_sha256": {
+        "tests.log": "85afa7945e64a86309f0eb354bba61641c29e2559f780a3200517442590de4d7",
+        "junit.xml": "95ca1026609f7d1b4059a004b260fbdbd423a224a4d0cc354dea5fd2c53f043f",
+        "runner-receipt.json": "f4074e14843ac75911a9d74c5db1806acbff5b31ebf73bb9c174685366819b67",
+        "source-stability.json": "0afa606588e53637550faa79c4bedfa93c059a5e4f0bc55fc0dc7bd7255323d5",
+        "source-root.json": "0339ec92149546ef8ac0c767194c1b896d1b409f84c3746e5bbe697dd9549fcb",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "candidate-corpus-isolation.json": "0caf6971e7b3044f421ed9aa8b2194e7abcd9ba17287ee94b390711af54f90eb"
+      }
+    },
+    "sa20": {
+      "junit": {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "8",
+        "time": "2.778",
+        "timestamp": "2026-10-14T10:19:17.400605+00:00",
+        "hostname": "311c85efc72a"
+      },
+      "case_names": [
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-update-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-update-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-delete-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[version_only-delete-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-update-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-update-async]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-delete-sync]",
+        "test_expired_version_flush_rollback_retry_matches_native[whole_row-delete-async]"
+      ],
+      "distinct_cases": 8,
+      "counts": {
+        "passed": 8
+      },
+      "exit_code": 0,
+      "pytest_args": [
+        "-q",
+        "tests/test_sqlalchemy_expired_version.py",
+        "--tb=short",
+        "-ra",
+        "-p",
+        "lab_progress",
+        "-o",
+        "faulthandler_timeout=180",
+        "--junitxml=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/a10-expired-version-sa20-20261014/junit.xml"
+      ],
+      "runner_hash_count": 147,
+      "runner_hash_mismatches": [],
+      "stability_count": 148,
+      "stability_before_equals_after": true,
+      "stability_current_mismatches": [],
+      "gates": {
+        "G-ADAPTER": "UNKNOWN",
+        "G-CRYPTO": "UNKNOWN",
+        "G-QUERY": "UNKNOWN",
+        "G-LIFECYCLE": "UNKNOWN",
+        "G-PROVIDER": "UNKNOWN",
+        "G-POLICY": "UNKNOWN",
+        "G-RELEASE": "UNKNOWN"
+      },
+      "evidence_sha256": {
+        "tests.log": "7c9aaf7ba691bbee74da46f606a98f7c55f603ea26c1337c4b51092087c51eee",
+        "junit.xml": "f487a255210bfa63eef06619d28a5918b7b2c2b39cba9c4c0bdcfbe5f4f35b7d",
+        "runner-receipt.json": "5dd6860ac0b39e121b3f3ddfaf6548f767f391ab6c06a0037fd723e04e8bc388",
+        "source-stability.json": "0afa606588e53637550faa79c4bedfa93c059a5e4f0bc55fc0dc7bd7255323d5",
+        "source-root.json": "0339ec92149546ef8ac0c767194c1b896d1b409f84c3746e5bbe697dd9549fcb",
+        "external-source-stability.json": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61",
+        "candidate-corpus-isolation.json": "0caf6971e7b3044f421ed9aa8b2194e7abcd9ba17287ee94b390711af54f90eb"
+      }
+    }
+  }
+}
