@@ -1,0 +1,319 @@
+{
+  "scope": "Supplemental owned native_direction component checks, synthetic public inputs only; no benchmark, product integration or database",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+  "optimize": 0,
+  "negative_control": false,
+  "harness_sha256": "659d731b36de4d0e2a3b5f81f130c3028cfcbfc7c4ab03cc59062a1a2cdf0358",
+  "expected_component_sha256": {
+    "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+    "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed"
+  },
+  "checks": [
+    {
+      "label": "body-original-1",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-1-0",
+      "body_bytes": 1,
+      "offset": 0,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-1-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-1-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-original-17",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-17-0",
+      "body_bytes": 17,
+      "offset": 0,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-17-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-17-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-17-8",
+      "body_bytes": 17,
+      "offset": 8,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-17-8",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-17-8",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-17-16",
+      "body_bytes": 17,
+      "offset": 16,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-17-16",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-17-16",
+      "status": "PASS"
+    },
+    {
+      "label": "body-original-4096",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-4096-0",
+      "body_bytes": 4096,
+      "offset": 0,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-4096-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-4096-0",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-4096-2048",
+      "body_bytes": 4096,
+      "offset": 2048,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-4096-2048",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-4096-2048",
+      "status": "PASS"
+    },
+    {
+      "label": "body-oracle-refusal-4096-4095",
+      "body_bytes": 4096,
+      "offset": 4095,
+      "tag_unchanged": true,
+      "status": "PASS"
+    },
+    {
+      "label": "body-native-refusal-4096-4095",
+      "status": "PASS"
+    },
+    {
+      "label": "body-recovery-4096-4095",
+      "status": "PASS"
+    },
+    {
+      "label": "bytes-subclass-argument-0",
+      "status": "PASS"
+    },
+    {
+      "label": "bytes-subclass-argument-1",
+      "status": "PASS"
+    },
+    {
+      "label": "bytes-subclass-argument-2",
+      "status": "PASS"
+    },
+    {
+      "label": "bytes-subclass-argument-3",
+      "status": "PASS"
+    },
+    {
+      "label": "wrong-positional-arity-0",
+      "status": "PASS"
+    },
+    {
+      "label": "wrong-positional-arity-1",
+      "status": "PASS"
+    },
+    {
+      "label": "wrong-positional-arity-2",
+      "status": "PASS"
+    },
+    {
+      "label": "wrong-positional-arity-3",
+      "status": "PASS"
+    },
+    {
+      "label": "wrong-positional-arity-5",
+      "status": "PASS"
+    },
+    {
+      "label": "recovery-after-shape-refusals",
+      "status": "PASS"
+    },
+    {
+      "label": "valid-input-below",
+      "plaintext_bytes": 16777215,
+      "aad_bytes": 23,
+      "sealed_bytes": 16777231,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "valid-input-at",
+      "plaintext_bytes": 16777216,
+      "aad_bytes": 23,
+      "sealed_bytes": 16777232,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "valid-aad-below",
+      "plaintext_bytes": 31,
+      "aad_bytes": 16777215,
+      "sealed_bytes": 47,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "valid-aad-at",
+      "plaintext_bytes": 31,
+      "aad_bytes": 16777216,
+      "sealed_bytes": 47,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "valid-both-below",
+      "plaintext_bytes": 16777215,
+      "aad_bytes": 16777215,
+      "sealed_bytes": 16777231,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "valid-both-at",
+      "plaintext_bytes": 16777216,
+      "aad_bytes": 16777216,
+      "sealed_bytes": 16777232,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "bounded-refusal-input-plus-one",
+      "plaintext_bytes": 16777217,
+      "aad_bytes": 23,
+      "sealed_bytes": 16777233,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "recovery-after-input-plus-one",
+      "status": "PASS"
+    },
+    {
+      "label": "bounded-refusal-aad-plus-one",
+      "plaintext_bytes": 31,
+      "aad_bytes": 16777217,
+      "sealed_bytes": 47,
+      "independent_pyca_roundtrip": true,
+      "status": "PASS"
+    },
+    {
+      "label": "recovery-after-aad-plus-one",
+      "status": "PASS"
+    }
+  ],
+  "base_before": {
+    "MICRO_PROTOCOL.md": "f85af0be9a48ad0d52af7ed70f9da9f39fb3eb02b1a13eebd529fdf5c2385f90",
+    "SCOPE.md": "bde0095ea8397a28a551f92906554abaab30d47a57cbdd5b3555c61c06aaf17c",
+    "evidence/build-01.json": "4e5320da9dc4941137d28f3a4cd046295d5f47e1d9cbb76ab923939706af6810",
+    "evidence/build-02.json": "5d92a7fa1cfab12f466b21e48185f2785206c4e4cde3e1ed02eb4b4731bf218d",
+    "evidence/explicit-o0-negative.json": "646ff0c70a1b06bd77907b83909d5d3437b9c2a251da52347446bcb05814d16b",
+    "evidence/explicit-o0-positive.json": "05007e7d5eb6cab8e3194cf9446f3526d9eb4652e9b743d399423b79f6b50ff9",
+    "evidence/explicit-o1-negative.json": "d559410e26f3114ed16125ea5393b2cce35b0a24f38a2a3bb6bca9796c4dac22",
+    "evidence/explicit-o1-positive.json": "9cabf63421d0dee65877c165814ea94678bdf5f4052fe8b60f883321f3787144",
+    "evidence/explicit-pinned-o0-negative.json": "d3499c56805d997ab93e63cf0120079c62face4058e75cbd6437f8826577a8a5",
+    "evidence/explicit-pinned-o0-positive.json": "14b84b637b125a32302ffa0e7009e32a99c99d01e4d3799179b77ea49753049c",
+    "evidence/explicit-pinned-o1-negative.json": "9e6b793ec33f038adfc40bee335c6de3f28f583a083364e8983059f336044fa4",
+    "evidence/explicit-pinned-o1-positive.json": "6ab60054d455d3ffcfc5e9ba6f40e060010542523ae0b3a637bf00b7404f5b3e",
+    "evidence/explicit-pinned-validation-launches.json": "7f39319b79f51fd8d6ae375d508f893839f4e9eb29e5a4e53ffe6fb5ea58c0be",
+    "evidence/explicit-validation-launches.json": "79ede32d885327ae978b7a0fb4211445ce44a65e58b7462bcf0ab8dbe9d666c6",
+    "evidence/frozen-direction-timing-01.json": "70e1aeb16f08c90bab2d5ec4fe6702620b974212094b33f294521f4fd81eb7bd",
+    "evidence/post-measurement-integrity.json": "a260bd7669a42d692962c1af90c6d04508e0165cc0686e6adf3053594a8f892b",
+    "evidence/public-vector-checks-01.json": "a8056e8e6d13f3368e965cdd135ad53e53226fb17f78e5a25eba89166ba9eccc",
+    "evidence/source-manifest.json": "01fab3305f39573fa7d405d172f4ade67f82707c326d126d88d8da34450cb911",
+    "generated_explicit-o0-negative.py": "c5017f74dacbc2b0fd6d05c5b0867556ad4d7104eb75bbf642e2111bb4c132e3",
+    "generated_explicit-o0-positive.py": "81af9fc285ea71f6c7f10f0efdfcaf18acae994c6de930ef00a73abd95c9193f",
+    "generated_explicit-o1-negative.py": "18d8da8d194428b469095a25e4164d0916749af15c5fa59932b06949010607ef",
+    "generated_explicit-o1-positive.py": "007c371fa20dd104a6770163ba93bca57323c0ecb6d19fafd4e19e2a50792c08",
+    "generated_explicit-pinned-o0-negative.py": "80735bdf519a4cd06181ffd50898051a4a8f4ad0d226c9e347e9029f04a46215",
+    "generated_explicit-pinned-o0-positive.py": "9dfc4c850d3495f2da4da263f4144fc86ba85aeeb366028b65f53508f8978a7d",
+    "generated_explicit-pinned-o1-negative.py": "9e7d1d3481618f80a51672f3214616c169b6c789b7e86e21be5b98c61025ddb3",
+    "generated_explicit-pinned-o1-positive.py": "8681da3eceae8a0d380a8b6ae2f6c7cc72880012ec7c9603e8e0f9323fc79243",
+    "measure_direction.py": "f26823bfe6d13b7d57eaa8c0e5e52132c34fc18f6f59ed8a2447b50469c2a99c",
+    "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+    "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+    "test_direction.py": "7ce19da934fc54bccdb53fc73265d81693cb51a9f90065385380aa1c4bb19924",
+    "validate_direction_explicit.py": "71da4eb4b777f46d6cddc8844681ae8ade122b9040dacd8cac621f842dffdadd",
+    "validate_direction_explicit_pinned.py": "fc26a4aadf1873f324ba2ae0d56ee70d8b59bf083418eceabe199a1f06dfc90c"
+  },
+  "pins_verified_before_native_load": true,
+  "cryptography": "50.0.2",
+  "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+  "native_backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "status": "PASS",
+  "base_after": {
+    "MICRO_PROTOCOL.md": "f85af0be9a48ad0d52af7ed70f9da9f39fb3eb02b1a13eebd529fdf5c2385f90",
+    "SCOPE.md": "bde0095ea8397a28a551f92906554abaab30d47a57cbdd5b3555c61c06aaf17c",
+    "evidence/build-01.json": "4e5320da9dc4941137d28f3a4cd046295d5f47e1d9cbb76ab923939706af6810",
+    "evidence/build-02.json": "5d92a7fa1cfab12f466b21e48185f2785206c4e4cde3e1ed02eb4b4731bf218d",
+    "evidence/explicit-o0-negative.json": "646ff0c70a1b06bd77907b83909d5d3437b9c2a251da52347446bcb05814d16b",
+    "evidence/explicit-o0-positive.json": "05007e7d5eb6cab8e3194cf9446f3526d9eb4652e9b743d399423b79f6b50ff9",
+    "evidence/explicit-o1-negative.json": "d559410e26f3114ed16125ea5393b2cce35b0a24f38a2a3bb6bca9796c4dac22",
+    "evidence/explicit-o1-positive.json": "9cabf63421d0dee65877c165814ea94678bdf5f4052fe8b60f883321f3787144",
+    "evidence/explicit-pinned-o0-negative.json": "d3499c56805d997ab93e63cf0120079c62face4058e75cbd6437f8826577a8a5",
+    "evidence/explicit-pinned-o0-positive.json": "14b84b637b125a32302ffa0e7009e32a99c99d01e4d3799179b77ea49753049c",
+    "evidence/explicit-pinned-o1-negative.json": "9e6b793ec33f038adfc40bee335c6de3f28f583a083364e8983059f336044fa4",
+    "evidence/explicit-pinned-o1-positive.json": "6ab60054d455d3ffcfc5e9ba6f40e060010542523ae0b3a637bf00b7404f5b3e",
+    "evidence/explicit-pinned-validation-launches.json": "7f39319b79f51fd8d6ae375d508f893839f4e9eb29e5a4e53ffe6fb5ea58c0be",
+    "evidence/explicit-validation-launches.json": "79ede32d885327ae978b7a0fb4211445ce44a65e58b7462bcf0ab8dbe9d666c6",
+    "evidence/frozen-direction-timing-01.json": "70e1aeb16f08c90bab2d5ec4fe6702620b974212094b33f294521f4fd81eb7bd",
+    "evidence/post-measurement-integrity.json": "a260bd7669a42d692962c1af90c6d04508e0165cc0686e6adf3053594a8f892b",
+    "evidence/public-vector-checks-01.json": "a8056e8e6d13f3368e965cdd135ad53e53226fb17f78e5a25eba89166ba9eccc",
+    "evidence/source-manifest.json": "01fab3305f39573fa7d405d172f4ade67f82707c326d126d88d8da34450cb911",
+    "generated_explicit-o0-negative.py": "c5017f74dacbc2b0fd6d05c5b0867556ad4d7104eb75bbf642e2111bb4c132e3",
+    "generated_explicit-o0-positive.py": "81af9fc285ea71f6c7f10f0efdfcaf18acae994c6de930ef00a73abd95c9193f",
+    "generated_explicit-o1-negative.py": "18d8da8d194428b469095a25e4164d0916749af15c5fa59932b06949010607ef",
+    "generated_explicit-o1-positive.py": "007c371fa20dd104a6770163ba93bca57323c0ecb6d19fafd4e19e2a50792c08",
+    "generated_explicit-pinned-o0-negative.py": "80735bdf519a4cd06181ffd50898051a4a8f4ad0d226c9e347e9029f04a46215",
+    "generated_explicit-pinned-o0-positive.py": "9dfc4c850d3495f2da4da263f4144fc86ba85aeeb366028b65f53508f8978a7d",
+    "generated_explicit-pinned-o1-negative.py": "9e7d1d3481618f80a51672f3214616c169b6c789b7e86e21be5b98c61025ddb3",
+    "generated_explicit-pinned-o1-positive.py": "8681da3eceae8a0d380a8b6ae2f6c7cc72880012ec7c9603e8e0f9323fc79243",
+    "measure_direction.py": "f26823bfe6d13b7d57eaa8c0e5e52132c34fc18f6f59ed8a2447b50469c2a99c",
+    "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+    "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+    "test_direction.py": "7ce19da934fc54bccdb53fc73265d81693cb51a9f90065385380aa1c4bb19924",
+    "validate_direction_explicit.py": "71da4eb4b777f46d6cddc8844681ae8ade122b9040dacd8cac621f842dffdadd",
+    "validate_direction_explicit_pinned.py": "fc26a4aadf1873f324ba2ae0d56ee70d8b59bf083418eceabe199a1f06dfc90c"
+  },
+  "base_unchanged": true,
+  "passed_checks": 44,
+  "failed_checks": 0
+}
