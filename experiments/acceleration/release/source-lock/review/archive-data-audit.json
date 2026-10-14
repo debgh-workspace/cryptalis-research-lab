@@ -1,0 +1,19 @@
+{
+  "old_tar_members": 51,
+  "new_tar_members": 52,
+  "old_regular_members": 45,
+  "new_regular_members": 46,
+  "added_members": [
+    "cryptalis-0.1.0/uv.lock"
+  ],
+  "changed_payload_members": [
+    "cryptalis-0.1.0/pyproject.toml",
+    "cryptalis-0.1.0/pyproject.toml.orig"
+  ],
+  "sdist_sha256": "46a7e99426282cdcb386ed24a0af2cae6ebf7ba8278598fa701857b5caaab0aa",
+  "wheel_sha256": "a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7",
+  "lock_sha256": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+  "modules": 40,
+  "record_hashed_entries": 44,
+  "all_other_tar_member_bytes_and_types_identical": true
+}

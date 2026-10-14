@@ -1,0 +1,34 @@
+{
+  "status": "PASS_SCOPED_PACKAGING",
+  "new_sdist_sha256": "46a7e99426282cdcb386ed24a0af2cae6ebf7ba8278598fa701857b5caaab0aa",
+  "wheel_sha256": "a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7",
+  "runtime_modules": 40,
+  "record_hashed_entries": 44,
+  "source_files": 208,
+  "changed_source_files": [
+    "pyproject.toml"
+  ],
+  "negative_controls": [
+    {
+      "id": "missing_lock",
+      "rejected": true
+    },
+    {
+      "id": "altered_lock",
+      "rejected": true
+    }
+  ],
+  "gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  },
+  "limits": [
+    "Source-release lock preservation only. No dependency drift resolution, platform qualification, installation or runtime replay.",
+    "Same executable/host rebuild equality only. Bundled backend source-to-binary provenance and clean-machine reproducibility unestablished."
+  ]
+}
