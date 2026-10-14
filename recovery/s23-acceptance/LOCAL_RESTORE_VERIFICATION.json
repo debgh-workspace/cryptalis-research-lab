@@ -1,0 +1,27 @@
+{
+  "archive": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s23-acceptance-recovery-20261014/CRYPTALIS_S23_ACCEPTANCE_EVIDENCE_ADDON_20261014.tar.xz",
+  "sha256": "7fd2bc7e4df3dfae16747f737dd1b410862e4dd80ce14a5c2a629fbe0b3799cd",
+  "compressed_bytes": 87856,
+  "file_count": 150,
+  "evidence_files": 139,
+  "metadata_files": 11,
+  "uncompressed_bytes": 2037817,
+  "all_member_sizes_hashes_verified": true,
+  "safe_regular_unique_relative_members": true,
+  "verified_current_input_paths": 1283,
+  "reference_kinds": {
+    "included_exact_path": 139,
+    "frozen_source_capsule": 1036,
+    "included_byte_identical_alias": 108
+  },
+  "source_files_duplicated": 0,
+  "referenced_source_files": 213,
+  "source_capsule_sha256": "41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+  "recorded_external_or_historical_targets": 16,
+  "external_target_contents_read_or_included": false,
+  "secret_pattern_findings": [],
+  "restored_code_executed": false,
+  "database_git_network_or_test_execution": false,
+  "local_only": true,
+  "independent_review": "PENDING"
+}

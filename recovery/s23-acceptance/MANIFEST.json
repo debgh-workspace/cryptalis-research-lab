@@ -1,0 +1,19 @@
+{
+  "archive": "CRYPTALIS_S23_ACCEPTANCE_EVIDENCE_ADDON_20261014.tar.xz",
+  "bytes": 87856,
+  "sha256": "7fd2bc7e4df3dfae16747f737dd1b410862e4dd80ce14a5c2a629fbe0b3799cd",
+  "parts": [
+    {
+      "name": "CRYPTALIS_S23_ACCEPTANCE_EVIDENCE_ADDON_20261014.tar.xz.part01",
+      "bytes": 48000,
+      "sha256": "77e7512d98a567fcf4832192fdbfdd327d410e0790d7ca5ee3c4e9b539ca0cae",
+      "git_blob_sha": "f68083e184abe207a8f3f1ca688e46bb5b289c95"
+    },
+    {
+      "name": "CRYPTALIS_S23_ACCEPTANCE_EVIDENCE_ADDON_20261014.tar.xz.part02",
+      "bytes": 39856,
+      "sha256": "ba5ccb39947db3712ab3e0f57f3f7e1395d3d32288f842769c508bdf0b87b6f3",
+      "git_blob_sha": "3078b141f4399b0f9a4b06021a62123dbbb3219f"
+    }
+  ]
+}
