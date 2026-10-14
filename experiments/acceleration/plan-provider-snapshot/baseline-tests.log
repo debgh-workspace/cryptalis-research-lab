@@ -1,0 +1,59 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFF..F..                                                                 [100%]
+=================================== FAILURES ===================================
+___ test_estimate_uses_validated_observation_without_late_resolution[raises] ___
+tests/test_plan_provider_snapshot.py:109: in test_estimate_uses_validated_observation_without_late_resolution
+    plan = make_plan(app, resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_plan_provider_snapshot.py:69: in make_plan
+    return app.m.plan(json.dumps(declaration).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:316: in plan
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:316: in <genexpr>
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                                 ^^^^^^^^^^^^^
+tests/test_plan_provider_snapshot.py:100: in resolver
+    raise RuntimeError(PRIVATE)
+E   RuntimeError: PRIVATE_SYNTHETIC_RESOLVER_DIAGNOSTIC
+_ test_estimate_uses_validated_observation_without_late_resolution[invalid_ring] _
+tests/test_plan_provider_snapshot.py:109: in test_estimate_uses_validated_observation_without_late_resolution
+    plan = make_plan(app, resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_plan_provider_snapshot.py:69: in make_plan
+    return app.m.plan(json.dumps(declaration).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:316: in plan
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:316: in <genexpr>
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute 'policy'
+_ test_estimate_uses_validated_observation_without_late_resolution[different_policy] _
+tests/test_plan_provider_snapshot.py:110: in test_estimate_uses_validated_observation_without_late_resolution
+    assert calls == [TENANT]
+E   AssertionError: assert [UUID('000000...000000001f8')] == [UUID('000000...000000001f8')]
+E     
+E     Left contains one more item: UUID('00000000-0000-0000-0000-0000000001f8')
+E     Use -v to get more diff
+______ test_multitable_tenants_count_once_and_match_last_validated_policy ______
+tests/test_plan_provider_snapshot.py:158: in test_multitable_tenants_count_once_and_match_last_validated_policy
+    plan = make_plan(app, resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_plan_provider_snapshot.py:69: in make_plan
+    return app.m.plan(json.dumps(declaration).encode(), app.mapping, app.owner,
+src/cryptalis/migration.py:316: in plan
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:316: in <genexpr>
+    'wal_bytes_estimate':rows*wal_bytes_per_row,'provider_unwraps_per_cold_preparation':sum(len((keys(UUID(t)) if callable(keys) else keys).policy.wrappers) for t in policies),
+                                                                                                 ^^^^^^^^^^^^^
+tests/test_plan_provider_snapshot.py:150: in resolver
+    raise RuntimeError(PRIVATE)
+E   RuntimeError: PRIVATE_SYNTHETIC_RESOLVER_DIAGNOSTIC
+=========================== short test summary info ============================
+FAILED tests/test_plan_provider_snapshot.py::test_estimate_uses_validated_observation_without_late_resolution[raises]
+FAILED tests/test_plan_provider_snapshot.py::test_estimate_uses_validated_observation_without_late_resolution[invalid_ring]
+FAILED tests/test_plan_provider_snapshot.py::test_estimate_uses_validated_observation_without_late_resolution[different_policy]
+FAILED tests/test_plan_provider_snapshot.py::test_multitable_tenants_count_once_and_match_last_validated_policy
+4 failed, 4 passed in 1.07s

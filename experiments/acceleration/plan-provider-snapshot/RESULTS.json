@@ -1,0 +1,42 @@
+{
+  "defect": "PLAN-POLICY-SNAPSHOT-01",
+  "status": "focused correction verified; full source integration both cells completed; independent SA20 audit pending",
+  "red": {
+    "passed": 4,
+    "failed": 4,
+    "seconds": 1.07
+  },
+  "green_sa21": {
+    "passed": 47,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 4.84
+  },
+  "green_sa20": {
+    "passed": 47,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 4.21
+  },
+  "scope": "8 new cases and39 related planning estimate/diagnostic cases; no provider unwrap or returned-plan keyring retention observed",
+  "limits": [
+    "Late different-policy numeric mismatch is source-derived; baseline assertion stops at extra callback.",
+    "Same final observed policy fingerprint semantics across models retained.",
+    "No universal memory erasure, mutable-host guarantee, provider qualification or performance claim."
+  ],
+  "full_s23_sa21": {
+    "passed": 2631,
+    "failed": 7,
+    "skipped": 0,
+    "subtests_passed": 56,
+    "seconds": 429.08
+  },
+  "full_s23_sa20": {
+    "passed": 2585,
+    "failed": 7,
+    "skipped": 46,
+    "subtests_passed": 56,
+    "seconds": 387.05
+  },
+  "seven_gates": "UNKNOWN"
+}
