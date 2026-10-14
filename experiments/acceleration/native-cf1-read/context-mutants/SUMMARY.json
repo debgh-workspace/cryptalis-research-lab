@@ -1,0 +1,73 @@
+{
+  "scope": "Newly predeclared D genuine source-removal controls only; no retroactive F predeclaration or timing claim",
+  "freeze_sha256": "13b0cfad4e0767183d03711aae864e1fd6d446c6f3fa69cb8d55fdf5513a9bf1",
+  "unchanged_input_pins": 1677,
+  "mutant_binary_sha256": "96834dbdbf444667376249c94483a9031595d1fec3880c5eb05b3aa31d4faf81",
+  "runs": [
+    {
+      "control": "term/equality",
+      "optimize": 0,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-0-o0-01-supervisor.json",
+      "child": "control-0-o0-01-child.json"
+    },
+    {
+      "control": "final-payload/storage",
+      "optimize": 0,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-1-o0-01-supervisor.json",
+      "child": "control-1-o0-01-child.json"
+    },
+    {
+      "control": "final-payload/equality",
+      "optimize": 0,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-2-o0-01-supervisor.json",
+      "child": "control-2-o0-01-child.json"
+    },
+    {
+      "control": "final-search/equality",
+      "optimize": 0,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-3-o0-01-supervisor.json",
+      "child": "control-3-o0-01-child.json"
+    },
+    {
+      "control": "term/equality",
+      "optimize": 1,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-0-o1-01-supervisor.json",
+      "child": "control-0-o1-01-child.json"
+    },
+    {
+      "control": "final-payload/storage",
+      "optimize": 1,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-1-o1-01-supervisor.json",
+      "child": "control-1-o1-01-child.json"
+    },
+    {
+      "control": "final-payload/equality",
+      "optimize": 1,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-2-o1-01-supervisor.json",
+      "child": "control-2-o1-01-child.json"
+    },
+    {
+      "control": "final-search/equality",
+      "optimize": 1,
+      "status": "EXPECTED_FAIL",
+      "phases": 4,
+      "supervisor": "control-3-o1-01-supervisor.json",
+      "child": "control-3-o1-01-child.json"
+    }
+  ],
+  "exact_phase_records": 32
+}
