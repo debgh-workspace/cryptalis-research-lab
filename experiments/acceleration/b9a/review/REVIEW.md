@@ -1,0 +1,46 @@
+# B9A durable inactive preparation: contract review
+
+Status: SOURCE-INSPECTED design review. No PostgreSQL connection, project test, native-code change, Git operation, role change, or policy publication occurred. The exported source intentionally has no Git repository. All 208 files in the supplied S20 provenance inventory still match their recorded SHA-256 values.
+
+## Decision
+
+The objective fits an isolated existing-role experiment, but the proposed implementation is not ready unchanged. Correct the journal layout and narrow the first slice. Use the existing canonical journal relation, one explicitly experimental operation row, and one inactive staging table. Keep the original ACTIVE source operation row and external generation-1 pin unchanged. Stop at PREPARED_INACTIVE. This is a test-local preparation protocol, not product rotation or lifecycle admission.
+
+The canonical authority is docs/lifecycle.md, particularly lines 48–60 and 63–96, together with docs/decisions.md's single-journal lifecycle choice. S20 implementation details are evidence, not immutable architecture. Nevertheless, no schema/API change is needed for the proposed bounded experiment. Its existing journal JSON can hold bounded batch evidence.
+
+## Exact blockers and corrections
+
+1. **Second journal and incompatible layout.** DESIGN.md proposes a new operation/batch journal with `(operation_id, entry_number)` and binary `plan_digest`, while preserving the existing source journal. This is two journals for one transition lineage. S20 `src/cryptalis/migration.py:25,155,414–437,570–611` uses `_cryptalis_journal(operation_id uuid PRIMARY KEY, plan_digest text NOT NULL, state jsonb NOT NULL)`. Keep that table and schema unchanged. Add one new operation row with its own UUID, lowercase SHA-256 hex digest and strictly validated versioned JSON state. Put ordered immutable batch receipts inside this row's bounded state. Stage rows and the conditional update of this row must share one transaction. Do not add a marker table, overload the active source row, or create a second authority store.
+
+2. **Existing lifecycle readers do not admit the new kind.** `migration._state` admits protection phases, not PREPARING/PREPARED_INACTIVE. `deprotection.plan` at lines 138–144 rejects extra rows unless they are specifically bound aborted reverse operations; removal also inventories all rows at lines 509–522. A new preparation row must therefore use a test-local strict reader/writer, not `_state`, `_save` with a fabricated plan, or fake ABORTED reverse metadata. Preserve the existing refusal. Do not claim removal coexistence or relax `unreviewed_journal_operations`. Disposal is fixture teardown, not an implemented product abort/remove workflow.
+
+3. **Scope-lock identity is underspecified.** `migration._executor:400–408` hashes the ordered list of every `(schema, table)` in the source plan. Hashing only the selected table is the same lock only for a one-table source plan. The first slice must require exactly one source model and reuse the exact existing canonical serialization/hash formula. A later multi-model slice must acquire the full original plan identity and address overlapping different-plan model sets; a field/tenant/operation-specific key is insufficient. No claim of global overlap-safe locking follows from S20's set hash.
+
+4. **Source census and oversized-row oracle conflict.** The proposal hashes full source frames in Python before selecting the next byte-bounded prefix, while P3 promises that an oversized first frame never reaches the client. A frame can fit the 4 MiB census bound but exceed the configured chunk budget. Resolve this before tests: under the same table lock, first retrieve only typed identities, NULL flags and frame lengths, validate row count/aggregate source bytes, and reject any single row whose B8 logical byte requirement exceeds the chunk budget before retrieving frames. This conservative early refusal is suitable for the tiny fixture. B8 accounting is `identity_bytes + 3*frame_length - overhead` for non-NULL and `identity_bytes` for NULL; UUID tenant plus UUID record is 32 bytes, overhead is 74 for equality or 42 for storage. Source-byte sum alone is not B8's budget. Do not call an empty selected prefix end-of-stream when a remaining row failed admission.
+
+5. **Restart provider recipe must be exact.** `tests/test_payload_rotation_preparation.py:38–55` constructs an ephemeral DevelopmentKeyProvider and randomized wrappers. Reconstructing that helper in a new process does not reproduce wrapper hashes in the artifact. Reuse the deterministic PUBLIC fixture contract in `tests/test_migration.py:33–50`, with exact contexts and `b'PUBLIC TEST WRAPPER'` descriptors; generation 2 needs a distinct payload root ID/context and the exact same search wrapper. Instantiate fresh providers/keyrings in each exec-based worker. Do not persist roots, PreparedKeys, or inherited key caches. This is public fixture functional evidence only.
+
+6. **No new active publication in setup or experiment.** The existing B8 native test calls `run(app); publish(app)` at lines 289–290. That is historical fixture behavior, not permission to activate a new generation. Start the measured B9A operation from a separately authorized, already-active generation-1 fixture. Any initial fixture activation remains root's explicit setup responsibility. The experiment cannot call publish, synthesize an ACTIVE target pin, install a generation-2 attachment, alter the source journal phase or invoke product rotation APIs.
+
+7. **Guarded object admission must match the corrected inventory.** There is now one preexisting journal plus one newly created stage, not two new tables. Keep the journal's existing runtime SELECT privilege; do not promise zero journal access. Existing `_runtime_permissions` checks the canonical journal and role reachability but does not admit a new stage relation. Independently verify stage ownership, effective table/column/default privileges and role reachability. Unexpected rights refuse; do not repair grants. Do not install capture or maintenance triggers as part of preparation. Source DDL, triggers, indexes, owner and grants remain unchanged.
+
+8. **A 48-cell matrix is not one minimal RED/GREEN slice.** The matrix spans four profiles, resource admission, protocol corruption, commit transport, independent processes, output failure and key-lease cases. Keep it as a later complete qualification matrix. First prove one UUID/equality current-data preparation and atomic restart behavior with decisive refusals. Do not label the smaller pass as completion of the full proposal.
+
+## Retain these good design requirements
+
+- Full exact source membership/content commitment on each new batch and resume; membership-only `migration._scope` is insufficient.
+- Current externally supplied source pin, target and exact policy/descriptor/source revision inputs on each entry. A journal or SHA-256 digest is progress/integrity evidence, not host authority.
+- No committed-prefix reseal. A fresh inspector authenticates staged target values and compares them to current source values and exact search header/term bytes.
+- EXCLUSIVE source lock through each chunk commit, explicit host maintenance assertion, a cooperating session advisory lock, finite timeouts and physical session invalidation on cleanup.
+- Source and target binding/lease checks after B8 returns and immediately before commit. The last check is not a guarantee about server-side commit time or instantaneous provider revocation.
+- Lost reply is UNKNOWN until original work is terminal and matching rows/marker are inspected on the trusted current primary. Busy lock plus absent marker is not rollback.
+- Full terminal membership/value/NULL/generation/search preservation scan. Terminal success is inactive and invalidated as current evidence if later source facts differ.
+- Exact source/target/descriptor policy validation and bounded safe errors. Keep plaintext, roots, credentials, terms and frame bodies out of receipts and diagnostic text.
+
+## Evidence and remaining authority
+
+Read AGENTS.md and the designated README, architecture, security, lifecycle, compatibility, status, decisions, build guide and engineering playbook before this conclusion. Inspected migration/deprotection authority and journal readers, the B8 transform, native B8 fixture, public fixture provider, and unchanged PostgreSQL test wrapper. No graph exists in the exported base. No installed repository-local skills directory was present.
+
+Source inspection establishes design compatibility only. It does not establish PostgreSQL atomicity, native ACL denials, runtime recovery, actual failure counts, source durability or process/provider custody. Current documentation includes historical status entries; later source evidence must not be rewritten as those historical test receipts. All seven full gates remain UNKNOWN. Capture triggers, new clusters/credentials, live-provider work, private ORM hooks, active publication and policy-owner decisions remain outside this review and pending their own authorization.
+
+See NEXT_SLICE.md for the implementation-ready bounded contract and REVIEW_EVIDENCE.json for the read-only hash check.

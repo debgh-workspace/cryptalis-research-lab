@@ -1,0 +1,10 @@
+{
+  "review_kind": "source and contract review only; no database or tests executed",
+  "base_files_checked": 208,
+  "base_hash_mismatches": [],
+  "source_design_sha256": "a484558e96f3c71ffdc84fb327052d1cbfcfc6621dfc91dfcd17d6801aa6a02b",
+  "source_matrix_sha256": "01d57608033def5f4deb809840fa259f3b06285bfb839af2f6147a97322ff088",
+  "git_used": false,
+  "postgres_used": false,
+  "native_source_changed": false
+}

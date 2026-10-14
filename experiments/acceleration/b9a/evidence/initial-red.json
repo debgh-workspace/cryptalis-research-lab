@@ -1,0 +1,12 @@
+{
+  "test_sha256": "5e8db1d91ed20cfd2856d2107d2969eea091f5340e2abc3e897941d8091c322e",
+  "test": "tests/test_payload_rotation_journal.py::test_current_values_same_journal_inactive",
+  "result": "EXPECTED MISSING-FEATURE RED",
+  "failed": 1,
+  "seconds": 0.39,
+  "reason": "ModuleNotFoundError: No module named 'experiments'",
+  "unchanged_source": true,
+  "preflight": "PostgreSQL preflight passed 76053d5b a38ab71b\n",
+  "server_stop": "waiting for server to shut down.... done\nserver stopped\n",
+  "limitation": "Missing-feature evidence only; fixture and implementation unverified; no generation2 publication"
+}
