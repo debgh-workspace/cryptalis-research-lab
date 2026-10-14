@@ -1,0 +1,18 @@
+{
+  "archive": "CRYPTALIS_S24_STATISTICS_RECOVERY_20261014_v1.tar.xz",
+  "archive_sha256": "ececa28b6f0374274c5dc86935c5cf7098e011e4a96f41c9e5950aeeff76ac0f",
+  "bytes": 128896,
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "ac6ed624ae960725675ec8a34a7faeffc945c39922de1eb8ebd04d09d6017351"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 32896,
+      "sha256": "d181487cf36be05cd12f06c7c64929f728a82e76d16a396bd7e05735e9cf320a"
+    }
+  ],
+  "scope": "Private observer proposal and G1 history snapshot; excludes baseline source and later SA20 evidence; no integrated feature qualification"
+}
