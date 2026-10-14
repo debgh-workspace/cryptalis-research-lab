@@ -1,0 +1,295 @@
+{
+  "scope": "Two newly frozen immediate-after-native-return expiry cases only; full qualification and timing remain held",
+  "source_manifest_sha256": "a4b192bdaaa98124960efa0bedfb7c1a6417b318143555157068b03f23bb946e",
+  "fixtures": {
+    "grid-000-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-storage/v1"
+      },
+      "descriptor_digest": "4a1403e171d9cfa4fa5047323bc7fab24c9d90e696cd8fefe61c234d1ab520cb",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 0,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-000-1.bin",
+      "frame_sha256": "ef6e7fb39123e11c3e1753ba7df95708c3d5b73735a693b26e189ea0398eb743",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    },
+    "grid-100-1": {
+      "descriptor": {
+        "schema": "cryptalis.context/v1",
+        "domain_id": "00000000-0000-0000-0000-000000000001",
+        "table_id": "00000000-0000-0000-0000-000000000002",
+        "field_id": "00000000-0000-0000-0000-000000000003",
+        "text_codec": "utf8-exact/v1",
+        "normalizer": "identity/v1",
+        "null_policy": "sql-null/v1",
+        "record_codec": "uuid16/v1",
+        "tenant_codec": "uuid16/v1",
+        "representation": "cf1-packed-equality/v1"
+      },
+      "descriptor_digest": "16296ba1b1a6373833125244247fc9cd20c0c112cd19e13e2081071afc65e9e7",
+      "tenant_id": "00000000-0000-0000-0000-000000000004",
+      "record_id": "00000000-0000-0000-0000-000000000005",
+      "payload_generation": 7,
+      "search_generation": 9,
+      "payload_root_id": "00000000-0000-0000-0000-000000000006",
+      "search_root_id": "00000000-0000-0000-0000-000000000007",
+      "payload_root": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "search_root": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+      "frame_path": "fixtures/grid-100-1.bin",
+      "frame_sha256": "c408bce53b269e42ab11a6efd7a9b806375edbdd9f71d048fc2e5af76b673a75",
+      "frame_origin": "original",
+      "text": "abcdefg",
+      "encoded_text": "61626364656667"
+    }
+  },
+  "cases": [
+    {
+      "id": "after-native-return/storage/payload",
+      "fixture": "grid-000-1",
+      "purpose": "payload",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1,
+        "args_safe": true,
+        "cause_none": true,
+        "value_published": false,
+        "cause_suppressed": false,
+        "native_return": {
+          "type": "bytes",
+          "hex": "61626364656667"
+        },
+        "events": [
+          {
+            "event": "native-return",
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ]
+            ]
+          },
+          {
+            "event": "expire",
+            "purpose": "payload",
+            "generation": 7,
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ]
+            ]
+          },
+          {
+            "event": "decode-call",
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ]
+            ]
+          },
+          {
+            "event": "decode-return",
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "after-native-return/equality/search",
+      "fixture": "grid-100-1",
+      "purpose": "search",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1,
+        "args_safe": true,
+        "cause_none": true,
+        "value_published": false,
+        "cause_suppressed": false,
+        "native_return": {
+          "type": "bytes",
+          "hex": "61626364656667"
+        },
+        "events": [
+          {
+            "event": "native-return",
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ],
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "search",
+                9
+              ]
+            ]
+          },
+          {
+            "event": "expire",
+            "purpose": "search",
+            "generation": 9,
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ],
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "search",
+                9
+              ]
+            ]
+          },
+          {
+            "event": "decode-call",
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ],
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "search",
+                9
+              ]
+            ]
+          },
+          {
+            "event": "decode-return",
+            "expired": true,
+            "trace": [
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "payload",
+                7
+              ],
+              [
+                "00000000-0000-0000-0000-000000000001",
+                "00000000-0000-0000-0000-000000000004",
+                "search",
+                9
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "case_count": 2,
+  "optimization_modes": [
+    0,
+    1
+  ],
+  "negative_controls": [
+    {
+      "mode": "metadata",
+      "case_id": "after-native-return/storage/payload",
+      "expected_exit": 1,
+      "error": "Exact return-expiry mismatch"
+    },
+    {
+      "mode": "trace",
+      "case_id": "after-native-return/equality/search",
+      "expected_exit": 1,
+      "error": "Exact return-expiry mismatch"
+    }
+  ]
+}

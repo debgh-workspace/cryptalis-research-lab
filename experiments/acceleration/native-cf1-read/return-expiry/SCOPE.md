@@ -1,0 +1,11 @@
+# Immediate native-return expiry supplement
+
+Only two new predeclared cases: storage payload and equality search material expire immediately after successful unchanged normal native return and before decode. Uses the pinned public `abcdefg` fixtures, original normal native binary, original wrapper and original mapper. No product or native source/binary edits, new builds, provider operations, dependency changes, PostgreSQL, Git or timing.
+
+The research-only native-module proxy calls the genuine normal helper exactly once, records its exact bytes, expires the selected public material, and returns the identical bytes object. A CPython profile callback observes that object's built-in decode call and return, with expired state and complete argument trace at each event. It does not replace bytes or decode behavior. Final resolution must refuse with exactly the frozen safe KeyUnavailable metadata, canonical safe args, absent explicit cause, no published value and exact resolution trace. `cause_suppressed` is frozen false, matching direct KeyUnavailable construction; `cause_none` must be true. This does not claim arbitrary internal exception-context sanitization.
+
+Freeze uses stdlib only and copies metadata from prior audited full-oracle cases but declares the new location events independently. Independent text/encoded text is `abcdefg` / `61626364656667`. Strict type-sensitive comparisons are explicit, not Python assert. Missing, extra, duplicate or reordered IDs are rejected. Pre-import pins cover inherited artifacts/runtime and every new source/manifest file.
+
+Static review is required before candidate execution. Planned `launch_all.py` runs metadata-negative (storage), trace-negative (equality), then both positives at Python O0 and O1. Each negative first verifies the complete actual record, changes one field of that record, and must fail with exact intended RuntimeError and exit 1. Receipts are exclusive-create. Every positive and negative retains exact observed records.
+
+This supplements the historically class-only immediate-after-native-return checks. It does not rewrite their historical declaration. It is not full DESIGN admission, a causal error classifier, provider custody/security qualification, sanitizer/leak proof, timing authorization or product adoption approval.
