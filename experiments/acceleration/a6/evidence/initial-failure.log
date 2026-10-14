@@ -1,0 +1,134 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+........FF                                                               [100%]
+=================================== FAILURES ===================================
+_____ test_native_lineage_equal_rows_mixed_ids_preserves_exact_state[sync] _____
+tests/test_sqlalchemy_native_uow_lineage.py:289: in test_native_lineage_equal_rows_mixed_ids_preserves_exact_state
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_native_uow_lineage.py:271: in scenario
+    await native.maybe(session.flush())
+                       ^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4536: in flush
+    self._flush(objects)
+<sqlalchemy generated warned() wrapper for sqlalchemy.orm.session.Session._flush>:2: in _flush
+    return target(fn, self, objects=objects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/deprecations.py:281: in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4679: in _flush
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:166: in __exit__
+    raise exc_value.with_traceback(exc_tb)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4640: in _flush
+    flush_context.execute()
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py:467: in execute
+    rec.execute(self)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py:643: in execute
+    util.preloaded.orm_persistence._save_obj(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py:92: in _save_obj
+    _emit_insert_statements(
+tests/test_sqlalchemy_native_uow_lineage.py:135: in observed_emit
+    return emit(base_mapper, uowtransaction, mapper, table,
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py:1052: in _emit_insert_statements
+    result = connection.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1668: in _execute_clauseelement
+    ret = self._execute_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1822: in _execute_context
+    return self._exec_single_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1962: in _exec_single_context
+    self._handle_dbapi_exception(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:2335: in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1867: in _exec_single_context
+    str_statement, effective_parameters = fn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/events.py:185: in wrap_before_cursor_execute
+    orig_fn(
+../candidate-accel-client-default-boundary-20261013/tests/test_sqlalchemy_client_default_boundary.py:179: in before_cursor
+    assert all(inspect(row).attrs.id.loaded_value is NO_VALUE
+E   assert False
+E    +  where False = all(<generator object observe_native_boundary.<locals>.before_cursor.<locals>.<genexpr> at 0x7f6c733ce740>)
+____ test_native_lineage_equal_rows_mixed_ids_preserves_exact_state[async] _____
+tests/test_sqlalchemy_native_uow_lineage.py:289: in test_native_lineage_equal_rows_mixed_ids_preserves_exact_state
+    asyncio.run(scenario())
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:195: in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py:118: in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+tests/test_sqlalchemy_native_uow_lineage.py:271: in scenario
+    await native.maybe(session.flush())
+../candidate-accel-client-default-boundary-20261013/tests/test_sqlalchemy_client_default_boundary.py:34: in maybe
+    return await value if python_inspect.isawaitable(value) else value
+           ^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/session.py:1030: in flush
+    await greenlet_spawn(self.sync_session.flush, objects=objects)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/concurrency.py:212: in greenlet_spawn
+    result = context.switch(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4536: in flush
+    self._flush(objects)
+<sqlalchemy generated warned() wrapper for sqlalchemy.orm.session.Session._flush>:2: in _flush
+    return target(fn, self, objects=objects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/deprecations.py:281: in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4679: in _flush
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py:166: in __exit__
+    raise exc_value.with_traceback(exc_tb)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py:4640: in _flush
+    flush_context.execute()
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py:467: in execute
+    rec.execute(self)
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py:643: in execute
+    util.preloaded.orm_persistence._save_obj(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py:92: in _save_obj
+    _emit_insert_statements(
+tests/test_sqlalchemy_native_uow_lineage.py:135: in observed_emit
+    return emit(base_mapper, uowtransaction, mapper, table,
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py:1052: in _emit_insert_statements
+    result = connection.execute(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1448: in execute
+    return meth(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py:533: in _execute_on_connection
+    return connection._execute_clauseelement(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1668: in _execute_clauseelement
+    ret = self._execute_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1822: in _execute_context
+    return self._exec_single_context(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1962: in _exec_single_context
+    self._handle_dbapi_exception(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:2335: in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py:1867: in _exec_single_context
+    str_statement, effective_parameters = fn(
+../repo/.venv/lib/python3.12/site-packages/sqlalchemy/engine/events.py:185: in wrap_before_cursor_execute
+    orig_fn(
+../candidate-accel-client-default-boundary-20261013/tests/test_sqlalchemy_client_default_boundary.py:179: in before_cursor
+    assert all(inspect(row).attrs.id.loaded_value is NO_VALUE
+E   assert False
+E    +  where False = all(<generator object observe_native_boundary.<locals>.before_cursor.<locals>.<genexpr> at 0x7f6c72197510>)
+=========================== short test summary info ============================
+FAILED tests/test_sqlalchemy_native_uow_lineage.py::test_native_lineage_equal_rows_mixed_ids_preserves_exact_state[sync]
+FAILED tests/test_sqlalchemy_native_uow_lineage.py::test_native_lineage_equal_rows_mixed_ids_preserves_exact_state[async]
+2 failed, 8 passed in 1.62s

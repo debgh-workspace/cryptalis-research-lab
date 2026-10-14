@@ -1,0 +1,16 @@
+{
+  "candidate": "cryptalis-executable/candidate-native-uow-lineage-r2-20261014",
+  "r1_preserved": "cryptalis-executable/candidate-native-uow-lineage-20261014",
+  "r1_failure_evidence_preserved": "evidence/a6-native-uow-lineage-sa21-20261014",
+  "inherited_a5_files_unchanged": 207,
+  "test_sha256": "5f143fe197f3ced45b3218996c89fc8c7b4dc0c6428b849b8a6cde576a6c4fdc",
+  "verification": "syntax compile and static cleanup/source guard review only",
+  "selectors": [
+    "scripts/test_postgres.py -- -q tests/test_sqlalchemy_native_uow_lineage.py"
+  ],
+  "helper_hashes": {
+    "test_sqlalchemy_client_default_boundary.py": "b12997edabab634c01c8b26f8f946392a70503d55389fa6cd826f979b33535e2",
+    "test_migration.py": "978775974fbd4bdd9447791fc89c1b0b2b99916c3937c1ea82d116afac9aa60e"
+  },
+  "bytecode_cache_dirs": 0
+}
