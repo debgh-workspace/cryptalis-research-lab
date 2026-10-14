@@ -797,5 +797,9 @@
         "exact_remote_bytes": true
       }
     }
-  }
+  },
+  "latest_24h_audit_commit": "2bd59248c21c45537a9a734c53f57407409c36df",
+  "latest_reconciliation_utc": "2026-10-14T13:03:00Z",
+  "native_sanitizer_status": "6 builds PASS; 8 positive and 8 expected negatives accepted; D provenance guard failure,7NOTRUN; no retry",
+  "latest_search_checkpoint": "a73de40a8641ed92bc0e594b6bb0859ad8937748"
 }
