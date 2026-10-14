@@ -1,0 +1,575 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF............FFF [ 92%]
+FF.FF.                                                                   [100%]
+=================================== FAILURES ===================================
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-module] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-class] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_for-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_with-async_function] _
+tests/test_compatibility_statement_bindings.py:33: in test_statement_target_invalidates_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Left contains one more item: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL')
+E     Use -v to get more diff
+_ test_input_expression_is_inspected_before_name_rebinding[for delete in delete(None):\n    delete(1)\n] _
+tests/test_compatibility_statement_bindings.py:46: in test_input_expression_is_inspected_before_name_rebinding
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...attached', 5)] == [('core_dml_r...attached', 5)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 3) != ('rebound_query_binding', 2)
+E     Use -v to get more diff
+_ test_input_expression_is_inspected_before_name_rebinding[with delete(None) as delete:\n    delete(1)\n] _
+tests/test_compatibility_statement_bindings.py:46: in test_input_expression_is_inspected_before_name_rebinding
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...attached', 5)] == [('core_dml_r...attached', 5)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 3) != ('rebound_query_binding', 2)
+E     Use -v to get more diff
+_ test_input_expression_is_inspected_before_name_rebinding[delete += delete(None)\ndelete(1)\n] _
+tests/test_compatibility_statement_bindings.py:46: in test_input_expression_is_inspected_before_name_rebinding
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...attached', 5)] == [('core_dml_r...attached', 5)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 3) != ('rebound_query_binding', 2)
+E     Use -v to get more diff
+_ test_nested_actual_target_names_are_all_invalidated[for (delete, [text, *Customer]) in values:\n    pass\n] _
+tests/test_compatibility_statement_bindings.py:91: in test_nested_actual_target_names_are_all_invalidated
+    assert [(f["code"], f["line"], f["certainty"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 5, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 3, 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_nested_actual_target_names_are_all_invalidated[with manager as (delete, [text, *Customer]):\n    pass\n] _
+tests/test_compatibility_statement_bindings.py:91: in test_nested_actual_target_names_are_all_invalidated
+    assert [(f["code"], f["line"], f["certainty"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 5, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 3, 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_nested_actual_target_names_are_all_invalidated[del (delete, [text, Customer])\n] _
+tests/test_compatibility_statement_bindings.py:91: in test_nested_actual_target_names_are_all_invalidated
+    assert [(f["code"], f["line"], f["certainty"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 4, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 3, 'UNRESOLVED')
+E     Use -v to get more diff
+______________________ test_with_items_bind_left_to_right ______________________
+tests/test_compatibility_statement_bindings.py:98: in test_with_items_bind_left_to_right
+    assert [(f["code"], f["line"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...attached', 3)] == [('core_dml_r..._binding', 2)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 2) != ('rebound_query_binding', 2)
+E     Left contains one more item: ('core_dml_refused_if_attached', 3)
+E     Use -v to get more diff
+__________________ test_target_unpacking_binds_left_to_right ___________________
+tests/test_compatibility_statement_bindings.py:105: in test_target_unpacking_binds_left_to_right
+    assert [(f["code"], f["line"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...attached', 3)] == [('rebound_query_binding', 2)]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 2) != ('rebound_query_binding', 2)
+E     Left contains one more item: ('core_dml_refused_if_attached', 3)
+E     Use -v to get more diff
+__________________ test_delete_sequence_and_explicit_reimport __________________
+tests/test_compatibility_statement_bindings.py:119: in test_delete_sequence_and_explicit_reimport
+    assert [(f["code"], f["line"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...attached', 5)] == [('core_dml_r...attached', 5)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 3) != ('rebound_query_binding', 2)
+E     Use -v to get more diff
+__________ test_del_is_function_lexical_binding_even_before_statement __________
+tests/test_compatibility_statement_bindings.py:127: in test_del_is_function_lexical_binding_even_before_statement
+    assert [(f["code"], f["line"]) for f in inspect_source(source)] == [
+E   AssertionError: assert [('core_dml_r...attached', 6)] == [('shadowed_q...attached', 6)]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 3) != ('shadowed_query_binding', 2)
+E     Left contains one more item: ('core_dml_refused_if_attached', 6)
+E     Use -v to get more diff
+=========================== short test summary info ============================
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-augassign-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-delete-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-augassign-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-delete-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-augassign-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-module]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-class]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-delete-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_for-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_statement_target_invalidates_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_with-async_function]
+FAILED tests/test_compatibility_statement_bindings.py::test_input_expression_is_inspected_before_name_rebinding[for delete in delete(None):\n    delete(1)\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_input_expression_is_inspected_before_name_rebinding[with delete(None) as delete:\n    delete(1)\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_input_expression_is_inspected_before_name_rebinding[delete += delete(None)\ndelete(1)\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_nested_actual_target_names_are_all_invalidated[for (delete, [text, *Customer]) in values:\n    pass\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_nested_actual_target_names_are_all_invalidated[with manager as (delete, [text, *Customer]):\n    pass\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_nested_actual_target_names_are_all_invalidated[del (delete, [text, Customer])\n]
+FAILED tests/test_compatibility_statement_bindings.py::test_with_items_bind_left_to_right
+FAILED tests/test_compatibility_statement_bindings.py::test_target_unpacking_binds_left_to_right
+FAILED tests/test_compatibility_statement_bindings.py::test_delete_sequence_and_explicit_reimport
+FAILED tests/test_compatibility_statement_bindings.py::test_del_is_function_lexical_binding_even_before_statement
+64 failed, 14 passed in 0.42s
