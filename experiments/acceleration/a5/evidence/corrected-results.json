@@ -1,0 +1,24 @@
+{
+  "sa21": {
+    "summary": "10 passed in 1.06s",
+    "preflight": "PostgreSQL preflight passed 76053d5b a38ab71b",
+    "stop": "waiting for server to shut down.... done\nserver stopped",
+    "source_stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "test_sha256": "b12997edabab634c01c8b26f8f946392a70503d55389fa6cd826f979b33535e2"
+  },
+  "sa20": {
+    "summary": "10 passed in 1.00s",
+    "preflight": "PostgreSQL preflight passed 76053d5b a38ab71b",
+    "stop": "waiting for server to shut down.... done\nserver stopped",
+    "source_stability_keys": [
+      "before",
+      "after",
+      "unchanged"
+    ],
+    "test_sha256": "b12997edabab634c01c8b26f8f946392a70503d55389fa6cd826f979b33535e2"
+  }
+}

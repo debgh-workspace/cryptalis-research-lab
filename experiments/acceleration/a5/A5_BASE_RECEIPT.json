@@ -1,0 +1,48 @@
+{
+  "format": "cryptalis.research.a5-client-default-boundary-preparation/v1",
+  "base": "S19",
+  "base_manifest_sha256": "998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7",
+  "inherited_files": 204,
+  "inherited_files_unchanged": 204,
+  "new_test_sha256": {
+    "tests/test_sqlalchemy_client_default_boundary.py": "71907aeab1b324318318f5231125921f371d816a3c9e863591fd1af8d8383094"
+  },
+  "review_sha256": "780c41aa73e85750989638257ccd4a2399527cb6b39e6c18242fe79530516391",
+  "runtime_changes": false,
+  "tests_executed": false,
+  "static_syntax_check": "PASS",
+  "planned_tests": {
+    "native": 8,
+    "current_attached_loud_refusal": 2
+  },
+  "classification": "Application-generated UUID mapping; implicit callable-default timing is explicitly unsupported by the current documented attachment boundary.",
+  "native_sqlalchemy_source_sha256": {
+    "sa21": {
+      "engine/base.py": "de49e59123dd4e6118784c1b82415127f120a8ad38ef86973ab5fc28605378d9",
+      "engine/default.py": "9a92107da1c58688d84c9b8c9b15a936fb6fad94d8c9b8e36690bf169e5e7958",
+      "orm/persistence.py": "99788cd676a4fa3fa34c2b6c2b0f57e18a563f365c730c1e0f28a9b058778055",
+      "orm/session.py": "ebe9dec6d3d6a958f003b856efda28ce6ea95db1875c5ec9b371cb7c9720c944"
+    },
+    "sa20": {
+      "engine/base.py": "53f38e544004d329ac38e243104bf4bbbaf7d0f0cecabd112b1923b78dde5614",
+      "engine/default.py": "43886cde55bc6ec1da223a20319c811f8d46a81282c60455691df2cb632a0c2f",
+      "orm/persistence.py": "dd62e385ef70b3c0bc0fa9497085768c03a33418f623cc02433980d6249f9c2f",
+      "orm/session.py": "b75a4e427f453c2eaf19f04d87f66c2da644698a14f3b11880f56a73e2a0760d"
+    }
+  },
+  "polar_source_sha256": {
+    "models/feedback.py": "42cd54a830eaa5681030e5cc3d739cc99345c8991cdbd6aaceb220bf8432d446",
+    "kit/db/models/base.py": "a4bfd5c7087a10cc08bd5bf2b353e797bbc8a19bab6a5db8823eb9830656aaa1",
+    "kit/utils.py": "9bc2d88dbfd39fbc2e95701db445525a85a321d6cc27e2a0ebb1b51029738a03"
+  },
+  "runtime_anchors_sha256": {
+    "src/cryptalis/sqlalchemy.py": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+    "src/cryptalis/manifest/compiler.py": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b",
+    "docs/walkthrough-sqlalchemy.md": "de07d118889fa01b674aec8cb909e69da7f1edb2c77be577da2f4f1bd5ca96d3",
+    "tests/test_sqlalchemy_adapter.py": "3f6deb6e0837596c0db6e8ebf19db19c042276bc091304e85766886184ef0c50",
+    "scripts/test_postgres.py": "118952d57d777d692adf1f1447fedbb612030fd3266c9374680d347bb501fd12"
+  },
+  "approval_needed": "Before any runtime/security-boundary change: decide whether an isolated owner-scoped post-native-default/pre-bind execution-context experiment is allowed despite the public-hook architectural preference. Exact native UOW association remains an unproved design obligation.",
+  "qualification_gates": "UNKNOWN",
+  "worker_actions": "Read-only source investigation, new isolated S19 copy, new test/review/receipt preparation; no DB/tests/Git/provider/setup actions."
+}
