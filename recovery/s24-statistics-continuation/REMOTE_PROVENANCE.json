@@ -1,0 +1,71 @@
+{
+  "archive_sha256": "666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a",
+  "authenticated_commit_lookup": true,
+  "authenticated_remote_readbacks_verified": true,
+  "commit_lookup_reference": "Authenticated github_fetch_commit repository debgh-workspace/cryptalis-research-lab exact SHA af56abed3a30970e5679d64946d6c03068cfeb17 2026-10-14T23:03:28Z",
+  "commit_lookup_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+  "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+  "local_readback_directory": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/s24-statistics-continuation-remote-parts",
+  "local_staging_used_for_restore": false,
+  "part_manifest_sha256": "d8962f9bc453ad2384ae8d2a828be2c85b313879a1db504715b617a2d38edb13",
+  "remote_files": [
+    {
+      "authenticated_readback": true,
+      "bytes": 1348,
+      "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+      "git_blob_sha": "68eb1742b97d1ee697b2b787c084104a3fa09ecc",
+      "name": "MANIFEST.json",
+      "remote_path": "recovery/s24-statistics-continuation/parts/MANIFEST.json",
+      "repository": "debgh-workspace/cryptalis-research-lab",
+      "sha256": "d8962f9bc453ad2384ae8d2a828be2c85b313879a1db504715b617a2d38edb13",
+      "verification_reference": "Authenticated github_fetch_file at af56abed3a30970e5679d64946d6c03068cfeb17 path recovery/s24-statistics-continuation/parts/MANIFEST.json; coordinator tool results 2026-10-14T23:03:28Z"
+    },
+    {
+      "authenticated_readback": true,
+      "bytes": 96000,
+      "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+      "git_blob_sha": "dba7b72f6b05db4d96037df11a3ffa704c2aff15",
+      "name": "part-01.bin",
+      "remote_path": "recovery/s24-statistics-continuation/parts/part-01.bin",
+      "repository": "debgh-workspace/cryptalis-research-lab",
+      "sha256": "4da098ade959850276b06e81888b5a2627c07ff5afbe12bcc4962aa8a87f89bf",
+      "verification_reference": "Authenticated github_fetch_file at af56abed3a30970e5679d64946d6c03068cfeb17 path recovery/s24-statistics-continuation/parts/part-01.bin; coordinator tool results 2026-10-14T23:03:28Z"
+    },
+    {
+      "authenticated_readback": true,
+      "bytes": 96000,
+      "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+      "git_blob_sha": "1e88dbdbfa8ad14474f751fad7be9d812c662d7e",
+      "name": "part-02.bin",
+      "remote_path": "recovery/s24-statistics-continuation/parts/part-02.bin",
+      "repository": "debgh-workspace/cryptalis-research-lab",
+      "sha256": "03e00a68d01b6dac6842d04f5a0725053ff7aa683ce2a427edf99487e578054e",
+      "verification_reference": "Authenticated github_fetch_file at af56abed3a30970e5679d64946d6c03068cfeb17 path recovery/s24-statistics-continuation/parts/part-02.bin; coordinator tool results 2026-10-14T23:03:28Z"
+    },
+    {
+      "authenticated_readback": true,
+      "bytes": 96000,
+      "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+      "git_blob_sha": "0fd341d48a55aa66ef3ace5e5d6e769081646738",
+      "name": "part-03.bin",
+      "remote_path": "recovery/s24-statistics-continuation/parts/part-03.bin",
+      "repository": "debgh-workspace/cryptalis-research-lab",
+      "sha256": "ebba2fed2e094bd82d345db3009c8a45cb42e3ad8940b9679620ae667f2e77bd",
+      "verification_reference": "Authenticated github_fetch_file at af56abed3a30970e5679d64946d6c03068cfeb17 path recovery/s24-statistics-continuation/parts/part-03.bin; coordinator tool results 2026-10-14T23:03:28Z"
+    },
+    {
+      "authenticated_readback": true,
+      "bytes": 12660,
+      "commit_sha": "af56abed3a30970e5679d64946d6c03068cfeb17",
+      "git_blob_sha": "d94e3f0aca39e90ab93d01f514e8ac09acec3cee",
+      "name": "part-04.bin",
+      "remote_path": "recovery/s24-statistics-continuation/parts/part-04.bin",
+      "repository": "debgh-workspace/cryptalis-research-lab",
+      "sha256": "59b007b03369a200378f3d0b57d1143d5540ab8e0696c988d62f9369ddd95283",
+      "verification_reference": "Authenticated github_fetch_file at af56abed3a30970e5679d64946d6c03068cfeb17 path recovery/s24-statistics-continuation/parts/part-04.bin; coordinator tool results 2026-10-14T23:03:28Z"
+    }
+  ],
+  "remote_prefix": "recovery/s24-statistics-continuation/parts",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "source": "authenticated_remote_readback"
+}

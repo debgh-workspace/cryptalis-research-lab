@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T22:49Z`
+- Last updated UTC: `2026-10-14T23:01Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded source-overlay candidate: S25 `candidate-s25-async-sqlmodel-integration-20261014`,216 files, manifest3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703. Full main SA2.1:2632PASS/7FAIL/0SKIP; SA2.0:2586PASS/7FAIL/46SKIP;56 passing subtests each; exact R3 IDs/outcomes/failure messages retained. Separate supported SQLModel cell38PASS. Source checkpoint9e57de7756c90d73b98bc89a1594f51e0c47e3f3 all10files remotely exact. Installed S25 full main suites now independently match these same outcomes: SA21 397.75s, SA20 397.95s; separate installed SQLModel 38 PASS in5.26s. Separate-process origin checks do not attest continuously to every pytest/subprocess import. Main remainsS14;all7gatesUNKNOWN. Historical S23 checkpoint and complete recovery retained below.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1262,3 +1262,15 @@ The proposed correction/test-plan checkpoint 946f4fd2dd7fdd1c2b533112499a612c010
 The exact RED SA20 command completed with 13 failed and 9 passed in 2.57 seconds. Its failing names match the first RED cell. Wrapper exit is 1; the outer shell exits 0 only because its final integrity commands succeed. All before/after packet, input and copy checks passed; safe shutdown is explicitly exit 0. Independent SA20 terminal audit is pending. No GREEN run or accepted correction yet.
 
 The remainder of the frozen proposal is preserved at 3bf2b2796401f75b5b1af631a36eaaf7ffb2cbe4, eight files exactly read back. The first ten proposed source/test/plan files remain at 946f4fd2dd7fdd1c2b533112499a612c0103d489. These remain separate from the accepted S25 candidate.
+
+### Async cleanup first corrected cell — 2026-10-14 22:56 UTC
+
+RED SA20 independently accepted: 13 intended failures, 9 controls, 0 skips in 2.57 seconds; same failing mechanisms as SA21. GREEN SA21 ran the exact reviewed block and completed 46 passes in 4.43 seconds, wrapper and outer exits zero, all pre/post packet and source pins zero. Independent terminal audit is pending; no counterpart or integration claim yet. Proposed-source preservation checkpoint b320f19552345fabab281f49e2cc59a6ba24300f contains eight remotely byte-exact files. All seven gates remain UNKNOWN.
+
+Statistics continuation recovery archive is locally independently accepted: 300,660 bytes, SHA256 666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a, 1,593 regular members. Independent deterministic rebuild and fresh data-only restore pass. Remote publication is pending. No full runtime or dependency restore claim.
+
+### Statistics remote recovery and cleanup counterpart — 2026-10-14 23:04 UTC
+
+Statistics continuation commit af56abed3a30970e5679d64946d6c03068cfeb17 preserves four parts and manifest, all authenticated same-commit remote bytes verified. Strict fresh data-only restoration passed all 1,593 members and 1,550 selected inputs. Archive SHA256 666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a; 300,660 bytes. One opaque-part upload was initially denied; exact parent-payload and slice provenance were independently verified, remote absence reconciled, then the identical retry accepted. No workaround or broader publication occurred. Restore receipt: persistence-recovery-20261013/s24-statistics-continuation-remote-restore-verification.json.
+
+GREEN SA21 independent audit ACCEPT_BOUNDED_GREEN: 46 exact passing cases, all 138 phases, 13 corrected former RED failures, nine controls, 24 retained regressions. GREEN SA20 completed 46 passes in 4.55 seconds; independent terminal audit pending. Source/pin/corpus/shutdown records are preserved. Full matrix and installed qualification remain unrun for this correction. No universal physical-quarantine claim; all seven gates UNKNOWN.

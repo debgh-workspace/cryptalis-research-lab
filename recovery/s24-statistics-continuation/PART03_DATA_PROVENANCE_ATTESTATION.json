@@ -1,0 +1,39 @@
+{
+  "archive_bytes": 300660,
+  "archive_path": "candidate-s24-statistics-continuation-recovery-20261014/CRYPTALIS_S24_STATISTICS_CONTINUATION_RECOVERY_20261014_v1.tar.xz",
+  "archive_sha256": "666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a",
+  "archive_slice_zero_based_end_exclusive": 288000,
+  "archive_slice_zero_based_start_inclusive": 192000,
+  "authorization_boundary": "Root reports user authorization for research-lab checkpoint publication only, never credentials. This local data-provenance attestation does not independently grant publication or retry authority. The blocked part has not been uploaded or retried by this reviewer.",
+  "intended_remote_path": "recovery/s24-statistics-continuation/parts/part-03.bin",
+  "intended_repository": "debgh-workspace/cryptalis-research-lab",
+  "network_remote_or_upload_actions_by_reviewer": false,
+  "part_bytes": 96000,
+  "part_git_blob_sha1": "0fd341d48a55aa66ef3ace5e5d6e769081646738",
+  "part_path": "reviewer-notes/s24-statistics-continuation-preparation-20261014/remote-preparation-v1/parts/part-03.bin",
+  "part_sha256": "ebba2fed2e094bd82d345db3009c8a45cb42e3ad8940b9679620ae667f2e77bd",
+  "prior_bounded_scan_findings": [],
+  "prior_bounded_scan_limits": {
+    "per_file_bytes": 12582912,
+    "total_bytes": 100663296
+  },
+  "prior_bounded_scan_patterns": [
+    "credential-bearing URI",
+    "credential-variable literal",
+    "live-token shape",
+    "private-key marker"
+  ],
+  "prior_independent_report": "reviewer-notes/s24-statistics-continuation-recovery-independent-20261014/FROZEN_REPORT-v1.md",
+  "prior_independent_report_sha256": "f25565508b5e7e1d5893aa65220ddefdc7baa6838840a5d373f94c0c7aa47efd",
+  "prior_machine_audit": "reviewer-notes/s24-statistics-continuation-recovery-independent-20261014/FROZEN_ARCHIVE_AUDIT-v1.json",
+  "prior_machine_audit_sha256": "d355cee4247aac4fd87e8599548485f3ea0a6a3c9126c01540f0715572646396",
+  "qualification_limits_unchanged": true,
+  "reviewed_archive_members": 1593,
+  "reviewed_archive_scope": "Exactly validated regular-file payload with no raw tests.json/readiness.json/package-origin.json/postgres-start.json/postgres-stop.json, environment, credential, runtime, cache or dependency content selected. References in safe reports/manifests are not target-file reads.",
+  "reviewed_original_allowlist_sha256": "8fb94c9fb5b77779afea662426eca8b7f6e5588b1abf78c399b3d0ee6e144431",
+  "reviewed_original_file_count": 1550,
+  "scan_limitation": "Zero matches in a bounded pattern scan is not proof that every possible secret is absent. This part is an opaque compressed byte range and cannot be meaningfully scanned in isolation; its exact parent archive was fully decompressed and the entire selected payload scanned.",
+  "slice_bytes_equal": true,
+  "status": "VERIFIED_EXACT_PART03_OF_INDEPENDENTLY_ACCEPTED_DATA_CAPSULE",
+  "verified_utc": "2026-10-14T22:59:55.742966+00:00"
+}

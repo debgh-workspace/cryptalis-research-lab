@@ -32,8 +32,8 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "4220acbff1a5eb406e7bdc5cd19bc0e7a1ef4e7a",
-  "latest_integrated_candidate": "candidate-s23-planning-20261014 (S23; 213 source files; bounded research qualification only)",
+  "latest_verified_remote_commit": "af56abed3a30970e5679d64946d6c03068cfeb17",
+  "latest_integrated_candidate": "S25, 216 source files; historical failures remain",
   "current_experiment": "S23 bounded planning correction is verified in both source-overlay full cells and installed-focused cells. Source/evidence recovery is separate from dependency, operational runtime and product qualification. Live follow-on work must be recorded from coordinator status.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
@@ -42,8 +42,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T21:24:00Z",
-  "current_operation": "S24 installed scopes independently audited,600-key corpus verified; async SQLModel V2 failed3 invalid provider-identity oracles, V3 source-only correction preparing; fullcapsule final8parts uploading",
+  "updated_utc": "2026-10-14T23:04:00Z",
+  "current_operation": "Focused cleanup GREEN both cells terminal 46 PASS each; SA21 independently accepted, SA20 audit finishing. Full integration plan in preparation. Statistics continuation remote restore complete.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -1306,10 +1306,10 @@
     "candidate": "candidate-next-unblocked-correctness-20261014",
     "baseline": "S25",
     "finding": "Async transaction pre-exit key preparation failure may be replaced by native rollback failure",
-    "evidence": "Static source and pinned native contract only; runtime unrun",
+    "evidence": "Both baseline cells reproduce 13 intended failures and 9 controls; first corrected cell 46 PASS pending independent audit",
     "fix_scope": "Primary identity, safe UNKNOWN/nonretryable diagnostics and best-effort public invalidation; no guaranteed physical quarantine",
     "red_candidate": "candidate-next-unblocked-correctness-red-20261014",
-    "status": "Both RED cells terminal; SA21 accepted, SA20 audit pending; GREEN unrun",
+    "status": "Both focused GREEN cells independently accepted; full integration pending",
     "new_cases": 22,
     "green_regression_cases": 24,
     "packet_sha256": "6fcf4c01a281746d6e665e750462dc706bfed31f01ef855a97330540164bec7a",
@@ -1332,12 +1332,31 @@
       "wrapper_exit": 1,
       "outer_exit": 0,
       "safe_stop_exit": 0,
-      "independent_audit": "PENDING"
+      "independent_audit": "ACCEPT_EXPECTED_RED"
+    },
+    "green_sa21": {
+      "pass": 46,
+      "fail": 0,
+      "skip": 0,
+      "seconds": 4.43,
+      "wrapper_exit": 0,
+      "outer_exit": 0,
+      "independent_audit": "ACCEPT_BOUNDED_GREEN"
+    },
+    "green_sa20": {
+      "pass": 46,
+      "fail": 0,
+      "skip": 0,
+      "seconds": 4.55,
+      "wrapper_exit": 0,
+      "outer_exit": 0,
+      "safe_stop_exit": 0,
+      "independent_audit": "ACCEPT_BOUNDED_GREEN"
     }
   },
   "statistics_g5_sa20": "21 PASS6.81s independently accepted safe review",
   "statistics_g6_sa21": "3 PASS10.89s independently accepted",
-  "statistics_g6_sa20": "3 PASS10.21s safe independent audit pending",
+  "statistics_g6_sa20": "3 PASS in 10.21 seconds, independently accepted",
   "statistics_v4_matrix": {
     "groups_per_cell": [
       33,
@@ -1352,5 +1371,14 @@
     "independent_scope": "All12groups accepted individually",
     "integrated_product_feature": false,
     "all_seven_gates": "UNKNOWN"
+  },
+  "statistics_continuation_recovery": {
+    "commit": "af56abed3a30970e5679d64946d6c03068cfeb17",
+    "archive_sha256": "666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a",
+    "bytes": 300660,
+    "remote_files_exact": 5,
+    "fresh_restored_members": 1593,
+    "provenance_sha256": "8491aca1f3769b87045fe71674a3e3b4f98dae41493b9d3b4a9c07d5f0c19f67",
+    "scope": "Selected data plus private overlay only; no full runtime/source/dependency restore"
   }
 }
