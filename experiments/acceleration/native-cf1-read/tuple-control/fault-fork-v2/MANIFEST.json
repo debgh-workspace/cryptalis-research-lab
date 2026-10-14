@@ -1,0 +1,3302 @@
+{
+  "status": "SOURCE-ONLY EXPECTATIONS FROZEN BEFORE EXECUTION",
+  "cases": [
+    {
+      "id": "fault/0/1/P/before",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/1/P/fault",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fault_at": 1,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 1,
+        "tuple_completed": 0,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/1/P/recovery",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/1/T/before",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/1/T/fault",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fault_at": 1,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 1,
+        "tuple_completed": 0,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/1/T/recovery",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/P/before",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/P/fault",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fault_at": 2,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 2,
+        "tuple_completed": 1,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/P/recovery",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/T/before",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/T/fault",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fault_at": 2,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 2,
+        "tuple_completed": 1,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/2/T/recovery",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/P/before",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/P/fault",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fault_at": 3,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 2,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/P/recovery",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/T/before",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/T/fault",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fault_at": 3,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 2,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/0/3/T/recovery",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 1,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 1,
+        "tuple_completed": 0,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 1,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 1,
+        "tuple_completed": 0,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/1/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 2,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 2,
+        "tuple_completed": 1,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 2,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 2,
+        "tuple_completed": 1,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/2/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 3,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 2,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 3,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 2,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/3/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 4,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 4,
+        "tuple_completed": 3,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 4,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 4,
+        "tuple_completed": 3,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/4/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 5,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 5,
+        "tuple_completed": 4,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 5,
+      "expected": {
+        "exception": "MemoryError",
+        "args": [],
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 5,
+        "tuple_completed": 4,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/5/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/P/fault",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fault_at": 6,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 5,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/T/fault",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fault_at": 6,
+      "expected": {
+        "exception": "CryptoBackendUnavailable",
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "operation_present": true,
+        "args_safe": true,
+        "cause_none": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 5,
+        "fault_fired": 1,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fault/1/6/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/0/payload/P/before",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/0/payload/P/expiry",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expire_after": 3,
+      "expire_purpose": "payload",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/0/payload/P/recovery",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/0/payload/T/before",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/0/payload/T/expiry",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expire_after": 3,
+      "expire_purpose": "payload",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/0/payload/T/recovery",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/payload/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/payload/P/expiry",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expire_after": 6,
+      "expire_purpose": "payload",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/1/payload/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/payload/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/payload/T/expiry",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expire_after": 6,
+      "expire_purpose": "payload",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/1/payload/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/search/P/before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/search/P/expiry",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expire_after": 6,
+      "expire_purpose": "search",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/1/search/P/recovery",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/search/T/before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "expiry/1/search/T/expiry",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expire_after": 6,
+      "expire_purpose": "search",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 1
+      }
+    },
+    {
+      "id": "expiry/1/search/T/recovery",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/P/parent-before",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/P/child-inherited",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/P",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 0,
+        "tuple_completed": 0,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/P/child-fresh",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/P/parent-after",
+      "arm": "P",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/T/parent-before",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/T/child-inherited",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/T",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 0,
+        "tuple_completed": 0,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/T/child-fresh",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/0/T/parent-after",
+      "arm": "T",
+      "fixture": "grid-000-1",
+      "fork_group": "fork/0/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 3,
+        "tuple_completed": 3,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/P/parent-before",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/P/child-inherited",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/P",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 0,
+        "tuple_completed": 0,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/P/child-fresh",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/P/parent-after",
+      "arm": "P",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/P",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/T/parent-before",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/T/child-inherited",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/T",
+      "expected": {
+        "exception": "KeyUnavailable",
+        "code": "KeyUnavailable",
+        "stage": "key preparation or use",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+        "operation_present": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "args_safe": true,
+        "cause_none": true,
+        "published": false,
+        "tuple_entries": 0,
+        "tuple_completed": 0,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/T/child-fresh",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    },
+    {
+      "id": "fork/1/T/parent-after",
+      "arm": "T",
+      "fixture": "grid-100-1",
+      "fork_group": "fork/1/T",
+      "expected": {
+        "value": "abcdefg",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "value_type": "str",
+        "published": true,
+        "tuple_entries": 6,
+        "tuple_completed": 6,
+        "fault_fired": 0,
+        "expiry_fired": 0
+      }
+    }
+  ],
+  "parity_pairs": [
+    [
+      "fault/0/1/P/before",
+      "fault/0/1/T/before"
+    ],
+    [
+      "fault/0/1/P/fault",
+      "fault/0/1/T/fault"
+    ],
+    [
+      "fault/0/1/P/recovery",
+      "fault/0/1/T/recovery"
+    ],
+    [
+      "fault/0/2/P/before",
+      "fault/0/2/T/before"
+    ],
+    [
+      "fault/0/2/P/fault",
+      "fault/0/2/T/fault"
+    ],
+    [
+      "fault/0/2/P/recovery",
+      "fault/0/2/T/recovery"
+    ],
+    [
+      "fault/0/3/P/before",
+      "fault/0/3/T/before"
+    ],
+    [
+      "fault/0/3/P/fault",
+      "fault/0/3/T/fault"
+    ],
+    [
+      "fault/0/3/P/recovery",
+      "fault/0/3/T/recovery"
+    ],
+    [
+      "fault/1/1/P/before",
+      "fault/1/1/T/before"
+    ],
+    [
+      "fault/1/1/P/fault",
+      "fault/1/1/T/fault"
+    ],
+    [
+      "fault/1/1/P/recovery",
+      "fault/1/1/T/recovery"
+    ],
+    [
+      "fault/1/2/P/before",
+      "fault/1/2/T/before"
+    ],
+    [
+      "fault/1/2/P/fault",
+      "fault/1/2/T/fault"
+    ],
+    [
+      "fault/1/2/P/recovery",
+      "fault/1/2/T/recovery"
+    ],
+    [
+      "fault/1/3/P/before",
+      "fault/1/3/T/before"
+    ],
+    [
+      "fault/1/3/P/fault",
+      "fault/1/3/T/fault"
+    ],
+    [
+      "fault/1/3/P/recovery",
+      "fault/1/3/T/recovery"
+    ],
+    [
+      "fault/1/4/P/before",
+      "fault/1/4/T/before"
+    ],
+    [
+      "fault/1/4/P/fault",
+      "fault/1/4/T/fault"
+    ],
+    [
+      "fault/1/4/P/recovery",
+      "fault/1/4/T/recovery"
+    ],
+    [
+      "fault/1/5/P/before",
+      "fault/1/5/T/before"
+    ],
+    [
+      "fault/1/5/P/fault",
+      "fault/1/5/T/fault"
+    ],
+    [
+      "fault/1/5/P/recovery",
+      "fault/1/5/T/recovery"
+    ],
+    [
+      "fault/1/6/P/before",
+      "fault/1/6/T/before"
+    ],
+    [
+      "fault/1/6/P/fault",
+      "fault/1/6/T/fault"
+    ],
+    [
+      "fault/1/6/P/recovery",
+      "fault/1/6/T/recovery"
+    ],
+    [
+      "expiry/0/payload/P/before",
+      "expiry/0/payload/T/before"
+    ],
+    [
+      "expiry/0/payload/P/expiry",
+      "expiry/0/payload/T/expiry"
+    ],
+    [
+      "expiry/0/payload/P/recovery",
+      "expiry/0/payload/T/recovery"
+    ],
+    [
+      "expiry/1/payload/P/before",
+      "expiry/1/payload/T/before"
+    ],
+    [
+      "expiry/1/payload/P/expiry",
+      "expiry/1/payload/T/expiry"
+    ],
+    [
+      "expiry/1/payload/P/recovery",
+      "expiry/1/payload/T/recovery"
+    ],
+    [
+      "expiry/1/search/P/before",
+      "expiry/1/search/T/before"
+    ],
+    [
+      "expiry/1/search/P/expiry",
+      "expiry/1/search/T/expiry"
+    ],
+    [
+      "expiry/1/search/P/recovery",
+      "expiry/1/search/T/recovery"
+    ],
+    [
+      "fork/0/P/parent-before",
+      "fork/0/T/parent-before"
+    ],
+    [
+      "fork/0/P/child-inherited",
+      "fork/0/T/child-inherited"
+    ],
+    [
+      "fork/0/P/child-fresh",
+      "fork/0/T/child-fresh"
+    ],
+    [
+      "fork/0/P/parent-after",
+      "fork/0/T/parent-after"
+    ],
+    [
+      "fork/1/P/parent-before",
+      "fork/1/T/parent-before"
+    ],
+    [
+      "fork/1/P/child-inherited",
+      "fork/1/T/child-inherited"
+    ],
+    [
+      "fork/1/P/child-fresh",
+      "fork/1/T/child-fresh"
+    ],
+    [
+      "fork/1/P/parent-after",
+      "fork/1/T/parent-after"
+    ]
+  ],
+  "fork_groups": [
+    "fork/0/P",
+    "fork/0/T",
+    "fork/1/P",
+    "fork/1/T"
+  ],
+  "negatives": [
+    {
+      "mode": "raw-boundary",
+      "case_id": "fault/1/1/T/fault",
+      "expected_error": "Supplement mismatch",
+      "expected_exit": 1
+    },
+    {
+      "mode": "count",
+      "case_id": "fault/1/1/T/fault",
+      "expected_error": "Supplement mismatch",
+      "expected_exit": 1
+    },
+    {
+      "mode": "trace",
+      "case_id": "fault/1/1/T/fault",
+      "expected_error": "Supplement mismatch",
+      "expected_exit": 1
+    },
+    {
+      "mode": "fork-pid",
+      "group": "fork/0/T",
+      "expected_error": "Supplement mismatch",
+      "expected_exit": 1
+    }
+  ],
+  "case_count": 88,
+  "modes": [
+    "raw-boundary",
+    "count",
+    "trace",
+    "fork-pid",
+    "positive"
+  ],
+  "limits": {
+    "child_timeout": 180,
+    "fork_deadline": 10,
+    "ipc_max_bytes": 65536,
+    "fork_cleanup_reap_seconds": 2,
+    "top_reap_seconds": 10,
+    "stream_cap_bytes": 65536
+  },
+  "expectation_basis": "Exact existing public seven-byte fixture output and canonical traces; backend metadata copied from keys.py class literals; raw MemoryError boundary inferred from unchanged try placement. No runtime expectation generation.",
+  "child_guard_expected": {
+    "source_cache": "PASS",
+    "bindings": "PASS"
+  }
+}

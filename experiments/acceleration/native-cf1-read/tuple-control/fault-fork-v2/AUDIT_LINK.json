@@ -1,0 +1,6 @@
+{
+  "status": "Independent data-only postrun audit completed; historical result text preserved",
+  "report_relative_to_cryptalis_executable": "candidate-notes-native-tuple-control-review-20261014/POSTRUN-FAULT-FORK-V2-AUDIT.md",
+  "report_sha256": "f23d7e87d0f5799257f826dab6ac9bf08b9065916e7983b4d14b81a035ee489e",
+  "scope": "88 exact records and 44 parity pairs per mode; eight negatives; ten fork children; 4473 pins. No new execution or broader qualification."
+}
