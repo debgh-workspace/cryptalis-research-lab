@@ -1,0 +1,986 @@
+{
+  "status": "FROZEN SOURCE EXPECTATIONS; NOT RUN",
+  "provenance": "Existing frozen independent RFC composition; no candidate execution. SHA answers literal.",
+  "cases": [
+    {
+      "id": "sha256/empty",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": ""
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "source": "literal standard SHA256 empty answer"
+    },
+    {
+      "id": "sha256/abc",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "616263"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+      },
+      "source": "literal standard SHA256 abc answer"
+    },
+    {
+      "id": "primitive/aes256-gcm-siv/0",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0100000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "030000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "07f5f4169bbf55a8400cd47ea6fd400f"
+        },
+        {
+          "type": "bytes",
+          "hex": ""
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": ""
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/aes256_gcm_siv/0"
+    },
+    {
+      "id": "primitive/aes256-gcm-siv/1",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0100000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "030000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "c2ef328e5c71c83b843122130f7364b761e0b97427e3df28"
+        },
+        {
+          "type": "bytes",
+          "hex": ""
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "0100000000000000"
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/aes256_gcm_siv/1"
+    },
+    {
+      "id": "primitive/aes256-gcm-siv/2",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0100000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "030000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "1de22967237a813291213f267e3b452f02d01ae33e4ec854"
+        },
+        {
+          "type": "bytes",
+          "hex": "01"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "0200000000000000"
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/aes256_gcm_siv/2"
+    },
+    {
+      "id": "primitive/aes256-gcm-siv/3",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0100000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "030000000000000000000000"
+        },
+        {
+          "type": "bytes",
+          "hex": "4a6a9db4c8c6549201b9edb53006cba821ec9cf850948a7c86c68ac7539d027fe819e63abcd020b006a976397632eb5d"
+        },
+        {
+          "type": "bytes",
+          "hex": ""
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "0100000000000000000000000000000002000000000000000000000000000000"
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/aes256_gcm_siv/3"
+    },
+    {
+      "id": "primitive/hkdf_sha256",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b"
+        },
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c"
+        },
+        {
+          "type": "bytes",
+          "hex": "f0f1f2f3f4f5f6f7f8f9"
+        },
+        {
+          "type": "int",
+          "decimal": "42"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865"
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/hkdf_sha256"
+    },
+    {
+      "id": "primitive/hmac_sha256",
+      "function": "hmac_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b"
+        },
+        {
+          "type": "bytes",
+          "hex": "4869205468657265"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7"
+      },
+      "source": "reused-fixtures.json#/primitive_vectors/hmac_sha256"
+    },
+    {
+      "id": "intermediate/uuid-storage-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000104444444444444444844444444444444400000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+      },
+      "source": "reused-fixtures.json#/vectors/0"
+    },
+    {
+      "id": "intermediate/uuid-storage-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b657900000010333333333333433383333333333333330000001077777777777747778777777777777777"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "0e846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61"
+      },
+      "source": "reused-fixtures.json#/vectors/0"
+    },
+    {
+      "id": "intermediate/uuid-storage-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0e846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61"
+        },
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b"
+        },
+        {
+          "type": "bytes",
+          "hex": "82af9641e6d2f1c1868a2c25db91847e6c3b3584f11cf90fc4d6a13f53f1d8e7c9ee9a75721462a61eea5026c7d7cb"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000107777777777774777877777777777777700000020f2ebd38746105c71bdd45f207c0ebc78e0b0465329e6986a0cd2317bc961253b0000000e4346310001000000000700000000"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+      },
+      "source": "reused-fixtures.json#/vectors/0"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000104444444444444444844444444444444400000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b657900000010333333333333433383333333333333330000001077777777777747778777777777777777"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "0e846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/search-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f74000000101111111111114111811111111111111100000010444444444444444484444444444444440000001066666666666646668666666666666666000000040000000b"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "1641e37ac79128e5c212330b300e4474ed15b8d3bcdf421d4552e435937eeccb"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/search-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+        },
+        {
+          "type": "bytes",
+          "hex": "1641e37ac79128e5c212330b300e4474ed15b8d3bcdf421d4552e435937eeccb"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000050000000e4346312f7365617263682d6b657900000010333333333333433383333333333333330000000d757466382d65786163742f76310000000b6964656e746974792f763100000008657175616c697479"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "f6232f1a6a708e0ad2e4d7f40f4c773968044f365e41d7c2c041d5a4310750ac"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "0e846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61"
+        },
+        {
+          "type": "bytes",
+          "hex": "0c0d0e0f1011121314151617"
+        },
+        {
+          "type": "bytes",
+          "hex": "ac9bf057c0564e2f3748aee17f24f824bd989b00f604f3c4e92b761d69de72f58e1eb7c9aab239ba477d50adb26fe9"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000107777777777774777877777777777777700000020391b0c73715c586db2d2d759e150b394a7fd76760227e42d8b3d312c12a270430000002e434631000101000000070000000beae785ab033479ec783f7c380b8987dc2cdf94fbe3afd229973c1a0bef0353d9"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/uuid-equality-unicode/term",
+      "function": "hmac_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "f6232f1a6a708e0ad2e4d7f40f4c773968044f365e41d7c2c041d5a4310750ac"
+        },
+        {
+          "type": "bytes",
+          "hex": "0000000200000008657175616c6974790000001f4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "eae785ab033479ec783f7c380b8987dc2cdf94fbe3afd229973c1a0bef0353d9"
+      },
+      "source": "reused-fixtures.json#/vectors/1"
+    },
+    {
+      "id": "intermediate/int64-storage-empty/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000104444444444444444844444444444444400000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+      },
+      "source": "reused-fixtures.json#/vectors/2"
+    },
+    {
+      "id": "intermediate/int64-storage-empty/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b65790000001033333333333343338333333333333333000000190000000200000005696e743634000000088000000000000000"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "70912dc07763ada4623930b975452bd5234522ce6e520f986f54e75b0894cdf4"
+      },
+      "source": "reused-fixtures.json#/vectors/2"
+    },
+    {
+      "id": "intermediate/int64-storage-empty/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "70912dc07763ada4623930b975452bd5234522ce6e520f986f54e75b0894cdf4"
+        },
+        {
+          "type": "bytes",
+          "hex": "18191a1b1c1d1e1f20212223"
+        },
+        {
+          "type": "bytes",
+          "hex": "72f1facc6bdaf49cb0d5de79061ad436"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000190000000200000005696e74363400000008800000000000000000000020bbd8373f7f75d52f640648e473e1e708a4275c9af11c99da5070b0c6544380160000000e4346310001000000000700000000"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": ""
+      },
+      "source": "reused-fixtures.json#/vectors/2"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000104444444444444444844444444444444400000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b65790000001033333333333343338333333333333333000000190000000200000005696e74363400000008ffffffffffffffd6"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "97949a20a2b4593ce68e58b54d595873cf4192d9e65cf72bcf39c15ea30a8816"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/search-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f74000000101111111111114111811111111111111100000010444444444444444484444444444444440000001066666666666646668666666666666666000000040000000b"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "1641e37ac79128e5c212330b300e4474ed15b8d3bcdf421d4552e435937eeccb"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/search-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+        },
+        {
+          "type": "bytes",
+          "hex": "1641e37ac79128e5c212330b300e4474ed15b8d3bcdf421d4552e435937eeccb"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000050000000e4346312f7365617263682d6b657900000010333333333333433383333333333333330000000d757466382d65786163742f76310000000b6964656e746974792f763100000008657175616c697479"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "f6232f1a6a708e0ad2e4d7f40f4c773968044f365e41d7c2c041d5a4310750ac"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "97949a20a2b4593ce68e58b54d595873cf4192d9e65cf72bcf39c15ea30a8816"
+        },
+        {
+          "type": "bytes",
+          "hex": "2425262728292a2b2c2d2e2f"
+        },
+        {
+          "type": "bytes",
+          "hex": "1a4c589972b56275abdec314731ef260c8874688350e35c7f7"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000190000000200000005696e74363400000008ffffffffffffffd6000000204a3c775559e0f0978163a5db4c4e3fe6b5718b3f3871fe693f9f39518a2b96820000002e434631000101000000070000000b70c268ded87f1f45aac4d4841710c87d93eb2f8fdb34dc6bd4f021405ff080cc"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "c3850ae69db1e4baac"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/int64-equality-unicode/term",
+      "function": "hmac_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "f6232f1a6a708e0ad2e4d7f40f4c773968044f365e41d7c2c041d5a4310750ac"
+        },
+        {
+          "type": "bytes",
+          "hex": "0000000200000008657175616c69747900000009c3850ae69db1e4baac"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "70c268ded87f1f45aac4d4841710c87d93eb2f8fdb34dc6bd4f021405ff080cc"
+      },
+      "source": "reused-fixtures.json#/vectors/3"
+    },
+    {
+      "id": "intermediate/single-uuid-storage-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000102222222222224222822222222222222200000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+      },
+      "source": "reused-fixtures.json#/vectors/4"
+    },
+    {
+      "id": "intermediate/single-uuid-storage-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b657900000010333333333333433383333333333333330000001077777777777747778777777777777777"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "dc0bffecd40409a7ebe60e0901d7f0c6285f2932814d9373b2e300ada26c8716"
+      },
+      "source": "reused-fixtures.json#/vectors/4"
+    },
+    {
+      "id": "intermediate/single-uuid-storage-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "dc0bffecd40409a7ebe60e0901d7f0c6285f2932814d9373b2e300ada26c8716"
+        },
+        {
+          "type": "bytes",
+          "hex": "303132333435363738393a3b"
+        },
+        {
+          "type": "bytes",
+          "hex": "f8be056100751da73252797006bf09e2477b08ae841f8ca29d62c91d1ac9f2b016d3563873f80f26493688f99c7edc"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f61640000001011111111111141118111111111111111000000102222222222224222822222222222222200000010333333333333433383333333333333330000001077777777777747778777777777777777000000204ce2511dd1e18183acd7fc663e99a0bc011abfadbab1fe18851d7946e75a98ec0000000e4346310001000000000700000000"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+      },
+      "source": "reused-fixtures.json#/vectors/4"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000102222222222224222822222222222222200000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b657900000010333333333333433383333333333333330000001077777777777747778777777777777777"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "dc0bffecd40409a7ebe60e0901d7f0c6285f2932814d9373b2e300ada26c8716"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/search-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f74000000101111111111114111811111111111111100000010222222222222422282222222222222220000001066666666666646668666666666666666000000040000000b"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "a4e8f3778e52e1d07d6ab90437e6e8044ebbe0e9c207ba6ff15a26d3aeae4227"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/search-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+        },
+        {
+          "type": "bytes",
+          "hex": "a4e8f3778e52e1d07d6ab90437e6e8044ebbe0e9c207ba6ff15a26d3aeae4227"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000050000000e4346312f7365617263682d6b657900000010333333333333433383333333333333330000000d757466382d65786163742f76310000000b6964656e746974792f763100000008657175616c697479"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "53595c82c9ebd495c4a2c423b4b9c2b500d6ed7e90bae7efcd47525311b239d4"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "dc0bffecd40409a7ebe60e0901d7f0c6285f2932814d9373b2e300ada26c8716"
+        },
+        {
+          "type": "bytes",
+          "hex": "3c3d3e3f4041424344454647"
+        },
+        {
+          "type": "bytes",
+          "hex": "7bf5536d47196d5fc8afd2e07d7f4ac2ba21300fae5dd2241d150dc6163938f32af22b516ef34fc56390ea67667cf2"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f61640000001011111111111141118111111111111111000000102222222222224222822222222222222200000010333333333333433383333333333333330000001077777777777747778777777777777777000000207252dfa5f4b41ae9a5d90dbb00d697dac4e99eaa950fc4cf004d85c39d2664f90000002e434631000101000000070000000b3c8813e643f74e0905c8f0a202e2fe4288dc6031bad872fe12dac35e4b3cf09c"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-uuid-equality-unicode/term",
+      "function": "hmac_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "53595c82c9ebd495c4a2c423b4b9c2b500d6ed7e90bae7efcd47525311b239d4"
+        },
+        {
+          "type": "bytes",
+          "hex": "0000000200000008657175616c6974790000001f4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "3c8813e643f74e0905c8f0a202e2fe4288dc6031bad872fe12dac35e4b3cf09c"
+      },
+      "source": "reused-fixtures.json#/vectors/5"
+    },
+    {
+      "id": "intermediate/single-int64-storage-empty/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000102222222222224222822222222222222200000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+      },
+      "source": "reused-fixtures.json#/vectors/6"
+    },
+    {
+      "id": "intermediate/single-int64-storage-empty/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b65790000001033333333333343338333333333333333000000190000000200000005696e743634000000088000000000000000"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "67ca7ce752198fd0ac46e3d61babf528a790903d74b5f3bdad2c834ee62107a4"
+      },
+      "source": "reused-fixtures.json#/vectors/6"
+    },
+    {
+      "id": "intermediate/single-int64-storage-empty/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "67ca7ce752198fd0ac46e3d61babf528a790903d74b5f3bdad2c834ee62107a4"
+        },
+        {
+          "type": "bytes",
+          "hex": "48494a4b4c4d4e4f50515253"
+        },
+        {
+          "type": "bytes",
+          "hex": "2a5a6ebe4897325e3751bd777f069c20"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010222222222222422282222222222222220000001033333333333343338333333333333333000000190000000200000005696e74363400000008800000000000000000000020ce667faea86e2cf05db07aa07f0f6529d92b9f1f82842966283bcfe359d24b590000000e4346310001000000000700000000"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": ""
+      },
+      "source": "reused-fixtures.json#/vectors/6"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/payload-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f740000001011111111111141118111111111111111000000102222222222224222822222222222222200000010555555555555455585555555555555550000000400000007"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/payload-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+        },
+        {
+          "type": "bytes",
+          "hex": "e16949b9f352da14c9c2e2ff8ad26994e24080f4bc93d01c30554984a6fcbc51"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000030000000f4346312f7061796c6f61642d6b65790000001033333333333343338333333333333333000000190000000200000005696e74363400000008ffffffffffffffd6"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "070a038e546d7b2ed52bf98defc735a41313aead33afa4be90bc9a69156045b4"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/search-salt",
+      "function": "sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "00000005000000084346312f726f6f74000000101111111111114111811111111111111100000010222222222222422282222222222222220000001066666666666646668666666666666666000000040000000b"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "a4e8f3778e52e1d07d6ab90437e6e8044ebbe0e9c207ba6ff15a26d3aeae4227"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/search-key",
+      "function": "hkdf_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f"
+        },
+        {
+          "type": "bytes",
+          "hex": "a4e8f3778e52e1d07d6ab90437e6e8044ebbe0e9c207ba6ff15a26d3aeae4227"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000050000000e4346312f7365617263682d6b657900000010333333333333433383333333333333330000000d757466382d65786163742f76310000000b6964656e746974792f763100000008657175616c697479"
+        },
+        {
+          "type": "int",
+          "decimal": "32"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "53595c82c9ebd495c4a2c423b4b9c2b500d6ed7e90bae7efcd47525311b239d4"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/encoded",
+      "function": "decrypt",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "070a038e546d7b2ed52bf98defc735a41313aead33afa4be90bc9a69156045b4"
+        },
+        {
+          "type": "bytes",
+          "hex": "5455565758595a5b5c5d5e5f"
+        },
+        {
+          "type": "bytes",
+          "hex": "fc9481e7b6f1b3a4b4b426625ad3fc1c422277a4d7fcd6851b"
+        },
+        {
+          "type": "bytes",
+          "hex": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010222222222222422282222222222222220000001033333333333343338333333333333333000000190000000200000005696e74363400000008ffffffffffffffd6000000204ad0925f3b5513cf7491846be1a05ed0e6f8a30766e58ccfb043d6e70788c9820000002e434631000101000000070000000b2bc45e52104c2457747b536a135846f0e76ad511500d148e213ebbadd2723e18"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "c3850ae69db1e4baac"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    },
+    {
+      "id": "intermediate/single-int64-equality-unicode/term",
+      "function": "hmac_sha256",
+      "args": [
+        {
+          "type": "bytes",
+          "hex": "53595c82c9ebd495c4a2c423b4b9c2b500d6ed7e90bae7efcd47525311b239d4"
+        },
+        {
+          "type": "bytes",
+          "hex": "0000000200000008657175616c69747900000009c3850ae69db1e4baac"
+        }
+      ],
+      "expected": {
+        "type": "bytes",
+        "hex": "2bc45e52104c2457747b536a135846f0e76ad511500d148e213ebbadd2723e18"
+      },
+      "source": "reused-fixtures.json#/vectors/7"
+    }
+  ]
+}

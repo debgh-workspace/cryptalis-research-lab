@@ -1,0 +1,37 @@
+{
+  "status": "read/hash provenance only",
+  "basis": {
+    "/workspace/scratch/cb28ee9f5f4a/CRYPTALIS_BUILD_CHECKLIST.md": "5dea91540ca03c661bac64e3ab77306246a0328aa5d0ee9e2e2875852987e4e4",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-notes-native-cf1-design-20261014/DESIGN.md": "bd3fd9ec982a21c51d70af4cc22f73fb70c8dc2fd7475c71c88687bdd1f0509a",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-notes-native-measurement-decision-20261014/DECISION-v2.md": "9bdb6d30fac574e1ced51f2dda3d60311234819743ce04d9ca333119b92a0126",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s20-restored-20261014/src/cryptalis/crypto/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s20-restored-20261014/src/cryptalis/crypto/keys.py": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s20-restored-20261014/tests/fixtures/cf1_vectors.json": "24c918629ac10d7fb739fd02a946ecdbbcf1de4102bb353cf069cc095a3b286e",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/native_cf1.c": "2926d61e43b3dc53a5fff56ab5367982c89b92b146ef9cbc47fbd2b71e5a9469",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/native_read.py": "4d3151148b435d7f54235b3eda864ea85e6def5cd6a4f9b5025d09bdd425a703",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-03-normal/build.json": "abe32c1961703b080edc943a909f71f97588d15694e67d7e2d691c5f3072688d",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-oracle-extension-20261014/cases.json": "a472b7a2531a41526fcbdb57a1971e370c96b47af5df9a2891059cf94ff93efe",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/cases.json": "a4b192bdaaa98124960efa0bedfb7c1a6417b318143555157068b03f23bb946e"
+  },
+  "F_recorded_command": [
+    "/usr/bin/gcc",
+    "-shared",
+    "-fPIC",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-std=c11",
+    "-I/opt/codex/runtimes/codex-primary-runtime/dependencies/python/include/python3.12",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/native_cf1.c",
+    "-lcrypto",
+    "-o",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-03-normal/native_cf1.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "F_recorded_binary": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-03-normal/native_cf1.cpython-312-x86_64-linux-gnu.so",
+  "F_recorded_backend_dependency_pins": {
+    "/lib/x86_64-linux-gnu/libcrypto.so.3": "8bb5f3fdffe280d4453eb79a4663c2c47af70b7c247fe2e94e2da703cee1fd3d",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-03-normal/native_cf1.cpython-312-x86_64-linux-gnu.so": "cea85e738f66122ef26751bf691f709fcc64402ae8159b27c3397d313e79e936"
+  },
+  "warning": "Recorded F receipt does not establish an S binary or fresh S runtime provider correspondence."
+}
