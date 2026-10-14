@@ -1,0 +1,48 @@
+{
+  "archive": "CRYPTALIS_S24_QUALIFICATION_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "fd0c48e128167fd25e3200eda67bcf176dfb35d831224ef6c1c9ff919ae900f3",
+  "bytes": 749740,
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "2a5c8ebe7fec5af682cfc5348533bf5fe575dddfffb52fd672acabcbefa2a45c"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "592ed544bbe902befb8d8091002284ad5f60d8a1b9f72e6cc7b0745bd222bbe0"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "127ef153c4010e7c79a5525990c61486b48053d439187e5826f322c0eacd80c0"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 96000,
+      "sha256": "bfb1534e8630ba74800a9890532d0bc2307f42958a182afe41006f519855b019"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 96000,
+      "sha256": "a01254ec933404999ceffa4e478b4dc7ed2b37cedcf8bf1371f77bf033307dd3"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 96000,
+      "sha256": "f7cdfaa46ca828f269f216d24bbbbfb6446dd85497220348930218db23fedba1"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 96000,
+      "sha256": "ad463bf52384112e6a4357d86f56e28fb530fad1ba0f0c4c24121dd2b9951d68"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 77740,
+      "sha256": "d30ae9d135aaebb0982e4e99e9ead7b080c22b13ff2fd9cd47d8ce19c0e412bd"
+    }
+  ],
+  "scope": "Additive qualification evidence only; full source referenced separately; no independent qualification claim"
+}
