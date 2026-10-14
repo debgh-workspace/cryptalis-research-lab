@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T18:22Z`
+- Last updated UTC: `2026-10-14T20:01Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded integrated research candidate: S23 `candidate-s23-planning-20261014`,213files. Full source-overlay SQLAlchemy2.1.3 2631PASS/7FAIL/0SKIP;SQLAlchemy2.0.51 2585PASS/7FAIL/46SKIP;56subtests separately each. Same prior outcomes,8newpasses each. Installed-focused52PASS each, independent runtime audit complete; not full installed qualification. Planning correction8223e4ac87b013a598cfe3fd24537df9915933c8 exact remote bytes. S23 full source/evidence recovery complete at1cdc5c795c62b7caa9f229e5d00f4aec84c686ca:37parts reconstructed408files/213sourcehashes; no operational runtime/dependency/DB restore. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1099,3 +1099,50 @@ S22fullremote recovery complete:f718cebcd7329aa6f6cf40bd035469d50f882bec,39parts
 - Genuine frozen S23 producer → separate S24 consumer legacy phase campaign: SA21 10parentPASS11.83s plus10childproducerPASS independently audited; SA20 10parentPASS13.26s, child audit pending. Per-process unchanged role preflight, serialized DB ownership, producerconnectionsabsent/consumerclosedbeforecleanup assertions, exactartifactidentity andfiveforward/fivereverse committedphases. Not processcrash/lostcommitack proof. All terminal wrappers/stop0.
 - Held legacy source packetsv1/v2/v3 preserved, v4 executed. Review corrected cleanup ownership exception handling, terminalreverse payload expectations, child evidence retention and exact returned-phase assertions before any campaign run.
 - S24defaultintegration automatic new-plan native8PASS percell independently audited; genuinelegacy and safe-repr correction still not merged/fullaggregatequalified. Highest integratedS23 remains unchanged; allseven gatesUNKNOWN.
+
+## 2026-10-14 19:18 UTC: combined S24 focused verification and aggregate started
+
+- Combined candidate-s24-comments-integrated-r2-20261014 manifestd498e14fe19f25a4b1aac8acca4780d7c3c0e385ebc550d994a71248cf912ab1;214sourcefiles. Merge is only automatic new-plan comment inventory plus reviewed safe diagnostic display methods; no related history optimization included. All1796inputpins verified.
+- Combined pure11PASS0.334s. Native8PASS SA21 6.25s /SA20 6.15s. Exact native pause UX1PASS0.28s/0.24s. Allfocused evidence independently audited, unchanged source and restored corpus. Full SA21 aggregate now RUNNING under unchangedpreflight/lock; no aggregate pass claim.
+- Suspected huge-integer display issue disproved by independent source inspection: universal JSONinteger admission bounded0..2**53-1 beforebothlegacy/new readers. No extra source correction made; optionalboundarytest separately prepared, notcounted.
+- Genuine legacy predecessor S24 bothcells10parent+10childPASS independently audited,180ownership/resultbooleans and100childhashes verified. Routing-only combinedlegacy packet prepared, exactcombined execution pending.
+
+## 2026-10-14 19:24 UTC: combined aggregate failure retained
+
+- Combined r2 SA21 aggregate terminal:2605PASS/33FAIL/0SKIP,56passedsubtests,50warnings,406.28s. Wrapperexit1, preflight0, stop0. Seven historical failures plus26new failureIDs; independent terminal audit in progress. No fullSA20 run on this failed derivative yet.
+- Static review identifies oldformat-specific test oracles/assertions and earlier new-format constructor rejection as candidate causes; finaltraceback verification required before any test correction. All substantive native/current-value/bytebound/refusal assertions must remain. Frozen failedsource/evidence preserved; no promotion.
+- Combined source checkpoint62bb488af541a4885aa20091636bde08cd79e6e5 exactremote8files. Highest verified integratedS23 unchanged, allsevenqualificationgatesUNKNOWN.
+- Optional bounded integer diagnostic control1PASS0.295s confirmed universal reader limits; no source fix. Separate history control coordinatorverified3PASS0.035s under fresh evidencedirectory; earlierpreexisting3PASSreceipt remains provenanceunverified, notcounted. No historyoptimization integrated.
+
+## 2026-10-14 19:29 UTC: reviewed oracle repair focused GREEN
+
+- R3 test-only derivative candidate-s24-test-oracles-r3-20261014 manifest6c7ca4ecda9e4d0628aa8a8fe4626e36c8708622f020c73c8320210948cd003d;214sourcefiles,2016inputpins. Exactlyfive testfiles changed; all productbytes identical to combinedr2. Independent source/commandreview cleared preservation of every substantive oracle.
+- Final33failure triage:7historical+14multitable storage-routing failures+11staleformatassertions+1earlier sanitizedconstructorrejection. Frozenr2failedrun/source retained. Distinct syntheticlegacydoctor boundary preserved; one newformatconstructor controladded. No oldproducer evidence relabelled.
+- Exact26 addedfailureselectors plusnewconstructor:SA21 27PASS16.26s;SA20 27PASS16.83s. Preflight/wrapper/stop0 each. SA21 independently audited;SA20audit pending. CorrectedfullSA21 started19:29UTC; no aggregate resultyet. Existingsevenfailures unchanged, allgatesUNKNOWN.
+
+## 2026-10-14 19:39 UTC: interrupted aggregate recovery
+
+- R3 full SA21 interrupted by execution environment restart; no terminal receipt/JUnit. Partial1211PASS/7FAIL are incomplete observations, not a qualification result. Source and partial progress preserved in s24-test-oracles-r3-aggregate-sa21-20261014.
+- No database/test process running; exclusive lab lock acquired. All26 prior corpus originals verified and unchanged capture_restore completed with primary_receipts_restored=true, errors=[]; no changed corpus bytes required archiving. Existing pg_ctl status reports no server running. No cluster reinitialization, credential changes or stale PID deletion. Fresh existing-cluster recovery/start and unchanged role preflights pending.
+- Nine archive blob requests require remote reconciliation after interruption; no archive tree/commit/ref update started. Highest bounded integrated S23 remains unchanged; all seven gates UNKNOWN.
+
+## 2026-10-14 19:46 UTC: recovery resumed and acceptance decision pending
+
+- Existing cluster normal startup handled stale PID using PostgreSQL safeguards; unchanged dual-role preflight and source-origin checks exit0. Full R3 SA21 restarted under fresh s24-test-oracles-r3-aggregate-sa21-restart-20261014 evidence. Original interruption preserved.
+- Partial S24 precorrection archive checkpoint7902ebf2798d2340eb3326455516e8b521355d42: nineparts01–09 read back exact. Remaining archive not yet complete.
+- Independent contract review found contradictory mechanism assertions between historical suffix-copy and retained-profile tests. Owner decision requested Sentinel_6d9b9434038881d1a8de4f8b017639e2 for version-specific applicability with original assertions preserved and mandatory retained safety counterparts. PENDING: no skips/xfails/waivers or acceptance changes applied; seven historical failures remain open.
+
+## 2026-10-14 19:51 UTC: R3 full SA21 independently reconciled
+
+- Restarted full SA21 terminal2632PASS/7FAIL/0SKIP plus56passing subtests,50warnings,421.66s. All2638 originalS23 IDs preserve their outcomes; one constructorcontrol added andPASS. All26 additionalr2 failures nowPASS. Runtimebytes identicalcombinedr2; onlyfive reviewedtestfile changes. No testremoval/waiver.
+- Independent SA21_REVIEW_v1 verifies153source snapshot hashes, source/externalstability,26corpusrestorations, unchanged rolepreflight,stop0 and exacthistoricalfailuremessages. Partialinterruptedrun remains separate, notcounted.
+- FullSA20 started19:49UTC, unchangedpreflight/sourceorigin0; no terminal resultyet. Acceptance disposition request stillpending.
+- Archivepartsbatch2 committed2c5954edc2a2d4d8cd5d8fc7c18216409aa6bacf; allnineparts10–18 exactremotebytes verified. Fullarchive incompleteuntilparts19–23 andmanifest verified.
+
+## 2026-10-14 20:01 UTC: S24 research packaging and source checkpoint
+
+- Full R3 source-overlay matrix independently audited: SA21 2632PASS/7FAIL/0SKIP,421.66s;SA20 2586PASS/7FAIL/46SKIP,419.88s;56passing subtests separately each. Same2638originalIDs/outcomes andonepassingconstructorcontrol. Sevenhistoricalfailures remain open; acceptance requestpending. Allseven gatesUNKNOWN.
+- R3five-testfile correction,214filemanifest andbothindependentaudits published at3310905c678b365e5a411c426028278d47c09f12; exactremote9files. Productbytes remaincombinedr2.
+- Priorfailedsource/evidence archive complete45369fc1c70e5ede826fd6d5eabf0b694af2b3e5: all23partsplusmanifest remoteverified, freshstrictdata-onlyrestore1030members1029payloadhashes856sourcefiles/fourvariants. ArchiveSHA d2402a5055be7cb2e56c169be771e10d3f26f90ac2ebd0a8efdc511d2c9af5b8. No operational/dependency/DBrestore.
+- S24 offlineboundedpackaging complete; independentdata-onlyauditpassed exact214source41modules45hashedRECORD, pairedsdists/direct-roundtripwheels equal. sdistSHA c579fdb38204f037f6799b327b5738235d727d93db6525cf76d494dc52c9e59f;wheelSHA 4a83731a84dec485fbe0cecf7563a530c64464ec82064b2d61416d5e1109d279. Noinstalledqualificationyet; samehostreproducibility only.
+- Current-sourcecorpus refresh firstSA21campaign293PASS55.37s,preflight/stop0,source/externalstable,26sharedcorpushashesrestored. SA20campaign running. No600keycompositeclaimuntilallsevenfreshcampaignsreconciled.

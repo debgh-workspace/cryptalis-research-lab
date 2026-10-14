@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+  "latest_verified_remote_commit": "3310905c678b365e5a411c426028278d47c09f12",
   "latest_integrated_candidate": "candidate-s23-planning-20261014 (S23; 213 source files; bounded research qualification only)",
   "current_experiment": "S23 bounded planning correction is verified in both source-overlay full cells and installed-focused cells. Source/evidence recovery is separate from dependency, operational runtime and product qualification. Live follow-on work must be recorded from coordinator status.",
   "s5_remote_byte_restore_files": 3579,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T19:04:00Z",
-  "current_operation": "Publish correction addon metadata; S24 default native16PASS and legacy20parentPASS focused; safe representation11PASS separate",
+  "updated_utc": "2026-10-14T20:01:00Z",
+  "current_operation": "S24 r3 full matrix independently reconciled; source correction published; packaging audited; current-source corpus refresh and installed preparation in progress",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "8223e4ac87b013a598cfe3fd24537df9915933c8",
+  "latest_verified_remote_head": "3310905c678b365e5a411c426028278d47c09f12",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -57,8 +57,8 @@
     "known_failures_each": 7,
     "restored_files": 175
   },
-  "next_task": "Audit SA20 legacy; integrate reviewed diagnostic correction and run affected aggregate regressions before promotion",
-  "latest_remote_tree": "f0147c081b0c768c479e7d043631dd35ca095dd7",
+  "next_task": "Finish seven current-source corpus campaigns and reconcile exact600keys; review/install realS24wheel into authorized copies; publish recoverableR3capsule afterindependentreview",
+  "latest_remote_tree": "c4eadfc9c41210a6391754c45a88400fbe26178f",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
     "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
@@ -346,7 +346,7 @@
   },
   "latest_main_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
   "latest_research_branch": "accel/integration-s19-20261013",
-  "latest_research_branch_head": "23662fdd882ca67f023619eb0428cfc4a6bc153b",
+  "latest_research_branch_head": "62bb488af541a4885aa20091636bde08cd79e6e5",
   "latest_research_tree": "1aa56790045a0ebc5ce9a911dbb28aaf8483f409",
   "post_s18_20261013": {
     "c6_commit": "bcc5654c4d9bf883b8d700b64d0ed5735566c696",
@@ -849,7 +849,7 @@
     "recovery_artifact": "CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz"
   },
   "current_execution": {
-    "status": "DATABASE_IDLE_S24_LEGACY_FOCUSED_COMPLETE_AUDIT_PENDING",
+    "status": "DATABASE_IDLE_S24_AGGREGATE_RED_TEST_ORACLE_REPAIR_PREPARATION",
     "candidate": "candidate-s23-object-comments-correction-r3-20261014",
     "manifest_sha256": "eef841a5ee605a8763784640b841a62931f15767e3616f33bb4bb40170b96323",
     "highest_integrated": "S23 unchanged",
@@ -890,6 +890,16 @@
       "sa20_seconds": 16.7,
       "observations_per_cell": 392,
       "independent_audit": "PASS bounded"
+    },
+    "s24_combined_full_sa21": {
+      "passed": 2605,
+      "failed": 33,
+      "skipped": 0,
+      "passed_subtests": 56,
+      "seconds": 406.28,
+      "ordinary_ids": 2638,
+      "new_pass_to_fail_ids": 26,
+      "existing_failures": 7
     }
   },
   "evidence_capture_defect": {
@@ -1119,5 +1129,28 @@
         "manifest_sha256": "eef841a5ee605a8763784640b841a62931f15767e3616f33bb4bb40170b96323"
       }
     ]
+  },
+  "reverse_profile_acceptance_decision": {
+    "status": "PENDING",
+    "message_id": "Sentinel_6d9b9434038881d1a8de4f8b017639e2",
+    "scope": "Version-specific original suffix assertions and retained safety counterparts; do not change test applicability until approved"
+  },
+  "s24_r3": {
+    "source_manifest": "6c7ca4ecda9e4d0628aa8a8fe4626e36c8708622f020c73c8320210948cd003d",
+    "sa21": {
+      "pass": 2632,
+      "fail": 7,
+      "skip": 0
+    },
+    "sa20": {
+      "pass": 2586,
+      "fail": 7,
+      "skip": 46
+    },
+    "passing_subtests_each": 56,
+    "wheel_sha256": "4a83731a84dec485fbe0cecf7563a530c64464ec82064b2d61416d5e1109d279",
+    "installed": "NOT_RUN",
+    "acceptance": "PENDING; historicalfailuresretained",
+    "gates": "ALL_SEVEN_UNKNOWN"
   }
 }

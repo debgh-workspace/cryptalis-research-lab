@@ -1,0 +1,17 @@
+{
+  "coordinator_authorized": true,
+  "exclusions": [
+    "raw tests/package-origin/readiness/start/stop JSON",
+    "environment dumps and credentials",
+    "databases and runtime",
+    "all future r3/test-oracle/product-fix packets",
+    "unexecuted large integer supplement",
+    "invalid initial comparison TSVs"
+  ],
+  "input_count": 1022,
+  "inventory_sha256": "6517b00af75e487ebb7dd9382f35f485100d8e035b9ab25b17ac553a7c587beb",
+  "prior_v1_drift": "Preserved unchanged; two active files had changed. This v2 rehash is a new explicit snapshot.",
+  "recovery_scope": "Four complete 214-file historical source trees and selected evidence. No dependency, provider, credential, database, installed-package or operational recovery; no restored-code execution.",
+  "remote_provenance": "Included coordinator exact-eight-file readback receipt, not independently authenticated here. No claim entire capsule is remote.",
+  "status": "FROZEN_PRECORRECTION"
+}
