@@ -1,0 +1,270 @@
+{
+  "sqlalchemy_version": "2.1.3",
+  "key_equalities": {
+    "missing -> missing": true,
+    "missing -> required-default": true,
+    "missing -> default-tuple": true,
+    "required-default -> missing": true,
+    "required-default -> required-default": true,
+    "required-default -> default-tuple": true,
+    "default-tuple -> missing": true,
+    "default-tuple -> required-default": true,
+    "default-tuple -> default-tuple": true
+  },
+  "cases": {
+    "missing": {
+      "required": true,
+      "value": null
+    },
+    "required-default": {
+      "required": true,
+      "value": [
+        "exact",
+        "snow"
+      ]
+    },
+    "default-tuple": {
+      "required": false,
+      "value": [
+        "exact",
+        "snow"
+      ]
+    }
+  },
+  "compiler_matrix": [
+    {
+      "compiled_from": "missing",
+      "incoming": "missing",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "missing",
+      "incoming": "missing",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "missing",
+      "incoming": "required-default",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "missing",
+      "incoming": "required-default",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "missing",
+      "incoming": "default-tuple",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "missing",
+      "incoming": "default-tuple",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "missing",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "missing",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "required-default",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "required-default",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "default-tuple",
+      "supplied": false,
+      "error_type": "InvalidRequestError",
+      "code": "cd3x",
+      "message": "A value is required for bind parameter 'needles' (Background on this error at: https://sqlalche.me/e/21/cd3x)"
+    },
+    {
+      "compiled_from": "required-default",
+      "incoming": "default-tuple",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "missing",
+      "supplied": false,
+      "params": {
+        "needles": null
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "missing",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "required-default",
+      "supplied": false,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "required-default",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "default-tuple",
+      "supplied": false,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    },
+    {
+      "compiled_from": "default-tuple",
+      "incoming": "default-tuple",
+      "supplied": true,
+      "params": {
+        "needles": [
+          "exact",
+          "snow"
+        ]
+      }
+    }
+  ],
+  "lookup_orders": [
+    [
+      {
+        "case": "missing",
+        "cache_status": "CACHE_MISS",
+        "cache_entries": 1,
+        "error_type": "InvalidRequestError",
+        "code": "cd3x"
+      },
+      {
+        "case": "required-default",
+        "cache_status": "CACHE_HIT",
+        "cache_entries": 1,
+        "error_type": "InvalidRequestError",
+        "code": "cd3x"
+      },
+      {
+        "case": "default-tuple",
+        "cache_status": "CACHE_HIT",
+        "cache_entries": 1,
+        "error_type": "InvalidRequestError",
+        "code": "cd3x"
+      }
+    ],
+    [
+      {
+        "case": "default-tuple",
+        "cache_status": "CACHE_MISS",
+        "cache_entries": 1,
+        "params": {
+          "needles": [
+            "exact",
+            "snow"
+          ]
+        }
+      },
+      {
+        "case": "required-default",
+        "cache_status": "CACHE_HIT",
+        "cache_entries": 1,
+        "params": {
+          "needles": [
+            "exact",
+            "snow"
+          ]
+        }
+      },
+      {
+        "case": "missing",
+        "cache_status": "CACHE_HIT",
+        "cache_entries": 1,
+        "params": {
+          "needles": null
+        }
+      }
+    ]
+  ]
+}
