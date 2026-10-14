@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T22:00:00Z",
+  "observed_at_utc": "2026-10-14T22:07:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -374,12 +374,12 @@
     "fresh_installed_restore": "23PASS17subtests8.42s;existingcluster",
     "all_seven_gates": "UNKNOWN"
   },
-  "active_database_owner": "coordinator",
+  "active_database_owner": null,
   "pending_online_prototype_approval": {
     "message_id": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
     "status": "PENDING; no new privilege authority"
   },
-  "active_database_run": "s25-installed-full-sa20-20261014",
+  "active_database_run": null,
   "latest_slice_publications": {
     "B7": "9d4f65822cfe11e8a29fa99a9b599cc1c746123f",
     "C8_source_only": "573fd72df2b787aa53d32a47e0fb6f8c26534f49"
@@ -1247,12 +1247,27 @@
       "pass": 38,
       "seconds": 5.26
     },
-    "remote_head": "2aec8c886df78a0f88515e7f05a8e52768bbd751",
+    "remote_head": "d10ecd4d313ce78bc025fcc3118698a7ab92b07b",
     "full_archive_verified_parts": 18,
     "full_archive_complete": true,
     "active_db": null,
-    "statistics_g2_sa21": "16 PASS, independent audit pending",
+    "statistics_g2_sa21": "16 PASS independently accepted",
     "next": "Audit G2 and advance counterpart; preserve installed evidence additive.",
-    "installed": "Both full installed matrices independently audited; optional38PASS; seven failures unresolved."
-  }
+    "installed": "Both full installed matrices independently audited; optional38PASS; seven failures unresolved.",
+    "statistics_g2_sa20": "16 PASS independently accepted"
+  },
+  "statistics_history_remote": {
+    "commit": "d10ecd4d313ce78bc025fcc3118698a7ab92b07b",
+    "sha256": "ececa28b6f0374274c5dc86935c5cf7098e011e4a96f41c9e5950aeeff76ac0f",
+    "remote_parts_exact": 2,
+    "restore_members": 301,
+    "full_baseline_source": false
+  },
+  "statistics_g2": {
+    "sa21_pass": 16,
+    "sa20_pass": 16,
+    "audits": "PASS_BOUNDED_METADATA",
+    "native_RLS_ownership_qualification": false
+  },
+  "statistics_g3_sa21": "Runner exit0; independent audit pending"
 }

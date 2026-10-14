@@ -1,0 +1,89 @@
+{
+  "status": "PASS_DATA_ONLY_REMOTE_STATISTICS_HISTORY_AND_MANIFEST_RECONSTRUCTION",
+  "archive": "CRYPTALIS_S24_STATISTICS_RECOVERY_20261014_v1.tar.xz",
+  "archive_sha256": "ececa28b6f0374274c5dc86935c5cf7098e011e4a96f41c9e5950aeeff76ac0f",
+  "bytes": 128896,
+  "parts": 2,
+  "part_readbacks": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "ac6ed624ae960725675ec8a34a7faeffc945c39922de1eb8ebd04d09d6017351"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 32896,
+      "sha256": "d181487cf36be05cd12f06c7c64929f728a82e76d16a396bd7e05735e9cf320a"
+    }
+  ],
+  "part_manifest_sha256": "181af9ec2c00da21e158044740f4a365aa3fd04a4058728a35c70b82dca6099b",
+  "regular_members": 301,
+  "member_bytes": 3316383,
+  "payload_entries": 300,
+  "payload_bytes": 3249258,
+  "payload_manifest_sha256": "139653b4b900159e15ea8c9d39b7a7703b67a61b6db57ac92c75c31bea5d275b",
+  "allowlist_sha256": "9ce9ddd2968c4f7fba68e618056688503a2b93c8e0abb98606b4b425b292cd53",
+  "source_inventory_sha256": "b48ba3f6765c8de7165bc996c080ba2ab602a38f715bac4e9feeb5ec08e42eb2",
+  "selected_originals": 293,
+  "selected_original_bytes": 3156719,
+  "fresh_extraction_complete_readback": true,
+  "manifest_reconstruction": [
+    {
+      "version": 1,
+      "baseline_entries": 214,
+      "overlay_entries": 1,
+      "reconstructed_manifest_entries": 215,
+      "exact_manifest_match": true,
+      "manifest_sha256": "063e1202a923f82cf07b0e2ae1eb942f90a728c40b6aade29382809e4635ad1e",
+      "observer_sha256": "7db1c1600add557750a263078c63e10ef7664270b01a468dd1a4a970bd77421a",
+      "full_baseline_source_restored": false
+    },
+    {
+      "version": 2,
+      "baseline_entries": 214,
+      "overlay_entries": 1,
+      "reconstructed_manifest_entries": 215,
+      "exact_manifest_match": true,
+      "manifest_sha256": "edf8f3f57c0eb8db5526b358b20a1d4198a989cc701201c1b0718f30b96f729d",
+      "observer_sha256": "6534250833d3a2362f838a1574a5b0bdd028b8016a8502167539b6a41140f962",
+      "full_baseline_source_restored": false
+    },
+    {
+      "version": 3,
+      "baseline_entries": 214,
+      "overlay_entries": 1,
+      "reconstructed_manifest_entries": 215,
+      "exact_manifest_match": true,
+      "manifest_sha256": "f43e8d22b6483c66cedd1b59bd3a8a52397e17478b696edc1f1de0a962254009",
+      "observer_sha256": "6534250833d3a2362f838a1574a5b0bdd028b8016a8502167539b6a41140f962",
+      "full_baseline_source_restored": false
+    },
+    {
+      "version": 4,
+      "baseline_entries": 214,
+      "overlay_entries": 1,
+      "reconstructed_manifest_entries": 215,
+      "exact_manifest_match": true,
+      "manifest_sha256": "2dcf80b1b200dd5d35db175cb95b7200db31e83a3a64d3ffa49a8dd6a87155e1",
+      "observer_sha256": "6534250833d3a2362f838a1574a5b0bdd028b8016a8502167539b6a41140f962",
+      "full_baseline_source_restored": false
+    }
+  ],
+  "baseline_manifest_sha256": "6c7ca4ecda9e4d0628aa8a8fe4626e36c8708622f020c73c8320210948cd003d",
+  "full_baseline_source_restored": false,
+  "baseline_source_and_runtime_dependencies_included": false,
+  "later_sa20_execution_evidence_included": false,
+  "v1_v2_holds_preserved": true,
+  "v3_failed20_passed9_preserved": true,
+  "v4_narrow_g1_sa21_passed": 33,
+  "v4_xunit2_warnings_retained": 33,
+  "historical_v3_masking_excluded": false,
+  "strict_xunit2_schema_conformance_claimed": false,
+  "universal_product_cleanup_success_claimed": false,
+  "broader_statistics_or_integrated_s25_qualification": false,
+  "restored_code_imported_or_executed": false,
+  "tests_build_install_database_git_remote_actions": false,
+  "remote_commit_authenticated_by_this_script": false,
+  "publication_authorized_by_this_script": false,
+  "scope": "Selected historical private-observer proposal/G1 bytes and four 214+1 hash-map comparisons only. The complete 214-file baseline, dependencies and runtime state remain external. V3 failures, V4 warning/cleanup limits and historical snapshot boundaries remain unchanged. No archived code, observer or test is run. Remote commit and transport authentication are separate."
+}

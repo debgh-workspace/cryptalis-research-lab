@@ -1205,3 +1205,10 @@ Private statistics V3 G1 SA21 actual20FAIL/9PASS/66deselected7.79s. All20failure
 ### S25 complete source recovery verified — 2026-10-14 22:00 UTC
 
 All18 archive parts and manifest are remotely exact across retained commits4220acbf,5cd92f80 and final2aec8c886df78a0f88515e7f05a8e52768bbd751. Strict fresh data-only restore passed498 regular members,497 payload entries,486 selected inputs and complete216-file source reconstruction (4,404,370 bytes). Archive SHA2568afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd,1,726,604 bytes. This source/packaging snapshot precedes installed results and excludes the isolated statistics observer. No runtime/dependency/database restore or qualification claim. Receipt: persistence-recovery-20261013/s25-full-source-remote-restore.json.
+
+### Statistics history remote restore and G2 closure — 2026-10-14 22:07 UTC
+
+- Historical private-observer archive is remotely exact atd10ecd4d313ce78bc025fcc3118698a7ab92b07b, two parts plus manifest. SHA256ececa28b6f0374274c5dc86935c5cf7098e011e4a96f41c9e5950aeeff76ac0f,128896 bytes. Strict fresh data-only restore passed301 members and four214+1 manifest comparisons. The214-file baseline is referenced by hashes, not fully included. Snapshot includes V3failed20/pass9 and V4G1SA21pass33; laterSA20/G2 excluded. Prior static HOLDs and xunit2 warnings retained.
+- G2 metadata SA21:16PASS/83deselected/16warnings/5.05s. SA20:16PASS/83deselected/16warnings/4.59s. Both independently accepted: exact IDs and phase/property sequences; all15 body/fallback/final marker sets and source-scan final;261pins/215source/154runner/6externalPython/38authoredpacket files;26corpus restore and stop0. Metadata proxies do not qualify native permissions, ownership, RLS or visibility.
+- G3 contract SA21 started through unchanged wrapper and role preflights after both G2 audits; no later group or counterpart authorized automatically.
+- Latest authoritative metadata commit677ef8f15200362a3d502eb6a21f7527e1573c28 has7 files exactly read back. Original mailbox rechecked22:02, unchanged.
