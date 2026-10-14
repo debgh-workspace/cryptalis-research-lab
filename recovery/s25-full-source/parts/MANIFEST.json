@@ -1,0 +1,99 @@
+{
+  "archive": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
+  "archive_sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
+  "bytes": 1726604,
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "d75db0bd60258e7dfd626ac200ccc7b622ea19d9ca3b26c1ec91bc898635b710"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "69f58d250618887d66df6d506de44d3006ab8bf15cdaf711b403279c59ebc683"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "86a4e0b4c586209887d07e0f6cc72823a4b7422cfbacc36e64241db0137e70d5"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 96000,
+      "sha256": "92924543a119f20ca688aa7c2e51e33ab5266234c5389e74ae56587a5edf309b"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 96000,
+      "sha256": "b08fb7ff6c19ad2f452a7cffe00c4c9a4fae58a1b04251e9c6e3f3759bb48453"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 96000,
+      "sha256": "9e5b0fd592eb0606f890b9bca3309a51c53580e0953a819d4bf417493f308a3a"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 96000,
+      "sha256": "620b2b6c799b7e16ee8e876ed980ace9ba88f056e9b7f5ecd57d92840dc74e27"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 96000,
+      "sha256": "38d46255a11579ecc6083a1ac531a4164481c898e7c240cd51c0b33a5dbd634d"
+    },
+    {
+      "name": "part-09.bin",
+      "bytes": 96000,
+      "sha256": "a7b65d628aba4357a028c3da1e50a3701d7b239548f0b4e0af64b4e566fd7d27"
+    },
+    {
+      "name": "part-10.bin",
+      "bytes": 96000,
+      "sha256": "e9b3583c7e9ee54645abcda38477c17ac4d5c9c85309c2af98330017a45fcb17"
+    },
+    {
+      "name": "part-11.bin",
+      "bytes": 96000,
+      "sha256": "bf42f7fad34fdbe0b0c8ef24944771224ab86e628cebc8a1d25c362e823130af"
+    },
+    {
+      "name": "part-12.bin",
+      "bytes": 96000,
+      "sha256": "f83df7f0ad23f630dc63cd3ef69963749316888c059abe81339affd55b241dec"
+    },
+    {
+      "name": "part-13.bin",
+      "bytes": 96000,
+      "sha256": "0c2e14d9bb398e36e2511cb7115f7029eaa6b883175471aa26a1ccbfc4da6fc7"
+    },
+    {
+      "name": "part-14.bin",
+      "bytes": 96000,
+      "sha256": "51bd6e0c4f84f4a49f09bdeeb5b72b40f47df2fbf016f5a0ee317144eee50c90"
+    },
+    {
+      "name": "part-15.bin",
+      "bytes": 96000,
+      "sha256": "27845365cbac0ba0cf319e11ee69168eac986a3b006d41797236799c1905f2cf"
+    },
+    {
+      "name": "part-16.bin",
+      "bytes": 96000,
+      "sha256": "34ae797f4f4e562f2e8ec10d83702b2ffc69c5b9a07326384e804ffb91f90075"
+    },
+    {
+      "name": "part-17.bin",
+      "bytes": 96000,
+      "sha256": "bdb2e7b0fd4be6b93d0d8f3fd4f2f2bfa3771150a468e5db9c10e86653cf1bd9"
+    },
+    {
+      "name": "part-18.bin",
+      "bytes": 94604,
+      "sha256": "b63fece510f5fc1d8c574a26723503dc2efbfdc210432254dfa855700703e152"
+    }
+  ],
+  "source_files": 216,
+  "scope": "Full S25 source with selected source-overlay and packaging evidence. No installed environment, database, independent qualification or standalone complete historical audit."
+}
