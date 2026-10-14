@@ -1,0 +1,24 @@
+{
+  "sa21": {
+    "original_entries_verified": 1660,
+    "source_files_verified": 212,
+    "payload_files": 44,
+    "modules": 40,
+    "record_rows": 50,
+    "record_sha256": "bceac7019277e5c51ceec1fa91f4afa3b7b9a517da42311a065b49874ca18d5a",
+    "nonproduct_entries_unchanged": 1582,
+    "nonproduct_regular_files_distinct_inodes": 1578,
+    "nonproduct_bytecode_included": true
+  },
+  "sa20": {
+    "original_entries_verified": 1660,
+    "source_files_verified": 212,
+    "payload_files": 44,
+    "modules": 40,
+    "record_rows": 50,
+    "record_sha256": "e6a2ea29fda3baca50e848cc46de9d64b285f418ab94e400b1e87f60a7551d39",
+    "nonproduct_entries_unchanged": 1582,
+    "nonproduct_regular_files_distinct_inodes": 1578,
+    "nonproduct_bytecode_included": true
+  }
+}
