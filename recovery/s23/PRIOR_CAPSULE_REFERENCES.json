@@ -1,0 +1,15 @@
+{
+  "scope": "Prior S22 evidence/corpus retained separately, not duplicated. Neither capsule supplies external toolchain/runtime restoration.",
+  "archives": [
+    {
+      "archive": "cryptalis-executable/candidate-s22-recovery-20261014/CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz",
+      "sha256": "99c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010",
+      "bytes": 1857500
+    },
+    {
+      "archive": "cryptalis-executable/candidate-s22-corpus-recovery-20261014/CRYPTALIS_S22_CORPUS_EVIDENCE_ADDON_20261014.tar.xz",
+      "sha256": "079a8bdf19faddc0ea41a02db04eb3828e444eebd4f8ae5d56e87cd36f733815",
+      "bytes": 120344
+    }
+  ]
+}
