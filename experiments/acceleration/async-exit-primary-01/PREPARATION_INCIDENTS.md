@@ -1,0 +1,9 @@
+# Preparation history and limitations
+
+- One source-reading command failed before process creation with `exec-server transport disconnected`. The exact read was retried successfully when transport returned. No code, tests or database action was executed by either attempt.
+- A navigation grep referenced `../CRYPTALIS_BUILD_CHECKLIST.md` while inside the S25 candidate and reported a missing path. The checklist front/latest entries had already been read successfully from the executable root. The parent explicitly authorized correction of read-only navigation errors; the wrong grep was not repeated.
+- A later search included a nonexistent guessed test filename `tests/test_sqlalchemy_async_native_boundary.py`; other existing files in the same read-only search returned results. The actual async cleanup files were enumerated and read directly. No missing-file output was treated as evidence of absent coverage.
+- A bounded `sed | head` read of native `safe_reraise` printed the relevant source and then reported a broken output pipe. No product code executed. The source remains independently pinned.
+- Some broad initial source/doc outputs exceeded display budgets. Later targeted reads established the exact selected contract/source boundary. No truncated result is treated as a full-file audit.
+- Data preparation used only standard-library file/hash/JSON/AST utilities. It imported no Cryptalis, SQLAlchemy, pytest or application module and ran no test, install, database operation, network request or remote action. AST parsing is a syntax observation, not runtime verification.
+- RED and GREEN are source-only proposals. There is no failed runtime experiment to relabel, and no actual RED or GREEN result yet. The original S25 runtime and complete original manifest are retained unchanged.
