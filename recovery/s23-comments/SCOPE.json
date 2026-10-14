@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN after all named terminal r3 evidence and independent reviews arrived",
+  "inputs": 1339,
+  "bytes": 13859867,
+  "base_capsule_sha256": "41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+  "base_source_files": 213,
+  "restore": "For each variant, copy canonical source from base capsule then overlay its four delta files; verify 214-file exact variant manifest. Experiment and evidence files restore at saved relative paths.",
+  "excluded": "Dependencies, interpreter, credentials, DB state, raw environment-bearing receipts, caches, operational runtime; no execution or qualification claim",
+  "pending": [],
+  "sensitive_pattern_scan": "No listed credential-shaped patterns in selected UTF-8 files; not a proof of absence of every possible secret"
+}

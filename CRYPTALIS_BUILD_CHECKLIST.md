@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T17:59Z`
+- Last updated UTC: `2026-10-14T18:22Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded integrated research candidate: S23 `candidate-s23-planning-20261014`,213files. Full source-overlay SQLAlchemy2.1.3 2631PASS/7FAIL/0SKIP;SQLAlchemy2.0.51 2585PASS/7FAIL/46SKIP;56subtests separately each. Same prior outcomes,8newpasses each. Installed-focused52PASS each, independent runtime audit complete; not full installed qualification. Planning correction8223e4ac87b013a598cfe3fd24537df9915933c8 exact remote bytes. S23 full source/evidence recovery complete at1cdc5c795c62b7caa9f229e5d00f4aec84c686ca:37parts reconstructed408files/213sourcehashes; no operational runtime/dependency/DB restore. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1061,3 +1061,41 @@ S22fullremote recovery complete:f718cebcd7329aa6f6cf40bd035469d50f882bec,39parts
 - Async reconciliation helper v1 retained:25/41syntheticcontrols; strictv2:41/41 and exact46key actualreconciliation. Evidence tooling correction does not change product source.
 
 - 17:59 UTC: S23 complete remote capsule at1cdc5c795c62b7caa9f229e5d00f4aec84c686ca,37downloaded parts,1750488bytes, SHA25641c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870. Fresh safe restore408regular files/213sourcehashes. Five metadata files exactremote. Currentcorpus and newmanifest/commentoracle evidence are later addenda, not implied inside this capsule. No restoredcode execution or operationalruntime/dependency/DB restore.
+
+- 18:08 UTC: authoritativeledger/defect/blueprint/recoveryreceipt batch exactremote at90e9a378ff04557e3bfcb1361b9423309f8278f7. Seven async/manifest acceptance source/review files exactremote at7e116362166093a4744f73b2b604515fcfa809e7. S23corpusaddon194036bytes/SHA57172b6a67ffc6dcba6c083d37a45574d2787ecfc246765fe3fbe6b02ef96944 independently reviewed263filerestore; remoteupload in progress.
+
+- 18:13 UTC: S23current600-cell compatibility evidence addon completed remotely atd0b039956e0ce929df408752b473a7e0ee910a0b;5parts+4metadatafiles exactreadback,194036bytes/SHA57172b6a67ffc6dcba6c083d37a45574d2787ecfc246765fe3fbe6b02ef96944,263freshsafe-restoredfiles. Fullsourcecapsule remains1cdc5c79. Preserved priorS22failure, v1reconciliationfailures, v2GREEN and originalgapinventory. No restoredcodeexecution.
+
+- 18:22 UTC: manifest acceptance/commentRED addon exactremote ata6ef06a83ad13905c85d9892838389e971f7d5e6;87856bytes/SHA7fd2bc7e4df3dfae16747f737dd1b410862e4dd80ce14a5c2a629fbe0b3799cd,150freshsafe-restoredfiles. Viewablev1/v2commentoracles+REDreviews/outcomes exactremote atd27984796543512c8e8262ad1d4e56eb8e240cb0.
+- Isolated comment-correction prototype candidate-s23-object-comments-correction-20261014:214files,210baselineunchanged,3modified+1helper; source frozen for independentreview, no GREEN execution. Distinctcomment-awareformats, preservedlegacysemantics and internalexperimentalgate. Reversibleenvelope budget design reviewed with unchanged16MiB decoders; mandatory enforcement/oracles remain unverified. Not integrated, no completedfeatureclaim.
+
+## 2026-10-14 18:40 UTC: comment correction bounded GREEN and envelope timeout
+
+- Frozen r2 candidate manifest f60c533cd016eee96c2045ddd3efe95633aaf07b2df5761bc2b6bcd695c32741; 214 source files. Canonical-byte identity review cleared and eight-case oracle independently reviewed. Root verified 911 input pins before each serialized cell.
+- Real PostgreSQL comment-preservation/transaction/reservation suite: SA21 8 PASS in 5.90s; SA20 8 PASS in 6.56s. Both wrapper/preflight/shutdown exit0. Independent postrun receipt audit pending. Focused opt-in prototype only; highest integrated candidate remains S23.
+- Independent stdlib envelope oracle: 7 PASS in 2.423s, exit0. Product r2 17-method differential command timed out at120s (exit124) during first near-maximum reverse constructor case; remaining methods unobserved. Preserve product-r2-evidence/unittest.log and exit-code.txt. Source review identifies repeated source.operation_id JSON parsing within retired-history iteration; attribution is source-based, not profiled. Minimal isolated r3 correction authorized; no admission relaxation or fixture reduction.
+- All seven qualification gates remain UNKNOWN. No default-on feature completion or performance improvement claim.
+
+## 2026-10-14 18:50 UTC: isolated comment correction and recovery-plan parsing verified
+
+- R3 constructor-local UUID reuse removes repeated whole-source parsing inside retired-history validation without changing admission. Independent review confirmed only deprotection.py changes from r2. Manifest eef841a5ee605a8763784640b841a62931f15767e3616f33bb4bb40170b96323; 214 source files.
+- Same17 envelope test methods: r2 first method timeout120s/exit124; r3 all17 PASS8.470s/exit0. Independent audit confirms identical method ASTs and source pins. Not a measured general speedup ratio or production workload benchmark.
+- R3 real PostgreSQL native comment/rollback/reservation: SA21 8PASS6.14s; SA20 8PASS5.37s. Independently audited four IDENTICAL native cases, eight completed paths and twelve passing observations each. Exact source/external hashes and26 prior corpus originals restored.
+- Independent lifecycle controls: SA21 42PASS17.80s; SA20 42PASS16.70s. All392 observations percell true, exactcase IDs, source/external stability and corpus restoration audited. Covers legacy reconstruction/resume, explicit inventory/null distinction, mixedformat refusal, forward drift with committedprefix, reverse pending/activation/removal/absent-journal refusal. Callback interruption is not process-crash or lost-ack evidence.
+- All four PostgreSQL wrappers, freshrole preflights and shutdowns exit0. DB idle after completion. S24 automatic new-plan integration now in separate preparation; r3 remains experimental opt-in and highest integrated candidate remains original S23.
+- R2 source/review checkpoint41b2c091f30cd0f74e8b7840b17aa3b4d5566888 and r3 delta/envelope checkpoint ea8748efc6b5e916aad16412c2916e9c0247f773 each seven remote files exactreadback. Full correction recovery addon in preparation; prior complete capsules retained.
+- S23 full source results remain2631PASS/7FAIL/0SKIP and2585PASS/7FAIL/46SKIP; full installed suite NOT RUN. All seven gates UNKNOWN. Frozen r2 scope's mention of eight gates is a documentation count error, not an additional gate or qualification claim.
+
+## 2026-10-14 18:59 UTC: default planner and safe diagnostic preparation
+
+- Separate S24 automatic-comment planner candidate (manifest cc2b1c0190db00b30dde4bf65b164af1ff6d11dfcb73507f32eba32b74ef1a6d): native8PASS SA21 6.07s, SA20 5.73s; preflight/wrapper/stop0 each. SA21 independently audited; SA20 postrun audit pending. Still unpromoted. Genuine old-producer phase handoff fixture in source review, not executed.
+- Separate safe-plan-diagnostic prototype: baseline r3 synthetic11-method suite exit1 in0.327s,25failure/8error subtest events. Errors arise from malformed admitted summary formatting; no claim33 independent testcases. Corrected prototype identical11methods PASS0.353s exit0. Independent postrun audit and nativepause-report regression pending. Explicit artifact/document exports retained; no changes to schema/reader admission or planner default. This prototype is not yet merged with S24.
+- Related reverse planning/removal history parsing prototype prepared separately; no runtime result or integration claim. Provider freshness and broader row-loop changes excluded.
+- Correction addon local independent restore cleared:422800bytes SHA9a2ef07e8b67983fe161428529a35e2e5885f8ac4a648184c0c88203a6ad69c4,1350files and three214-file source reconstructions. Remote blob upload partial/in progress; no complete remote addon claim. Cancelled aggregate upload reconciled by expectedblob lookup before retry; branch remained ea8748ef.
+
+## 2026-10-14 19:03 UTC: remotely restorable comment checkpoint and genuine legacy continuation
+
+- Correction recovery addon complete at23662fdd882ca67f023619eb0428cfc4a6bc153b: all9 remote parts exact,422800bytes/SHA9a2ef07e8b67983fe161428529a35e2e5885f8ac4a648184c0c88203a6ad69c4. Fresh remote-byte restore1350regularfiles/1349payload hashes. Prior remote S23base plus deltas reconstruct allthree214-file original/r2/r3 candidates exactly. No restoredcode/runtime/dependency/DB execution claim.
+- Genuine frozen S23 producer → separate S24 consumer legacy phase campaign: SA21 10parentPASS11.83s plus10childproducerPASS independently audited; SA20 10parentPASS13.26s, child audit pending. Per-process unchanged role preflight, serialized DB ownership, producerconnectionsabsent/consumerclosedbeforecleanup assertions, exactartifactidentity andfiveforward/fivereverse committedphases. Not processcrash/lostcommitack proof. All terminal wrappers/stop0.
+- Held legacy source packetsv1/v2/v3 preserved, v4 executed. Review corrected cleanup ownership exception handling, terminalreverse payload expectations, child evidence retention and exact returned-phase assertions before any campaign run.
+- S24defaultintegration automatic new-plan native8PASS percell independently audited; genuinelegacy and safe-repr correction still not merged/fullaggregatequalified. Highest integratedS23 remains unchanged; allseven gatesUNKNOWN.

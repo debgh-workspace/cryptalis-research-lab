@@ -1,0 +1,29 @@
+{
+  "commit": "23662fdd882ca67f023619eb0428cfc4a6bc153b",
+  "archive_sha256": "9a2ef07e8b67983fe161428529a35e2e5885f8ac4a648184c0c88203a6ad69c4",
+  "bytes": 422800,
+  "remote_parts_exact": 9,
+  "restored_regular_files": 1350,
+  "payload_hashes_verified": 1349,
+  "source_base_required": "S23 source capsule SHA41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+  "restored_code_executed": false,
+  "dependency_restore": false,
+  "database_restore": false,
+  "source_reconstruction": [
+    {
+      "candidate": "candidate-s23-object-comments-correction-20261014",
+      "files": 214,
+      "manifest_sha256": "8e6dde20f735278e5b5e103dd31dcc05a3f9e98ff12968150ea7270754252a29"
+    },
+    {
+      "candidate": "candidate-s23-object-comments-correction-r2-20261014",
+      "files": 214,
+      "manifest_sha256": "f60c533cd016eee96c2045ddd3efe95633aaf07b2df5761bc2b6bcd695c32741"
+    },
+    {
+      "candidate": "candidate-s23-object-comments-correction-r3-20261014",
+      "files": 214,
+      "manifest_sha256": "eef841a5ee605a8763784640b841a62931f15767e3616f33bb4bb40170b96323"
+    }
+  ]
+}

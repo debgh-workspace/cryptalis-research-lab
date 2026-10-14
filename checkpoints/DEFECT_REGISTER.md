@@ -41,3 +41,9 @@ Current bounded S23 source loses comments on admitted standalone indexes, UNIQUE
 Evidence: evidence/s23-object-comments-v2-red-{sa21,sa20}-20261014. Frozen S23 is unchanged; source/external and isolation checks preserved. Independent postrun audit in progress. Next: version-aware inventory/fingerprint and transactional restoration, including backing-index comments, late drift refusal and rollback/resume controls; no interpretation of absent legacy metadata as known NULL. Owner: coordinator with isolated lifecycle implementation and separate review. All seven qualification gates UNKNOWN.
 
 Earlier rows above are chronological evidence. The root CRYPTALIS_BUILD_CHECKLIST.md owns current integrated status; this append does not reopen or erase already-corrected historical defects.
+
+## 2026-10-14 18:50 UTC correction evidence addendum
+
+LIFE-OBJECT-COMMENT-01: isolated r3 bounded correction verified by native8PASS percell and independent lifecycle42PASS percell. Default-on product integration and aggregate regressions remain pending; retain OPEN for integrated S23, original3FAIL1PASS percell evidence unchanged.
+
+REVERSE-HISTORY-PARSE-01: r2 near-limit constructor timed out120s (exit124, first method unfinished). Source review found source.operation_id reparsed full artifact once per retired-history item. Isolated r3 reuses immutable operation UUID locally; identical17method envelope suite passed8.470s. This is bounded correctness/performance evidence; no general throughput claim. Related-loop review and integration pending.
