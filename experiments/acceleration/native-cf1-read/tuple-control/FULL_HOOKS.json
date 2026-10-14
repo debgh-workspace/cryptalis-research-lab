@@ -1,0 +1,76 @@
+{
+  "status": "PREDECLARED SOURCE ONLY",
+  "decode_file": "tuple_read.py",
+  "decode_function": "open_text",
+  "decode_line": 84,
+  "decode_source": "    if \"\\x00\" in value:",
+  "decode_event": "line immediately before NUL check; strict decode already succeeded",
+  "tuple_sites": [
+    "payload-info",
+    "payload-salt",
+    "aad",
+    "search-info",
+    "search-salt",
+    "equality-message"
+  ],
+  "post_native_pid_cases": [
+    {
+      "id": "correction/post-native-pid/0",
+      "ordinal": 3
+    },
+    {
+      "id": "correction/post-native-pid/1",
+      "ordinal": 6
+    }
+  ],
+  "negatives": [
+    {
+      "mode": "text",
+      "case_id": "grid/grid-100-1",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    },
+    {
+      "mode": "type",
+      "case_id": "grid/grid-100-1",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    },
+    {
+      "mode": "stage",
+      "case_id": "keys/100/payload",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    },
+    {
+      "mode": "trace",
+      "case_id": "grid/grid-100-1",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    },
+    {
+      "mode": "count",
+      "case_id": "grid/grid-100-1",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    },
+    {
+      "mode": "hook",
+      "case_id": "correction/decode-expiry/0/payload",
+      "error": "Exact admission mismatch",
+      "exit": 1
+    }
+  ],
+  "bounds": {
+    "child_timeout_seconds": 180,
+    "children": 14,
+    "threads_per_concurrent_cell": 2,
+    "barrier_seconds": 10
+  },
+  "limits": [
+    "No allocation fault injection in full wrapper",
+    "No actual fork exercise in this 1098 suite",
+    "No skip-term or skip-final code mutant; those remain separate gates",
+    "After-helper PID hook differs from F post-decrypt boundary"
+  ]
+}
