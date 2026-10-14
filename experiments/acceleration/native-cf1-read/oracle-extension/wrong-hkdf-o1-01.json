@@ -1,0 +1,27 @@
+{
+  "mode": "wrong-hkdf",
+  "optimize": 1,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_executable": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+  "soabi": "cpython-312-x86_64-linux-gnu",
+  "pins_sha256": "653fad85be61803399417a23b4c5de94c77347dcd39fa181e8c9291ffc6b7422",
+  "cases_sha256": "a472b7a2531a41526fcbdb57a1971e370c96b47af5df9a2891059cf94ff93efe",
+  "binary_sha256": "2e5b522a7fd0ab9dadeb813edcd747b0edbdb5d647687c73503e7116d7787b66",
+  "backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "observations": [],
+  "original_verified": true,
+  "unmodified_actual": {
+    "output": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865"
+  },
+  "perturbed_actual": {
+    "output": "00b25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865"
+  },
+  "control": {
+    "id": "wrong-hkdf",
+    "case_id": "primitive/hkdf_sha256",
+    "field": "output"
+  },
+  "status": "FAIL",
+  "exception": "RuntimeError",
+  "message": "Exact oracle mismatch"
+}

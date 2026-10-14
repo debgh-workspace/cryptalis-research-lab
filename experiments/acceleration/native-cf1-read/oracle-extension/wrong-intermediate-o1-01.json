@@ -1,0 +1,43 @@
+{
+  "mode": "wrong-intermediate",
+  "optimize": 1,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_executable": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+  "soabi": "cpython-312-x86_64-linux-gnu",
+  "pins_sha256": "653fad85be61803399417a23b4c5de94c77347dcd39fa181e8c9291ffc6b7422",
+  "cases_sha256": "a472b7a2531a41526fcbdb57a1971e370c96b47af5df9a2891059cf94ff93efe",
+  "binary_sha256": "2e5b522a7fd0ab9dadeb813edcd747b0edbdb5d647687c73503e7116d7787b66",
+  "backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "observations": [],
+  "original_verified": true,
+  "unmodified_actual": {
+    "payload_salt": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012",
+    "payload_key": "0e846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61",
+    "header": "4346310001000000000700000000",
+    "aad": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000107777777777774777877777777777777700000020f2ebd38746105c71bdd45f207c0ebc78e0b0465329e6986a0cd2317bc961253b0000000e4346310001000000000700000000",
+    "encoded_text": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f",
+    "term": "",
+    "search_salt": "",
+    "search_key": "",
+    "text": "Cryptalis \u2014 caf\u00e9 e\u0301 \ud83d\udddd\ufe0f"
+  },
+  "perturbed_actual": {
+    "payload_salt": "454027a52dfa16e15d2895ec860c1fc767b6221c8c934fcc4ff506160abe9012",
+    "payload_key": "00846198eb15eeb7843800cb7d2742d6f4610f6c007bd48d620fcd79754e1d61",
+    "header": "4346310001000000000700000000",
+    "aad": "000000070000000b4346312f7061796c6f6164000000101111111111114111811111111111111100000010444444444444444484444444444444440000001033333333333343338333333333333333000000107777777777774777877777777777777700000020f2ebd38746105c71bdd45f207c0ebc78e0b0465329e6986a0cd2317bc961253b0000000e4346310001000000000700000000",
+    "encoded_text": "4372797074616c697320e2809420636166c3a92065cc8120f09f979defb88f",
+    "term": "",
+    "search_salt": "",
+    "search_key": "",
+    "text": "Cryptalis \u2014 caf\u00e9 e\u0301 \ud83d\udddd\ufe0f"
+  },
+  "control": {
+    "id": "wrong-intermediate",
+    "case_id": "intermediate/uuid-storage-unicode",
+    "field": "payload_key"
+  },
+  "status": "FAIL",
+  "exception": "RuntimeError",
+  "message": "Exact oracle mismatch"
+}

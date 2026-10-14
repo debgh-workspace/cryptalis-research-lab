@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "method": "independent stdlib-only static/data audit; no native execution",
+  "primitive_entries": 6,
+  "intermediate_entries": 8,
+  "positive_exact_entries_per_mode": 14,
+  "actual_output_negative_controls": 4,
+  "pins_checked": 639,
+  "prebuild_pins_checked": 636,
+  "original_files_checked": 161,
+  "python_scripts_assert_free": 4,
+  "latest_artifact_inventory_count": 31,
+  "cases_sha256": "a472b7a2531a41526fcbdb57a1971e370c96b47af5df9a2891059cf94ff93efe",
+  "pins_sha256": "653fad85be61803399417a23b4c5de94c77347dcd39fa181e8c9291ffc6b7422",
+  "full_design": "HOLD",
+  "timing": "HOLD",
+  "product_provider_admission": "HOLD"
+}
