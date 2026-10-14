@@ -1,0 +1,137 @@
+[
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "text",
+      "evidence/text-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "851bc91a5de82853fd4ef91cf0a71d511b5dace717d96376b3a056aadc862448"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "type",
+      "evidence/type-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "fdadb8215637f4f6caa80c3a793c1b9d8294e60e3a1497b06620f6ffe91e4bb1"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "stage",
+      "evidence/stage-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "3df9229bee876890f734a06a0b91329df97fee0dd36894adebb851d881270787"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "trace",
+      "evidence/trace-o0-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "744566f562bb610b1884bf5a7758e737f764a233e69d5384392d529ff3f51bf5"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "positive",
+      "evidence/positive-o0-01.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "result_sha256": "4f3e402c7937b27a5c8ee6ccc665351cf1b55260efc408c438ea84a8a48b24b1"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "text",
+      "evidence/text-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "221ad17d7512fa231aa8d12ac39f780a21149317b317ca6f43b088f83eb2f260"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "type",
+      "evidence/type-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "678c8e3db239a3c08802896d5e8617f6f648ada89d0dcbb3c09dc9015913f030"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "stage",
+      "evidence/stage-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "94f666ebabb1332d1d18b8106f3a657ea5a771f6e41aaebffc707fa79555fb40"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "trace",
+      "evidence/trace-o1-01.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py\", line 28, in <module>\n    runtime.run(mode);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 117, in run\n    exact(mutated,case['expected']);raise RuntimeError('Negative unexpectedly accepted')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/runtime.py\", line 24, in exact\n    if not same(a,b):raise RuntimeError('Exact admission mismatch')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact admission mismatch\n",
+    "result_sha256": "1446b98875684c216ce231e4e3d2938e7686910b876ab41b32a9f339163bcf8e"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-B",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-read-admission-20261014/run.py",
+      "positive",
+      "evidence/positive-o1-01.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "result_sha256": "665b022789dfad4873a25a5930af50ab81a7238a82b72f8cfb81d34268d209d0"
+  }
+]

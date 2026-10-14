@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Data/static verification, not historical execution attestation or full DESIGN admission",
+  "pins": 650,
+  "cases_per_mode": 1098,
+  "original_ids": 1035,
+  "case_kinds": {
+    "original": 1035,
+    "correction": 43,
+    "seal": 8,
+    "query": 4,
+    "threads": 4,
+    "event-loop": 4
+  },
+  "outcome_categories": {
+    "str": 108,
+    "InvalidFrame": 164,
+    "RepresentationMismatch": 17,
+    "KeyUnavailable": 159,
+    "AuthenticationFailed": 564,
+    "NoneType": 10,
+    "InvalidContext": 56,
+    "InvalidText": 8,
+    "bytes": 12
+  },
+  "negatives": 8,
+  "ordered_observations_equal": true,
+  "manifest_sha256": "a4b192bdaaa98124960efa0bedfb7c1a6417b318143555157068b03f23bb946e",
+  "pins_sha256": "59a7e61da60f7df3eae1867bee5688040ebf9f9c8ee33df9a4802bd32a200e31"
+}
