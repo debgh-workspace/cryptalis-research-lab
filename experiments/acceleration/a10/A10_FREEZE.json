@@ -1,0 +1,9 @@
+{
+  "inherited_unchanged": 208,
+  "new_files": {
+    "A10_BASE_RECEIPT.json": "e8dd066762b059005476dd945ded44ca17126189f5fbd6d70e0bf50cfc57c43a",
+    "A10_SCOPE.md": "26ab9171859abe484fb3a4213bea606453481699a43a56a3cb0b5d1e540bef93",
+    "tests/test_sqlalchemy_expired_version.py": "fc3df9e6f68eaf1d690115bf822113c5c39e1d858959bf1f47424429a0df5980"
+  },
+  "validation": "AST parse only; PostgreSQL not run"
+}
