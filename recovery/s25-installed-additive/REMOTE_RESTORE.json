@@ -1,0 +1,1264 @@
+{
+  "all_remote_readback_inputs_unchanged": true,
+  "all_seven_gates": "UNKNOWN",
+  "archive_bytes": 960636,
+  "archive_members": 309,
+  "archive_path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/s25-installed-additive-remote-CRYPTALIS_S25_INSTALLED_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "6646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a",
+  "authenticated_provenance_sha256": "8bda50fe8152368723987bbeb1bc9c197e26cd42d868612ac3e4e7d526af8738",
+  "authentication_scope": "Coordinator-verified authenticated readback receipt; this offline checker does not authenticate a network service.",
+  "candidate_product_test_dependency_code_executed": false,
+  "canonical_relative_regular_nonexecuting_members": true,
+  "database_install_network_remote_operations_by_checker": false,
+  "fresh_extraction_path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/s25-installed-additive-remote-fresh-extraction",
+  "full_source_runtime_dependency_database_operational_restore_claim": false,
+  "manifest_targets_followed": false,
+  "part_manifest_sha256": "559a130311780e8188ec313ba3645688b4d74de4b7834f2aaae544f37f467f04",
+  "parts_verified": 11,
+  "payload_manifest_sha256": "cf5f3401e85f88f84bcc3bbe5f5179f13182c2bc479a9505e4648ab4bff702f8",
+  "readback_file_hashes": {
+    "cryptalis-executable/candidate-corpus-wrapper-v2-20261014/README.md": {
+      "bytes": 4357,
+      "sha256": "a65d99c0a443382873e0673179424028e5f31f516905204d0ea42f7a79575019"
+    },
+    "cryptalis-executable/candidate-corpus-wrapper-v2-20261014/corpus_artifacts_v2.py": {
+      "bytes": 4154,
+      "sha256": "4c0429a182b5b7a2f7e561892936dba89ed279583bff181b18238f50485de86f"
+    },
+    "cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py": {
+      "bytes": 10046,
+      "sha256": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453"
+    },
+    "cryptalis-executable/candidate-corpus-wrapper-v2-20261014/source-manifest.json": {
+      "bytes": 1067,
+      "sha256": "7e37546780379e715c2ec0b297177a5ed05054120bfb5c716bee03e3bea3d8ba"
+    },
+    "cryptalis-executable/candidate-corpus-wrapper-v2-20261014/source.diff": {
+      "bytes": 2616,
+      "sha256": "340b4a734875dbe5edb7789e0f350f0c3607fe6c235dc490e675ddba0094345c"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/PROPOSED_COMMANDS.txt": {
+      "bytes": 475,
+      "sha256": "7c1c76244adcde8b8c803a0236cb2e36debd747fdec696d77a8d56d101713939"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/REVIEW.md": {
+      "bytes": 2321,
+      "sha256": "a220ea8a97155d81afa28a907d3f27a47239499d3b5bc66d1dc64b314e240941"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/SOURCE_PREPARATION.json": {
+      "bytes": 3425,
+      "sha256": "c7787c4e8df12ecd240fbea015c1f9e81d17cab70e3b9db4647ce9edda5f6e1a"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/coordinator-outer-before.log": {
+      "bytes": 59,
+      "sha256": "5131b63c7236c65052460cb703b203ab427957dc792b9dad1e004e2dede40841"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/frozen-inputs.sha256": {
+      "bytes": 786568,
+      "sha256": "6b7f51877f878386d205e5b37c88cff44d40c71a0186112490d866de110923f6"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/install_verify.py": {
+      "bytes": 8290,
+      "sha256": "3de5714e197572fee7bbe100b80a7bb753fc6a8f70dfd9734e585a700a49919a"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/install_verify.py.patch": {
+      "bytes": 3671,
+      "sha256": "496d89ed10ad8fcc04baab9f409f58738af92ce95e2eaabdf6c89b847f8a6472"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/outer-frozen.sha256": {
+      "bytes": 245,
+      "sha256": "1c8eb8919f3e683004a102c422cbb99318c34dca64c86369d66f2d1862e823f6"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/outer.py": {
+      "bytes": 6315,
+      "sha256": "8274db6c803e30db18ebf653de2a2185a3d6568904bf2b1efa9a48be42b19212"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/outer.py.patch": {
+      "bytes": 895,
+      "sha256": "33b992924e2f6e09b9361f35d3b3b9b5f966166139f80a9c63c30f0fe33b8aa4"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/parent-results/parent-receipt.json": {
+      "bytes": 3830,
+      "sha256": "0ddae8eab0e675f74e74c27e492152740747783ad15da0043791d6dda0e105ff"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/plan.json": {
+      "bytes": 1513,
+      "sha256": "158c8200beaf996ae42c3521aceef71896213633ffdfe0121dbd6e82af204563"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/prepare_source_only.py": {
+      "bytes": 10513,
+      "sha256": "a34b1ce5aebda0e0a4d772a1e0667eae52e451b8e1a5d898f154e13a384ed75f"
+    },
+    "cryptalis-executable/candidate-s25-installed-plan-20261014/supervisor_v2.py": {
+      "bytes": 3895,
+      "sha256": "b5cc92887125d1b923cb49f9d673a922a75d55f31f19efb4934992c02a1f0065"
+    },
+    "cryptalis-executable/candidate-s25-recovery-20261014/CHECKER_DEVELOPMENT-v1.json": {
+      "bytes": 622,
+      "sha256": "7cdea4f76b367d1ee696458be2cc4add5f5566eba61b27e8e2f20ba739f45e37"
+    },
+    "cryptalis-executable/candidate-s25-recovery-20261014/FREEZE-v1.json": {
+      "bytes": 2294,
+      "sha256": "61171aa74ff9c51ad08087813b96c84b92560ccc6d7332bbcffa12b09bed83f3"
+    },
+    "cryptalis-executable/candidate-s25-recovery-20261014/RECOVERY_SCOPE-v1.md": {
+      "bytes": 11604,
+      "sha256": "5e4adc89504695b811dbf0abc6cda5d1b60cbab670a6eca9792ce0587424eb39"
+    },
+    "cryptalis-executable/candidate-s25-recovery-20261014/RESTORE_VERIFICATION-v1.json": {
+      "bytes": 1205,
+      "sha256": "12824a041bb53a868672ceac4c0865416c9b6184949c6243095b4b8898db7cb6"
+    },
+    "cryptalis-executable/candidate-s25-recovery-20261014/SOURCE_RECONSTRUCTION_PLAN-v1.json": {
+      "bytes": 945,
+      "sha256": "486a364dbe3edcad217b99236b46b3b91c534dccdfb41e65f9b9eb8a4b6342d9"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/PROPOSED_COMMANDS.txt": {
+      "bytes": 493,
+      "sha256": "0595d274b2c26a0fecd672d9244ab91beaedf63685741289e4fcb8c46f1b5490"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/REVIEW.md": {
+      "bytes": 2334,
+      "sha256": "8e52a68e4055d2dc68a617ce4e5b5054863cd4fec7b3ea15a4ca004c637a9a0b"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/SOURCE_PREPARATION.json": {
+      "bytes": 2207,
+      "sha256": "dfc789df2e888045af626c60746524b4275d826c8cbae60595b5a509438db6b5"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/coordinator-outer-before.log": {
+      "bytes": 59,
+      "sha256": "5131b63c7236c65052460cb703b203ab427957dc792b9dad1e004e2dede40841"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/frozen-inputs.sha256": {
+      "bytes": 1399043,
+      "sha256": "d4c4cb1c93e216ccf3d70930ee916508a783af00435f1056796d66a92af0655c"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/install_verify.py": {
+      "bytes": 8299,
+      "sha256": "fd405ee5271449dda6990b3deb3f5d6bf03fda140692a75d2f229893f9abda4b"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/install_verify.py.patch": {
+      "bytes": 3751,
+      "sha256": "1b2cf2907ccde6fcb64fc20694388d3a6e39c99bcf150a7f1827d68c077e6290"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/outer-frozen.sha256": {
+      "bytes": 245,
+      "sha256": "6362b126fb9402e63138e077f904b28576d17525ebdc649edcc991ab08040f1d"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/outer.py": {
+      "bytes": 6301,
+      "sha256": "5315978decbbb1f25b4e7650703dfd33d01f942a27640530e63ddc3b7f612df0"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/outer.py.patch": {
+      "bytes": 1393,
+      "sha256": "58a17e7ff8beac4e16282f4804ce9767712b82552fbc0ed842f5fefa65787479"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/parent-results/parent-receipt.json": {
+      "bytes": 3725,
+      "sha256": "4b0cc239da4a662dc65c8eaba4fa3eca3ff0b055c2a9f74707ccf790e3570d8d"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/plan.json": {
+      "bytes": 1424,
+      "sha256": "4a6e386c59b8dfb9524ad9d1e31262c3b562dc6e1022f0f649a7f5d2c07fb6d0"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/prepare_source_only.py": {
+      "bytes": 10513,
+      "sha256": "a34b1ce5aebda0e0a4d772a1e0667eae52e451b8e1a5d898f154e13a384ed75f"
+    },
+    "cryptalis-executable/candidate-s25-sqlmodel-installed-plan-20261014/supervisor_v2.py": {
+      "bytes": 3895,
+      "sha256": "b5cc92887125d1b923cb49f9d673a922a75d55f31f19efb4934992c02a1f0065"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/a2-post-result-reach-False-False.json": {
+      "bytes": 497,
+      "sha256": "305417b452f4274e2f6930f88142b75c649d8ddcc4a03495e351245b720e5957"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/a2-post-result-reach-False-True.json": {
+      "bytes": 496,
+      "sha256": "cf237d72a71f20fd74993f56a3774925abf9960adb41ca6d2b4263b723b9d35e"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/a2-post-result-reach-True-False.json": {
+      "bytes": 467,
+      "sha256": "60209683c04233e1ca1da3be0b8a5e47d372e125bd90617330654dffca86e3c2"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/a2-post-result-reach-True-True.json": {
+      "bytes": 466,
+      "sha256": "d063ec43f4c838284a0ae7408da8cab2518b37426739cba4cf2e49d1dd1f0b5b"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/candidate-corpus-isolation.json": {
+      "bytes": 381,
+      "sha256": "b0c7863e527a65f89cf97f62eb30dc3025b28395bdbe36b4b85b1f66f458d852"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 9210,
+      "sha256": "dabcf94b721a656994fc24d620452adc2789eacd6dbfbbf9e73a0aed4aed0e8f"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/external-source-before.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/external-source-stability.json": {
+      "bytes": 55,
+      "sha256": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/junit.xml": {
+      "bytes": 430800,
+      "sha256": "58edeb48065f17e98a3c5eea62fd53eae8e960a054cb3b65d7e80294d1b75ba2"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/native-deparser-proof.json": {
+      "bytes": 217,
+      "sha256": "57fb918ddca78ecdd3527f97209b4b64161e5475045d674525ff5a7c671f1439"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/package-origin.log": {
+      "bytes": 360,
+      "sha256": "db991c1b5e11f8ac5491b227d9fb5113299a5e21c068aa83ef723c2abe28506a"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/postgres-start.log": {
+      "bytes": 52,
+      "sha256": "66afd0411ccc09366e99fdd99b85f21899c8d2d064f5835126859618802153ad"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/postgres-stop.log": {
+      "bytes": 56,
+      "sha256": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/prior-corpus-manifest.json": {
+      "bytes": 3170,
+      "sha256": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/progress.jsonl": {
+      "bytes": 2481802,
+      "sha256": "f9da3f1b170b61193f6d70b21eea8dd90b0782e73f24f1d171a2a24728e9aa77"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/readiness.log": {
+      "bytes": 46,
+      "sha256": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/runner-receipt.json": {
+      "bytes": 24967,
+      "sha256": "06a82a65a0ce3185dfabf55533371849cd9d5cdf1fbbe021fb6ba53808fcb428"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/source-before.json": {
+      "bytes": 16831,
+      "sha256": "83d748b0e038f88ea80cd604514b1ecea8366ac8969c3b58642e904ede84db54"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/source-root.json": {
+      "bytes": 187,
+      "sha256": "4de2c2459ce1102d764008c0ee1957eb9be3a99200ee9723b9933c8f7ee302a2"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/source-stability.json": {
+      "bytes": 34335,
+      "sha256": "c0f2f1f93784b60cc3bfcb8d868ea49c09a6c2489cb1bae2b43b8b8494b599ac"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa20-20261014/tests.log": {
+      "bytes": 8822,
+      "sha256": "ad2960ea9a277bc2ce0fba14a6483c6f36579730bb98b39ada496e58e84df141"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/a2-post-result-reach-False-False.json": {
+      "bytes": 497,
+      "sha256": "305417b452f4274e2f6930f88142b75c649d8ddcc4a03495e351245b720e5957"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/a2-post-result-reach-False-True.json": {
+      "bytes": 496,
+      "sha256": "cf237d72a71f20fd74993f56a3774925abf9960adb41ca6d2b4263b723b9d35e"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/a2-post-result-reach-True-False.json": {
+      "bytes": 467,
+      "sha256": "60209683c04233e1ca1da3be0b8a5e47d372e125bd90617330654dffca86e3c2"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/a2-post-result-reach-True-True.json": {
+      "bytes": 466,
+      "sha256": "d063ec43f4c838284a0ae7408da8cab2518b37426739cba4cf2e49d1dd1f0b5b"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/candidate-corpus-isolation.json": {
+      "bytes": 380,
+      "sha256": "fa39ca4e94024bf86726af7f73245f92a1b85228ae79831d3d0ea417d1f07437"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 9210,
+      "sha256": "6dd4bd2994ad425576794eb13c6eb853877faad348a92156f07c6139daeec8b8"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/external-source-before.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/external-source-stability.json": {
+      "bytes": 55,
+      "sha256": "92df286d250ea7db825aae251e94921943b316a9614d0a54be9948591b3daa61"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/junit.xml": {
+      "bytes": 415328,
+      "sha256": "6cb90d8685f2824af33f1ccb2889aa5ed36a6bec4a87d1763099e00d41c7d1bf"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/native-deparser-proof.json": {
+      "bytes": 217,
+      "sha256": "bee7bab2fbd5d184e3d7abb9519eb16b28531d326d7d622cb9a12992a94273dc"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/package-origin.log": {
+      "bytes": 360,
+      "sha256": "dc7f4d462ec9aad4614a2591c23c8ec100c73e0ab5c0b9b4582e05e3bc699431"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/postgres-start.log": {
+      "bytes": 52,
+      "sha256": "66afd0411ccc09366e99fdd99b85f21899c8d2d064f5835126859618802153ad"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/postgres-stop.log": {
+      "bytes": 56,
+      "sha256": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus-manifest.json": {
+      "bytes": 3170,
+      "sha256": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-core-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 9156,
+      "sha256": "3c7b25b38f10b7449e2d839ec55407757fdb74ca95702082f4f2ee013c28af88"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-core-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 8748,
+      "sha256": "5c93e7b3677a006340bf010f7bc2c44e5ffd3d973608aa6638770cbe77d1d6cb"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-corpus-v1-sa2.0.51.json": {
+      "bytes": 25700,
+      "sha256": "c8b28c401a3d1753076caecf2c6c65987cfc245ce394c1611bc22274501de38f"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-corpus-v1-sa2.1.3.json": {
+      "bytes": 25665,
+      "sha256": "81a84f72b440ff6969802f995e68a4befaac60451b5d3703bc84aa7edc731473"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 9210,
+      "sha256": "94abe1ea69e4cf2eba7e718bdd72a0c5437ba95750158d27c87da189529f4a79"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-flush-corpus-v1-sa2.0.54.json": {
+      "bytes": 9210,
+      "sha256": "4312ba346da32cbdf7537e86436500c4f4481b65ee6d4118d02fcda5c9f2d75c"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 9198,
+      "sha256": "34c7bd12f19310895f86ac03ac6322bbe79ccab5b33fdd32266c420bd07088e1"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-implicit-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 5717,
+      "sha256": "2df702b1633e96f8ae8510bab2305cd8dcd017c7a8926385d343412156e86c16"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-implicit-flush-corpus-v1-sa2.0.54.json": {
+      "bytes": 5717,
+      "sha256": "2df702b1633e96f8ae8510bab2305cd8dcd017c7a8926385d343412156e86c16"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-implicit-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 5717,
+      "sha256": "2df702b1633e96f8ae8510bab2305cd8dcd017c7a8926385d343412156e86c16"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-lifecycle-corpus-v1-sa2.0.51.json": {
+      "bytes": 831,
+      "sha256": "fe740c44e9db87450be5a48a45d77d1fdcebcae035ce70a57c3e25ed6a8821d7"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-lifecycle-corpus-v1-sa2.1.3.json": {
+      "bytes": 831,
+      "sha256": "fe740c44e9db87450be5a48a45d77d1fdcebcae035ce70a57c3e25ed6a8821d7"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-method-corpus-v1-sa2.0.51.json": {
+      "bytes": 7160,
+      "sha256": "6bffab1728d2f6db5199a5b65870c43ee1ffed3e7ab4af4dca36ad6f61f2a6df"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-method-corpus-v1-sa2.1.3.json": {
+      "bytes": 7160,
+      "sha256": "6bffab1728d2f6db5199a5b65870c43ee1ffed3e7ab4af4dca36ad6f61f2a6df"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-relationship-corpus-v1-sa2.0.51.json": {
+      "bytes": 950,
+      "sha256": "9d3ec65a3832e673c250854ebd7305f72ab4e55b8f043114a1a9af9124a58af1"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-relationship-corpus-v1-sa2.1.3.json": {
+      "bytes": 950,
+      "sha256": "9d3ec65a3832e673c250854ebd7305f72ab4e55b8f043114a1a9af9124a58af1"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-state-corpus-v1-sa2.0.51.json": {
+      "bytes": 1791,
+      "sha256": "6d9f2dc3b3adb25eff3afb8d4f2f55cbc2cf30b000c9d95e42290505f33fd3b8"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-state-corpus-v1-sa2.1.3.json": {
+      "bytes": 1791,
+      "sha256": "6d9f2dc3b3adb25eff3afb8d4f2f55cbc2cf30b000c9d95e42290505f33fd3b8"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-truth-corpus-v1-sa2.0.51.json": {
+      "bytes": 14258,
+      "sha256": "3bd589f9e2a951b888c08dcf72db8196b277922c7b548537262255a2d1498202"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/compatibility-truth-corpus-v1-sa2.1.3.json": {
+      "bytes": 14252,
+      "sha256": "d99671ffe7f6dc35a0ee3dce586eaf3337827458ca90a26e787f4ade4430d862"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-core-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 9156,
+      "sha256": "3c7b25b38f10b7449e2d839ec55407757fdb74ca95702082f4f2ee013c28af88"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-core-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 8748,
+      "sha256": "5c93e7b3677a006340bf010f7bc2c44e5ffd3d973608aa6638770cbe77d1d6cb"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 9210,
+      "sha256": "faec6d27c3fa9223484869f4d7b52687f26ecadc71c78c03b9e4e8ad4b37b859"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 9210,
+      "sha256": "72d7cee083de1b7db4ccc02adde96f8b37d10c8474e5fe1aba504166eb18a726"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-implicit-flush-corpus-v1-sa2.0.51.json": {
+      "bytes": 5717,
+      "sha256": "2df702b1633e96f8ae8510bab2305cd8dcd017c7a8926385d343412156e86c16"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/prior-corpus/master-s4-compatibility-implicit-flush-corpus-v1-sa2.1.3.json": {
+      "bytes": 5717,
+      "sha256": "2df702b1633e96f8ae8510bab2305cd8dcd017c7a8926385d343412156e86c16"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/progress.jsonl": {
+      "bytes": 2486807,
+      "sha256": "cd97e3f2cc53bb0b52ebe29005a1e334f6f3de19c344c85d35b6a76ac441806c"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/readiness.log": {
+      "bytes": 46,
+      "sha256": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/runner-receipt.json": {
+      "bytes": 25097,
+      "sha256": "0103b397775ce82e7040ac86fb776ab276868694018556de4afc68edb4aae936"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/source-before.json": {
+      "bytes": 16831,
+      "sha256": "83d748b0e038f88ea80cd604514b1ecea8366ac8969c3b58642e904ede84db54"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/source-root.json": {
+      "bytes": 187,
+      "sha256": "4de2c2459ce1102d764008c0ee1957eb9be3a99200ee9723b9933c8f7ee302a2"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/source-stability.json": {
+      "bytes": 34335,
+      "sha256": "c0f2f1f93784b60cc3bfcb8d868ea49c09a6c2489cb1bae2b43b8b8494b599ac"
+    },
+    "cryptalis-executable/evidence/s25-installed-full-sa21-20261014/tests.log": {
+      "bytes": 8533,
+      "sha256": "3fd95c533875141d9f8178694e95fa52f61f0e478e6389d08b21f59b9e87137a"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-arms.jsonl": {
+      "bytes": 2078,
+      "sha256": "9a469a57df2f5e4b18c06f707ada2e0e69eaca7cb1f1f299450300c1b361c984"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-mro.jsonl": {
+      "bytes": 693,
+      "sha256": "30d17fe1a69fd3fd33e78a55f0c545a12742794da4e81248582f9e0502a00442"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-origin.jsonl": {
+      "bytes": 11368,
+      "sha256": "cb1c0aa0ce6b7689bb5ccc1d6ba2fa62e6fe19878978a74db3c89a231849fbcf"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-post-result-reach.jsonl": {
+      "bytes": 834,
+      "sha256": "dd74fc46a6f6a924cbd1c95b670083a10ee3a8c861351c78ce8a8b4b7e14d332"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-post-result.jsonl": {
+      "bytes": 958,
+      "sha256": "b58c39b301728d43d8eea7a793b5e3f3f98880e5acede356c00c6dc5bebb7693"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/async-sqlmodel-provider-completion.jsonl": {
+      "bytes": 2167,
+      "sha256": "6039540b8150cd5463179e086ac87a96fc29fcc587b47830358c8d0a9bb97c9d"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/candidate-corpus-isolation.json": {
+      "bytes": 212,
+      "sha256": "5dd2e056467f5d3273c09d3456469b7fb2e21da53960cdbf136a94093311d481"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/external-source-before.json": {
+      "bytes": 164,
+      "sha256": "a6f7b62a8f2fe5990e3ca00949f12c175c0504325cc85ded68d7bdba182a6448"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/external-source-stability.json": {
+      "bytes": 385,
+      "sha256": "7f806f1cd97be228e25e45e438ef6c179d9311866db0097a0fa3273c7db72aa9"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/junit.xml": {
+      "bytes": 4259,
+      "sha256": "86bf7590a46fa149d36ab036850b4a9bcf126dfb05b9dc6bcd451d622ceccf94"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/package-origin.log": {
+      "bytes": 373,
+      "sha256": "a7cdce5a428e7975a4879bca8e157f476cb45c311eee6898f19a262f66c39f93"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/postgres-start.log": {
+      "bytes": 52,
+      "sha256": "66afd0411ccc09366e99fdd99b85f21899c8d2d064f5835126859618802153ad"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/postgres-stop.log": {
+      "bytes": 56,
+      "sha256": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/prior-corpus-manifest.json": {
+      "bytes": 3170,
+      "sha256": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/progress.jsonl": {
+      "bytes": 27514,
+      "sha256": "0c395dc7345521dc0c9e5493964741fcfdb137dfcd3f4a96825c33eacbd72f65"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/readiness.log": {
+      "bytes": 46,
+      "sha256": "650259218ffbeb1cdade25d6157c232eed7feb35be43a79af4d6d836ca9ddd08"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/runner-receipt.json": {
+      "bytes": 18303,
+      "sha256": "421b346474655edd47a35293fbefc99c5f5bd005682d8502b975006e717282d1"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/source-before.json": {
+      "bytes": 16831,
+      "sha256": "83d748b0e038f88ea80cd604514b1ecea8366ac8969c3b58642e904ede84db54"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/source-root.json": {
+      "bytes": 187,
+      "sha256": "4de2c2459ce1102d764008c0ee1957eb9be3a99200ee9723b9933c8f7ee302a2"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/source-stability.json": {
+      "bytes": 34335,
+      "sha256": "c0f2f1f93784b60cc3bfcb8d868ea49c09a6c2489cb1bae2b43b8b8494b599ac"
+    },
+    "cryptalis-executable/evidence/s25-installed-sqlmodel-20261014/tests.log": {
+      "bytes": 145,
+      "sha256": "ecf35c414e8b4bd38d49876b123db3c028b0ff019e5508da5bf8c75ed2011058"
+    },
+    "cryptalis-executable/experiments/s25-async-sqlmodel-integration-20261014/INITIAL_STALE_CACHE_CHECK.log": {
+      "bytes": 161952,
+      "sha256": "f2ddd884abef4fb1e27e807c7f0004e4dc459329023a540aad2485cdeb62fdce"
+    },
+    "cryptalis-executable/experiments/s25-async-sqlmodel-integration-20261014/INTEGRATION.md": {
+      "bytes": 8036,
+      "sha256": "f1545888994cae3d5d93f1e17c0c3807cedbbc1d75f3171bd248fde940efe17d"
+    },
+    "cryptalis-executable/experiments/s25-async-sqlmodel-integration-20261014/PREPARATION_CHECKS.json": {
+      "bytes": 746,
+      "sha256": "e0be77ee2553dbc6bb4b12c61ea1ed644de02fde932ea2308222c1bb456485ca"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/BASELINE_SA20_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314985,
+      "sha256": "82f7fdbff6fb90c03c408ef772f3510267a1debc76986e4dfff57582165e8876"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/BASELINE_SA21_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314939,
+      "sha256": "4650dcc1c3c5e0e48a233e70324de8771a26ad5f99197f615fe416905b6b3fd0"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/COMPATIBILITY_REVIEW.json": {
+      "bytes": 7864,
+      "sha256": "8fc9a74e7b800241ba3564802bd211a2869aae136d419a8289ce16e9522629d6"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/ENTRY.sha256": {
+      "bytes": 552,
+      "sha256": "ee879d2209a2674eec9304516bbdf1db23c0923fc355c56c29f59175e3b804a4"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/INPUTS.sha256": {
+      "bytes": 91919,
+      "sha256": "4ab74da24f7d81bba46d2b1a1ab26234c4dc829557cdb847979155da1b6f0f12"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/POSTINSTALL_CLEARANCE.sha256": {
+      "bytes": 19668,
+      "sha256": "d7c5c67e140ae48847adea23bf0c655cdf96e7e9f19e03ae235e44679889316c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/SCOPE.md": {
+      "bytes": 6490,
+      "sha256": "3ed7a6543242a554246f63f3eb65b209a5d9ac1cd7aa424b8075b9179ac8b675"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/prepare_source_only.py": {
+      "bytes": 5023,
+      "sha256": "1df2ff408274a76e11b95f210ef17cce53dff9e259d36df5131cc7c5f93e0e5c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run-full-sa20.sh": {
+      "bytes": 3185,
+      "sha256": "55bcce6e95733081822c494fbeb159bafd425ddade4497eb2dce885352d85a06"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run-full-sa21.sh": {
+      "bytes": 3185,
+      "sha256": "c0cd84d997a3cd32e5b5eedb417c4fbfd6031bf6c8c2c9a957bd9a498d457280"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/entry-after.log": {
+      "bytes": 366,
+      "sha256": "7e9ee7f1107273409d763186e904cb8c2a4236282182e33464f4e22494327bb5"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/entry-before.log": {
+      "bytes": 366,
+      "sha256": "7e9ee7f1107273409d763186e904cb8c2a4236282182e33464f4e22494327bb5"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/exit-code.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/installed-after.log": {
+      "bytes": 14026,
+      "sha256": "32219d0ba5eb3a80d9e6bc4bc135fbcd6806e4be86a0d2df652fa901ebc7a13f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/installed-before.log": {
+      "bytes": 14026,
+      "sha256": "32219d0ba5eb3a80d9e6bc4bc135fbcd6806e4be86a0d2df652fa901ebc7a13f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/pin-exit-codes.txt": {
+      "bytes": 6,
+      "sha256": "a17138988e1387532b5cb0bd7a23f18a11d537123873e67154dada3c6359e53e"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/pins-after.log": {
+      "bytes": 63585,
+      "sha256": "ecb57c705c8034d18898601cd801d5375ebea08c1cfb5c543c5579f266ce6c0f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/pins-before.log": {
+      "bytes": 63585,
+      "sha256": "ecb57c705c8034d18898601cd801d5375ebea08c1cfb5c543c5579f266ce6c0f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/BASELINE_SA20_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314985,
+      "sha256": "82f7fdbff6fb90c03c408ef772f3510267a1debc76986e4dfff57582165e8876"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/BASELINE_SA21_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314939,
+      "sha256": "4650dcc1c3c5e0e48a233e70324de8771a26ad5f99197f615fe416905b6b3fd0"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/COMPATIBILITY_REVIEW.json": {
+      "bytes": 7864,
+      "sha256": "8fc9a74e7b800241ba3564802bd211a2869aae136d419a8289ce16e9522629d6"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/ENTRY.sha256": {
+      "bytes": 552,
+      "sha256": "ee879d2209a2674eec9304516bbdf1db23c0923fc355c56c29f59175e3b804a4"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/INPUTS.sha256": {
+      "bytes": 91919,
+      "sha256": "4ab74da24f7d81bba46d2b1a1ab26234c4dc829557cdb847979155da1b6f0f12"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/POSTINSTALL_CLEARANCE.sha256": {
+      "bytes": 19668,
+      "sha256": "d7c5c67e140ae48847adea23bf0c655cdf96e7e9f19e03ae235e44679889316c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/SCOPE.md": {
+      "bytes": 6490,
+      "sha256": "3ed7a6543242a554246f63f3eb65b209a5d9ac1cd7aa424b8075b9179ac8b675"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/prepare_source_only.py": {
+      "bytes": 5023,
+      "sha256": "1df2ff408274a76e11b95f210ef17cce53dff9e259d36df5131cc7c5f93e0e5c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/run-full-sa20.sh": {
+      "bytes": 3185,
+      "sha256": "55bcce6e95733081822c494fbeb159bafd425ddade4497eb2dce885352d85a06"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/source-packet/run-full-sa21.sh": {
+      "bytes": 3185,
+      "sha256": "c0cd84d997a3cd32e5b5eedb417c4fbfd6031bf6c8c2c9a957bd9a498d457280"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa20/wrapper.log": {
+      "bytes": 8614,
+      "sha256": "0f33518f1c0b8e3176e541039aa9cc1efe91a0a00748abd7c2b9fce02c3869fa"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/entry-after.log": {
+      "bytes": 366,
+      "sha256": "7e9ee7f1107273409d763186e904cb8c2a4236282182e33464f4e22494327bb5"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/entry-before.log": {
+      "bytes": 366,
+      "sha256": "7e9ee7f1107273409d763186e904cb8c2a4236282182e33464f4e22494327bb5"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/exit-code.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/installed-after.log": {
+      "bytes": 14026,
+      "sha256": "32219d0ba5eb3a80d9e6bc4bc135fbcd6806e4be86a0d2df652fa901ebc7a13f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/installed-before.log": {
+      "bytes": 14026,
+      "sha256": "32219d0ba5eb3a80d9e6bc4bc135fbcd6806e4be86a0d2df652fa901ebc7a13f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/pin-exit-codes.txt": {
+      "bytes": 6,
+      "sha256": "a17138988e1387532b5cb0bd7a23f18a11d537123873e67154dada3c6359e53e"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/pins-after.log": {
+      "bytes": 63585,
+      "sha256": "ecb57c705c8034d18898601cd801d5375ebea08c1cfb5c543c5579f266ce6c0f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/pins-before.log": {
+      "bytes": 63585,
+      "sha256": "ecb57c705c8034d18898601cd801d5375ebea08c1cfb5c543c5579f266ce6c0f"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/BASELINE_SA20_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314985,
+      "sha256": "82f7fdbff6fb90c03c408ef772f3510267a1debc76986e4dfff57582165e8876"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/BASELINE_SA21_EXPECTED_OUTCOMES.tsv": {
+      "bytes": 314939,
+      "sha256": "4650dcc1c3c5e0e48a233e70324de8771a26ad5f99197f615fe416905b6b3fd0"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/COMPATIBILITY_REVIEW.json": {
+      "bytes": 7864,
+      "sha256": "8fc9a74e7b800241ba3564802bd211a2869aae136d419a8289ce16e9522629d6"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/ENTRY.sha256": {
+      "bytes": 552,
+      "sha256": "ee879d2209a2674eec9304516bbdf1db23c0923fc355c56c29f59175e3b804a4"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/INPUTS.sha256": {
+      "bytes": 91919,
+      "sha256": "4ab74da24f7d81bba46d2b1a1ab26234c4dc829557cdb847979155da1b6f0f12"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/POSTINSTALL_CLEARANCE.sha256": {
+      "bytes": 19668,
+      "sha256": "d7c5c67e140ae48847adea23bf0c655cdf96e7e9f19e03ae235e44679889316c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/SCOPE.md": {
+      "bytes": 6490,
+      "sha256": "3ed7a6543242a554246f63f3eb65b209a5d9ac1cd7aa424b8075b9179ac8b675"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/prepare_source_only.py": {
+      "bytes": 5023,
+      "sha256": "1df2ff408274a76e11b95f210ef17cce53dff9e259d36df5131cc7c5f93e0e5c"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/run-full-sa20.sh": {
+      "bytes": 3185,
+      "sha256": "55bcce6e95733081822c494fbeb159bafd425ddade4497eb2dce885352d85a06"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/source-packet/run-full-sa21.sh": {
+      "bytes": 3185,
+      "sha256": "c0cd84d997a3cd32e5b5eedb417c4fbfd6031bf6c8c2c9a957bd9a498d457280"
+    },
+    "cryptalis-executable/experiments/s25-installed-full-controls-20261014/run/sa21/wrapper.log": {
+      "bytes": 8614,
+      "sha256": "56d7b07fe7d24c15315051e959c5484c4744d8f51c251f6c1980f77d9e5f2146"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/ANCESTRY.sha256": {
+      "bytes": 1581,
+      "sha256": "90df63f552abd69fdb7b0bd11bbb7c370a482f97fd0bdcd467bc15f63837768a"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/DEPENDENCY_SOURCE_PINS.json": {
+      "bytes": 2114,
+      "sha256": "9aeff3344a9d236bfaca7aa42f02e90e589e13cf665f5e7ad63171b1acb82c1b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/ENTRY.sha256": {
+      "bytes": 384,
+      "sha256": "3952b146ac32c92f47498f72ea8603a7d30933ed930f08c4b5450e3211c8af86"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/FINALIZATION.md": {
+      "bytes": 2717,
+      "sha256": "909b2946cee4c49ed3c1069097f78d419cc676fe0bb29e36fd152872f20322ee"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/INPUTS.sha256": {
+      "bytes": 93632,
+      "sha256": "95cf32bcc1ef85d31b363e159521495f73f6294fa239963b1461ef401387329c"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/PLANNED_NODE_SUFFIXES.txt": {
+      "bytes": 2300,
+      "sha256": "fb961048b1434872af6582570b700c000c63f6b8a2510205d03e95fdb3ed78af"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/POSTINSTALL_CLEARANCE.sha256": {
+      "bytes": 1403,
+      "sha256": "e726a5c2755e37ec6a93214292a7cee99daf2b20286d007e6ffe1bbb6674b70a"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/SCOPE.md": {
+      "bytes": 5543,
+      "sha256": "739287e00f2b54fe53a82c7f47f762820822e0e9a607de89035ffda63784c605"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/SQLMODEL_NODE_IDS.txt": {
+      "bytes": 3896,
+      "sha256": "f1df3e1af998d0bbe1487648ffde44d9209561c5d2b9d57eb78f4c39a0be650b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/STATIC_ROUTING_REVIEW.json": {
+      "bytes": 461,
+      "sha256": "866fe0d430df02106efda48b6febc8a778b46989753216e83e657231ded55793"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/binding.json": {
+      "bytes": 513,
+      "sha256": "b944966a6d13d591be6613f9ebff39a914eaee4041698490ddf96da5db62b072"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/conftest.py": {
+      "bytes": 1584,
+      "sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/finalize_source_only.py": {
+      "bytes": 6921,
+      "sha256": "3a441690d8db07ef726927281492717d9cd7c93e7bc74abeca598e59e0f707cd"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/installed_origin.py": {
+      "bytes": 7729,
+      "sha256": "c78b1e69fab7c52abcf087a12d9f2cf7b008163eddaf484acd4896b5e1e85a9b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/installed_sqlmodel_oracle_support.py": {
+      "bytes": 10398,
+      "sha256": "a3c440bfddef390aeb5c2cd34db1034e9a18ac44aa518a4976888b1afe51af24"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/installed_sqlmodel_oracle_support.py.patch": {
+      "bytes": 3366,
+      "sha256": "acd89fac3f8597272460919074ca1ee29c70250a0a4e24d7b3e56d80c76cc0c9"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run-installed-sqlmodel.sh": {
+      "bytes": 3773,
+      "sha256": "323781960a252d046ef814d8944b06f75427475e62239215fb7464159b2b97a9"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/entry-after.log": {
+      "bytes": 260,
+      "sha256": "e77f83ad8109172ac39c89885648e219d25bdf3b436cb77fdf7f17ad0836aed8"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/entry-before.log": {
+      "bytes": 260,
+      "sha256": "e77f83ad8109172ac39c89885648e219d25bdf3b436cb77fdf7f17ad0836aed8"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/exit-code.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/payload-clearance-after.log": {
+      "bytes": 969,
+      "sha256": "e3975b2fdd14c26ed33cbefaad85cfc7ed616d7233f42e949f32e58cb451cd03"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/pin-exit-codes.txt": {
+      "bytes": 4,
+      "sha256": "0ccdb5a77ba5bf7687f2565a8ed97dfb9c1af45503c496fb646312239fab5101"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/pins-after.log": {
+      "bytes": 64802,
+      "sha256": "d20b123b42b8527f0d40ebf5c56bf09174bf5a75d3ffe0bf60881acf07774251"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/pins-before.log": {
+      "bytes": 64802,
+      "sha256": "d20b123b42b8527f0d40ebf5c56bf09174bf5a75d3ffe0bf60881acf07774251"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/ANCESTRY.sha256": {
+      "bytes": 1581,
+      "sha256": "90df63f552abd69fdb7b0bd11bbb7c370a482f97fd0bdcd467bc15f63837768a"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/DEPENDENCY_SOURCE_PINS.json": {
+      "bytes": 2114,
+      "sha256": "9aeff3344a9d236bfaca7aa42f02e90e589e13cf665f5e7ad63171b1acb82c1b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/ENTRY.sha256": {
+      "bytes": 384,
+      "sha256": "3952b146ac32c92f47498f72ea8603a7d30933ed930f08c4b5450e3211c8af86"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/FINALIZATION.md": {
+      "bytes": 2717,
+      "sha256": "909b2946cee4c49ed3c1069097f78d419cc676fe0bb29e36fd152872f20322ee"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/INPUTS.sha256": {
+      "bytes": 93632,
+      "sha256": "95cf32bcc1ef85d31b363e159521495f73f6294fa239963b1461ef401387329c"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/PLANNED_NODE_SUFFIXES.txt": {
+      "bytes": 2300,
+      "sha256": "fb961048b1434872af6582570b700c000c63f6b8a2510205d03e95fdb3ed78af"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/POSTINSTALL_CLEARANCE.sha256": {
+      "bytes": 1403,
+      "sha256": "e726a5c2755e37ec6a93214292a7cee99daf2b20286d007e6ffe1bbb6674b70a"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/SCOPE.md": {
+      "bytes": 5543,
+      "sha256": "739287e00f2b54fe53a82c7f47f762820822e0e9a607de89035ffda63784c605"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/SQLMODEL_NODE_IDS.txt": {
+      "bytes": 3896,
+      "sha256": "f1df3e1af998d0bbe1487648ffde44d9209561c5d2b9d57eb78f4c39a0be650b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/STATIC_ROUTING_REVIEW.json": {
+      "bytes": 461,
+      "sha256": "866fe0d430df02106efda48b6febc8a778b46989753216e83e657231ded55793"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/binding.json": {
+      "bytes": 513,
+      "sha256": "b944966a6d13d591be6613f9ebff39a914eaee4041698490ddf96da5db62b072"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/conftest.py": {
+      "bytes": 1584,
+      "sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/installed_origin.py": {
+      "bytes": 7729,
+      "sha256": "c78b1e69fab7c52abcf087a12d9f2cf7b008163eddaf484acd4896b5e1e85a9b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/installed_sqlmodel_oracle_support.py": {
+      "bytes": 10398,
+      "sha256": "a3c440bfddef390aeb5c2cd34db1034e9a18ac44aa518a4976888b1afe51af24"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/installed_sqlmodel_oracle_support.py.patch": {
+      "bytes": 3366,
+      "sha256": "acd89fac3f8597272460919074ca1ee29c70250a0a4e24d7b3e56d80c76cc0c9"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/run-installed-sqlmodel.sh": {
+      "bytes": 3773,
+      "sha256": "323781960a252d046ef814d8944b06f75427475e62239215fb7464159b2b97a9"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/test_async_sqlmodel_public_hook.py": {
+      "bytes": 35673,
+      "sha256": "6484e8da364ffe59b9f659cdfd64716f672b28d82af6ca7f89b756946e3d8cf6"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/source-packet/test_async_sqlmodel_public_hook.py.patch": {
+      "bytes": 1106,
+      "sha256": "0775e35a20282bed41cfe6c71ed7b62edca82261f5d3e5c3e8bedb3ed2c125e2"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/run/installed38/wrapper.log": {
+      "bytes": 772,
+      "sha256": "3fcea570b8876929d871f08f156937720b310e8a4cb8429dd7681fffc8868454"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/test_async_sqlmodel_public_hook.py": {
+      "bytes": 35673,
+      "sha256": "6484e8da364ffe59b9f659cdfd64716f672b28d82af6ca7f89b756946e3d8cf6"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-20261014/test_async_sqlmodel_public_hook.py.patch": {
+      "bytes": 1106,
+      "sha256": "0775e35a20282bed41cfe6c71ed7b62edca82261f5d3e5c3e8bedb3ed2c125e2"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/ANCESTRY.sha256": {
+      "bytes": 1581,
+      "sha256": "90df63f552abd69fdb7b0bd11bbb7c370a482f97fd0bdcd467bc15f63837768a"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/CANDIDATE_SOURCE_MANIFEST.json": {
+      "bytes": 24182,
+      "sha256": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/DEPENDENCY_SOURCE_PINS.json": {
+      "bytes": 2114,
+      "sha256": "9aeff3344a9d236bfaca7aa42f02e90e589e13cf665f5e7ad63171b1acb82c1b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/PREPARATION.sha256": {
+      "bytes": 1382,
+      "sha256": "21d00b3d5d6219902dc29e47e83fce3affa06c0318fb607ac9d5926eb6a24f01"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/SCOPE.md": {
+      "bytes": 5303,
+      "sha256": "ff352154646fd32dcdc27d06347b3b495e09cd16c0b96e69eea89d1e0c19982d"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/SQLMODEL_NODE_IDS.txt": {
+      "bytes": 3896,
+      "sha256": "f1df3e1af998d0bbe1487648ffde44d9209561c5d2b9d57eb78f4c39a0be650b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/STATIC_ROUTING_REVIEW.json": {
+      "bytes": 461,
+      "sha256": "866fe0d430df02106efda48b6febc8a778b46989753216e83e657231ded55793"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/binding.json": {
+      "bytes": 431,
+      "sha256": "8a6671ece8b41695ff36a5107176d6379778e3cac180d2430084f274901f8711"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/conftest.py": {
+      "bytes": 1584,
+      "sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/installed_origin.py": {
+      "bytes": 7729,
+      "sha256": "c78b1e69fab7c52abcf087a12d9f2cf7b008163eddaf484acd4896b5e1e85a9b"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/installed_sqlmodel_oracle_support.py": {
+      "bytes": 10398,
+      "sha256": "a3c440bfddef390aeb5c2cd34db1034e9a18ac44aa518a4976888b1afe51af24"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/installed_sqlmodel_oracle_support.py.patch": {
+      "bytes": 3366,
+      "sha256": "acd89fac3f8597272460919074ca1ee29c70250a0a4e24d7b3e56d80c76cc0c9"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/prepare_source_only.py": {
+      "bytes": 4830,
+      "sha256": "23d03b410f3b49823b37328472d9ea94df770242f20f76aa01a40702ab8ddd70"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/run-installed-sqlmodel.sh.template": {
+      "bytes": 3174,
+      "sha256": "517a50315921502b4f02284b13d3c99c86bc667da34d45035167b562c3c55ade"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/test_async_sqlmodel_public_hook.py": {
+      "bytes": 35673,
+      "sha256": "6484e8da364ffe59b9f659cdfd64716f672b28d82af6ca7f89b756946e3d8cf6"
+    },
+    "cryptalis-executable/experiments/s25-installed-sqlmodel-controls-preparation-20261014/test_async_sqlmodel_public_hook.py.patch": {
+      "bytes": 1106,
+      "sha256": "0775e35a20282bed41cfe6c71ed7b62edca82261f5d3e5c3e8bedb3ed2c125e2"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa20-copy-inodes.json": {
+      "bytes": 198103,
+      "sha256": "ddf1836b6899198433b8d1ec9e7d4137ffb238a2c7fd02b00095d131b6e2a678"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa20-install.stderr": {
+      "bytes": 583,
+      "sha256": "a59c62d890bd35ee3e76993a80035097610d388b9f99030b2def3edc1355e2cd"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa20-install.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa20-installed-inodes.json": {
+      "bytes": 202652,
+      "sha256": "523df2b000a9ceb8eb82c25cb6d971b0f4e1b01624289215789fb8aed08d35f9"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa21-copy-inodes.json": {
+      "bytes": 198148,
+      "sha256": "9b46767314bb283493ee7bc113615697faf8e475c0728a72107ce790de29eddd"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa21-install.stderr": {
+      "bytes": 585,
+      "sha256": "31ebf43e483ad9023b21a7cc9b551acc57a698b3630402662c91531b5ae00f13"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa21-install.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/sa21-installed-inodes.json": {
+      "bytes": 202697,
+      "sha256": "ee5ccaaeb901a30b0fa9346ac35891b5420c39d1e8ac46f46cc4d0d5f2a932bc"
+    },
+    "cryptalis-executable/release-lab/s25-installed-20261014/verification.json": {
+      "bytes": 2605,
+      "sha256": "c2328e37460ec34a08c721197ab27ae16fb399294e9d4a90858dad78a328c77c"
+    },
+    "cryptalis-executable/release-lab/s25-sqlmodel-installed-20261014/sqlmodel-copy-inodes.json": {
+      "bytes": 704236,
+      "sha256": "2270ce7e67122ffb5f6138c4df5a9068815419e822af97742f95c07eee68bf45"
+    },
+    "cryptalis-executable/release-lab/s25-sqlmodel-installed-20261014/sqlmodel-install.stderr": {
+      "bytes": 582,
+      "sha256": "448f10ed987f37577e551c98d0172969175e7d5ca798c261374d6bc0085c7697"
+    },
+    "cryptalis-executable/release-lab/s25-sqlmodel-installed-20261014/sqlmodel-install.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cryptalis-executable/release-lab/s25-sqlmodel-installed-20261014/sqlmodel-installed-inodes.json": {
+      "bytes": 731993,
+      "sha256": "71cf463a6b1345ecf064ff5db11f36ed7a26c76ee2715da23172ea713ea264e7"
+    },
+    "cryptalis-executable/release-lab/s25-sqlmodel-installed-20261014/verification.json": {
+      "bytes": 1383,
+      "sha256": "8dc71f724b3990c5b7d3d8184384ccf7918d90b9143bd7939aeee1da322f5370"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SA21_EXACT_OUTCOMES.tsv": {
+      "bytes": 351910,
+      "sha256": "ad61b62f7e495964065cdc17a8adf47b4e962f9d032f2142d084eeebeb0e7291"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SA21_TERMINAL_AUDIT.json": {
+      "bytes": 4270,
+      "sha256": "3f6390e7dcd9248199310549fb834f71b7d67761c44e0c246b168d4c882bf32b"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SA21_TERMINAL_REVIEW.md": {
+      "bytes": 3046,
+      "sha256": "d9d753ca22edaadbde823ddfdf3c1407499cd74a4595bd15a7e473d19dfdb413"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SOURCE_CLEARANCE_AUDIT.json": {
+      "bytes": 1400,
+      "sha256": "f18d14bf616e584b9abb6e87f15df1505991f2fca3ade0130063e14e8cfad45d"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SOURCE_COMMAND_REVIEW.md": {
+      "bytes": 6404,
+      "sha256": "aaf84304304ed300399fe61cd030a40bdb2343b061013d3ec29a6c4b028592da"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/audit_source_clearance.py": {
+      "bytes": 5247,
+      "sha256": "bfed93ac4322c1c5b37f9b9d72bb968769a8d8528ff58f0849b76acd2e646d0d"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/audit_terminal.py": {
+      "bytes": 7762,
+      "sha256": "83d0ef7f93a5228f467eb3c34a0cf5f19f569538e91aa3ecd1a427455e7f57aa"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/ARTIFACT_SHA256.json": {
+      "bytes": 386,
+      "sha256": "97034ba45fae258870ab0f748e825ec5e745a7f864c8738b1fa8e7a25a6e0dfc"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/SA20_EXACT_OUTCOMES.tsv": {
+      "bytes": 352048,
+      "sha256": "222a659ef1cee8961d583095b208e53fa7af283588224e3918859a7590406196"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/SA20_TERMINAL_AUDIT.json": {
+      "bytes": 13860,
+      "sha256": "e6f2a1df3beb8559f32fcd5a734755bec36a06a370a0c7094ae8f93afbaffd93"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/SA20_TERMINAL_REVIEW.md": {
+      "bytes": 4157,
+      "sha256": "0b20eb9e8270ccef3f5cd9d1ddb547deb8b71127a8157385ebc845528e99c888"
+    },
+    "cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/audit_terminal.py": {
+      "bytes": 9196,
+      "sha256": "8c9087d9bc8a59a5e3f804891564371d547f90ed459ac8779375a45927c8c217"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/INSTALLED38_AUDIT.json": {
+      "bytes": 575,
+      "sha256": "09d0d298e79eff1769f68e67f3c438ee4144bb3d1a3d0e1d516bf73b4cf3739d"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/INSTALLED38_POSTRUN_REVIEW.md": {
+      "bytes": 2998,
+      "sha256": "3d26706d56b6cf6634113fc2eeafa161f87c3095c5b55f6b25471fc6f266f4fe"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/INSTALLER_PLAN_AUDIT.json": {
+      "bytes": 1172,
+      "sha256": "18ae0a33dd3a8e4823746223f6662869ce6ff42ec281636ec1ac080503150e7f"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/INSTALLER_SOURCE_COMMAND_REVIEW.md": {
+      "bytes": 4265,
+      "sha256": "896142c10d297ad081a6d8152707c0799dfb9f713170ea0a6070a0e771edf1cb"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/MAIN_INSTALLED_AUDIT.json": {
+      "bytes": 1222,
+      "sha256": "fcaed2250ce676fd0dfe435f4923f0c6a5c904ef72852f011d8ee23c19a5fe3d"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/OPTIONAL_FINAL_COMMAND_REVIEW.md": {
+      "bytes": 2547,
+      "sha256": "9f12b180498675f60ed93679d18de53abfd56672df5f1b36221d1fea8b9ee724"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/OPTIONAL_INSTALLED_AUDIT.json": {
+      "bytes": 802,
+      "sha256": "c1f254b5e6e7af55202c4290cc7abf4dfc5f261da02633288dbdf01fc681cbff"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/OPTIONAL_ROUTING_SOURCE_REVIEW.md": {
+      "bytes": 3963,
+      "sha256": "db8658dd74de09add1136d442cc4eefeb104500faaa77bf4a3b9f851c782dc3c"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/POSTINSTALL_PAYLOAD_REVIEW.md": {
+      "bytes": 3200,
+      "sha256": "96b94b3d8d8e0af7c47b280f5bf0fdd84f2f76dc40009f68e084f041f4293572"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/audit_installed38.py": {
+      "bytes": 5317,
+      "sha256": "aeb785e4a4cab458e28d7ba7109e3fc09e81760ed3c4f38d5c444077552314a3"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/audit_installed_payload.py": {
+      "bytes": 5656,
+      "sha256": "43b2df7df9e39ffc13cddf428d075bafee1731ae7de14c99721e8bc93f861727"
+    },
+    "cryptalis-executable/reviewer-notes/s25-release-plan-independent-20261014/audit_installer_plans.py": {
+      "bytes": 2388,
+      "sha256": "8a4e9366b0c13b2464beee9a4ba3f87d82d3b18d5f868a8cc29f5434d8bda833"
+    },
+    "cryptalis-executable/toolchain/lab_progress.py": {
+      "bytes": 573,
+      "sha256": "673e3d41398f6be36876008f80110b313ad86553363052c8f14a25e1c47b93c1"
+    },
+    "cryptalis-executable/toolchain/lab_session.py": {
+      "bytes": 10416,
+      "sha256": "1138f48a9993c2dded9160e72698aa754c8ec591639bafcb26d35d66e88d5fdf"
+    },
+    "cryptalis-executable/toolchain/run_baseline.py": {
+      "bytes": 3905,
+      "sha256": "a88c24fa1699ce42a091c9d2da1168ba453d4548a811d542316fe95cb833d00f"
+    },
+    "persistence-recovery-20261013/s25-full-installed-sa20-entry-exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "persistence-recovery-20261013/s25-full-installed-sa20-entry.log": {
+      "bytes": 77977,
+      "sha256": "97d2ebdebb682c929995cd4682336eef333c7fd90e39289d7712a86780d5eca8"
+    },
+    "persistence-recovery-20261013/s25-full-installed-sa21-entry-exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "persistence-recovery-20261013/s25-full-installed-sa21-entry.log": {
+      "bytes": 77977,
+      "sha256": "97d2ebdebb682c929995cd4682336eef333c7fd90e39289d7712a86780d5eca8"
+    },
+    "recovery-metadata/CHECKER_DEVELOPMENT-v1.json": {
+      "bytes": 666,
+      "sha256": "2f22533fd861057f5d7d16e29f98586c2ec752dec9040c25a897c78b5a783151"
+    },
+    "recovery-metadata/FREEZE-v1.json": {
+      "bytes": 3226,
+      "sha256": "9c39a23fbbb70c9012518e1c33ffe6ff8b8bd7e0e8ba1641ac9f3f96e321587e"
+    },
+    "recovery-metadata/INPUT_ALLOWLIST-v1.json": {
+      "bytes": 119059,
+      "sha256": "c6d658a3e2eded6ee6d6e0d4f00630a6292d243916eec9fc1fe63035132f1a32"
+    },
+    "recovery-metadata/INPUT_SNAPSHOT_BEFORE-v1.json": {
+      "bytes": 63337,
+      "sha256": "f1eb236e7476ee8311040df9792b8188f3b3f8a03c3d8347f266a5e43b91b61b"
+    },
+    "recovery-metadata/INVENTORY-v1.json": {
+      "bytes": 3136,
+      "sha256": "73aaf7a72d2cb569f25a94a8fefac3cd76c1db6d96ccb7db6875f48cf46de996"
+    },
+    "recovery-metadata/LOCAL_FREEZE_AUTHORIZATION-v1.json": {
+      "bytes": 2954,
+      "sha256": "c19eac0c66c394699a29dd569eb086de16c86bfeb18d5f8b74e87e683b3291c5"
+    },
+    "recovery-metadata/PAYLOAD_MANIFEST-v1.json": {
+      "bytes": 118864,
+      "sha256": "cf5f3401e85f88f84bcc3bbe5f5179f13182c2bc479a9505e4648ab4bff702f8"
+    },
+    "recovery-metadata/PREPARATION_AUDIT-v1.json": {
+      "bytes": 3046,
+      "sha256": "03d7b6816d581bdad7003f90b31f0785e4813bcea4f98a3536ecdca4dfc7d948"
+    },
+    "recovery-metadata/RECOVERY_SCOPE-v1.md": {
+      "bytes": 11272,
+      "sha256": "13330767d315159132ee43b527451d59f954c59b8ff7f112ad583192ab4b24dc"
+    },
+    "recovery-metadata/audit_preparation_v1.py": {
+      "bytes": 13466,
+      "sha256": "b96805ae205d6f59ba43fed44361103fd3c9da2c956009c00a8fdc152649f166"
+    },
+    "recovery-metadata/audit_preparation_v1_initial.py": {
+      "bytes": 13467,
+      "sha256": "76856666afbde2149eb15b80eb9e5c06abb7fc7680e353dcda058bbbd89c3131"
+    },
+    "recovery-metadata/freeze_installed_v1.py": {
+      "bytes": 12187,
+      "sha256": "a965d14c13c3f0d1c9426165c74e8b46c7ce74c9b2c5d5bb4f46a16a5eb96e1c"
+    },
+    "recovery-metadata/independent-review/ALLOWLIST_AUDIT-v1.json": {
+      "bytes": 9682,
+      "sha256": "e24838eb4869ab4a06c54c40660bfc8c82413fe790a37b3bfa8eaf0f800b7a1a"
+    },
+    "recovery-metadata/independent-review/ALLOWLIST_REVIEW-v1.md": {
+      "bytes": 8065,
+      "sha256": "90021c3424eb5a71b1a6388b63b97114ee909aa978756f8acd0e66d7019cc3f3"
+    },
+    "recovery-metadata/independent-review/CHECKER_DEVELOPMENT-v1.json": {
+      "bytes": 3819,
+      "sha256": "fdc406ae05142b7a06f35bd0aed447f276270adfbc54ea0e31a96b5d3fa9c708"
+    },
+    "recovery-metadata/independent-review/audit_allowlist_v1.py": {
+      "bytes": 18493,
+      "sha256": "db3ab48bb4aa85e9037362aed93cab475d73fb1727df0a8e4fd020889174376d"
+    },
+    "recovery-metadata/independent-review/audit_allowlist_v1_empty_map_attempt.py": {
+      "bytes": 8164,
+      "sha256": "f91c08c3b7cf663740b3ac8f493fb846006ec5d310e9e7f59e2b07d15f5a7861"
+    },
+    "recovery-metadata/independent-review/audit_allowlist_v1_initial.py": {
+      "bytes": 8158,
+      "sha256": "888ca3078798bfeb132b25ea2fc073c73122fe7b5e5d5fffb0c8d3a3f78feeec"
+    },
+    "recovery-metadata/independent-review/audit_allowlist_v1_suffix_corrected.py": {
+      "bytes": 8157,
+      "sha256": "c5d17bba8b09c34177ed47322db574a527b8b5105d234844833fb25c6801f4a8"
+    },
+    "recovery-metadata/prepare_inventory_v1.py": {
+      "bytes": 10579,
+      "sha256": "86a51cb63f072a7bc3335873e49c687dd9a9cc849be56a75e6d272b7acd75fe5"
+    }
+  },
+  "remaining_boundary": "Seven historical failures unresolved; optional38 is not full optional cross-module qualification; this is evidence-only recovery.",
+  "remote_commit_sha": "c94d26fde742d27efd87f09bed229e5f519db9d7",
+  "remote_prefix": "recovery/s25-installed-additive/parts",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "selected_original_input_bytes": 15401104,
+  "selected_original_inputs": 289,
+  "status": "PASS_AUTHENTICATED_REMOTE_DATA_ONLY_ADDITIVE_RESTORE"
+}

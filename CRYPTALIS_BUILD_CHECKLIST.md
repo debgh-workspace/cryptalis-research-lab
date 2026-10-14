@@ -1212,3 +1212,29 @@ All18 archive parts and manifest are remotely exact across retained commits4220a
 - G2 metadata SA21:16PASS/83deselected/16warnings/5.05s. SA20:16PASS/83deselected/16warnings/4.59s. Both independently accepted: exact IDs and phase/property sequences; all15 body/fallback/final marker sets and source-scan final;261pins/215source/154runner/6externalPython/38authoredpacket files;26corpus restore and stop0. Metadata proxies do not qualify native permissions, ownership, RLS or visibility.
 - G3 contract SA21 started through unchanged wrapper and role preflights after both G2 audits; no later group or counterpart authorized automatically.
 - Latest authoritative metadata commit677ef8f15200362a3d502eb6a21f7527e1573c28 has7 files exactly read back. Original mailbox rechecked22:02, unchanged.
+
+### Statistics G3 native contract boundary — 2026-10-14 22:11 UTC
+
+SA21 completed11PASS/88deselected/11warnings/3.13s and independent source, command, phase, completion-marker, corpus and shutdown checks accepted. SA20 completed11PASS/88deselected/11warnings/2.93s; independent counterpart audit pending. Exact frozen entries and all three external anchors used before/after. Native ordinary/AUTOCOMMIT read-only probes require25006; current check/doctor/public route behavior is unchanged. These results do not guarantee natural initial missing statistics or qualify maintenance/performance. All seven gates remain UNKNOWN.
+
+### Online closure V2 source-only slice — 2026-10-14 22:13 UTC
+
+The completed15-file documentary packet has independent CLEAR_SOURCE_ONLY review. Current201-file candidate differs fromV1 in one helper, fromD5 in two helpers. Three ChildFrameLab inherited worker routes now raise typed FixtureRouteUnsupported before SQL by source inspection; successfulV1writebypass was never established. All14 inherited APIs are explicitly classified.
+
+Coordinator executed the reviewed isolated standard-library AST/unittest command with all201 source and15 packet file hashes before/after:8 tests PASS in0.020s, command0, all four pin commands0. Evidence/online-closure-v2-source-checks-20261014. Independent postrun data audit pending. These are structural assertions only, not dynamic refusal, lock, transaction, race or native database evidence. Durable closer, runtime writer guard, capture/handoff, paused finisher and rotation/provider objectives remain incomplete and approval-dependent. No production gate advanced.
+
+### Online source checkpoint and G4 observation — 2026-10-14 22:17 UTC
+
+Online V2 independent postrun review accepts exactly8 structural checks and all201 source/15 packet pre/post hashes. Experimental source checkpoint98545e46559af7e4c54133ce5621e0e39b6bfdbf contains8 files, all remotely byte-exact. This is a partial documentary/source checkpoint, not a runnable full-source restore or verified online closure. Full packet/check reviews remain to publish.
+
+Statistics G3 SA20 is independently accepted, matching SA21 exact11case/properties/source/commands/restore. G4 SA21 completed15PASS/84deselected/15warnings/3.57s; snapshot property OBSERVED_NATIVE_MISSING observed, independent full audit pending. No counterpart or latergroup until audit.
+
+Installed S25 additive archive locally and independently verified309files,289inputs,960636bytes,SHA2566646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a. Elevenpart upload underway; part01 uncertain request returned no receipt, remote lookup404, exact retry pending. No remote complete claim.
+
+### Installed S25 additive recovery complete — 2026-10-14 22:20 UTC
+
+All11 parts and manifest read back exactly from finalcommitc94d26fde742d27efd87f09bed229e5f519db9d7; predecessor409ede2e112b749ff2e6a711c5ed362bfc7e2248 retains first8parts. Pinned authenticated-readback provenance8bda50fe8152368723987bbeb1bc9c197e26cd42d868612ac3e4e7d526af8738. Strict fresh data-only restore passed309members/289selectedinputs/960636archivebytes, SHA2566646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a. Seven historical failures preserved; all7gatesUNKNOWN; no operational/runtime/dependency/database restore claim.
+
+### G5 reviewer evidence-scope incident — 2026-10-14 22:25 UTC
+
+First G5SA21 reviewer read prohibited tests.json and postgres-stop.json in a combined tool read. Review stopped and is not accepted. Reviewer reports no files created, no values in authored messages, and no original changes. Root did not inspect those contents. No raw phase files were uploaded to GitHub. A separate reviewer now uses an explicit safe-file allowlist; its result remains pending. Incident record: persistence-recovery-20261013/g5-review-scope-incident-2225.json, containing filenames/status only. The earlier review cannot be described as compliant or reused as qualification evidence.

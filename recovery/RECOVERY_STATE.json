@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T22:07:00Z",
+  "observed_at_utc": "2026-10-14T22:17:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -1247,7 +1247,7 @@
       "pass": 38,
       "seconds": 5.26
     },
-    "remote_head": "d10ecd4d313ce78bc025fcc3118698a7ab92b07b",
+    "remote_head": "c94d26fde742d27efd87f09bed229e5f519db9d7",
     "full_archive_verified_parts": 18,
     "full_archive_complete": true,
     "active_db": null,
@@ -1269,5 +1269,35 @@
     "audits": "PASS_BOUNDED_METADATA",
     "native_RLS_ownership_qualification": false
   },
-  "statistics_g3_sa21": "Runner exit0; independent audit pending"
+  "statistics_g3_sa21": "11 PASS in3.13s, independently accepted",
+  "statistics_g3_sa20": "11 PASS in2.93s independently accepted",
+  "online_closure_v2": {
+    "source_preparation": "CLEAR_SOURCE_ONLY",
+    "candidate_files": 201,
+    "packet_files": 15,
+    "packet_manifest_sha256": "33b87cb277e5ab3c20dc05282435465b5acbf4423ed5395f247c4122f1332971",
+    "structural_tests": {
+      "pass": 8,
+      "seconds": 0.02,
+      "exit": 0,
+      "independent_postrun": "CLEAR_SOURCE_ONLY"
+    },
+    "runtime_closure": "NOT_IMPLEMENTED_OR_QUALIFIED",
+    "approval_blockers": "capture/guard/handoff/rotation/provider as applicable"
+  },
+  "installed_additive": {
+    "sha256": "6646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a",
+    "bytes": 960636,
+    "members": 309,
+    "inputs": 289,
+    "independent_local_restore": "PASS",
+    "remote_complete": true,
+    "parts": 11,
+    "upload": "Complete; original uncertain part01 reconciled404 and exact retry succeeded.",
+    "commit": "c94d26fde742d27efd87f09bed229e5f519db9d7",
+    "remote_verified_parts": 11,
+    "fresh_remote_restore_members": 309,
+    "provenance_sha256": "8bda50fe8152368723987bbeb1bc9c197e26cd42d868612ac3e4e7d526af8738"
+  },
+  "statistics_g4_sa21": "15 PASS in3.57s, observed native missing snapshot; independent audit pending"
 }

@@ -1,0 +1,25 @@
+{
+  "authenticated_remote_readbacks_verified": true,
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "commit_sha": "c94d26fde742d27efd87f09bed229e5f519db9d7",
+  "remote_prefix": "recovery/s25-installed-additive/parts",
+  "archive_sha256": "6646ac33e3c4dfcf8f60ca54a8c7111e470dee8c7cdc369a7a245e5159f8d06a",
+  "part_manifest_sha256": "559a130311780e8188ec313ba3645688b4d74de4b7834f2aaae544f37f467f04",
+  "local_readback_directory": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/s25-installed-additive-remote-parts",
+  "remote_paths": [
+    "recovery/s25-installed-additive/parts/MANIFEST.json",
+    "recovery/s25-installed-additive/parts/part-01.bin",
+    "recovery/s25-installed-additive/parts/part-02.bin",
+    "recovery/s25-installed-additive/parts/part-03.bin",
+    "recovery/s25-installed-additive/parts/part-04.bin",
+    "recovery/s25-installed-additive/parts/part-05.bin",
+    "recovery/s25-installed-additive/parts/part-06.bin",
+    "recovery/s25-installed-additive/parts/part-07.bin",
+    "recovery/s25-installed-additive/parts/part-08.bin",
+    "recovery/s25-installed-additive/parts/part-09.bin",
+    "recovery/s25-installed-additive/parts/part-10.bin",
+    "recovery/s25-installed-additive/parts/part-11.bin"
+  ],
+  "source": "authenticated_remote_readback",
+  "local_staging_used_for_restore": false
+}
