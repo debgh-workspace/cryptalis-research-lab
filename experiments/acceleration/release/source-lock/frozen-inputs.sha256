@@ -1,0 +1,12 @@
+c4717692edbe4ca26732a206a74856f12b2d33369c89fef52d7e8f1c2c396239  build-plan.json
+a3b003110a89467800d5f9a67305089aa00f67c3fbb4f6feb2f9cde0c5778d20  verify.py
+0357bf43169efb81aaa8de5d8c03a005d949b9a7eb18cfde8894e87259e855ed  extract-sdist.py
+021d11a3a30af47a1703d7a5a491cbbbaeaaabf49812c2224489c2e5bd266b5c  run-after-review.sh
+2206396ee57cad187b9f3943b88aa5baa0e4283f133c79e0c4b89845f4d01111  REVIEW.md
+69b401bd7736f3f7fe77dac1cb5ca2e3a2c96e3885f5c8cc8578ebbfac8a6591  original-source.sha256
+8b9a077c167ceb59f5577047f9f1715596b9779b3c1b1c25c0ad95481602ae20  derivative-source.sha256
+abdc39eab8b4ad341dca91f3823a23a343fae94bdb22ebdd9e91694415206f2f  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv
+fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3
+f4ecefe3b65d6b8f49bbb28206f8f1a54d950141da76402ef1f3e128adcecf2c  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/uv-0.12.23.dist-info/METADATA
+a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7  ../release-lab/s20-payload-preparation-20261014/dist-1/cryptalis-0.1.0-py3-none-any.whl
+dd4b0f44c0b0114b56c5d57637ff79e159ce6c65e1c9e71fbdd2843aabb495c6  ../release-lab/s20-payload-preparation-20261014/dist-1/cryptalis-0.1.0.tar.gz
