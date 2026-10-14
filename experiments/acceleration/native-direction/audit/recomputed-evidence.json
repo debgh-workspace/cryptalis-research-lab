@@ -1,0 +1,206 @@
+{
+  "method": "Independent standard-library-only data/source-byte inspection; candidate never imported or executed",
+  "checks": {
+    "schedule_exact": true,
+    "all_elapsed_match": true,
+    "clock_order": true,
+    "counts_and_output_flags": true,
+    "measured_total": true,
+    "resources_monotonic": true,
+    "summary_7_exact": true,
+    "summary_32_exact": true,
+    "summary_128_exact": true,
+    "summary_4096_exact": true,
+    "mechanism_pass_exact": true,
+    "manifest_entries_match": true,
+    "timing_protocol_hash_match": true,
+    "timing_harness_hash_match": true,
+    "timing_source_hash_match": true,
+    "timing_binary_hash_match": true,
+    "fixture_hash_match": true,
+    "correctness_source_binary_match": true,
+    "correctness_labels_exact": true,
+    "fixture_keys_unique": true,
+    "fixture_nonces_unique": true
+  },
+  "all_checks_pass": true,
+  "sample_count": 56,
+  "measured_operations": 56000,
+  "declared_warmups": 5600,
+  "elapsed_wall_span_ns": 381986702,
+  "summary": {
+    "7": {
+      "original_median_per_item_ns": 3143.005,
+      "candidate_median_per_item_ns": 1736.967,
+      "ratio": 0.5526453187315961,
+      "favorable_blocks": 7,
+      "primary": true,
+      "pass": true,
+      "reduction_percent": 44.735468126840395,
+      "per_block_wall_ns": {
+        "original": [
+          4026.084,
+          3550.254,
+          3125.939,
+          3143.005,
+          3054.284,
+          3151.307,
+          3003.309
+        ],
+        "candidate": [
+          2369.677,
+          3079.271,
+          1721.703,
+          1736.967,
+          1671.069,
+          1646.843,
+          1776.734
+        ]
+      },
+      "paired_ratios": [
+        0.5885811125649639,
+        0.8673382242509974,
+        0.5507794617873222,
+        0.5526453187315961,
+        0.5471229918370394,
+        0.522590468018508,
+        0.5915921405356558
+      ]
+    },
+    "32": {
+      "original_median_per_item_ns": 3294.138,
+      "candidate_median_per_item_ns": 1825.596,
+      "ratio": 0.5541953615786588,
+      "favorable_blocks": 7,
+      "primary": true,
+      "pass": true,
+      "reduction_percent": 44.58046384213412,
+      "per_block_wall_ns": {
+        "original": [
+          3466.661,
+          3537.155,
+          3294.138,
+          3448.875,
+          3209.393,
+          2848.782,
+          3000.105
+        ],
+        "candidate": [
+          1660.914,
+          1988.546,
+          2422.274,
+          1743.515,
+          2102.164,
+          1596.73,
+          1825.596
+        ]
+      },
+      "paired_ratios": [
+        0.47911059085385044,
+        0.5621879731026771,
+        0.735328635290932,
+        0.50553151389946,
+        0.655003609716853,
+        0.5604956785040063,
+        0.6085107021254256
+      ]
+    },
+    "128": {
+      "original_median_per_item_ns": 3478.078,
+      "candidate_median_per_item_ns": 2210.293,
+      "ratio": 0.6354926485259963,
+      "favorable_blocks": 7,
+      "primary": true,
+      "pass": true,
+      "reduction_percent": 36.45073514740037,
+      "per_block_wall_ns": {
+        "original": [
+          3650.962,
+          4249.823,
+          4520.001,
+          3130.817,
+          3319.245,
+          3237.654,
+          3478.078
+        ],
+        "candidate": [
+          2093.621,
+          2347.825,
+          2546.016,
+          2210.293,
+          1931.522,
+          2220.638,
+          1930.241
+        ]
+      },
+      "paired_ratios": [
+        0.5734436567677231,
+        0.5524524197831298,
+        0.5632777514872231,
+        0.705979621293739,
+        0.5819160682625115,
+        0.6858787257687202,
+        0.5549734652299345
+      ]
+    },
+    "4096": {
+      "original_median_per_item_ns": 16837.747,
+      "candidate_median_per_item_ns": 15380.041,
+      "ratio": 0.9134263034122083,
+      "favorable_blocks": 5,
+      "primary": false,
+      "pass": true,
+      "reduction_percent": 8.657369658779167,
+      "per_block_wall_ns": {
+        "original": [
+          17717.291,
+          18406.445,
+          16837.747,
+          17003.605,
+          14559.875,
+          15433.58,
+          15406.83
+        ],
+        "candidate": [
+          15380.041,
+          15963.81,
+          17157.617,
+          14680.192,
+          13913.924,
+          13962.676,
+          16018.03
+        ]
+      },
+      "paired_ratios": [
+        0.8680808482515752,
+        0.8672945807840677,
+        1.0189971971903367,
+        0.8633576232804749,
+        0.9556348526343805,
+        0.9046945685965277,
+        1.0396707174675128
+      ]
+    }
+  },
+  "observed_sha256": {
+    "measure_direction.py": "f26823bfe6d13b7d57eaa8c0e5e52132c34fc18f6f59ed8a2447b50469c2a99c",
+    "test_direction.py": "7ce19da934fc54bccdb53fc73265d81693cb51a9f90065385380aa1c4bb19924",
+    "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+    "SCOPE.md": "bde0095ea8397a28a551f92906554abaab30d47a57cbdd5b3555c61c06aaf17c",
+    "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+    "MICRO_PROTOCOL.md": "f85af0be9a48ad0d52af7ed70f9da9f39fb3eb02b1a13eebd529fdf5c2385f90",
+    "evidence/frozen-direction-timing-01.json": "70e1aeb16f08c90bab2d5ec4fe6702620b974212094b33f294521f4fd81eb7bd",
+    "evidence/public-vector-checks-01.json": "a8056e8e6d13f3368e965cdd135ad53e53226fb17f78e5a25eba89166ba9eccc",
+    "evidence/build-01.json": "4e5320da9dc4941137d28f3a4cd046295d5f47e1d9cbb76ab923939706af6810",
+    "evidence/build-02.json": "5d92a7fa1cfab12f466b21e48185f2785206c4e4cde3e1ed02eb4b4731bf218d",
+    "evidence/source-manifest.json": "01fab3305f39573fa7d405d172f4ade67f82707c326d126d88d8da34450cb911",
+    "evidence/post-measurement-integrity.json": "a260bd7669a42d692962c1af90c6d04508e0165cc0686e6adf3053594a8f892b"
+  },
+  "manifest_unlisted_files": [
+    "MICRO_PROTOCOL.md",
+    "evidence/frozen-direction-timing-01.json",
+    "evidence/post-measurement-integrity.json",
+    "evidence/source-manifest.json",
+    "measure_direction.py"
+  ]
+}

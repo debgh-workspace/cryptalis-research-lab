@@ -1,0 +1,46 @@
+[
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py"
+    ],
+    "expected_exit": 0,
+    "exit_code": 0,
+    "stdout": "{\"status\": \"PASS\", \"passed\": 76, \"native_backend\": \"OpenSSL 3.5.7 9 Jun 2026\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py",
+      "--negative-control"
+    ],
+    "expected_exit": 1,
+    "exit_code": 1,
+    "stdout": "{\"status\": \"FAIL\", \"passed\": 0, \"native_backend\": \"OpenSSL 3.5.7 9 Jun 2026\"}\n",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py\", line 46, in <module>\n    runpy.run_path(str(generated), run_name='__main__')\n  File \"<frozen runpy>\", line 287, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/generated_explicit-pinned-o0-negative.py\", line 65, in <module>\n    equal(b'wrong', b'expected')\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/generated_explicit-pinned-o0-negative.py\", line 25, in equal\n    raise AssertionError('Output mismatch')\nAssertionError: Output mismatch\n"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py"
+    ],
+    "expected_exit": 0,
+    "exit_code": 0,
+    "stdout": "{\"status\": \"PASS\", \"passed\": 76, \"native_backend\": \"OpenSSL 3.5.7 9 Jun 2026\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py",
+      "--negative-control"
+    ],
+    "expected_exit": 1,
+    "exit_code": 1,
+    "stdout": "{\"status\": \"FAIL\", \"passed\": 0, \"native_backend\": \"OpenSSL 3.5.7 9 Jun 2026\"}\n",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py\", line 46, in <module>\n    runpy.run_path(str(generated), run_name='__main__')\n  File \"<frozen runpy>\", line 287, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/generated_explicit-pinned-o1-negative.py\", line 65, in <module>\n    equal(b'wrong', b'expected')\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-direction-probe-20261014/generated_explicit-pinned-o1-negative.py\", line 25, in equal\n    raise AssertionError('Output mismatch')\nAssertionError: Output mismatch\n"
+  }
+]
