@@ -1,0 +1,18 @@
+{
+  "status":"SOURCE_ONLY_NOT_RUN",
+  "uv":"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+  "uv_sha256":"abdc39eab8b4ad341dca91f3823a23a343fae94bdb22ebdd9e91694415206f2f",
+  "uv_declared_version":"0.12.23",
+  "backend_selection":"Direct uv build-backend subcommand: bundled backend in the same pinned executable. Do not resolve/import cached uv_build0.12.12 or another backend.",
+  "backend_source":"Bundled Rust backend source tree is not available locally; no source-to-binary provenance claim. Local uv package METADATA and exact executable are pinned. Python uv_build shim is not used.",
+  "environment":{"PATH":"/usr/bin:/bin","HOME":"LOCAL_FRESH_BUILD_HOME","LC_ALL":"C.UTF-8","LANG":"C.UTF-8","TZ":"UTC","SOURCE_DATE_EPOCH":"0","UV_OFFLINE":"1","PYTHONDONTWRITEBYTECODE":"1","UV_CACHE_DIR":"LOCAL_FRESH_BUILD_CACHE"},
+  "epoch_reason":"Existing S20 tar members observed at Unix epoch0; wheel members1980-01-01. This is a new explicit setting, not retroactive old-launch environment evidence.",
+  "original_wheel_sha256":"a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7",
+  "original_sdist_sha256":"dd4b0f44c0b0114b56c5d57637ff79e159ce6c65e1c9e71fbdd2843aabb495c6",
+  "lock_sha256":"faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+  "builds":["source-1 to sdist-1","source-2 to sdist-2","source-1 to direct-wheel","extracted sdist-1 to roundtrip-wheel"],
+  "expected":{"sdists_identical":true,"all_wheels_equal_original":true,"runtime_modules":40,"record_hashed_entries":44,"only_source_change":"pyproject.toml append source-include uv.lock","new_sdist_payload_addition":"uv.lock"},
+  "negative_controls":["missing_lock","altered_lock"],
+  "fail_policy":"Stop at first failed preflight/build/verification; retain logs and artifacts. No automatic alternate backend, retry, install, dependency resolution or test rerun.",
+  "all_seven_gates":"UNKNOWN"
+}
