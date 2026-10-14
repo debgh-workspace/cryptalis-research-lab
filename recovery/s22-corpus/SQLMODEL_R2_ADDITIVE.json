@@ -1,0 +1,75 @@
+{
+  "format": "cryptalis.single-cell-additive-supersession/v1",
+  "status": "COMPOSITE_CURRENT_OBSERVATIONS_WITH_PRESERVED_FAILURE_HISTORY",
+  "all_seven_gates": "UNKNOWN",
+  "initial_aggregate": {
+    "path": "cryptalis-executable/candidate-s22-corpus-refresh-plan-20261014/RECONCILED_CURRENT.json",
+    "sha256": "a08a9f60ce5f2865189b14b4d10f24d96a7544cad6fd7be00b57fc79b2344e86",
+    "status": "INCOMPLETE_OR_FAILED",
+    "counts": {
+      "IDENTICAL": 398,
+      "REJECTED-LOUD": 155,
+      "TEST_FAILURE": 1
+    },
+    "preserved_unchanged": true
+  },
+  "superseded_observation": {
+    "id": "a6/test_a6_sqlmodel_candidate::test_async_sqlmodel_refuses_before_database_sql",
+    "mode": "async",
+    "sqlalchemy": "2.0.51",
+    "profile": "sqlmodel",
+    "classification": "TEST_FAILURE",
+    "observations": [
+      {
+        "id": "a6/test_a6_sqlmodel_candidate::test_async_sqlmodel_refuses_before_database_sql",
+        "mode": "async",
+        "sqlalchemy": "2.0.51",
+        "classification": "TEST_FAILURE",
+        "run": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/s22-corpus-refresh-sqlmodel-20261014",
+        "artifact": "junit.xml"
+      }
+    ],
+    "historical_classification": "REJECTED-LOUD"
+  },
+  "replacement_observation": {
+    "id": "a6/test_a6_sqlmodel_candidate::test_async_sqlmodel_refuses_before_database_sql",
+    "mode": "async",
+    "sqlalchemy": "2.0.51",
+    "profile": "sqlmodel",
+    "classification": "REJECTED-LOUD",
+    "basis": "The same UnsupportedSQLModelRuntime and zero-SQL oracle passes after the isolated fixture satisfies earlier required safe logging admission.",
+    "source_sha256": "46393231fb4aa022ffc557af12a245899eb46abf1366acf0050c170e7bcbebfb",
+    "evidence": "cryptalis-executable/evidence/s22-corpus-sqlmodel-r2-single-20261014",
+    "exact_test_node": "test_a6_sqlmodel_candidate.py::test_async_sqlmodel_refuses_before_database_sql",
+    "test_result": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "elapsed_seconds": 0.37
+    }
+  },
+  "composite_counts": {
+    "IDENTICAL": 398,
+    "REJECTED-LOUD": 156
+  },
+  "composite_expected_cell_count": 554,
+  "unchanged_historical_missing_combinations": 82,
+  "scope": "Exactly one-cell additive supersession; no all-green standalone campaign or full-suite claim. Original11P1F and failed aggregate remain unchanged.",
+  "shared_originals_checked": 26,
+  "shared_original_hash_mismatches": [],
+  "source212_hash_mismatches": [],
+  "safe_evidence_sha256": {
+    "tests.log": "873a8aae9f1cf6abd88b9817b62120bdecc014104886bc3741d9a11b1ddd9937",
+    "junit.xml": "5088e930c8017b706b8b76a53d733303e995d07c152d8f8fbec119f41d861ae8",
+    "progress.jsonl": "e8399d45a93d348a1b0191cff29ba96a3f3dad889657d48a1c295c98bcda57e9",
+    "source-root.json": "34b0b3fdc54d1c45eb3506123896f194f315c5fc1facadee13e1a9b9324cf9cb",
+    "package-origin.log": "f3c0f5e38e49fee41281ce3e9e2fac1e0c98e1167064eeb221dadef73e3d6f1d",
+    "source-stability.json": "1421d616c07067fe0af10dcac9de1439fae75f74ab7d5315f5f8d0e566d2a166",
+    "external-source-stability.json": "0a5d34d09ecddd0b507b5644765dd3b786176721a2713f451fb5a30aaf24ec5b",
+    "dependency-identity.json": "ce5b9f911ca6bc2b3b956a5ce756d6718bd0487bb27e3f365dde33d085357f2b",
+    "candidate-corpus-isolation.json": "5dd2e056467f5d3273c09d3456469b7fb2e21da53960cdbf136a94093311d481",
+    "prior-corpus-manifest.json": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1",
+    "postgres-stop.log": "ca19178a35ab4153b75b494963b66ce8243e1b94c173107c87b44d09db23652d"
+  },
+  "conftest_sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"
+}

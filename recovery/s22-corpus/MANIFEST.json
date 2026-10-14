@@ -1,0 +1,29 @@
+{
+  "archive": "CRYPTALIS_S22_CORPUS_EVIDENCE_ADDON_20261014.tar.xz",
+  "bytes": 120344,
+  "sha256": "079a8bdf19faddc0ea41a02db04eb3828e444eebd4f8ae5d56e87cd36f733815",
+  "parts": [
+    {
+      "name": "CRYPTALIS_S22_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part01",
+      "bytes": 48000,
+      "sha256": "e7f243f1a46dd2562c995e73e6424b8926edf8daf6e4268d00c59c314b79e20c",
+      "git_blob_sha": "f674b6342575e623a9a337b613cbc5cbbf2f3c68"
+    },
+    {
+      "name": "CRYPTALIS_S22_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part02",
+      "bytes": 48000,
+      "sha256": "2b9a7ab52b70a917a5ecbebca8548425ebcc5204d86102bc664083ed11e6e4bf",
+      "git_blob_sha": "4380720780a556c60a7c7e7c018f87a3e90b9f63"
+    },
+    {
+      "name": "CRYPTALIS_S22_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part03",
+      "bytes": 24344,
+      "sha256": "a5677aed01d0f9805e1699231d60fc43acb76daaecdde11de6b2ae9002c731c0",
+      "git_blob_sha": "078ba1d52d2f244c0cfb65e44191b82ebf9b75de"
+    }
+  ],
+  "files": 145,
+  "source_capsule_sha256": "99c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010",
+  "original_failure_preserved": true,
+  "source_not_duplicated": true
+}

@@ -1,0 +1,11 @@
+# S22 corpus evidence recovery add-on
+
+This separate, explicitly allowlisted capsule preserves the current S22 corpus plan, original/v2 reconcilers,8-fixture receipt, original and corrected harnesses, source hashes, four run evidence sets and independent reviews. It supplements rather than replaces the source capsule SHA25699c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010. The212source files are referenced by exact hashes and are not duplicated here.
+
+Both main cells report293passes. The original SQLModel campaign retains11passes/1failure. The separate corrected-fixture retest reports exactly1pass. Original RECONCILED_CURRENT.json remains INCOMPLETE_OR_FAILED with398IDENTICAL/155REJECTED-LOUD/1TEST_FAILURE over554keys. SQLMODEL_R2_ADDITIVE.json preserves the original record and describes only one contract-corrected replacement, yielding a composite398IDENTICAL/156REJECTED-LOUD. This is not a retrospectively all-green original campaign. The82historically missing combinations and seven full-suite failures remain unchanged. The independent additive review is included.
+
+Historical18receipt provenance audit summary/inventory is included as context, not a fresh historical replay. Prior-corpus manifests and isolation reports record preservation; prior shared bytes already preserved by the main source/evidence capsule are not broadly copied again. New run-specific archived outputs are included where explicitly recorded.
+
+INPUT_ALLOWLIST.json lists every external payload file. Raw tests.json/package-origin.json and environment-bearing readiness/start/stop JSON, credentials, environment dumps, virtual environments, database state and private-home files are excluded. Four high-confidence secret-pattern checks provide a bounded inspection, not universal secret-free proof.
+
+Archive creation and fresh extraction are data-only. The extraction admits only unique relative regular members and verifies every member's size/hash. No project/harness/reconciler code, tests, database commands, Git operations or network transfers are run. The package does not supply external Python/uv/toolchain/dependency cells or a runtime/database restore. All seven qualification gates remain UNKNOWN.
