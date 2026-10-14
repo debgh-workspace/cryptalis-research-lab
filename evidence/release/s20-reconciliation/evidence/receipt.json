@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "seconds": 0.10504771600244567,
+  "source_files": 40,
+  "source_unchanged": true,
+  "stdout_sha256": "16f811c8c22112bf66c7489caf203dea84afe3a4cc6500bfdbe0e6c1e914d920",
+  "stderr_bytes": 0,
+  "scope": "one reviewed static artifact check; no product import, build or database"
+}

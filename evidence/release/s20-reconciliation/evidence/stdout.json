@@ -1,0 +1,135 @@
+{
+  "artifacts": {
+    "modules": 40,
+    "record_hashed_entries": 44,
+    "sdist_has_lock": false
+  },
+  "controls": [
+    {
+      "id": "malformed_sbom",
+      "reason": "Expecting property name",
+      "rejected": true
+    },
+    {
+      "id": "missing_wheel_license",
+      "reason": "wheel_license",
+      "rejected": true
+    },
+    {
+      "id": "altered_sdist_license",
+      "reason": "sdist_license",
+      "rejected": true
+    },
+    {
+      "id": "dependency_version_mismatch",
+      "reason": "sbom_versions",
+      "rejected": true
+    },
+    {
+      "id": "dependency_edge_mismatch",
+      "reason": "sbom_edges",
+      "rejected": true
+    },
+    {
+      "id": "missing_record_row",
+      "reason": "record_coverage",
+      "rejected": true
+    }
+  ],
+  "gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  },
+  "graph": {
+    "build_requirement": [
+      "uv_build>=0.12.12,<0.13"
+    ],
+    "distribution_references": 302,
+    "markers_evaluated_for_installed_cell": false,
+    "runtime_union": {
+      "cffi": "2.1.1",
+      "cryptography": "50.0.2",
+      "greenlet": "3.5.6",
+      "psycopg": "3.3.6",
+      "psycopg-binary": "3.3.6",
+      "pycparser": "3.0",
+      "sqlalchemy": "2.1.3",
+      "typing-extensions": "4.16.0",
+      "tzdata": "2026.5"
+    },
+    "sbom_component_license_fields": 0,
+    "test_only_union": {
+      "colorama": "0.4.6",
+      "iniconfig": "2.3.0",
+      "packaging": "26.3",
+      "pluggy": "1.6.0",
+      "pygments": "2.21.0",
+      "pytest": "9.1.1"
+    }
+  },
+  "input_pins": {
+    "candidate-accel-payload-integrated-20261014/LICENSE": "7f5a6a6ca9e6e2d6e75ec8530612396f3eebd2659c79a6ca123bf30a933f23df",
+    "candidate-accel-payload-integrated-20261014/pyproject.toml": "d1cdc106d57da65ce0217748dffd3d54795a424e6ba6df1f3aca2bd6ff0360ed",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/__init__.py": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/__main__.py": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_doctor_ciphertext.py": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_doctor_setup.py": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_experimental_public_delete.py": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_experimental_public_update.py": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_native_text.py": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_sqlalchemy_guard.py": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_sqlalchemy_search.py": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_sqlalchemy_transactions.py": "cb128481811576d8f16b233d4a30fca060eb9a1bfc4459d5e7e129434cc522ec",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_sqlmodel_support.py": "878617cd732040f0e83b6c6991d53884a2bf0927384bc58c71225d85bf7e2f6f",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/_transition_json.py": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/cli.py": "0df0b4f0101933b3a069024965b7bc5a3374747aff53d37099d2f22efc105efe",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/contracts/__init__.py": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/contracts/active_state.py": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/contracts/development_authority.py": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/contracts/transition.py": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/__init__.py": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/_candidate_envelope.py": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/_candidate_scalar.py": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/_candidate_wrap.py": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/_payload_rotation.py": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/_rewrap.py": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/development_file.py": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/crypto/keys.py": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/cutover.py": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/deprotection.py": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/doctor.py": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/__init__.py": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/canonical.py": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/compatibility.py": "60c725dd0e7c567c579ea444beea2f80e32d27e7a8ccfb2d0938f668fda69099",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/compiler.py": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/declaration.py": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/descriptor.py": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/header.py": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/parser.py": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/manifest/routines.py": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/migration.py": "64c9ff601a36352f5cee74d6d11b4ff8a469f10475816b2fac335327f7afe1b8",
+    "candidate-accel-payload-integrated-20261014/src/cryptalis/sqlalchemy.py": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe",
+    "candidate-accel-payload-integrated-20261014/uv.lock": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+    "candidate-s20-release-reconciliation-20261014/expected.json": "a30d555f821c21e57402352bb1cd7c5434181a0388288458b47824160040ee44",
+    "candidate-s20-release-reconciliation-20261014/reconcile.py": "dfaf6204caa61a9735c6d7c607698a5fb3133f5aedc3cbcc05a63ec2eb11d125",
+    "evidence/s20-payload-preparation-20261014-artifacts/report.json": "3a62294d85b82400e6be2435fe2e5357cfd9bb1e5fbb2f9d190792e91dbd78a0",
+    "evidence/w9-license-fix/runtime-sbom.json": "594901766dc82834ad9beac7c3d7b0fe4215f95a34df5d50eb9011c691feb94d",
+    "release-lab/s20-payload-preparation-20261014/dist-1/cryptalis-0.1.0-py3-none-any.whl": "a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7",
+    "release-lab/s20-payload-preparation-20261014/dist-1/cryptalis-0.1.0.tar.gz": "dd4b0f44c0b0114b56c5d57637ff79e159ce6c65e1c9e71fbdd2843aabb495c6",
+    "release-lab/s20-payload-preparation-20261014/dist-2/cryptalis-0.1.0-py3-none-any.whl": "a46e527484daaf4621831f395af8d8193716220a24106c5d6d0d983a16a9cbb7",
+    "release-lab/s20-payload-preparation-20261014/dist-2/cryptalis-0.1.0.tar.gz": "dd4b0f44c0b0114b56c5d57637ff79e159ce6c65e1c9e71fbdd2843aabb495c6"
+  },
+  "limits": [
+    "Static existing artifact/lock/SBOM consistency only; not a build or runtime replay.",
+    "Historical SBOM retained unchanged, not relabelled as generated for S20.",
+    "Union graph includes conditional platform dependencies; not installed-cell inventory.",
+    "Native vendored dependencies, dependency licensing, vulnerabilities, signing, independent builder identity and clean-machine reproducibility remain unqualified."
+  ],
+  "status": "PASS"
+}
