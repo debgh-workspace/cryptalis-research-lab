@@ -1,0 +1,13 @@
+{
+  "candidate": "cryptalis-executable/candidate-native-slot-probes-20261014",
+  "inherited_r2_files_unchanged": 212,
+  "expected_test_count": 20,
+  "files": {
+    "tests/native_slot_probes.py": "555bc8c6a95a9785dd5c57a3106c631fe71981b1a42bb0ff6c1c5242a2814fc5",
+    "tests/test_sqlalchemy_native_slot_probes.py": "738914f67e38d7d40737e4e32929481a1aa0d9881cb04e4c7a0d2f2213bf99e7",
+    "NATIVE_SLOT_PROBES_REVIEW.md": "bf60cb1969ca45fcb5723ce6d566119ef013e9b252415e09a983b12f3a12c39a",
+    "AST_PROBE_INSERTIONS.md": "198a1888122086253059423a6bd5e35d891b63941ef0b3384a45a387e0372ba1"
+  },
+  "verification": "syntax and AST rewrite/compile/count checks on both installed sources; no SQLAlchemy/test imports, callbacks or DB execution",
+  "selector": "scripts/test_postgres.py -- -q tests/test_sqlalchemy_native_slot_probes.py"
+}
