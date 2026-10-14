@@ -1,0 +1,15 @@
+{
+  "scope": "Actual remote-fetched A9 R2 source and inherited source-pin manifest, fresh directory, existing SA2.1.3 interpreter, fake DBAPI only",
+  "commit": "0a2a50805078b77ea9b849787e95f53f1575e04e",
+  "inherited_pin_commit": "350c3df17d12496628520bb297d9e4c6c91fa3c0",
+  "cases": 12,
+  "source_sha256": "7d8a65c8adc3eae4c9c167f24c9757eef070f5296150ffdcfdad91cb0328d347",
+  "source_pin_sha256": "e5b70419b6c38c9621e714bffa9bce0443b681b2d215102c05e72b6e51a3aa7c",
+  "transport_note": "apply_patch initially added a terminal newline. Normalized only after expected hashes proved the difference; reran exact restored bytes successfully.",
+  "not_proven": [
+    "Fresh machine/dependency install",
+    "PostgreSQL",
+    "Cryptographic confidentiality",
+    "Production admission"
+  ]
+}
