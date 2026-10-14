@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "mode": "negative",
+  "python_executable": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "optimize": 1,
+  "passed": [],
+  "observations": [
+    {
+      "id": "actual-output-perturbation",
+      "native_calls": 1,
+      "original_verified": true,
+      "perturbation_applied_to_actual_return": true,
+      "comparison_expected": "reject"
+    }
+  ],
+  "scope": "Correction-only; original suite not rerun; full DESIGN HOLD; no timings",
+  "pins_sha256": "4211076650a56db951155113e7b4dfa94d6dcc84d602fa0ba126065d530daed8",
+  "verified_pin_count": 628,
+  "cryptography": "50.0.2",
+  "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+  "native_backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "native_origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-03-normal/native_cf1.cpython-312-x86_64-linux-gnu.so",
+  "error_type": "RuntimeError",
+  "error": "Mismatch: actual-output-perturbation"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Independent data/source review, no execution attestation",
+  "verified_pins": 628,
+  "verified_original_files": 130,
+  "positive_unique_ordered_ids": 43,
+  "fixtures_verified": 18,
+  "success_or_null": 12,
+  "refusals": 31,
+  "positive_and_negative_O0_O1_parity": true,
+  "manifest_sha256": "25e1252cbee9bd2e350aca536e8f0622049050610462c022e00edf5c9547afdb",
+  "pins_sha256": "4211076650a56db951155113e7b4dfa94d6dcc84d602fa0ba126065d530daed8",
+  "original_inventory_sha256": "bd6fba6d773ca746ae8ac0bc4ecc0f539f95fcf244b488b3bd6bc9e191ea81a8",
+  "kinds": {
+    "context": 24,
+    "scope": 8,
+    "lifecycle": 6,
+    "decode-expiry": 3,
+    "post-native-pid": 2
+  }
+}

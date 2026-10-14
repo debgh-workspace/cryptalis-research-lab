@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scope": "43 new cases and one actual-output negative, each O0/O1; full DESIGN HOLD",
+  "runs": [
+    {
+      "mode": "positive",
+      "optimize": 0,
+      "expected_outcome_verified": true,
+      "receipt": "positive-o0-01.json",
+      "passed_count": 43,
+      "receipt_sha256": "7be49fab5a18ac829da7167bce21aca8e08163bf29baa74ecc363d23af307dc3"
+    },
+    {
+      "mode": "negative",
+      "optimize": 0,
+      "expected_outcome_verified": true,
+      "receipt": "negative-o0-01.json",
+      "passed_count": 0,
+      "receipt_sha256": "1087d4e5029a9fc3647dfeace58a02b3ebf7b34c676ad090f2716369442a7600"
+    },
+    {
+      "mode": "positive",
+      "optimize": 1,
+      "expected_outcome_verified": true,
+      "receipt": "positive-o1-01.json",
+      "passed_count": 43,
+      "receipt_sha256": "5e3f469c50957494362888f0bb5d491654fcea9357700a125719914279adeffa"
+    },
+    {
+      "mode": "negative",
+      "optimize": 1,
+      "expected_outcome_verified": true,
+      "receipt": "negative-o1-01.json",
+      "passed_count": 0,
+      "receipt_sha256": "2a978aeac1e5d983d02f0667bcc297713ac4bfd3b86d624af10f258e63fcf7bf"
+    }
+  ]
+}
