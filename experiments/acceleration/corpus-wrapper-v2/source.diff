@@ -1,0 +1,61 @@
+--- toolchain/lab_session.py
++++ candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py
+@@ -15,6 +15,10 @@
+ import sys
+ import time
+ 
++from corpus_artifacts_v2 import snapshot, capture_restore
++
++# Preserve the original toolchain import location for this versioned derivative.
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "toolchain"))
+ from run_baseline import BASE, ENV, PGCTL, REPO, RUNTIME, redact
+ 
+ 
+@@ -61,7 +65,7 @@
+         raise KeyboardInterrupt
+     signal.signal(signal.SIGTERM, interrupted)
+     started_server = False
+-    prior_corpus = {p: p.read_bytes() for p in (BASE / "evidence").glob("compatibility*corpus-v1-sa*.json")} if args.candidate_root is not None else None
++    prior_corpus = None
+ 
+     def run(label, command):
+         started = datetime.datetime.now(datetime.timezone.utc).isoformat()
+@@ -85,6 +89,8 @@
+         return result.returncode
+ 
+     try:
++        if args.candidate_root is not None:
++            prior_corpus = snapshot(BASE / "evidence", evidence)
+         code = run("postgres-start", [str(PGCTL), "-D", str(RUNTIME / "data"),
+                    "-l", str(RUNTIME / "logs/postgres.log"), "-w", "start"])
+         if code:
+@@ -148,19 +154,16 @@
+             return 3
+         return code
+     finally:
+-        if started_server:
+-            run("postgres-stop", [str(PGCTL), "-D", str(RUNTIME / "data"), "-m", "fast", "-w", "stop"])
+-        if prior_corpus is not None:
+-            dest = evidence / "candidate-corpus"; dest.mkdir(exist_ok=True)
+-            archived=[]
+-            for path in (BASE / "evidence").glob("compatibility*corpus-v1-sa*.json"):
+-                data=path.read_bytes()
+-                if path not in prior_corpus or data != prior_corpus[path]:
+-                    (dest / path.name).write_bytes(data); archived.append(path.name)
+-                if path not in prior_corpus:path.unlink()
+-                elif data != prior_corpus[path]:path.write_bytes(prior_corpus[path])
+-            (evidence / "candidate-corpus-isolation.json").write_text(json.dumps({"archived":archived,"primary_receipts_restored":all(p.read_bytes()==data for p,data in prior_corpus.items())},indent=2)+"\n")
+-        lock.close()
++        try:
++            if started_server:
++                run("postgres-stop", [str(PGCTL), "-D", str(RUNTIME / "data"), "-m", "fast", "-w", "stop"])
++        finally:
++            try:
++                if prior_corpus is not None:
++                    capture_restore(BASE / "evidence", evidence, prior_corpus)
++            finally:
++                lock.close()
++
+ 
+ 
+ if __name__ == "__main__":

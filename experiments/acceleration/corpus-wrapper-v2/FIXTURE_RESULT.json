@@ -1,0 +1,13 @@
+{
+  "command": "python -m unittest -v test_corpus_artifacts_v2.py",
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014",
+  "executed_by": "coordinator",
+  "exit_code": 0,
+  "tests": 12,
+  "passed": 12,
+  "failed": 0,
+  "duration_seconds": 0.012,
+  "evidence_type": "coordinator-observed tool execution; original terminal result retained in conversation",
+  "database_executed": false,
+  "source_pins_after_match": true
+}
