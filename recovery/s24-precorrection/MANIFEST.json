@@ -1,0 +1,146 @@
+{
+  "archive": "CRYPTALIS_S24_PRECORRECTION_EVIDENCE_ADDON_20261014_v2.tar.xz",
+  "bytes": 1061420,
+  "sha256": "d2402a5055be7cb2e56c169be771e10d3f26f90ac2ebd0a8efdc511d2c9af5b8",
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 48000,
+      "sha256": "f6d86abbf6660e1bbc8713b4f0aa625666bc988be00c18f21f9a84a6a34c65a3",
+      "git_blob_sha": "1e364df6811b66912509cf95a2c6812f824bca45"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 48000,
+      "sha256": "90e27d12ed6235dc08b1dc4ec4839989183ac88e5d9ada367738c0d69de1d42a",
+      "git_blob_sha": "3f1b49ac46be72c9a4b5b16dac3518a4818a5cc7"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 48000,
+      "sha256": "aa801a4a9faeb9223913578f4a0f3683f9f9197a50d54ec58bf33324d76a9ae1",
+      "git_blob_sha": "78480fe466334d22d599ed1966d5366c09778a56"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 48000,
+      "sha256": "917c671d06b171683e237a36204f2c8716f86d4989825e9b7ee0948596f3fc51",
+      "git_blob_sha": "625aba8d9e33e1d343b204e73ce4731cef4af3a3"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 48000,
+      "sha256": "9c7761c163d86066150ed6cfbf9b6e86105afd92ea1338e671563e4725940fc7",
+      "git_blob_sha": "e34f56e60a5c6d2cdd64e173b419ec0e2e29dae0"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 48000,
+      "sha256": "edb23ff9ae4c3f1df9321cc7347b9b203f01debf329ece1522996d9d372db2cb",
+      "git_blob_sha": "6a95a354607ab978c8a22ec326ec325c4931158a"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 48000,
+      "sha256": "3928a123fa6854c9336dafc417a45b8606a608411ef168a836c549b81bd75911",
+      "git_blob_sha": "4796aa6dc97207f1d6eab88e3ede6225d2cecba6"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 48000,
+      "sha256": "dd9e84298ef71586e026e830ea91cd993c1047ba414f54f92caa1502a75f4563",
+      "git_blob_sha": "43db2ac58a15e08de4124bbfa279e1bcc7da70bf"
+    },
+    {
+      "name": "part-09.bin",
+      "bytes": 48000,
+      "sha256": "715280fcd2dba27d96786fc2b3107dd8bbd986c0b58681f1e8b04f94abc2fc5f",
+      "git_blob_sha": "26edd99b7866dadddb411a1a6051a11f9f5fd066"
+    },
+    {
+      "name": "part-10.bin",
+      "bytes": 48000,
+      "sha256": "326ab023b2512c93527acdb4cab850370c478016614f41bbf41beae7c0d902a1",
+      "git_blob_sha": "ff1bb363a11603fdc267bd805b3950343e7591e7"
+    },
+    {
+      "name": "part-11.bin",
+      "bytes": 48000,
+      "sha256": "9384cc53e067f5011eea02971a6b761fa4acd0643860eb39be1775d66c50df34",
+      "git_blob_sha": "d82947439aab9adaf2843a15e68bf99fd25f0305"
+    },
+    {
+      "name": "part-12.bin",
+      "bytes": 48000,
+      "sha256": "a04485fb160c78735c7ba2c032526e6205a3d7a5ca50ae4edabbf92dcfffbb70",
+      "git_blob_sha": "f0caea249f08710b9a2c256664439698980b3b1c"
+    },
+    {
+      "name": "part-13.bin",
+      "bytes": 48000,
+      "sha256": "b856e87934b0cfc3eff7bf1b060b8b6d32ec85537bb5380945e30038dff33075",
+      "git_blob_sha": "0dce8e26b7a1b4d24dcbedf24948cad11851cadd"
+    },
+    {
+      "name": "part-14.bin",
+      "bytes": 48000,
+      "sha256": "f0901e82c42ed35eab36865d9c1def8abcb32aa7293794e49225251ef0f8ed05",
+      "git_blob_sha": "dc59718a46d367470b38910eb0d06d8172a8e98f"
+    },
+    {
+      "name": "part-15.bin",
+      "bytes": 48000,
+      "sha256": "535148321a271f38242f7792999f64c88f5dff2287c799c94e647e38eae24190",
+      "git_blob_sha": "30694d59026dcbdfa47b365fb1312136af0c954f"
+    },
+    {
+      "name": "part-16.bin",
+      "bytes": 48000,
+      "sha256": "03ebf789bc982cef145d3429dd9cb075c9d24fe452466febc6ba43c931796101",
+      "git_blob_sha": "7b6ecb78f56fce7fd7f4e7f6ad0f6b5f31a1a754"
+    },
+    {
+      "name": "part-17.bin",
+      "bytes": 48000,
+      "sha256": "a23ca5d67745cc754b62c43c8a338db07b4b43ab760df86c15440888d230d027",
+      "git_blob_sha": "1b558a15572c489fac793e458f62e463862f9a7a"
+    },
+    {
+      "name": "part-18.bin",
+      "bytes": 48000,
+      "sha256": "d0ab8fd341671d7ee1296d2d7b68429ba76ff641a7d6f1d15cecf1682c31ea21",
+      "git_blob_sha": "33c76b60df2c71f054ce0f6d55362979ab369364"
+    },
+    {
+      "name": "part-19.bin",
+      "bytes": 48000,
+      "sha256": "a0b9a516d7084f78aed3be41391f6b99531bf8042c706d2c10396d0ce49a5806",
+      "git_blob_sha": "673f5123b2d44b5c9fb6175c4819b60b4c3a4677"
+    },
+    {
+      "name": "part-20.bin",
+      "bytes": 48000,
+      "sha256": "8ec1785a35115f267a03656535766abb87f69e78e236fdbfd6726179acb293e4",
+      "git_blob_sha": "0f64a5b1d895e71787b5d5995a85bba815b8743f"
+    },
+    {
+      "name": "part-21.bin",
+      "bytes": 48000,
+      "sha256": "69da32c0abc9bf566dbf68f2705d881a15177058cd0564b7b4dde6752d840202",
+      "git_blob_sha": "194da412fed14cfaa86510002f21887e6ae23af5"
+    },
+    {
+      "name": "part-22.bin",
+      "bytes": 48000,
+      "sha256": "882bacd3b8022d3242f1f60d2ca259704b9dfcda49ce8eac66a17bc0d91b8558",
+      "git_blob_sha": "7d5aee3d4ad70e26332688ed5425fb5514afd0df"
+    },
+    {
+      "name": "part-23.bin",
+      "bytes": 5420,
+      "sha256": "97290f9a3da7ec66c247994fe7a3a2c62ac4133a6b9c3bc68e36ec910b726b19",
+      "git_blob_sha": "37d6c66259f93d6e7261a9ca3049d8347cb898c4"
+    }
+  ],
+  "scope": "PRECORRECTION source/evidence snapshot; failed SA21 aggregate retained; no future r3 oracle fixes or SA20 aggregate"
+}
