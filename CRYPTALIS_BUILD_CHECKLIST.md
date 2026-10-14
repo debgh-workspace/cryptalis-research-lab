@@ -4,7 +4,7 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T21:59Z`
+- Last updated UTC: `2026-10-14T22:49Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded source-overlay candidate: S25 `candidate-s25-async-sqlmodel-integration-20261014`,216 files, manifest3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703. Full main SA2.1:2632PASS/7FAIL/0SKIP; SA2.0:2586PASS/7FAIL/46SKIP;56 passing subtests each; exact R3 IDs/outcomes/failure messages retained. Separate supported SQLModel cell38PASS. Source checkpoint9e57de7756c90d73b98bc89a1594f51e0c47e3f3 all10files remotely exact. Installed S25 full main suites now independently match these same outcomes: SA21 397.75s, SA20 397.95s; separate installed SQLModel 38 PASS in5.26s. Separate-process origin checks do not attest continuously to every pytest/subprocess import. Main remainsS14;all7gatesUNKNOWN. Historical S23 checkpoint and complete recovery retained below.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1242,3 +1242,23 @@ First G5SA21 reviewer read prohibited tests.json and postgres-stop.json in a com
 ### G5 safe independent audit — 2026-10-14 22:30 UTC
 
 Replacement reviewer using explicit approved safe files accepts G5SA21:21PASS/78deselected/21warnings/7.27s, all exactcase/phases/finalmarkers; three natural missing/continuation/stale-present branches OBSERVED. All261pins/215source/154runner/6external/38packet/26prior+26archivedcorpus comparisons pass; safe phaseexits0 and serverstopped. This result relies only on the replacement review; earlier prohibited-file review remains stopped/nonaccepted. G5SA20 started through unchanged serialized wrapper after that clearance. No native RLS/provider/privilegedremoval/performance/production claim.
+
+### G5 counterpart and G6 first cell — 2026-10-14 22:35 UTC
+
+G5SA20 safe independent audit accepted21PASS/78deselected/21warnings/6.81s, exact21case IDs/phases/finals and three OBSERVED natural branches. All261pins/215source/154runner/6external/38packet/52corpuscopies/anchors and shutdownverified. G6SA21 completed3PASS/96deselected/3warnings/10.89s, independent safe audit pending. This tests native64table/256field inventory andoneoverrefusals, not production scalability or performance.
+
+Async cleanup proposed source packet frozen:22newcases; GREENadds24existingregressions at new changed boundary. RED preserves all216S25baselinefiles+one test; GREEN changesonlysqlalchemy.py+same test. Packetchecksum6fcf4c01a281746d6e665e750462dc706bfed31f01ef855a97330540164bec7a;672inputpins. No runtime execution; independent exact RED command/source review pending. Guarded builtin note delivery added to preserveprimary/cleanupattempt if diagnosticnotesfail. No physicalquarantine guarantee or productiongateclaim.
+
+### V4 statistics scoped matrix complete and async RED accepted — 2026-10-14 22:45 UTC
+
+All six V4 groups are independently accepted in both dependency cells: 33 + 16 + 11 + 15 + 21 + 3 = 99 passes per cell, or 198 ordinary case instances across 12 separate executions. This is not a combined-suite, integrated S25, public API or production qualification. The record_property/xunit2 warnings remain preserved. G6 SA20: 3 passed, 96 deselected, 3 warnings in 10.21 seconds. Exact IDs, all nine phases and all three final markers match. All 261 input pins, 215 source files, 154 runner files, six external sources, 38 packet files, 52 corpus copies and safe shutdown checks pass.
+
+ASYNC-EXIT-PRIMARY-01 first RED SA21 is accepted as expected: 13 failed, 9 passed, 0 skipped in 2.50 seconds. Twelve protected double-failure cases stop at the primary-identity assertion; the root pending-only case stops at retained PreparedKeys. Later protected cleanup, diagnostic, cancellation-state, lock and nonpublication assertions were not reached and receive no pass credit. All setup and teardown phases pass; no cleanup failures, warnings or timeouts were found. Source, pins, corpus restoration and shutdown are verified.
+
+The proposed correction/test-plan checkpoint 946f4fd2dd7fdd1c2b533112499a612c0103d489 contains ten remotely exact files. GREEN remains unrun and unintegrated. The remaining 22-node RED and 46-node GREEN command blocks have conditional source clearance; each still requires the preceding terminal audit. The unchanged 600-second process bound covers awaits without a narrower intrinsic bound. Five-second final-cleanup bounds do not cover every await.
+
+### Async RED counterpart terminal — 2026-10-14 22:49 UTC
+
+The exact RED SA20 command completed with 13 failed and 9 passed in 2.57 seconds. Its failing names match the first RED cell. Wrapper exit is 1; the outer shell exits 0 only because its final integrity commands succeed. All before/after packet, input and copy checks passed; safe shutdown is explicitly exit 0. Independent SA20 terminal audit is pending. No GREEN run or accepted correction yet.
+
+The remainder of the frozen proposal is preserved at 3bf2b2796401f75b5b1af631a36eaaf7ffb2cbe4, eight files exactly read back. The first ten proposed source/test/plan files remain at 946f4fd2dd7fdd1c2b533112499a612c0103d489. These remain separate from the accepted S25 candidate.

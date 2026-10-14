@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T22:30:00Z",
+  "observed_at_utc": "2026-10-14T22:39:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -1247,12 +1247,12 @@
       "pass": 38,
       "seconds": 5.26
     },
-    "remote_head": "5d877c4fd9bad53122f788d00fbe9b55a7515242",
+    "remote_head": "946f4fd2dd7fdd1c2b533112499a612c0103d489",
     "full_archive_verified_parts": 18,
     "full_archive_complete": true,
     "active_db": null,
     "statistics_g2_sa21": "16 PASS independently accepted",
-    "next": "Audit G2 and advance counterpart; preserve installed evidence additive.",
+    "next": "G5SA20 safe audit then G6 native limits; async cleanup source/command preparation pending independent review.",
     "installed": "Both full installed matrices independently audited; optional38PASS; seven failures unresolved.",
     "statistics_g2_sa20": "16 PASS independently accepted"
   },
@@ -1309,7 +1309,48 @@
     "evidence": "Static source and pinned native contract only; runtime unrun",
     "fix_scope": "Primary identity, safe UNKNOWN/nonretryable diagnostics and best-effort public invalidation; no guaranteed physical quarantine",
     "red_candidate": "candidate-next-unblocked-correctness-red-20261014",
-    "status": "SOURCE_PREPARATION_IN_PROGRESS"
+    "status": "Both RED cells terminal; SA21 accepted, SA20 audit pending; GREEN unrun",
+    "new_cases": 22,
+    "green_regression_cases": 24,
+    "packet_sha256": "6fcf4c01a281746d6e665e750462dc706bfed31f01ef855a97330540164bec7a",
+    "wrapper_exit": 1,
+    "outer_exit": 0,
+    "postpins": "All18packet672inputs and copychecks0",
+    "stop": "explicit exit0/serverstopped",
+    "red_sa21": {
+      "fail": 13,
+      "pass": 9,
+      "skip": 0,
+      "seconds": 2.5,
+      "independent_audit": "ACCEPT_EXPECTED_RED",
+      "later_protected_assertions": "UNREACHED_NOT_CREDITED"
+    },
+    "red_sa20": {
+      "fail": 13,
+      "pass": 9,
+      "seconds": 2.57,
+      "wrapper_exit": 1,
+      "outer_exit": 0,
+      "safe_stop_exit": 0,
+      "independent_audit": "PENDING"
+    }
   },
-  "statistics_g5_sa20": "21 PASS6.81s; safe independent audit pending"
+  "statistics_g5_sa20": "21 PASS6.81s independently accepted safe review",
+  "statistics_g6_sa21": "3 PASS10.89s independently accepted",
+  "statistics_g6_sa20": "3 PASS10.21s safe independent audit pending",
+  "statistics_v4_matrix": {
+    "groups_per_cell": [
+      33,
+      16,
+      11,
+      15,
+      21,
+      3
+    ],
+    "passed_per_cell": 99,
+    "cells": 2,
+    "independent_scope": "All12groups accepted individually",
+    "integrated_product_feature": false,
+    "all_seven_gates": "UNKNOWN"
+  }
 }
