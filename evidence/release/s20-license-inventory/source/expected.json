@@ -1,0 +1,20 @@
+{
+  "site": "release-lab/s20-payload-preparation-20261014/wheel-venv/lib/python3.12/site-packages",
+  "sa20_site": "release-lab/s20-payload-preparation-sa20-20261014/lib/python3.12/site-packages",
+  "cache": "toolchain/uv-cache/archive-v0/KLLZT-wWBNmWPOKW",
+  "components": [
+    {"name":"cffi","version":"2.1.1","origin":"site","directory":"cffi-2.1.1.dist-info","expression":"MIT-0","notices":["LICENSE"]},
+    {"name":"cryptography","version":"50.0.2","origin":"site","directory":"cryptography-50.0.2.dist-info","expression":"Apache-2.0 OR BSD-3-Clause","notices":["LICENSE","LICENSE.APACHE","LICENSE.BSD"]},
+    {"name":"greenlet","version":"3.5.6","origin":"site","directory":"greenlet-3.5.6.dist-info","expression":"MIT AND PSF-2.0","notices":["LICENSE","LICENSE.PSF"]},
+    {"name":"psycopg","version":"3.3.6","origin":"site","directory":"psycopg-3.3.6.dist-info","expression":"LGPL-3.0-only","notices":["LICENSE.txt"]},
+    {"name":"psycopg-binary","version":"3.3.6","origin":"site","directory":"psycopg_binary-3.3.6.dist-info","expression":"LGPL-3.0-only","notices":["LICENSE.txt"]},
+    {"name":"pycparser","version":"3.0","origin":"cache","directory":"pycparser-3.0.dist-info","expression":"BSD-3-Clause","notices":["LICENSE"]},
+    {"name":"sqlalchemy","version":"2.1.3","origin":"site","directory":"sqlalchemy-2.1.3.dist-info","expression":"MIT","notices":["LICENSE","AUTHORS"]},
+    {"name":"typing-extensions","version":"4.16.0","origin":"site","directory":"typing_extensions-4.16.0.dist-info","expression":"PSF-2.0","notices":["LICENSE"]}
+  ],
+  "missing_union_components":[{"name":"tzdata","version":"2026.5","status":"NOT_AVAILABLE_IN_INSPECTED_LOCAL_DISTRIBUTIONS","marker":"sys_platform == 'win32'"}],
+  "vendor_sboms":["cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json","cryptography-50.0.2.dist-info/sboms/sbom.json","psycopg_binary-3.3.6.dist-info/sboms/auditwheel.cdx.json"],
+  "bundled_library_count":15,
+  "notice_count":12,
+  "negative_controls":["malformed_vendor_sbom","missing_notice","notice_hash_mismatch"]
+}
