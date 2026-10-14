@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-backend-observation-20261014/run.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS 36 0\n",
+  "stderr": "",
+  "timeout": false
+}
