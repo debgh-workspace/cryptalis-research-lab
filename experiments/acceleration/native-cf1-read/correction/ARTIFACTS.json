@@ -1,0 +1,30 @@
+{
+  "scope": "Correction-only final artifact identities; no execution attestation",
+  "files": {
+    "PINS.json": "4211076650a56db951155113e7b4dfa94d6dcc84d602fa0ba126065d530daed8",
+    "RESULTS.md": "c8e9ad6ebe960e87c1e0ad0f25071700ddaa44a0504645f53e81ae1c56e7c5a1",
+    "SCOPE.md": "d7a0a87cdc3d7dac57170f94f307ebf17ee7388c4ae17ca6079582fe5c9633ff",
+    "audit_receipts.py": "f8daf59e0694df118dbe5267a8699ddaf15c5af354b858fc47b4d3950cbd304a",
+    "cases.json": "25e1252cbee9bd2e350aca536e8f0622049050610462c022e00edf5c9547afdb",
+    "check.py": "4c72af8bd247e450413a859e5515b0bde6ddf1e9ccac2b5baf77f6f90126d52a",
+    "evidence/freeze-01.json": "65f6c17218d78780b7e820baaf4e8f6fa40ef1ee85e5e958c6116a131a491e81",
+    "evidence/integrity-01.json": "27dfe8edaa5c732c73fcf00fbaf995c7cd179fd2cc9c4d9fdcbb23df033980b4",
+    "evidence/launch-negative-o0-01.json": "87a0d28d597f8270fb6ba3d701a0e3c46d7ad88d3c55a2b43196836537cec503",
+    "evidence/launch-negative-o1-01.json": "99e5df49e5f8934ce489f625669b3b91b4428bb1c290994aa1b3614f2809f262",
+    "evidence/launch-positive-o0-01.json": "2f54993d751b7f8969553989d20160f17d29168956e8d1170d62ff6b5532cb3d",
+    "evidence/launch-positive-o1-01.json": "17b0c4a0c7233ad7884d0a77b35f57f05957670578394cf94564637ecf9c0b9b",
+    "evidence/negative-o0-01.json": "1087d4e5029a9fc3647dfeace58a02b3ebf7b34c676ad090f2716369442a7600",
+    "evidence/negative-o1-01.json": "2a978aeac1e5d983d02f0667bcc297713ac4bfd3b86d624af10f258e63fcf7bf",
+    "evidence/positive-o0-01.json": "7be49fab5a18ac829da7167bce21aca8e08163bf29baa74ecc363d23af307dc3",
+    "evidence/positive-o1-01.json": "5e3f469c50957494362888f0bb5d491654fcea9357700a125719914279adeffa",
+    "evidence/run-summary-01.json": "cf29658b559bc9d0c7a9d97a66cbd9ecceec18acea2897f28dfa3ad9287ef0a4",
+    "fixtures/scope-B-0.bin": "70e9a3c08eabbd1d489e51a6bd4fd46e6218e37e29f0fee5ebf46821b93c5af8",
+    "fixtures/scope-B-1.bin": "4c9cd604315d13aba0334dc10ce33b5a0894141445fc768cef8e2d6e119620ce",
+    "freeze.py": "e5b2264d9ed8eee8c943a1c361d155dff235dbc830620e2e0d380abe01e37f61",
+    "launch.py": "7e5137c7d7699fe09647b5858e2161c433d6bbb9cf14c7bf098edcc1a8dd9857",
+    "prepare.py": "001df91d4c2dd9d63de2251fc8e34f3b1dfa8a12f78c4985444f3a69c7aa7e84",
+    "run_new.py": "cdab0f17015f4cae9382be80710faaa1f4d8c261b399b4cf1f01f13c2743075d",
+    "static-review/ORACLE-REVIEW.md": "a0965058fecb135e962334ba2dade3d2c8fda3ba804ae6ba59a05f874a532113",
+    "support.py": "bd906dd281c1b2e225ec6e78eac3ad8dfcd0e6efeb3990b7f4daa5593ced3ec3"
+  }
+}
