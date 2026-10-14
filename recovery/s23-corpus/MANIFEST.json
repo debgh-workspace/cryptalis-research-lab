@@ -1,0 +1,37 @@
+{
+  "archive": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz",
+  "bytes": 194036,
+  "sha256": "57172b6a67ffc6dcba6c083d37a45574d2787ecfc246765fe3fbe6b02ef96944",
+  "parts": [
+    {
+      "name": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part01",
+      "bytes": 48000,
+      "sha256": "bca1f0367061cbe2419ff21347177089b07ec4112131ed2e786c1c8ef799d716",
+      "git_blob_sha": "75666515d7e459cb78d4c16bc0729bd5b007e24a"
+    },
+    {
+      "name": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part02",
+      "bytes": 48000,
+      "sha256": "7c1f81bb68be448ade8409e31390bc8873ad00e08c1745bab3d4beacaf7b3a82",
+      "git_blob_sha": "bf63d7e1c594a0987345a20b4bb1f204c56ea454"
+    },
+    {
+      "name": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part03",
+      "bytes": 48000,
+      "sha256": "88cd17c76a881056d0491e354af7031731afed2404a5435cd528aa9650026437",
+      "git_blob_sha": "16fea7e647f04b6f5e5b2fa054ccda18550c0ad2"
+    },
+    {
+      "name": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part04",
+      "bytes": 48000,
+      "sha256": "05f6bf0e70ab71590c2ba11fa22144f8602318d0d021aad91a5f7eb85e78d8a2",
+      "git_blob_sha": "b60561257b21b12919b1294ea52fe89ca927e4bc"
+    },
+    {
+      "name": "CRYPTALIS_S23_CORPUS_EVIDENCE_ADDON_20261014.tar.xz.part05",
+      "bytes": 2036,
+      "sha256": "39d3c9e8ddfe4c8072422613c0eaad1de7ba65fd1eaba1095c470fcb9c37fbe0",
+      "git_blob_sha": "ff6dcb1f8b0d2c11220c2f8e161ea52b9a740454"
+    }
+  ]
+}
