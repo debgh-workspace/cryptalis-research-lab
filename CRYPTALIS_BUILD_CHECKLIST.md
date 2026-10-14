@@ -4,9 +4,9 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T04:44Z`
+- Last updated UTC: `2026-10-14T05:11Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Highest verified bounded integrated research candidate: S19 `candidate-accel-removal-integrated-20261013`,204files,source manifest SHA256 `998f58bb52570b1cdd425cdcec95c9b9cf5531c3d9d2b6d92e153dbfb9acb8a7`. Full installed2282/2236PASS with same7legacyFAIL,56subtests,46SA20skips;realapp58x4PASS;fresh installed restore23PASS17subtests. Complete17-part archive and final receipts remotely byte-verified at `cef208cd0e3205b8e3ed954968d75be73dbcb6d4`. Labmain remainsS14; no mainpromotion.
+- Highest verified bounded integrated research candidate: S20 `candidate-accel-payload-integrated-20261014`,208files (all204S19files unchanged plus4additions). Installed2337/2291PASS, same7legacyFAIL,56subtests,46SA20skips;freshinstalledrestore55PASS4.58s. Source45ea95be055a9092a90bd04b339d7649819e26b7 and qualification d1e85244b207e0c45bfe46b9b9886b9a477c1037 remotely byte-verified. S20binaryarchive remains local; highest remotely complete archive is S19 cef208cd0e3205b8e3ed954968d75be73dbcb6d4. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Latest verified integrated recovery archive: `CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz`, SHA256 `fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29`;246payloadfiles including204candidatefiles,17remote parts byte-verified, freshinstalledrestore23PASS17subtests. Prior3579-fileS5archive remains preserved. Existing isolated database only; fresh-cluster proof pending permission.
@@ -733,3 +733,26 @@ S20fullinstalledSA21 completed2337PASS7samelegacyFAIL56subtests384.67s. Exactfai
 
 ### 2026-10-14T04:53Z — S20 full cells and restore verified
 InstalledSA21:2337PASS7sameFAIL56subtests384.67s;SA20:2291PASS7sameFAIL46nativeAPIskips56subtests374.40s. ExactfailureIDs matchS19bothcells;source/externalstable,40installedmodulesmatch,serverstopped. Restored208-filecandidate+freshinstalledwheelfocused55PASS4.58s. Localarchive02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68,1132692bytes,216payloadfilesverified;archivecontains earlier pendingstatus, finalexternalreceipts supersede. Remote source45ea95beverified; completeS20binaryarchive notpublished, so S19 remains highest remotely complete archive. Productactive rotation andall7gatesremainopen. C9first51-casePGgate isnowrunning.
+
+### 2026-10-14T04:55Z — next native correctness gates
+C9 first realPG51-case gate:48PASS3FAIL2.92s. All3failures demand native integer-to-Text coercion, while original and candidate both correctly rejectstrictText InvalidText beforeSQL with identicalerror/state. Preserveoriginalfailedoracle; correctexplicitcontractclassificationonly, no runtimechange or broadernativeequivalenceclaim. A6nativeUOWlineage8PASS2FAIL1.62s; sharedA5cursorobserver assumesalready-postfetched earlierrowsremainunassigned whenlaterexplicit-IDbatchfires. Newtest-onlyR2required; no protecteddefaultadmissionimplemented.
+
+C9correctedfirstPGgate51PASS2.36sSA21/51PASS2.16sSA20,15record_propertywarningspercell. Exactstrictintegerrejectiondifferenceexplicitlyretained;othernativecomparisonsunchanged. Runtimeunchanged;source/preflight/stoppedverified. Gates4/5,performanceandfullintegrationremainpending. A6R2test-onlycontext-localobserverqueuedbothcells.
+
+A6R2native-lineage10PASS0.96sSA21/10PASS0.76sSA20. Test-onlycontext-localobserverfixedmixed-IDfixture; exactnativeproducer/compiledgroup/UOWstate/default/postfetchassociationverifiedforfinitecases,notprotecteddefaultsupport. R1failureandcacheoriginambiguitypreserved,R2strictversion/source/liveoriginchecks.
+
+### 2026-10-14T05:02Z — C9 research checkpoint
+Nine runtime/baseline/protocol/first-gate files pushedc7ac916ed0772f2976a2cf8820e9b6a34eace717 exactremote-byteverified. Existingaffectedsearch/CF1/backend/lease/threadselectors172PASS10.88sSA21/172PASS10.63sSA20,onehistoricalforkwarningeach. New17caseguard/planharnessfrozenandqueued;no timingorS20promotion.
+
+### 2026-10-14T05:06Z — native and search research limits
+A6seven-file source/evidence checkpoint817b7f366f1ec2e8ea6b7a285f4dabeade3461b8 exactremoteverified. Publiccursor-onlyassociationcannotproveflattened/renamedIMVbatchrowmapping; furtherprivateproducerobservationresearch remainsisolated,notprotectedadmission. C9guard/plansfirst14PASS3FAIL0.77s:default-tuple outcome needsrecording; cursorarraytestincorrectlyassumesbytes instead ofpsycopgBinary adapterwrapper. No runtimecorrectionorperformancepassclaimed.
+
+C9guard/plansdiagnostic20PASS1FAIL0.95s: exactdriverBinarywrapper/NULLmaskplanoraclespass; remainingdefault-tuple failure occursinNATIVE. Unchangeddefaultcasealone1PASS0.40s allvariants. Required/defaultcompiledcacheorderisahypothesisunderindependentreview(C9-NATIVE-CACHE-01),notupstreamnoveltyclaim. Warmbaseline/candidateobservationsandbothversionsrequired;nofakecache-clearedallgreenclaim.
+
+### 2026-10-14T05:17Z — verified cache-order characterization / native slot research
+Independent compiler-only probes onSA2.1.3/2.0.51 confirm structuralbindcachekey omitsrequired/default:cachedrequiredflagcontrolsconstruct_paramsbeforeincomingdefaultvalue. RealPG4orderobservationcasesPASS1.39s/1.12s but recordopen native/protected mismatches; originalandC9same strictoutcomes. Thesearecharacterizationpasses,notnativecompatibilitygatepasses. ProtectedSELECTcompiledcachealreadydisabled;nocache/securityrelaxation. A7nativeproducer-slotinstrumentation20PASS2.98s/20PASS2.51s,5filespublishedb40735058fb8f3d5c5292b4c30a93217827bf133exactbytes;test-onlysource-instrumentedcopies,notprotectedadmission.
+
+### 2026-10-14T05:41Z — A8 verified; C9 performance rejected
+A8 synthetic separate driver-view research: 24 PASS 3.65s SA2.1.3 and 24 PASS 3.47s SA2.0.51. Four source/review/provenance/result files published at 884146103a3a36a9d3c438eae7490292d34868c8 and exact remote bytes verified. No real cryptography or protected default-ID admission.
+C9 frozen diagnostic timing: protocol execution 1 PASS 24.15s / 1 PASS 23.46s, but BOTH relative and absolute performance gates FAIL in both cells. All 10,500 observations independently audited, including rank-266 p95, block medians, source/dependency identity, row checks, and clean teardown. No filtering, rerun, or S20 integration. Whole 21-case compatibility gate remains OPEN. Five harness/protocol/final-receipt/audit files published at 5d60e2a1d70641802cf082b9131899890f9059d8, exact remote bytes verified. Complete raw archive d222956571f34e0cf5e0d41502056be228dd140a001d52d6a8fb59f58aa95230 remains LOCAL ONLY; fresh extraction verified.
+S20 remains highest bounded installed candidate; S19 remains highest complete remote binary archive. Main promotion, C8 raw-blob upload, capture-backed online preparation and Polar cluster/credentials/fork approvals remain pending. All seven independent qualification gates UNKNOWN. No active database run.
