@@ -1,0 +1,29 @@
+{
+  "status": "pure_public_interface_characterization_only",
+  "versions": [
+    "2.1.3",
+    "2.0.51"
+  ],
+  "cases_per_version": 10,
+  "files": {
+    "REVIEW.md": "0a4a51889905d4ff09069f26a3a884db2b3afb5a59d7bebedb3f57466dcc00ea",
+    "REVIEW_INITIAL.md": "33b0e802af5312b557a5258ce6906d19dc77f5737926aa15bc27481a56dd4123",
+    "dialect-sa20.json": "81a3b4e5f55d9769cb79addbb2072b0aac89cfdd58383840624c3e439f835f1c",
+    "dialect-sa21.json": "e2cdd7753ae345ade898f285e02e008fa5f44e9af8c745fd12269e6a5b3b2568",
+    "initial_probe.py.disabled": "ae6fad338e913500d25496d976d7b986e7bea4b78974bdfac60de5006f30098b",
+    "public_boundary_probe.py": "60a088ffb9e0ad2718640047e7671754371c97ac61c05890221a68263a94e82a",
+    "public_dialect_probe.py": "6a18cccca98ab601d33760c90166dced337bf38b59609478f32882bd9ce3fff0",
+    "sa20.json": "417d3107db965975efa3e01a59ab1f338fcb93957900a9bcebb8e27b8fd20189",
+    "sa21.json": "b0198d2aa4408853503416719e5b1cb232ca5cdd164af178df185ce9533545ba"
+  },
+  "initial_harness_failure_preserved": "initial_probe.py.disabled",
+  "limitations": [
+    "no real encryption",
+    "no PostgreSQL",
+    "no omitted-UUID executemany qualification",
+    "no native UOW lineage proof",
+    "no product/runtime change",
+    "no private hook override",
+    "no compatibility promotion"
+  ]
+}

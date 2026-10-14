@@ -1,0 +1,86 @@
+{
+  "sqlalchemy": "2.0.51",
+  "source_pins_verified": 8,
+  "cases": [
+    {
+      "mode": "native",
+      "list_identity": true,
+      "retained_group_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "context_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "driver_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "orm_value": "PUBLIC_DIAGNOSTIC_MARKER"
+    },
+    {
+      "mode": "sealed_guard",
+      "stages": [
+        "default",
+        "bind"
+      ],
+      "error_type": "StatementError",
+      "exact_raw_fault": false,
+      "wrapped_exact_fault": true,
+      "handle_error": [
+        true
+      ],
+      "inactive": true,
+      "transaction": true,
+      "id_absent": true,
+      "driver_calls": 0,
+      "retry_persistent": true,
+      "callback_count_after_retry": 2
+    },
+    {
+      "mode": "bind_fault",
+      "stages": [
+        "default",
+        "bind"
+      ],
+      "error_type": "StatementError",
+      "exact_raw_fault": false,
+      "wrapped_exact_fault": true,
+      "handle_error": [
+        true
+      ],
+      "inactive": true,
+      "transaction": true,
+      "id_absent": true,
+      "driver_calls": 0,
+      "retry_persistent": true,
+      "callback_count_after_retry": 2
+    },
+    {
+      "mode": "cursor_fault",
+      "stages": [
+        "default",
+        "bind",
+        "cursor"
+      ],
+      "error_type": "Fault",
+      "exact_raw_fault": true,
+      "wrapped_exact_fault": false,
+      "handle_error": [],
+      "inactive": true,
+      "transaction": true,
+      "id_absent": true,
+      "driver_calls": 0,
+      "retry_persistent": true,
+      "callback_count_after_retry": 2
+    },
+    {
+      "mode": "cursor_rewrite",
+      "list_identity": true,
+      "retained_group_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "context_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "driver_value": "PUBLIC_REPLACEMENT",
+      "orm_value": "PUBLIC_DIAGNOSTIC_MARKER"
+    },
+    {
+      "mode": "in_place_scrub",
+      "list_identity": true,
+      "retained_group_value": "PUBLIC_REPLACEMENT",
+      "context_value": "PUBLIC_REPLACEMENT",
+      "driver_value": "PUBLIC_DIAGNOSTIC_MARKER",
+      "orm_value": "PUBLIC_DIAGNOSTIC_MARKER"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "sqlalchemy": "2.0.51",
+  "source_pins_verified": 8,
+  "cases": [
+    {
+      "event": "do_execute",
+      "fault_class": "ordinary",
+      "stages": [
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error"
+      ],
+      "error_type": "Fault",
+      "exact_raw_fault": true,
+      "wrapped_exact_fault": false,
+      "cause_exact": false,
+      "handle_error": [
+        {
+          "exact_original": true,
+          "outer_type": "NoneType",
+          "marker_visible": true
+        }
+      ],
+      "inactive": true,
+      "transaction": true,
+      "stamp_absent": true,
+      "driver_calls": 0,
+      "retained_list_identity": true,
+      "retry_persistent": true,
+      "callback_count_after_retry": 2,
+      "all_stages": [
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error",
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "after_cursor"
+      ]
+    },
+    {
+      "event": "do_executemany",
+      "fault_class": "ordinary",
+      "stages": [
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error"
+      ],
+      "error_type": "Fault",
+      "exact_raw_fault": true,
+      "wrapped_exact_fault": false,
+      "cause_exact": false,
+      "handle_error": [
+        {
+          "exact_original": true,
+          "outer_type": "NoneType",
+          "marker_visible": true
+        }
+      ],
+      "inactive": true,
+      "transaction": true,
+      "stamp_absent": true,
+      "driver_calls": 0,
+      "retained_list_identity": true,
+      "retry_persistent": true,
+      "callback_count_after_retry": 4,
+      "all_stages": [
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error",
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "after_cursor"
+      ]
+    },
+    {
+      "event": "do_execute",
+      "fault_class": "dbapi",
+      "stages": [
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error"
+      ],
+      "error_type": "DBAPIError",
+      "exact_raw_fault": false,
+      "wrapped_exact_fault": true,
+      "cause_exact": true,
+      "handle_error": [
+        {
+          "exact_original": true,
+          "outer_type": "DBAPIError",
+          "marker_visible": true
+        }
+      ],
+      "inactive": true,
+      "transaction": true,
+      "stamp_absent": true,
+      "driver_calls": 0,
+      "retained_list_identity": true,
+      "retry_persistent": true,
+      "callback_count_after_retry": 2,
+      "all_stages": [
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error",
+        "default",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "after_cursor"
+      ]
+    },
+    {
+      "event": "do_executemany",
+      "fault_class": "dbapi",
+      "stages": [
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error"
+      ],
+      "error_type": "DBAPIError",
+      "exact_raw_fault": false,
+      "wrapped_exact_fault": true,
+      "cause_exact": true,
+      "handle_error": [
+        {
+          "exact_original": true,
+          "outer_type": "DBAPIError",
+          "marker_visible": true
+        }
+      ],
+      "inactive": true,
+      "transaction": true,
+      "stamp_absent": true,
+      "driver_calls": 0,
+      "retained_list_identity": true,
+      "retry_persistent": true,
+      "callback_count_after_retry": 4,
+      "all_stages": [
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "handle_error",
+        "default",
+        "default",
+        "bind",
+        "bind",
+        "cursor",
+        "dialect_event",
+        "after_cursor"
+      ]
+    }
+  ]
+}
