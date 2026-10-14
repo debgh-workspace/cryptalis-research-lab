@@ -1,0 +1,15 @@
+{
+  "status": "SOURCE PREPARATION ONLY; no build/test",
+  "sha256": {
+    "native_tuple.c": "9d173aa381631cc42d39d601ffed24d8dc03770a041a154cb7d75f25dc31cd65",
+    "direct_test.py": "5681b9b70608460ff5caa15240c3bedbfe487cde39a2c66a5e13268dc419304c",
+    "build_direct.py": "123c00057088d71c93bdf0b75978d86e1c6c01caca29e3b5b56093e9705eab0d",
+    "launch_direct.py": "14170f68121135fce6637db674e4a73b5dc4c56931fd6d7d3dbfe721f39d2aa6",
+    "DIRECT_MANIFEST.json": "f4ac7fa3f1059b4d48c92ef6b18fb52c332213cd599be8658d1e24cfc21697a7",
+    "tuple-oracle.json": "f156d0b4c2d40d0527bda2f23ad7f166440d6b5d0896810c296635ab0c925c5f",
+    "FULL_WRAPPER_PLAN.md": "23ecb4e719e51ee71ea77cd73e6a035b793e39767c2a09d126e8308110548a84",
+    "FULL_EXPECTATIONS.json": "4fc2981c502b8f5937a13828f479f882e47dda81d59dadecfd5d68795be5dbcf",
+    "FULL_SOURCE_INDEX.json": "59831dc269d669e2f7285a09ee983eacf5bb1235ccdf0f0ada068b73e15025cb",
+    "CONTEXT_LATER.json": "b2c2892fe2d3598e430a38189a5a59b9049b9ef9ebeb5d935fbc18e3114730e9"
+  }
+}

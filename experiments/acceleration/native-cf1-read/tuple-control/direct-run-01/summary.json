@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "provenance_sha256": "44f4300ed6c84a79f26d9ba41ec3d99e549e7048bac8973709471011b5eb5788",
+  "runs": [
+    {
+      "mode": "normal",
+      "stage": "build",
+      "command": [
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-tuple-control-20261014/build_direct.py",
+        "normal",
+        "build-direct-01-normal"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "mode": "normal",
+      "stage": "test",
+      "command": [
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-tuple-control-20261014/launch_direct.py",
+        "build-direct-01-normal",
+        "direct-evidence-01-normal"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "mode": "diagnostic",
+      "stage": "build",
+      "command": [
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-tuple-control-20261014/build_direct.py",
+        "diagnostic",
+        "build-direct-01-diagnostic"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "mode": "diagnostic",
+      "stage": "test",
+      "command": [
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+        "-I",
+        "-B",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-tuple-control-20261014/launch_direct.py",
+        "build-direct-01-diagnostic",
+        "direct-evidence-01-diagnostic"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}
