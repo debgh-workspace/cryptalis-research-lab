@@ -1,0 +1,17 @@
+test_coalesced_receipts_preserve_remainder (__main__.ContainmentControls.test_coalesced_receipts_preserve_remainder) ... ok
+test_completion_timeout (__main__.ContainmentControls.test_completion_timeout) ... ok
+test_group_cleanup_includes_term_ignoring_descendant (__main__.ContainmentControls.test_group_cleanup_includes_term_ignoring_descendant) ... ok
+test_malformed_receipt_safe_error (__main__.ContainmentControls.test_malformed_receipt_safe_error) ... ok
+test_parent_death_kills_direct_child (__main__.ContainmentControls.test_parent_death_kills_direct_child) ... ok
+test_partial_eof (__main__.ContainmentControls.test_partial_eof) ... ok
+test_partial_line_deadline (__main__.ContainmentControls.test_partial_line_deadline) ... ok
+test_silence_deadline (__main__.ContainmentControls.test_silence_deadline) ... ok
+test_stderr_safe_completion_error (__main__.ContainmentControls.test_stderr_safe_completion_error) ... ok
+test_stderr_size_bound_and_drain (__main__.ContainmentControls.test_stderr_size_bound_and_drain) ... ok
+test_stdout_size_bound (__main__.ContainmentControls.test_stdout_size_bound) ... ok
+test_unknown_cleanup_aborts_before_finally (__main__.ContainmentControls.test_unknown_cleanup_aborts_before_finally) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.819s
+
+OK

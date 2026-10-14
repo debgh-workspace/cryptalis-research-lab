@@ -1,0 +1,19 @@
+{
+  "sa21": {
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n................                                                         [100%]\n16 passed in 19.84s\n",
+    "source_unchanged": true,
+    "preflight": "PostgreSQL preflight passed 76053d5b a38ab71b\n",
+    "server_stop": "waiting for server to shut down.... done\nserver stopped\n",
+    "junit_sha256": "e616c36079c4fab6798b6e79505bba03d14c3dede3fba06f7aa6d3ff25c53973"
+  },
+  "sa20": {
+    "tests_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n................                                                         [100%]\n16 passed in 19.38s\n",
+    "source_unchanged": true,
+    "preflight": "PostgreSQL preflight passed 76053d5b a38ab71b\n",
+    "server_stop": "waiting for server to shut down.... done\nserver stopped\n",
+    "junit_sha256": "9a355ef61242dddb8e26306ec74b959f49e299087c4b7d46c27088375883e7d1"
+  },
+  "scope": "Bounded test-only inactive preparation, UUID/equality one-model five-row fixture; not active rotation, production lifecycle, or full DESIGN matrix.",
+  "module_sha256": "18de8f736a3fba717c1ed399a98d289a42e6d94e660234642563c363645b7edd",
+  "test_sha256": "21edf18c18056a02f6afc15a34fe768172e098b0ddff2c49a9623584d6bb8a19"
+}

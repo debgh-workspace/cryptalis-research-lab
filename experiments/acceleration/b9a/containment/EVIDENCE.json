@@ -1,0 +1,21 @@
+{
+  "original_sha256": "5e8db1d91ed20cfd2856d2107d2969eea091f5340e2abc3e897941d8091c322e",
+  "r2_sha256": "2cca51e7f8e16a2f420c093c46361a7fb2258557f1170fe68e53d2bc342d8027",
+  "fakechild_sha256": "8f9f4c390da6c888a72b9c2c326a2df66d930ad19fd1de78443f277acb64a794",
+  "fakechild_result_sha256": "60a2b5946a311c30fd76b1c3e2cef98c7a68320ff4c51133892979d20959845b",
+  "selectors_unchanged": true,
+  "test_function_count": 12,
+  "existing_functions_changed": [
+    "fixture",
+    "worker",
+    "worker_line",
+    "completed_worker",
+    "terminal_backend",
+    "stop_worker",
+    "test_busy_executor_is_pending",
+    "public_worker_main"
+  ],
+  "product_imports_executed": false,
+  "database_calls_executed": false,
+  "fakechild_test_count": 12
+}

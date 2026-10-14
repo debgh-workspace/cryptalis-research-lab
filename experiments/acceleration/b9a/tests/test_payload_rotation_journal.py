@@ -40,6 +40,11 @@ BATCH_FIELDS = {'ordinal', 'cursor_before', 'cursor_after', 'rows',
 
 
 def feature():
+    # The unchanged PG runner exposes src/ and tests/, not the repository root.
+    # This explicit test-local path loads only the uninstalled research module.
+    root = str(Path(__file__).resolve().parents[1])
+    if root not in sys.path:
+        sys.path.insert(0, root)
     return importlib.import_module('experiments.payload_rotation_journal')
 
 
@@ -141,6 +146,7 @@ def fixture(*, max_bytes=4096, bind=True):
         assert {r: independent_open(b, f.descriptor, TENANT, r) for r, b in f.current} == expected
         if bind:
             f.artifact = bind_artifact(f)
+        f.workers = []
         yield f
 
 
@@ -247,6 +253,46 @@ def write_bundle(f, directory):
     return path
 
 
+# Containment is Linux-lab-specific, matching the already reviewed C10 pattern.
+# Bootstrap executes before importing the experiment or any database driver.
+WORKER_BOOTSTRAP = r"""
+import ctypes, os, runpy, signal, sys
+expected = int(sys.argv[1])
+if not sys.platform.startswith('linux'):
+    raise RuntimeError('worker parent containment requires Linux')
+libc = ctypes.CDLL(None, use_errno=True)
+if libc.prctl(1, signal.SIGKILL, 0, 0, 0) != 0:
+    raise RuntimeError('cannot establish worker parent containment')
+if os.getppid() != expected:
+    os._exit(1)
+mode, target, args = sys.argv[2], sys.argv[3], sys.argv[4:]
+sys.argv = [target, *args]
+if mode == 'module':
+    runpy.run_module(target, run_name='__main__')
+else:
+    exec(compile(target, '<public-containment-child>', 'exec'))
+"""
+WORKER_OUTPUT_LIMIT = 65536
+
+
+def launch_contained(mode, target, args=(), *, env=None):
+    process = subprocess.Popen([sys.executable, '-c', WORKER_BOOTSTRAP,
+        str(os.getpid()), mode, target, *args], env=env,
+        stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+        start_new_session=True, bufsize=0)
+    process._stdout_pending = b''
+    process._output_bytes = 0
+    process._stderr_seen = False
+    process._pipes_eof = set()
+    try:
+        for stream in (process.stdin, process.stdout, process.stderr):
+            os.set_blocking(stream.fileno(), False)
+    except BaseException:
+        terminate_worker_group(process)
+        raise
+    return process
+
+
 def worker(f, directory, action='finish', *, barrier=None, ordinal=0):
     path = write_bundle(f, directory)
     env = dict(os.environ)
@@ -254,38 +300,182 @@ def worker(f, directory, action='finish', *, barrier=None, ordinal=0):
         str(Path(__file__).resolve().parent), str(Path(__file__).resolve().parents[1] / 'src'), env.get('PYTHONPATH','')))
     env['CRYPTALIS_B9A_TEST_BARRIER'] = barrier or ''
     env['CRYPTALIS_B9A_TEST_ORDINAL'] = str(ordinal)
-    return subprocess.Popen([sys.executable, '-m', 'experiments.payload_rotation_journal', str(path), action],
-        env=env, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    # Public nonsecret tag, also supplied explicitly to psycopg in worker_main:
+    # URL application_name cannot silently override this identity.
+    env['CRYPTALIS_B9A_WORKER_APPNAME'] = 'b9a-worker-' + uuid4().hex
+    env['PGAPPNAME'] = env['CRYPTALIS_B9A_WORKER_APPNAME']
+    process = launch_contained('module', 'experiments.payload_rotation_journal',
+                              (str(path), action), env=env)
+    process._fixture = f
+    process._appname = env['PGAPPNAME']
+    f.workers.append(process)
+    return process
 
 
-def worker_line(process):
+def read_worker_output(process, deadline, *, line):
+    """No buffered readline/communicate: bound bytes and total wall time.
+
+    Drain both raw pipes so stderr cannot deadlock stdout. Retain no stderr
+    contents and never include child bytes in diagnostic exceptions.
+    """
     with selectors.DefaultSelector() as ready:
-        ready.register(process.stdout, selectors.EVENT_READ)
-        assert ready.select(15), 'test worker failed to reach bounded barrier'
-        return json.loads(process.stdout.readline())
+        for stream in (process.stdout, process.stderr):
+            if stream not in process._pipes_eof:
+                ready.register(stream, selectors.EVENT_READ)
+        while True:
+            if line and b'\n' in process._stdout_pending:
+                value, process._stdout_pending = process._stdout_pending.split(b'\n', 1)
+                return value
+            if not ready.get_map():
+                if line:
+                    raise RuntimeError('worker exited without a complete receipt')
+                value, process._stdout_pending = process._stdout_pending, b''
+                return value
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise TimeoutError('worker output deadline exceeded')
+            events = ready.select(remaining)
+            if not events:
+                raise TimeoutError('worker output deadline exceeded')
+            for key, _ in events:
+                stream = key.fileobj
+                try:
+                    chunk = os.read(stream.fileno(), min(4096,
+                        WORKER_OUTPUT_LIMIT - process._output_bytes + 1))
+                except BlockingIOError:
+                    continue
+                if not chunk:
+                    process._pipes_eof.add(stream)
+                    ready.unregister(stream)
+                    continue
+                process._output_bytes += len(chunk)
+                if process._output_bytes > WORKER_OUTPUT_LIMIT:
+                    raise RuntimeError('worker output size limit exceeded')
+                if stream is process.stderr:
+                    process._stderr_seen = True
+                else:
+                    process._stdout_pending += chunk
 
 
-def terminal_backend(f, backend_pid):
+def decode_worker_receipt(raw):
+    try:
+        value = json.loads(raw)
+        if not isinstance(value, dict):
+            raise ValueError
+        return value
+    except (ValueError, UnicodeError, RecursionError):
+        raise RuntimeError('worker receipt is malformed') from None
+
+
+def worker_line(process, timeout=15):
+    return decode_worker_receipt(read_worker_output(process,
+        time.monotonic() + timeout, line=True))
+
+
+def completed_worker(process, timeout=30):
+    deadline = time.monotonic() + timeout
+    raw = read_worker_output(process, deadline, line=False)
+    remaining = deadline - time.monotonic()
+    if remaining <= 0:
+        raise TimeoutError('worker completion deadline exceeded')
+    process.wait(timeout=remaining)
+    if process.returncode != 0 or process._stderr_seen:
+        raise RuntimeError('worker failed; diagnostic contents withheld')
+    return decode_worker_receipt(raw)
+
+
+def terminate_worker_group(process, grace=1):
+    """Finite cleanup of this start_new_session group, including descendants.
+
+    SIGKILL is sent even if the direct child already exited after SIGTERM.
+    Pipes are closed on every path. No database backend is signalled here.
+    """
+    if getattr(process, '_group_closed', False):
+        return
+    try:
+        for signum in (signal.SIGTERM, signal.SIGKILL):
+            try:
+                os.killpg(process.pid, signum)
+            except ProcessLookupError:
+                pass
+            if signum == signal.SIGTERM:
+                try:
+                    process.wait(timeout=grace)
+                except subprocess.TimeoutExpired:
+                    pass
+        process.wait(timeout=grace)
+        process._group_closed = True
+    finally:
+        for stream in (process.stdin, process.stdout, process.stderr):
+            stream.close()
+
+
+# Parent-side wall bound includes driver import, connect, query, and shutdown.
+# The only SQL is a read-only pg_stat_activity query using the existing owner.
+BACKEND_PROBE = r"""
+import json, os, sys, psycopg
+pid = int(sys.argv[1])
+appname = sys.argv[2]
+with psycopg.connect(os.environ['CRYPTALIS_TEST_DATABASE_URL'],
+        connect_timeout=3, application_name='b9a-terminal-observer',
+        options='-c statement_timeout=2000 -c lock_timeout=1000') as connection:
+    count = connection.execute(
+        'SELECT count(*) FROM pg_catalog.pg_stat_activity WHERE '
+        '(pid=%s AND %s>0) OR (application_name=%s AND %s<>\'\')',
+        (pid, pid, appname, appname)).fetchone()[0]
+print(json.dumps({'alive': count}), flush=True)
+"""
+
+
+def terminal_backend(f, backend_pid=0, *, appname=''):
     deadline = time.monotonic() + 15
-    while time.monotonic() < deadline:
-        with f.app.owner.connect() as c:
-            alive = c.exec_driver_sql('SELECT count(*) FROM pg_catalog.pg_stat_activity WHERE pid=%s', (backend_pid,)).scalar_one()
-        if not alive:
-            return
-        time.sleep(.02)
-    pytest.fail('original backend is not terminal; outcome remains unknown')
-
-
-def completed_worker(process):
-    stdout, stderr = process.communicate(timeout=30)
-    assert process.returncode == 0, 'worker failed; diagnostic contents withheld'
-    assert stderr == ''
-    return json.loads(stdout)
+    try:
+        while time.monotonic() < deadline:
+            probe = launch_contained('code', BACKEND_PROBE,
+                                     (str(backend_pid), appname))
+            try:
+                result = completed_worker(probe,
+                    timeout=min(5, max(.001, deadline - time.monotonic())))
+            finally:
+                terminate_worker_group(probe)
+            if type(result.get('alive')) is not int:
+                raise RuntimeError('backend observer returned invalid receipt')
+            if result['alive'] == 0:
+                return
+            time.sleep(min(.02, max(0, deadline - time.monotonic())))
+        raise TimeoutError('original backend is not terminal; outcome remains unknown')
+    except BaseException:
+        abort_worker_cleanup(f)
 
 
 def stop_worker(process):
-    if process.poll() is None:
-        process.kill(); process.wait(timeout=10)
+    f = process._fixture
+    try:
+        terminate_worker_group(process)
+        if not getattr(process, '_backend_terminal', False):
+            terminal_backend(f, appname=process._appname)
+            process._backend_terminal = True
+    except BaseException:
+        abort_worker_cleanup(f)
+
+
+def abort_worker_cleanup(f):
+    """Approved test-only fail-closed path, before application() can DROP.
+
+    The unchanged outer coordinator owns final server stop. This deliberately
+    loses the normal pytest summary and retains the fixture schema as evidence.
+    Exit 86 is never a cleanup PASS. No backend is terminated by this harness.
+    """
+    for process in f.workers:
+        try:
+            terminate_worker_group(process)
+        except BaseException:
+            pass
+    try:
+        print('B9A containment UNKNOWN: backend termination unconfirmed; '
+              'fixture teardown aborted (exit 86).', file=sys.stderr, flush=True)
+    finally:
+        os._exit(86)
 
 
 def test_restart_preserves_committed_prefix(tmp_path):
@@ -379,7 +569,7 @@ def test_busy_executor_is_pending(tmp_path):
             result = enter(f)
             assert result.status == 'PENDING' and result.code == 'executor_busy'
             assert native_snapshot(f) == before
-            p.stdin.write('continue\n'); p.stdin.flush()
+            assert os.write(p.stdin.fileno(), b'continue\n') == 9
             assert completed_worker(p)['status'] == 'PREPARED_INACTIVE'
             assert_parity(f)
         finally: stop_worker(p)
@@ -554,7 +744,10 @@ def public_worker_main():
     pin_doc=doc['current_pin']
     pin=DeploymentPin(UUID(pin_doc['target_id']),UUID(pin_doc['operation_id']),pin_doc['plan_digest'],pin_doc['phase'])
     approval=MaintenanceApproval(**doc['maintenance'])
-    owner=engine('CRYPTALIS_TEST_DATABASE_URL')
+    appname = os.environ['CRYPTALIS_B9A_WORKER_APPNAME']
+    owner = create_engine('postgresql+psycopg://', hide_parameters=True,
+        creator=lambda: psycopg.connect(os.environ['CRYPTALIS_TEST_DATABASE_URL'],
+                                       application_name=appname))
     sealed=[]
     b8=importlib.import_module('cryptalis.crypto._payload_rotation')
     original=b8.seal_text
