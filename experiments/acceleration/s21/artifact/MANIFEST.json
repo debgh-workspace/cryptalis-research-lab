@@ -1,0 +1,514 @@
+{
+  "artifacts": [
+    {
+      "name": "cryptalis-0.1.0.tar.gz",
+      "bytes": 143473,
+      "sha256": "7bed6386ca46a639997ab258451a8c0fd959aaeff4eb65d21e9b448a4dc991c1",
+      "parts": [
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part01",
+          "bytes": 48000,
+          "sha256": "d8e100c5257e4d0949c6b2c218784a65ff0a6ad7473677b5abcb75524e536aaf",
+          "git_blob_sha": "0bc06c562fc6dc2c2204dda0bcf9f01f8347dafc"
+        },
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part02",
+          "bytes": 48000,
+          "sha256": "2925349d95c005489c49d52e7503d290a8d8b772b313edfeaebdec001715bcfd",
+          "git_blob_sha": "e63826a01fbee424139dd2ee99762ad121445117"
+        },
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part03",
+          "bytes": 47473,
+          "sha256": "b1075558426c36d2265b4342c2e0ff6d872e32000b3222ab60e86b5988dff041",
+          "git_blob_sha": "94f3ba4dbc35ebf2a39f6b9e70e1054adc7c0813"
+        }
+      ],
+      "regular_members": [
+        {
+          "name": "cryptalis-0.1.0/PKG-INFO",
+          "bytes": 13685,
+          "sha256": "785a29e845e3e243de9c446c223c9adf60dab2e038f1e4798d4fa8ec08437c29"
+        },
+        {
+          "name": "cryptalis-0.1.0/pyproject.toml",
+          "bytes": 545,
+          "sha256": "7fc0f026520b3a1232bd5018436b6faf99f2a7f65c45bab9c1b590f8f961cf5c"
+        },
+        {
+          "name": "cryptalis-0.1.0/pyproject.toml.orig",
+          "bytes": 552,
+          "sha256": "4653756dfe6a3dd1a185f636efb1ea0135b5235d9cdc138f30667d1f0975487f"
+        },
+        {
+          "name": "cryptalis-0.1.0/LICENSE",
+          "bytes": 1070,
+          "sha256": "7f5a6a6ca9e6e2d6e75ec8530612396f3eebd2659c79a6ca123bf30a933f23df"
+        },
+        {
+          "name": "cryptalis-0.1.0/README.md",
+          "bytes": 13377,
+          "sha256": "a0fbe0cbc8646d8c00eeaebac27fde419047cb420473759b4194ee5d3c925595"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/__init__.py",
+          "bytes": 36,
+          "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/__main__.py",
+          "bytes": 58,
+          "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_doctor_ciphertext.py",
+          "bytes": 4359,
+          "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_doctor_setup.py",
+          "bytes": 10364,
+          "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_experimental_public_delete.py",
+          "bytes": 18468,
+          "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_experimental_public_update.py",
+          "bytes": 10285,
+          "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_native_text.py",
+          "bytes": 2237,
+          "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_sqlalchemy_guard.py",
+          "bytes": 4807,
+          "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_sqlalchemy_search.py",
+          "bytes": 9557,
+          "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_sqlalchemy_transactions.py",
+          "bytes": 8273,
+          "sha256": "cb128481811576d8f16b233d4a30fca060eb9a1bfc4459d5e7e129434cc522ec"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_sqlmodel_support.py",
+          "bytes": 1324,
+          "sha256": "878617cd732040f0e83b6c6991d53884a2bf0927384bc58c71225d85bf7e2f6f"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/_transition_json.py",
+          "bytes": 2150,
+          "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/cli.py",
+          "bytes": 17882,
+          "sha256": "0df0b4f0101933b3a069024965b7bc5a3374747aff53d37099d2f22efc105efe"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/contracts/__init__.py",
+          "bytes": 58,
+          "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/contracts/active_state.py",
+          "bytes": 8925,
+          "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/contracts/development_authority.py",
+          "bytes": 3337,
+          "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/contracts/transition.py",
+          "bytes": 6485,
+          "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/__init__.py",
+          "bytes": 961,
+          "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/_candidate_envelope.py",
+          "bytes": 3964,
+          "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/_candidate_scalar.py",
+          "bytes": 7050,
+          "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/_candidate_wrap.py",
+          "bytes": 3518,
+          "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/_payload_rotation.py",
+          "bytes": 5027,
+          "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/_rewrap.py",
+          "bytes": 2708,
+          "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/cf1.py",
+          "bytes": 9977,
+          "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/development_file.py",
+          "bytes": 5207,
+          "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/crypto/keys.py",
+          "bytes": 14233,
+          "sha256": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/cutover.py",
+          "bytes": 12254,
+          "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/deprotection.py",
+          "bytes": 31183,
+          "sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/doctor.py",
+          "bytes": 11085,
+          "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/__init__.py",
+          "bytes": 79,
+          "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/canonical.py",
+          "bytes": 759,
+          "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/compatibility.py",
+          "bytes": 23117,
+          "sha256": "4d42e25714eed40dfb3c27d10239705855d6ffe963a5ef642de7511f85abe460"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/compiler.py",
+          "bytes": 51172,
+          "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/declaration.py",
+          "bytes": 7156,
+          "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/descriptor.py",
+          "bytes": 2984,
+          "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/header.py",
+          "bytes": 5449,
+          "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/parser.py",
+          "bytes": 3380,
+          "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/manifest/routines.py",
+          "bytes": 4219,
+          "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/migration.py",
+          "bytes": 48849,
+          "sha256": "0c6df2baa2b3b8c25a9dedb5ee2d6e7a1b47804da3e04ebf4dda5c2a3a465b9a"
+        },
+        {
+          "name": "cryptalis-0.1.0/src/cryptalis/sqlalchemy.py",
+          "bytes": 63362,
+          "sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe"
+        },
+        {
+          "name": "cryptalis-0.1.0/uv.lock",
+          "bytes": 103898,
+          "sha256": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e"
+        }
+      ]
+    },
+    {
+      "name": "cryptalis-0.1.0-py3-none-any.whl",
+      "bytes": 133243,
+      "sha256": "ebd58ffca3bfdf9aaa624a394a2cddcc2dedd91ceb99a75e9416e88afdee3514",
+      "parts": [
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part01",
+          "bytes": 48000,
+          "sha256": "419e6b2cd30000db802a5859774110986f01ebcf92ebf02b7f0f8aa9055cf3f7",
+          "git_blob_sha": "cbc228d92ba473da7427cd0a40d4829ae5a013c4"
+        },
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part02",
+          "bytes": 48000,
+          "sha256": "bfe920bbac0201335d92bf613748fb69c7a50fe1f24a0803ea4d993f508991e1",
+          "git_blob_sha": "ba937ff960ccf351651328a08eaea80ec73ff787"
+        },
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part03",
+          "bytes": 37243,
+          "sha256": "7627d282b217572368fcd5465ecaa1191b05220458cfda3cf03bcb0f3d9e4118",
+          "git_blob_sha": "d8d930de1b3df5ac3740454b983a7b1a0b70dc14"
+        }
+      ],
+      "regular_members": [
+        {
+          "name": "cryptalis/__init__.py",
+          "bytes": 36,
+          "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+        },
+        {
+          "name": "cryptalis/__main__.py",
+          "bytes": 58,
+          "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+        },
+        {
+          "name": "cryptalis/_doctor_ciphertext.py",
+          "bytes": 4359,
+          "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+        },
+        {
+          "name": "cryptalis/_doctor_setup.py",
+          "bytes": 10364,
+          "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+        },
+        {
+          "name": "cryptalis/_experimental_public_delete.py",
+          "bytes": 18468,
+          "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+        },
+        {
+          "name": "cryptalis/_experimental_public_update.py",
+          "bytes": 10285,
+          "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+        },
+        {
+          "name": "cryptalis/_native_text.py",
+          "bytes": 2237,
+          "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+        },
+        {
+          "name": "cryptalis/_sqlalchemy_guard.py",
+          "bytes": 4807,
+          "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+        },
+        {
+          "name": "cryptalis/_sqlalchemy_search.py",
+          "bytes": 9557,
+          "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+        },
+        {
+          "name": "cryptalis/_sqlalchemy_transactions.py",
+          "bytes": 8273,
+          "sha256": "cb128481811576d8f16b233d4a30fca060eb9a1bfc4459d5e7e129434cc522ec"
+        },
+        {
+          "name": "cryptalis/_sqlmodel_support.py",
+          "bytes": 1324,
+          "sha256": "878617cd732040f0e83b6c6991d53884a2bf0927384bc58c71225d85bf7e2f6f"
+        },
+        {
+          "name": "cryptalis/_transition_json.py",
+          "bytes": 2150,
+          "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+        },
+        {
+          "name": "cryptalis/cli.py",
+          "bytes": 17882,
+          "sha256": "0df0b4f0101933b3a069024965b7bc5a3374747aff53d37099d2f22efc105efe"
+        },
+        {
+          "name": "cryptalis/contracts/__init__.py",
+          "bytes": 58,
+          "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+        },
+        {
+          "name": "cryptalis/contracts/active_state.py",
+          "bytes": 8925,
+          "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+        },
+        {
+          "name": "cryptalis/contracts/development_authority.py",
+          "bytes": 3337,
+          "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+        },
+        {
+          "name": "cryptalis/contracts/transition.py",
+          "bytes": 6485,
+          "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+        },
+        {
+          "name": "cryptalis/crypto/__init__.py",
+          "bytes": 961,
+          "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+        },
+        {
+          "name": "cryptalis/crypto/_candidate_envelope.py",
+          "bytes": 3964,
+          "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+        },
+        {
+          "name": "cryptalis/crypto/_candidate_scalar.py",
+          "bytes": 7050,
+          "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+        },
+        {
+          "name": "cryptalis/crypto/_candidate_wrap.py",
+          "bytes": 3518,
+          "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+        },
+        {
+          "name": "cryptalis/crypto/_payload_rotation.py",
+          "bytes": 5027,
+          "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+        },
+        {
+          "name": "cryptalis/crypto/_rewrap.py",
+          "bytes": 2708,
+          "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+        },
+        {
+          "name": "cryptalis/crypto/cf1.py",
+          "bytes": 9977,
+          "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+        },
+        {
+          "name": "cryptalis/crypto/development_file.py",
+          "bytes": 5207,
+          "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+        },
+        {
+          "name": "cryptalis/crypto/keys.py",
+          "bytes": 14233,
+          "sha256": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56"
+        },
+        {
+          "name": "cryptalis/cutover.py",
+          "bytes": 12254,
+          "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+        },
+        {
+          "name": "cryptalis/deprotection.py",
+          "bytes": 31183,
+          "sha256": "b8c6469dc8ca508b964797717bc3413fbe7ccb9d5c342345b5a759b04d951fd7"
+        },
+        {
+          "name": "cryptalis/doctor.py",
+          "bytes": 11085,
+          "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+        },
+        {
+          "name": "cryptalis/manifest/__init__.py",
+          "bytes": 79,
+          "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+        },
+        {
+          "name": "cryptalis/manifest/canonical.py",
+          "bytes": 759,
+          "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+        },
+        {
+          "name": "cryptalis/manifest/compatibility.py",
+          "bytes": 23117,
+          "sha256": "4d42e25714eed40dfb3c27d10239705855d6ffe963a5ef642de7511f85abe460"
+        },
+        {
+          "name": "cryptalis/manifest/compiler.py",
+          "bytes": 51172,
+          "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+        },
+        {
+          "name": "cryptalis/manifest/declaration.py",
+          "bytes": 7156,
+          "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+        },
+        {
+          "name": "cryptalis/manifest/descriptor.py",
+          "bytes": 2984,
+          "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+        },
+        {
+          "name": "cryptalis/manifest/header.py",
+          "bytes": 5449,
+          "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+        },
+        {
+          "name": "cryptalis/manifest/parser.py",
+          "bytes": 3380,
+          "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+        },
+        {
+          "name": "cryptalis/manifest/routines.py",
+          "bytes": 4219,
+          "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+        },
+        {
+          "name": "cryptalis/migration.py",
+          "bytes": 48849,
+          "sha256": "0c6df2baa2b3b8c25a9dedb5ee2d6e7a1b47804da3e04ebf4dda5c2a3a465b9a"
+        },
+        {
+          "name": "cryptalis/sqlalchemy.py",
+          "bytes": 63362,
+          "sha256": "fc2f7a7c983370f7c81874b56ec8e511532d226fc962bc0c8939b38d4daadfbe"
+        },
+        {
+          "name": "cryptalis-0.1.0.dist-info/licenses/LICENSE",
+          "bytes": 1070,
+          "sha256": "7f5a6a6ca9e6e2d6e75ec8530612396f3eebd2659c79a6ca123bf30a933f23df"
+        },
+        {
+          "name": "cryptalis-0.1.0.dist-info/WHEEL",
+          "bytes": 81,
+          "sha256": "7260b9b36d688f2a5b56c96574bec826ade18d91feb48372e2bce229e3c5b06d"
+        },
+        {
+          "name": "cryptalis-0.1.0.dist-info/entry_points.txt",
+          "bytes": 50,
+          "sha256": "212e87c8938ce8c2566799aed491407e98024c36f7b4ce2c5b5417802842c842"
+        },
+        {
+          "name": "cryptalis-0.1.0.dist-info/METADATA",
+          "bytes": 13685,
+          "sha256": "785a29e845e3e243de9c446c223c9adf60dab2e038f1e4798d4fa8ec08437c29"
+        },
+        {
+          "name": "cryptalis-0.1.0.dist-info/RECORD",
+          "bytes": 3883,
+          "sha256": "fb11be0a35e578c0467ce664675fdaa6fb544efa1528400328509d52d93defb5"
+        }
+      ]
+    }
+  ],
+  "scope": "S21 built distributions; no dependency provenance or production qualification"
+}

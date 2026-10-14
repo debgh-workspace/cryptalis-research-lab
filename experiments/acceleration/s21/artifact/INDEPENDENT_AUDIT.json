@@ -1,0 +1,21 @@
+{
+  "sdist_sha256": "7bed6386ca46a639997ab258451a8c0fd959aaeff4eb65d21e9b448a4dc991c1",
+  "wheel_sha256": "ebd58ffca3bfdf9aaa624a394a2cddcc2dedd91ceb99a75e9416e88afdee3514",
+  "lock_sha256": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+  "tar_members": 52,
+  "tar_regular_files": 46,
+  "wheel_members_including_directories": 51,
+  "changed_tar_payloads": [
+    "cryptalis-0.1.0/src/cryptalis/manifest/compatibility.py",
+    "cryptalis-0.1.0/src/cryptalis/migration.py"
+  ],
+  "changed_wheel_payloads": [
+    "cryptalis-0.1.0.dist-info/RECORD",
+    "cryptalis/manifest/compatibility.py",
+    "cryptalis/migration.py"
+  ],
+  "runtime_modules": 40,
+  "record_hashed_entries": 44,
+  "full_member_sets_match_baseline": true,
+  "other_payload_bytes_unchanged": true
+}
