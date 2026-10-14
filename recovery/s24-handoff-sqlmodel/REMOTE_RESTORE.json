@@ -1,0 +1,61 @@
+{
+  "status": "PASS_DATA_ONLY_REMOTE_ADDITIVE_BYTE_RESTORE",
+  "archive": "CRYPTALIS_S24_HANDOFF_SQLMODEL_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "56a06d435f20883a6c88294c55062400765cbcc31f37fae7ef42c1e968ac98f9",
+  "bytes": 291412,
+  "parts": 4,
+  "part_readbacks": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "d2b2635eb490cb789885c6db8e6db7ea5e20f45ead8cd617e2abeedb1488c635"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "37f4ec266c1f23e04ac3a19634fe550f19a53f8000b63205f5180c71ee6f4c9f"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "bd15416ad8314d01b23a5deed598a61440731e0434e34c0ebdf84897ee7a57b4"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 3412,
+      "sha256": "5a16fd82280f9dc1c39eb4c15c881818b1ab9684a3074e134eddca56800c84c7"
+    }
+  ],
+  "part_manifest_sha256": "1588ab3add1e06cf164a124759a55c243d667a33b239e61236bcd2a894dae1e1",
+  "regular_members": 702,
+  "member_bytes": 11715862,
+  "payload_manifest_entries": 701,
+  "payload_manifest_sha256": "952639202b8d5779c376ff61f826fd8da2dd5d8df45ba0a83ce36a2919e8eb3b",
+  "payload_bytes": 11443386,
+  "selected_inputs": 692,
+  "selected_input_bytes": 11095942,
+  "allowlist_sha256": "e0266d0403369b8d9f0903a690e7ccd1ff89eaf1fc0d2eedc744de8a01a14785",
+  "fresh_extraction_complete_readback": true,
+  "referenced_source_files_not_reconstructed": 214,
+  "referenced_source_capsule_sha256": "17691c7d230ba97cb3d7f6d0a4f1e999c48a3e3bfa8af296539f478f0f24764d",
+  "source_manifest_sha256": "6c7ca4ecda9e4d0628aa8a8fe4626e36c8708622f020c73c8320210948cd003d",
+  "source_overlay_replacements_verified_not_applied": 2,
+  "unchanged_source_files": 212,
+  "candidate_manifest_sha256": "6fccbed2f4d10e78073036ab59a5da30b33f925e40090d5aef84d1b129881bff",
+  "overlay_plan_sha256": "2cf88f84e3057d52c68e173e87e0bb800080873107408ebddba5128df9b22bc0",
+  "v3_distinct_nodes": 38,
+  "targeted3_overlaps_core36": true,
+  "v2_failures_and_v1_preparation_incident_preserved": true,
+  "non_standalone_additive_only": true,
+  "full_source_capsule_embedded": false,
+  "restored_code_imported_or_executed": false,
+  "tests_database_build_install_git_remote_actions": false,
+  "remote_commit_authenticated_by_this_script": false,
+  "publication_authorized_by_this_script": false,
+  "all_seven_qualification_gates": "UNKNOWN",
+  "seven_historical_failures": "UNRESOLVED_AND_NOT_WAIVED",
+  "pending_acceptance_approved": false,
+  "promotion": "HOLD",
+  "performance_promotion": false,
+  "scope": "Exact selected additive qualification-evidence bytes only. Full r3 source is referenced separately. No complete checkout, dependencies, installed environment, credentials, providers, database, operational recovery, independent runtime qualification or standalone rerunnable historical audit. V2 failures, V1 preparation incident and temporal addenda remain unchanged. The coordinator separately authenticates remote commit and readback transport."
+}

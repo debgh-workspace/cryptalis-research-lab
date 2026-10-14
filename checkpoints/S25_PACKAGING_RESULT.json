@@ -1,0 +1,36 @@
+{
+  "status": "PASS_SCOPED_PACKAGING",
+  "sdist_sha256": "4800ce1a8e21685d063daf84882e36885759b2b30bcd3c3ad43c6a688b2299ba",
+  "wheel_sha256": "42150bab589fcb80083dafb8bd34186c5040776950fa1f5b04b11a43c1e3b36c",
+  "source_files": 216,
+  "runtime_modules": 41,
+  "record_hashed_entries": 45,
+  "changed_source_files": [
+    "src/cryptalis/_sqlmodel_support.py",
+    "src/cryptalis/sqlalchemy.py"
+  ],
+  "added_source_files": [
+    "tests/async_sqlmodel_oracle_support.py",
+    "tests/test_async_sqlmodel_public_hook.py"
+  ],
+  "changed_wheel_members": [
+    "cryptalis-0.1.0.dist-info/RECORD",
+    "cryptalis/_sqlmodel_support.py",
+    "cryptalis/sqlalchemy.py"
+  ],
+  "negative_controls": [
+    {
+      "id": "missing_lock",
+      "rejected": true
+    },
+    {
+      "id": "altered_lock",
+      "rejected": true
+    }
+  ],
+  "gates": "ALL_SEVEN_UNKNOWN",
+  "limits": [
+    "Same-host pinned-builder equality only; no independent reproducibility or dependency provenance.",
+    "No runtime tests, installation, database, dependency changes or release qualification."
+  ]
+}

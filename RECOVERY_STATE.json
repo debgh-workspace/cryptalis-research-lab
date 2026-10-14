@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "e271ebc7da3e723f9827caf471ed9b4bd2dda40f",
+  "latest_verified_remote_commit": "9e57de7756c90d73b98bc89a1594f51e0c47e3f3",
   "latest_integrated_candidate": "candidate-s23-planning-20261014 (S23; 213 source files; bounded research qualification only)",
   "current_experiment": "S23 bounded planning correction is verified in both source-overlay full cells and installed-focused cells. Source/evidence recovery is separate from dependency, operational runtime and product qualification. Live follow-on work must be recorded from coordinator status.",
   "s5_remote_byte_restore_files": 3579,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T20:55:00Z",
+  "updated_utc": "2026-10-14T21:15:00Z",
   "current_operation": "S24 installed scopes independently audited,600-key corpus verified; async SQLModel V2 failed3 invalid provider-identity oracles, V3 source-only correction preparing; fullcapsule final8parts uploading",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "e271ebc7da3e723f9827caf471ed9b4bd2dda40f",
+  "latest_verified_remote_head": "9e57de7756c90d73b98bc89a1594f51e0c47e3f3",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -58,7 +58,7 @@
     "restored_files": 175
   },
   "next_task": "Finish seven current-source corpus campaigns and reconcile exact600keys; review/install realS24wheel into authorized copies; publish recoverableR3capsule afterindependentreview",
-  "latest_remote_tree": "bbc5e0967cd36994afc3ab3330220ab4d2ef5d7b",
+  "latest_remote_tree": "86b8b5dc78e1a5be78e6727fd828066698a3cdc9",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
     "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
@@ -346,8 +346,8 @@
   },
   "latest_main_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
   "latest_research_branch": "accel/integration-s19-20261013",
-  "latest_research_branch_head": "e271ebc7da3e723f9827caf471ed9b4bd2dda40f",
-  "latest_research_tree": "bbc5e0967cd36994afc3ab3330220ab4d2ef5d7b",
+  "latest_research_branch_head": "9e57de7756c90d73b98bc89a1594f51e0c47e3f3",
+  "latest_research_tree": "86b8b5dc78e1a5be78e6727fd828066698a3cdc9",
   "post_s18_20261013": {
     "c6_commit": "bcc5654c4d9bf883b8d700b64d0ed5735566c696",
     "c6_remote_bytes_verified": true,
@@ -374,12 +374,12 @@
     "fresh_installed_restore": "23PASS17subtests8.42s;existingcluster",
     "all_seven_gates": "UNKNOWN"
   },
-  "active_database_owner": "coordinator",
+  "active_database_owner": null,
   "pending_online_prototype_approval": {
     "message_id": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
     "status": "PENDING; no new privilege authority"
   },
-  "active_database_run": "s25-async-sqlmodel-integration-sa21-20261014",
+  "active_database_run": null,
   "latest_slice_publications": {
     "B7": "9d4f65822cfe11e8a29fa99a9b599cc1c746123f",
     "C8_source_only": "573fd72df2b787aa53d32a47e0fb6f8c26534f49"
@@ -849,16 +849,31 @@
     "recovery_artifact": "CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz"
   },
   "current_execution": {
-    "status": "S25_FULL_SA21_RUNNING",
+    "status": "DB_IDLE_S25_INSTALL_PREPARATION_STATISTICS_G1_FAILED",
     "candidate": "candidate-s24-async-sqlmodel-public-v2-20261014",
     "database_owner": "coordinator unchanged wrapper/preflight/lock",
     "targeted": "3 PASS; five completion receipts independently accepted",
     "installed_legacy_sa21": "10 PASS/14.18s; independent audit 137/137 checks passed",
     "installed_legacy_sa20": "10 PASS/15.41s; independent audit 137/137 checks passed",
-    "statistics_observer": "HOLD; isolated correction preparation",
+    "statistics_observer": "V2 private source defects structurally corrected; full packet HOLD for bounded ANALYZE, valid typed mutant, snapshot prerequisite accounting and corpus wrapper. V3 source-only correction underway.",
     "sqlmodel_core": "36 PASS/2 deselected/4.67s; independent runtime audit accepted",
     "sqlmodel_dml": "2 PASS/36 deselected/0.62s; independent runtime audit accepted",
-    "s25_optional": "38 PASS/6.60s independently accepted"
+    "s25_optional": "38 PASS/6.60s independently accepted",
+    "s25_sa21": {
+      "pass": 2632,
+      "fail": 7,
+      "skip": 0,
+      "passing_subtests": 56,
+      "seconds": 412.23,
+      "independent_audit": "ALL2639_IDS_OUTCOMES_AND_SEVEN_FAILURE_MESSAGES_IDENTICAL_R3"
+    },
+    "statistics_g1": {
+      "pass": 9,
+      "fail": 20,
+      "deselected": 66,
+      "seconds": 7.79,
+      "status": "Test cleanup defect may mask assertions; V4 source-only correction preparation; no failure relabeling"
+    }
   },
   "evidence_capture_defect": {
     "id": "EVIDENCE-CAPTURE-01",
@@ -1142,6 +1157,42 @@
       "remote_parts_verified": 8,
       "fresh_data_restore": "PASS",
       "scope": "Additive, not standalone runtime or independent qualification"
+    },
+    "handoff_sqlmodel_archive": {
+      "commit": "2fc689f7c1bdceb37710270c2f8b785a6b609866",
+      "sha256": "56a06d435f20883a6c88294c55062400765cbcc31f37fae7ef42c1e968ac98f9",
+      "bytes": 291412,
+      "members": 702,
+      "remote_parts_verified": 4,
+      "fresh_data_restore": "PASS",
+      "scope": "Additive, baseline source referenced; no standalone runtime or independent qualification"
     }
+  },
+  "s25": {
+    "candidate": "candidate-s25-async-sqlmodel-integration-20261014",
+    "manifest": "3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703",
+    "files": 216,
+    "sa21": {
+      "pass": 2632,
+      "fail": 7,
+      "skip": 0,
+      "seconds": 412.23
+    },
+    "sa20": {
+      "pass": 2586,
+      "fail": 7,
+      "skip": 46,
+      "seconds": 396.69
+    },
+    "passing_subtests_each": 56,
+    "optional_sqlmodel": {
+      "pass": 38,
+      "seconds": 6.6
+    },
+    "independent_matrix_audit": "PASS_SCOPED_EXACT_R3_EQUIVALENCE",
+    "wheel_sha256": "42150bab589fcb80083dafb8bd34186c5040776950fa1f5b04b11a43c1e3b36c",
+    "sdist_sha256": "4800ce1a8e21685d063daf84882e36885759b2b30bcd3c3ad43c6a688b2299ba",
+    "installed": "NOT_RUN",
+    "gates": "ALL_SEVEN_UNKNOWN"
   }
 }

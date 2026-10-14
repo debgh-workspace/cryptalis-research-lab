@@ -1,0 +1,10 @@
+# Current blueprint evidence addendum — 2026-10-14 21:04 UTC
+
+This addendum does not amend any approved confidentiality, authority, lifecycle or release contract. Historical blueprint source and execution snapshots remain intact. Read together with the authoritative build checklist and S24_S25_CORRECTNESS_ADDENDUM_20261014.md.
+
+- Public integration stays manifest-first. The only current S25 runtime overlay is the reviewed default-off public SQLModel async session composition; no new dependency version or general SQL admission is implied. Full main-cell regression excludes only the new optional-dependency test module and executes its38 nodes separately in the exact supported existing cell.
+- Lifecycle compatibility now has genuine old-producer artifacts consumed by installed S24 at10 forward/reverse phases on each main dependency cell. This does not replace crash/lost-ACK, generic legacy conversion, storage bounds, rotation, online capture or real-provider evidence.
+- Search statistics are an observed operational issue: expression statistics were absent after publication and present after explicit synthetic-fixture owner ANALYZE. Separate-connection plans improved for selective cases, but measured application latencies were mixed. No causal or end-to-end speedup, default ANALYZE, new leakage acceptance or performance gate closure.
+- A private advisory observer is being reviewed in isolation. Public check_deployment successful None return and doctor owner-engine refusal remain unchanged. No observer claim can expose MCV/histogram values or imply freshness/complete security qualification.
+- Compatibility corpus600 keys/159 IDs is444 IDENTICAL+156 REJECTED-LOUD, with original gaps retained. Testcase instances and corpus keys are different units. Dependency provenance and all seven independent gates remain open.
+- Required decisions remain pending: version-specific reverse acceptance, new clusters/credentials/providers, privileged online/rotation and other separately requested actions. Ordinary synthetic tests continue only through unchanged role preflights and serialized existing lab lock.
