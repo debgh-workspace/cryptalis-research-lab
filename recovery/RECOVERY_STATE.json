@@ -1,15 +1,18 @@
 {
-  "observed_at_utc": "2026-10-13T15:05Z",
+  "observed_at_utc": "2026-10-14T07:42Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S18 bounded installed/app/recovery research checkpoint verified; main still S14",
+  "latest_candidate_status": "S20 bounded installed qualification verified; seven unchanged legacy failures; all seven production gates UNKNOWN",
   "latest_archive": {
-    "name": "CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz",
-    "library_file_id": "libfile_d022220ef99c81d18e14d8eb84616f6d",
-    "sha256": "2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad",
-    "bytes": 2915204
+    "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+    "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+    "bytes": 1132692,
+    "remote_complete": true,
+    "parts": 24,
+    "commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+    "payload_files": 216
   },
   "checklist": {
     "path": "CRYPTALIS_BUILD_CHECKLIST.md",
@@ -27,9 +30,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
-  "latest_integrated_candidate": "candidate-accel-setup-integrated-20261013 (S18), research branch only",
-  "current_experiment": "A optimistic ORM versioning; B retained-profile safety mapping; C new performance hypothesis; D CF1 capture oracle; E offline provider boundary review; F manifest-first integration",
+  "latest_verified_remote_commit": "a96a571b2646af248ddc941584a4231f1224e348",
+  "latest_integrated_candidate": "candidate-accel-payload-integrated-20261014 (S20)",
+  "current_experiment": "A9 no-crypto exposure routing; C9 performance HOLD after independently audited failure",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -37,8 +40,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-13T16:01Z",
-  "current_operation": "No active PG session. D4 initial12PASS percell reviewed; packet minimization revision pending. C7 research-only fixedscan harness prepared by worker.",
+  "updated_utc": "2026-10-14T07:42Z",
+  "current_operation": "Native component evidence publication and durable inactive preparation contract review; no active DB run",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -52,8 +55,8 @@
     "known_failures_each": 7,
     "restored_files": 175
   },
-  "next_task": "Verify D4 minimized IPC revision, preserve evidence, run finite C7 baseline when frozen; main approval remains pending",
-  "latest_remote_tree": "ae940375a278b39bd00e60dc7dc5bb35b3ae609f",
+  "next_task": "Finish boundary probes and publish explicit-validation audit; revise B9 same-journal bounded design before implementation",
+  "latest_remote_tree": "f0147c081b0c768c479e7d043631dd35ca095dd7",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
     "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
@@ -262,11 +265,11 @@
     "orm": "f1c81c0b8d0d5360af838359b2b3876282f59489",
     "lifecycle": "5f18111b014b1c6e589bb425e3ead4d7e7239726",
     "search": "94adea55905b1c69838df0f0fc725d1924eaf0b8",
-    "online": "d3718eba3ca543995a9a937112b5f83f284c53b9",
+    "online": "4135805673b2e7c9976959c4383bae39681d2eab",
     "developer_experience": "4129f952d78a5f94612111811462d5fc5c263415",
     "integration_s17": "c20b3e98ec7cfb939d7be1391ca82ebd87b3d2f3",
     "security": "c9732661e389b863d1ecb94f0b9b678109b62373",
-    "integration_s18": "8ea6d5935af3de277e31d7a31fdf93d06ac99139"
+    "integration_s18": "85f86623a370deb5b71552d404633da8cd7e1b3c"
   },
   "b2": "24FAIL5PASS RED; corrected94PASS130.84s SA21; not integrated",
   "c2": "32FAIL58PASS RED; correction pending; not integrated",
@@ -340,7 +343,176 @@
     "scope_note": "No approval inferred from later generic automation prompt; do not treat an answer limited to S17 as approval of S18 or future unqualified main updates."
   },
   "latest_main_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
-  "latest_research_branch": "accel/integration-s18-20261013",
-  "latest_research_branch_head": "8ea6d5935af3de277e31d7a31fdf93d06ac99139",
-  "latest_research_tree": "97ca26cd05f3a783a8a462fa2435131cae22484f"
+  "latest_research_branch": "accel/integration-s19-20261013",
+  "latest_research_branch_head": "cef208cd0e3205b8e3ed954968d75be73dbcb6d4",
+  "latest_research_tree": "efe5353ea3d492528ede69e6077127a6b225443e",
+  "post_s18_20261013": {
+    "c6_commit": "bcc5654c4d9bf883b8d700b64d0ed5735566c696",
+    "c6_remote_bytes_verified": true,
+    "c7": "correctness passed; four cost gates failed; source publication in progress, raw bundle pending",
+    "f4": "55PASS17subtests each cell; isolated, not integrated",
+    "a4": "8PASS each cell; test-only, not integrated",
+    "active_database_owner": "root b6-warm-worker-fence-sa21-20261013"
+  },
+  "latest_publication_instruction": {
+    "message_id": "Sentinel_a0e9169d427481d1b2bf18f5d2a40b7b",
+    "received_at_utc": "2026-10-13T21:23:04Z",
+    "instruction": "Continue checkpoint commits/pushes only to debgh-workspace/cryptalis-research-lab; original Debrato2005/cryptalis remains read-only",
+    "research_branch_publication_authorized": true,
+    "main_promotion": "separate pending approval; no retry"
+  },
+  "s19": {
+    "candidate": "candidate-accel-removal-integrated-20261013",
+    "source_files": 204,
+    "full_sa21": "2282PASS7legacyFAIL56subtests386.75s",
+    "full_sa20": "2236PASS7legacyFAIL46SKIP56subtests386.85s",
+    "real_app": "58x4PASS;outer32.05s",
+    "archive_sha256": "fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29",
+    "archive_remote_parts_verified": 17,
+    "fresh_installed_restore": "23PASS17subtests8.42s;existingcluster",
+    "all_seven_gates": "UNKNOWN"
+  },
+  "active_database_owner": "root b8-payload-preparation-red-sa21-20261013",
+  "pending_online_prototype_approval": {
+    "message_id": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
+    "status": "PENDING; no new privilege authority"
+  },
+  "active_database_run": null,
+  "latest_slice_publications": {
+    "B7": "9d4f65822cfe11e8a29fa99a9b599cc1c746123f",
+    "C8_source_only": "573fd72df2b787aa53d32a47e0fb6f8c26534f49"
+  },
+  "second_app_approval_request": "Sentinel_88690b6b6ec081d181c40faeaa3e6f13",
+  "latest_s19_ledger_commit": "1a511c2c6ab73d6dd8a78565e19f2670f0458e85",
+  "database_ownership_reconciliation": "A5 corrected SA21 existing completed receipt discovered; root holding new DB runs pending provenance confirmation; no database currently requested.",
+  "pending_c8_blob_approval": {
+    "message_id": "Sentinel_cfd6883f647c81d1b28b089b8b09143f",
+    "status": "Explicit tool approval request discovered in history; no owner approval. Do not retry same raw part until resolved. Branch path404 at04:34."
+  },
+  "latest_s20_source_commit": "45ea95be055a9092a90bd04b339d7649819e26b7",
+  "latest_b8_research_commit": "f8801a2bc6794b6983c5893559cb042770bdc1b9",
+  "next_database_queue": [
+    "C9 corrected guard/plan observations",
+    "C9 frozen paired timing only after correctness gates",
+    "native producer instrumentation when frozen"
+  ],
+  "s20_sa21_result": {
+    "passed": 2337,
+    "failed": 7,
+    "subtests": 56,
+    "seconds": 384.67,
+    "same_failure_ids_as_s19": true
+  },
+  "native_lineage_candidate": "candidate-native-uow-lineage-20261014",
+  "native_lineage_test_hash": "e1023e414f74bd1c733b9b57d2fad551171d71ecfa645eb660f33743eb27af61",
+  "latest_s20_qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
+  "latest_c9_research_commit": "c7ac916ed0772f2976a2cf8820e9b6a34eace717",
+  "latest_a6_research_commit": "817b7f366f1ec2e8ea6b7a285f4dabeade3461b8",
+  "highest_verified_integrated_candidate": {
+    "name": "S20",
+    "source_root": "candidate-accel-payload-integrated-20261014",
+    "source_files": 208,
+    "source_commit": "45ea95be055a9092a90bd04b339d7649819e26b7",
+    "qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
+    "remote_binary_archive": false,
+    "highest_complete_remote_archive": "S19"
+  },
+  "a8_checkpoint": {
+    "commit": "884146103a3a36a9d3c438eae7490292d34868c8",
+    "passed_each": 24,
+    "scope": "synthetic research only"
+  },
+  "c9_timing_checkpoint": {
+    "commit": "5d60e2a1d70641802cf082b9131899890f9059d8",
+    "observations": 10500,
+    "disposition": "HOLD; both relative and absolute gates failed in both cells",
+    "raw_archive_remote": false
+  },
+  "historical_archive_entries": {
+    "s5": {
+      "name": "CRYPTALIS_MASTER_S5_COMPLETE_CORPUS_20261012T2156Z.tar.xz",
+      "library_file_id": "libfile_d022220ef99c81d18e14d8eb84616f6d",
+      "sha256": "2fd2baf252fd2be66d75b39d2ff279202fc40792f6072b3b9d6f5311b7e06fad",
+      "bytes": 2915204
+    },
+    "s19": {
+      "name": "CRYPTALIS_S19_CANDIDATE_EVIDENCE_20261013T2145Z.tar.xz",
+      "sha256": "fbc301d0cc0a4b6565e542beed881e7b3715ebb9d507c83676639a0d1c5a2b29",
+      "bytes": 1210016,
+      "remote_complete": true,
+      "parts": 17,
+      "commit": "cef208cd0e3205b8e3ed954968d75be73dbcb6d4",
+      "payload_files": 246
+    }
+  },
+  "latest_local_archive": {
+    "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+    "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+    "bytes": 1132692,
+    "remote_complete": true,
+    "payload_files": 216,
+    "focused_installed_restore_passed": 55
+  },
+  "private_hook_encrypted_prototype_approval": {
+    "status": "PENDING",
+    "message_id": "Sentinel_68a3bd17256881d183466ff5162177a1",
+    "scope": "Isolated no-argument-default encrypted prototype using version-pinned private SQLAlchemy hooks; context-aware compatibility remains open; no release promotion"
+  },
+  "a9_checkpoint": {
+    "commit": "350c3df17d12496628520bb297d9e4c6c91fa3c0",
+    "scope": "No-crypto opaque placement only; independent proof gaps preserved",
+    "remote_bytes_verified": 8
+  },
+  "a9_r2_checkpoint": {
+    "commit": "0a2a50805078b77ea9b849787e95f53f1575e04e",
+    "cases_each": 12,
+    "scope": "Pure fake DBAPI; no cryptography; independent review accepted bounded evidence",
+    "remote_files_verified": 6
+  },
+  "c10_checkpoint": {
+    "commit": "9f6fc150f985278fe045dd511f5eef260f5e100d",
+    "source_sha256": "8c6a3ad82865734200424b6ab949ef46c38540561be20b743188073fbf593fb4",
+    "pure_passed_each": 55,
+    "affected_pg_passed_each": 213,
+    "remote_files_verified": 10,
+    "performance": "FAIL both gates both versions; superseded by c10_final_checkpoint",
+    "status": "isolated research; no integration"
+  },
+  "s20_remote_recovery": {
+    "commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+    "archive_sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+    "archive_bytes": 1132692,
+    "parts": 24,
+    "payload_files": 216,
+    "candidate_files": 208,
+    "exact_remote_reconstruction": true,
+    "installed_smoke_passed": 55,
+    "smoke_seconds": 4.94
+  },
+  "c10_final_checkpoint": {
+    "commit": "3684509c818b6f0d872d07574479b8a37459654c",
+    "verified_remote_files": 10,
+    "performance": "FAIL both frozen gates both versions",
+    "audit": "10500observations independently verified",
+    "raw_archive_sha256": "f01d5a20d4452e12c4829074e17739b52d2ef30e79bba2047f6064ba48c123fc",
+    "raw_archive_remote": false
+  },
+  "experiment_loop": "CRYPTALIS_EXPERIMENT_LOOP.md; user-requested Karpathy-style bounded adaptation; no third-party executor installed",
+  "native_direction": {
+    "source_commit": "4600a4fd30ded0b6612359952a0124afc2a9575b",
+    "timing_commit": "d0ffa2b66995eba96f9b4e2698e76d0d6837af72",
+    "component_only": true,
+    "product_qualified": false,
+    "timing_operations": 56000,
+    "arithmetic_audit_checks": 21,
+    "original_timing_optimization_provenance": "unrecorded; assertion-sensitive validation/warmups",
+    "explicit_validation_pinned": {
+      "cryptography": "50.0.2",
+      "pyca_backend": "4.0.3",
+      "normal_pass": 76,
+      "optimized_pass": 76,
+      "expected_negative_failures": 2
+    },
+    "first_explicit_validation_other_cell": "50.0.0/4.0.1 retained; not pinned benchmark environment"
+  }
 }

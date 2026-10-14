@@ -1,0 +1,13 @@
+{
+  "archive_commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+  "archive_sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+  "archive_bytes": 1132692,
+  "remote_parts": 24,
+  "verified_payload_files": 216,
+  "all_remote_parts_and_manifest_fetched": true,
+  "scope": "Source/research package. Final qualification receipt supersedes historical embedded pending status. Prior checkpoints retained.",
+  "smoke_status": "55PASS4.94s",
+  "smoke_scope": "Fresh remote-extracted source; existing previously installed byte-identical S20 wheel,40modulesmatched. No new dependency install or new cluster.",
+  "smoke_junit_sha256": "6a641cba23fd595b252e1ed6324ace0cd10a0329310cd160f987a0a1ec5df5e3",
+  "smoke_log": "PostgreSQL preflight passed 76053d5b a38ab71b\n.......................................................                  [100%]\n55 passed in 4.94s\n"
+}
