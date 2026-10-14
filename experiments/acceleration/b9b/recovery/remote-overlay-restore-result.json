@@ -1,0 +1,36 @@
+{
+  "base_files_verified": 208,
+  "remote_overlay": [
+    {
+      "path": "experiments/payload_rotation_journal.py",
+      "sha256": "ac09b3c0f70c3089aada5bf584d64487072d7b8ea7083292e543773e03a4a8df"
+    },
+    {
+      "path": "tests/test_payload_rotation_profiles.py",
+      "sha256": "987121a47a7ee5fb9d6a20aa3626b1a578424a722b37954d791079176a6f4de8"
+    },
+    {
+      "path": "tests/test_payload_rotation_journal.py",
+      "sha256": "21edf18c18056a02f6afc15a34fe768172e098b0ddff2c49a9623584d6bb8a19"
+    }
+  ],
+  "scope": "bounded executable remote source overlay, not complete metadata archive",
+  "preparation_failure": "initial shell single-quote serialization failed; no candidate executed; replaced with quoted heredoc data write",
+  "test_suites": [
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "6",
+      "time": "18.194",
+      "timestamp": "2026-10-14T10:52:51.722651+00:00",
+      "hostname": "311c85efc72a"
+    }
+  ],
+  "tracked_source_unchanged": true,
+  "three_overlay_hashes_after_match": true,
+  "existing_environment_only": true,
+  "not_complete_archive_restoration": true,
+  "junit_sha256": "e15024360b0766bd4a17522519ffc464c76bd6978c1fee12d41416be112bb838"
+}

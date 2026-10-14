@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "801f535dc76f378ea232d84c1365a71e52f34e63c50abc7a25107c21d7a2ba48",
+  "published_parts": 10,
+  "remaining_parts": 9,
+  "status": "blocked after same-operation retry with content audit",
+  "reason": "reviewer cannot independently verify opaque archive; exact owner approval requested",
+  "audit_json_sha256": "17c51f636ee9c3f852fbf141851366de1fc817ab7c4f6cd69c29189c73d5fc8a",
+  "no_further_retry_without_approval": true
+}
