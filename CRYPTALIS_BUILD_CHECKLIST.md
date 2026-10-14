@@ -4,9 +4,9 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T15:15Z`
+- Last updated UTC: `2026-10-14T15:54Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Highest verified bounded integrated research candidate: S21 `candidate-s21-correctness-20261014`, 210 files. Full source-overlay suites: SQLAlchemy2.1.3 2525PASS/7FAIL/0SKIP, SQLAlchemy2.0.51 2479PASS/7FAIL/46SKIP, 56 subtests separately per cell. Exact prior outcomes preserved;188 new passing cases each. Installed wheel focused checks253PASS per cell, not a full installed-suite claim. Source6e975d9e116b9422386aab1cff8eeaddabfd4a2f, artifacts12877477b80e4b461a525b325f36f42ba2bc750b, integration evidencef0a144d571241effd0327247a0084d9acfcc92d4 all remote byte-verified. S20 prior checkpoint retained. Main remainsS14;all7gatesUNKNOWN.
+- Highest verified bounded integrated research candidate: S22 `candidate-s22-scanner-20261014`,212 files. Full source-overlay suites: SQLAlchemy2.1.3 2623PASS/7FAIL/0SKIP, SQLAlchemy2.0.51 2577PASS/7FAIL/46SKIP,56 subtests separately per cell. Exact prior S21 outcomes preserved;98 new passing cases each. Installed wheel focused checks351PASS per cell, not full installed-suite qualification. Source ae0f04ac60e01ac9b2acfa5f166c3176c475597e and artifacts9b198439aaebd9bf7614efa00071aa8d39e16696 remote byte-verified;212-file remote composite restore verified. S21/S20 retained. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Release provenance limit (13:50 UTC): current S20 test-cell metadata has pycparser 3.11/iniconfig 2.3.1 versus lock 3.0/2.3.0. Static artifact-to-lock/SBOM equality passed; installed-environment lock identity remains OPEN. Exact original wheel archives are unavailable locally and official-host probes timed out. No dependency changes or historical test-count reinterpretation.
@@ -991,3 +991,30 @@ All seven gates remain UNKNOWN: G-ADAPTER, G-CRYPTO, G-QUERY, G-LIFECYCLE, G-PRO
 ### 2026-10-14 15:15 UTC — related scanner binding work remains separate
 
 DX-SOURCE-BINDING-02 (NamedExpr) is focused-verified and independently reviewed in its separate derivative, published at ef39801bd6abdff2fb8d3faa761433a86aae1a90. No S21 bytes changed. Related source inspection identified unhandled For/AsyncFor, With/AsyncWith, AugAssign and Delete targets, plus deletion's function-local binding effect. These are DX-SOURCE-BINDING-03, OPEN source-inferred findings. A bounded shared-target/evaluation-order correction is being prepared separately, with no new execution yet. Existing partial/advisory semantics remain explicit; no complete Python control-flow analysis claim.
+
+## S22 scanner integration and evidence-capture correction — 2026-10-14 15:35 UTC
+
+- S21 remains the highest two-version verified integrated checkpoint. S22 is a separate 212-file candidate.
+- Statement-binding correction: baseline64FAIL/14PASS; corrected focused cells196PASS each. Five files published at37eb55e6eb270ab8ece186baa4c37db9ddbce3dd and exact remote bytes verified. Receipt: persistence-recovery-20261013/statement-binding-remote-verification.json.
+- S22 full source-overlay SQLAlchemy2.1.3:2623PASS/7FAIL/0SKIP,56 subtests separately,50warnings,407.51s. Independent audit confirms all prior S21 outcomes and98 new passing cases; same seven legacy deprotection failures. All212 source hashes match;151 execution hashes stable. PostgreSQL shutdown confirmed. SQLAlchemy2.0.51 full run NOT RUN yet.
+- EVIDENCE-CAPTURE-01 OPEN: original lab_session capture glob misses master-s4-compatibility receipt names emitted by three included tests. Empty candidate-corpus directories do not prove absence of emissions. Shared files remain unattributed unless separately provenance-bound. Preserve historical receipts and prepare/review isolated versioned capture-and-restore correction before next database run; unchanged role preflights and lock remain required.
+- Frozen S5 corpus remains159IDs/554classified cells and82 missing combinations. No S22 corpus refresh has been executed or credited.
+- S22 packaging prepared and source review completed; build execution pending persisted review/pin verification. All seven gates remain UNKNOWN.
+
+## S22 verified bounded checkpoint — 2026-10-14 15:54 UTC
+
+- Both full source-overlay cells independently reconciled. SA21:2623PASS/7FAIL/0SKIP,56subtests,407.51s. SA20:2577PASS/7FAIL/46SKIP,56subtests,404.29s. Same7failure IDs and46SA20skip IDs;98newpasses each; no prior testcase removed or outcome changed.
+- Source212files/current hashes and151captured runtime/test/config hashes stable. Full results do not imply full installed-suite or independent product qualification.
+- Installed focused:351PASS/0FAIL/0SKIP each,5.07s/5.52s. Identical IDs,98more than S21.40installed modules exact source/wheel match per cell; no dependency upgrade. Existing lock drift/provenance limits retained.
+- Packaging:143896-byte sdist SHA2567cee7fc8e265ac0a23753f18aba34a999171072bae15a006e001cc2146ed78b7;133571-byte wheel SHA256346eac4f4cf54bac270e25dce6f7d97cdb591ac2969a00a3b9c073a0e4a20c57. Paired outputs identical, scanner-only sdist delta and scanner+RECORD wheel delta versus S21.40module/44RECORD checks and two lock negatives verified.
+- Artifact commit9b198439aaebd9bf7614efa00071aa8d39e16696:8files fetched exactly,6parts reconstructed with matching whole-archive hashes. Source commit ae0f04ac60e01ac9b2acfa5f166c3176c475597e:5files exact remote matches;3fresh overlay files applied to previously remote-verified S21 base, all212source hashes match. No dependency restore or independent-host claim.
+- EVIDENCE-CAPTURE-01 bounded correction verified:12filesystem controls PASS0.012s; real SA20full run archived1changed receipt and restored26prior files exactly; installed-focused runs also restored exact26file sets. Originalwrapper unchanged; versioned correction commit136c3bbbf4c76eff4703713b125ff67d9ac533d3,7remote files exact. No crash durability/uncooperative-writer guarantee; inherited stop-return handling remains unchanged.
+- Historical18S4 receipts recovered byte-exact from originalS5archive with source/aggregate pin chain. Mutable shared copies remain unattributed to later runs.
+- Current S22 corpus campaign separately in progress. Reconciler v1 retained with missing consumed-byte hashes/malformed-input gaps; corrected v2 passed8synthetic controls0.03s. No current554-cell classification claim until all actual evidence is reconciled.82historical missing combinations remain explicit.
+- Remaining: current corpus, full local recovery capsule, durable final evidence/checklist publication; product defects and all seven external gates remain open as listed.
+
+### Current corpus run and preserved failure — 2026-10-14 15:59 UTC
+
+Both main historical-key refresh selections293PASS,53.10s/55.96s. Existing supported SQLModelSA20 cell11PASS/1FAIL2.17s. V2 reconciliation reports398IDENTICAL/155REJECTED-LOUD/1TEST_FAILURE across554expected keys, zero MISSING_CURRENT;82historical uncovered/inapplicable combinations retained separately. Status INCOMPLETE_OR_FAILED. Async SQLModel fixture lacks required hide_parameters=True and encounters UnsafeEngineLogging before intended UnsupportedSQLModelRuntime. Current logging-contract precedence is correct; isolate fixture correction and preserve failed evidence, do not weaken security or label originalrunPASS.
+
+S22 local source/evidence capsule1857500bytes SHA25699c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010:492files/212source hashes verified after fresh safe extraction. Corpus refresh excluded; external runtime/dependency/DB restoration not included. Local-only pending publication.
