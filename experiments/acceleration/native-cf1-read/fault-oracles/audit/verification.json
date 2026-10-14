@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "cases": 149,
+  "exact_successes": 96,
+  "safe_refusals": 53,
+  "site_counts": {
+    "grid-000-1": 17,
+    "grid-100-1": 31
+  },
+  "precedence_cases": 5,
+  "positive_modes": 2,
+  "negative_launches": 4,
+  "pins": 633,
+  "original_build_pins": 585,
+  "original_inventory_files": 130,
+  "extension_inventory_files": 16,
+  "cases_sha256": "9834ecae4a1084e70dcae6cba1eb4836d244737c4a6eab5f1a0cb5852e425a5a",
+  "pins_sha256": "b5dd84eb734d945c1c9216b3177e8eae2889b74ee239ad6e7d367c6ae8c3a10f"
+}
