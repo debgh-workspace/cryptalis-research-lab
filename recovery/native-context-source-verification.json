@@ -1,0 +1,15 @@
+{
+  "commit": "3a009d3707bb12d69c6edf5e1d28ac6fa21d62bb",
+  "tree": "fa19c4b6293aca8c6af23d9e9a5ca0d39f8825ad",
+  "files": [
+    "experiments/acceleration/native-cf1-read/context-control/native_cf1.c",
+    "experiments/acceleration/native-cf1-read/context-control/native_read.py",
+    "experiments/acceleration/native-cf1-read/context-control/PLAN.md",
+    "experiments/acceleration/native-cf1-read/context-control/SOURCE_DELTA.patch",
+    "experiments/acceleration/native-cf1-read/context-control/PLAN-v3.md",
+    "experiments/acceleration/native-cf1-read/context-control/review/REVIEW.md",
+    "experiments/acceleration/native-cf1-read/context-control/review/REVIEW-v2.md"
+  ],
+  "exact_remote_bytes": true,
+  "scope": "source-only; diagnostic manifest and results not published by this batch"
+}

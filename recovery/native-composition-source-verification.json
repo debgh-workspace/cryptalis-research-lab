@@ -1,0 +1,16 @@
+{
+  "commit": "8b350aecbde24ee1fcdc7981321951620abe8930",
+  "tree": "929a1c5e69d1540b020e7c0ccc5a46db7907cf9f",
+  "files": [
+    "experiments/acceleration/native-cf1-read/composition-control/native_primitives.c",
+    "experiments/acceleration/native-cf1-read/composition-control/staged_read.py",
+    "experiments/acceleration/native-cf1-read/composition-control/DESIGN.md",
+    "experiments/acceleration/native-cf1-read/composition-control/STATUS.md",
+    "experiments/acceleration/native-cf1-read/composition-control/ORACLES.json",
+    "experiments/acceleration/native-cf1-read/composition-control/SOURCE_INDEX.json",
+    "experiments/acceleration/native-cf1-read/composition-control/review/REVIEW.md",
+    "experiments/acceleration/native-cf1-read/composition-control/review/V3-DELTA-REVIEW.md"
+  ],
+  "exact_remote_bytes": true,
+  "scope": "source and static review; execution evidence separate"
+}

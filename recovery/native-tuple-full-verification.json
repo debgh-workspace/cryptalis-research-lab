@@ -1,0 +1,15 @@
+{
+  "commit": "1e094f52a5374086501f99542c5b2d9ef4349f62",
+  "tree": "da51ba58c5f19e2e24bbbb515fd30a64c09750a6",
+  "files": [
+    "experiments/acceleration/native-cf1-read/tuple-control/FULL_RESULTS.md",
+    "experiments/acceleration/native-cf1-read/tuple-control/FULL_HOOKS.json",
+    "experiments/acceleration/native-cf1-read/tuple-control/full_runtime.py",
+    "experiments/acceleration/native-cf1-read/tuple-control/full_run.py",
+    "experiments/acceleration/native-cf1-read/tuple-control/full_run_cached.py",
+    "experiments/acceleration/native-cf1-read/tuple-control/full_launch.py",
+    "experiments/acceleration/native-cf1-read/tuple-control/full_launch_v2.py",
+    "experiments/acceleration/native-cf1-read/tuple-control/review/POSTRUN-FULL-V2-AUDIT.md"
+  ],
+  "exact_remote_bytes": true
+}

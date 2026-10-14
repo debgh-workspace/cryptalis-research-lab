@@ -1,0 +1,7 @@
+{
+  "observed_utc": "2026-10-14T11:38:00Z",
+  "mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "byte_length": 219914,
+  "expected_hash_matches": true,
+  "purpose": "preservation boundary after publishing isolated native research controls"
+}

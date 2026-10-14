@@ -40,8 +40,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T11:23:00Z",
-  "current_operation": "Marked-queue finite supplement approved after static review; tuple-only control preparation; leak detector clean baseline failed, no dependent leak runs.",
+  "updated_utc": "2026-10-14T11:58:00Z",
+  "current_operation": "S finite correctness run, T fault/fork supplement and F forward cache binding authorized; D v3 review pending. No timing or PG.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -670,5 +670,132 @@
     "integrated_candidate": "S20 unchanged",
     "all_seven_full_gates": "UNKNOWN",
     "approval_blocks": "Previously pending main, archive, rotation activation, private-hook, cluster and provider decisions remain pending; no inferred approval."
+  },
+  "research_1150": {
+    "tuple_full": "1098 exact cases per mode,12expected negatives,4459pins; independent audit complete",
+    "marked_queues": "60 finite cases per mode audited; source, audit and raw traces remote verified",
+    "leak": "clean-control detector fatal; free/leak not run; UNKNOWN",
+    "historical_import_gap": "No wrong cache demonstrated; source stability preserved; forward F validation in preparation",
+    "verified_publications": {
+      "native-tuple-source-verification": {
+        "commit": "698cbf6189aa26c0e950d8800a78d6beee3db4ee",
+        "tree": "386c8a8ada32f5f358d3b8f13c8ded050be1ac6c",
+        "files": [
+          "experiments/acceleration/native-cf1-read/tuple-control/native_tuple.c",
+          "experiments/acceleration/native-cf1-read/tuple-control/tuple_read.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/SCOPE.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/tuple-oracle.json",
+          "experiments/acceleration/native-cf1-read/tuple-control/DIRECT_MANIFEST.json",
+          "experiments/acceleration/native-cf1-read/tuple-control/DIRECT_RESULTS.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/build_direct.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/direct_test.py"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-tuple-audit-verification": {
+        "commit": "3203d68d8e957761db6bf519267808e824f965ce",
+        "tree": "4f42ea51aa8ba6d1e5f537b80c140609a7ecf954",
+        "files": [
+          "experiments/acceleration/native-cf1-read/tuple-control/DIRECT_FREEZE.json",
+          "experiments/acceleration/native-cf1-read/tuple-control/launch_direct.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/guard_direct.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/direct-run-01/summary.json",
+          "experiments/acceleration/native-cf1-read/tuple-control/review/REVIEW.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/review/DIRECT-DELTA-REVIEW.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/review/POSTRUN-DIRECT-AUDIT.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/review/FULL-RUN-V2-ADDENDUM.md"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-tuple-full-verification": {
+        "commit": "1e094f52a5374086501f99542c5b2d9ef4349f62",
+        "tree": "da51ba58c5f19e2e24bbbb515fd30a64c09750a6",
+        "files": [
+          "experiments/acceleration/native-cf1-read/tuple-control/FULL_RESULTS.md",
+          "experiments/acceleration/native-cf1-read/tuple-control/FULL_HOOKS.json",
+          "experiments/acceleration/native-cf1-read/tuple-control/full_runtime.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/full_run.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/full_run_cached.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/full_launch.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/full_launch_v2.py",
+          "experiments/acceleration/native-cf1-read/tuple-control/review/POSTRUN-FULL-V2-AUDIT.md"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-mark-source-verification": {
+        "commit": "d9db76fda3a4b835397b583e265dda6594658f4c",
+        "tree": "959ce0ff835fd702f9277f2234e99cbd6888f19a",
+        "files": [
+          "experiments/acceleration/native-cf1-read/mark-observation/SCOPE.md",
+          "experiments/acceleration/native-cf1-read/mark-observation/RESULTS.md",
+          "experiments/acceleration/native-cf1-read/mark-observation/COMPLETION.md",
+          "experiments/acceleration/native-cf1-read/mark-observation/cases.json",
+          "experiments/acceleration/native-cf1-read/mark-observation/native_cf1.c",
+          "experiments/acceleration/native-cf1-read/mark-observation/prepare.py",
+          "experiments/acceleration/native-cf1-read/mark-observation/run.py",
+          "experiments/acceleration/native-cf1-read/mark-observation/build.py"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-mark-audit-verification": {
+        "commit": "e0875decadd5956b97ab9906e65212b9a177a9b6",
+        "tree": "7a09d7af67789f56137d763d2b1b581e5132acd1",
+        "files": [
+          "experiments/acceleration/native-cf1-read/mark-observation/launch-O0.json",
+          "experiments/acceleration/native-cf1-read/mark-observation/launch-O1.json",
+          "experiments/acceleration/native-cf1-read/mark-observation/build/build.json",
+          "experiments/acceleration/native-cf1-read/mark-observation/review/REVIEW.md",
+          "experiments/acceleration/native-cf1-read/mark-observation/review/POSTRUN-REVIEW.md",
+          "experiments/acceleration/native-cf1-read/mark-observation/review/POSTRUN-AUDIT.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-mark-raw-o0-verification": {
+        "commit": "ac838f6c2e56f522dc311321f445423673cec7fa",
+        "tree": "f85215ee2b01536212ac9c351b96b4b4a588fad2",
+        "files": [
+          "experiments/acceleration/native-cf1-read/mark-observation/results-O0.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-mark-raw-o1-verification": {
+        "commit": "ce74d15162a5e3a775eb043b98829962377b236d",
+        "tree": "fe9a5d867dc58c87cfb3b093ca9f0d786cce82d0",
+        "files": [
+          "experiments/acceleration/native-cf1-read/mark-observation/results-O1.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "native-leak-control-verification": {
+        "commit": "27a1c6cb7cd27c356749ddb594d7521a456d3700",
+        "tree": "7b1081df571deac8b8d1c5752f8543fbbe91a1f4",
+        "files": [
+          "experiments/acceleration/native-cf1-read/leak-controls/leak_control.c",
+          "experiments/acceleration/native-cf1-read/leak-controls/PLAN.md",
+          "experiments/acceleration/native-cf1-read/leak-controls/FREEZE.json",
+          "experiments/acceleration/native-cf1-read/leak-controls/run_controls.py",
+          "experiments/acceleration/native-cf1-read/leak-controls/RESULTS.md",
+          "experiments/acceleration/native-cf1-read/leak-controls/clean.json",
+          "experiments/acceleration/native-cf1-read/leak-controls/clean.stderr",
+          "experiments/acceleration/native-cf1-read/leak-controls/STOP.json"
+        ],
+        "exact_remote_bytes": true
+      },
+      "ledger-1123-remote-verification": {
+        "commit": "b180f9cc61a26d2f6cffbfc797595ce35ec6fafd",
+        "tree": "34edbea389fe01cc3a3e1c05107e74f2cd9f0c42",
+        "files": [
+          "CRYPTALIS_BUILD_CHECKLIST.md",
+          "recovery/RECOVERY_STATE.json",
+          "recovery/20261014-native-mark-claim-erratum.md",
+          "recovery/native-abi-evidence-verification.json",
+          "recovery/native-backend-audit-verification.json",
+          "recovery/native-return-audit-verification.json",
+          "recovery/public-default-remote-verification.json",
+          "recovery/b9b-recovery-evidence-verification.json"
+        ],
+        "exact_remote_bytes": true
+      }
+    }
   }
 }
