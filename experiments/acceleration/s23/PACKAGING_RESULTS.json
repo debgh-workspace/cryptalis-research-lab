@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SCOPED_PACKAGING",
+  "sdist_sha256": "77937fb8e28a2582d126dcafda5bd5d7a953c57f18dbdffd0d61f0e24ca8bf7c",
+  "wheel_sha256": "ac4dc5b422d316b7e710b6c3ef026a67f14dc3a2f3da14351d395be4786f33c5",
+  "source_files": 213,
+  "runtime_modules": 40,
+  "record_hashed_entries": 44,
+  "changed_source_files": [
+    "src/cryptalis/migration.py"
+  ],
+  "added_source_files": [
+    "tests/test_plan_provider_snapshot.py"
+  ],
+  "changed_wheel_members": [
+    "cryptalis/migration.py",
+    "cryptalis-0.1.0.dist-info/RECORD"
+  ],
+  "negative_controls": [
+    {
+      "id": "missing_lock",
+      "rejected": true
+    },
+    {
+      "id": "altered_lock",
+      "rejected": true
+    }
+  ],
+  "gates": "ALL_SEVEN_UNKNOWN",
+  "limits": [
+    "Same-host pinned-builder equality only; no independent reproducibility or dependency provenance.",
+    "No runtime tests, installation, database, dependency changes or release qualification."
+  ]
+}
