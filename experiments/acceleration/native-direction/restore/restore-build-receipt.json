@@ -1,0 +1,25 @@
+{
+  "source_commit": "def66ac68180cc2d68d518f55078ca2a56338895",
+  "fixture_origin": "verified reconstructed S20 remote archive",
+  "source_sha256": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+  "fixture_sha256": "24c918629ac10d7fb739fd02a946ecdbbcf1de4102bb353cf069cc095a3b286e",
+  "build_command": [
+    "gcc",
+    "-shared",
+    "-fPIC",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/opt/codex/runtimes/codex-primary-runtime/dependencies/python/include/python3.12",
+    "persistence-recovery-20261013/native-direction-remote-restore/probe/native_direction.c",
+    "-lcrypto",
+    "-o",
+    "persistence-recovery-20261013/native-direction-remote-restore/probe/native_direction.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "build_exit": 0,
+  "build_stdout": "",
+  "build_stderr": "",
+  "binary_sha256": "bf8a99ee8ad77362aa871341190c05cc8f0473739dbadeefe8eb96b977d7708b",
+  "binary_identical": false
+}

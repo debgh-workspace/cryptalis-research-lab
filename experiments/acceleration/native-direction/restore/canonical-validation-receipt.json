@@ -1,0 +1,32 @@
+{
+  "source_commit": "def66ac68180cc2d68d518f55078ca2a56338895",
+  "source_sha256": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+  "build_command": [
+    "gcc",
+    "-shared",
+    "-fPIC",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/opt/codex/runtimes/codex-primary-runtime/dependencies/python/include/python3.12",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.c",
+    "-lcrypto",
+    "-o",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "build_exit": 0,
+  "build_stderr": "",
+  "initial_failure": "Different source pathname embedded by CPython assertion macro; original mismatched build retained",
+  "correction": "Same relative source pathname in separate fresh root, unchanged source/flags/headers",
+  "binary_sha256": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+  "binary_identical": true,
+  "validation_command": [
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/native-direction-remote-restore/cryptalis-executable/candidate-native-direction-probe-20261014/validate_direction_explicit_pinned.py"
+  ],
+  "validation_exit": 0,
+  "validation_stdout": "{\"status\": \"PASS\", \"passed\": 76, \"native_backend\": \"OpenSSL 3.5.7 9 Jun 2026\"}\n",
+  "validation_stderr": "",
+  "boundary": "Fresh remote source rebuild in existing environment, not new platform/dependency qualification"
+}
