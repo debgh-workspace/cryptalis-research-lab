@@ -4,9 +4,9 @@
 
 ## Identity and recovery
 
-- Last updated UTC: `2026-10-14T14:16Z`
+- Last updated UTC: `2026-10-14T15:15Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
-- Highest verified bounded integrated research candidate: S20 `candidate-accel-payload-integrated-20261014`,208files (all204S19files unchanged plus4additions). Installed2337/2291PASS, same7legacyFAIL,56subtests,46SA20skips;freshinstalledrestore55PASS4.58s. Source45ea95be055a9092a90bd04b339d7649819e26b7 and qualification d1e85244b207e0c45bfe46b9b9886b9a477c1037 remotely byte-verified. S20 source/research archive is now remotely complete at ddc5c8776176cff93e280c6cfd44248fb42e0d74:24parts reconstructed exactly,216payloadfiles verified,55installedsmokePASS4.94s. PriorS19archive retained. Main remainsS14;all7gatesUNKNOWN.
+- Highest verified bounded integrated research candidate: S21 `candidate-s21-correctness-20261014`, 210 files. Full source-overlay suites: SQLAlchemy2.1.3 2525PASS/7FAIL/0SKIP, SQLAlchemy2.0.51 2479PASS/7FAIL/46SKIP, 56 subtests separately per cell. Exact prior outcomes preserved;188 new passing cases each. Installed wheel focused checks253PASS per cell, not a full installed-suite claim. Source6e975d9e116b9422386aab1cff8eeaddabfd4a2f, artifacts12877477b80e4b461a525b325f36f42ba2bc750b, integration evidencef0a144d571241effd0327247a0084d9acfcc92d4 all remote byte-verified. S20 prior checkpoint retained. Main remainsS14;all7gatesUNKNOWN.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
 - Runtime versions / PG16 config / runtime role preflights: Python3.12.14, SQLAlchemy2.1.3, psycopg3.3.6, cryptography50.0.2, PostgreSQL16.15; unchanged dual-role preflight PASS; full durable-config inspection pending
 - Release provenance limit (13:50 UTC): current S20 test-cell metadata has pycparser 3.11/iniconfig 2.3.1 versus lock 3.0/2.3.0. Static artifact-to-lock/SBOM equality passed; installed-environment lock identity remains OPEN. Exact original wheel archives are unavailable locally and official-host probes timed out. No dependency changes or historical test-count reinterpretation.
@@ -928,3 +928,66 @@ Status: optional packaging hardening PASS, independently reviewed. Highest runti
 - Local full capsule: 1953728 bytes, SHA256 1fc8081b795a6e0416a69bdd995ff92137c9b980e3d139bfe6e731ad8f13116c; all 295 files freshly extracted and compared. This capsule is LOCAL ONLY. Exact Python/uv and dependencies remain external, with 124 references checked. Remote artifact/source restoration does not imply this entire capsule is published.
 - Release environment defect remains OPEN: original locked dependency wheel archives unavailable, installed pycparser/iniconfig metadata differs from lock. No dependencies changed or runtime/PostgreSQL tests repeated. Same-host build identity does not establish clean-machine reproducibility or qualification.
 - Next dependent steps: acquire exact official dependency archives through an authorized reachable route; obtain pending native error-policy decision before timing; retain pending lifecycle, migration and new-cluster permissions. Do not reinterpret preserved test failures, unsupported native operations or performance gate failures as completed capabilities.
+
+
+## 2026-10-14 14:38 UTC — compatibility scanner correction verified
+
+DX-SOURCE-BINDING-01: exception aliases and structural pattern captures use AST string fields; the prior scanner failed to invalidate imported SQL/model identities and produced false conditional refusals. Isolated correction handles ExceptHandler.name, MatchAs.name, MatchStar.name, MatchMapping.rest, lexical locals, guard order and exception-target cleanup. Conservative unresolved branch handling remains PARTIAL/ADVISORY, never runtime admission.
+
+- New 56-case public report matrix: baseline 55 FAIL / 1 PASS in 0.33s; no skipped cases. This failure is retained.
+- Corrected scanner plus existing compatibility and doctor integration: 98 PASS / 0 FAIL / 0 SKIP per existing SQLAlchemy cell (2.1.3 2.20s; 2.0.51 1.79s). All runs used unchanged dual-role PostgreSQL preflights and serialized lab wrapper; pure new cases are distinct from existing DB-dependent cases.
+- Independent review confirmed all 148 inventoried source/test/config files stable and exact two-file delta from S20. Source/test/results/review/baseline log pushed in five-file batch 9bdf5c0dfeae69fa85811a5fc09145baa717aa56; every remote byte matched.
+- Scanner SHA256 4d42e25714eed40dfb3c27d10239705855d6ffe963a5ef642de7511f85abe460; new test SHA256 fea21ff5374d165112d4370514fbdd430f708db96635e0aea2d4f9aff22f1ed8.
+- Maintenance budget correction remains under separate qualification: baseline 12 FAIL / 120 PASS; first corrected cell 224 PASS including existing migration/reverse tests, second cell still running. It preserves exact finite integers rather than introducing an arbitrary pause ceiling. No promotion claim yet.
+- Combined 210-file S21 source candidate prepared from verified source-lock derivative plus scanner and budget corrections. Full integration tests NOT RUN at this entry. S20 remains highest fully tested integrated runtime. All seven qualification gates UNKNOWN; existing seven legacy failures and dependency provenance gap remain open.
+
+
+## 2026-10-14 15:08 UTC — S21 integrated correctness and recovery
+
+### Corrections and integration
+
+MAINTENANCE-BUDGET-01 is corrected in S21. Exact integers are compared directly; only floats use isfinite. Ordinary valid budgets, type restrictions and typed refusals are preserved. The baseline produced 12 failures and 120 passes in 0.92 seconds: oversized positive and negative integers failed across all six entrypoints. The correction passed 132 new cases, 40 migration-audit cases and 52 deprotection cases on each dependency cell: 224 passes in 116.61/113.36 seconds. Independent review and unchanged serialized role preflights passed. Five published source/test/evidence files exactly match commit 77f37f91077936d88032f672ab227709399b2320.
+
+S21 combines the accepted source-lock packaging change, scanner string-binding correction and maintenance-budget correction. Independent review verified all 210 source files. Of 40 runtime modules, 38 remain identical to S20. The runner and conftest are unchanged.
+
+Full source-overlay results:
+- SQLAlchemy 2.1.3: 2,525 passed, 7 failed, 0 skipped; 56 passed subtests separately; 419.65 seconds.
+- SQLAlchemy 2.0.51: 2,479 passed, 7 failed, 46 skipped; 56 passed subtests separately; 417.97 seconds.
+- Every prior testcase retains its outcome. The seven failure IDs are unchanged. There are 188 added passing cases per cell.
+- Warnings: 50 on SA21 (two fork warnings plus 48 DISTINCT ON warnings), two on SA20.
+- These durations are test execution measurements, not evidence of a performance improvement.
+
+### Packaging and installed boundary
+
+Four offline builds passed independent artifact audit. Both source archives match SHA256 7bed6386ca46a639997ab258451a8c0fd959aaeff4eb65d21e9b448a4dc991c1 (143,473 bytes). Direct and source-archive-built wheels match SHA256 ebd58ffca3bfdf9aaa624a394a2cddcc2dedd91ceb99a75e9416e88afdee3514 (133,243 bytes).
+
+The wheel differs from S20 only in the two corrected modules and RECORD. All 40 modules and 44 hashed payload entries verify. Both missing/altered-lock controls were rejected. All six parts downloaded from commit 12877477b80e4b461a525b325f36f42ba2bc750b reconstruct the exact artifacts.
+
+Separate ordinary copies of the existing dependency cells received only this wheel, offline with no dependency resolution. Installation preparation v1 was NOT RUN after review found directory/RECORD coverage and failure-path inventory problems. Additive v2 passed. Both original 1,672-entry inventories remained unchanged. During installation, 1,582 non-Cryptalis inventory entries per copy were preserved, including symlinks. Existing dependency drift and missing original archive provenance remain OPEN.
+
+Installed focused checks passed 253 cases per cell in 5.11/5.00 seconds, with exact installed origin and 40-module matching. Scope: 188 new cases, 28 compatibility cases, 14 doctor cases, 18 approval refusals, three real PostgreSQL reversal/removal cases and two CLI cases. A full installed suite was NOT RUN.
+
+### Recovery and publication
+
+- Source overlay: 6e975d9e116b9422386aab1cff8eeaddabfd4a2f.
+- Built artifacts: 12877477b80e4b461a525b325f36f42ba2bc750b.
+- Integration and independent evidence: f0a144d571241effd0327247a0084d9acfcc92d4.
+- All published files were read back and compared exactly.
+- The previously verified 208-file S20 remote base plus five freshly fetched overlay files reconstruct all 210 S21 source hashes.
+- Local capsule: CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz, 1,829,840 bytes, SHA256 580643ef9c750892452b2ea5ef8db3ffb16154319f82490c6b21092abddc63f9. Fresh extraction verified all 397 files.
+- The capsule is LOCAL ONLY. It preserves 3,339 external input references without packaging their contents or asserting current verification. Credentials, database state, virtual environments, toolchains and dependency archives remain excluded. Prior checkpoints are retained.
+
+### Past-work audit and remaining defects
+
+Owner-requested audits were published at fa67d4a33c65c6613d5c554b2579635080d9aafe. The old SA20 runner aggregate reported 28 skips, omitting 18 setup-stage skips. Its pass aggregate includes 56 subtests. The checklist totals were already correct. Empty external-source-stability inventories establish only an empty comparison. B8's 41 inactive-preparation cases and six negative controls per cell verify; B7's six focused passes comprise four new cases and two companions. No active rotation or publication qualification follows from those checks.
+
+DX-SOURCE-BINDING-02 remains separate from S21: assignment-expression rebinding retained an imported SQL/model identity. A four-line NamedExpr correction has a baseline of 17 failures/3 passes in 0.18 seconds and corrected focused results of 118 passes per cell in 1.86/1.80 seconds. Independent post-run review passed; five source/test/evidence files exactly match commit ef39801bd6abdff2fb8d3faa761433a86aae1a90. It is NOT merged into frozen S21 and has no full-integration claim.
+
+Next: publish the reviewed derivative, retain S21's recoverable checkpoint, then integrate only after appropriate verification. Existing product blockers remain: seven legacy failures; native cache/default/lineage compatibility; online capture and cutover; full rotation and reversible lifecycle; performance gates; exact dependency archives; production-provider, fresh-cluster and independent qualification evidence. The native benchmark error-policy decision remains pending.
+
+All seven gates remain UNKNOWN: G-ADAPTER, G-CRYPTO, G-QUERY, G-LIFECYCLE, G-PROVIDER, G-POLICY and G-RELEASE.
+
+
+### 2026-10-14 15:15 UTC — related scanner binding work remains separate
+
+DX-SOURCE-BINDING-02 (NamedExpr) is focused-verified and independently reviewed in its separate derivative, published at ef39801bd6abdff2fb8d3faa761433a86aae1a90. No S21 bytes changed. Related source inspection identified unhandled For/AsyncFor, With/AsyncWith, AugAssign and Delete targets, plus deletion's function-local binding effect. These are DX-SOURCE-BINDING-03, OPEN source-inferred findings. A bounded shared-target/evaluation-order correction is being prepared separately, with no new execution yet. Existing partial/advisory semantics remain explicit; no complete Python control-flow analysis claim.

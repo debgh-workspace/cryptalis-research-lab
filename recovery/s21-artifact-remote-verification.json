@@ -1,0 +1,16 @@
+{
+  "commit": "12877477b80e4b461a525b325f36f42ba2bc750b",
+  "exact_remote_files": 8,
+  "reconstructed": [
+    {
+      "name": "cryptalis-0.1.0.tar.gz",
+      "bytes": 143473,
+      "sha256": "7bed6386ca46a639997ab258451a8c0fd959aaeff4eb65d21e9b448a4dc991c1"
+    },
+    {
+      "name": "cryptalis-0.1.0-py3-none-any.whl",
+      "bytes": 133243,
+      "sha256": "ebd58ffca3bfdf9aaa624a394a2cddcc2dedd91ceb99a75e9416e88afdee3514"
+    }
+  ]
+}

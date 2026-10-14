@@ -1,10 +1,10 @@
 {
-  "observed_at_utc": "2026-10-14T10:33Z",
+  "observed_at_utc": "2026-10-14T15:15:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S20 bounded installed qualification verified; seven unchanged legacy failures; all seven production gates UNKNOWN",
+  "latest_candidate_status": "S21 full source-overlay matrix and installed focused checks verified; same seven legacy failures; all seven gates UNKNOWN",
   "latest_archive": {
     "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
     "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
@@ -30,9 +30,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "a96a571b2646af248ddc941584a4231f1224e348",
-  "latest_integrated_candidate": "candidate-accel-payload-integrated-20261014 (S20)",
-  "current_experiment": "A9 no-crypto exposure routing; C9 performance HOLD after independently audited failure",
+  "latest_verified_remote_commit": "ef39801bd6abdff2fb8d3faa761433a86aae1a90",
+  "latest_integrated_candidate": "candidate-s21-correctness-20261014 (S21)",
+  "current_experiment": "NamedExpr derivative focused verified and remotely published, separate from S21; related statement-target scanner correction preparation pending review",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -799,11 +799,11 @@
     }
   },
   "latest_24h_audit_commit": "2bd59248c21c45537a9a734c53f57407409c36df",
-  "latest_reconciliation_utc": "2026-10-14T14:16:00Z",
+  "latest_reconciliation_utc": "2026-10-14T15:15:00Z",
   "native_sanitizer_status": "T/S v2 plus corrected D v3 independently audited:3418 positive observations,12 intended negatives; original D provenance failure preserved; leak UNKNOWN",
   "latest_search_checkpoint": "4fbac8bd28d35c57d3b929868cde46287bbb7e7f",
   "latest_orm_checkpoint": "a690c5d0563531d3a0da210f0c33b29595ed2e72",
-  "latest_release_evidence_checkpoint": "9c41b4461ca6625a031f753799c54c0d3c46ee52",
+  "latest_release_evidence_checkpoint": "f0a144d571241effd0327247a0084d9acfcc92d4",
   "release_env_lock_defect": "OPEN: current pycparser/iniconfig metadata mismatch, original wheel archives missing; no install/test rerun",
   "native_timing_owner_decision": "PENDING Sentinel_4f098287705081d189fcf808f0148c97",
   "packaging_hardening": {
@@ -818,5 +818,39 @@
     "local_capsule_files_verified": 295,
     "full_capsule_remote": false,
     "gates": "all seven UNKNOWN"
+  },
+  "s21": {
+    "source_commit": "6e975d9e116b9422386aab1cff8eeaddabfd4a2f",
+    "artifact_commit": "12877477b80e4b461a525b325f36f42ba2bc750b",
+    "evidence_commit": "f0a144d571241effd0327247a0084d9acfcc92d4",
+    "source_files": 210,
+    "full_source_passes": [
+      2525,
+      2479
+    ],
+    "full_source_failures": [
+      7,
+      7
+    ],
+    "full_source_skips": [
+      0,
+      46
+    ],
+    "subtests_separate": [
+      56,
+      56
+    ],
+    "installed_focused_passes": [
+      253,
+      253
+    ],
+    "wheel_sha256": "ebd58ffca3bfdf9aaa624a394a2cddcc2dedd91ceb99a75e9416e88afdee3514",
+    "sdist_sha256": "7bed6386ca46a639997ab258451a8c0fd959aaeff4eb65d21e9b448a4dc991c1",
+    "local_capsule_sha256": "580643ef9c750892452b2ea5ef8db3ffb16154319f82490c6b21092abddc63f9",
+    "local_capsule_bytes": 1829840,
+    "local_capsule_files_verified": 397,
+    "full_capsule_remote": false,
+    "remote_composite_restore_files": 210,
+    "recovery_artifact": "CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz"
   }
 }

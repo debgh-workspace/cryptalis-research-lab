@@ -1,0 +1,18 @@
+{
+  "archive": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-s21-recovery-20261014/CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz",
+  "sha256": "580643ef9c750892452b2ea5ef8db3ffb16154319f82490c6b21092abddc63f9",
+  "compressed_bytes": 1829840,
+  "file_count": 397,
+  "payload_files": 390,
+  "metadata_files": 7,
+  "uncompressed_bytes": 18714352,
+  "restored_file_hashes_verified": 397,
+  "restored_source_files_verified": 210,
+  "source_manifest_sha256": "5dbd4d8eb8971973f7402771ecd4e5f232be861f96e4b7a7773c83f4c0f043f1",
+  "safe_regular_relative_unique_members": true,
+  "local_only": true,
+  "restored_code_executed": false,
+  "external_recorded_path_count": 3339,
+  "external_contents_included": false,
+  "external_current_hashes_verified": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS exact210-file remote composite restore",
+  "base_commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+  "overlay_commit": "6e975d9e116b9422386aab1cff8eeaddabfd4a2f",
+  "files": 210,
+  "sha256_manifest": "5dbd4d8eb8971973f7402771ecd4e5f232be861f96e4b7a7773c83f4c0f043f1",
+  "executed": false,
+  "limits": "Previously verified remote base reused locally; five overlay files freshly fetched by exact commit. No dependency or independent-host restore claim."
+}
