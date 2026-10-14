@@ -1,0 +1,35 @@
+{
+  "archive": "CRYPTALIS_S24_STATISTICS_CONTINUATION_RECOVERY_20261014_v1.tar.xz",
+  "archive_sha256": "666967c6dc20e918de014366a964b8ba4a351e7ea420a9834b1c5b94eafe473a",
+  "bytes": 300660,
+  "format": "s24-statistics-continuation-parts-v1",
+  "intended_remote_prefix": "recovery/s24-statistics-continuation/parts",
+  "intended_repository": "debgh-workspace/cryptalis-research-lab",
+  "parts": [
+    {
+      "bytes": 96000,
+      "git_blob_sha": "dba7b72f6b05db4d96037df11a3ffa704c2aff15",
+      "name": "part-01.bin",
+      "sha256": "4da098ade959850276b06e81888b5a2627c07ff5afbe12bcc4962aa8a87f89bf"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "1e88dbdbfa8ad14474f751fad7be9d812c662d7e",
+      "name": "part-02.bin",
+      "sha256": "03e00a68d01b6dac6842d04f5a0725053ff7aa683ce2a427edf99487e578054e"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "0fd341d48a55aa66ef3ace5e5d6e769081646738",
+      "name": "part-03.bin",
+      "sha256": "ebba2fed2e094bd82d345db3009c8a45cb42e3ad8940b9679620ae667f2e77bd"
+    },
+    {
+      "bytes": 12660,
+      "git_blob_sha": "d94e3f0aca39e90ab93d01f514e8ac09acec3cee",
+      "name": "part-04.bin",
+      "sha256": "59b007b03369a200378f3d0b57d1143d5540ab8e0696c988d62f9369ddd95283"
+    }
+  ],
+  "scope": "Selected data-only capsule; local parts are not authenticated remote readbacks."
+}
