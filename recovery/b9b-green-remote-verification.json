@@ -1,0 +1,13 @@
+{
+  "commit": "51341bb3fb98c74956c89988489a786f64ea402d",
+  "tree": "8d53d40a587866b17668e78c54258ae87493913d",
+  "files": [
+    "experiments/acceleration/b9b/experiments/payload_rotation_journal.py",
+    "experiments/acceleration/b9b/tests/test_payload_rotation_profiles.py",
+    "experiments/acceleration/b9b/PROFILE_RED_MATRIX.md",
+    "experiments/acceleration/b9b/REVIEW.md",
+    "experiments/acceleration/b9b/HASHES.json",
+    "experiments/acceleration/b9b/verification-results.json"
+  ],
+  "exact_remote_bytes": true
+}

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T07:42Z",
+  "observed_at_utc": "2026-10-14T09:50Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -530,5 +530,16 @@
     "red": "1expectedmissingfeatureFAIL0.39s",
     "preflight_source_stop_verified": true,
     "status": "isolated module implementation in progress; no GREEN; process-fault tests need containment review"
+  },
+  "research_0940": {
+    "b9a_commit": "60a8754fd51ebd74e78d4e7d69039d861048c19a",
+    "b9b": "22PASS each SA20/SA21; inactive research, not integrated",
+    "native_source_commit": "e9cc740219222479222bbc02c368d3065ca8caaf",
+    "native_archive_batch1": "98c2dfe41c2cc8f09f22984dd165cbd54971336a",
+    "native_archive_complete": true,
+    "gates": "all seven UNKNOWN",
+    "native_archive_head": "1bc103e6961f599e4d62d095b0fb263fc002e500",
+    "b9b_commit": "51341bb3fb98c74956c89988489a786f64ea402d",
+    "b9b_negative_controls": "53PASS2setupFAIL; R2 earliest native constraint oracle running"
   }
 }

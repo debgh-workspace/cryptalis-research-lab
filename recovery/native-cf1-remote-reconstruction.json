@@ -1,0 +1,10 @@
+{
+  "commit": "1bc103e6961f599e4d62d095b0fb263fc002e500",
+  "fresh_remote_files": 15,
+  "archive_bytes": 677051,
+  "archive_sha256": "2c0cc67d87f36410f130dcb5447a3799494239708dcc80bc7d81ca95de133466",
+  "payload_hashes_verified": 91,
+  "regular_archive_files": 92,
+  "scope": "source/evidence recovery only; excludes native binaries; no new-platform claim",
+  "decoder_correction": "initial strict decoder rejected line-ending; text hashes matched; removed LF only then strict decoded"
+}
