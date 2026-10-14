@@ -1,0 +1,110 @@
+[
+  {
+    "evidence": "b9a-affected-sa21-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "408a8606d2ed51e8ec0aca91fde0db7101f273805b8bc99b2cd7ab1317446d65",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "114",
+        "time": "1.557",
+        "timestamp": "2026-10-14T09:15:55.723415+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "[ 63%]\n..........................................                               [100%]\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-durable-payload-journal-20261014/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n114 passed, 1 warning in 1.56s\n"
+  },
+  {
+    "evidence": "b9a-affected-sa20-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "03a2f216884bcf8579d37bf05c7790f3e0c03048f505f2306fe7bc781daf2523",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "114",
+        "time": "1.382",
+        "timestamp": "2026-10-14T09:17:11.304662+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "[ 63%]\n..........................................                               [100%]\n=============================== warnings summary ===============================\ntests/test_cf1.py::test_fork_cannot_use_inherited_prepared_keys_or_provider\n  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-durable-payload-journal-20261014/tests/test_cf1.py:365: DeprecationWarning: This process (pid=19) is multi-threaded, use of fork() may lead to deadlocks in the child.\n    pid = os.fork()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n114 passed, 1 warning in 1.38s\n"
+  },
+  {
+    "evidence": "b9a-remote-restore-sa20-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "877d79e09dcf2ee0e50cc00d260a1681d8bdb8328fcb0225aee7a7eeb8247714",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "3",
+        "time": "10.013",
+        "timestamp": "2026-10-14T09:21:16.592138+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "PostgreSQL preflight passed 76053d5b a38ab71b\n...                                                                      [100%]\n3 passed in 10.02s\n"
+  },
+  {
+    "evidence": "b9b-profiles-red-sa21-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "74c9416b6ddc4542ddd16bd9e311017863c1df3cdcb94c09d2cf6d46869a236b",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "6",
+        "skipped": "0",
+        "tests": "6",
+        "time": "2.226",
+        "timestamp": "2026-10-14T09:26:14.989157+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "ive[uuid-storage]\nFAILED tests/test_payload_rotation_profiles.py::test_profile_current_values_same_journal_inactive[bigint-equality]\nFAILED tests/test_payload_rotation_profiles.py::test_profile_current_values_same_journal_inactive[bigint-storage]\nFAILED tests/test_payload_rotation_profiles.py::test_profile_restart_preserves_committed_prefix[uuid-storage]\nFAILED tests/test_payload_rotation_profiles.py::test_profile_restart_preserves_committed_prefix[bigint-equality]\nFAILED tests/test_payload_rotation_profiles.py::test_profile_restart_preserves_committed_prefix[bigint-storage]\n6 failed in 2.23s\n"
+  },
+  {
+    "evidence": "b9b-profiles-green-sa21-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "d82e40861e30e277a1e5a54ad8a8d7e95020a94eee815ba4f8b8f016053d8f65",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "22",
+        "time": "36.063",
+        "timestamp": "2026-10-14T09:35:45.868383+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "PostgreSQL preflight passed 76053d5b a38ab71b\n......................                                                   [100%]\n22 passed in 36.06s\n"
+  },
+  {
+    "evidence": "b9b-profiles-green-sa20-20261014",
+    "source_unchanged": true,
+    "junit_sha256": "60116f38470c9433df2f79b255ce59e21c16b5f30fdbbc2242837650328af83b",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "22",
+        "time": "35.859",
+        "timestamp": "2026-10-14T09:37:11.340142+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "log_tail": "PostgreSQL preflight passed 76053d5b a38ab71b\n......................                                                   [100%]\n22 passed in 35.86s\n"
+  }
+]
