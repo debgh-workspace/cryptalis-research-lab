@@ -1,0 +1,15 @@
+{
+  "commit": "b2e4f013b12d080aeece7b360a81defbfb808ce2",
+  "tree": "0c375c1d4ffb7fd80e736ed92eebc65755abf749",
+  "files": [
+    "experiments/acceleration/native-cf1-read/fault-oracles/positive-o0.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/positive-o1.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/stage-o0.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/stage-o1.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/trace-o0.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/trace-o1.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/LAUNCHES.json",
+    "experiments/acceleration/native-cf1-read/fault-oracles/ARTIFACTS.json"
+  ],
+  "exact_remote_bytes": true
+}

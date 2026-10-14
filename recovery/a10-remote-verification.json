@@ -1,0 +1,12 @@
+{
+  "commit": "91b4f063139253eb5a583a769bd80d40d9c932ed",
+  "tree": "9fdfad668c6242464b60fce440b438d64c0056fc",
+  "files": [
+    "experiments/acceleration/a10/tests/test_sqlalchemy_expired_version.py",
+    "experiments/acceleration/a10/A10_SCOPE.md",
+    "experiments/acceleration/a10/A10_BASE_RECEIPT.json",
+    "experiments/acceleration/a10/A10_FREEZE.json",
+    "experiments/acceleration/a10/results.json"
+  ],
+  "exact_remote_bytes": true
+}

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T09:50Z",
+  "observed_at_utc": "2026-10-14T10:25Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -541,5 +541,17 @@
     "native_archive_head": "1bc103e6961f599e4d62d095b0fb263fc002e500",
     "b9b_commit": "51341bb3fb98c74956c89988489a786f64ea402d",
     "b9b_negative_controls": "53PASS2setupFAIL; R2 earliest native constraint oracle running"
+  },
+  "research_1025": {
+    "b9b_code": "51341bb3fb98c74956c89988489a786f64ea402d",
+    "b9b_negative_tests": "8ccf91e3d41e5e73ba7136cd3a30b03317e31cd3",
+    "b9c_admission": "f78ff9e40960f8e4d9b560d6fef563395be81dff",
+    "native_fault_source": "dd44722389e7b4048b3d34a54710f300f9c54c99",
+    "b9b_archive": "10of19parts published; remainingheld reviewer twice denied, exactownerapprovalpending",
+    "native_followup_archive": "local164360bytes verified;reviewerblocked,exactapprovalpending",
+    "a10": "8PASSboth;publicationinprogress",
+    "native_complete_read": "new explicit exact-output manifest preparing; no timing",
+    "gates": "all seven UNKNOWN",
+    "rotation_switch_approval_request": "Sentinel_0a748698351881d18374ab21185a12e8"
   }
 }

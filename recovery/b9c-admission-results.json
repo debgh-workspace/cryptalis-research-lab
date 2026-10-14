@@ -1,0 +1,38 @@
+[
+  {
+    "run": "b9c-admission-sa21-20261014",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "5",
+        "time": "3.637",
+        "timestamp": "2026-10-14T10:02:25.246663+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "junit_sha256": "2628a1185fad7dad0670ac763953c278808b9dd8a9964cab246eb796c7c21e71",
+    "tracked_source_unchanged": true,
+    "scope": "five characterization cases, two demonstrate limitations, not active-rotation safety"
+  },
+  {
+    "run": "b9c-admission-sa20-20261014",
+    "suites": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "5",
+        "time": "3.401",
+        "timestamp": "2026-10-14T10:03:36.943136+00:00",
+        "hostname": "311c85efc72a"
+      }
+    ],
+    "junit_sha256": "318df5974b823fcdc10b1b7dad0a013d1c6b85afef806269aa748e3834ae1175",
+    "tracked_source_unchanged": true,
+    "scope": "five characterization cases, two demonstrate limitations, not active-rotation safety"
+  }
+]
