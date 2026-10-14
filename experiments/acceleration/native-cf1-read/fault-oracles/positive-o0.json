@@ -1,0 +1,5283 @@
+{
+  "status": "PASS",
+  "mode": "positive",
+  "optimize": 0,
+  "observations": [
+    {
+      "id": "grid-000-1/1/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/1"
+    },
+    {
+      "id": "grid-000-1/1/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 1
+        }
+      ],
+      "same_prepared_group": "grid-000-1/1"
+    },
+    {
+      "id": "grid-000-1/1/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/1"
+    },
+    {
+      "id": "grid-000-1/2/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/2"
+    },
+    {
+      "id": "grid-000-1/2/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 2
+        }
+      ],
+      "same_prepared_group": "grid-000-1/2"
+    },
+    {
+      "id": "grid-000-1/2/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/2"
+    },
+    {
+      "id": "grid-000-1/3/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/3"
+    },
+    {
+      "id": "grid-000-1/3/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 3
+        }
+      ],
+      "same_prepared_group": "grid-000-1/3"
+    },
+    {
+      "id": "grid-000-1/3/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/3"
+    },
+    {
+      "id": "grid-000-1/4/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/4"
+    },
+    {
+      "id": "grid-000-1/4/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 4
+        }
+      ],
+      "same_prepared_group": "grid-000-1/4"
+    },
+    {
+      "id": "grid-000-1/4/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/4"
+    },
+    {
+      "id": "grid-000-1/5/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/5"
+    },
+    {
+      "id": "grid-000-1/5/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 5
+        }
+      ],
+      "same_prepared_group": "grid-000-1/5"
+    },
+    {
+      "id": "grid-000-1/5/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/5"
+    },
+    {
+      "id": "grid-000-1/6/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/6"
+    },
+    {
+      "id": "grid-000-1/6/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 6
+        }
+      ],
+      "same_prepared_group": "grid-000-1/6"
+    },
+    {
+      "id": "grid-000-1/6/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/6"
+    },
+    {
+      "id": "grid-000-1/7/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/7"
+    },
+    {
+      "id": "grid-000-1/7/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 7
+        }
+      ],
+      "same_prepared_group": "grid-000-1/7"
+    },
+    {
+      "id": "grid-000-1/7/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/7"
+    },
+    {
+      "id": "grid-000-1/8/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/8"
+    },
+    {
+      "id": "grid-000-1/8/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 8
+        }
+      ],
+      "same_prepared_group": "grid-000-1/8"
+    },
+    {
+      "id": "grid-000-1/8/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/8"
+    },
+    {
+      "id": "grid-000-1/10/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/10"
+    },
+    {
+      "id": "grid-000-1/10/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 10
+        }
+      ],
+      "same_prepared_group": "grid-000-1/10"
+    },
+    {
+      "id": "grid-000-1/10/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/10"
+    },
+    {
+      "id": "grid-000-1/11/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/11"
+    },
+    {
+      "id": "grid-000-1/11/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 11
+        }
+      ],
+      "same_prepared_group": "grid-000-1/11"
+    },
+    {
+      "id": "grid-000-1/11/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/11"
+    },
+    {
+      "id": "grid-000-1/12/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/12"
+    },
+    {
+      "id": "grid-000-1/12/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 12
+        }
+      ],
+      "same_prepared_group": "grid-000-1/12"
+    },
+    {
+      "id": "grid-000-1/12/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/12"
+    },
+    {
+      "id": "grid-000-1/13/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/13"
+    },
+    {
+      "id": "grid-000-1/13/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 13
+        }
+      ],
+      "same_prepared_group": "grid-000-1/13"
+    },
+    {
+      "id": "grid-000-1/13/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/13"
+    },
+    {
+      "id": "grid-000-1/14/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/14"
+    },
+    {
+      "id": "grid-000-1/14/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 14
+        }
+      ],
+      "same_prepared_group": "grid-000-1/14"
+    },
+    {
+      "id": "grid-000-1/14/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/14"
+    },
+    {
+      "id": "grid-000-1/15/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/15"
+    },
+    {
+      "id": "grid-000-1/15/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 15
+        }
+      ],
+      "same_prepared_group": "grid-000-1/15"
+    },
+    {
+      "id": "grid-000-1/15/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/15"
+    },
+    {
+      "id": "grid-000-1/16/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/16"
+    },
+    {
+      "id": "grid-000-1/16/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 16
+        }
+      ],
+      "same_prepared_group": "grid-000-1/16"
+    },
+    {
+      "id": "grid-000-1/16/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/16"
+    },
+    {
+      "id": "grid-000-1/17/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/17"
+    },
+    {
+      "id": "grid-000-1/17/fault",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 17
+        }
+      ],
+      "same_prepared_group": "grid-000-1/17"
+    },
+    {
+      "id": "grid-000-1/17/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/17"
+    },
+    {
+      "id": "grid-000-1/18/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/18"
+    },
+    {
+      "id": "grid-000-1/18/fault",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 18
+        }
+      ],
+      "same_prepared_group": "grid-000-1/18"
+    },
+    {
+      "id": "grid-000-1/18/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/18"
+    },
+    {
+      "id": "grid-000-1/bad-tag/0",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-000-1/bad-tag/0"
+    },
+    {
+      "id": "grid-000-1/bad-tag/13",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 13
+        }
+      ],
+      "same_prepared_group": "grid-000-1/bad-tag/13"
+    },
+    {
+      "id": "grid-100-1/1/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/1"
+    },
+    {
+      "id": "grid-100-1/1/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 1
+        }
+      ],
+      "same_prepared_group": "grid-100-1/1"
+    },
+    {
+      "id": "grid-100-1/1/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/1"
+    },
+    {
+      "id": "grid-100-1/2/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/2"
+    },
+    {
+      "id": "grid-100-1/2/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 2
+        }
+      ],
+      "same_prepared_group": "grid-100-1/2"
+    },
+    {
+      "id": "grid-100-1/2/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/2"
+    },
+    {
+      "id": "grid-100-1/3/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/3"
+    },
+    {
+      "id": "grid-100-1/3/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 3
+        }
+      ],
+      "same_prepared_group": "grid-100-1/3"
+    },
+    {
+      "id": "grid-100-1/3/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/3"
+    },
+    {
+      "id": "grid-100-1/4/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/4"
+    },
+    {
+      "id": "grid-100-1/4/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 4
+        }
+      ],
+      "same_prepared_group": "grid-100-1/4"
+    },
+    {
+      "id": "grid-100-1/4/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/4"
+    },
+    {
+      "id": "grid-100-1/5/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/5"
+    },
+    {
+      "id": "grid-100-1/5/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 5
+        }
+      ],
+      "same_prepared_group": "grid-100-1/5"
+    },
+    {
+      "id": "grid-100-1/5/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/5"
+    },
+    {
+      "id": "grid-100-1/6/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/6"
+    },
+    {
+      "id": "grid-100-1/6/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 6
+        }
+      ],
+      "same_prepared_group": "grid-100-1/6"
+    },
+    {
+      "id": "grid-100-1/6/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/6"
+    },
+    {
+      "id": "grid-100-1/7/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/7"
+    },
+    {
+      "id": "grid-100-1/7/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 7
+        }
+      ],
+      "same_prepared_group": "grid-100-1/7"
+    },
+    {
+      "id": "grid-100-1/7/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/7"
+    },
+    {
+      "id": "grid-100-1/8/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/8"
+    },
+    {
+      "id": "grid-100-1/8/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 8
+        }
+      ],
+      "same_prepared_group": "grid-100-1/8"
+    },
+    {
+      "id": "grid-100-1/8/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/8"
+    },
+    {
+      "id": "grid-100-1/10/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/10"
+    },
+    {
+      "id": "grid-100-1/10/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 10
+        }
+      ],
+      "same_prepared_group": "grid-100-1/10"
+    },
+    {
+      "id": "grid-100-1/10/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/10"
+    },
+    {
+      "id": "grid-100-1/11/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/11"
+    },
+    {
+      "id": "grid-100-1/11/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 11
+        }
+      ],
+      "same_prepared_group": "grid-100-1/11"
+    },
+    {
+      "id": "grid-100-1/11/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/11"
+    },
+    {
+      "id": "grid-100-1/12/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/12"
+    },
+    {
+      "id": "grid-100-1/12/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 12
+        }
+      ],
+      "same_prepared_group": "grid-100-1/12"
+    },
+    {
+      "id": "grid-100-1/12/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/12"
+    },
+    {
+      "id": "grid-100-1/13/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/13"
+    },
+    {
+      "id": "grid-100-1/13/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 13
+        }
+      ],
+      "same_prepared_group": "grid-100-1/13"
+    },
+    {
+      "id": "grid-100-1/13/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/13"
+    },
+    {
+      "id": "grid-100-1/14/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/14"
+    },
+    {
+      "id": "grid-100-1/14/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 14
+        }
+      ],
+      "same_prepared_group": "grid-100-1/14"
+    },
+    {
+      "id": "grid-100-1/14/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/14"
+    },
+    {
+      "id": "grid-100-1/15/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/15"
+    },
+    {
+      "id": "grid-100-1/15/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 15
+        }
+      ],
+      "same_prepared_group": "grid-100-1/15"
+    },
+    {
+      "id": "grid-100-1/15/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/15"
+    },
+    {
+      "id": "grid-100-1/16/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/16"
+    },
+    {
+      "id": "grid-100-1/16/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 16
+        }
+      ],
+      "same_prepared_group": "grid-100-1/16"
+    },
+    {
+      "id": "grid-100-1/16/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/16"
+    },
+    {
+      "id": "grid-100-1/17/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/17"
+    },
+    {
+      "id": "grid-100-1/17/fault",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 17
+        }
+      ],
+      "same_prepared_group": "grid-100-1/17"
+    },
+    {
+      "id": "grid-100-1/17/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/17"
+    },
+    {
+      "id": "grid-100-1/18/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/18"
+    },
+    {
+      "id": "grid-100-1/18/fault",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 18
+        }
+      ],
+      "same_prepared_group": "grid-100-1/18"
+    },
+    {
+      "id": "grid-100-1/18/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/18"
+    },
+    {
+      "id": "grid-100-1/21/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/21"
+    },
+    {
+      "id": "grid-100-1/21/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 21
+        }
+      ],
+      "same_prepared_group": "grid-100-1/21"
+    },
+    {
+      "id": "grid-100-1/21/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/21"
+    },
+    {
+      "id": "grid-100-1/22/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/22"
+    },
+    {
+      "id": "grid-100-1/22/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 22
+        }
+      ],
+      "same_prepared_group": "grid-100-1/22"
+    },
+    {
+      "id": "grid-100-1/22/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/22"
+    },
+    {
+      "id": "grid-100-1/23/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/23"
+    },
+    {
+      "id": "grid-100-1/23/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 23
+        }
+      ],
+      "same_prepared_group": "grid-100-1/23"
+    },
+    {
+      "id": "grid-100-1/23/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/23"
+    },
+    {
+      "id": "grid-100-1/24/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/24"
+    },
+    {
+      "id": "grid-100-1/24/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 24
+        }
+      ],
+      "same_prepared_group": "grid-100-1/24"
+    },
+    {
+      "id": "grid-100-1/24/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/24"
+    },
+    {
+      "id": "grid-100-1/25/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/25"
+    },
+    {
+      "id": "grid-100-1/25/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 25
+        }
+      ],
+      "same_prepared_group": "grid-100-1/25"
+    },
+    {
+      "id": "grid-100-1/25/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/25"
+    },
+    {
+      "id": "grid-100-1/26/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/26"
+    },
+    {
+      "id": "grid-100-1/26/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 26
+        }
+      ],
+      "same_prepared_group": "grid-100-1/26"
+    },
+    {
+      "id": "grid-100-1/26/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/26"
+    },
+    {
+      "id": "grid-100-1/27/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/27"
+    },
+    {
+      "id": "grid-100-1/27/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 27
+        }
+      ],
+      "same_prepared_group": "grid-100-1/27"
+    },
+    {
+      "id": "grid-100-1/27/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/27"
+    },
+    {
+      "id": "grid-100-1/28/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/28"
+    },
+    {
+      "id": "grid-100-1/28/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 28
+        }
+      ],
+      "same_prepared_group": "grid-100-1/28"
+    },
+    {
+      "id": "grid-100-1/28/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/28"
+    },
+    {
+      "id": "grid-100-1/30/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/30"
+    },
+    {
+      "id": "grid-100-1/30/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 30
+        }
+      ],
+      "same_prepared_group": "grid-100-1/30"
+    },
+    {
+      "id": "grid-100-1/30/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/30"
+    },
+    {
+      "id": "grid-100-1/31/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/31"
+    },
+    {
+      "id": "grid-100-1/31/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 31
+        }
+      ],
+      "same_prepared_group": "grid-100-1/31"
+    },
+    {
+      "id": "grid-100-1/31/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/31"
+    },
+    {
+      "id": "grid-100-1/32/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/32"
+    },
+    {
+      "id": "grid-100-1/32/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 32
+        }
+      ],
+      "same_prepared_group": "grid-100-1/32"
+    },
+    {
+      "id": "grid-100-1/32/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/32"
+    },
+    {
+      "id": "grid-100-1/33/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/33"
+    },
+    {
+      "id": "grid-100-1/33/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 33
+        }
+      ],
+      "same_prepared_group": "grid-100-1/33"
+    },
+    {
+      "id": "grid-100-1/33/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/33"
+    },
+    {
+      "id": "grid-100-1/34/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/34"
+    },
+    {
+      "id": "grid-100-1/34/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 34
+        }
+      ],
+      "same_prepared_group": "grid-100-1/34"
+    },
+    {
+      "id": "grid-100-1/34/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/34"
+    },
+    {
+      "id": "grid-100-1/35/before",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/35"
+    },
+    {
+      "id": "grid-100-1/35/fault",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 35
+        }
+      ],
+      "same_prepared_group": "grid-100-1/35"
+    },
+    {
+      "id": "grid-100-1/35/recovery",
+      "actual": {
+        "value": "abcdefg",
+        "value_type": "str",
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/35"
+    },
+    {
+      "id": "grid-100-1/bad-tag/0",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 0
+        }
+      ],
+      "same_prepared_group": "grid-100-1/bad-tag/0"
+    },
+    {
+      "id": "grid-100-1/bad-tag/13",
+      "actual": {
+        "code": "CryptoBackendUnavailable",
+        "stage": "cryptographic backend",
+        "retryable": true,
+        "effects": "none",
+        "remedy": "Check OS randomness and the installed cryptography backend. Do not switch algorithms.",
+        "exception": "CryptoBackendUnavailable",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 13
+        }
+      ],
+      "same_prepared_group": "grid-100-1/bad-tag/13"
+    },
+    {
+      "id": "grid-100-1/bad-tag/21",
+      "actual": {
+        "code": "AuthenticationFailed",
+        "stage": "authentication",
+        "retryable": false,
+        "effects": "none",
+        "remedy": "Check expected context and exact admitted roots; investigate possible data alteration.",
+        "exception": "AuthenticationFailed",
+        "operation_present": true,
+        "cause_suppressed": true,
+        "trace": [
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "payload",
+            7
+          ],
+          [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000004",
+            "search",
+            9
+          ]
+        ],
+        "native_calls": 1
+      },
+      "native_entry_trace": [
+        {
+          "entry": "open_encoded",
+          "selector": 21
+        }
+      ],
+      "same_prepared_group": "grid-100-1/bad-tag/21"
+    }
+  ],
+  "pins_sha256": "b5dd84eb734d945c1c9216b3177e8eae2889b74ee239ad6e7d367c6ae8c3a10f",
+  "verified_pins": 633,
+  "cases_sha256": "9834ecae4a1084e70dcae6cba1eb4836d244737c4a6eab5f1a0cb5852e425a5a",
+  "native_origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-04-diagnostic/native_cf1.cpython-312-x86_64-linux-gnu.so",
+  "native_backend": "OpenSSL 3.5.7 9 Jun 2026",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_executable": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python"
+}

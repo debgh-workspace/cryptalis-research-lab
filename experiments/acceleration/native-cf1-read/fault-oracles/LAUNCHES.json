@@ -1,0 +1,83 @@
+[
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "stage",
+      "stage-o0.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 65, in <module>\n    equal(observed,case['expected'])\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 11, in equal\n    if actual!=expected:raise RuntimeError('Exact fault oracle mismatch')\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact fault oracle mismatch\n",
+    "receipt": "stage-o0.json",
+    "receipt_sha256": "495a4c8464cce6d032fba320f69ecd183e4c03352473af1fdb3632cc64cd9029"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "trace",
+      "trace-o0.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 65, in <module>\n    equal(observed,case['expected'])\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 11, in equal\n    if actual!=expected:raise RuntimeError('Exact fault oracle mismatch')\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact fault oracle mismatch\n",
+    "receipt": "trace-o0.json",
+    "receipt_sha256": "da1bbc088de848d5c9df84874eb6058ed285bd080150ba1d935d7ca5ded1d0d3"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "positive",
+      "positive-o0.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "receipt": "positive-o0.json",
+    "receipt_sha256": "6f6ba506c966d6f37dcf223465fa7ae61a77d6b59f0a3ea6ad3e1658f0434d1e"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "stage",
+      "stage-o1.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 65, in <module>\n    equal(observed,case['expected'])\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 11, in equal\n    if actual!=expected:raise RuntimeError('Exact fault oracle mismatch')\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact fault oracle mismatch\n",
+    "receipt": "stage-o1.json",
+    "receipt_sha256": "554b35268d5e9c85306dc6c609bb172bd80fe7a29bcfd05dcfe802a32da93be6"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "trace",
+      "trace-o1.json"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 65, in <module>\n    equal(observed,case['expected'])\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py\", line 11, in equal\n    if actual!=expected:raise RuntimeError('Exact fault oracle mismatch')\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Exact fault oracle mismatch\n",
+    "receipt": "trace-o1.json",
+    "receipt_sha256": "ed96eec241be268845b8f6fc180e17b5f31480ce3d4ddf01adea1d0a7c36d3e1"
+  },
+  {
+    "command": [
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+      "-O",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-fault-oracles-20261014/run.py",
+      "positive",
+      "positive-o1.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "receipt": "positive-o1.json",
+    "receipt_sha256": "4644cdf4b2ee2077d8f1db3399608dcc0374a7ce4ecd77db8b4361ba3d20893a"
+  }
+]
