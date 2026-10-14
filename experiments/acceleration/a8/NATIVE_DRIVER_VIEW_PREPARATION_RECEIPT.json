@@ -1,0 +1,13 @@
+{
+  "candidate": "cryptalis-executable/candidate-native-driver-view-20261014",
+  "base": "cryptalis-executable/candidate-native-slot-probes-20261014",
+  "inherited_a7_files_unchanged": 217,
+  "expected_cases": 24,
+  "files": {
+    "tests/test_sqlalchemy_native_driver_view.py": "f695737159aaaee029b7190e0fa0cf83a7688008173bc336a26c25ed986b15a0",
+    "NATIVE_DRIVER_VIEW_REVIEW.md": "8a1900ce341bf1cf3e800861982b2d443953d1fb0cc9fbbc79b67752a0f90501"
+  },
+  "selector": "scripts/test_postgres.py -- -q tests/test_sqlalchemy_native_driver_view.py",
+  "verification": "syntax only; no imports/callbacks/DB/test execution",
+  "scope": "public synthetic ordinary TEXT driver-view experiment; no cryptography or protected admission"
+}
