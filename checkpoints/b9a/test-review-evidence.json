@@ -1,0 +1,31 @@
+{
+  "review_kind": "Frozen test source inspection only",
+  "frozen_test_sha256": "5e8db1d91ed20cfd2856d2107d2969eea091f5340e2abc3e897941d8091c322e",
+  "base_file_count": 208,
+  "base_hash_mismatches": [],
+  "test_functions": 12,
+  "expanded_cases": [
+    "test_current_values_same_journal_inactive",
+    "test_restart_preserves_committed_prefix",
+    "test_uncommitted_chunk_rows_and_marker_rollback",
+    "test_lost_reply_requires_inspection",
+    "test_busy_executor_is_pending",
+    "test_source_change_refuses_resume[same_value_reseal]",
+    "test_source_change_refuses_resume[insert_behind_cursor]",
+    "test_changed_external_pin_refuses",
+    "test_inconsistent_prefix_refuses[missing_row]",
+    "test_inconsistent_prefix_refuses[valid_value_adjusted_hash]",
+    "test_expiry_before_commit_rolls_back[source]",
+    "test_expiry_before_commit_rolls_back[target]",
+    "test_existing_runtime_cannot_mutate_metadata",
+    "test_chunk_budget_precedes_frame_transport[exact_fit]",
+    "test_chunk_budget_precedes_frame_transport[first_row_over_budget]",
+    "test_safe_output_collector"
+  ],
+  "expanded_case_count": 16,
+  "postgres_used": false,
+  "test_execution": false,
+  "git_used": false,
+  "implementation_read": false,
+  "candidate_changed": false
+}
