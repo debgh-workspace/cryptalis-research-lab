@@ -1,0 +1,92 @@
+{
+  "archive": "native-cf1-source-evidence-20261014.tar.gz",
+  "archive_bytes": 677051,
+  "archive_sha256": "2c0cc67d87f36410f130dcb5447a3799494239708dcc80bc7d81ca95de133466",
+  "parts": [
+    {
+      "path": "archive.part-01.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "929e324e92a55a155cc0edfdc70764db9cdb86e99bae80a5f2f61fb67703db92",
+      "text_sha256": "be5da71b9359d0a2c57027a12c830df0d2d4cc41896090367b5342fee475a020"
+    },
+    {
+      "path": "archive.part-02.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "e1a19e83368497a70fde3983147f24894733daae63da42c97754e77af153812e",
+      "text_sha256": "729bb5fa2fcaae6176b29b3f9168141e20c10bc32ebdd7cb9a41683269e45569"
+    },
+    {
+      "path": "archive.part-03.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "dd7b49c20a44482bfc980640030093602262150c579096c39d36a55962d082d4",
+      "text_sha256": "216d25452afc8ace347106c911d4a3409489060e0246647cbc6b801fa3d70987"
+    },
+    {
+      "path": "archive.part-04.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "626aa6e34f0b1af262c12ffa2056ceff42274c2ee5d544846e1d843a185fb3bf",
+      "text_sha256": "0727c48f52ed5e266b271e791f64c882c8e36d21a91928f7b7469aea6bbd5ba2"
+    },
+    {
+      "path": "archive.part-05.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "fb02083d32af23ddd52e37b64dbfae6f45781738f5f6a85db6d157385bddf0da",
+      "text_sha256": "8176f231289a89c572732a3a41c49d572f8d77b97ef9ffc1531514a86968e420"
+    },
+    {
+      "path": "archive.part-06.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "ec45389cdef792a89bca7ac83d44a74ebb7ce0de7f97b2a3a8d22ab208a04424",
+      "text_sha256": "45c14a0879158c8334dbc049525cb764abe8d9c8099dbf332e1bcd3ccd6282f8"
+    },
+    {
+      "path": "archive.part-07.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "35bbdeb7a7ef159d5cf1ff8a90f7d503aca197f8caf9e56eb22011a1735d7450",
+      "text_sha256": "ed02c54a660ae01d7fc79efbd1680fa30afd3460648dcd38846617c0b2158321"
+    },
+    {
+      "path": "archive.part-08.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "59ac767868accff37717ae00b5eeae4620e93ecee4617b8a4fdaf4a0a38aad76",
+      "text_sha256": "b2eadc1b4be43535004d7af1e54a07e19c9a7109eb371c7e3d85a95d3e6a9f23"
+    },
+    {
+      "path": "archive.part-09.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "2f0b5323d40f56159944944b62d3f3003b92599488a4dbaf656a71bd8e8a0b7e",
+      "text_sha256": "8302f77e78bfddaf9ec04f9f8860380fcb0776bd722f8985205047d1156e8ad4"
+    },
+    {
+      "path": "archive.part-10.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "d7c890aaecded75d464dff29f4738a28c5329f85cf81dd8985a4b84ac35f70c3",
+      "text_sha256": "471e751104b0e1c431dbc41c5776e9184a70a6ced2a2a949ef448f1a73e8a9d7"
+    },
+    {
+      "path": "archive.part-11.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "cb2c73b620d39a9eb3c8fb57449be2cbb333c3b7c0ede7d8d2752ae23d0a21c7",
+      "text_sha256": "19ab11e3d507303190c1ae03832284d751328e3a7d47a2e345a3502cf2c5f6db"
+    },
+    {
+      "path": "archive.part-12.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "3e50d42650afee3a71116b03b8da857a4eb91b57b0edde5d175367c7538d89f6",
+      "text_sha256": "b37b17dae20b606cb89154332ced7331f782cc09bc01637e654bc02477049b5f"
+    },
+    {
+      "path": "archive.part-13.b64",
+      "decoded_bytes": 49152,
+      "decoded_sha256": "292688a4aac331165f8ba9e581f32e0ee04664f2f5c111708b50669611e29463",
+      "text_sha256": "07e886d172e8e4987e3cdf5a79eb6776cac73edbe8bd8de28c76e45dc10d1f34"
+    },
+    {
+      "path": "archive.part-14.b64",
+      "decoded_bytes": 38075,
+      "decoded_sha256": "d5bb662c778a408bfde6c48a88aedf376ce080d056acc6187f94cd32e00b8187",
+      "text_sha256": "16d0ed27be81aa74cde41c29923a4bc97d1114ae9042138d53bc871fbaf20b83"
+    }
+  ],
+  "scope": "Source/evidence recovery only; native binaries excluded with hashes; deterministic regeneration proves89goldenfixtures; no newplatform/executable qualification"
+}
