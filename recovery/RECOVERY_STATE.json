@@ -4,15 +4,17 @@
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S21 full source-overlay matrix and installed focused checks verified; same seven legacy failures; all seven gates UNKNOWN",
+  "latest_candidate_status": "S23 full source-overlay matrix independently audited: SA21 2631 PASS / 7 FAIL / 0 SKIP; SA20 2585 PASS / 7 FAIL / 46 SKIP; 56 passed subtests separately each. Installed-focused 52 PASS each independently audited; full installed suite NOT RUN. All seven gates UNKNOWN.",
   "latest_archive": {
-    "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
-    "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
-    "bytes": 1132692,
+    "name": "CRYPTALIS_S23_SOURCE_EVIDENCE_20261014.tar.xz",
+    "sha256": "41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+    "bytes": 1750488,
     "remote_complete": true,
-    "parts": 24,
-    "commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
-    "payload_files": 216
+    "parts": 37,
+    "commit": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+    "restored_regular_files": 408,
+    "source_files": 213,
+    "scope": "Source and selected evidence only; no runtime/dependency/database restore. Current compatibility addon separate."
   },
   "checklist": {
     "path": "CRYPTALIS_BUILD_CHECKLIST.md",
@@ -30,9 +32,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "ef39801bd6abdff2fb8d3faa761433a86aae1a90",
-  "latest_integrated_candidate": "candidate-s21-correctness-20261014 (S21)",
-  "current_experiment": "NamedExpr derivative focused verified and remotely published, separate from S21; related statement-target scanner correction preparation pending review",
+  "latest_verified_remote_commit": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+  "latest_integrated_candidate": "candidate-s23-planning-20261014 (S23; 213 source files; bounded research qualification only)",
+  "current_experiment": "S23 bounded planning correction is verified in both source-overlay full cells and installed-focused cells. Source/evidence recovery is separate from dependency, operational runtime and product qualification. Live follow-on work must be recorded from coordinator status.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -40,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-14T11:58:00Z",
+  "updated_utc": "2026-10-14T16:26:00Z",
   "current_operation": "S finite correctness run, T fault/fork supplement and F forward cache binding authorized; D v3 review pending. No timing or PG.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
+  "latest_verified_remote_head": "8223e4ac87b013a598cfe3fd24537df9915933c8",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -344,8 +346,8 @@
   },
   "latest_main_head": "123bceafa969c3d9e992768be612b7efb7cb0a07",
   "latest_research_branch": "accel/integration-s19-20261013",
-  "latest_research_branch_head": "cef208cd0e3205b8e3ed954968d75be73dbcb6d4",
-  "latest_research_tree": "efe5353ea3d492528ede69e6077127a6b225443e",
+  "latest_research_branch_head": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+  "latest_research_tree": "cc9ceebbaf7f4120688eab9b68274044fb96fc4f",
   "post_s18_20261013": {
     "c6_commit": "bcc5654c4d9bf883b8d700b64d0ed5735566c696",
     "c6_remote_bytes_verified": true,
@@ -408,19 +410,7 @@
   "latest_s20_qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
   "latest_c9_research_commit": "c7ac916ed0772f2976a2cf8820e9b6a34eace717",
   "latest_a6_research_commit": "817b7f366f1ec2e8ea6b7a285f4dabeade3461b8",
-  "highest_verified_integrated_candidate": {
-    "name": "S20",
-    "source_root": "candidate-accel-payload-integrated-20261014",
-    "source_files": 208,
-    "source_commit": "45ea95be055a9092a90bd04b339d7649819e26b7",
-    "qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
-    "remote_binary_archive": true,
-    "highest_complete_remote_archive": "S20",
-    "remote_archive_sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
-    "remote_archive_commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
-    "remote_archive_scope": "source/research including wheel/sdist; existing-host restore only, not fresh platform",
-    "restore_receipt": "s20-remote-reconstruction-receipt.json"
-  },
+  "highest_verified_integrated_candidate": "S23 candidate-s23-planning-20261014: 213 files; full source-overlay both independently audited, with same seven legacy failures and SA20 46 skips; installed-focused 52 PASS each independently audited; full installed suite NOT RUN; all seven gates UNKNOWN.",
   "a8_checkpoint": {
     "commit": "884146103a3a36a9d3c438eae7490292d34868c8",
     "passed_each": 24,
@@ -450,12 +440,17 @@
     }
   },
   "latest_local_archive": {
-    "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
-    "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
-    "bytes": 1132692,
+    "name": "CRYPTALIS_S23_SOURCE_EVIDENCE_20261014.tar.xz",
+    "sha256": "41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+    "bytes": 1750488,
     "remote_complete": true,
-    "payload_files": 216,
-    "focused_installed_restore_passed": 55
+    "regular_files": 408,
+    "source_files": 213,
+    "evidence_files": 186,
+    "metadata_files": 9,
+    "fresh_restored_files_verified": 408,
+    "restored_code_executed": false,
+    "scope": "Source and selected evidence capsule;37 remote parts reconstructed and408files/213sourcehashes verified; no runtime/dependency/database restore"
   },
   "private_hook_encrypted_prototype_approval": {
     "status": "PENDING",
@@ -799,7 +794,7 @@
     }
   },
   "latest_24h_audit_commit": "2bd59248c21c45537a9a734c53f57407409c36df",
-  "latest_reconciliation_utc": "2026-10-14T15:15:00Z",
+  "latest_reconciliation_utc": "2026-10-14T17:41:03.857044+00:00",
   "native_sanitizer_status": "T/S v2 plus corrected D v3 independently audited:3418 positive observations,12 intended negatives; original D provenance failure preserved; leak UNKNOWN",
   "latest_search_checkpoint": "4fbac8bd28d35c57d3b929868cde46287bbb7e7f",
   "latest_orm_checkpoint": "a690c5d0563531d3a0da210f0c33b29595ed2e72",
@@ -852,5 +847,165 @@
     "full_capsule_remote": false,
     "remote_composite_restore_files": 210,
     "recovery_artifact": "CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz"
+  },
+  "current_execution": {
+    "status": "DATABASE_IDLE; commentsRED3FAIL1PASS each; versioned correction design pendingreview"
+  },
+  "evidence_capture_defect": {
+    "id": "EVIDENCE-CAPTURE-01",
+    "status": "BOUNDED_CORRECTION_VERIFIED: 12 filesystem controls and saved S22/S23 runtime capture/restore evidence; S23 full runs archive one changed receipt per cell and restore 26 originals; installed-focused runs restore all 26 originals with no archived changes.",
+    "scope": "master-s4-compatibility receipt filenames missed by original wrapper archive glob; shared receipt provenance not established",
+    "next": "Preserve original shared-receipt attribution limits; no crash-durability or uncooperative-writer guarantee. Apply reviewed capture wrapper only within separately authorized future runs."
+  },
+  "s22": {
+    "source_files": 212,
+    "sa21": {
+      "passed": 2623,
+      "failed": 7,
+      "skipped": 0,
+      "subtests_passed": 56,
+      "seconds": 407.51
+    },
+    "sa20": {
+      "passed": 2577,
+      "failed": 7,
+      "skipped": 46,
+      "subtests_passed": 56,
+      "seconds": 404.29
+    },
+    "installed_focused": {
+      "passed_each": 351,
+      "sa21_seconds": 5.07,
+      "sa20_seconds": 5.52,
+      "full_installed_suite": false
+    },
+    "source_commit": "ae0f04ac60e01ac9b2acfa5f166c3176c475597e",
+    "artifact_commit": "9b198439aaebd9bf7614efa00071aa8d39e16696",
+    "source_restore": "212/212 remote overlay composite hashes verified",
+    "all_gates": "UNKNOWN",
+    "local_capsule": {
+      "path": "candidate-s22-recovery-20261014/CRYPTALIS_S22_SOURCE_EVIDENCE_20261014.tar.xz",
+      "sha256": "99c9c8c5663ed4c09505022fe13653e82fb28eff65cd25cf9e7b3d0b1108f010",
+      "bytes": 1857500,
+      "files": 492,
+      "status": "REMOTE_COMPLETE atf718cebcd7329aa6f6cf40bd035469d50f882bec;39parts reconstructed492files212sourcehashes verified"
+    },
+    "corpus_addon": {
+      "commit": "5220026f42160d726c7085d0c992b0a753b6ceae",
+      "sha256": "079a8bdf19faddc0ea41a02db04eb3828e444eebd4f8ae5d56e87cd36f733815",
+      "remote_restore_files": 145
+    }
+  },
+  "publication_reconciliation": {
+    "cancelled_request": "seven-file S22 final-evidence create_tree",
+    "remote_head_checked": "ae0f04ac60e01ac9b2acfa5f166c3176c475597e",
+    "branch_moved_by_cancelled_request": false,
+    "smaller_five_file_batch": "cf03610b7e920ebc0f67242e0869ceb887662d09",
+    "remaining_large_audits": "preserved in local full capsule; full capsule publication pending"
+  },
+  "planning_policy_snapshot": {
+    "status": "CORRECTION_BOUNDED_VERIFIED; full S23 source-overlay cells and installed-focused 52 PASS per cell independently audited; same seven full-suite failures retained; full installed suite NOT RUN; all seven gates UNKNOWN.",
+    "red": "4FAIL4PASS1.07s",
+    "green_sa21": "47PASS4.84s",
+    "green_sa20": "47PASS4.21s",
+    "scope": "derive integer count from same validated metadata; no extra host callback outside sanitized boundary; no key retention/unwrap",
+    "known_limit": "late different-policy count mismatch source-derived; RED asserts second callback before count",
+    "related_search": "No additional confirmed late resolver/recount defect in reverse/removal/chunk execution/rewrap/payload preparation; bounded source-only review, intentional policy and lease revalidation preserved",
+    "s23_sa21": {
+      "passed": 2631,
+      "failed": 7,
+      "skipped": 0,
+      "subtests_passed": 56,
+      "seconds": 429.08,
+      "independent_audit": "PASS"
+    },
+    "s23_sa20": {
+      "passed": 2585,
+      "failed": 7,
+      "skipped": 46,
+      "subtests_passed": 56,
+      "seconds": 387.05,
+      "independent_audit": "PASS"
+    },
+    "installed_focused": {
+      "passed_each": 52,
+      "sa21_seconds": 6.61,
+      "sa20_seconds": 5.97,
+      "independent_audit": "PASS",
+      "full_installed_suite": false
+    }
+  },
+  "s23_reconciliation_prior_aliases": {
+    "latest_archive": {
+      "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+      "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+      "bytes": 1132692,
+      "remote_complete": true,
+      "parts": 24,
+      "commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+      "payload_files": 216
+    },
+    "latest_local_archive": {
+      "name": "CRYPTALIS_S20_SOURCE_RESEARCH_20261014.tar.xz",
+      "sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+      "bytes": 1132692,
+      "remote_complete": true,
+      "payload_files": 216,
+      "focused_installed_restore_passed": 55
+    }
+  },
+  "s23_source_restore": {
+    "commit": "d6334eb2fc003d5609d3323135d50e3059ce1366",
+    "base_capsule_commit": "f718cebcd7329aa6f6cf40bd035469d50f882bec",
+    "fresh_remote_overlay_files": 2,
+    "source_files": 213,
+    "all_source_hashes_match": true,
+    "restored_code_executed": false,
+    "dependency_restore": false,
+    "receipt": "persistence-recovery-20261013/s23-remote-composite-restore.json",
+    "scope": "Saved remote-composite receipt, source hashes freshly rechecked locally; no new network readback and no latest-HEAD claim."
+  },
+  "s23_capsule_publication": {
+    "status": "REMOTE_COMPLETE",
+    "commit": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+    "tree": "cc9ceebbaf7f4120688eab9b68274044fb96fc4f",
+    "parts": 37,
+    "remote_metadata_files": 5,
+    "fresh_restored_files": 408,
+    "source_hashes_verified": 213
+  },
+  "s23_async_extension": {
+    "status": "46 tests PASS across four runs; independent additive reconciliation pending",
+    "uuid_sa21": "15PASS2.53s",
+    "uuid_sa20": "15PASS3.01s",
+    "warm_sa21": "8PASS2.99s",
+    "warm_sa20": "8PASS2.94s",
+    "all_stop_exit_zero": true
+  },
+  "s23_baseline_corpus": {
+    "status": "OBSERVED_FINITE_CORPUS; independent audit pending",
+    "counts": {
+      "IDENTICAL": 398,
+      "REJECTED-LOUD": 156
+    },
+    "historical_missing": 82,
+    "passes": [
+      293,
+      293,
+      12
+    ],
+    "seconds": [
+      45.64,
+      49.26,
+      2.25
+    ],
+    "preserves_s22_failure": true,
+    "gates": "all seven UNKNOWN"
+  },
+  "s23_manifest_acceptance": {
+    "status": "2PASS each, independentpostrun audit in progress",
+    "sa21_seconds": 0.82,
+    "sa20_seconds": 0.74,
+    "scope": "real emitted template plus existing maintenance activation and five sync/async equality/IN observations; source-overlay only"
   }
 }

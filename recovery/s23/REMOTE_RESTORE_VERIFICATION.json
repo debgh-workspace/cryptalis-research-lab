@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "41c756d905f84f4754208ba4d27bda87621ab88d0bac58fcf421c7bbcbf50870",
+  "bytes": 1750488,
+  "parts_verified": 37,
+  "remote_parts_complete_commit": "39a3810b82823c7019fbe5cc2b8e99dde67ca9e3",
+  "restored_regular_files": 408,
+  "source_files_verified": 213,
+  "manifest_entries_verified": 407,
+  "restored_code_executed": false,
+  "dependency_restore": false,
+  "database_restore": false,
+  "metadata_commit": "1cdc5c795c62b7caa9f229e5d00f4aec84c686ca",
+  "metadata_files_exact": 5
+}
