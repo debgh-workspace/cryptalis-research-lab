@@ -1,0 +1,240 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFFFFFF............................................................ [ 54%]
+............................................................             [100%]
+=================================== FAILURES ===================================
+___ test_maintenance_budget_public_boundary[huge-positive-int-protect_apply] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:758: in apply
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+__ test_maintenance_budget_public_boundary[huge-positive-int-protect_verify] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:783: in verify
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-positive-int-protect_abort] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:809: in abort
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-positive-int-reverse_apply] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:416: in apply
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-positive-int-reverse_abort] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:437: in abort
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+__ test_maintenance_budget_public_boundary[huge-positive-int-reverse_remove] ___
+tests/test_maintenance_budget_boundary.py:152: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:498: in remove
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-negative-int-protect_apply] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:758: in apply
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+__ test_maintenance_budget_public_boundary[huge-negative-int-protect_verify] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:783: in verify
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-negative-int-protect_abort] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:72: in invoke
+    return getattr(m, operation.removeprefix('protect_'))(source, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:809: in abort
+    with _executor(p,engine,pin,approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/migration.py:395: in _executor
+    _approve_maintenance(p,approval)
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-negative-int-reverse_apply] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:416: in apply
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+___ test_maintenance_budget_public_boundary[huge-negative-int-reverse_abort] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:437: in abort
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+__ test_maintenance_budget_public_boundary[huge-negative-int-reverse_remove] ___
+tests/test_maintenance_budget_boundary.py:157: in test_maintenance_budget_public_boundary
+    invoke(operation, source, reverse, engine, approval, keys, consent)
+tests/test_maintenance_budget_boundary.py:82: in invoke
+    return getattr(d, operation.removeprefix('reverse_'))(reverse, engine, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:498: in remove
+    with _executor(p,engine,pin,approval,plaintext_approval) as c:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:137: in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+src/cryptalis/deprotection.py:176: in _executor
+    _pin(p,pin); m._approve_maintenance(p,approval); _consent(p,consent)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/cryptalis/migration.py:339: in _approve_maintenance
+    type(approval.approved_pause_seconds) not in (int,float) or not math.isfinite(approval.approved_pause_seconds) or
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   OverflowError: int too large to convert to float
+=========================== short test summary info ============================
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-protect_apply]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-protect_verify]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-protect_abort]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-reverse_apply]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-reverse_abort]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-positive-int-reverse_remove]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-protect_apply]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-protect_verify]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-protect_abort]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-reverse_apply]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-reverse_abort]
+FAILED tests/test_maintenance_budget_boundary.py::test_maintenance_budget_public_boundary[huge-negative-int-reverse_remove]
+12 failed, 120 passed in 0.92s
