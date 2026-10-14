@@ -1,0 +1,104 @@
+{
+  "schema": "cryptalis.online-closure-source-packet/v2",
+  "prepared_utc_date": "2026-10-14",
+  "candidate": "candidate-online-closure-v2-20261014",
+  "experiment": "experiments/online-closure-v2-20261014",
+  "status": "DOCUMENTARY_PREPARATION_COMPLETE_NOT_IMPORTED_NOT_COMPILED_NOT_RUN",
+  "file_path_root": "this experiment directory",
+  "file_count_including_self": 15,
+  "files_excluding_self": {
+    "BASE_TO_V2_SOURCE_DELTA.patch": {
+      "sha256": "39083a218c92c47930354937112f55ec9cb6937b2afb90779923497c334c82f8",
+      "bytes": 4556
+    },
+    "CANDIDATE_MANIFEST.json": {
+      "sha256": "aecabfaa1ac0413be8fd4b998b91f80d19589bca15b97278acef27adf3b593e2",
+      "bytes": 23989
+    },
+    "INHERITED_ROUTE_INVENTORY.md": {
+      "sha256": "3a674700c0dd7fb5d092952839fb87b061162f6f73abf22fcd6e981a3e6d5846",
+      "bytes": 7728
+    },
+    "INPUTS.json": {
+      "sha256": "bd8bbe6db347e056e0dc6495f9f8d215184f6cb94a22987156079940ad92af2d",
+      "bytes": 6155
+    },
+    "PREPARATION_RECEIPT.json": {
+      "sha256": "a8581f66ed5e21c9ac0539eb931b4ac03c6c9f766051900030781a8232894d30",
+      "bytes": 4987
+    },
+    "PUBLICATION_ALLOWLIST.json": {
+      "sha256": "886a7abe8af4eccee7368499005b974d58d6b77caaf7a7e6e1336639d67b626c",
+      "bytes": 3180
+    },
+    "README.md": {
+      "sha256": "8cc08de5364ed3b7bf923dbeb80c15ee62af532907ac667a634b9b1f4236cdb9",
+      "bytes": 10563
+    },
+    "README_v1_retained.md": {
+      "sha256": "2280e3e1c6709748f7d472d2ae115e75844d3bd479abc835a7bf3574a7b11e9e",
+      "bytes": 8027
+    },
+    "SOURCE_DELTA.patch": {
+      "sha256": "662c45a8d48eeff7f1312a647bdcab377247a37aaed3972980431ae80da33984",
+      "bytes": 1255
+    },
+    "SOURCE_SHA256SUMS.txt": {
+      "sha256": "8468baf50bbec2882cfeef8aeef9faa81f6e0c376bf54bf6ca6b4260d24fad86",
+      "bytes": 20203
+    },
+    "TEST_DELTA.patch": {
+      "sha256": "2548142f0a96633fc814600ff08b08a2459697618f76f244ba98ba559dbb792c",
+      "bytes": 2859
+    },
+    "V1_MANIFEST_SNAPSHOT.json": {
+      "sha256": "d8530c49fe8fbd1281757a69060961c4cf24461efa4ccdaeaa0aade700a5c2c3",
+      "bytes": 22649
+    },
+    "V1_PACKET_MANIFEST_SNAPSHOT.json": {
+      "sha256": "a68b2464063851440063746620580b0f50e46d3be923f1a2f845f84b29acc690",
+      "bytes": 713
+    },
+    "test_online_closure_source.py": {
+      "sha256": "f64548836f1534c38bc15e6cf34c761468875d098627a8952fa41ecda45e77e4",
+      "bytes": 7309
+    }
+  },
+  "self_hash_policy": "This manifest excludes itself. Its own SHA256 is supplied in the coordinator handoff; a self-referential digest is not claimed.",
+  "candidate_regular_file_count": 201,
+  "source_manifest": "SOURCE_SHA256SUMS.txt",
+  "structural_test_methods_prepared": 8,
+  "inherited_base_methods_inventoried": 14,
+  "candidate_source_edits_during_assembly": false,
+  "test_edits_during_assembly": false,
+  "retained_v1_snapshots_unchanged": true,
+  "imports": false,
+  "compilation": false,
+  "source_ast_parsing": false,
+  "tests_executed": false,
+  "pytest_collection": false,
+  "database_actions": false,
+  "provider_actions": false,
+  "credentials_read": false,
+  "git_actions": false,
+  "remote_actions": false,
+  "checklist_changes": false,
+  "publication": false,
+  "v1_successful_inherited_write_bypass": "NEVER_ESTABLISHED",
+  "closure_implemented": false,
+  "runtime_advancement": false,
+  "prior_review": "PRIOR_INHERITED_ROUTE_SOURCE_OBJECTION_RESOLVED_PACKET_WAS_INCOMPLETE",
+  "new_documentary_packet_independent_acceptance": "NOT_YET_OBTAINED",
+  "promotion": "HOLD",
+  "capture_guard_rotation_approval": "PENDING",
+  "gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  }
+}
+
