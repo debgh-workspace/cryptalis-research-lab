@@ -1,0 +1,27 @@
+{
+  "status": "corrected integer-boundary classification syntax checked; corrected DB run PENDING; initial SA21 48 PASS / 3 FAIL retained",
+  "selectors": [
+    "tests/test_c9_postgres_gates.py"
+  ],
+  "expected_cases": 51,
+  "gate4": "NOT IMPLEMENTED by this harness",
+  "gate5": "NOT IMPLEMENTED by this harness",
+  "timing": "NOT IMPLEMENTED; NOT AUTHORIZED by this bounded pass",
+  "artifacts": {
+    "tests/test_c9_postgres_gates.py": "d22e2b543942689ee22dc18b4997052c9e164945679d33d1481b2204fc0ee53c",
+    "experiments/C9_DB_FIRST_GATE.md": "4151e115fe5b60b4e9634660a3768b6a75e7210cdba759aa8850138094d45b16",
+    "tests/test_sqlalchemy_search.py": "0d9de8f210d482db210b982e0aa2b027e989e0deb589114a753ee4dfbf869015",
+    "tests/conftest.py": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd",
+    "scripts/test_postgres.py": "118952d57d777d692adf1f1447fedbb612030fd3266c9374680d347bb501fd12",
+    "experiments/C9_SERIAL_HANDOFF.md": "33b3e111594a30204de9089e71f699d926804542b0aba713b22b8a434b277c1a",
+    "evidence/c9/continuation-freeze.json": "833f569741eab261af051402f556f89636f92a4a7238ab0d2ec9faeb12f18943",
+    "src/cryptalis/_sqlalchemy_search.py": "9d3564b80470bb98383af461807969952adc8eb2a82217ec3681c6928d7a1391",
+    "src/cryptalis/crypto/cf1.py": "3d34b066e8e2b5983fcc5c1180226e666a7ba0a5fcacb8888ce7adfa66e73ed3",
+    "experiments/c9-baseline/_sqlalchemy_search.py": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63",
+    "experiments/c9-baseline/cf1.py": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278",
+    "evidence/c9/db-first-gate-integer-classification.json": "526961afd13551b252947c8abee2de6e4029cdf6f3948446e2fd5d2c5e8fafaa",
+    "evidence/c9/db-first-gate-before-integer-classification.py": "55808774b63593c44c95a62c10148726eec40e166e27906e73b139ce5c6eab8b",
+    "evidence/c9/db-first-gate-freeze-before-integer-classification.json": "2297ac7fb9f9ab79e6eda9a425b90591f5b253864736eea5a49d9908c63edafc",
+    "evidence/c9/db-first-gate-notes-before-integer-classification.md": "60259b692b9b1cc8dc89925e6af8ae127e1ebd670bf6463860eb22395f7d7a10"
+  }
+}
