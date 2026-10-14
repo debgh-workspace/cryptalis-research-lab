@@ -1,0 +1,28 @@
+{
+  "archive": "CRYPTALIS_S24_HANDOFF_SQLMODEL_ADDITIVE_20261014_v1.tar.xz",
+  "archive_sha256": "56a06d435f20883a6c88294c55062400765cbcc31f37fae7ef42c1e968ac98f9",
+  "bytes": 291412,
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "d2b2635eb490cb789885c6db8e6db7ea5e20f45ead8cd617e2abeedb1488c635"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "37f4ec266c1f23e04ac3a19634fe550f19a53f8000b63205f5180c71ee6f4c9f"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "bd15416ad8314d01b23a5deed598a61440731e0434e34c0ebdf84897ee7a57b4"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 3412,
+      "sha256": "5a16fd82280f9dc1c39eb4c15c881818b1ab9684a3074e134eddca56800c84c7"
+    }
+  ],
+  "scope": "Additive SQLModel and installed legacy evidence; two-file overlay references external S24 source; no independent qualification claim"
+}
