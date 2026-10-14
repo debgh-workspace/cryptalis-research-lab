@@ -1,0 +1,85 @@
+{
+  "method": "Read-only AST/source/hash/JSON inspection; no candidate imports or runs",
+  "checks": {
+    "original_audited_bytes_unchanged": true,
+    "wrapper_has_no_assert": true,
+    "explicit-o0-positive_no_assert": true,
+    "explicit-o0-positive_main_cases_identical": true,
+    "explicit-o0-positive_only_expected_edits": true,
+    "explicit-o0-positive_flags": true,
+    "explicit-o0-positive_pins": true,
+    "explicit-o0-positive_fixture": true,
+    "explicit-o0-positive_expected_result": true,
+    "explicit-o0-negative_no_assert": true,
+    "explicit-o0-negative_main_cases_identical": true,
+    "explicit-o0-negative_only_expected_edits": true,
+    "explicit-o0-negative_flags": true,
+    "explicit-o0-negative_pins": true,
+    "explicit-o0-negative_fixture": true,
+    "explicit-o0-negative_expected_result": true,
+    "explicit-o1-positive_no_assert": true,
+    "explicit-o1-positive_main_cases_identical": true,
+    "explicit-o1-positive_only_expected_edits": true,
+    "explicit-o1-positive_flags": true,
+    "explicit-o1-positive_pins": true,
+    "explicit-o1-positive_fixture": true,
+    "explicit-o1-positive_expected_result": true,
+    "explicit-o1-negative_no_assert": true,
+    "explicit-o1-negative_main_cases_identical": true,
+    "explicit-o1-negative_only_expected_edits": true,
+    "explicit-o1-negative_flags": true,
+    "explicit-o1-negative_pins": true,
+    "explicit-o1-negative_fixture": true,
+    "explicit-o1-negative_expected_result": true,
+    "four_launches": true,
+    "launch_exits": true,
+    "launch_modes": true
+  },
+  "all_checks_pass": true,
+  "receipts": {
+    "explicit-o0-positive": {
+      "status": "PASS",
+      "count": 76,
+      "optimize": 0,
+      "cryptography": "50.0.0",
+      "pyca_backend": "OpenSSL 4.0.1 9 Jun 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-o0-negative": {
+      "status": "FAIL",
+      "count": 0,
+      "optimize": 0,
+      "cryptography": "50.0.0",
+      "pyca_backend": "OpenSSL 4.0.1 9 Jun 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-o1-positive": {
+      "status": "PASS",
+      "count": 76,
+      "optimize": 1,
+      "cryptography": "50.0.0",
+      "pyca_backend": "OpenSSL 4.0.1 9 Jun 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-o1-negative": {
+      "status": "FAIL",
+      "count": 0,
+      "optimize": 1,
+      "cryptography": "50.0.0",
+      "pyca_backend": "OpenSSL 4.0.1 9 Jun 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    }
+  },
+  "sha256": {
+    "validate_direction_explicit.py": "71da4eb4b777f46d6cddc8844681ae8ade122b9040dacd8cac621f842dffdadd",
+    "generated_explicit-o0-positive.py": "81af9fc285ea71f6c7f10f0efdfcaf18acae994c6de930ef00a73abd95c9193f",
+    "evidence/explicit-o0-positive.json": "05007e7d5eb6cab8e3194cf9446f3526d9eb4652e9b743d399423b79f6b50ff9",
+    "generated_explicit-o0-negative.py": "c5017f74dacbc2b0fd6d05c5b0867556ad4d7104eb75bbf642e2111bb4c132e3",
+    "evidence/explicit-o0-negative.json": "646ff0c70a1b06bd77907b83909d5d3437b9c2a251da52347446bcb05814d16b",
+    "generated_explicit-o1-positive.py": "007c371fa20dd104a6770163ba93bca57323c0ecb6d19fafd4e19e2a50792c08",
+    "evidence/explicit-o1-positive.json": "9cabf63421d0dee65877c165814ea94678bdf5f4052fe8b60f883321f3787144",
+    "generated_explicit-o1-negative.py": "18d8da8d194428b469095a25e4164d0916749af15c5fa59932b06949010607ef",
+    "evidence/explicit-o1-negative.json": "d559410e26f3114ed16125ea5393b2cce35b0a24f38a2a3bb6bca9796c4dac22",
+    "evidence/explicit-validation-launches.json": "79ede32d885327ae978b7a0fb4211445ce44a65e58b7462bcf0ab8dbe9d666c6"
+  }
+}

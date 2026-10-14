@@ -1,0 +1,86 @@
+{
+  "method": "Read-only AST/source/hash/JSON inspection; no candidate imports or runs",
+  "checks": {
+    "original_audited_bytes_unchanged": true,
+    "wrapper_has_no_assert": true,
+    "explicit-pinned-o0-positive_no_assert": true,
+    "explicit-pinned-o0-positive_main_cases_identical": true,
+    "explicit-pinned-o0-positive_only_expected_edits": true,
+    "explicit-pinned-o0-positive_flags": true,
+    "explicit-pinned-o0-positive_pins": true,
+    "explicit-pinned-o0-positive_fixture": true,
+    "explicit-pinned-o0-positive_expected_result": true,
+    "explicit-pinned-o0-negative_no_assert": true,
+    "explicit-pinned-o0-negative_main_cases_identical": true,
+    "explicit-pinned-o0-negative_only_expected_edits": true,
+    "explicit-pinned-o0-negative_flags": true,
+    "explicit-pinned-o0-negative_pins": true,
+    "explicit-pinned-o0-negative_fixture": true,
+    "explicit-pinned-o0-negative_expected_result": true,
+    "explicit-pinned-o1-positive_no_assert": true,
+    "explicit-pinned-o1-positive_main_cases_identical": true,
+    "explicit-pinned-o1-positive_only_expected_edits": true,
+    "explicit-pinned-o1-positive_flags": true,
+    "explicit-pinned-o1-positive_pins": true,
+    "explicit-pinned-o1-positive_fixture": true,
+    "explicit-pinned-o1-positive_expected_result": true,
+    "explicit-pinned-o1-negative_no_assert": true,
+    "explicit-pinned-o1-negative_main_cases_identical": true,
+    "explicit-pinned-o1-negative_only_expected_edits": true,
+    "explicit-pinned-o1-negative_flags": true,
+    "explicit-pinned-o1-negative_pins": true,
+    "explicit-pinned-o1-negative_fixture": true,
+    "explicit-pinned-o1-negative_expected_result": true,
+    "four_launches": true,
+    "launch_exits": true,
+    "launch_modes": true,
+    "pinned_oracle_receipts": true
+  },
+  "all_checks_pass": true,
+  "receipts": {
+    "explicit-pinned-o0-positive": {
+      "status": "PASS",
+      "count": 76,
+      "optimize": 0,
+      "cryptography": "50.0.2",
+      "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-pinned-o0-negative": {
+      "status": "FAIL",
+      "count": 0,
+      "optimize": 0,
+      "cryptography": "50.0.2",
+      "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-pinned-o1-positive": {
+      "status": "PASS",
+      "count": 76,
+      "optimize": 1,
+      "cryptography": "50.0.2",
+      "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "explicit-pinned-o1-negative": {
+      "status": "FAIL",
+      "count": 0,
+      "optimize": 1,
+      "cryptography": "50.0.2",
+      "pyca_backend": "OpenSSL 4.0.3 29 Sep 2026",
+      "native_backend": "OpenSSL 3.5.7 9 Jun 2026"
+    }
+  },
+  "sha256": {
+    "validate_direction_explicit_pinned.py": "fc26a4aadf1873f324ba2ae0d56ee70d8b59bf083418eceabe199a1f06dfc90c",
+    "generated_explicit-pinned-o0-positive.py": "9dfc4c850d3495f2da4da263f4144fc86ba85aeeb366028b65f53508f8978a7d",
+    "evidence/explicit-pinned-o0-positive.json": "14b84b637b125a32302ffa0e7009e32a99c99d01e4d3799179b77ea49753049c",
+    "generated_explicit-pinned-o0-negative.py": "80735bdf519a4cd06181ffd50898051a4a8f4ad0d226c9e347e9029f04a46215",
+    "evidence/explicit-pinned-o0-negative.json": "d3499c56805d997ab93e63cf0120079c62face4058e75cbd6437f8826577a8a5",
+    "generated_explicit-pinned-o1-positive.py": "8681da3eceae8a0d380a8b6ae2f6c7cc72880012ec7c9603e8e0f9323fc79243",
+    "evidence/explicit-pinned-o1-positive.json": "6ab60054d455d3ffcfc5e9ba6f40e060010542523ae0b3a637bf00b7404f5b3e",
+    "generated_explicit-pinned-o1-negative.py": "9e7d1d3481618f80a51672f3214616c169b6c789b7e86e21be5b98c61025ddb3",
+    "evidence/explicit-pinned-o1-negative.json": "9e6b793ec33f038adfc40bee335c6de3f28f583a083364e8983059f336044fa4",
+    "evidence/explicit-pinned-validation-launches.json": "7f39319b79f51fd8d6ae375d508f893839f4e9eb29e5a4e53ffe6fb5ea58c0be"
+  }
+}
