@@ -1,0 +1,141 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFFFFFFF.FFFF..                                                     [100%]
+=================================== FAILURES ===================================
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('raw_sql_re...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('raw_sql_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function] _
+tests/test_compatibility_namedexpr.py:21: in test_named_expression_rebinds_an_existing_local_import
+    assert [(f["code"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('storage_on...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('storage_only_comparison_refused_if_attached', 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 'UNRESOLVED')
+E     Use -v to get more diff
+___ test_named_expression_visits_rhs_before_rebinding_and_preserves_reimport ___
+tests/test_compatibility_namedexpr.py:30: in test_named_expression_visits_rhs_before_rebinding_and_preserves_reimport
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...attached', 5)] == [('core_dml_r...attached', 5)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 3) != ('rebound_query_binding', 2)
+E     Use -v to get more diff
+_ test_comprehension_walrus_invalidates_inner_and_enclosing_import[[(delete := replacement, delete(1)) for item in values]] _
+tests/test_compatibility_namedexpr.py:54: in test_comprehension_walrus_invalidates_inner_and_enclosing_import
+    assert [(f["code"], f["line"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...'UNRESOLVED')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 2, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 2, 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_comprehension_walrus_invalidates_inner_and_enclosing_import[{(delete := replacement, delete(1)) for item in values}] _
+tests/test_compatibility_namedexpr.py:54: in test_comprehension_walrus_invalidates_inner_and_enclosing_import
+    assert [(f["code"], f["line"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...'UNRESOLVED')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 2, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 2, 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_comprehension_walrus_invalidates_inner_and_enclosing_import[{item: (delete := replacement, delete(1)) for item in values}] _
+tests/test_compatibility_namedexpr.py:54: in test_comprehension_walrus_invalidates_inner_and_enclosing_import
+    assert [(f["code"], f["line"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...'UNRESOLVED')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 2, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 2, 'UNRESOLVED')
+E     Use -v to get more diff
+_ test_comprehension_walrus_invalidates_inner_and_enclosing_import[((delete := replacement, delete(1)) for item in values)] _
+tests/test_compatibility_namedexpr.py:54: in test_comprehension_walrus_invalidates_inner_and_enclosing_import
+    assert [(f["code"], f["line"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...'UNRESOLVED')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 2, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 2, 'UNRESOLVED')
+E     Use -v to get more diff
+=========================== short test summary info ============================
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_rebinds_an_existing_local_import[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function]
+FAILED tests/test_compatibility_namedexpr.py::test_named_expression_visits_rhs_before_rebinding_and_preserves_reimport
+FAILED tests/test_compatibility_namedexpr.py::test_comprehension_walrus_invalidates_inner_and_enclosing_import[[(delete := replacement, delete(1)) for item in values]]
+FAILED tests/test_compatibility_namedexpr.py::test_comprehension_walrus_invalidates_inner_and_enclosing_import[{(delete := replacement, delete(1)) for item in values}]
+FAILED tests/test_compatibility_namedexpr.py::test_comprehension_walrus_invalidates_inner_and_enclosing_import[{item: (delete := replacement, delete(1)) for item in values}]
+FAILED tests/test_compatibility_namedexpr.py::test_comprehension_walrus_invalidates_inner_and_enclosing_import[((delete := replacement, delete(1)) for item in values)]
+17 failed, 3 passed in 0.18s
