@@ -1,0 +1,26 @@
+{
+  "harness_sha256": "659d731b36de4d0e2a3b5f81f130c3028cfcbfc7c4ab03cc59062a1a2cdf0358",
+  "verification": "explicit checks; same 44 unique positive labels in both flags",
+  "runs": [
+    {
+      "receipt": "receipt-o0-positive.json",
+      "observed_exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "receipt": "receipt-o0-negative.json",
+      "observed_exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "receipt": "receipt-o1-positive.json",
+      "observed_exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "receipt": "receipt-o1-negative.json",
+      "observed_exit_code": 1,
+      "expected_outcome_verified": true
+    }
+  ]
+}
