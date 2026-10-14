@@ -1,0 +1,63 @@
+{
+  "status": "PASS_DATA_ONLY_INDEPENDENT_AUDIT",
+  "scope": "Frozen supplement evidence only; no independent candidate execution; no full qualification",
+  "checks": [
+    {
+      "name": "r2-o0-abi.json",
+      "status": "FAIL",
+      "returncode": 1,
+      "observation_count": 1
+    },
+    {
+      "name": "r2-o0-fork.json",
+      "status": "FAIL",
+      "returncode": 1,
+      "observation_count": 101
+    },
+    {
+      "name": "r2-o0-positive.json",
+      "status": "PASS",
+      "returncode": 0,
+      "observation_count": 106
+    },
+    {
+      "name": "r2-o1-abi.json",
+      "status": "FAIL",
+      "returncode": 1,
+      "observation_count": 1
+    },
+    {
+      "name": "r2-o1-fork.json",
+      "status": "FAIL",
+      "returncode": 1,
+      "observation_count": 101
+    },
+    {
+      "name": "r2-o1-positive.json",
+      "status": "PASS",
+      "returncode": 0,
+      "observation_count": 106
+    }
+  ],
+  "all_655_pins_match": true,
+  "reviewed_source_manifest_pins_unchanged": true,
+  "original_failed_launch_evidence_unchanged": true,
+  "launch_summary_matches_sidecars": true,
+  "evidence_sha256": {
+    "r2-o0-positive.json": "1e2bf959172e674f3755976381b841dd9af4c75c42041eaef695cd31975c12d3",
+    "r2-o1-positive.json": "f7a311c77850d5582de34a1669d3f0e3c38a75eb0c59f1faa40467076e9dc859",
+    "r2-o0-abi.json": "68eb51afb9fb3cdc9e648f0658268d78d39d37abadfa52a98fa802cbbb50d3f5",
+    "r2-o0-fork.json.launch": "ac0abe40b67e23dce1d4d8859b1b0dc911e40aed73add1ef193511addaeadb1f",
+    "r2-o0-abi.json.launch": "e764a773fc3723a6150e0e47247aae52965ad591f25456829f9ee4aeb04cadeb",
+    "r2-o0-positive.json.launch": "061a0b4379f856cfb474555d4bb66fa857031f844035fe19095c946bd993ce22",
+    "r2-o1-abi.json": "30431b5571d1a0d71f7ef35e175097b0b322313c368c043d1510661e8a163c6f",
+    "r2-o1-fork.json.launch": "729a24aee2ac6a64a17d3793438b5aff3411d0161e1654c1bb464b6508fb1b9a",
+    "r2-o1-abi.json.launch": "0fb3eebe32c4fdda013feab849251050062a440cc483153d6c50077dfe57f4c6",
+    "o0-abi.json.launch": "b33febc9315237188297ef9b0b671af3ed6a6187f56a2ac9f3a9496b75ef8495",
+    "o0-abi.json": "4a70cd57cb63f0e745df55a522ac0c400174e6cdd7b843dee0db403de53f801d",
+    "r2-o1-fork.json": "79910340a2cf3fef000ac6af1a76f5d4a75735ac7d16543787b67c8e4a8b4c34",
+    "r2-o1-positive.json.launch": "37bd6ca4401e6be9a8e0807ae96273def56efef9e00c2b559d0ac92d864ae344",
+    "r2-o0-fork.json": "3ef4634dc7d060ff98f086312dc18bd7cd5e58a0890e68200508d6f49ca9b9cc"
+  },
+  "launches_sha256": "5a815a916250c76682112b0f159d2dcd16bf969029c96b0ce319fe3ff8866d39"
+}

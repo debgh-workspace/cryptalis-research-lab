@@ -1,0 +1,38 @@
+[
+  {
+    "name": "r2-o0-abi.json",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/run.py\", line 20, in <module>\n    runtime.run(sys.argv[2] if len(sys.argv)>2 else None);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/runtime.py\", line 122, in run\n    if not same(altered,c['expected']):raise RuntimeError('Negative oracle mismatch')\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Negative oracle mismatch\n"
+  },
+  {
+    "name": "r2-o0-fork.json",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/run.py\", line 20, in <module>\n    runtime.run(sys.argv[2] if len(sys.argv)>2 else None);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/runtime.py\", line 122, in run\n    if not same(altered,c['expected']):raise RuntimeError('Negative oracle mismatch')\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Negative oracle mismatch\n"
+  },
+  {
+    "name": "r2-o0-positive.json",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "r2-o1-abi.json",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/run.py\", line 20, in <module>\n    runtime.run(sys.argv[2] if len(sys.argv)>2 else None);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/runtime.py\", line 122, in run\n    if not same(altered,c['expected']):raise RuntimeError('Negative oracle mismatch')\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Negative oracle mismatch\n"
+  },
+  {
+    "name": "r2-o1-fork.json",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/run.py\", line 20, in <module>\n    runtime.run(sys.argv[2] if len(sys.argv)>2 else None);receipt['status']='PASS'\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-abi-fork-20261014/runtime.py\", line 122, in run\n    if not same(altered,c['expected']):raise RuntimeError('Negative oracle mismatch')\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Negative oracle mismatch\n"
+  },
+  {
+    "name": "r2-o1-positive.json",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

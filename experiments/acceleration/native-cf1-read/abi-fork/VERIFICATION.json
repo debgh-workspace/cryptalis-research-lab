@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "pins": 655,
+  "predeclared_entries": 106,
+  "optimization_observations_equal": true,
+  "negative_controls": 4,
+  "scope": "stdlib data correspondence; no candidate execution"
+}

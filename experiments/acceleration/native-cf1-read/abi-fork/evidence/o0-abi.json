@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "optimize": 0,
+  "observations": [],
+  "error_type": "FileNotFoundError",
+  "error": "[Errno 2] No such file or directory: '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-native-cf1-read-20261014/build-01-normal/build.json'"
+}

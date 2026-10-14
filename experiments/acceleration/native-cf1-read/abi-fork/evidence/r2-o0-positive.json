@@ -1,0 +1,1140 @@
+{
+  "status": "PASS",
+  "optimize": 0,
+  "observations": [
+    {
+      "id": "abi/type/0/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/0/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/0/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/2/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/2/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/3/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/3/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/4/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/4/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/5/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/5/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/5/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/6/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/6/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/type/6/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/2/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/3/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/4/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/5/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/length/5/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/0/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/0/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/0/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/0/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/0/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/1/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/1/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/1/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/1/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/1/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/2/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/2/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/2/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/3/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/3/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/3/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/4/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/7/4/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/4/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/7/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/7/missing",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/7/extra",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/7/none",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/7/list",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/0/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/0/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/0/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/0/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/0/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/1/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/1/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/1/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/1/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/1/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/2/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/2/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/2/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/2/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/3/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/3/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/3/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/3/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/4/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-type/8/4/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/4/-1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/material-length/8/4/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/8/missing",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/8/extra",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/8/none",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/bundle/8/list",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/arity/short",
+      "actual": {
+        "exception": "TypeError",
+        "args": [
+          "Invalid private arity"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/arity/long",
+      "actual": {
+        "exception": "TypeError",
+        "args": [
+          "Invalid private arity"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/3",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/4",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/record/5",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/representation/0",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/representation/1",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/representation/2",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/representation/3",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/representation/4",
+      "actual": {
+        "exception": "OverflowError",
+        "args": [
+          "Python int too large to convert to C long"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/frame/empty",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/frame/over",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "abi/storage-extra-search",
+      "actual": {
+        "exception": "ValueError",
+        "args": [
+          "Invalid bounded private input"
+        ],
+        "cause_none": true
+      }
+    },
+    {
+      "id": "fork/000",
+      "actual": {
+        "inherited": {
+          "code": "KeyUnavailable",
+          "stage": "key preparation or use",
+          "retryable": true,
+          "effects": "none",
+          "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+          "exception": "KeyUnavailable",
+          "operation_present": true,
+          "args_safe": true,
+          "cause_none": true,
+          "trace": [
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ]
+          ],
+          "native_calls": 0
+        },
+        "fresh": {
+          "value": "abcdefg",
+          "value_type": "str",
+          "trace": [
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ],
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ]
+          ],
+          "native_calls": 1
+        },
+        "child_exit": 0
+      }
+    },
+    {
+      "id": "fork/100",
+      "actual": {
+        "inherited": {
+          "code": "KeyUnavailable",
+          "stage": "key preparation or use",
+          "retryable": true,
+          "effects": "none",
+          "remedy": "Check the exact provider, wrapped roots and generation policy; prepare fresh keys in this process.",
+          "exception": "KeyUnavailable",
+          "operation_present": true,
+          "args_safe": true,
+          "cause_none": true,
+          "trace": [
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ]
+          ],
+          "native_calls": 0
+        },
+        "fresh": {
+          "value": "abcdefg",
+          "value_type": "str",
+          "trace": [
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ],
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "search",
+              9
+            ],
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "payload",
+              7
+            ],
+            [
+              "00000000-0000-0000-0000-000000000001",
+              "00000000-0000-0000-0000-000000000004",
+              "search",
+              9
+            ]
+          ],
+          "native_calls": 1
+        },
+        "child_exit": 0
+      }
+    },
+    {
+      "id": "containment/silent",
+      "actual": {
+        "category": "timeout",
+        "reaped": true,
+        "fds_closed": true
+      }
+    },
+    {
+      "id": "containment/write-hang",
+      "actual": {
+        "category": "timeout",
+        "reaped": true,
+        "fds_closed": true
+      }
+    },
+    {
+      "id": "containment/oversize",
+      "actual": {
+        "category": "protocol",
+        "reaped": true,
+        "fds_closed": true
+      }
+    },
+    {
+      "id": "containment/invalid-json",
+      "actual": {
+        "category": "protocol",
+        "reaped": true,
+        "fds_closed": true
+      }
+    }
+  ]
+}
