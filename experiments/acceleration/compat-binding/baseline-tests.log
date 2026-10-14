@@ -1,0 +1,303 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.F                 [100%]
+=================================== FAILURES ===================================
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'core_dml_refused_if_attached' not in {'core_dml_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'raw_sql_refused_if_attached' not in {'raw_sql_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-except] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-as] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-star] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_ test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-rest] _
+tests/test_compatibility_string_bindings.py:78: in test_string_targets_are_unresolved_not_false_refusals
+    assert refusal not in {f["code"] for f in findings}
+E   AssertionError: assert 'storage_only_comparison_refused_if_attached' not in {'storage_only_comparison_refused_if_attached'}
+_____________ test_inner_scope_does_not_erase_outer_import[except] _____________
+tests/test_compatibility_string_bindings.py:89: in test_inner_scope_does_not_erase_outer_import
+    assert [f["code"] for f in findings] == ["shadowed_query_binding", "core_dml_refused_if_attached"]
+E   AssertionError: assert ['core_dml_re..._if_attached'] == ['shadowed_qu..._if_attached']
+E     
+E     At index 0 diff: 'core_dml_refused_if_attached' != 'shadowed_query_binding'
+E     Use -v to get more diff
+_______________ test_inner_scope_does_not_erase_outer_import[as] _______________
+tests/test_compatibility_string_bindings.py:89: in test_inner_scope_does_not_erase_outer_import
+    assert [f["code"] for f in findings] == ["shadowed_query_binding", "core_dml_refused_if_attached"]
+E   AssertionError: assert ['core_dml_re..._if_attached'] == ['shadowed_qu..._if_attached']
+E     
+E     At index 0 diff: 'core_dml_refused_if_attached' != 'shadowed_query_binding'
+E     Use -v to get more diff
+______________ test_inner_scope_does_not_erase_outer_import[star] ______________
+tests/test_compatibility_string_bindings.py:89: in test_inner_scope_does_not_erase_outer_import
+    assert [f["code"] for f in findings] == ["shadowed_query_binding", "core_dml_refused_if_attached"]
+E   AssertionError: assert ['core_dml_re..._if_attached'] == ['shadowed_qu..._if_attached']
+E     
+E     At index 0 diff: 'core_dml_refused_if_attached' != 'shadowed_query_binding'
+E     Use -v to get more diff
+______________ test_inner_scope_does_not_erase_outer_import[rest] ______________
+tests/test_compatibility_string_bindings.py:89: in test_inner_scope_does_not_erase_outer_import
+    assert [f["code"] for f in findings] == ["shadowed_query_binding", "core_dml_refused_if_attached"]
+E   AssertionError: assert ['core_dml_re..._if_attached'] == ['shadowed_qu..._if_attached']
+E     
+E     At index 0 diff: 'core_dml_refused_if_attached' != 'shadowed_query_binding'
+E     Use -v to get more diff
+___________ test_match_subject_and_explicit_reimport_remain_visible ____________
+tests/test_compatibility_string_bindings.py:98: in test_match_subject_and_explicit_reimport_remain_visible
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...attached', 6)] == [('core_dml_r...attached', 6)]
+E     
+E     At index 1 diff: ('core_dml_refused_if_attached', 6) != ('rebound_query_binding', 3)
+E     Right contains one more item: ('core_dml_refused_if_attached', 6)
+E     Use -v to get more diff
+____ test_exception_target_cleanup_and_sibling_match_cases_are_conservative ____
+tests/test_compatibility_string_bindings.py:112: in test_exception_target_cleanup_and_sibling_match_cases_are_conservative
+    assert [(f["code"], f["line"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...ttached', 15)] == [('rebound_qu...ttached', 12)]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 6) != ('rebound_query_binding', 4)
+E     Left contains one more item: ('core_dml_refused_if_attached', 15)
+E     Use -v to get more diff
+________________ test_nested_patterns_invalidate_every_capture _________________
+tests/test_compatibility_string_bindings.py:137: in test_nested_patterns_invalidate_every_capture
+    assert [(f["code"], f["line"], f["certainty"]) for f in findings] == [
+E   AssertionError: assert [('core_dml_r...NAL_REFUSAL')] == [('rebound_qu...'UNRESOLVED')]
+E     
+E     At index 0 diff: ('core_dml_refused_if_attached', 4, 'CONDITIONAL_REFUSAL') != ('rebound_query_binding', 4, 'UNRESOLVED')
+E     Use -v to get more diff
+=========================== short test summary info ============================
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-module-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-class-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import delete-delete-delete("PRIVATE_LITERAL")-core_dml_refused_if_attached-async_function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-module-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-class-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from sqlalchemy import text-text-text("PRIVATE_LITERAL")-raw_sql_refused_if_attached-async_function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-module-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-class-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-except]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-as]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-star]
+FAILED tests/test_compatibility_string_bindings.py::test_string_targets_are_unresolved_not_false_refusals[from app.models import Customer-Customer-Customer.note == "PRIVATE_LITERAL"-storage_only_comparison_refused_if_attached-async_function-rest]
+FAILED tests/test_compatibility_string_bindings.py::test_inner_scope_does_not_erase_outer_import[except]
+FAILED tests/test_compatibility_string_bindings.py::test_inner_scope_does_not_erase_outer_import[as]
+FAILED tests/test_compatibility_string_bindings.py::test_inner_scope_does_not_erase_outer_import[star]
+FAILED tests/test_compatibility_string_bindings.py::test_inner_scope_does_not_erase_outer_import[rest]
+FAILED tests/test_compatibility_string_bindings.py::test_match_subject_and_explicit_reimport_remain_visible
+FAILED tests/test_compatibility_string_bindings.py::test_exception_target_cleanup_and_sibling_match_cases_are_conservative
+FAILED tests/test_compatibility_string_bindings.py::test_nested_patterns_invalidate_every_capture
+55 failed, 1 passed in 0.33s
