@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-14T10:25Z",
+  "observed_at_utc": "2026-10-14T10:33Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -41,7 +41,7 @@
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
   "updated_utc": "2026-10-14T08:10Z",
-  "current_operation": "B9A isolated module implementation and independent test review; no active PostgreSQL session",
+  "current_operation": "native complete exact-output wrapper results awaiting independent postrun audit; dependent archives and synthetic switch await owner approval",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -372,7 +372,7 @@
     "fresh_installed_restore": "23PASS17subtests8.42s;existingcluster",
     "all_seven_gates": "UNKNOWN"
   },
-  "active_database_owner": "root b8-payload-preparation-red-sa21-20261013",
+  "active_database_owner": null,
   "pending_online_prototype_approval": {
     "message_id": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
     "status": "PENDING; no new privilege authority"
@@ -414,8 +414,12 @@
     "source_files": 208,
     "source_commit": "45ea95be055a9092a90bd04b339d7649819e26b7",
     "qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
-    "remote_binary_archive": false,
-    "highest_complete_remote_archive": "S19"
+    "remote_binary_archive": true,
+    "highest_complete_remote_archive": "S20",
+    "remote_archive_sha256": "02f6a9133f4bec6ae024a6b9a8e5e135d91af93a1e604ae445948893fc289d68",
+    "remote_archive_commit": "ddc5c8776176cff93e280c6cfd44248fb42e0d74",
+    "remote_archive_scope": "source/research including wheel/sdist; existing-host restore only, not fresh platform",
+    "restore_receipt": "s20-remote-reconstruction-receipt.json"
   },
   "a8_checkpoint": {
     "commit": "884146103a3a36a9d3c438eae7490292d34868c8",
@@ -523,7 +527,7 @@
       "scope": "existing environment only"
     }
   },
-  "latest_s20_ledger_commit": "b13457197910b5144ad7a5a461c31bb4258a6324",
+  "latest_s20_ledger_commit": "e50bd6d4536e4703e285ae3f254377a2aed8f03b",
   "b9a": {
     "red_commit": "ca594b949bd8bdae6d4f5ec57e8f962b6855ba7a",
     "test_sha256": "5e8db1d91ed20cfd2856d2107d2969eea091f5340e2abc3e897941d8091c322e",
@@ -549,9 +553,25 @@
     "native_fault_source": "dd44722389e7b4048b3d34a54710f300f9c54c99",
     "b9b_archive": "10of19parts published; remainingheld reviewer twice denied, exactownerapprovalpending",
     "native_followup_archive": "local164360bytes verified;reviewerblocked,exactapprovalpending",
-    "a10": "8PASSboth;publicationinprogress",
+    "a10": "8PASS both; exact remote verified91b4f063139253eb5a583a769bd80d40d9c932ed",
     "native_complete_read": "new explicit exact-output manifest preparing; no timing",
     "gates": "all seven UNKNOWN",
     "rotation_switch_approval_request": "Sentinel_0a748698351881d18374ab21185a12e8"
-  }
+  },
+  "reconciled_stale_fields": [
+    {
+      "observed_utc": "2026-10-14T10:33Z",
+      "field": "highest_verified_integrated_candidate",
+      "prior_value": {
+        "name": "S20",
+        "source_root": "candidate-accel-payload-integrated-20261014",
+        "source_files": 208,
+        "source_commit": "45ea95be055a9092a90bd04b339d7649819e26b7",
+        "qualification_commit": "d1e85244b207e0c45bfe46b9b9886b9a477c1037",
+        "remote_binary_archive": false,
+        "highest_complete_remote_archive": "S19"
+      },
+      "reason": "lagged exact S20 remote recovery receipt"
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "commit": "acbae27d2c8d0f46abe3e901f656163c845ce949",
+  "tree": "4fd33bd2fee2a5f1d43a3b1f3994fcceda8e25aa",
+  "files": [
+    "experiments/acceleration/native-cf1-read/resource-balance/native_cf1.c",
+    "experiments/acceleration/native-cf1-read/resource-balance/run.py",
+    "experiments/acceleration/native-cf1-read/resource-balance/prepare.py",
+    "experiments/acceleration/native-cf1-read/resource-balance/build_freeze.py",
+    "experiments/acceleration/native-cf1-read/resource-balance/launch_all.py",
+    "experiments/acceleration/native-cf1-read/resource-balance/cases.json",
+    "experiments/acceleration/native-cf1-read/resource-balance/SCOPE.md",
+    "experiments/acceleration/native-cf1-read/resource-balance/RESULTS.md"
+  ],
+  "exact_remote_bytes": true
+}

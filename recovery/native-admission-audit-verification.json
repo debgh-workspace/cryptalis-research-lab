@@ -1,0 +1,15 @@
+{
+  "commit": "cf632e2879f96d1fdeb50985ec4444ac16dae75e",
+  "tree": "eae78bf7344681a6efa84bfae0f095b89fdb724f",
+  "files": [
+    "experiments/acceleration/native-cf1-read/exact-admission/audit/REPORT.md",
+    "experiments/acceleration/native-cf1-read/exact-admission/audit/verification.json",
+    "experiments/acceleration/native-cf1-read/exact-admission/audit/POSTRUN_AUDIT.md",
+    "experiments/acceleration/native-cf1-read/exact-admission/audit/POSTRUN_AUDIT.json",
+    "experiments/acceleration/native-cf1-read/exact-admission/audit/audit_postrun.py",
+    "experiments/acceleration/native-cf1-read/exact-admission/PINS.json",
+    "experiments/acceleration/native-cf1-read/exact-admission/LAUNCHES.json",
+    "experiments/acceleration/native-cf1-read/exact-admission/VERIFICATION.json"
+  ],
+  "exact_remote_bytes": true
+}
