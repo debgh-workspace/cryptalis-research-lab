@@ -1,0 +1,95 @@
+{
+  "freeze_sha256": "12fdaed70806d9979a8fe9865b7405d7c55032f045ff6b864222b49aa70e7e99",
+  "commands_sha256": "2727a6594430ef1b399c422466c4fd40c29314fc2b35e7fbe8a6699526c3f2c0",
+  "launches": 8,
+  "positive_pass": 4,
+  "expected_negative_accepted": 4,
+  "unexpected_failures": 0,
+  "positive_observations": 1230,
+  "negative_prefix_observations": 204,
+  "preserved_v2_files": 76,
+  "pins_reverified": 17210,
+  "leak_freedom": "UNKNOWN",
+  "rows": [
+    {
+      "id": "v3-D-normal-negative-o0-01",
+      "status": "EXPECTED_FAIL",
+      "observations": 101,
+      "supervisor_sha256": "6aa9796cab830223831e7490df956077de65218d0c7f4a97cb3be0143d0deae2",
+      "child_sha256": "c52786d8fa46840a93b9452fa307f8b6f759bcf0f5f5d3bbc26bc98e45a8d35d",
+      "child_status": "FAIL",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-normal-positive-o0-01",
+      "status": "PASS",
+      "observations": 241,
+      "supervisor_sha256": "a4afaec65134534342f9bbe06dddead97210a78ac111e3d2b7d7277af56d01a7",
+      "child_sha256": "cc749a7a39843401da89fdf7e0f51b1b3a50b19707b78f83bebb86d3d7d57445",
+      "child_status": "PASS",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-normal-negative-o1-01",
+      "status": "EXPECTED_FAIL",
+      "observations": 101,
+      "supervisor_sha256": "7b7163e717fcbcf65b36dc0c1f1eb3a8c99cd44e634a7e87f444aab2e3150f0b",
+      "child_sha256": "8931a772e5f70f697e7f2d65892769f6a326a52c1c82b2933b68aaa69537ddd0",
+      "child_status": "FAIL",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-normal-positive-o1-01",
+      "status": "PASS",
+      "observations": 241,
+      "supervisor_sha256": "89347fd06126ae424e2997238e659e0e5a764dc67586d9ccc157a7ecedf0476a",
+      "child_sha256": "b470c43730c9d5fa6533a45be885afffd39377ffdda9cfd11abdc2847a318754",
+      "child_status": "PASS",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-diagnostic-negative-o0-01",
+      "status": "EXPECTED_FAIL",
+      "observations": 1,
+      "supervisor_sha256": "e12233ce9c3026c2b7c8e7a58134cd3cc4c7a90c6e8d750377ab3e22b14b6637",
+      "child_sha256": "f0501c6fe5fc17fd3cfd36d0d00ff11382365387b7dd406917e2f49a7aa7b570",
+      "child_status": "FAIL",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-diagnostic-positive-o0-01",
+      "status": "PASS",
+      "observations": 374,
+      "supervisor_sha256": "f76fa1edc3df54a2f7f904d7006e159d76dfa46f075ed615a9a4a8ecc4fa2d8a",
+      "child_sha256": "c15f9e78feedd0f7dda0b7db61034967872d81c0336c0769d392edb7aa250933",
+      "child_status": "PASS",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-diagnostic-negative-o1-01",
+      "status": "EXPECTED_FAIL",
+      "observations": 1,
+      "supervisor_sha256": "a4d247feea79adb37275256812db5865d449eb6ee3e568458a6438f886519d49",
+      "child_sha256": "7bca6a04da40674ad1d8486f07060831fa24a3fd777c5c5acd5afab6e9ee4769",
+      "child_status": "FAIL",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    },
+    {
+      "id": "v3-D-diagnostic-positive-o1-01",
+      "status": "PASS",
+      "observations": 374,
+      "supervisor_sha256": "d2af36d07ebe7aaf320e2589e428a36228791e7218f83a537f5984c67af1ed68",
+      "child_sha256": "33a4b6024e320eeaeab43890d60d62c2585c495c411a6c5ae6fbb725073c2dfa",
+      "child_status": "PASS",
+      "child_integrity_errors": [],
+      "build_origin_anchor": "1a56f94e6f30cf448070038647c092fbaba10071919eca9f22f59f44b9f4f4f1"
+    }
+  ]
+}
