@@ -1,0 +1,19 @@
+{
+  "sdist_sha256": "7cee7fc8e265ac0a23753f18aba34a999171072bae15a006e001cc2146ed78b7",
+  "wheel_sha256": "346eac4f4cf54bac270e25dce6f7d97cdb591ac2969a00a3b9c073a0e4a20c57",
+  "lock_sha256": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+  "tar_members": 52,
+  "tar_regular_files": 46,
+  "wheel_members": 51,
+  "changed_tar_payloads": [
+    "cryptalis-0.1.0/src/cryptalis/manifest/compatibility.py"
+  ],
+  "changed_wheel_payloads": [
+    "cryptalis-0.1.0.dist-info/RECORD",
+    "cryptalis/manifest/compatibility.py"
+  ],
+  "paired_artifacts_byte_identical": true,
+  "other_payload_bytes_unchanged": true,
+  "modules": 40,
+  "record_hashed_entries": 44
+}

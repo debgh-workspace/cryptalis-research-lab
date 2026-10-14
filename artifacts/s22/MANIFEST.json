@@ -1,0 +1,56 @@
+{
+  "status": "SCOPED_PACKAGING_VERIFIED; SA21 full source suite verified; SA20 in progress; installed validation pending",
+  "artifacts": [
+    {
+      "name": "cryptalis-0.1.0.tar.gz",
+      "bytes": 143896,
+      "sha256": "7cee7fc8e265ac0a23753f18aba34a999171072bae15a006e001cc2146ed78b7",
+      "parts": [
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part01",
+          "bytes": 48000,
+          "sha256": "d8e100c5257e4d0949c6b2c218784a65ff0a6ad7473677b5abcb75524e536aaf",
+          "git_blob_sha": "0bc06c562fc6dc2c2204dda0bcf9f01f8347dafc"
+        },
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part02",
+          "bytes": 48000,
+          "sha256": "876a4a445efe95b19a4af78c926868923df2134d5f483205c11c6b948f183c90",
+          "git_blob_sha": "23c36536781b343b78153c6274e586ecb9550fd1"
+        },
+        {
+          "name": "cryptalis-0.1.0.tar.gz.part03",
+          "bytes": 47896,
+          "sha256": "f6760da2fd4167d304c8941a32fd3f63e1ff7921610513cf4fd605a1da488582",
+          "git_blob_sha": "888e67093584ddadde11f7f5b4947dae26e3e3fd"
+        }
+      ]
+    },
+    {
+      "name": "cryptalis-0.1.0-py3-none-any.whl",
+      "bytes": 133571,
+      "sha256": "346eac4f4cf54bac270e25dce6f7d97cdb591ac2969a00a3b9c073a0e4a20c57",
+      "parts": [
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part01",
+          "bytes": 48000,
+          "sha256": "419e6b2cd30000db802a5859774110986f01ebcf92ebf02b7f0f8aa9055cf3f7",
+          "git_blob_sha": "cbc228d92ba473da7427cd0a40d4829ae5a013c4"
+        },
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part02",
+          "bytes": 48000,
+          "sha256": "7ab4e9bdbbc5f68a7e36a07f0889b8a844a9ed701204a721809ffb607d71e4f2",
+          "git_blob_sha": "af32a3431f1d62fc078e71abb8eb2d493b254bea"
+        },
+        {
+          "name": "cryptalis-0.1.0-py3-none-any.whl.part03",
+          "bytes": 37571,
+          "sha256": "47122af8cfde8c4b9f5db7f08bc1b5492ca762bc92d308fad0ff801fa3396732",
+          "git_blob_sha": "1ef26053cbed8b4c971edc860bd28646062cfe58"
+        }
+      ]
+    }
+  ],
+  "gates": "ALL_SEVEN_UNKNOWN"
+}
