@@ -1,0 +1,14 @@
+{
+  "limits": "Focused46 per cell only. Full integration and independent source/command review remain unrun/pending. These accepted results create no new runtime authorization.",
+  "sa20": {
+    "passed": 46,
+    "pytest_seconds": 4.55,
+    "review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-green-sa20-independent-20261014/review.md"
+  },
+  "sa21": {
+    "passed": 46,
+    "pytest_seconds": 4.43,
+    "review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-green-sa21-independent-20261014/review.md"
+  },
+  "status": "ACCEPT_BOUNDED_GREEN_BOTH_FOCUSED_CELLS"
+}

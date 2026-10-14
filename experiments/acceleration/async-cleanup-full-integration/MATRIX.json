@@ -1,0 +1,53 @@
+{
+  "all_three_case_instances_if_qualified": 5360,
+  "all_three_distinct_semantic_ids_if_qualified": 2699,
+  "all_three_predicted_outcomes": {
+    "failure": 14,
+    "passed": 5300,
+    "skipped": 46
+  },
+  "cells": [
+    {
+      "basis": "Exact original JUnit identities, outcome maps and failure/skip messages agree between accepted S25 source and installed controls. New22 pass is a required prediction, not observed integration evidence.",
+      "cell": "sa21",
+      "expected_wrapper_exit": 1,
+      "installed_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/s25-installed-full-independent-20261014/SA21_TERMINAL_REVIEW.md",
+      "ordinary_ids": 2661,
+      "original_outcomes": {
+        "failure": 7,
+        "passed": 2632
+      },
+      "planned_outcomes": {
+        "failure": 7,
+        "passed": 2654
+      },
+      "source_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/s25-integration-independent-20261014/SA21_TERMINAL_REVIEW.md",
+      "subtests_separate": 56
+    },
+    {
+      "basis": "Exact original JUnit identities, outcome maps and failure/skip messages agree between accepted S25 source and installed controls. New22 pass is a required prediction, not observed integration evidence.",
+      "cell": "sa20",
+      "expected_wrapper_exit": 1,
+      "installed_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/s25-installed-sa20-terminal-independent-20261014/SA20_TERMINAL_REVIEW.md",
+      "ordinary_ids": 2661,
+      "original_outcomes": {
+        "failure": 7,
+        "passed": 2586,
+        "skipped": 46
+      },
+      "planned_outcomes": {
+        "failure": 7,
+        "passed": 2608,
+        "skipped": 46
+      },
+      "source_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/s25-integration-independent-20261014/SA20_TERMINAL_REVIEW.md",
+      "subtests_separate": 56
+    }
+  ],
+  "main_case_instances": 5322,
+  "main_distinct_ids": 2661,
+  "optional_case_instances": 38,
+  "source_files": 217,
+  "status": "PROPOSED_NOT_EXECUTED",
+  "subtests_separate_if_main_cells_complete": 112
+}

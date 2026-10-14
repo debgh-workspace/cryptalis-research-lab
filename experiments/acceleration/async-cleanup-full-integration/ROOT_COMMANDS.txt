@@ -1,0 +1,18 @@
+# PROPOSED ONLY. Do not execute this file wholesale.
+# Prerequisites: both focused GREEN terminal audits accepted, independent source/
+# command review of this exact packet, and coordinator clearance.
+# Required additive clearance manifests are deliberately absent in preparation.
+
+# 1. Main SA21 source, complete2661 ordinary IDs including historical7failures.
+/bin/bash /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-full-integration-plan-20261014/run-sa21.sh
+# STOP. Independent terminal audit of exact IDs/outcomes/source/cleanup/corpus.
+
+# 2. Main SA20 source, only after accepted SA21 terminal audit.
+/bin/bash /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-full-integration-plan-20261014/run-sa20.sh
+# STOP. Independent terminal audit of exact IDs/outcomes/source/cleanup/corpus.
+
+# 3. OPTIONAL HOLD. Separate evidence-only overlay source/command clearance and
+# both main terminal audits are required; the candidate's old helper is invalid
+# for this217-file source. No direct invocation of the old helper is proposed.
+/bin/bash /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-sqlmodel-overlay-plan-20261014/run-optional38.sh
+# STOP. Independent complete optional38 terminal audit. No promotion follows.
