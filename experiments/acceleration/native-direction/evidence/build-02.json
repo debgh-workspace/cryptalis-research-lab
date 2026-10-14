@@ -1,0 +1,22 @@
+{
+  "command": [
+    "gcc",
+    "-shared",
+    "-fPIC",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/opt/codex/runtimes/codex-primary-runtime/dependencies/python/include/python3.12",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.c",
+    "-lcrypto",
+    "-o",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "source_sha256": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+  "binary_sha256": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+  "linked_libraries": "\tlinux-vdso.so.1 (0x00007f823eb2b000)\n\tlibcrypto.so.3 => /lib/x86_64-linux-gnu/libcrypto.so.3 (0x00007f823e4c1000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f823e2cd000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f823e2ad000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x00007f823e1e3000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f823eb2d000)\n"
+}

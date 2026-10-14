@@ -1,0 +1,9 @@
+{
+  "test_direction.py": "7ce19da934fc54bccdb53fc73265d81693cb51a9f90065385380aa1c4bb19924",
+  "native_direction.cpython-312-x86_64-linux-gnu.so": "393cf26a573870a9e7e1d3b12a3196528f9301f840214dbc05d84e1cb37575ed",
+  "SCOPE.md": "bde0095ea8397a28a551f92906554abaab30d47a57cbdd5b3555c61c06aaf17c",
+  "native_direction.c": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239",
+  "evidence/public-vector-checks-01.json": "a8056e8e6d13f3368e965cdd135ad53e53226fb17f78e5a25eba89166ba9eccc",
+  "evidence/build-01.json": "4e5320da9dc4941137d28f3a4cd046295d5f47e1d9cbb76ab923939706af6810",
+  "evidence/build-02.json": "5d92a7fa1cfab12f466b21e48185f2785206c4e4cde3e1ed02eb4b4731bf218d"
+}

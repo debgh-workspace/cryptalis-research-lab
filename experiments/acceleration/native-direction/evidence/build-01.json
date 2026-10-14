@@ -1,0 +1,20 @@
+{
+  "command": [
+    "gcc",
+    "-shared",
+    "-fPIC",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/install/include/python3.12",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.c",
+    "-lcrypto",
+    "-o",
+    "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.cpython-312-x86_64-linux-gnu.so"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "cryptalis-executable/candidate-native-direction-probe-20261014/native_direction.c:2:10: fatal error: Python.h: No such file or directory\n    2 | #include <Python.h>\n      |          ^~~~~~~~~~\ncompilation terminated.\n",
+  "source_sha256": "5933299b46e349cd0e80032fd89beffd797e5ad04230cbfda1d985ef1eca0239"
+}
