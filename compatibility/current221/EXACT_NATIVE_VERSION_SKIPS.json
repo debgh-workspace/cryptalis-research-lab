@@ -1,0 +1,370 @@
+[
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[merge_all-cold-native]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[merge_all-cold-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[merge_all-cold-attached]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[merge_all-cold-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[merge_all-warm-native]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[merge_all-warm-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[merge_all-warm-attached]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[merge_all-warm-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[delete_all-cold-native]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[delete_all-cold-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[delete_all-cold-attached]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[delete_all-cold-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[delete_all-warm-native]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[delete_all-warm-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_async_collection_methods_preserve_native_detached_behavior[delete_all-warm-attached]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_async_collection_methods_preserve_native_detached_behavior[delete_all-warm-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_merge_all_prepares_before_implicit_io_and_preserves_failure[provider]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_merge_all_prepares_before_implicit_io_and_preserves_failure[provider]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell",
+    "junit_id": "tests.test_sqlalchemy_async_collection_methods::test_merge_all_prepares_before_implicit_io_and_preserves_failure[cancel]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_async_collection_methods.py::test_merge_all_prepares_before_implicit_io_and_preserves_failure[cancel]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[session_false-sync]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[session_false-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[session_false-async]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[session_false-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[statement_true-sync]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[statement_true-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[statement_true-async]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[statement_true-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[call_true-sync]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[call_true-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[call_true-async]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[call_true-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[call_false-sync]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[call_false-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Session-wide execution options are a native SQLAlchemy 2.1 API",
+    "junit_id": "tests.test_sqlalchemy_session_execution_options::test_session_execution_options_provider_boundary_matches_native[call_false-async]",
+    "phase": "setup",
+    "pytest_nodeid": "tests/test_sqlalchemy_session_execution_options.py::test_session_execution_options_provider_boundary_matches_native[call_false-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-sync-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-table-async-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-sync-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[distinct_extension-alias-async-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-sync-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-table-async-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-sync-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-native]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-native]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-attached]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_protected_textual_clause_requires_predriver_refusal[aggregate_order-alias-async-attached]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[distinct_extension-table-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[distinct_extension-table-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[distinct_extension-table-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[distinct_extension-table-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[distinct_extension-alias-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[distinct_extension-alias-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[distinct_extension-alias-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[distinct_extension-alias-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[aggregate_order-table-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[aggregate_order-table-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[aggregate_order-table-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[aggregate_order-table-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[aggregate_order-alias-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[aggregate_order-alias-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_textual_clause_matches_native[aggregate_order-alias-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_textual_clause_matches_native[aggregate_order-alias-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-table-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-table-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-table-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-table-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-alias-sync]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-alias-sync]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  },
+  {
+    "exact_reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension",
+    "junit_id": "tests.test_textual_clause_boundary::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-alias-async]",
+    "phase": "call",
+    "pytest_nodeid": "tests/test_textual_clause_boundary.py::test_public_distinct_output_label_shadows_protected_from_name[distinct_extension-alias-async]",
+    "sa20_outcome": "SKIP",
+    "sa21_same_id_outcome": "PASS"
+  }
+]

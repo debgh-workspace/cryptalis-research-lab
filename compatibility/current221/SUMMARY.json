@@ -1,0 +1,152 @@
+{
+  "all_seven_gates": "UNKNOWN",
+  "current_archived_generated_snapshots": [
+    {
+      "archived_prior_equal_except_terminal_operation_tokens": true,
+      "counts": {
+        "IDENTICAL": 4,
+        "REJECTED-LOUD": 12
+      },
+      "path": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+      "records": 16,
+      "sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+      "sqlalchemy": "2.1.3"
+    },
+    {
+      "archived_prior_equal_except_terminal_operation_tokens": true,
+      "counts": {
+        "IDENTICAL": 4,
+        "REJECTED-LOUD": 12
+      },
+      "path": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+      "records": 16,
+      "sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+      "sqlalchemy": "2.0.51"
+    }
+  ],
+  "decision": "PROPOSED_ADDITIVE_CURRENCY_OVERLAY_REQUIRES_INDEPENDENT_REVIEW",
+  "historical_key_currency": {
+    "changed_classifications_in_current_snapshots": 0,
+    "confirmed_current_snapshot": 32,
+    "no_current_snapshot_for_this_key": 568
+  },
+  "historical_s24": {
+    "counts": {
+      "IDENTICAL": 444,
+      "REJECTED-LOUD": 156
+    },
+    "keys": 600,
+    "operation_ids": 159,
+    "original_missing_combinations": 82,
+    "remaining_missing_combinations": 36
+  },
+  "integrated_candidate_manifest": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+  "limits": [
+    "No complete Integrated221 600-key refresh exists in these current snapshots.",
+    "Snapshot absence is not proof that an individual behavior is untested; other accepted test evidence remains separate.",
+    "No change to authoritative checklist, defect register, corpus, source, live installed paths, cache or previous evidence.",
+    "CLUSTER/legacy focused111 evidence cited here is source-consumer evidence; separate installed-focused111 terminal review remains a distinct requirement."
+  ],
+  "native_version_skip_groups": [
+    {
+      "cases": 16,
+      "phase": "call",
+      "reason": "Native SQLAlchemy 2.0 has no distinct_on syntax extension"
+    },
+    {
+      "cases": 12,
+      "phase": "call",
+      "reason": "Native SQLAlchemy 2.0 has no generic aggregate_order_by API"
+    },
+    {
+      "cases": 10,
+      "phase": "setup",
+      "reason": "Native collection APIs were introduced in SQLAlchemy 2.1; not part of the 2.0 cell"
+    },
+    {
+      "cases": 8,
+      "phase": "setup",
+      "reason": "Session-wide execution options are a native SQLAlchemy 2.1 API"
+    }
+  ],
+  "optional38": {
+    "default_async_admission": false,
+    "generated_corpus": 0,
+    "laboratory_opt_in_profile": "PARTIAL_BOUNDED_VERIFIED",
+    "ordinary_passes": 38,
+    "public_default_refusal_remains": true
+  },
+  "retained_requirements": 34,
+  "review_references": {
+    "historical_s24": {
+      "path": "reviewer-notes/s24-corpus-runtime-independent-20261014/REVIEW.md",
+      "sha256": "f5e9a580a20f8eedfa24d41dea5754ba8fdaee6910a2620880d9aa6a0871d77a"
+    },
+    "installed_optional38": {
+      "path": "reviewer-notes/integrated221-installed-optional38-v2-independent-20261015/REVIEW.md",
+      "sha256": "b035f5acb36931515a11adfaa25dc5aa69c3634c85f08eaa683edf0b813f3c1d"
+    },
+    "installed_sa20": {
+      "path": "reviewer-notes/integrated221-installed-full-sa20-v3-independent-20261015/REVIEW.md",
+      "sha256": "d685131a3818ed9cafb74810505af53fe723d47f12ce296b6c126e14f5021ee0"
+    },
+    "installed_sa21": {
+      "path": "reviewer-notes/integrated221-installed-full-sa21-v3-independent-20261015/REVIEW.md",
+      "sha256": "9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223"
+    },
+    "source_focused_sa20": {
+      "path": "reviewer-notes/integrated221-v3-corrected111-sa20-independent-20261015/REVIEW.md",
+      "sha256": "05b0e5c564b9a89ac18aee555c6c60d580a9a96f73d70487f69c72b722298f0e"
+    },
+    "source_focused_sa21": {
+      "path": "reviewer-notes/integrated221-v3-corrected111-sa21-independent-20261015/REVIEW.md",
+      "sha256": "937fd0a8e5ee88497c4d00e26764afab84db62d64595ea4af180f30ee0e7e4a3"
+    }
+  },
+  "scope": "Archived receipts, accepted review reports and finite source files only; no new product or database execution.",
+  "seven_contract_replacements": [
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_reverse_preserves_current_public_comment_without_planning_effects"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_reverse_preserves_current_public_attributes_without_planning_effects[column_grant]"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_reverse_preserves_current_public_attributes_without_planning_effects[statistics]"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_reverse_preserves_current_public_attributes_without_planning_effects[storage]"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_reverse_preserves_current_public_attributes_without_planning_effects[compression]"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_changed_protected_staging_refuses_without_losing_current_public_edits"
+    },
+    {
+      "installed_sa20": "PASS",
+      "installed_sa21": "PASS",
+      "junit_id": "tests.test_deprotection_ordinals::test_untouched_public_values_stay_outside_actual_bounded_transport"
+    }
+  ],
+  "six_oracle_sensitivity_controls": [
+    "tests.test_retained_contract_mutations::test_native_metadata_oracle_detects_actual_post_apply_regression[comment]",
+    "tests.test_retained_contract_mutations::test_native_metadata_oracle_detects_actual_post_apply_regression[column_grant]",
+    "tests.test_retained_contract_mutations::test_native_metadata_oracle_detects_actual_post_apply_regression[statistics]",
+    "tests.test_retained_contract_mutations::test_native_metadata_oracle_detects_actual_post_apply_regression[storage]",
+    "tests.test_retained_contract_mutations::test_native_metadata_oracle_detects_actual_post_apply_regression[compression]",
+    "tests.test_retained_contract_mutations::test_native_current_value_oracle_detects_actual_post_apply_regression"
+  ]
+}

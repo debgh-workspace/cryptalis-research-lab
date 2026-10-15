@@ -1,0 +1,45 @@
+{
+  "schema": "cryptalis-current-compatibility-evidence-adoption-v1",
+  "adopted_utc": "2026-10-15T16:52:00Z",
+  "decision": "ACCEPTED_SCOPED_CURRENT_EVIDENCE_OVERLAY",
+  "independent_review_sha256": "6052e8984e5c58ad8665bb74e36296c56b8d204056dab93940bc11ba1af8fa08",
+  "candidate_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+  "current_keys": 32,
+  "current_identical": 8,
+  "current_rejected_loud": 24,
+  "historical_only_keys": 568,
+  "changed_classifications": 0,
+  "native_version_skips": 46,
+  "files": [
+    {
+      "path": "compatibility/current221/KEY_CURRENCY_MAP.json",
+      "sha256": "780542ea2312a7128594bb62f1b549e5db9c4a7fc4365eb7125440116cabeb4c",
+      "bytes": 254230
+    },
+    {
+      "path": "compatibility/current221/CURRENT32_OBSERVATIONS.json",
+      "sha256": "140acffe2e5c08f50b85a20b6c0d6499a3ab043426a8d536e4d7e789613797e9",
+      "bytes": 25251
+    },
+    {
+      "path": "compatibility/current221/EXACT_NATIVE_VERSION_SKIPS.json",
+      "sha256": "f659c02a40e2f59ab4d78ba6613323c48a73368ec37b5b2550c06f316f7e578a",
+      "bytes": 22195
+    },
+    {
+      "path": "compatibility/current221/SUMMARY.json",
+      "sha256": "e14e27425e329dec29a3a6a0a8a08065f24a352fe9cc88541771794a116b6c56",
+      "bytes": 6622
+    }
+  ],
+  "interpretation": [
+    "Historical S24 corpus remains unchanged. Missing current snapshot is not proof that related behavior was untested.",
+    "Internal laboratory-enabled async SQLModel evidence is PARTIAL; default async refusal remains and no public enablement API is claimed.",
+    "CLUSTER designation is metadata preservation, not physical heap clustering.",
+    "Seven expectation replacements and six mutation oracles pass in both installed suites.",
+    "Separate installed-focused111 gates subsequently accepted, not added as generated corpus keys.",
+    "Original proposed SUMMARY retains its historical pending-review/source-only wording; this separate adoption and accepted terminal reports supply current decisions."
+  ],
+  "all34_objectives_active": true,
+  "all7_gates": "UNKNOWN"
+}

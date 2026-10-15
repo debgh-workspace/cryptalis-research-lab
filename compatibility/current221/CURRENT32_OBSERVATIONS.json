@@ -1,0 +1,714 @@
+[
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc44c801f5-370.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc4d999dcc-371.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc5667af9e-372.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc5fdccc47-373.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc6967842a-374.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc73cccc6d-375.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc7cd22ccf-376.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc85efc8a7-377.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc8e9b0aa4-378.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cc97dcc1ae-379.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7cca1363faa-37a.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c7ccab100ebf-37b.",
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa21-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.1.3.json",
+    "snapshot_sha256": "774b5b241eb9112506786509d7d05577a890b1ab41cb39dfcc6406cd9f6bd36e",
+    "sqlalchemy": "2.1.3"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4b8444f41-36e.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4c16597b2-36f.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4ca87f633-370.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4d37ea8bf-371.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4dcbb4688-372.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4e5d1696a-373.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4ee82ef49-374.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4f74afaf9-375.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a4ffc5d11b-376.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_flush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a5091e86ab-377.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_commit_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a51264d16a-378.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "alternative": "Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL.",
+    "classification": "REJECTED-LOUD",
+    "id": "core/nul_rejection_autoflush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_data_sql": 0,
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "reason": "InvalidText during text encoding. Supply strict UTF-8 text without NUL, at most 16 MiB encoded, or SQL NULL. Operation 1e-c8a51c8f1bba-379.",
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_root",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_root",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      []
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_savepoint",
+    "mode": "sync",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  },
+  {
+    "classification": "IDENTICAL",
+    "id": "core/provider_failed_flush_savepoint",
+    "mode": "async",
+    "native_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "protected_recovery": [
+      false,
+      "PendingRollbackError",
+      [
+        "outer-valid"
+      ]
+    ],
+    "snapshot": "evidence/integrated221-installed-full-sa20-v3-20261015/candidate-corpus/master-s4-compatibility-flush-corpus-v1-sa2.0.51.json",
+    "snapshot_sha256": "0821ee299db69791f9b75967b9d22a08036fb57adb39a5d5098935c99e8a18ef",
+    "sqlalchemy": "2.0.51"
+  }
+]
