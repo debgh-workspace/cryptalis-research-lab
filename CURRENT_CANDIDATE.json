@@ -30,7 +30,8 @@
       "fail": 0,
       "skip": 0,
       "phases_pass": 114,
-      "seconds": 7.32
+      "seconds": 7.32,
+      "scope": "bounded internal laboratory-enabled async SQLModel profile; default async refusal remains; not public opt-in API availability"
     }
   },
   "artifacts": {
@@ -45,9 +46,7 @@
     "historical retained-native contract correction with independent native/mutation evidence"
   ],
   "pending_preview_work": [
-    "installed focused111 legacy consumer checks",
     "public quickstart smoke including backup/restore/removal; fixture ACL approval pending",
-    "documentation-only package README correction and final artifact binding",
     "source/package supplement remote publication approval; complete final recovery delivery"
   ],
   "remaining_product_scope": "all34 objectives remain active; generic legacy repair, rotations, online migration, stronger search privacy, production KMS, broader SQL/frameworks, performance and external qualification remain incomplete",
@@ -72,5 +71,38 @@
   },
   "source_preserved": true,
   "original_mailbox_preserved": true,
-  "git_main_promoted": false
+  "git_main_promoted": false,
+  "documentation_successor": {
+    "source_manifest_sha256": "152ed80306b1cf9f5893242b499d54b7155efde33ef9ac43fc4edf8516cd53cc",
+    "wheel_sha256": "ce4817376f25411c8685c676802cce25c1799c85a87277b1dcc099556a40229c",
+    "sdist_sha256": "7988fb28baa4dec5804d4779b8a1d626c7dae5e3d7d5e597a7a12a69e0d9a036",
+    "artifact_review_sha256": "e143bec9997d3b81177e37e4ffc811d759addcc147ca96b9a0a66230f5b4d4ab",
+    "remote_commit": "83bea5c2962a725ccd0c6f377728180d507d711d",
+    "remote_directory": "preview/artifacts/readme-v2-20261015",
+    "all6_files_remote_byte_verified": true,
+    "scope": "README-only packaging/source evidence transfer accepted; original runtime artifact retains actual installed results; no successor installed/public smoke execution claimed."
+  },
+  "installed_focused111": {
+    "sa21": {
+      "passed": 111,
+      "failed": 0,
+      "skipped": 0,
+      "phases": 333,
+      "seconds": 101.49,
+      "subordinate_producers": 28,
+      "native_checks": 508,
+      "review_sha256": "f8d89657d61ce621515351dc818ef5872c11f0d1161472cd642f4bc54b30fba6"
+    },
+    "sa20": {
+      "passed": 111,
+      "failed": 0,
+      "skipped": 0,
+      "phases": 333,
+      "seconds": 104.34,
+      "subordinate_producers": 28,
+      "native_checks": 508,
+      "review_sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678"
+    },
+    "scope": "Bounded installed consumer against genuine historical source producers; no all-version, lost-metadata importer or durable ABORTED replan qualification"
+  }
 }

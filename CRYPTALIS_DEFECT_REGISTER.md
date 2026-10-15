@@ -1,6 +1,6 @@
 # Cryptalis current defect and qualification register
 
-Updated2026-10-15 16:00 UTC. This is an additive current register; historical candidate registers and failed observations are unchanged. Current bounded installed candidate: Integrated221, manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520. Scope and all34 objectives remain governed by CRYPTALIS_BUILD_CHECKLIST.md.
+Updated 2026-10-15 16:46 UTC. This is an additive current register; historical candidate registers and failed observations are unchanged. Current bounded installed candidate: Integrated221, manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520. Scope and all34 objectives remain governed by CRYPTALIS_BUILD_CHECKLIST.md.
 
 ## Closed within the selected contract
 
@@ -18,7 +18,7 @@ The seven historical ordinal/copy expectations are resolved in both full install
 
 Six real post-apply mutation controls establish sensitivity of the native acceptance oracles. They do not prove product detection of arbitrary corruption introduced after a completed apply. Three unchanged ordinal/legacy-stage/abort controls and broader existing refusal/recovery tests remain.
 
-Other accepted bounded corrections include CLUSTER designation preservation and safe-default/conditional legacy behavior. Source focused111 cells pass with genuine historical producers; the additional installed-focused111 boundary is being prepared. Physical heap clustering and generic lost-metadata recovery are not implied.
+Other accepted bounded corrections include CLUSTER designation preservation and safe-default/conditional legacy behavior. Source focused111 cells pass with genuine historical producers; both installed-focused111 boundaries are independently accepted with111PASS/333phases/28genuine historical producers/508native checks per cell. Physical heap clustering and generic lost-metadata recovery are not implied.
 
 Independent installed evidence:
 - SA21:2684PASS/0FAIL/0SKIP +56subtests; review9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223.
@@ -32,9 +32,9 @@ All are under cryptalis-executable/reviewer-notes/. Passing these finite suites 
 | ID | Classification | Precise remaining work |
 |---|---|---|
 | LEGACY-POSTLOSS | Recovery capability gap | Independently verified recovery/import of essential lost historical metadata; durable ABORTED replan/upgrade; preserve ciphertext/current application access and never invent absent metadata |
-| LEGACY-INSTALLED-111 | Verification boundary | Execute admitted installed consumer against genuine historical producers, preserving111 tests/333phases/28 subordinate producers and all508 native checks per cell |
+| LEGACY-INSTALLED-111 | CLOSED within admitted boundary | Both cells independently accepted111PASS/333phases/28 subordinate producers/508native checks; no all-version or lost-metadata recovery claim |
 | PREVIEW-PUBLIC-SMOKE | Unexecuted integration boundary | Exact file-provider public quickstart, modification, rollback, backup/restore, decrypt-back, package-free operation and removal; finite fixture ACL approval pending |
-| README-CURRENCY | Confirmed documentation defect | Packaged predecessor README has obsolete current-status claims and20 distinct absent relative destinations; approved external guide corrects these, README-only package successor is in preparation |
+| README-CURRENCY | CLOSED for published doc-only artifacts | Packaged predecessor README has obsolete current-status claims and20 distinct absent relative destinations; approved external guide corrects these, README-only successor independently accepted and exact standalone artifacts remotely verified at83bea5c2962a725ccd0c6f377728180d507d711d |
 | OPTIONAL-DEPENDENCY-41 | Inherited environment limitation | Exactly41 missing noncache dependency RECORD targets are preserved in the copied optional environment; no new missing target permitted; do not claim a complete clean-host distribution |
 | RELEASE-PROVENANCE | External evidence/resource gap | Original dependency artifacts, interpreter/builder provenance and independently reproducible clean-host installation remain incomplete |
 | NATIVE-COMPAT-BREADTH | Product capability/verification gap | Advanced protected SQL/types/DML and broader framework behavior; preserve explicit refusal and practical alternatives rather than silently admitting unsupported operations |
