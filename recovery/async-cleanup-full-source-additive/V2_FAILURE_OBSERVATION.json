@@ -1,0 +1,16 @@
+{
+  "source": "Coordinator record of observed tool result; original stdout/stderr was returned by execution tools, not captured to a separate local stream file",
+  "observed_utc": "2026-10-15T03:51:00Z",
+  "session_id": 9646,
+  "terminal_chunk_id": "45e0ad",
+  "exit_code": 1,
+  "script": "cryptalis-executable/reviewer-notes/async-cleanup-additive-remote-preparation-20261015/restore_authenticated_paired_v2.py",
+  "script_sha256": "25a09641fe61a49d212fa8ce90f99a3d65af006ea394969d306da8c15086eee7",
+  "failure_type": "ValueError",
+  "message": "Unadmitted toolchain path",
+  "stack": "main line2501 -> verify_tree line2247 -> safe_name line2111 -> require line2068",
+  "metadata_only_followup": "find showed real directory logical-workspace/workspace/cryptalis-executable/toolchain and exactly admitted run_baseline.py/lab_progress.py files",
+  "preserved_output": "persistence-recovery-20261013/async-cleanup-full-source-additive-remote-paired-restore-v1",
+  "success_receipt_created": false,
+  "repair_or_rerun": false
+}

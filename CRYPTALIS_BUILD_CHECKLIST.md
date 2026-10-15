@@ -4,19 +4,19 @@
 
 ## Identity and recovery
 
-### Current reconciled boundary — 2026-10-15 04:09 UTC
+### Current reconciled boundary — 2026-10-15 04:17 UTC
 
 Cleanup217 is now the highest fully audited bounded installed matrix. Source SA21: 2654 PASS / 7 FAIL; source SA20: 2608 PASS / 7 FAIL / 46 SKIP; 56 passing subtests per cell. Installed SA21 independently accepted the same outcomes in 398.30s, installed SA20 in 392.36s. Separate installed SQLModel: 38 PASS in 5.54s. The seven historical failures remain unresolved. Packaging and all three fresh payload audits are accepted. This is bounded candidate qualification, not production qualification.
 
 Transport218 preserves that correction and adds restricted trusted-local exception metadata transport. Both full source matrices are independently accepted: SA21 2671 PASS / 7 FAIL / 56 subtests (403.36s); SA20 2625 PASS / 7 FAIL / 46 SKIP / 56 subtests (388.06s). Optional source: 38 PASS (5.44s). Packaging V2 completed exit0: identical direct/roundtrip wheels and repeated sdists; independent artifact audit accepted (review SHA256 af4433d6fd531f976be7f7e804bfe7e57f922d0adc91786778264ca00f56ee3a). Fresh installed qualification remains pending.
 
-Cleanup focused recovery is remote-verified at 86fb0e26ac4032a405b8c077939eb3e288e69db5. Full-source/build additive is remotely complete at 0c74347b6d89cfc82d766973e14d2450fd294032 with all 23 parts plus manifest authenticated and byte-verified. Paired restore V2 failed an overstrict required-directory classification; failed output is preserved. Independently reviewed V3 correction now completed exit0, restoring 355 additive + 516 base members and 2386 logical files; independent actual-result audit is underway. Installed qualification evidence inventory is separately under review, not yet remotely complete. Runtime/dependency/database restore is not established.
+Cleanup focused recovery is remote-verified at 86fb0e26ac4032a405b8c077939eb3e288e69db5. Full-source/build additive is remotely complete at 0c74347b6d89cfc82d766973e14d2450fd294032 with all 23 parts plus manifest authenticated and byte-verified. Paired restore V2 failed an overstrict required-directory classification; failed output is preserved. Independently reviewed V3 correction now completed exit0, restoring 355 additive + 516 base members and 2386 logical files; independent actual-result audit accepted all 3909 data files and 358 directories with zero drift (review 3ca7a25d9a79e52563fbaa3711c1dfc8aa46ed34cfd326a3ca96172a9f19c8a0). Installed qualification evidence inventory is separately under review, not yet remotely complete. Runtime/dependency/database restore is not established.
 
-Statistics diagnostic V4 retains 99 accepted cases per cell, private and unhooked. Forced-present mutation V3 produced expected 3 FAIL / 2 PASS but is HOLD because its outer argv capture failed. Fresh mutation V4 corrected capture under independent source review and completed expected 3 FAIL / 2 PASS / 94 deselected in 2.91s, with before_failures=0 and after_failures=0. Actual-result audit is pending; historical V3 HOLD is unchanged. No performance gain or public statistics feature is claimed.
+Statistics diagnostic V4 retains 99 accepted cases per cell, private and unhooked. Forced-present mutation V3 produced expected 3 FAIL / 2 PASS but is HOLD because its outer argv capture failed. Fresh mutation V4 corrected capture under independent source review and completed expected 3 FAIL / 2 PASS / 94 deselected in 2.91s, with before_failures=0 and after_failures=0. Actual-result audit accepted exact argv16, 21 before and 15 after successful actions, expected failures/controls and restored corpus (review d518cc2ef1fb0173cff232a826e7449f2dc9a101a991802e62973a2896714588). Historical V3 HOLD is unchanged. No performance gain or public statistics feature is claimed.
 
 All 34 objectives remain preserved. Main remains S14. G-ADAPTER, G-CRYPTO, G-QUERY, G-LIFECYCLE, G-PROVIDER, G-POLICY and G-RELEASE remain UNKNOWN. Pending owner decisions are unchanged.
 
-- Last updated UTC: `2026-10-15T04:09:00Z`
+- Last updated UTC: `2026-10-15T04:17:00Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest fully audited bounded installed candidate: cleanup217 `candidate-next-unblocked-correctness-20261014`, 217 files, manifest `4ba41f40c8dc32c80b2f863e5bc60fa7ce8434070c45b8b8f9cfc2a3cb145649`. Exact source and installed outcomes are above. Separate source218 transport follow-on is not yet installed-qualified. S25 and all prior checkpoints remain retained.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1374,3 +1374,12 @@ Optional installed runtime source commands accepted reviewa7c961ef66bfde0529c348
 - Additive remote final commit 0c74347b6d89cfc82d766973e14d2450fd294032, tree cb434f9bd899af2401ae59c7ab0f99228625ef5b. V3 restore source 60b7666952832ac2e1aba155d70cc1cb38c02968d71a5352c0e3281381640c59; source review 5f76a98eba310ad83412d9387072a3bb03319a1cd38ae847ba36628181f363d9. Exact authenticated actual remote bytes used; V2 failure preserved.
 - Forced-present V3 terminal review b9c9b0df2a65e45bbaf45c17c7fd643822d09a35bf4c4e0caacaa6ea4a763cf3 records evidence HOLD. V4 source review fdc0dbc38ba46d15c7abdc1385ae5b2898df999ff04fcdc203fd3f25782e24f4 accepted narrowly corrected capture; actual result pending review.
 - Next: finish actual recovery/mutation audits, publish this ledger and exact checkpoint evidence, audit and freeze installed recovery, then execute separately reviewed fresh transport218 installers and installed matrices through unchanged role preflights. No historical failure waiver or gate promotion.
+
+## 2026-10-15 04:17 UTC — exact remote checkpoints and independent actual results
+
+- Commit fe2d24d0b6965fc7079f0b973f30fe098eb75985: all10 UTF-8 bodies read back at same commit and exactly compared, including checklist/state and cleanup installed/transport packaging reviews.
+- Commit d1a8f00b7f4fc098ae1a8775261b3e41291c0d55: all10 bodies remotely exact, including tested transport218 keys.py and new test, complete source manifest/delta, full source/optional reviews and actual restore/capture terminal reviews. This publishes source evidence, not installed qualification or main promotion.
+- Paired actual remote restore accepted: 3909 data files, 129238667 bytes, receipt and358 directories; receipt SHA256 e33e0d3f3a9bc7202fd2b49c3cbbf03fee66893f67cc270db5461222de73e3b2. No runtime/dependency/database restore claim.
+- Mutation V4 actual capture accepted: exact16arguments, intended3FAIL/2PASS/94deselected, exit1. Independent auditor rehashed534captured targets;14external pins supported by exact runtime receipts and prior source review. V3 HOLD preserved.
+- Transport installer V1 is HOLD because runtime documentation retained one stale optional217 path; executable target bindings were correct. Fresh V2 correction is being prepared, with failed preparation attempt preserved. No installation executed. Independent main/optional snapshot checks1658/1658/5900 unchanged.
+- Mailbox fresh SHA256 remains9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd. All7historicalfailures and all7UNKNOWNgates retained.

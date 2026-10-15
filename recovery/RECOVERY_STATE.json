@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-15T04:09:00Z",
+  "observed_at_utc": "2026-10-15T04:17:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "0c74347b6d89cfc82d766973e14d2450fd294032",
+  "latest_verified_remote_commit": "d1a8f00b7f4fc098ae1a8775261b3e41291c0d55",
   "latest_integrated_candidate": "S25: highest broadly verified bounded candidate,216files.",
   "current_experiment": "ASYNC-EXIT-PRIMARY-01 focused RED/GREEN verified in both dependency cells, full source and installed matrix pending; internal transport metadata follow-on remains source-only.",
   "s5_remote_byte_restore_files": 3579,
@@ -1601,5 +1601,14 @@
     "remote_additive": "24 bodies exact at 0c74347b; V2 restore failure preserved; reviewed V3 restore exit0, actual audit pending",
     "statistics_mutation": "V3 evidence HOLD retained; V4 expected3F2P94deselected2.91s, actual audit pending",
     "installed_recovery": "3807 origins/474 new bodies; independent input review underway"
+  },
+  "continuation_0417": {
+    "remote_restore": "accepted independent actual V3 data-only closure3909 files358dirs",
+    "statistics_mutation": "V4 actual capture accepted; V3 HOLD preserved",
+    "transport218": "source and packaging accepted, installed V1 documentation HOLD, V2 correction pending",
+    "remote_commits_exact": [
+      "fe2d24d0b6965fc7079f0b973f30fe098eb75985",
+      "d1a8f00b7f4fc098ae1a8775261b3e41291c0d55"
+    ]
   }
 }
