@@ -1,0 +1,93 @@
+[
+  {
+    "path": "tests/test_migration.py",
+    "before_sha256": "523cad2b77b760f01a52d8a7c96cb3005e56254af44be60e00b684d14ed8105c",
+    "after_sha256": "e17589b1715208feb1f8ee62514205c576de60dd9edb31318898bce7303f9b2e",
+    "changes": [
+      {
+        "old": "'cryptalis.transition/retained-native-comments-research-v1')",
+        "new": "'cryptalis.transition/retained-native-comments-research-v1',\n        'cryptalis.transition/retained-native-comments-cluster-research-v2')",
+        "count": 2,
+        "justification": "Admit exact v2 retained physical representation; fixed field identity/native schema assertions remain unchanged."
+      }
+    ],
+    "contextual_formatting": "The second allowlist occurs in the physical-shape branch and retains its20-space continuation indentation; unified patch is exact byte authority."
+  },
+  {
+    "path": "tests/test_deprotection.py",
+    "before_sha256": "a7bcc6d2c1dad5161f76a49e19c565481f78ebce2608af768f98b5deb1e93d32",
+    "after_sha256": "c6efb4e2643551f746390288e91eda1fcbd896bf811bfe0f830cc33c65073ca6",
+    "changes": [
+      {
+        "old": "'cryptalis.transition/retained-native-comments-research-v1'):",
+        "new": "'cryptalis.transition/retained-native-comments-research-v1',\n            'cryptalis.transition/retained-native-comments-cluster-research-v2'):",
+        "count": 1,
+        "justification": "Exact v2 uses the same fixed FIELD_ID payload; unknown formats still raise."
+      },
+      {
+        "old": "            'cryptalis.transition/retained-native-comments-research-v1': 'cryptalis.reverse/retained-native-comments-research-v1',",
+        "new": "            'cryptalis.transition/retained-native-comments-research-v1': 'cryptalis.reverse/retained-native-comments-research-v1',\n            'cryptalis.transition/retained-native-comments-cluster-research-v2': 'cryptalis.reverse/retained-native-comments-cluster-research-v2',",
+        "count": 1,
+        "justification": "Explicit source-derived reverse profile pairing; retain both historical entries."
+      }
+    ]
+  },
+  {
+    "path": "tests/test_migration_multitable.py",
+    "before_sha256": "bda36abba7f1aed88430b34f49dfab98657b2baffad19e29dc671922159b3891",
+    "after_sha256": "948903722860315336077ba30089b26ede9cabe9cdefb4adeecf04d3ac40c79d",
+    "changes": [
+      {
+        "old": "'cryptalis.transition/retained-native-comments-research-v1')",
+        "new": "'cryptalis.transition/retained-native-comments-research-v1',\n        'cryptalis.transition/retained-native-comments-cluster-research-v2')",
+        "count": 1,
+        "justification": "Admit exact v2 retained physical representation; fixed field identity/native schema assertions remain unchanged."
+      }
+    ]
+  },
+  {
+    "path": "tests/test_doctor_active.py",
+    "before_sha256": "82765e928801c5f0f2c65ea43db94a6245d06679dc72260ebf356dfac2f8715a",
+    "after_sha256": "8a002435e939eaea630861a15627ad80691e19232f5fed9744fb092655f3898e",
+    "changes": [
+      {
+        "old": "assert document['format']=='cryptalis.transition/retained-native-comments-research-v1'",
+        "new": "assert document['format']=='cryptalis.transition/retained-native-comments-cluster-research-v2'",
+        "count": 2,
+        "justification": "New public planner default is explicit v2, not historical v1."
+      },
+      {
+        "old": "        del document['object_comments']",
+        "new": "        del document['object_comments']\n        del document['cluster_designation']",
+        "count": 1,
+        "justification": "Synthetic malformed-v0 fixture removes both later inventories before corrupting inner lock; malformed refusal oracle unchanged."
+      }
+    ]
+  },
+  {
+    "path": "tests/test_retained_profile_safety_oracles.py",
+    "before_sha256": "e5467ca180f679abcedef5dc105690aa64912900cf43ee46c4935c715fddbfae",
+    "after_sha256": "88c46be944550c8f4ce68c7eba4fc343edb69e581e70036a07a761a795ae4ee7",
+    "changes": [
+      {
+        "old": "assert app.plan.document['format']=='cryptalis.transition/retained-native-comments-research-v1'",
+        "new": "assert app.plan.document['format']=='cryptalis.transition/retained-native-comments-cluster-research-v2'\n        assert app.plan.cluster_designation_contract == 'INVENTORIED'",
+        "count": 1,
+        "justification": "Both backfill/verify byte-refusal controls use new default; every prefix, byte, frame, no-skip and recovery assertion remains."
+      }
+    ]
+  },
+  {
+    "path": "tests/test_sqlalchemy_optimistic_versioning.py",
+    "before_sha256": "763ee88b0d01ea8e64cdcae9b3c55b5052a39ac4fe14f24492f06544e2a55d96",
+    "after_sha256": "ba46354a0fe7778bc5984e1975f0b958e4e1d96ffb56a4d2fcb013ab26a8dbfd",
+    "changes": [
+      {
+        "old": "assert app.plan.document['format'] == 'cryptalis.transition/retained-native-comments-research-v1'",
+        "new": "assert app.plan.document['format'] == 'cryptalis.transition/retained-native-comments-cluster-research-v2'\n        assert app.plan.cluster_designation_contract == 'INVENTORIED'",
+        "count": 1,
+        "justification": "Native storage helper binds current fixture v2; plaintext-null, ciphertext, descriptor and optimistic invariants unchanged."
+      }
+    ]
+  }
+]
