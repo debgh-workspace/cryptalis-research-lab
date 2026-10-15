@@ -1660,3 +1660,33 @@ Actual GREEN review1632e84f5b85fddfeafe165489598895ea9e699514fa17207e49b9ce7a250
 Eight source/overlay/test/status files are remote byteverified at4d6601e3d6e436f76c38c3315fd31bcb5728dbee. Offline proper bundled-uv build packet f2c617f48161a55b36539702a5b3195967edf80153e302dea4e173ab29c9f591 is under independent source review; fresh clearance and outputs absent. It preserves three-wheel/two-sdist reproducibility checks, isolates host startup and allows only CLI/RECORD deltas against approved README-v2 distributions. No repack fallback selected.
 
 Fresh installed continuation is source preparation only: SA21 first, then separately bound SA20 narrow seven-case CLI checks if prior stage closes. Existing installed221 remains untouched; no main/optional full-suite repeats selected. Opaque cache-marker bodies and preexisting bytecode remain excluded. No package, installed-successor or production completion claim yet.
+
+## 2026-10-15 22:54 UTC — package V1 held before execution
+
+Build source reviewce576e61697620a6254eb2b4e6ed4399ebc2832b22a9d4ca8affab08444e8d26 found a deterministic relative/absolute manifest-target mismatch in admission.py. All247relative packetentries would fail againstabsolute targets; nobuild was executed. V1 preserved; minimalV2canonicalroot-join correction inpreparation. Installed-planV1 has hard-codedV1artifact paths, so it must also be versioned/resealed tobind actualV2outputs ratherthan substitutehashesinto stale paths. No wheel identity orinstalledresult is invented.
+
+## 2026-10-15 23:06 UTC — corrected build executed; source receipts published
+
+Build V2 source review 66c3e35ac5e6e01ec5f2cfb769571b8343524925d5b1eb1c33028e7af039db97 accepts the canonical relative-root correction; V1 stays held and unexecuted. Root selected the exact V2 entry with clearance 9d91dd42afeb7fb54d04082344da367f85bf150e6d8ee1393e2460b0ebbf8bc7. Actual root entry and preflight, outer admission, outer execution and host-after checks all exited 0. Parent reports child exit 0, no cleanup errors, restored limits and all six before/after integrity groups passing. Independent terminal/artifact audit is still pending; no installed successor is claimed.
+
+Installed-plan V2 source review 4790a49034e03cb885d11a5ea895bf42c6184edbd4b6e51d918da882fd74f3be accepts both corrected V2 artifact paths and exact opaque-marker presence/RECORD membership equivalence. Actual artifact binding, concrete installer and payload/runtime checks remain separate.
+
+Six source RED/GREEN receipt and independent-review files are exact remote-byte verified at commit 1e2d6e0b516bed6876671c2166da1631b603406d. This supplements the source checkpoint; it does not claim a full environment restore. No database stage followed accepted source GREEN.
+
+## 2026-10-15 23:10 UTC — doctor successor packaging independently accepted
+
+Independent review 20efb7f7e9b43ef78bd8fbb2adae668b1b7697017ecded51178942170a614404 accepts all five actual builds. Three wheels are identical (140953 bytes, SHA256 053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965); two sdists are identical (150427 bytes, SHA256 2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330). Exact 49/48 payloads, 43 modules, 48 RECORD rows, CLI/RECORD-only delta, source copies, extraction, predecessor preservation and terminal receipts accepted. This is same-host reproducibility; no installed successor or fresh DB-state evidence yet.
+
+Independent six-file source-receipt restore review 94483e09d3e5834f7327f50cc38e32a9c08d1933b8c94281f76939614aaa3dbb verifies exact commit 1e2d6e0b516bed6876671c2166da1631b603406d, 21410 restored bytes, Git blob identities and inert file modes. Scope is that supplement only.
+
+## 2026-10-15 23:20 UTC — packages published; actual installed preparation selected
+
+Six accepted packaging files (wheel, sdist, scope README, independent review, actual index and verifier result) are exact remote-byte verified at 220d35ce796b913c0cced2bd19b416cf287011c9. Six exact source RED/GREEN JUnit, phase and test-log files are remote-byte verified at 02326d758bdf277efad592f79a3fdad444b2f7f4. Independent package delivery restore is closing; no new installed result is claimed.
+
+Combined materializer/bootstrap source review 1563d454875315f479ec6d92686d615f6a9f541d4039f0f0c4282e264f1f2037 accepts receipt-only host admission followed by separately selected source-control rendering. Root selected only the safe receipt mode first. Materialization must stop for actual concrete source review; installation and runtime remain separately unselected. Existing installed candidate is unchanged.
+
+## 2026-10-15 23:22 UTC — independent package restore and current source-control admission
+
+Review 7ce9bf7d67a55e1aa9b34462fd335abc97b6cd4fe5f9876d6d812204f9f5cc5a accepts six-file delivery at exact commit 220d35ce796b913c0cced2bd19b416cf287011c9: remote/local bytes, four trees/six blob identities, safe inert 49/48-member archive restoration, source43 and RECORD checks. Raw commit-object reconstruction was not established; optional failed reconstruction and connector 422 remain preserved. No installed/environment/clean-host claim.
+
+Root receipt-only admission exited 0 with safe host receipt d1da39e2737abf6376ae16d4c8bcf2a29411ceac5772d287b8efad9960b6d47e. Actual materialization binding 684f22dab8f2e3846b7d9d9e3531b1ca4c67a647aed1ea604bc98c64b1c1713d then selected only source rendering. Root shell/materializer/after-admission exits all 0; stderr empty; full current donor/source preservation reports no error. Exactly 17 bound controls and 2007 frozen targets prepared; source-only status pending independent concrete review. No install or DB stage selected.
