@@ -1,0 +1,26 @@
+{
+  "sa20": {
+    "events": 10682,
+    "phase_counts": {
+      "call:failed": 7,
+      "call:passed": 2664,
+      "call:skipped": 28,
+      "setup:passed": 2643,
+      "setup:skipped": 18,
+      "teardown:passed": 2661
+    },
+    "reports": 8021,
+    "separate_subtests": 56
+  },
+  "sa21": {
+    "events": 10700,
+    "phase_counts": {
+      "call:failed": 7,
+      "call:passed": 2710,
+      "setup:passed": 2661,
+      "teardown:passed": 2661
+    },
+    "reports": 8039,
+    "separate_subtests": 56
+  }
+}
