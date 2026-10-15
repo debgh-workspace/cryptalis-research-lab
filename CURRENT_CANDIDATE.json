@@ -80,7 +80,17 @@
     "remote_commit": "83bea5c2962a725ccd0c6f377728180d507d711d",
     "remote_directory": "preview/artifacts/readme-v2-20261015",
     "all6_files_remote_byte_verified": true,
-    "scope": "README-only packaging/source evidence transfer accepted; original runtime artifact retains actual installed results; no successor installed/public smoke execution claimed."
+    "scope": "README-only packaging/source evidence transfer accepted; original runtime artifact retains actual installed results; no successor installed/public smoke execution claimed.",
+    "remote_inert_restore": {
+      "commit": "b64ff0d76281678a168ae5ce67135abf4e96e079",
+      "exact_remote_files": 10,
+      "restored_files": 318,
+      "source_files": 221,
+      "sdist_payload_files": 49,
+      "wheel_payload_files": 48,
+      "independent_review_sha256": "be4e370fd0dd8e325ba0666667cd0018754fb5443faca46eb4b8dc1a2f28e43f",
+      "scope": "Inert delivery/source/package restoration only, no installed execution or clean-host qualification"
+    }
   },
   "installed_focused111": {
     "sa21": {
