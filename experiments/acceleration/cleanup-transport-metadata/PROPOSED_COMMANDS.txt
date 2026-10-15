@@ -1,0 +1,188 @@
+# PROPOSED ONLY. NOT RUN. Review and run ONE block, then stop for independent terminal audit.
+# No direct pytest, admission-marker injection, installs, credential changes, or database substitution.
+# Commands use bash; no candidate source is changed by these blocks.
+
+# BEGIN red sa21: 17 explicit statically planned nodes.
+(
+cd /workspace/scratch/cb28ee9f5f4a || exit $?
+test ! -e /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa21-20261014 || { printf "Evidence directory already exists; STOP.\n"; exit 2; }
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && diff -u <(sed "s/^[0-9a-f]*  //" /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) <(find . -type f ! -path "./.pytest_cache/*" ! -path "*/__pycache__/*" ! -name "*.pyc" | LC_ALL=C sort | sed "s|^./||")) || exit $?
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python \
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py \
+  --python /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa21/bin/python \
+  --candidate-root /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 \
+  --evidence /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa21-20261014 \
+  -- -q -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/pyproject.toml \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_fresh_key_failure_retains_safe_identity_and_class_defaults' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[key]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[backend]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[base]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[schema]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[custody]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[notes]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[cause]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[context]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[provider_data]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_unrelated_state_is_not_reduced_when_cleanup_metadata_is_retained' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[retryable-true]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[integer-zero]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[different-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[string-subclass]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-retry]' \
+  --tb=short -ra
+wrapper_exit=$?
+printf "%s\n" "$wrapper_exit" > /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa21-20261014/coordinator-wrapper-exit.txt || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) || exit $?
+printf "STOP for independent audit; wrapper exit %s.\n" "$wrapper_exit"
+exit "$wrapper_exit"
+)
+# END red sa21. Do not advance automatically.
+
+# BEGIN red sa20: 17 explicit statically planned nodes.
+(
+cd /workspace/scratch/cb28ee9f5f4a || exit $?
+test ! -e /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa20-20261014 || { printf "Evidence directory already exists; STOP.\n"; exit 2; }
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && diff -u <(sed "s/^[0-9a-f]*  //" /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) <(find . -type f ! -path "./.pytest_cache/*" ! -path "*/__pycache__/*" ! -name "*.pyc" | LC_ALL=C sort | sed "s|^./||")) || exit $?
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python \
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py \
+  --python /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa20/bin/python \
+  --candidate-root /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 \
+  --evidence /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa20-20261014 \
+  -- -q -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/pyproject.toml \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_fresh_key_failure_retains_safe_identity_and_class_defaults' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[key]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[backend]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[base]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[schema]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[custody]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[notes]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[cause]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[context]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[provider_data]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_unrelated_state_is_not_reduced_when_cleanup_metadata_is_retained' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[retryable-true]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[integer-zero]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[different-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[string-subclass]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-retry]' \
+  --tb=short -ra
+wrapper_exit=$?
+printf "%s\n" "$wrapper_exit" > /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-red-sa20-20261014/coordinator-wrapper-exit.txt || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-red-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/RED_SOURCE.sha256) || exit $?
+printf "STOP for independent audit; wrapper exit %s.\n" "$wrapper_exit"
+exit "$wrapper_exit"
+)
+# END red sa20. Do not advance automatically.
+
+# BEGIN green sa21: 17 explicit statically planned nodes.
+(
+cd /workspace/scratch/cb28ee9f5f4a || exit $?
+test ! -e /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa21-20261014 || { printf "Evidence directory already exists; STOP.\n"; exit 2; }
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && diff -u <(sed "s/^[0-9a-f]*  //" /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) <(find . -type f ! -path "./.pytest_cache/*" ! -path "*/__pycache__/*" ! -name "*.pyc" | LC_ALL=C sort | sed "s|^./||")) || exit $?
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python \
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py \
+  --python /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa21/bin/python \
+  --candidate-root /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 \
+  --evidence /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa21-20261014 \
+  -- -q -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/pyproject.toml \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_fresh_key_failure_retains_safe_identity_and_class_defaults' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[key]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[backend]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[base]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[schema]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[custody]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[notes]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[cause]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[context]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[provider_data]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_unrelated_state_is_not_reduced_when_cleanup_metadata_is_retained' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[retryable-true]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[integer-zero]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[different-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[string-subclass]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-retry]' \
+  --tb=short -ra
+wrapper_exit=$?
+printf "%s\n" "$wrapper_exit" > /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa21-20261014/coordinator-wrapper-exit.txt || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) || exit $?
+printf "STOP for independent audit; wrapper exit %s.\n" "$wrapper_exit"
+exit "$wrapper_exit"
+)
+# END green sa21. Do not advance automatically.
+
+# BEGIN green sa20: 17 explicit statically planned nodes.
+(
+cd /workspace/scratch/cb28ee9f5f4a || exit $?
+test ! -e /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa20-20261014 || { printf "Evidence directory already exists; STOP.\n"; exit 2; }
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && diff -u <(sed "s/^[0-9a-f]*  //" /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) <(find . -type f ! -path "./.pytest_cache/*" ! -path "*/__pycache__/*" ! -name "*.pyc" | LC_ALL=C sort | sed "s|^./||")) || exit $?
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python \
+  /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py \
+  --python /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa20/bin/python \
+  --candidate-root /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 \
+  --evidence /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa20-20261014 \
+  -- -q -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/pyproject.toml \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_fresh_key_failure_retains_safe_identity_and_class_defaults' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[key]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[backend]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_cleanup_downgrade_survives_trusted_local_round_trip[base]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[schema]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_existing_class_effects_remain_intact[custody]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[notes]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[cause]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[context]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_private_attachments_do_not_cross_the_round_trip[provider_data]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_unrelated_state_is_not_reduced_when_cleanup_metadata_is_retained' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[retryable-true]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[integer-zero]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[different-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[string-subclass]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-effect]' \
+  '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014/tests/test_crypto_failure_transport.py::test_only_exact_cleanup_pair_is_transported[opaque-retry]' \
+  --tb=short -ra
+wrapper_exit=$?
+printf "%s\n" "$wrapper_exit" > /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/cleanup-transport-metadata-green-sa20-20261014/coordinator-wrapper-exit.txt || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/INPUTS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/NATIVE_SOURCE_PINS.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/ORIGINAL_MAILBOX.sha256 || exit $?
+sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/PACKET.sha256 || exit $?
+(cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cleanup-transport-metadata-20261014 && sha256sum -c /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-metadata-20261014/GREEN_SOURCE.sha256) || exit $?
+printf "STOP for independent audit; wrapper exit %s.\n" "$wrapper_exit"
+exit "$wrapper_exit"
+)
+# END green sa20. Do not advance automatically.
+
