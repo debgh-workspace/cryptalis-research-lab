@@ -1,0 +1,49 @@
+{
+  "status": "HELD_SOURCE_ONLY",
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "shell": false,
+  "environment": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "TZ": "UTC"
+  },
+  "entry_argv": [
+    "/bin/bash",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/abort-envelope-native-entry-v1-20261015/run-entry.sh",
+    null,
+    null
+  ],
+  "entry_argument_order": ["selection_sha256", "entry_seal_sha256"],
+  "wrapper_argv": [
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+    "-B",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py",
+    "--candidate-root",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "--installed-candidate",
+    "--python",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/integrated221-installed-20261015/sa21/bin/python",
+    "--evidence",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/abort-envelope-native-probe-v1-sa21-20261015",
+    "--", "-q", "-c",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015/pyproject.toml",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/abort-envelope-native-probe-v1-20261015/test_native_envelope.py",
+    "--confcutdir=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/abort-envelope-native-probe-v1-20261015",
+    "-p", "no:cacheprovider", "--tb=short", "-x"
+  ],
+  "expected_cases": 31,
+  "expected_phases": 93,
+  "expected_state_observations": 184,
+  "expected_observation_records": 221,
+  "source_derived_explicit_SELECTs": 404,
+  "archive_files": 249,
+  "resource_policy": {
+    "inherited_test_timeout_seconds": 600,
+    "inherited_control_phase_timeout_seconds": 90,
+    "inherited_faulthandler_seconds": 180,
+    "new_parent_deadline": null,
+    "new_CPU_AS_RSS_limit": null,
+    "resource_measurement": "wait4 wall/user/system/peak-RSS for one unchanged wrapper invocation"
+  }
+}

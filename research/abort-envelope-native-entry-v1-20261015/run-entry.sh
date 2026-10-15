@@ -1,0 +1,29 @@
+#!/bin/bash
+# HELD: root selects only after both source reviews and latest terminal acceptance.
+set -eu
+[ "$#" -eq 2 ] || exit 4
+[[ "$1" =~ ^[0-9a-f]{64}$ ]] || exit 4
+[[ "$2" =~ ^[0-9a-f]{64}$ ]] || exit 4
+B=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable
+P="$B/experiments/abort-envelope-native-entry-v1-20261015"
+HOST=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12
+ENTRY_SHA=b695a329fcc3d5de1c3567d175eb89ceba1d2e00b4272e598cca2900ef9bb06e
+FIXED=(/usr/bin/env -i "HOME=$B/runtime/home" "PATH=$B/toolchain/pg16/bin:/usr/bin:/bin" "LANG=C.UTF-8" "TZ=UTC")
+cd "$B"
+umask 077
+ulimit -c 0
+# Authenticate source before executing it. Root independently anchors this shell.
+"${FIXED[@]}" "$HOST" -I -B -c '
+from pathlib import Path
+import hashlib, stat, sys
+p=Path(sys.argv[1]); expected=sys.argv[2]
+assert p==Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/abort-envelope-native-entry-v1-20261015/entry.py")
+current=Path("/")
+for part in p.parts[1:]:
+    current/=part
+    mode=current.lstat().st_mode
+    assert stat.S_ISREG(mode) if current==p else stat.S_ISDIR(mode)
+assert p.stat().st_size<=65536
+assert hashlib.sha256(p.read_bytes()).hexdigest()==expected, "ENTRY_DIGEST_MISMATCH"
+' "$P/entry.py" "$ENTRY_SHA"
+exec "${FIXED[@]}" "$HOST" -I -B "$P/entry.py" --selection-sha256 "$1" --entry-seal-sha256 "$2"
