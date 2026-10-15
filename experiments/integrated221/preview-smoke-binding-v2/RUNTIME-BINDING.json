@@ -1,0 +1,100 @@
+{
+  "schema": "preview-original221-installed-runtime-binding-v1",
+  "status": "SOURCE_PREPARED_EXECUTION_HELD",
+  "observation": "Accepted map/report data only; no current installed-cell or corpus payload observations.",
+  "candidate_root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+  "coordinator_python": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+  "installed_python": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/integrated221-installed-20261015/sa21/bin/python",
+  "python_endpoint": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+  "wheel": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cluster-retained-release-plan-20261015/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+    "sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
+    "scope": "Original qualified221 wheel only. The later README-only package is a distinct artifact and is not substituted."
+  },
+  "runtime_guard": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py",
+    "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861",
+    "stage": "sa21",
+    "binding_path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA21.json",
+    "binding_sha256": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54",
+    "mode": [
+      "before",
+      "after"
+    ],
+    "archive_argument": null,
+    "scope": "Reuse as unchanged read-only finite runtime validator. No historical main-suite execution selection is reused."
+  },
+  "finite_closure": {
+    "accepted_input_union": 3025,
+    "source_files": 221,
+    "python_modules_per_installed_cell": 43,
+    "ordinary_installed_files_both_cells": 2506,
+    "complete_nonproduct_files_both_cells": 2402,
+    "corpus_names": 26,
+    "cells": {
+      "sa21": {
+        "directories": 111,
+        "regular_files": 1255,
+        "links": 4
+      },
+      "sa20": {
+        "directories": 113,
+        "regular_files": 1253,
+        "links": 4
+      }
+    },
+    "opaque_marker": "Exactly one product-owned uv_cache.json per cell, metadata only; never read, hash or copy its body.",
+    "extra_cache_or_installed_name": "REFUSE",
+    "full_source_helper_closure": "All exact221 tests, including test_deprotection -> test_migration -> migration_commit_proxy, are in the accepted finite map.",
+    "bytecode": "Coordinator requires -B; unchanged wrapper fixed ENV receives PYTHONDONTWRITEBYTECODE=1; existing package-free -I -S native workers remain the documented host-stdlib exception."
+  },
+  "manifest_references": {
+    "CANDIDATE_SOURCE_MANIFEST.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CANDIDATE_SOURCE_MANIFEST.json",
+      "sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520"
+    },
+    "RUNTIME43_MANIFEST.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/RUNTIME43_MANIFEST.json",
+      "sha256": "e96247c295d0db800cae5b383b85b8ad992c130961af25bfbd49a27b90f1241a"
+    },
+    "INSTALLED_NAMESPACE.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_NAMESPACE.json",
+      "sha256": "05345d2375286344b07e7209113380dcac8d9e3517dc66e08c3e4e24db3d5a03"
+    },
+    "INSTALLED_ORDINARY_PINS.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_ORDINARY_PINS.json",
+      "sha256": "bc139ce53b956929d7deb6e7933676c32219405de8c36f5624e24ca324a6dfc9"
+    },
+    "FULL_NONPRODUCT_PINS.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/FULL_NONPRODUCT_PINS.json",
+      "sha256": "bb0796ad3ef2c538855a897955694908a7786c33dc8e2bf73a3503620082e462"
+    },
+    "CORPUS_BASELINE.json": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CORPUS_BASELINE.json",
+      "sha256": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1"
+    },
+    "INPUTS.sha256": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INPUTS.sha256",
+      "sha256": "67785c91814ecfde44d54852f572d51de9dc2d908c6521e5c62a6680d281d37d"
+    },
+    "ENTRY.sha256": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/ENTRY.sha256",
+      "sha256": "2825dc1673d149c612d424b3bb1d5c757dd5cf65cf1aa64d0a5f173618fda9d0"
+    },
+    "POSTINSTALL_CLEARANCE.sha256": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/POSTINSTALL_CLEARANCE.sha256",
+      "sha256": "9c2ec000ce886bb904c702f783f769cf44aef8ce3b3caba7ee345439e558f472"
+    },
+    "CLEARANCE_SA21.sha256": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CLEARANCE_SA21.sha256",
+      "sha256": "603db4ff777c04d74f142c967056eb5ba20912c2ffa86c52fc7c0226bc4e9ebf"
+    }
+  },
+  "installed_origin_contract": "Unchanged supervisor --installed-candidate probe plus unchanged V5 exact imported-package-origin and complete module set/byte equality. No candidate/src PYTHONPATH, no source overlay, no assertion-disabling optimization.",
+  "product_gates": "All 34 objectives retained; all seven broad gates UNKNOWN.",
+  "current_terminal_prerequisite": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/integrated221-installed-focused111-sa20-v2-independent-20261015/REVIEW.md",
+    "sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678",
+    "scope": "Accepted latest focused111 SA20 terminal, separate from unchanged original main43 installed identity baseline; root must recheck no intervening task before selection."
+  }
+}

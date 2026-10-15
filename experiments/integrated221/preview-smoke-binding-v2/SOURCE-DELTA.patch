@@ -1,0 +1,140 @@
+--- cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py	2026-10-15 20:36:34.841231283 +0530
++++ cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/launch_cold_smoke.py	2026-10-15 22:17:56.514251717 +0530
+@@ -1,14 +1,20 @@
+ """One-purpose cold-cache environment adapter for the unchanged guarded wrapper."""
++# HELD additive V5 binding; only the separately reviewed root entry may select it.
+ import sys
+ import runpy
+ from pathlib import Path
+ import hashlib
+ import stat
++import os
+ 
+ BASE=Path('/workspace/scratch/cb28ee9f5f4a/cryptalis-executable')
+ WRAPPER=BASE/'candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py'
++IDENTITY = BASE/'evidence/preview-identity-capture-v3-sa21-20261015/safe-identity.json'
++IDENTITY_SHA = '089bac088003d7921f755409509afed5544741ebfee8af66faea0776fbfbb92c'
+ if not sys.dont_write_bytecode:
+     raise RuntimeError('Launcher requires explicit -B before any wrapper import')
++if sys.flags.optimize:
++    raise RuntimeError('Enabled assertions required')
+ for path in [WRAPPER,*WRAPPER.parents]:
+     mode=path.lstat().st_mode
+     if not (stat.S_ISREG(mode) if path==WRAPPER else stat.S_ISDIR(mode)):
+@@ -26,4 +32,15 @@
+ if set(ENV)!={'HOME','PATH','LANG','TZ'}:
+     raise RuntimeError('Wrapper fixed environment schema changed')
+ ENV['PYTHONDONTWRITEBYTECODE']='1'
++# Same three V5 finite-operation acknowledgement guards; no authority implied.
++ENV['CRYPTALIS_PREVIEW_REVIEWED_EXECUTION'] = '20261015-single-synthetic-smoke'
++ENV['CRYPTALIS_PREVIEW_PLAINTEXT_APPROVED'] = 'two-reverse-operations'
++ENV['CRYPTALIS_PREVIEW_CUTOVER_APPROVED'] = 'existing-positive-activation-helper'
++for key, expected in (
++    ('CRYPTALIS_PREVIEW_IDENTITY_FILE', str(IDENTITY)),
++    ('CRYPTALIS_PREVIEW_IDENTITY_SHA256', IDENTITY_SHA),
++):
++    if os.environ.get(key) != expected:
++        raise RuntimeError('Exact accepted identity binding required')
++    ENV[key] = expected
+ raise SystemExit(main())
+--- cryptalis-executable/experiments/preview-smoke-installed221-binding-v1-20261015/admit_smoke.py	2026-10-15 22:02:08.192272717 +0530
++++ cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/admit_smoke.py	2026-10-15 22:23:40.342799504 +0530
+@@ -13,12 +13,12 @@
+ 
+ W = Path('/workspace/scratch/cb28ee9f5f4a')
+ B = W/'cryptalis-executable'
+-P = B/'experiments/preview-smoke-installed221-binding-v1-20261015'
++P = B/'experiments/preview-smoke-installed221-binding-v2-20261015'
+ V5 = B/'experiments/preview-smoke-adapter-v5-installed221-20261015'
+ MEMBERS = {
+     'README.md', 'RUNTIME-BINDING.json', 'COMMAND.json', 'AUTHORITY-PENDING.json',
+     'SELECTION-TEMPLATE.json', 'SOURCE-INPUTS.json', 'SOURCE-DELTA.patch',
+-    'admit_smoke.py', 'launch_cold_smoke.py', 'run-smoke.sh',
++    'admit_smoke.py', 'archive_smoke.py', 'launch_cold_smoke.py', 'run-smoke.sh',
+ }
+ REQUEST = 'Sentinel_d4be0bfc407881d19ce0ef871aa5304d'
+ DENIED = {'tests.json', 'readiness.json', 'package-origin.json', 'postgres-start.json',
+@@ -110,6 +110,8 @@
+     need(record['root_semantic_verdict_confirmed'] is True, 'REVIEW_NOT_ACCEPTED:' + role)
+     path = Path(record['path'])
+     need(path.is_relative_to(B/'reviewer-notes') and path.suffix == '.md', 'REVIEW_PATH')
++need(selection['preceding_terminal_review']['path'] == str(B/'reviewer-notes/integrated221-installed-focused111-sa20-v2-independent-20261015/REVIEW.md')
++     and selection['preceding_terminal_review']['sha256'] == '7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678', 'CURRENT_TERMINAL_PREREQUISITE')
+ records = [selection[x] for x in ('source_review', 'fixture_acl_approval', 'role_and_helper_provenance', 'preceding_terminal_review')]
+ for record in records:
+     regular(Path(record['path']))
+--- cryptalis-executable/experiments/preview-smoke-installed221-binding-v1-20261015/run-smoke.sh	2026-10-15 22:05:35.507791859 +0530
++++ cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/run-smoke.sh	2026-10-15 22:24:31.605765949 +0530
+@@ -10,18 +10,19 @@
+ [[ "$PACKET_SHA" =~ ^[0-9a-f]{64}$ ]] || exit 4
+ W=/workspace/scratch/cb28ee9f5f4a
+ B="$W/cryptalis-executable"
+-P="$B/experiments/preview-smoke-installed221-binding-v1-20261015"
++P="$B/experiments/preview-smoke-installed221-binding-v2-20261015"
+ M="$B/experiments/integrated221-installed-full-controls-v3-20261015"
+ V5="$B/experiments/preview-smoke-adapter-v5-installed221-20261015"
+ SOURCE="$B/candidate-cluster-retained-integrated-v2-20261015"
+ AUDIT="$P/run"
+-EVIDENCE="$B/evidence/preview-smoke-installed221-v1-sa21-20261015"
+-PRIVATE=/tmp/cryptalis-preview-smoke-installed221-v1-sa21-20261015
++EVIDENCE="$B/evidence/preview-smoke-installed221-v2-sa21-20261015"
++PRIVATE=/tmp/cryptalis-preview-smoke-installed221-v2-sa21-20261015
+ COORD="$B/repo/.venv/bin/python"
+ HOST=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12
+ INSTALLED="$B/release-lab/integrated221-installed-20261015/sa21/bin/python"
+ RUNTIME_BINDING=669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54
+-GUARD_SHA=3f0dc6495bba9686db5219a6a3cd718198e32140ec20058a57dc499e76c889d6
++GUARD_SHA=c135fb94da3d011a1a7fb2a97c2d6abe0f3fcde6d8909d0c7eb17dfb8c7ed8ba
++ARCHIVE_SHA=87f34db5691695b71a75c203f5ddf9f3b0ae8eff3b1a0420595ad175522a7ff0
+ RUNTIME_GUARD_SHA=c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861
+ FIXED=(/usr/bin/env -i "HOME=$B/runtime/home" "PATH=$B/toolchain/pg16/bin:/usr/bin:/bin" "LANG=C.UTF-8" "TZ=UTC")
+ cd "$W" || exit $?
+@@ -33,7 +34,7 @@
+ from pathlib import Path
+ import hashlib, stat, sys
+ p=Path(sys.argv[1]); expected=sys.argv[2]
+-allowed={Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v1-20261015/admit_smoke.py"),Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py")}
++allowed={Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/admit_smoke.py"),Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/archive_smoke.py"),Path("/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py")}
+ assert p in allowed
+ current=Path("/")
+ for part in p.parts[1:]:
+@@ -51,30 +52,22 @@
+ for path in "$AUDIT" "$EVIDENCE" "$PRIVATE"; do
+   [ ! -e "$path" ] && [ ! -L "$path" ] || exit 2
+ done
+-mkdir "$AUDIT" || exit $?
++/bin/mkdir "$AUDIT" || exit $?
+ printf '%s\n' "$SELECTION_SHA" > "$AUDIT/selection-sha256.txt" || exit $?
+ printf '%s\n' "$PACKET_SHA" > "$AUDIT/packet-seal-sha256.txt" || exit $?
++# A single pinned data-only producer owns metadata admission, checked copies,
++# exact directory/file inventories and archived-byte verification. Its nonzero
++# exit is retained and blocks all live runtime validation and database/status work.
++admit_helper "$P/archive_smoke.py" "$ARCHIVE_SHA" > "$AUDIT/archive-helper.log" 2>&1 || exit $?
++"${FIXED[@]}" "$HOST" -I -B "$P/archive_smoke.py" --selection-sha256 "$SELECTION_SHA" --packet-seal-sha256 "$PACKET_SHA" > "$AUDIT/archive.log" 2>&1
++archive_status=$?
++printf '%s\n' "$archive_status" > "$AUDIT/archive-exit.txt" || exit $?
++[ "$archive_status" -eq 0 ] || exit "$archive_status"
+ admit_helper "$M/verify_runtime_binding.py" "$RUNTIME_GUARD_SHA" > "$AUDIT/runtime-helper-before.log" 2>&1 || exit $?
+ "${FIXED[@]}" "$COORD" -I -B "$M/verify_runtime_binding.py" --stage sa21 --binding-sha256 "$RUNTIME_BINDING" --mode before > "$AUDIT/runtime-before.log" 2>&1
+ runtime_before=$?
+ printf '%s\n' "$runtime_before" > "$AUDIT/runtime-before-exit.txt" || exit $?
+ [ "$runtime_before" -eq 0 ] || exit "$runtime_before"
+-# Full source221 was metadata-admitted and byte-verified by the unchanged guard.
+-# Archive only that exact declared safe source map, never runtime/cache/corpus bodies.
+-mkdir "$AUDIT/source221" "$AUDIT/smoke-packet" "$AUDIT/v5-packet" "$AUDIT/selection-support" || exit $?
+-while IFS= read -r name; do
+-  mkdir -p "$AUDIT/source221/$(dirname "$name")" || exit $?
+-  cp -- "$SOURCE/$name" "$AUDIT/source221/$name" || exit $?
+-done < <(/usr/bin/jq -r '.source_sha256 | keys[]' "$M/CANDIDATE_SOURCE_MANIFEST.json")
+-while IFS= read -r name; do
+-  cp -- "$P/$name" "$AUDIT/smoke-packet/$name" || exit $?
+-done < <(/usr/bin/awk '{print $2}' "$P/SHA256SUMS.txt")
+-cp -- "$P/SHA256SUMS.txt" "$P/SELECTION.json" "$AUDIT/smoke-packet/" || exit $?
+-while IFS= read -r name; do
+-  cp -- "$V5/$name" "$AUDIT/v5-packet/$name" || exit $?
+-done < <(/usr/bin/awk '{print $2}' "$V5/SHA256SUMS.txt")
+-cp -- "$V5/SHA256SUMS.txt" "$AUDIT/v5-packet/" || exit $?
+-cp -- "$P/selection-support/fixture-acl-approval.txt" "$P/selection-support/role-and-helper-provenance.txt" "$AUDIT/selection-support/" || exit $?
+ # The root must already own exclusive selection after the preceding accepted task.
+ # This independent exact-target status proof is additional to the wrapper's lock.
+ "${FIXED[@]}" "$B/toolchain/pg16/bin/pg_ctl" -D "$B/runtime/data" status > "$AUDIT/pre-status.log" 2> "$AUDIT/pre-status.stderr"

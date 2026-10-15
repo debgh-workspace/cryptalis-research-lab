@@ -1,0 +1,29 @@
+{
+  "status": "HOLD_PENDING_APPROVAL_REVIEW_AND_ROOT_SELECTION",
+  "packet_seal_sha256": null,
+  "command_sha256": null,
+  "source_review": {
+    "path": null,
+    "sha256": null,
+    "root_semantic_verdict_confirmed": false
+  },
+  "fixture_acl_approval": {
+    "request_message_id": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
+    "approval_message_id": null,
+    "status": "PENDING",
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/selection-support/fixture-acl-approval.txt",
+    "sha256": null,
+    "root_scope_confirmed": false
+  },
+  "role_and_helper_provenance": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/selection-support/role-and-helper-provenance.txt",
+    "sha256": null,
+    "root_scope_confirmed": false
+  },
+  "preceding_terminal_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/integrated221-installed-focused111-sa20-v2-independent-20261015/REVIEW.md",
+    "sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678",
+    "root_semantic_verdict_confirmed": false
+  },
+  "root_exclusive_selection": false
+}

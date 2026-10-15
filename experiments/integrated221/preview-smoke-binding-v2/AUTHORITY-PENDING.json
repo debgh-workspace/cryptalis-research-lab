@@ -1,0 +1,29 @@
+{
+  "status": "PENDING",
+  "request_message_id": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
+  "approval": null,
+  "scope_source": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/AUTHORITY-AND-ACTIONS.md",
+    "sha256": "3078c90a2a7347369d7a6c094312c7f210b4354ccf0b7ec6f32796c6f753fd3a"
+  },
+  "exact_scope": "One fresh synthetic cryptalis_migration_<uuid> fixture: setup PUBLIC revocation/runtime USAGE and customer CRUD; forward journal PUBLIC revocation/runtime SELECT; new forward and two reverse SECURITY INVOKER guard PUBLIC EXECUTE revocations; two exact schema-scoped protected dump restores replaying that fixture owner/ACL state. No new role, credential, membership, default ACL, database setting, non-fixture ACL or definer grant.",
+  "distinct_cutover_authority": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cluster-designation-correction-supplement-v2-20261015/ACTIVATION_APPROVAL.txt",
+    "sha256": "ce641ec0edb672f4350060cf75ebbd08a9ccd89cee818c107a4a02039980489d",
+    "substitutes_for_fresh_fixture_approval": false,
+    "requires_root_exact_scope_reconciliation": true
+  },
+  "independent_holds": [
+    "Independent source/command review of this additive route",
+    "Actual explicit fixture-ACL approval response bound without fabrication",
+    "Safe existing plaintext-role and existing lab_admin/helper provenance and scope reconciliation",
+    "Accepted immediately preceding terminal and root-only exclusive stopped-lab selection"
+  ],
+  "not_authority": [
+    "Driver acknowledgement strings",
+    "Source acceptance",
+    "Historical cutover approval alone",
+    "Hash values",
+    "This pending slot"
+  ]
+}

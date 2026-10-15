@@ -1,0 +1,92 @@
+{
+  "schema": "concrete-original221-smoke-command-v1",
+  "status": "HELD_NOT_SELECTED",
+  "shell": false,
+  "cwd": "/workspace/scratch/cb28ee9f5f4a",
+  "fixed_environment": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "TZ": "UTC"
+  },
+  "root_entry_argv": [
+    "/bin/bash",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/run-smoke.sh",
+    null,
+    null
+  ],
+  "root_entry_argument_roles": [
+    "entry",
+    "script",
+    "actual externally anchored SELECTION.json SHA256",
+    "actual externally anchored SHA256SUMS.txt SHA256"
+  ],
+  "entry_bootstrap_requirement": "Root must verify the reviewed run-smoke.sh path/type/hash before selecting it. Missing selection/approval fields refuse before live runtime validation or DB actions.",
+  "root_only_selection_file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/SELECTION.json",
+  "audit": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/run",
+  "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/preview-smoke-installed221-v2-sa21-20261015",
+  "private_basetemp": "/tmp/cryptalis-preview-smoke-installed221-v2-sa21-20261015",
+  "private_basetemp_rule": "Every output path including dangling links must be absent immediately before selection; pytest must never erase an existing base.",
+  "wrapper_argv": [
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+    "-B",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/launch_cold_smoke.py",
+    "--candidate-root",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "--installed-candidate",
+    "--python",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/integrated221-installed-20261015/sa21/bin/python",
+    "--evidence",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/preview-smoke-installed221-v2-sa21-20261015",
+    "--",
+    "-q",
+    "-c",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015/pyproject.toml",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015",
+    "--tb=short",
+    "-x",
+    "--basetemp=/tmp/cryptalis-preview-smoke-installed221-v2-sa21-20261015"
+  ],
+  "identity_environment": {
+    "CRYPTALIS_PREVIEW_IDENTITY_FILE": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/preview-identity-capture-v3-sa21-20261015/safe-identity.json",
+    "CRYPTALIS_PREVIEW_IDENTITY_SHA256": "089bac088003d7921f755409509afed5544741ebfee8af66faea0776fbfbb92c"
+  },
+  "pg_status_argv": [
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin/pg_ctl",
+    "-D",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/data",
+    "status"
+  ],
+  "guards": {
+    "umask": "077",
+    "core_size": 0,
+    "assertions": "enabled",
+    "automatic_retry": false,
+    "no_debugger_profiler_showlocals": true,
+    "pytest_case": "test_public_preview_smoke.py::test_public_preview_smoke",
+    "expected_cases": 1,
+    "expected_junit": {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "required_phase_outcomes": {
+      "setup": "passed",
+      "call": "passed",
+      "teardown": "passed"
+    },
+    "required_wrapper_exit": 0,
+    "required_independent_pre_and_post_status": 3
+  },
+  "archive_contract": {
+    "helper": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/archive_smoke.py",
+    "destination": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/run/frozen-inputs",
+    "counts": {"source221": 221, "smoke-packet": 13, "v5-packet": 15, "selection-support": 2},
+    "total_files": 251,
+    "required_exit": 0,
+    "required_receipt_status": "EXACT_ARCHIVE_VERIFIED",
+    "gate_order": "Complete exact archive inventory and every copy hash before live runtime validator, pg_ctl or wrapper",
+    "partial_output": "Retain and refuse; no automatic retry or cleanup"
+  }
+}
