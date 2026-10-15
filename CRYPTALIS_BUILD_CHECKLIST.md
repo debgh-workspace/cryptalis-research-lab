@@ -1574,3 +1574,43 @@ Abort-envelope original8source/protocol files published1821367ba0639efd7da083a7c
 ## 2026-10-15 18:33 UTC — failed transport probe independently closed
 
 Review2616e769313f87e8dee6df446475111fb11006d2b4e664fc75327c69a6cfb43b accepts failed-run closure only:52PASS/1FAIL/8unrun,53starts/159phases. Exact816transport comparisons,48connection isolation records and32observed-data mutations completed;272default/272shared matches and272intentional per-OID divergences. Zero cost samples/warmups. All233archivefiles,3025main43targets,2506ordinary installedfiles/bothcoldnamespaces,26corpus restored and stopped/status3/stop0 verified. Original failed experiment remains failed. V3source-only cost9 continuation under review, no execution selected.
+
+## 2026-10-15 18:51 UTC — cost9 continuation selected after independent correction review
+
+Source reviewcec14cef3605b26d8f348ba38e287a7059311e1668cbb638bf6c11d8b65b725a accepts V3cost9 only. Query change ORDER BY g.i identifies the generated input across all3variants; exact9cases/27phases/1620samples retain all324warmups/1296measurements. Existing52completedcases excluded. Actual failedV2terminal review2616e769313f87e8dee6df446475111fb11006d2b4e664fc75327c69a6cfb43b supplies the predecessor. Root created fresh genuine selection and began one existing-cluster read-only run with unchanged rolepreflights/lock/corpus/stop. No result or gain claimed until terminal verification. Independent source-only native abort-envelope packet review proceeds without sharing the database.
+
+## 2026-10-15 21:12 UTC — accepted cost9 results and recovered publication state
+
+Independent terminal reviewcc1b8b36a1ba644722f9e40ca647353accac5375ed829293c0253063a5400f87 accepts9PASS/27phases/1620exact samples (324warmups/1296measurements), all233archive files,3025identitytargets,bothcoldnamespaces,86runtime module join and26corpus/stopped closure. Original V2 remains52PASS1FAIL8unrun; no fictional all61-green run. Descriptive paired analysis retains every sample/order: JSON wall lower on average in5/6multirowcases but reverses286x74; CPU mixed and perOIDcustomloader divergence remains. No product swap or release performance claim.
+
+Independent abortproof remote restoreabd0abb9bc036167d18dc3049301673d36d4b401776411c12ea9c25d3177ea66 confirms33files/170601bytes exact and19unique method successes across retained attempts. Main product unchanged.
+
+Interrupted publication reconciliation: branch still121b6c63b8350c5b9e9b87854c19dc7174bbfe97 on fresh connector read. A prior large evidence tree preparation has no retained completion receipt; no subsequent commit/ref advancement observed. Do not claim those pending evidence files remote. Fresh byte checks and scoped publication will follow; all prior checkpoints retained. Native envelope companion source review active, no native run selected.
+
+## 2026-10-15 21:17 UTC — native representation proof selected
+
+Entry review5458d39b16407874edc164a6b66de6f931750b4c8ef644fd2e06b23eb3af01c5 accepts separate outer companion seal9f7b4230ef29b37cbc98b69e76afa799906f42f66cac8d7472f67db04dc1dec1 without editing sealed nativebody0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5. Root now selects existing-cluster SA21 SELECT-only31case native comparison,249file checkedarchive, unchanged rolechecks/lock/coldwrapper/600secondtesttimeout and independentclosure. Actual cost9 CLOSED_PASS reviewcc1b8b36a1ba644722f9e40ca647353accac5375ed829293c0253063a5400f87 supplies latest boundary. No new parent kill/cap interrupts restoration. Native result pending; no productv3/physicaljournal/transactional guarantee inferred.
+
+Cost9 terminal/analysis/selection and standalone proof restore review7files remoteexact atdd5748b4f3f91b4a727e188fb5e140b283277b6e. All1620raw costrecords484264bytes now remoteexact ataa415547680632e8eec99a7c6c96806c9addb2a0; no samples dropped.
+
+## 2026-10-15 21:20 UTC — native domain-query failure preserved
+
+Native V1 first UUID-domain SELECT failed AmbiguousColumn ORDER BY v (duplicate native/text output labels);0PASS/1FAIL/30unrun, no state-size proof completed. Root entry1/poststatus3/corpus26equal; inner post/source/runtime gates0, stop0 observed, independent failure audit pending. Minimal successor source correction will qualify q.v and audit every query ordering expression; preserve V1 and all vectors. Source acceptance did not establish PostgreSQL name resolution. No product regression or native size result inferred.
+
+All raw cost samples now remoteexact484264bytes ataa415547680632e8eec99a7c6c96806c9addb2a0; offline analyzer and paired/block data5files remoteexact at2aa13349f1c75a0881699c72a8908d552d264030. Publication of remaining analysis manifest members pending; no complete manifest claim yet.
+
+## 2026-10-15 21:26 UTC — failed native V1 closure independently accepted
+
+Review14492777a41a76912c1f5d92ae473d44ac6f9aa6c6d594ed3f9f084d0340ed0e accepts CLOSED_FAILURE_NATIVE_REPRESENTATION_UNPROVEN:1failedUUIDcase, oneconnectionrecord, setupPASS/callFAIL/teardownPASS; no state/domain/rejection/omission results. Exact249archive6584093bytes,3025boundtargets,43mainmodulespercell,26corpusequality,stop0/status3 and postgates0 independently verified. Wrapper1.773759swall/1.554774sCPU/62932KiB peakRSS. All6fullsizeboundaries unexecuted. Both UUID/int64 sharedambiguoussort identified.
+
+NativeV2source review3b048121ed37b172ccaed6538767b9e677c2b88c0db653d443ae7eefb8876018 accepts exactlynewoutputpath+twoORDER BYq.v changes,all5SQLsiteschecked; originalassertions/counts/fullvectors retained. OuterV2source reviewpending, no execution selected. V1native8files remoteexactc8753e233494fe821af26862434b5771da0626fd; V1entry7files remoteexact7e4257b8cac516c5948285fab7267aa3a8245eb0.
+
+## 2026-10-15 21:30 UTC — native V2 observed passing, audit pending
+
+Root selected nativeV2 after independent minimal source and outerentry reviews, actualV1CLOSED_FAILURE boundary bound. Root observed31PASS6.04s,entry0/poststatus3/corpus26equal; wrapperwait4wall7.536791s,CPU3.966046s,peakRSS258784KiB (wrapper/reapeddescendants only). No source/vector reduction. Independent exact221observation/native boundary/hash/accounting and fullclosure review underway. No productguard or v3/replan implementation claim. Separate current-product reservation feasibility source investigation selected; no promotion or DB test for that work.
+
+## 2026-10-15 21:36 UTC — native representation observations independently accepted
+
+Review66be8d8b513f40dfd7620e54494c850e22cae726b8f938ce1b48c1012f4cdd00 accepts CLOSED_PASS_SCOPED_NATIVE_REPRESENTATION_OBSERVATIONS:31exactcalls/93PASSphases/221orderedrecords,184independently reconstructed compact/native SHA256-lengthpairs including12fullsize observations,all3omissioncontrols,UUID/int64domains and22P05/22P02rejections. NativeJSONB formatting makes the compact-equal16MiB specimen22byteslarger; actualnative-equal specimencompact16777194bytes. Full249archive/3025runtime/main43/corpus26/stop0/status3 closure verified. OriginalV1failure preserved.
+
+Current-product feasibility clarification:16MiB is existing canonical artifact cap and proposed experimental journal cap, not an existing journal admission contract. Syntheticnear16MiBfill-schema vectors are serializerprobes; actual forward expansion alreadylimitsactive-schema reservation4MiB. No reachable current abort-size defect established by this proof; do not impose new ceiling on legacy/current artifacts or claimproductfix. DurableABORTEDreplan and futurelineagephysicalvalidation remain open.
