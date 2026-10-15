@@ -1,0 +1,5 @@
+{"event":"selection","excluded_completed_method":"sealed_abort_envelope_vectors_0.ReferenceVectors.test_cursor_domains_and_exact_widths","expected_selected_method_count":1,"mode":"boundary1","original_method_count":19,"selected_method_ids":["sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"],"subtests_counted_separately":false}
+{"event":"method_started","method":"sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"}
+{"event":"method_ok","method":"sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"}
+{"event":"method_returned","method":"sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges","process_peak_rss_kib":64004,"system_cpu_seconds":0.033553,"user_cpu_seconds":100.631968,"wall_seconds":100.68285688498872}
+{"errors":0,"event":"partition_terminal","executed_method_count":1,"expected_method_count":1,"failures":0,"mode":"boundary1","skipped":0,"successful":true}

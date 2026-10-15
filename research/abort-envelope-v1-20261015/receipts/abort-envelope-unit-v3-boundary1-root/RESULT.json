@@ -1,0 +1,15 @@
+{
+  "mode": "boundary1",
+  "exit_code": 0,
+  "signaled": false,
+  "signal": null,
+  "timeout": false,
+  "wall_seconds": 100.77630372799467,
+  "child_user_cpu_seconds": 100.68768,
+  "child_system_cpu_seconds": 0.054236,
+  "child_peak_rss_kib": 64004,
+  "resource_scope": "wait4 for this exact child; Linux KiB RSS",
+  "source_pins_unchanged": true,
+  "stdout_bytes": 1086,
+  "stderr_bytes": 267
+}

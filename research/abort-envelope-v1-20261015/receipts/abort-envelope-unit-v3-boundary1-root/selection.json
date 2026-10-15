@@ -1,0 +1,29 @@
+{
+  "mode": "boundary1",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/UNIT_RUNNER_SPLIT_V3.py",
+    "boundary1"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a",
+  "expected_methods": 1,
+  "excluded_completed_cursor_method": true,
+  "pins": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/REVIEW.md": "a15a3cc81b5ad65734a22d9691538ad94cd26b28e7c52961586a9ac2eb77c021",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/SPLIT_V3_PREPARATION.md": "081720008501e6d728a5a0eae16cbd080830a0f04203836c60c0aee57afe7dc2",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/UNIT_RUNNER_SPLIT_V3.py": "f9b36facdb5d208fd217f243152ac79642aa5bd5fb4b80fb33d63b1d1bd1e546",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/envelope_reference.py": "27584299ffaac34c2bb9a0a51671a5873ab76354649052fd8f7725b62f38564c",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/test_envelope_reference.py": "152f8c605be07d5a63877f09942f66c3f89045457dad051cd8b85a780aa60d6c",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/correction-v2/test_deciding_vectors.py": "e631a11f36b346984cee7304d22abefa2099e61c760d08a414af93d32fccf8cc"
+  },
+  "wall_timeout_seconds": 300,
+  "cpu_soft_hard_seconds": [
+    240,
+    240
+  ],
+  "per_file_limit_bytes": 2097152,
+  "scope": "Pure reference unit partition; no product/PG/v3"
+}
