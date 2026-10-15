@@ -1,0 +1,28 @@
+{
+  "status": "HELD_NO_ROOT_SELECTION",
+  "cell": "sa21",
+  "entry_seal_sha256": null,
+  "native_seal_sha256": "f8ebb881794328c9b6054129e5966847cd37264dc80e7a21f4b71c4a10b99ff5",
+  "command_sha256": null,
+  "native_source_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/abort-envelope-native-probe-v2-source-independent-20261015/REVIEW.md",
+    "sha256": "3b048121ed37b172ccaed6538767b9e677c2b88c0db653d443ae7eefb8876018",
+    "root_semantic_verdict_confirmed": false
+  },
+  "entry_source_review": {
+    "path": null,
+    "sha256": null,
+    "root_semantic_verdict_confirmed": false
+  },
+  "preceding_terminal_review": {
+    "path": null,
+    "sha256": null,
+    "root_semantic_verdict_confirmed": false,
+    "source_packet": "experiments/abort-envelope-native-probe-v1-20261015",
+    "source_packet_seal_sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5",
+    "closed_outcome": null
+  },
+  "root_current_read_only_authority_confirmed": false,
+  "root_exclusive_selection": false,
+  "no_intervening_lab_stage": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "SELECTED_BY_ROOT_AFTER_INDEPENDENT_ACCEPTANCE",
+  "cell": "sa21",
+  "entry_seal_sha256": "b872be2e11367c73c55b864fb580a2c3230b457518ba6c9e2342270719cd8bf8",
+  "native_seal_sha256": "f8ebb881794328c9b6054129e5966847cd37264dc80e7a21f4b71c4a10b99ff5",
+  "command_sha256": "63ada3b8d11711a8ed5627a9ebc882cd6f36c635ee371c91271c53e4e484d807",
+  "native_source_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/abort-envelope-native-probe-v2-source-independent-20261015/REVIEW.md",
+    "sha256": "3b048121ed37b172ccaed6538767b9e677c2b88c0db653d443ae7eefb8876018",
+    "root_semantic_verdict_confirmed": true
+  },
+  "entry_source_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/native-entry-v2-independent-20261015/REVIEW.md",
+    "sha256": "6a370f2f0a24fa65d26ca4c24c37c491bf7fbfa9765b09e54c62506f21fc2d64",
+    "root_semantic_verdict_confirmed": true
+  },
+  "preceding_terminal_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/abort-envelope-native-terminal-independent-20261015/REVIEW.md",
+    "sha256": "14492777a41a76912c1f5d92ae473d44ac6f9aa6c6d594ed3f9f084d0340ed0e",
+    "root_semantic_verdict_confirmed": true,
+    "source_packet": "experiments/abort-envelope-native-probe-v1-20261015",
+    "source_packet_seal_sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5",
+    "closed_outcome": "CLOSED_FAILURE"
+  },
+  "root_current_read_only_authority_confirmed": true,
+  "root_exclusive_selection": true,
+  "no_intervening_lab_stage": true
+}
