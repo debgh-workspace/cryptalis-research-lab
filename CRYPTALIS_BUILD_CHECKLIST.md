@@ -1510,3 +1510,23 @@ Installed focused111 V2 source route independently accepted: review c12e7ded8f62
 README-only V2 source-command review fd8ccd1a2f0bf7274d5a6da42b1cd78b322934690c099f26fbd16df70449ddbb accepted complete source221 and all 220 non-README bodies unchanged, including runtime43/tests116. Root selected one bounded offline build with genuine fresh nine-role clearance and independently stopped PostgreSQL pre-status3. Build session16412 is active; artifact hashes and acceptance are still pending. Original wheels and installed suites remain the accepted predecessor evidence. No new runtime result is inferred from documentation byte identity.
 
 Installed recovery V3 excludes six historical report objects containing embedded cache-marker bodies. Earlier V1/V2 proposals remain held. V3 finite scope/content review is finalizing; no freeze or publication selected. Source/package archive publication part05 and the public smoke fixture ACL remain separate pending owner decisions. Current verified remote checkpoint dca388458185251bccf5f573f6945c6ba04d7164; all34 objectives active, all7 gates UNKNOWN.
+
+## 2026-10-15 16:25 UTC — installed focused111 SA21 and README package terminal
+
+Root observed111PASS/0FAIL/0SKIP in101.49s on the installed SA21 focused111 boundary; entry0, stop0, independent pg_ctl status3 and all26 corpus hashes restored. Binding c1028c53b866403e18508945d8312ac40b43333dce8a8fbbe8f10af96fcc88d4. Independent complete terminal audit remains pending; SA20 not selected. README-only package root entry0/poststatus3; independent actual artifact audit is ongoing. No new runtime-suite counts are attributed to the documentation-only successor.
+
+## 2026-10-15 16:34 UTC — README-only distributions independently accepted
+
+Review e143bec9997d3b81177e37e4ffc811d759addcc147ca96b9a0a66230f5b4d4ab accepts exact documentation-only packaging and source-evidence transfer. Two sdists are identical150389B SHA7988fb28baa4dec5804d4779b8a1d626c7dae5e3d7d5e597a7a12a69e0d9a036; three wheels identical140936B SHAce4817376f25411c8685c676802cce25c1799c85a87277b1dcc099556a40229c. Exact49/48payload sets, all43module bytes,220non-README source bodies, metadata/RECORD-only deltas, source copies/extraction, negative controls and root/entry/parent/child closure pass. Genuine clearance a78d508af782ca70787ff2ddd7f38edef2a75ba0e8aa30e6bfbf2917ef1bfb8a; packet0aee3c684c9122bdcad903c8035f8d3864eb78d5c5016921bc921de2f12bdcdf. Three disclosed reviewer procedure incidents remain preserved. Original installed runtime results remain bound to original artifact; no successor installed test or public-smoke result is invented. Root separately selects publication of these two standalone distributions with exact finite reviewed source/metadata content. The different held source/package recovery archive remains untouched and unapproved.
+
+## 2026-10-15 16:40 UTC — standalone artifacts published and focused SA20 terminal
+
+Commit83bea5c2962a725ccd0c6f377728180d507d711d contains six exact remote-byte-verified files under preview/artifacts/readme-v2-20261015: the new wheel/sdist, artifact manifest, checksums, bounded status README and independent packaging review. No held recovery archive content or alternate publication route was used. Original prior artifacts remain.
+
+Installed-focused SA21 independent review f8d89657d61ce621515351dc818ef5872c11f0d1161472cd642f4bc54b30fba6 accepts111PASS/333phases,28genuine producers,508nativechecks,3496distinct targetpins plus separate binding,719safe archive members, both cold namespaces/corpus26/stopped boundary. SA20 separately selected and now entry0 with111PASS104.34s,poststatus3/corpus26equal; independent terminal review pending.
+
+## 2026-10-15 16:46 UTC — both installed focused111 boundaries accepted
+
+SA20 independent terminal review7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678 accepts111PASS/333phases/zeroFAIL-SKIP in104.34s,28genuine producers,508native checks,3497distinct pins plus separatebinding,719safe archive members,all26corpus restoration and stopped boundary. Both cells now accepted; no installed historical-distribution, generic lost-metadata recovery/import or durableABORTED-replan claim. CURRENT_CANDIDATE records the separate installed-focused results and published documentation-only artifact identity.
+
+Smoke binding V1 source review found unchecked jq/awk process-substitution archive production could fail open before runtime. No smoke ran. V1 preserved asHOLD; minimal freshV2 source correction being prepared, separate fixtureACL permission remains pending. Installed recovery V3 frozen locally4149872B SHA1d7adcf9474dc3c6a850abca8e15e91dfd2d5a27ae89435799ef89466ad12fec; independent rebuild passed, combined inert restore/final-content review ongoing.
