@@ -1,0 +1,17 @@
+DATA-ONLY COORDINATOR GUARDS. These commands do not authorize or launch the optional runtime cell.
+
+Before any optional cell entry, after both main terminal audits are accepted and genuine additive clearance is recorded:
+
+sha256sum --check --strict /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-optional-plan-independent-20261014/ORACLE_GUARD.sha256
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python -I -B /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-optional-plan-independent-20261014/oracle_inventory_guard.py --phase before
+
+Each command must exit 0. Stop on either failure; do not launch the cell or repair/delete an unexpected entry. Retain the exact guard source and command, output, actual status and guard digest in coordinator evidence outside the optional cell's still-absent audit destination. Keep the entire oracle directory free of concurrent writers between this check and the after check. The existing frozen run-optional38.sh remains unchanged and is a separate explicitly authorized invocation.
+
+After the frozen optional entry returns, regardless of its exit status, and before accepting terminal evidence:
+
+sha256sum --check --strict /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-optional-plan-independent-20261014/ORACLE_GUARD.sha256
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python -I -B /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-optional-plan-independent-20261014/oracle_inventory_guard.py --phase after
+
+Record all statuses separately; a guard failure prevents acceptance even if wrapper/runner exit 0. Retain both guard outputs and the exact script bytes with the coordinator evidence. The after phase permits only ordinary __pycache__ .pyc filenames for the three known CPython 3.14 modules. It does not read/hash cache content. The before phase refuses even those cache extras. Both phases reject symlinks, missing sources, any other entry and all source hash drift; both bind the supplied PACKET.sha256 anchor and exact overlay manifest. Terminal audit must separately reconcile exact external snapshots/archives and all actual IDs/phases.
+
+The review.md guard digest is the external authority for ORACLE_GUARD.sha256 and the script. A newly generated self-consistent guard manifest alone is not evidence of review identity.
