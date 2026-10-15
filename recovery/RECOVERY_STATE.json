@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-15T04:17:00Z",
+  "observed_at_utc": "2026-10-15T09:51:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "d1a8f00b7f4fc098ae1a8775261b3e41291c0d55",
+  "latest_verified_remote_commit": "2fbd4e315b8d0e0541d71129c436b7d260dc6bf0",
   "latest_integrated_candidate": "S25: highest broadly verified bounded candidate,216files.",
   "current_experiment": "ASYNC-EXIT-PRIMARY-01 focused RED/GREEN verified in both dependency cells, full source and installed matrix pending; internal transport metadata follow-on remains source-only.",
   "s5_remote_byte_restore_files": 3579,
@@ -1610,5 +1610,11 @@
       "fe2d24d0b6965fc7079f0b973f30fe098eb75985",
       "d1a8f00b7f4fc098ae1a8775261b3e41291c0d55"
     ]
+  },
+  "continuation_0951": {
+    "transport218": "all3 installed payload audits accepted; actualfinalmanifests ready, finalcommandreviewpending; runtimematricesunrun",
+    "cleanup217_installed_recovery": "three-archive independentrebuild/restoration accepted; remoteuploadpending",
+    "cancelledwrites": "two largecreate_tree calls cancelled; unchangedhead reconciled;7smallfiles publishedexact;3largefilesdeferred",
+    "cluster_designation": "source-inferredbaseline prepared, unrun"
   }
 }
