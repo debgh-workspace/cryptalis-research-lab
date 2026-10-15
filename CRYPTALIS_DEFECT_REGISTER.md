@@ -57,3 +57,11 @@ All are under cryptalis-executable/reviewer-notes/. Passing these finite suites 
 These are distinct from product failures: a self-reversing native constraint-mutation fixture; reviewer schema/format assumptions; V1 wrapper cache-import routing; V2 missed packet constants; source-only installed legacy identity fixture local-sys shadowing; transient executor transport disconnect; generic sensitive-name guard false positives; one metadata-only installer-marker hashing boundary incident; cancelled/denied publication calls. Every actual failed run or failed preparation remains at its dated path. Corrected checks never rewrite historical failed observations.
 
 The original15-commit mailbox remains9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd. No production deployment or original repository write occurred.
+
+## 2026-10-15 21:43 UTC — verified research boundaries and preview DX slice
+
+- Native abort-size representation experiment: V1 harness ORDER BY ambiguity is preserved as CLOSED_FAILURE; V2 qualifies both UUID/int64 source columns and has independently accepted31cases/93phases/221records. This is a diagnostic correction, not a product abort/replan fix.
+- The observed16MiB compact/native boundary divergence does not establish a current product defect. Existing16MiB canonical artifact and4MiB active-schema reservation contracts differ from the proposed future whole-journal ceiling. No new journal refusal policy is applied to current/legacy artifacts.
+- DurableABORTED forward replan remains unresolved: retained journal blocks fresh planning. Physical journal/authority/ancestry and safe reverse/removal requirements remain mandatory.
+- Confirmed bounded preview DX defect: plain-text doctor omits its existing constant remedy on invalid declarations although JSON retains it. Proposedone-line renderer patch31e117393dd77d40a8d10733434defe55c6b590958ec25d73afaaa5821592e10 remains separate; source/unit proof review underway. No integrated/runtime claim yet.
+- Final public preview smoke remains dependent on exact fixtureACL permission; archive publication decisions and nativeCF1 timing policy remain separately pending. General continuation is not approval for those actions.
