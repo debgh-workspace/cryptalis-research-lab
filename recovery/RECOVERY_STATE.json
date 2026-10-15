@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-15T01:32:00Z",
+  "observed_at_utc": "2026-10-15T02:44:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -1534,9 +1534,9 @@
     "statistics_mutation_v2": "HOLD: original INPUTS.sha256 local admission missing in independent postcheck; V3 source correction in preparation; no mutation executed"
   },
   "last_remote_verified_checkpoint": {
-    "commit": "5f5ae264cbbb5183a4f7f4eaae627d79ffb991ed",
-    "tree": "d615b0d99f71821e953de5be00d43d4f252c39e5",
-    "verified_files": 8,
+    "commit": "f06ce1b550e74ee2bcb60fed132361354b614380",
+    "tree": "157e73906a008827abe78aa46fef30d0d22a2248",
+    "verified_files": 5,
     "branch": "accel/integration-s20-20261014"
   },
   "cleanup_installer_v1_hold": {
@@ -1550,9 +1550,22 @@
     "source_review_sha256": "d0a02a438740fa321dd8c5b2e2a325e5c9cfddda9c35e7df8e11d50e30cda8ef",
     "entry_exit": 0,
     "parent_status": "PASS_BOUNDED_INSTALLATION",
-    "payload_audit": "pending",
+    "payload_audit": "ACCEPTED report321ac1c7db1624e3fdf3e40276be274778c3f36f84e236e3fb2691cda57de7c6",
     "runtime": "unrun",
-    "optional_installer": "unrun",
+    "optional_installer": "entry0 and payload audit accepted10421ccd71d2161dcb175e2966d50e1be40dcf3061c69bf5738a98219b2d8c50",
     "selection_receipt": "persistence-recovery-20261013/cleanup-main-install-v2-coordinator/selection.json"
+  },
+  "transport_full_v2_sa21": {
+    "passed": 2671,
+    "failed": 7,
+    "skipped": 0,
+    "subtests_passed": 56,
+    "warnings": 50,
+    "seconds": 403.36,
+    "independent_audit": "pending",
+    "outer_exit": 1,
+    "wrapper_exit": 1,
+    "before_after_admission_pins": 0,
+    "explicit_stop_exit": 0
   }
 }

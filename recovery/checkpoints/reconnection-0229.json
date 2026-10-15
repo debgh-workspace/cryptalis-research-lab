@@ -1,0 +1,11 @@
+{
+  "observed_utc": "2026-10-15T02:29:00Z",
+  "initial_exec_error": "exec-server transport disconnected",
+  "subsequent_exec": "same workspace accessible at02:24:50UTC",
+  "remote_head_reconciled": "92292b73d0216887621af5ffce193f6e88b3fc28",
+  "lock_probe": "existing lab-session.lock nonblocking probe succeeded; released immediately",
+  "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "optional_output_absent": true,
+  "recovery_scope": "Resume saved independent reviews; no installation/test repetition; no claim of compute during gap",
+  "latest_verified_remote": "d271d757d148acc901b6a3d12b128e5898b1e91a"
+}

@@ -1,0 +1,30 @@
+{
+  "all_originals_main_and_source_preserved": true,
+  "all_seven_complete_current_inode_sets_measured": true,
+  "attempt1_preserved": true,
+  "attempt2_exit": 0,
+  "attempt_metadata_snapshots_identical": true,
+  "main_closure_sha256": "c4bbc3319755f169c64e45cad01d19f4cdf03b92af9976881954852c3dd5bd0e",
+  "main_report_sha256": "321ac1c7db1624e3fdf3e40276be274778c3f36f84e236e3fb2691cda57de7c6",
+  "parent_terminal_verified": true,
+  "reviewer_files_sha256": {
+    "ATTEMPTS.md": "b0592d5eb29a62b707efa2aaf4ec58283bba526d944af9ff3b404dbe8a2b0ea8",
+    "DATA_AUDIT.json": "d8ee23b4bbe45f1d7f472dbce5cbca24b3c6f7dd957c3e13fba7e38b1a166efb",
+    "METADATA_ADMISSION.json": "13025fc634f51d681e9fe678cce0f2d97188ea9b1162ac0d803b3abc645d2f5c",
+    "METADATA_ADMISSION_ATTEMPT2.json": "13025fc634f51d681e9fe678cce0f2d97188ea9b1162ac0d803b3abc645d2f5c",
+    "PREPARATION.md": "ca158db6ca46c8f4dcb5440d1e486823d3ebcf50ea1d86f39b64e90be29f378f",
+    "TERMINAL_HANDOFF.json": "51a4b67f4fb2e96edeecd3be72a2f6d2de4ed989a7f110e0b068157ba858dd54",
+    "attempt1.exit": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "attempt1.log": "ab8e4dcf480e99ac233074d5e42d72a7245782ddaf95cf95c7ebe3e3e8d2056b",
+    "attempt2-correction.patch": "d179e48c740bb71702faee4667b23df8564553c23f72c83620f4972ffb8c90bf",
+    "attempt2.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "attempt2.log": "92e9214de0475520bf85c73504527dac0e3522a3af855014c0445520682e0cd9",
+    "audit_data_only.py": "7242488ceeb32b3a3e98551a31e017f661f331539adc293e558358ca2b75dfe7",
+    "audit_data_only_attempt1.py": "dc63b048420d0413d7e0cea80a4c61a05b82b442842c76d7f82970a3f9ae020c",
+    "audit_data_only_draft.py": "99dcc15ae006f718e91fa61f5677415f4a7080fe6ab39b674b2ab6d9e803ffc9",
+    "prepare_checker.py": "8d68b105d294983f9e45019af93e18fbced2be613529a50be98e086cb2723178",
+    "report.md": "10421ccd71d2161dcb175e2966d50e1be40dcf3061c69bf5738a98219b2d8c50"
+  },
+  "runtime_clearance": false,
+  "status": "PASS_SCOPED_OPTIONAL_INSTALLED_PAYLOAD_AUDIT_V2"
+}

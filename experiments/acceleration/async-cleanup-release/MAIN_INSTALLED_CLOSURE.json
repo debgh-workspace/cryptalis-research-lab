@@ -1,0 +1,23 @@
+{
+  "audit_sha256": "6df29ab079a089fc43c8ff1ea8c056667abf3ee4f78dbd1d32e5ae57bcf95523",
+  "complete_metadata_equal_to_attempt4": true,
+  "continuity_exit": 0,
+  "continuity_result_sha256": "6df29ab079a089fc43c8ff1ea8c056667abf3ee4f78dbd1d32e5ae57bcf95523",
+  "continuity_verification_sha256": "93b1e3396ef8de5df698f823be374508f430010899d0db00eb39d6f3632035d8",
+  "date_utc": "2026-10-15",
+  "optional_installed_output_absent": true,
+  "report": "report.md",
+  "report_sha256": "321ac1c7db1624e3fdf3e40276be274778c3f36f84e236e3fb2691cda57de7c6",
+  "runtime_clearance": false,
+  "saved_evidence_preserved": true,
+  "status": "CLOSED_PASS_SCOPED_MAIN_INSTALLED_PAYLOAD_AUDIT_V2",
+  "unknown_gates": [
+    "G-ADAPTER",
+    "G-CRYPTO",
+    "G-QUERY",
+    "G-LIFECYCLE",
+    "G-PROVIDER",
+    "G-POLICY",
+    "G-RELEASE"
+  ]
+}
