@@ -1,0 +1,17 @@
+{
+  "observations": {
+    "bytes": 484264,
+    "path": "evidence/json-transport-native-probe-v3-cost9-sa21-20261015/cost-observations.jsonl",
+    "sha256": "763f3ee2c883d57efa9fb3b6b8556656208196dc6725f04981dffc6944b6e241"
+  },
+  "protocol": {
+    "bytes": 9896,
+    "path": "experiments/json-transport-native-probe-v3-cost9-20261015/PROTOCOL.md",
+    "sha256": "e1e9fbfcfa248689e80107d0cf3aadc3af42d4d55452f23fba248c2c683556ff"
+  },
+  "source_review": {
+    "bytes": 9461,
+    "path": "reviewer-notes/json-transport-native-probe-v3-cost9-independent-20261015/REVIEW.md",
+    "sha256": "cec14cef3605b26d8f348ba38e287a7059311e1668cbb638bf6c11d8b65b725a"
+  }
+}
