@@ -1,0 +1,10 @@
+# SOURCE ONLY. Independent final review and explicit coordinator selection required.
+# Before the first hash: metadata-only lstat/readlink admission of all parent components,
+# the exact python3 alias -> python3.12, and this regular no-link preflight.py path.
+# Reconfirm original quiescence. Never execute an inner installer or uv directly.
+cd /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-optional-installed-plan-v2-20261015 || exit $?
+printf '%s  %s\n' 'fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7' '/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3' '50039248ca7589391cf67e6f0fd5caefd7dcbdc641101bf4278d4ee69c021c72' '/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-optional-installed-plan-v2-20261015/preflight.py' | sha256sum --check || exit $?
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I -B /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-optional-installed-plan-v2-20261015/preflight.py || exit $?
+sha256sum --check outer-frozen.sha256 || exit $?
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I -B /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-optional-installed-plan-v2-20261015/outer.py
+# STOP. Independent installed-payload audit is required before any runtime.
