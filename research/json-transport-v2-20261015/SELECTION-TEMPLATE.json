@@ -1,0 +1,19 @@
+{
+  "status": "HELD_REQUIRES_ROOT_SELECTION",
+  "cell": "sa21",
+  "packet_seal_sha256": null,
+  "command_sha256": null,
+  "source_review": {
+    "path": null,
+    "sha256": null,
+    "root_semantic_verdict_confirmed": false
+  },
+  "preceding_terminal_review": {
+    "path": null,
+    "sha256": null,
+    "root_semantic_verdict_confirmed": false
+  },
+  "root_current_read_only_authority_confirmed": false,
+  "root_exclusive_selection": false,
+  "no_intervening_lab_stage": false
+}

@@ -1,0 +1,60 @@
+{
+  "status": "HELD_SOURCE_ONLY",
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "shell": false,
+  "environment": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "TZ": "UTC"
+  },
+  "stages": {
+    "sa21": {
+      "entry_argv": [
+        "/bin/bash",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run-probe.sh",
+        "sa21",
+        null,
+        null
+      ],
+      "audit": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run/sa21",
+      "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/json-transport-native-probe-v2-sa21-20261015",
+      "wrapper_argv": [
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/.venv/bin/python",
+        "-B",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py",
+        "--candidate-root",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+        "--installed-candidate",
+        "--python",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/integrated221-installed-20261015/sa21/bin/python",
+        "--evidence",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/json-transport-native-probe-v2-sa21-20261015",
+        "--",
+        "-q",
+        "-c",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015/pyproject.toml",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/test_native_transport.py",
+        "--confcutdir=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015",
+        "-p",
+        "no:cacheprovider",
+        "--tb=short",
+        "-x"
+      ],
+      "expected_cases": 61,
+      "expected_phases": 183,
+      "expected_failure_error_skip_xfail_deselected": 0,
+      "frozen_archive": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run/sa21/frozen-inputs",
+      "archive_receipt": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run/sa21/archive-receipt.json",
+      "pre_status": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run/sa21/pre-status.log",
+      "post_status": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/run/sa21/post-status.log",
+      "emitted_case_identity": {
+        "source_file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/test_native_transport.py",
+        "expected_ids_file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/EXPECTED_CASES.txt",
+        "emitted_module_prefix": "",
+        "comparison": "Exact ordered nodeid strings. No arbitrary path-prefix stripping or suffix matching. Unique function/parameter identities are tied to this sole selected external file in wrapper_argv."
+      }
+    }
+  },
+  "unresolved_arguments": "Actual root selection digest and exact packet seal digest. Null values are a hard hold. Only SA21 is selectable. A distinct SA20 question requires a new reviewed packet."
+}

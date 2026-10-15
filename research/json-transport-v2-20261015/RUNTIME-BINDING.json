@@ -1,0 +1,31 @@
+{
+  "main_packet": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015",
+  "guard": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py",
+    "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861"
+  },
+  "bindings": {
+    "sa21": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA21.json",
+      "sha256": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54"
+    },
+    "sa20": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA20.json",
+      "sha256": "aa7c1076f4f26c7b09cd6dbb51b30fde22adf485d7d5b660d43f956eb796a656"
+    }
+  },
+  "maps": {
+    "source221": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CANDIDATE_SOURCE_MANIFEST.json",
+    "runtime43": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/RUNTIME43_MANIFEST.json",
+    "installed2506": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_ORDINARY_PINS.json",
+    "nonproduct2402": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/FULL_NONPRODUCT_PINS.json",
+    "exact_namespace": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_NAMESPACE.json",
+    "corpus26": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CORPUS_BASELINE.json"
+  },
+  "scope": "Existing accepted main43 identity admission only. No execution authority transferred.",
+  "source_count": 221,
+  "runtime_modules_per_cell": 43,
+  "installed_ordinary_count": 2506,
+  "nonproduct_count": 2402,
+  "corpus_count": 26
+}
