@@ -1,0 +1,36 @@
+{
+  "archive_members": 1421,
+  "archived_code_executed": false,
+  "authenticated_provenance_sha256": "1b4d571709690d9d7be2bf81d9280b8686afd1e0d03d7179e06a61a629136af3",
+  "controls": 79,
+  "dependency_commits": {
+    "focused_base_v1": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+    "full_source_build_additive_v2": "0c74347b6d89cfc82d766973e14d2450fd294032"
+  },
+  "dependency_restore_receipts": {
+    "additive_v3": {
+      "bytes": 4349,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/async-cleanup-full-source-additive-remote-paired-restore-v2/RESTORE_VERIFICATION.json",
+      "sha256": "e33e0d3f3a9bc7202fd2b49c3cbbf03fee66893f67cc270db5461222de73e3b2"
+    },
+    "base": {
+      "bytes": 3106,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/async-cleanup-focused-remote-restore-verification.json",
+      "sha256": "c83fbc9e129e6d95f2705d82ff3ff55703e3652d705b5bd5b6750107d89d1d92"
+    }
+  },
+  "directory_mode": "0700",
+  "green_source_files": 217,
+  "historical_failures": 7,
+  "installed_commit": "a36b75e60903288c71b185cc4909ae16083e0043",
+  "installed_environment_recovered": false,
+  "logical_files": 3818,
+  "nested_payloads": "opaque",
+  "prior_failed_remote_v2": "preserved_failed_not_accepted",
+  "prior_remote_v3": "accepted_actual_fix_receipt_required",
+  "production_gates": "UNKNOWN",
+  "recovered_bytes_before_receipts": 322809407,
+  "recovered_files_before_receipts": 5538,
+  "regular_file_mode": "0600",
+  "status": "AUTHENTICATED_THREE_ARCHIVE_INERT_INSTALLED_EVIDENCE_RECOVERED"
+}

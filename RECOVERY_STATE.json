@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-15T11:36:00Z",
+  "observed_at_utc": "2026-10-15T12:33:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
@@ -32,9 +32,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "607fe42d0297b80a45b8b6edfcfbd6e649d11933",
+  "latest_verified_remote_commit": "5be7e581cbf0512a297dbb772dae92d53409e1ae",
   "latest_integrated_candidate": "Transport218 selected bounded installed baseline; CLUSTER and corrected test contracts not yet integrated.",
-  "current_experiment": "Historical test-contract expected-RED SA21 terminal audit; safe-default legacy V2 source preparation.",
+  "current_experiment": "Native2 diagnosis verified; fixture-only corrected111 successor preparing; product221 unchanged and fullintegrationheld.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-15T11:36:00Z",
-  "current_operation": "Publish installed recovery remaining parts; reconcile preview candidate and focused corrections.",
+  "updated_utc": "2026-10-15T12:33:00Z",
+  "current_operation": "Preserve failure; audit boundary; verify native mutation then authorize narrow correction. No SA20/full source until resolved.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "607fe42d0297b80a45b8b6edfcfbd6e649d11933",
+  "latest_verified_remote_head": "5be7e581cbf0512a297dbb772dae92d53409e1ae",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -58,7 +58,7 @@
     "restored_files": 175
   },
   "next_task": "Accept expected-RED boundary then reviewed GREEN; independently review safe-default V2 before execution.",
-  "latest_remote_tree": "308b9b8a9443100641e9abec5da10f533fae3a1b",
+  "latest_remote_tree": "1dc6331a1b5a060cc852fb969fc6d21ffc38cfb2",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
     "candidate": "cryptalis-executable/candidate-adoption-diagnostics-20261013",
@@ -1619,8 +1619,11 @@
   },
   "ship_first_approval": "Sentinel_c06a1851766081d182d1a5a4176a4fa0",
   "installed_recovery_publication": {
-    "parts_verified": 18,
+    "parts_verified": 42,
     "parts_total": 42,
-    "same_commit_complete": false
+    "same_commit_complete": true,
+    "manifest_verified": true,
+    "restore_independently_accepted": true,
+    "restore_receipt_sha256": "410269c788695376274bcadf99006390caf302b48d275828cf732177161cd0a8"
   }
 }
