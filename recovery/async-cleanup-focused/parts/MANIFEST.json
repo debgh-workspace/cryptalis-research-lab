@@ -1,0 +1,78 @@
+{
+  "archive": "CRYPTALIS_ASYNC_CLEANUP_RECOVERY_20261014_v1.tar.xz",
+  "archive_sha256": "1c6f9900389f61826d1f1d427a0bfc94e5f3cc20fee0f758281b928a896129af",
+  "bytes": 1029680,
+  "format": "async-cleanup-focused-parts-v1",
+  "independent_archive_review_sha256": "cedb958ec9a873b49d8d6baa96bc55c348cd076d4840fd54fda3b22dc09d983a",
+  "intended_remote_prefix": "recovery/async-cleanup-focused/parts",
+  "intended_repository": "debgh-workspace/cryptalis-research-lab",
+  "parts": [
+    {
+      "bytes": 96000,
+      "git_blob_sha": "0dcab85978256326c767d5a3e457645f5f0a4f18",
+      "name": "part-01.bin",
+      "sha256": "b51274be79d8eff24dc5721bd6a87d77aa52072f834c205a9115638f2822397a"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "785e2a7b50426c0f27bef562828faf9f3683ba97",
+      "name": "part-02.bin",
+      "sha256": "929aa55505f8838316e20b45cfd39ff60d4fd8cbfc4633d915d8348dd2d3dfe3"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "44a0764e78421fded21781a2258370f65f5c2dfa",
+      "name": "part-03.bin",
+      "sha256": "168e6df70da63ec21ec1f196a81a8e526e87da4b76d86b624da39e21922e7d15"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "0dfc10f58e27864e14f2c4aad8cc2909589ad237",
+      "name": "part-04.bin",
+      "sha256": "eb2f5efeea31f82742e99b970f44ff47c42a1d100e83d093778ba01ccdaf8a80"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "3eb877ad43417c7d70a7fcc344cd4ad250d34dd9",
+      "name": "part-05.bin",
+      "sha256": "017298da0170094ae3beb1d66bb110c04107f2b49eb769bab30ce48b40c22898"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "f05d199956353a71cb47d13dbcf6fded0b2d3240",
+      "name": "part-06.bin",
+      "sha256": "8502cecb4d85a5e503000482609f095b61fab6d5e525ddf5ce7c1e0ecfa22a6e"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "c2b7807cd7e37d223bced1528eb76e801421f705",
+      "name": "part-07.bin",
+      "sha256": "91208c5da9e232fbfb66fbe77b5b667c50fcdd84983b09b5dcc038cd7ad1d07b"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "9da15ff11979148c592cdb466a405506624ec32f",
+      "name": "part-08.bin",
+      "sha256": "d5aeefbdb45a8c73b3313954c24926b4e85c79b6eefc6613067762f074747628"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "45c8a5bc2c0c10a9828ed21c74f5dfc4fbaf100a",
+      "name": "part-09.bin",
+      "sha256": "79fd6007c478c3d4d5961aae280442b82089bcf083a5325857406721b31c8174"
+    },
+    {
+      "bytes": 96000,
+      "git_blob_sha": "d783c64af462a46262e94677d5328b2de24bbd1d",
+      "name": "part-10.bin",
+      "sha256": "826a9b32b442d066e731d3ae075d4c03f915326476a5a5025e878b82d4e08e29"
+    },
+    {
+      "bytes": 69680,
+      "git_blob_sha": "e9133e032d78b18107de18de23cd6b353fc3ed65",
+      "name": "part-11.bin",
+      "sha256": "b31cfc7364dc33639437364f52903cd3232f0697af06bd0522b750a02b91b37c"
+    }
+  ],
+  "scope": "Accepted full217source and focused cleanup evidence data-only capsule; local parts are not authenticated remote readbacks."
+}
