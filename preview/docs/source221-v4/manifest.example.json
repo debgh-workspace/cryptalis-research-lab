@@ -1,0 +1,21 @@
+{
+  "schema": "cryptalis.protection/v1",
+  "profile": "cf1",
+  "domain_id": "00000000-0000-0000-0000-0000000001f5",
+  "models": [
+    {
+      "model": "Customer",
+      "table_id": "00000000-0000-0000-0000-0000000001f6",
+      "tenancy": {"column": "tenant_id"},
+      "fields": [
+        {
+          "name": "name",
+          "field_id": "00000000-0000-0000-0000-0000000001f7",
+          "protect": true,
+          "queries": ["equality", "unique"],
+          "accept_leakage": ["equality", "unique"]
+        }
+      ]
+    }
+  ]
+}
