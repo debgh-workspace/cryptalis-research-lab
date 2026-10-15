@@ -1,0 +1,28 @@
+{
+  "kind": "Finite safe source, map and accepted review references; no live cell/corpus payload",
+  "sha256": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py": "fe7eb1d38cf826c79ecf201a330522f96501d4edc4d40b2f56f779df24f2acbc",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA21.json": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA20.json": "aa7c1076f4f26c7b09cd6dbb51b30fde22adf485d7d5b660d43f956eb796a656",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CANDIDATE_SOURCE_MANIFEST.json": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/RUNTIME43_MANIFEST.json": "e96247c295d0db800cae5b383b85b8ad992c130961af25bfbd49a27b90f1241a",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_ORDINARY_PINS.json": "bc139ce53b956929d7deb6e7933676c32219405de8c36f5624e24ca324a6dfc9",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/FULL_NONPRODUCT_PINS.json": "bb0796ad3ef2c538855a897955694908a7786c33dc8e2bf73a3503620082e462",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/INSTALLED_NAMESPACE.json": "05345d2375286344b07e7209113380dcac8d9e3517dc66e08c3e4e24db3d5a03",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/CORPUS_BASELINE.json": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/corpus_artifacts_v2.py": "4c0429a182b5b7a2f7e561892936dba89ed279583bff181b18238f50485de86f",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/lab_progress.py": "673e3d41398f6be36876008f80110b313ad86553363052c8f14a25e1c47b93c1",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/run_baseline.py": "a88c24fa1699ce42a091c9d2da1168ba453d4548a811d542316fe95cb833d00f",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/repo/scripts/test_postgres.py": "118952d57d777d692adf1f1447fedbb612030fd3266c9374680d347bb501fd12",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/search-cost-followon-20261015/FINDING.md": "b8389e83bed200ea5af29d79bd630c54867521377fd6acfdb7a4689a42b88afb",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/search-cost-followon-20261015/FINAL_RECEIPT.json": "38a7ff69078db6a5939805c8b864caadc014a0829cd1acd3db68556e32710bf9",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/search-cost-followon-20261015/independent/REVIEW.md": "bb6d0388c5c28c2fa7d84d27a20b418321aa1f9373f6e64edd46be090f00842e",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/integrated221-installed-focused111-sa20-v2-independent-20261015/REVIEW.md": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v1-20261015/SHA256SUMS.txt": "8951d143fa8f0216bd72b79976ea52e6844853d5c317cc9697bf9d80176d6be5",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/json-transport-native-probe-independent-20261015/V1_HOLD.md": "617feb1f08a497c225887718a7c5b0109179341497efef52f59a318eff5c0389",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/json-transport-native-probe-v2-20261015/SHA256SUMS.txt": "d5f457b3968d86adaa2a4f0ecaa70bd7a2a1ab73e6ebaca924de907550716377",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/json-transport-native-probe-independent-20261015/REVIEW.md": "d3d1c24896b6d6e5c1454ba60a21cbaf15ab9e7d50f497707db58b9e1e3e6b58"
+  }
+}
