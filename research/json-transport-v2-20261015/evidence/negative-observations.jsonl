@@ -1,0 +1,4 @@
+{"actual_native_baseline_verified": true, "actual_observation_mutations_rejected": ["format", "integer_type", "integer_value", "length", "native_value", "null_slot", "oid", "slot_order"], "case_id": "sync-text"}
+{"actual_native_baseline_verified": true, "actual_observation_mutations_rejected": ["format", "integer_type", "integer_value", "length", "native_value", "null_slot", "oid", "slot_order"], "case_id": "sync-binary"}
+{"actual_native_baseline_verified": true, "actual_observation_mutations_rejected": ["format", "integer_type", "integer_value", "length", "native_value", "null_slot", "oid", "slot_order"], "case_id": "async-text"}
+{"actual_native_baseline_verified": true, "actual_observation_mutations_rejected": ["format", "integer_type", "integer_value", "length", "native_value", "null_slot", "oid", "slot_order"], "case_id": "async-binary"}
