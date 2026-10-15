@@ -1,0 +1,17 @@
+{
+  "commands_sha256": "ad003d4d2d17d051279f89c04fb5f95e67b4915729921ceb9f2dc6deafd7f718",
+  "concrete_source_command_review": "PENDING",
+  "frozen_inputs_sha256": "9c187d751ba903a7038136a85549270888d9f742bbd889348878a8e327eea177",
+  "frozen_targets": 2007,
+  "installation_authorized": false,
+  "installer_sha256": "3d8f66f5ca43ad6db7fc0aedf7e99916283cb43770f113c0829612b1435de6ae",
+  "outer_frozen_sha256": "fbc78626d9402676687c3d4f31e3fa7f0fe54f015e97f2c85789b39a6c675b5e",
+  "outer_sha256": "e77b683d403fb320b3df8d7e2a23267aadbface2e4a30dd22735f8467975c71d",
+  "output": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-plan-v2-20261015/bound-sa21",
+  "path_admission_sha256": "aebf54c71f9344e73497443948e61459b8b661ca07fce825148df8f1992f6381",
+  "post_admission_errors": [],
+  "preflight_sha256": "59a3e67564ea9f23c2187768baa98b7067224ac53d047462661ea7c2f4f787af",
+  "runtime_authorized": false,
+  "status": "MATERIALIZED_SOURCE_ONLY_PENDING_CONCRETE_REVIEW",
+  "targets_sha256": "8b20ea62e1310e510b82c132a636648dd4847f7ea030dc42c14ad53c722f8609"
+}
