@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "/bin/bash",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/abort-envelope-native-entry-v2-20261015/run-entry.sh",
+    "a53e2dbd1e1fba7f919924a4361676fc06a93a694152b358bab295956973821f",
+    "b872be2e11367c73c55b864fb580a2c3230b457518ba6c9e2342270719cd8bf8"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "fixed_environment": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "LANG": "C.UTF-8",
+    "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+    "TZ": "UTC"
+  },
+  "shell": false
+}

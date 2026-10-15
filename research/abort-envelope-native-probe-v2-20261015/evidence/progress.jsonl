@@ -1,0 +1,124 @@
+{"event": "start", "nodeid": "::test_native_cursor_domains[uuid]", "monotonic": 241961.083496089}
+{"event": "report", "nodeid": "::test_native_cursor_domains[uuid]", "when": "setup", "outcome": "passed", "duration": 0.00019060101476497948, "monotonic": 241961.083906273}
+{"event": "report", "nodeid": "::test_native_cursor_domains[uuid]", "when": "call", "outcome": "passed", "duration": 0.006934014993021265, "monotonic": 241961.094578075}
+{"event": "report", "nodeid": "::test_native_cursor_domains[uuid]", "when": "teardown", "outcome": "passed", "duration": 0.0001174229837488383, "monotonic": 241961.094863085}
+{"event": "start", "nodeid": "::test_native_cursor_domains[int64]", "monotonic": 241961.09519235}
+{"event": "report", "nodeid": "::test_native_cursor_domains[int64]", "when": "setup", "outcome": "passed", "duration": 0.00016206898726522923, "monotonic": 241961.095440336}
+{"event": "report", "nodeid": "::test_native_cursor_domains[int64]", "when": "call", "outcome": "passed", "duration": 0.005696111998986453, "monotonic": 241961.101286068}
+{"event": "report", "nodeid": "::test_native_cursor_domains[int64]", "when": "teardown", "outcome": "passed", "duration": 7.265698513947427e-05, "monotonic": 241961.10147081}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_uuid_empty]", "monotonic": 241961.101749751}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_empty]", "when": "setup", "outcome": "passed", "duration": 0.00022227800218388438, "monotonic": 241961.102050905}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_empty]", "when": "call", "outcome": "passed", "duration": 0.01091754500521347, "monotonic": 241961.113175114}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_empty]", "when": "teardown", "outcome": "passed", "duration": 0.00011632201494649053, "monotonic": 241961.113442818}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_uuid_empty]", "monotonic": 241961.113733466}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_empty]", "when": "setup", "outcome": "passed", "duration": 0.0002694870054256171, "monotonic": 241961.114094398}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_empty]", "when": "call", "outcome": "passed", "duration": 0.009539724007481709, "monotonic": 241961.123836831}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_empty]", "when": "teardown", "outcome": "passed", "duration": 8.130999049171805e-05, "monotonic": 241961.124074942}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_uuid_one]", "monotonic": 241961.124387282}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_one]", "when": "setup", "outcome": "passed", "duration": 0.00022842598264105618, "monotonic": 241961.124694625}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_one]", "when": "call", "outcome": "passed", "duration": 0.01161541198962368, "monotonic": 241961.13649505}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_uuid_one]", "when": "teardown", "outcome": "passed", "duration": 0.0001159499806817621, "monotonic": 241961.136761323}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_uuid_one]", "monotonic": 241961.137050408}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_one]", "when": "setup", "outcome": "passed", "duration": 0.00031467402004636824, "monotonic": 241961.137456947}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_one]", "when": "call", "outcome": "passed", "duration": 0.016601934999926016, "monotonic": 241961.154433304}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_uuid_one]", "when": "teardown", "outcome": "passed", "duration": 0.00011765299132093787, "monotonic": 241961.154850518}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_int64_one]", "monotonic": 241961.155236277}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_int64_one]", "when": "setup", "outcome": "passed", "duration": 0.00036296501639299095, "monotonic": 241961.155683516}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_int64_one]", "when": "call", "outcome": "passed", "duration": 0.009564952022628859, "monotonic": 241961.165417937}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_int64_one]", "when": "teardown", "outcome": "passed", "duration": 8.759900811128318e-05, "monotonic": 241961.16563021}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_int64_one]", "monotonic": 241961.165964492}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_int64_one]", "when": "setup", "outcome": "passed", "duration": 0.00025963198277167976, "monotonic": 241961.166304012}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_int64_one]", "when": "call", "outcome": "passed", "duration": 0.009559464000631124, "monotonic": 241961.17605661}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_int64_one]", "when": "teardown", "outcome": "passed", "duration": 9.648199193179607e-05, "monotonic": 241961.176368159}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_two_mixed]", "monotonic": 241961.176661812}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_two_mixed]", "when": "setup", "outcome": "passed", "duration": 0.00022504100343212485, "monotonic": 241961.176963707}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_two_mixed]", "when": "call", "outcome": "passed", "duration": 0.009888797998428345, "monotonic": 241961.187014684}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_two_mixed]", "when": "teardown", "outcome": "passed", "duration": 0.00011030299356207252, "monotonic": 241961.1872423}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_two_mixed]", "monotonic": 241961.187511416}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_two_mixed]", "when": "setup", "outcome": "passed", "duration": 0.000334123003995046, "monotonic": 241961.187925777}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_two_mixed]", "when": "call", "outcome": "passed", "duration": 0.011159621994011104, "monotonic": 241961.199256891}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_two_mixed]", "when": "teardown", "outcome": "passed", "duration": 8.855000487528741e-05, "monotonic": 241961.19946704}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_unicode]", "monotonic": 241961.199892287}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_unicode]", "when": "setup", "outcome": "passed", "duration": 0.000306320987874642, "monotonic": 241961.20028099}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_unicode]", "when": "call", "outcome": "passed", "duration": 0.011434936022851616, "monotonic": 241961.211905546}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_unicode]", "when": "teardown", "outcome": "passed", "duration": 0.00012663699453696609, "monotonic": 241961.21220717}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_unicode]", "monotonic": 241961.212484609}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_unicode]", "when": "setup", "outcome": "passed", "duration": 0.00023929300368763506, "monotonic": 241961.212802617}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_unicode]", "when": "call", "outcome": "passed", "duration": 0.014737791992956772, "monotonic": 241961.227707616}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_unicode]", "when": "teardown", "outcome": "passed", "duration": 8.708800305612385e-05, "monotonic": 241961.227914851}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_controls]", "monotonic": 241961.228235924}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_controls]", "when": "setup", "outcome": "passed", "duration": 0.00024400901747867465, "monotonic": 241961.228623936}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_controls]", "when": "call", "outcome": "passed", "duration": 0.010188829997787252, "monotonic": 241961.238968526}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_controls]", "when": "teardown", "outcome": "passed", "duration": 8.328197873197496e-05, "monotonic": 241961.239336819}
+{"event": "start", "nodeid": "::test_jsonb_state_families[r_controls]", "monotonic": 241961.239632615}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_controls]", "when": "setup", "outcome": "passed", "duration": 0.00023501599207520485, "monotonic": 241961.239948891}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_controls]", "when": "call", "outcome": "passed", "duration": 0.01035813000635244, "monotonic": 241961.25051008}
+{"event": "report", "nodeid": "::test_jsonb_state_families[r_controls]", "when": "teardown", "outcome": "passed", "duration": 0.00010232100612483919, "monotonic": 241961.250744726}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count9]", "monotonic": 241961.251017137}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9]", "when": "setup", "outcome": "passed", "duration": 0.000264729984337464, "monotonic": 241961.251360653}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9]", "when": "call", "outcome": "passed", "duration": 0.010409406007966027, "monotonic": 241961.261922323}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9]", "when": "teardown", "outcome": "passed", "duration": 8.326300303451717e-05, "monotonic": 241961.262147285}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count10]", "monotonic": 241961.262398875}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10]", "when": "setup", "outcome": "passed", "duration": 0.0002297690080013126, "monotonic": 241961.262706899}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10]", "when": "call", "outcome": "passed", "duration": 0.010430958005599678, "monotonic": 241961.273287537}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10]", "when": "teardown", "outcome": "passed", "duration": 8.988199988380075e-05, "monotonic": 241961.273496204}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count9999]", "monotonic": 241961.273980157}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9999]", "when": "setup", "outcome": "passed", "duration": 0.00028377800481393933, "monotonic": 241961.274354549}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9999]", "when": "call", "outcome": "passed", "duration": 0.010579926980426535, "monotonic": 241961.285159067}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count9999]", "when": "teardown", "outcome": "passed", "duration": 0.00011423800606280565, "monotonic": 241961.285424728}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count10000]", "monotonic": 241961.285800903}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10000]", "when": "setup", "outcome": "passed", "duration": 0.00025096998433582485, "monotonic": 241961.286180041}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10000]", "when": "call", "outcome": "passed", "duration": 0.008504859986715019, "monotonic": 241961.294842574}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count10000]", "when": "teardown", "outcome": "passed", "duration": 8.195999544113874e-05, "monotonic": 241961.295033565}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count2p53m1]", "monotonic": 241961.295278436}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53m1]", "when": "setup", "outcome": "passed", "duration": 0.0002158980059903115, "monotonic": 241961.295573561}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53m1]", "when": "call", "outcome": "passed", "duration": 0.008637224993435666, "monotonic": 241961.304353986}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53m1]", "when": "teardown", "outcome": "passed", "duration": 8.135999087244272e-05, "monotonic": 241961.304544407}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count2p53]", "monotonic": 241961.30477742}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53]", "when": "setup", "outcome": "passed", "duration": 0.00022025499492883682, "monotonic": 241961.305081198}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53]", "when": "call", "outcome": "passed", "duration": 0.009379247989272699, "monotonic": 241961.314677896}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count2p53]", "when": "teardown", "outcome": "passed", "duration": 9.218498598784208e-05, "monotonic": 241961.314887285}
+{"event": "start", "nodeid": "::test_jsonb_state_families[f_count17digits]", "monotonic": 241961.315205984}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count17digits]", "when": "setup", "outcome": "passed", "duration": 0.0002371500013396144, "monotonic": 241961.31553541}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count17digits]", "when": "call", "outcome": "passed", "duration": 0.009244418004527688, "monotonic": 241961.324962467}
+{"event": "report", "nodeid": "::test_jsonb_state_families[f_count17digits]", "when": "teardown", "outcome": "passed", "duration": 0.00015089201042428613, "monotonic": 241961.325272994}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[canonical_below]", "monotonic": 241961.325570703}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_below]", "when": "setup", "outcome": "passed", "duration": 0.0002369490102864802, "monotonic": 241961.325903313}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_below]", "when": "call", "outcome": "passed", "duration": 1.0523214369895868, "monotonic": 241962.378507356}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_below]", "when": "teardown", "outcome": "passed", "duration": 0.00011716200970113277, "monotonic": 241962.378860566}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[canonical_equal]", "monotonic": 241962.379223671}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_equal]", "when": "setup", "outcome": "passed", "duration": 0.00022566199186258018, "monotonic": 241962.379529952}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_equal]", "when": "call", "outcome": "passed", "duration": 0.9530786460090894, "monotonic": 241963.332890914}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_equal]", "when": "teardown", "outcome": "passed", "duration": 0.00014832898159511387, "monotonic": 241963.333260738}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[canonical_above]", "monotonic": 241963.333620228}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_above]", "when": "setup", "outcome": "passed", "duration": 0.0005178120045457035, "monotonic": 241963.334237878}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_above]", "when": "call", "outcome": "passed", "duration": 0.9250198130030185, "monotonic": 241964.259539897}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[canonical_above]", "when": "teardown", "outcome": "passed", "duration": 0.00011665202328003943, "monotonic": 241964.259871325}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[native_below]", "monotonic": 241964.26039713}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_below]", "when": "setup", "outcome": "passed", "duration": 0.00022299800184555352, "monotonic": 241964.260705915}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_below]", "when": "call", "outcome": "passed", "duration": 0.9416860700002871, "monotonic": 241965.202662903}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_below]", "when": "teardown", "outcome": "passed", "duration": 0.00011733302380889654, "monotonic": 241965.202989274}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[native_equal]", "monotonic": 241965.203378297}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_equal]", "when": "setup", "outcome": "passed", "duration": 0.00022050499683246017, "monotonic": 241965.203683216}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_equal]", "when": "call", "outcome": "passed", "duration": 0.9569830209948123, "monotonic": 241966.161001371}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_equal]", "when": "teardown", "outcome": "passed", "duration": 0.0001259359996765852, "monotonic": 241966.161412546}
+{"event": "start", "nodeid": "::test_jsonb_full_size_edges[native_above]", "monotonic": 241966.161776252}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_above]", "when": "setup", "outcome": "passed", "duration": 0.0002230280078947544, "monotonic": 241966.162083305}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_above]", "when": "call", "outcome": "passed", "duration": 0.9178935940144584, "monotonic": 241967.080288347}
+{"event": "report", "nodeid": "::test_jsonb_full_size_edges[native_above]", "when": "teardown", "outcome": "passed", "duration": 0.0001230109774041921, "monotonic": 241967.080695857}
+{"event": "start", "nodeid": "::test_jsonb_unrepresentable_unicode[nul]", "monotonic": 241967.081028257}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[nul]", "when": "setup", "outcome": "passed", "duration": 0.00024075398687273264, "monotonic": 241967.081353496}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[nul]", "when": "call", "outcome": "passed", "duration": 0.0068137290072627366, "monotonic": 241967.088323775}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[nul]", "when": "teardown", "outcome": "passed", "duration": 7.241699495352805e-05, "monotonic": 241967.088505853}
+{"event": "start", "nodeid": "::test_jsonb_unrepresentable_unicode[high_surrogate]", "monotonic": 241967.088764314}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[high_surrogate]", "when": "setup", "outcome": "passed", "duration": 0.00017060100799426436, "monotonic": 241967.089076154}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[high_surrogate]", "when": "call", "outcome": "passed", "duration": 0.005556634976528585, "monotonic": 241967.094855357}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[high_surrogate]", "when": "teardown", "outcome": "passed", "duration": 9.37779841478914e-05, "monotonic": 241967.09508785}
+{"event": "start", "nodeid": "::test_jsonb_unrepresentable_unicode[low_surrogate]", "monotonic": 241967.09544086}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[low_surrogate]", "when": "setup", "outcome": "passed", "duration": 0.00016011600382626057, "monotonic": 241967.095693732}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[low_surrogate]", "when": "call", "outcome": "passed", "duration": 0.005361999006709084, "monotonic": 241967.101209789}
+{"event": "report", "nodeid": "::test_jsonb_unrepresentable_unicode[low_surrogate]", "when": "teardown", "outcome": "passed", "duration": 6.806998862884939e-05, "monotonic": 241967.101382694}
+{"event": "start", "nodeid": "::test_native_reservation_omission_controls", "monotonic": 241967.101630779}
+{"event": "report", "nodeid": "::test_native_reservation_omission_controls", "when": "setup", "outcome": "passed", "duration": 5.990898353047669e-05, "monotonic": 241967.101767841}
+{"event": "report", "nodeid": "::test_native_reservation_omission_controls", "when": "call", "outcome": "passed", "duration": 0.00798545399447903, "monotonic": 241967.109890758}
+{"event": "report", "nodeid": "::test_native_reservation_omission_controls", "when": "teardown", "outcome": "passed", "duration": 6.193100125528872e-05, "monotonic": 241967.110057624}
