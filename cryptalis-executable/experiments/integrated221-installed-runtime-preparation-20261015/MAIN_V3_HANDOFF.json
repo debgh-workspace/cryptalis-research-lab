@@ -1,0 +1,18 @@
+{
+  "assembler_sha256": "dfacbf88e0ffb2e8d34fda355874cfa945d9b0f5140cc9ebbe01daa121ff071a",
+  "entry_sha256": "2825dc1673d149c612d424b3bb1d5c757dd5cf65cf1aa64d0a5f173618fda9d0",
+  "guard_sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861",
+  "held_v1_seal_sha256": "205813c5a927cd42cdfa9b88595a02ee3da4a31843eb414066fcf31b4858d4c2",
+  "input_targets": 3024,
+  "inputs_sha256": "67785c91814ecfde44d54852f572d51de9dc2d908c6521e5c62a6680d281d37d",
+  "launcher_sha256": "fe7eb1d38cf826c79ecf201a330522f96501d4edc4d40b2f56f779df24f2acbc",
+  "members": 30,
+  "packet": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015",
+  "packet_members": 27,
+  "packet_seal": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-runtime-preparation-20261015/MAIN_V3_PACKET.sha256",
+  "packet_seal_sha256": "179e6c8ba812be83116852a6b6ce087d1444557a655e54f5c3760763fd1d61b4",
+  "postinstall_sha256": "9c2ec000ce886bb904c702f783f769cf44aef8ce3b3caba7ee345439e558f472",
+  "postinstall_targets": 112,
+  "runtime_executed": false,
+  "runtime_review_and_stage_binding": "PENDING_REAL_ACCEPTANCE"
+}
