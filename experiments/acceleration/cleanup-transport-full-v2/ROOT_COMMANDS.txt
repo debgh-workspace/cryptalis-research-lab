@@ -1,0 +1,15 @@
+# PROPOSED ONLY. Never execute this file wholesale.
+# First bind the externally reviewed PACKET.sha256 and entry/verifier digests,
+# read actual accepted verdicts, add the exact genuine clearance, and record
+# its digest. Coordinator decides scheduling after existing217 installed work.
+# No clearance is fabricated by preparation; no command was executed.
+
+# 1. Complete2678-ID main source SA21, using existing S25 dependency cell.
+/bin/bash /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-full-plan-v2-20261015/run-sa21.sh
+# STOP for independent full terminal audit; expected actual exit1 retains7fails.
+
+# 2. Only after accepted source218 full SA21 audit and genuine SA20 clearance.
+/bin/bash /workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-full-plan-v2-20261015/run-sa20.sh
+# STOP for independent full terminal audit; expected actual exit1 retains7fails.
+
+# Optional38: HOLD. No optional command or environment access is prepared here.

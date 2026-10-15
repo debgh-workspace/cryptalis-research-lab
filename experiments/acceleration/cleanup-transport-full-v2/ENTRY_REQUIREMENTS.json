@@ -1,0 +1,12 @@
+{
+  "clearance_semantics": "Coordinator checks actual accepted verdict, exact source/packet/command digest and scope; existence or token matching is insufficient. No clearance is prepared.",
+  "existing_required_reviews": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-full-sa20-independent-20261014/review.md": "704ab558a25e69fc17aecfe056fa4130f8d12d717469786776c07780a84c2b2a",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-full-sa21-independent-20261014/review.md": "1f7f9acbbc2677d9537dfa5bba83bf2ec4defb34e2e828b5629d9b384c913b38",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/transport-green-sa20-independent-20261015/review.md": "16a920242c20a763212e06249e458395ab2949e47d188a9ebe5d526f69bfd9cd",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/transport-green-sa21-independent-20261015/review.md": "773923ddee6e3e5d7a26be697b23c8a4716200748698758e2ef27b13cde1cea5"
+  },
+  "new_source_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/cleanup-transport-full-plan-v2-independent-20261015/review.md",
+  "sa20_additional_terminal_review": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/cleanup-transport-full-v2-sa21-independent-20261015/review.md",
+  "scheduling_hold": "Coordinator chooses whether and when after separate review and existing corrected217 installed work. Do not overlap lab sessions."
+}
