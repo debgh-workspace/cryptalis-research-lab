@@ -1,8 +1,9 @@
-# Integrated221 experimental checkpoint
+# Integrated221 current status
 
-Source reviewed and materialized; NOT runtime-qualified or released.
-First integrated111 SA21 run:77 PASS,1 FAIL,33 not executed. Failure: genuine v0 schema_abort-link expected TransitionFailure did not occur. Native mutation no-op hypothesis under independent investigation. Failure preserved, no assertion weakened. SA20/full-source/installed integration not run.
+Updated2026-10-15 14:08 UTC. Source221 manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520.
 
-This directory publishes the delta against Transport218 plus complete221-file source manifest; unchanged source is retained in earlier recovery checkpoints. Publication alone is not a tested complete source221 restore.
+Both focused111 cells and both full-source cells independently accepted. Full SA21:2684 PASS/0 FAIL/0 SKIP,56 passing subtests,471.98s. Full SA20:2638 PASS/0 FAIL/46 expected native-version SKIP,56 passing subtests,465.98s. Separate source SQLModel38:38 PASS/114 phases,8.28s, independent complete dependency/corpus/stop closure.
 
-Transport218 remains selected bounded installed baseline with seven historical failures. Focused corrected-contract16 PASS percell and separateCLUSTER39 PASS percell do not establish this integration. All34 product objectives and seven UNKNOWN qualification gates remain active.
+Seven historical expectation failures resolved with independent PostgreSQL and mutation controls. Original failures and failed self-reversing constraint mutation remain preserved; V3 fixture-only successor retains unchanged product221 and critical refusal assertions.
+
+Actual bounded reproducible package build exited0; independent five-artifact review pending. No installed221 acceptance or fresh-host provenance claimed. Highest accepted installed baseline remainsTransport218 with its recorded seven historical failures. Generic legacy recovery, all34 objectives and all7 UNKNOWN gates remain active.

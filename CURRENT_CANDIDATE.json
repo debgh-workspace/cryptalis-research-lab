@@ -15,5 +15,15 @@
     "safe-default legacy follow-on",
     "historical test-contract correction"
   ],
-  "qualification_gates": "all seven UNKNOWN"
+  "qualification_gates": "all seven UNKNOWN",
+  "engineering_source_221": {
+    "path": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "full_source_sa21": "2684PASS0FAIL0SKIP+56subtests",
+    "full_source_sa20": "2638PASS0FAIL46SKIP+56subtests",
+    "source_optional": "38PASS0FAIL0SKIP",
+    "packaging": "entry0, independent artifact audit pending",
+    "installed_qualification": "PENDING",
+    "all_seven_gates": "UNKNOWN"
+  }
 }
