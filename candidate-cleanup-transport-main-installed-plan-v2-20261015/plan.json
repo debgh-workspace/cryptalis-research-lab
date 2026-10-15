@@ -1,0 +1,20 @@
+{
+  "artifact_binding": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/cleanup-transport-installed-preparation-20261015/ACCEPTED_ARTIFACT_BINDING.json",
+  "cells": {
+    "sa20": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s23-installed-20261014/sa20",
+    "sa21": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s23-installed-20261014/sa21"
+  },
+  "execution_condition": "Complete original snapshot passed after coordinator reservation release. Fresh independent source/command review, external manifest digests, reconfirmed exclusive quiescence and explicit coordinator selection required. No installation or runtime permission.",
+  "expected_record_hashed_entries": 45,
+  "expected_runtime_modules": 41,
+  "proposed_output": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/cleanup-transport-installed-20261015",
+  "source": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-release-plan-v2-20261015/source",
+  "source_files": 218,
+  "source_manifest": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-release-plan-v2-20261015/CANDIDATE_SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204",
+  "status": "TRANSPORT218_V1_SOURCE_ONLY_EXECUTION_HOLD",
+  "uv": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+  "uv_sha256": "abdc39eab8b4ad341dca91f3823a23a343fae94bdb22ebdd9e91694415206f2f",
+  "wheel": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-transport-release-plan-v2-20261015/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "73c066adfce04d4efc3dd02c713e0d8ae0610497fb045ebb1484f54a8bb55e88"
+}
