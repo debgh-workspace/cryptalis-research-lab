@@ -1,0 +1,19 @@
+{
+  "selected_at": "2026-10-15T11:36:00Z",
+  "candidate": "cryptalis-executable/candidate-cleanup-transport-metadata-20261014",
+  "files": 218,
+  "manifest_sha256": "b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204",
+  "status": "bounded installed results audited; seven known failures; not production qualified",
+  "terminal_reviews": {
+    "cleanup-transport-installed-full-sa21-independent-20261015/review.md": "7bc674754843fdc7669d7811df29e26e1ddf575fd67a82a493372c4a7164b3be",
+    "cleanup-transport-installed-full-sa20-independent-20261015/review.md": "df54aaa456cc085a8d7d6f7d510aa881d42c0d2cc207ccfe8faa67240fe3190f",
+    "cleanup-transport-installed-optional38-clean-independent-20261015/review.md": "d5c4b4c55303a1a4ee2acf8db171c57b575888b13c44769f478ef067c5b972f9"
+  },
+  "optional_limit": "Safe recorded result accepted; no independent live corpus boundary after reuse",
+  "not_integrated": [
+    "CLUSTER designation correction",
+    "safe-default legacy follow-on",
+    "historical test-contract correction"
+  ],
+  "qualification_gates": "all seven UNKNOWN"
+}
