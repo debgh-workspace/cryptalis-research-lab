@@ -1,0 +1,199 @@
+{
+  "entry_pinned_external_inputs10": [
+    {
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861"
+    },
+    {
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "fe7eb1d38cf826c79ecf201a330522f96501d4edc4d40b2f56f779df24f2acbc"
+    },
+    {
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA21.json",
+      "resolution": "External referent not followed or restored",
+      "sha256": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54"
+    },
+    {
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/CANDIDATE_SOURCE_MANIFEST.json",
+      "resolution": "External referent not followed or restored",
+      "sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520"
+    },
+    {
+      "path": "candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453"
+    },
+    {
+      "path": "candidate-corpus-wrapper-v2-20261014/corpus_artifacts_v2.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "4c0429a182b5b7a2f7e561892936dba89ed279583bff181b18238f50485de86f"
+    },
+    {
+      "path": "toolchain/lab_progress.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "673e3d41398f6be36876008f80110b313ad86553363052c8f14a25e1c47b93c1"
+    },
+    {
+      "path": "toolchain/run_baseline.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "a88c24fa1699ce42a091c9d2da1168ba453d4548a811d542316fe95cb833d00f"
+    },
+    {
+      "path": "repo/scripts/test_postgres.py",
+      "resolution": "External referent not followed or restored",
+      "sha256": "118952d57d777d692adf1f1447fedbb612030fd3266c9374680d347bb501fd12"
+    },
+    {
+      "path": "experiments/abort-envelope-native-probe-v1-20261015/SHA256SUMS.txt",
+      "resolution": "External referent not followed or restored",
+      "sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5"
+    }
+  ],
+  "meaning": "References retained as inert provenance only. None was followed or restored as a dependency. Selected-file integrity does not establish runnable or complete environment recovery.",
+  "prior_terminal_review": {
+    "closed_outcome": "CLOSED_FAILURE",
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/abort-envelope-native-terminal-independent-20261015/REVIEW.md",
+    "root_semantic_verdict_confirmed": true,
+    "sha256": "14492777a41a76912c1f5d92ae473d44ac6f9aa6c6d594ed3f9f084d0340ed0e",
+    "source_packet": "experiments/abort-envelope-native-probe-v1-20261015",
+    "source_packet_seal_sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5"
+  },
+  "runtime_source_binding": {
+    "runtime_binding_sha256": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54",
+    "runtime_targets_reported": 3025,
+    "source221_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "source221_payloads": 221
+  },
+  "source_inputs_19": [
+    {
+      "bytes": 10962,
+      "path": "reviewer-notes/abort-envelope-unit-terminal-independent-20261015/AUDIT.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "2e31beb778ec9b3ebd0b2c78c57f8cce53bbbe9b848a107301edd61cfdd39e1e"
+    },
+    {
+      "bytes": 8586,
+      "path": "experiments/aborted-successor-envelope-v1-20261015/NATIVE_PROTOCOL.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "03c7d773f3c000718cf9ce8d01c342abce4dfc9ab5d679610675eaaf5cc5f193"
+    },
+    {
+      "bytes": 4437,
+      "path": "experiments/aborted-successor-envelope-v1-20261015/correction-v2/CORRECTION.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "53edcb4d141327c3b9b64865c929388919a55938a508e852de8ad7b01cf9043b"
+    },
+    {
+      "bytes": 5765,
+      "path": "experiments/json-transport-native-probe-v2-20261015/run-probe.sh",
+      "resolution": "External provenance path not followed",
+      "sha256": "5e62d22d32ee3e406a0885f86c6166c875c6f45733102650927993e82668ab44"
+    },
+    {
+      "bytes": 10987,
+      "path": "experiments/json-transport-native-probe-v2-20261015/admit_packet.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "096f201196f4a6a5ce17e2be31b5b29db0c1c6876cdad72729408dae2886b47e"
+    },
+    {
+      "bytes": 3682,
+      "path": "experiments/json-transport-native-probe-v2-20261015/COMMAND_ARGV.json",
+      "resolution": "External provenance path not followed",
+      "sha256": "93abc4fc4ca83c3e421095caa1f6415d0e4fdbbc5fe48a5ad4e578e7d0d03b06"
+    },
+    {
+      "bytes": 1584,
+      "path": "experiments/json-transport-native-probe-v2-20261015/conftest.py",
+      "resolution": "External provenance path not followed",
+      "selected_file_with_equivalent_digest": "research/abort-envelope-native-probe-v2-20261015/conftest.py",
+      "sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"
+    },
+    {
+      "bytes": 18114,
+      "path": "experiments/json-transport-native-probe-v2-20261015/test_native_transport.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "8f848a77c42067c79f9070cfc7ce2c8c2cd1c6eff64a08cc6e33e938b4f00faa"
+    },
+    {
+      "bytes": 11701,
+      "path": "reviewer-notes/json-transport-native-probe-independent-20261015/REVIEW.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "d3d1c24896b6d6e5c1454ba60a21cbaf15ab9e7d50f497707db58b9e1e3e6b58"
+    },
+    {
+      "bytes": 1321,
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "fe7eb1d38cf826c79ecf201a330522f96501d4edc4d40b2f56f779df24f2acbc"
+    },
+    {
+      "bytes": 24848,
+      "path": "experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861"
+    },
+    {
+      "bytes": 10046,
+      "path": "candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453"
+    },
+    {
+      "bytes": 591,
+      "path": "experiments/abort-envelope-native-probe-v1-20261015/SHA256SUMS.txt",
+      "resolution": "External provenance path not followed",
+      "sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5"
+    },
+    {
+      "bytes": 17862,
+      "path": "experiments/abort-envelope-native-probe-v1-20261015/test_native_envelope.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "20d2727f58101a6f5378e3b23714d4cf87ff73f98b519386c7e7a5dc11c373b8"
+    },
+    {
+      "bytes": 12619,
+      "path": "experiments/abort-envelope-native-probe-v1-20261015/PROTOCOL.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "86a90698aa6ec6e77746d6d7c0b0b97d776550c7613dce08b9d8e3b4e241534b"
+    },
+    {
+      "bytes": 404,
+      "path": "experiments/abort-envelope-native-entry-v1-20261015/SHA256SUMS.txt",
+      "resolution": "External provenance path not followed",
+      "sha256": "9f7b4230ef29b37cbc98b69e76afa799906f42f66cac8d7472f67db04dc1dec1"
+    },
+    {
+      "bytes": 16576,
+      "path": "experiments/abort-envelope-native-entry-v1-20261015/entry.py",
+      "resolution": "External provenance path not followed",
+      "sha256": "b695a329fcc3d5de1c3567d175eb89ceba1d2e00b4272e598cca2900ef9bb06e"
+    },
+    {
+      "bytes": 10316,
+      "path": "reviewer-notes/abort-envelope-native-entry-independent-20261015/REVIEW.md",
+      "resolution": "External provenance path not followed",
+      "sha256": "5458d39b16407874edc164a6b66de6f931750b4c8ef644fd2e06b23eb3af01c5"
+    },
+    {
+      "bytes": 997,
+      "path": "evidence/abort-envelope-native-probe-v1-sa21-20261015/tests.log",
+      "resolution": "External provenance path not followed",
+      "sha256": "b112ece88f33534f34e0ebda2d387c959c432f8e28b005eab3fe609f847e6460"
+    }
+  ],
+  "unpublished_evidence_categories": [
+    "V1 source, entry, seals, terminal review and failed run evidence needed to re-prove predecessor and exact delta",
+    "Original 249-file / 6,577,713-byte frozen-input archive, archive receipt and original source221 payloads",
+    "Original 124 progress events / 93 phases, junit.xml, runner receipt and accounting.json needed to independently re-prove all passed phases",
+    "Original root invocation and entry stdout/stderr/exit evidence; pre/post status captures; wrapper.log and successful postgres-stop.log",
+    "Original runtime-before/after reports and four binding manifests / 3,025 targets / 27 guard members",
+    "Original source-before/source-stability and 160-file archive; external source snapshots and archives",
+    "Original corpus-before/after/prior maps, isolation receipt and corpus26 payloads; candidate corpus directory state",
+    "Original auditor READ_MANIFEST.json, METADATA_MANIFEST.json and CHECKS.json supporting the reported 5,124 historical checks",
+    "Original installed interpreters, psycopg/pytest environment, PostgreSQL toolchain, server/data directories, preflight, origin and locking machinery",
+    "Runtime credential/environment material, caches and held capsules are outside scope and were not read; no execution or renewed authorization is inferred",
+    "Native text and complete original synthetic state payloads are not persisted in the selected ledger; fingerprints and complete recorded state joins are verified, not newly reconstructed raw payloads"
+  ]
+}
