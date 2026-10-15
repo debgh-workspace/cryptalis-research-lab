@@ -1643,11 +1643,32 @@
       "subtests_pass": 56,
       "seconds": 465.98
     },
-    "optional38": "entry0 and stopped/corpus boundary; independent audit pending",
+    "optional38": "independently accepted38PASS/114phases,8.28s; complete dependency/corpus boundary verified",
     "installed_baseline": "Transport218; seven historical failures retained",
-    "packaging221": "source-command approved; not run",
-    "last_verified_remote_head": "7a3b16a0e417c5ac76a86bc02b3a36e9daffcf57",
+    "packaging221": "independently accepted",
+    "last_verified_remote_head": "2b5124c47e6b3188f22282af547bdc330eca8abb",
     "all_34_objectives_active": true,
-    "all_seven_gates": "UNKNOWN"
+    "all_seven_gates": "UNKNOWN",
+    "installed221": "all three cells entry0; independent payload audits pending",
+    "focused_remote_archive": "all17 parts and manifest exact remote bytes; fresh remote inert restore pending",
+    "smoke_fixture_acl_approval": "PENDING Sentinel_d4be0bfc407881d19ce0ef871aa5304d"
+  },
+  "current_coordinator_status": {
+    "updated_utc": "2026-10-15T14:54:00Z",
+    "owner": "current root coordinator",
+    "database": "stopped; no DB test running",
+    "remote_head_verified": "d952c505a4666266019e32f27c77f93edd5151ca",
+    "candidate_source": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "source_main": "both accepted zero failures",
+    "source_optional": "38 accepted",
+    "packaging": "accepted three identical wheels/two identical sdists",
+    "main_install": "independent payload audit accepted",
+    "optional_install": "independent payload audit accepted;41 inherited dependency omissions explicit",
+    "installed_tests": "not started; bytecode-suppression launcher under source review",
+    "focused_recovery": "independently accepted actual remote-byte restore",
+    "smoke": "V5 source accepted; installed admission and fixture ACL approval pending",
+    "pending_approval_message": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
+    "next": "finish payload/runtime audits, run installed SA21 then SA20 then optional38 under unchanged preflights/lock; no duplicate tests",
+    "preview_docs": "v4 all16files exact remote bytes; docs-only package README correction proposed"
   }
 }

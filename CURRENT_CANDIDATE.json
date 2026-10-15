@@ -22,8 +22,9 @@
     "full_source_sa21": "2684PASS0FAIL0SKIP+56subtests",
     "full_source_sa20": "2638PASS0FAIL46SKIP+56subtests",
     "source_optional": "38PASS0FAIL0SKIP",
-    "packaging": "entry0, independent artifact audit pending",
-    "installed_qualification": "PENDING",
-    "all_seven_gates": "UNKNOWN"
+    "packaging": "independently accepted same-host reproducibility: 3 identical wheels and 2 identical sdists",
+    "installed_qualification": "all three fresh payloads independently accepted; installed runtime tests pending reviewed launcher",
+    "all_seven_gates": "UNKNOWN",
+    "focused_remote_recovery": "independently accepted actual GitHub-byte restore at2b5124c47e6b3188f22282af547bdc330eca8abb"
   }
 }
