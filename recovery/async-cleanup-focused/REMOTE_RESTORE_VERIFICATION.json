@@ -1,0 +1,62 @@
+{
+  "all_restored_files_mode": "0600",
+  "all_seven_gates": "UNKNOWN",
+  "archive_bytes": 1029680,
+  "archive_code_executed": false,
+  "archive_sha256": "1c6f9900389f61826d1f1d427a0bfc94e5f3cc20fee0f758281b928a896129af",
+  "authenticated_provenance_sha256": "93b32a8e71db994724409f506c3040e3aad64c9b03a650cf14df7f970e1d7995",
+  "authentication_scope": "Exact externally authenticated and independently pinned commit plus twelve per-file readback receipts; this offline checker cannot authenticate a network service or distinguish dishonestly relabeled staging bytes.",
+  "complete_name_type_header_bounds_before_member_body_reads": true,
+  "complete_output_and_input_readbacks_verified": true,
+  "exact_allowlist_sha256": "8625a305e537c397a65ed75a8f113bf28c6396e6aa7c36a86f93b90907524176",
+  "exact_regular_members": 516,
+  "extraction_directory": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/async-cleanup-focused-remote-fresh-extraction",
+  "focused_recorded_results": {
+    "green_sa20": {
+      "nodes": 46,
+      "passed": 46
+    },
+    "green_sa21": {
+      "nodes": 46,
+      "passed": 46
+    },
+    "red_sa20": {
+      "failed": 13,
+      "nodes": 22,
+      "passed": 9
+    },
+    "red_sa21": {
+      "failed": 13,
+      "nodes": 22,
+      "passed": 9
+    }
+  },
+  "frozen_manifest_sha256": "e755ba583e885515848bc4334925ba57c11a03f88708f5ad2e44ee5a7792d174",
+  "full217source_directory": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/async-cleanup-focused-remote-full217source",
+  "full_matrix_qualification": "PENDING_SEPARATE",
+  "full_suite_current_run_included": false,
+  "green_source_hashes_verified": true,
+  "historical_seven_acceptance_failures": "Unresolved prior disposition preserved; not rerun or reclassified.",
+  "independent_archive_review_sha256": "cedb958ec9a873b49d8d6baa96bc55c348cd076d4840fd54fda3b22dc09d983a",
+  "installed_qualification": "PENDING_SEPARATE",
+  "member_bytes": 9148868,
+  "new_secret_scan_performed": false,
+  "operational_environment_restore_claimed": false,
+  "part_manifest_sha256": "95283f84eebc99775c574a6c2bc6c832c20bd9cedbe0edffdc5f4109adb24ca8",
+  "parts_verified": 11,
+  "product_imports_tests_network_git_databases_subprocesses": false,
+  "recorded_results_scope": "Preserved accepted byte evidence only; no fresh runtime result or separate node reconciliation is claimed.",
+  "red_and_baseline_byte_reconstruction_verified": true,
+  "remote_commit_sha": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+  "remote_files_verified": 12,
+  "remote_prefix": "recovery/async-cleanup-focused/parts",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "restored_full217source_bytes": 4423405,
+  "restored_full217source_files": 217,
+  "runtime_dependency_database_state_restored": false,
+  "security_qualification_or_universal_quarantine_claimed": false,
+  "status": "PASS_COORDINATOR_AUTHENTICATED_REMOTE_DATA_ONLY_CLEANUP_RESTORE",
+  "synthetic_fixture_disposition_sha256": "640f4a4727d588a5f5b03d11941d9e482b2430dfecc12f4252a4850589c3a022",
+  "synthetic_fixture_dispositions_preserved": 2,
+  "tar_bytes": 9543680
+}

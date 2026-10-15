@@ -4,17 +4,19 @@
 
 ## Identity and recovery
 
-### Current reconciled boundary — 2026-10-15 00:39 UTC
+### Current reconciled boundary — 2026-10-15 01:09 UTC
 
-S25 remains the highest broadly verified bounded candidate:216 source files; full source and installed SA21 2632PASS/7FAIL/0SKIP, SA20 2586PASS/7FAIL/46SKIP,56 separate subtests each; optionalSQLModel38 source/installed accepted. Main remainsS14; all seven gates UNKNOWN.
+S25 remains the highest broadly verified installed candidate. The 217-file cleanup correction now has accepted full source matrices: SA21 2654 PASS / 7 historical FAIL / 0 SKIP in 411.03 seconds; SA20 2608 PASS / 7 historical FAIL / 46 SKIP in 397.02 seconds; 56 passing subtests each. Optional SQLModel 38 PASS in 5.55 seconds is independently accepted. All original outcomes and the 22 new cases are reconciled.
 
-Cleanup focused RED13FAIL9PASS and GREEN46PASS are accepted in both cells. Corrected fullSA21 just completed2654PASS/7FAIL/56subtests in411.03seconds; final independent report is being sealed. SA20/optional/installed correction qualification are pending. Internal transport RED8FAIL9PASS accepted in both cells; GREEN unrun.
+Corrected packaging is independently accepted: repeated sdists and direct/roundtrip wheels are byte-identical, with only the expected runtime change. Wheel SHA256 77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b. Fresh installed correction preparation is in progress; no installed correction qualification yet.
 
-Statistics V4 has99 accepted cases per cell across six separate groups, remains private/unhooked and has no accepted end-to-end performance gain. Cleanup focused capsule516members/full217source is independently accepted locally; remote publication pending. Existing S25 source/installed and statistics remote restores remain preserved. No data restore is operational/runtime/dependency/database recovery.
+Focused cleanup remote checkpoint 86fb0e26ac4032a405b8c077939eb3e288e69db5 has all 11 parts and manifest verified from authenticated same-commit bytes. Strict fresh restore passed all 516 members and complete 217-file source. This focused snapshot excludes later full-suite/build evidence; additive preparation is separate.
 
-Seven historical acceptance failures and all pending owner decisions remain unresolved. Original objective text and acceptance boxes are unchanged. Later chronological entries refine these current observations.
+Internal transport GREEN SA21 independently accepted 17 PASS; GREEN SA20 recorded 17 PASS in 0.18 seconds and awaits independent review. Statistics V4 remains 99 accepted cases per cell across six separate groups, private and unhooked. The initial mutation preparation remains HOLD after a cache-scope incident; fresh safe V2 has independent source review underway and has not run.
 
-- Last updated UTC: `2026-10-15T00:39:00Z`
+Seven historical acceptance failures and pending owner decisions remain unresolved. Main remains S14. All seven qualification gates remain UNKNOWN; no measured end-to-end performance improvement or production qualification is claimed. All 34 product objectives remain preserved.
+
+- Last updated UTC: `2026-10-15T01:09:00Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest verified bounded source-overlay candidate: S25 `candidate-s25-async-sqlmodel-integration-20261014`,216 files, manifest3fc6eb1e3a70a4401aec1338798463b6d7170992539723b4ed294f247f5fd703. Full main SA2.1:2632PASS/7FAIL/0SKIP; SA2.0:2586PASS/7FAIL/46SKIP;56 passing subtests each; exact R3 IDs/outcomes/failure messages retained. Separate supported SQLModel cell38PASS. Source checkpoint9e57de7756c90d73b98bc89a1594f51e0c47e3f3 all10files remotely exact. Installed S25 full main suites now independently match these same outcomes: SA21 397.75s, SA20 397.95s; separate installed SQLModel 38 PASS in5.26s. Separate-process origin checks do not attest continuously to every pytest/subprocess import. Main remainsS14;all7gatesUNKNOWN. Historical S23 checkpoint and complete recovery retained below.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1302,3 +1304,21 @@ Frozen focused recovery capsule independently accepted: 516 regular members, all
 SA21 full-source audit ACCEPT_BOUNDED_FULL_SA21_SOURCE: all2661ordinaryIDs match expected outcomes,2654PASS/7unchangedhistoricalFAIL; all22newcases pass,56subtests and50warning bodies retained. Exact217/156/155source captures,566inputs,clearance,26corpus restoration and explicitstop0 verified. Generated16-record corpus matches bothS25full archives except12 operation-ID tokens. Two reviewer-method assumptions were corrected with failures preserved; no product oracle changed. Review SHA2561f7f9acbbc2677d9537dfa5bba83bf2ec4defb34e2e828b5629d9b384c913b38.
 
 SA20 exact reviewed entry started00:40:21UTC, clearance e06580217479f893051006715cd9a08713c1887b4c69f126ca96010c1ff7e7a6; no terminal result. Optional38 remains gated. Separate transport source/RED review checkpoint645c396419576817aee408992b1bbdde421dd648 contains ten remotely exact files; itsGREEN remains unrun.
+
+### Both full source cells accepted; optional38 terminal — 2026-10-15 00:53 UTC
+
+SA20 independent audit ACCEPT_BOUNDED_FULL_SA20_SOURCE:2661 exact ordinaryIDs,2608PASS/7unchangedFAIL/46unchangedSKIP,56passing subtests and2warnings. Exact pins, source, corpus archives/restoration and explicitstop0 verified. Review SHA256704ab558a25e69fc17aecfe056fa4130f8d12d717469786776c07780a84c2b2a.
+
+Optional38 ran through the unchanged wrapper with reviewed three-file inventory guard before/after.38PASS5.55s; allfive coordinatorcommands0, before/wrapper/after0, explicitstop0. Independent audit pending. Build remains held for that acceptance. Cleanup recovery firsteight parts are remotely exact at071d01e8f629e37fc8299728efe99dce45e2fc69; finalthree/manifest and strictremote restore pending.
+
+Statistics forced-present preparation is HOLD: six prohibited generated cache payloads were copied/hashed locally. No execution or remote action occurred. Filename-only incident preserved separately; fresh authored38-file V2 preparation is underway. Existing accepted statistics results are unchanged.
+
+### Cleanup focused remote recovery complete — 2026-10-15 00:58 UTC
+
+Final checkpoint86fb0e26ac4032a405b8c077939eb3e288e69db5 preserves11parts+manifest, all12actual authenticated same-commit bodies verified. Strict fresh inert restore passed516members plus separate complete217source reconstruction. Archive1,029,680bytes SHA2561c6f9900389f61826d1f1d427a0bfc94e5f3cc20fee0f758281b928a896129af; provenance93b32a8e71db994724409f506c3040e3aad64c9b03a650cf14df7f970e1d7995. Earlier071d01e8 retainsfirst8parts. Cancelledpart10 was reconciled404 before identicalsuccessfulretry. This focusedsnapshot excludes laterfullmatrixresults; no runtime/dependency/database restoration claim.
+
+### Cleanup source and packaging accepted — 2026-10-15 01:09 UTC
+
+Optional38 independent review SHA256 41972f42313c765c0a7c927ac8c068ba88559889c744edcbc41be76b65af980d accepts all 38 cases and 114 phases, unchanged original oracles, exact source/dependency pins, corpus restoration and explicit shutdown. Packaging review SHA256 275f4e0bbe4b9ce74e5b285393a499c5496f5af9edc9cb77c330fa630d137144 accepts exact 217-file source, 41 modules, 46 RECORD rows/45 hashes, two identical sdists and direct/roundtrip wheel, expected S25 delta only, all pre/post checks and terminal exit0. Wheel 77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b; sdist f921da5830bcb3b0c7befb10e05f23346b2ab874c487175217be4a5e752706f7. The 120-second receipt value is a configured deadline, not measured elapsed time. Installed correction and broader release qualification remain pending.
+
+Transport GREEN SA21 independently accepted all17 cases/51 phases; review SHA256773923ddee6e3e5d7a26be697b23c8a4716200748698758e2ef27b13cde1cea5. Counterpart SA20 recorded17PASS0.18s, outer/wrapper0 and all driver pre/post pins0; final independent audit pending. This isolated 218-file transport candidate is not promoted into the packaged217-file correction.

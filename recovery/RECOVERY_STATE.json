@@ -1,10 +1,10 @@
 {
-  "observed_at_utc": "2026-10-15T00:34:00Z",
+  "observed_at_utc": "2026-10-15T01:09:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S25 accepted source/fullinstalled matrix and optional38; seven historical failures unresolved. Cleanup full correction qualification in progress.",
+  "latest_candidate_status": "S25 remains highest broadly verified installed candidate; cleanup217 full source matrices and optional38 plus packaging independently accepted; fresh installed qualification pending; seven historical failures and all gates unresolved.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "645c396419576817aee408992b1bbdde421dd648",
+  "latest_verified_remote_commit": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
   "latest_integrated_candidate": "S25: highest broadly verified bounded candidate,216files.",
   "current_experiment": "ASYNC-EXIT-PRIMARY-01 focused RED/GREEN verified in both dependency cells, full source and installed matrix pending; internal transport metadata follow-on remains source-only.",
   "s5_remote_byte_restore_files": 3579,
@@ -42,8 +42,8 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-15T00:40:45Z",
-  "current_operation": "Full cleanup SA21 independently accepted. Full SA20 now running through exact reviewed entry, session63837; no terminal result.",
+  "updated_utc": "2026-10-15T00:58:50Z",
+  "current_operation": "Both main cleanup source matrices independently accepted; optional38 passed, audit pending. Packaging waits optional acceptance. Cleanup recovery parts1-8 remotely exact, final3 uploading.",
   "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
@@ -374,12 +374,12 @@
     "fresh_installed_restore": "23PASS17subtests8.42s;existingcluster",
     "all_seven_gates": "UNKNOWN"
   },
-  "active_database_owner": "Coordinator",
+  "active_database_owner": null,
   "pending_online_prototype_approval": {
     "message_id": "Sentinel_f9407ee631c081d1a92fb471b6262b6f",
     "status": "PENDING; no new privilege authority"
   },
-  "active_database_run": "async-cleanup-full-integration-sa20-20261014",
+  "active_database_run": null,
   "latest_slice_publications": {
     "B7": "9d4f65822cfe11e8a29fa99a9b599cc1c746123f",
     "C8_source_only": "573fd72df2b787aa53d32a47e0fb6f8c26534f49"
@@ -915,9 +915,9 @@
     "recovery_artifact": "CRYPTALIS_S21_SOURCE_EVIDENCE_20261014.tar.xz"
   },
   "current_execution": {
-    "status": "ASYNC_CLEANUP_FULL_SA20_RUNNING",
+    "status": "OPTIONAL38_TERMINAL_AUDIT_PENDING",
     "candidate": "candidate-next-unblocked-correctness-20261014",
-    "database_owner": "Coordinator",
+    "database_owner": "None; stopped",
     "targeted": "3 PASS; five completion receipts independently accepted",
     "installed_legacy_sa21": "10 PASS/14.18s; independent audit 137/137 checks passed",
     "installed_legacy_sa20": "10 PASS/15.41s; independent audit 137/137 checks passed",
@@ -1438,10 +1438,31 @@
       "safe_stop_exit": 0
     },
     "full_sa20": {
-      "status": "RUNNING",
+      "status": "ACCEPT_BOUNDED_FULL_SA20_SOURCE",
       "session_id": 63837,
       "started_utc": "2026-10-15T00:40:21Z",
-      "clearance_sha256": "e06580217479f893051006715cd9a08713c1887b4c69f126ca96010c1ff7e7a6"
+      "clearance_sha256": "e06580217479f893051006715cd9a08713c1887b4c69f126ca96010c1ff7e7a6",
+      "pass": 2608,
+      "fail": 7,
+      "skip": 46,
+      "subtests_pass": 56,
+      "warnings": 2,
+      "seconds": 397.02,
+      "outer_exit": 1,
+      "wrapper_exit": 1,
+      "pins_before": 0,
+      "pins_after": 0,
+      "safe_stop_exit": 0
+    },
+    "optional38": {
+      "pass": 38,
+      "seconds": 5.55,
+      "all5_guard_commands_exit": 0,
+      "wrapper_exit": 0,
+      "pins_before": 0,
+      "pins_after": 0,
+      "safe_stop_exit": 0,
+      "independent_audit": "PENDING"
     }
   },
   "statistics_g5_sa20": "21 PASS6.81s independently accepted safe review",
@@ -1491,7 +1512,25 @@
     "members": 516,
     "source_files": 217,
     "independent_frozen_archive_review": "ACCEPTED",
-    "remote_publication": "PENDING",
-    "scope": "Focused source/evidence only; fullsuiteexcluded"
+    "remote_publication": "COMPLETE",
+    "scope": "Focused source/evidence only; fullsuiteexcluded",
+    "remote_commit": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+    "remote_files_exact": 12,
+    "fresh_restored_members": 516,
+    "fresh_restored_source_files": 217,
+    "provenance_sha256": "93b32a8e71db994724409f506c3040e3aad64c9b03a650cf14df7f970e1d7995"
+  },
+  "cleanup_0109": {
+    "source_sa21": "2654 PASS / 7 historical FAIL / 0 SKIP / 56 subtests; accepted",
+    "source_sa20": "2608 PASS / 7 historical FAIL / 46 SKIP / 56 subtests; accepted",
+    "optional": "38 PASS 5.55s; accepted",
+    "packaging_review_sha256": "275f4e0bbe4b9ce74e5b285393a499c5496f5af9edc9cb77c330fa630d137144",
+    "wheel_sha256": "77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b",
+    "installed": "pending",
+    "focused_remote_commit": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+    "focused_remote_restore": "516 members and complete217source; PASS",
+    "transport_sa21": "17 PASS independently accepted",
+    "transport_sa20": "17 PASS 0.18s audit pending",
+    "statistics_mutation_v2": "source review pending; unrun"
   }
 }
