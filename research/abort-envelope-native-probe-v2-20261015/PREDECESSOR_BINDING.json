@@ -1,0 +1,15 @@
+{
+  "status": "PENDING_V1_FAILED_TERMINAL_INDEPENDENT_ACCEPTANCE",
+  "latest_intervening_source_packet": "experiments/abort-envelope-native-probe-v1-20261015",
+  "latest_intervening_source_packet_seal_sha256": "0c005d33fd00630e7b3ef986e2bbcae3e4c6cafe65b4b996b52ad514304424e5",
+  "latest_intervening_entry_packet": "experiments/abort-envelope-native-entry-v1-20261015",
+  "latest_intervening_entry_packet_seal_sha256": "9f7b4230ef29b37cbc98b69e76afa799906f42f66cac8d7472f67db04dc1dec1",
+  "required_closed_outcome": "CLOSED_FAILURE",
+  "terminal_review_path": null,
+  "terminal_review_sha256": null,
+  "root_semantic_closure_accepted": false,
+  "root_current_read_only_authority_confirmed": false,
+  "root_exclusive_selection": false,
+  "no_intervening_lab_stage": false,
+  "note": "The actual intervening V1 native run failed its first UUID call with AmbiguousColumn; zero successful cases preceded that failure. Root reported entry exit1, post-status3 and corpus26 equal; these are parent reports, not a terminal acceptance by this preparer. Root must bind the actual independently reviewed V1 closed failure through the separate V2 entry selection. The older cost9 success is not the predecessor. All V1 source, selection, run and first-failure evidence are preserved without edits. No execution is authorized by this pending file."
+}
