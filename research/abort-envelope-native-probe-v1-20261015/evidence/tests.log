@@ -1,0 +1,15 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+F
+=================================== FAILURES ===================================
+_______________________ test_native_cursor_domains[uuid] _______________________
+../experiments/abort-envelope-native-probe-v1-20261015/test_native_envelope.py:264: in test_native_cursor_domains
+    cur.execute(sql, parameters, prepare=False)
+../release-lab/integrated221-installed-20261015/sa21/lib/python3.12/site-packages/psycopg/cursor.py:117: in execute
+    raise ex.with_traceback(None)
+E   psycopg.errors.AmbiguousColumn: ORDER BY "v" is ambiguous
+E   LINE 2: ...$2::pg_catalog.uuid), ($3::pg_catalog.uuid)) q(v) ORDER BY v
+E                                                                         ^
+=========================== short test summary info ============================
+FAILED ::test_native_cursor_domains[uuid] - psycopg.errors.AmbiguousColumn: O...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed in 0.05s

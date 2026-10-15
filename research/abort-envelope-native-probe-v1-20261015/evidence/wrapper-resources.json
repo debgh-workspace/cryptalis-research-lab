@@ -1,0 +1,12 @@
+{
+  "child_exit": 1,
+  "entry_wrapper_exit": 1,
+  "inherited_control_phase_timeout_seconds": 90,
+  "inherited_tests_timeout_seconds": 600,
+  "linux_wait4_peak_rss_kib": 62932,
+  "measurement_scope": "wait4 wrapper plus descendants reaped by wrapper; no new CPU/AS/RSS cap",
+  "new_parent_deadline": null,
+  "system_cpu_seconds": 0.102396,
+  "user_cpu_seconds": 1.452378,
+  "wall_seconds": 1.7737592229968868
+}
