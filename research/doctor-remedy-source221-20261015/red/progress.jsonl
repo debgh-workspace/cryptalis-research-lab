@@ -1,0 +1,24 @@
+{"event": "start", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "monotonic": 245608.562199509}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "setup", "outcome": "passed", "duration": 0.001685216004261747, "monotonic": 245608.564197106}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "call", "outcome": "failed", "duration": 0.6570684329781216, "monotonic": 245609.245351153}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "teardown", "outcome": "passed", "duration": 0.00022404102492146194, "monotonic": 245609.24586474}
+{"event": "start", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "monotonic": 245609.246161198}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "setup", "outcome": "passed", "duration": 0.0005197059945203364, "monotonic": 245609.246762805}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "call", "outcome": "failed", "duration": 0.001285585982259363, "monotonic": 245609.250261065}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "teardown", "outcome": "passed", "duration": 0.00012415301171131432, "monotonic": 245609.250572033}
+{"event": "start", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "monotonic": 245609.250753381}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "setup", "outcome": "passed", "duration": 0.00041451200377196074, "monotonic": 245609.251242132}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "call", "outcome": "passed", "duration": 0.0008797179907560349, "monotonic": 245609.252253043}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "teardown", "outcome": "passed", "duration": 9.665300603955984e-05, "monotonic": 245609.252457585}
+{"event": "start", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "monotonic": 245609.252681775}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "setup", "outcome": "passed", "duration": 0.00037155800964683294, "monotonic": 245609.253152399}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "call", "outcome": "passed", "duration": 0.0008299639739561826, "monotonic": 245609.254112996}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "teardown", "outcome": "passed", "duration": 0.00010897099855355918, "monotonic": 245609.254408331}
+{"event": "start", "nodeid": "::test_valid_text_is_unchanged", "monotonic": 245609.254648035}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "setup", "outcome": "passed", "duration": 0.0003181899955961853, "monotonic": 245609.255039773}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "call", "outcome": "passed", "duration": 0.0008620109874755144, "monotonic": 245609.256054289}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "teardown", "outcome": "passed", "duration": 0.00011493000783957541, "monotonic": 245609.256275625}
+{"event": "start", "nodeid": "::test_valid_json_is_unchanged", "monotonic": 245609.256485225}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "setup", "outcome": "passed", "duration": 0.0003131020057480782, "monotonic": 245609.256874729}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "call", "outcome": "passed", "duration": 0.0010042020003311336, "monotonic": 245609.258002372}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "teardown", "outcome": "passed", "duration": 0.00013008099631406367, "monotonic": 245609.258242096}

@@ -1,0 +1,33 @@
+PostgreSQL preflight passed 76053d5b a38ab71b
+FF....                                                                   [100%]
+=================================== FAILURES ===================================
+________________ test_rejected_text_has_safe_remedy[malformed] _________________
+../experiments/doctor-remedy-integration-plan-v1-20261015/test_doctor_text_remedy_real.py:114: in test_rejected_text_has_safe_remedy
+    assert output == REJECTED_TEXT
+E   AssertionError: assert 'Doctor: inco...tor.doctor.\n' == 'Doctor: inco...tor.doctor.\n'
+E     
+E     Skipping 91 identical leading characters in diff, use -v to show
+E       laration)
+E     -   remedy: Supply a valid bounded cryptalis.protection/v1 declaration.
+E       setup: NOT_INSPECTED
+E       native_admission: NOT_INSPECTED
+E       deployment: NOT_INSPECTED...
+E     
+E     ...Full output truncated (5 lines hidden), use '-vv' to show
+____________ test_rejected_text_has_safe_remedy[unsupported-schema] ____________
+../experiments/doctor-remedy-integration-plan-v1-20261015/test_doctor_text_remedy_real.py:114: in test_rejected_text_has_safe_remedy
+    assert output == REJECTED_TEXT
+E   AssertionError: assert 'Doctor: inco...tor.doctor.\n' == 'Doctor: inco...tor.doctor.\n'
+E     
+E     Skipping 91 identical leading characters in diff, use -v to show
+E       laration)
+E     -   remedy: Supply a valid bounded cryptalis.protection/v1 declaration.
+E       setup: NOT_INSPECTED
+E       native_admission: NOT_INSPECTED
+E       deployment: NOT_INSPECTED...
+E     
+E     ...Full output truncated (5 lines hidden), use '-vv' to show
+=========================== short test summary info ============================
+FAILED ::test_rejected_text_has_safe_remedy[malformed] - AssertionError: asse...
+FAILED ::test_rejected_text_has_safe_remedy[unsupported-schema] - AssertionEr...
+2 failed, 4 passed in 0.72s
