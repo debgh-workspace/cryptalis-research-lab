@@ -1,0 +1,13 @@
+{
+  "binding_after_exit": 0,
+  "binding_digest_unchanged": true,
+  "corpus_equal": true,
+  "entry_exit": 1,
+  "exact_source_package_origin": true,
+  "guard_after_exit": 0,
+  "new_source_and_packet_equal": true,
+  "old_target_maps_equal": true,
+  "post_status": 3,
+  "stop0_and_server_stopped_in_safe_wrapper_log": true,
+  "terminal_acceptance": "PENDING_INDEPENDENT_REVIEW"
+}
