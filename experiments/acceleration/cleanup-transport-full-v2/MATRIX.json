@@ -1,0 +1,63 @@
+{
+  "baseline_files": 217,
+  "candidate_files": 218,
+  "cells": [
+    {
+      "baseline_warning_count": 50,
+      "cell": "sa21",
+      "dependency_cell": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa21/bin/python",
+      "expected_outcomes": {
+        "failure": 7,
+        "passed": 2671
+      },
+      "expected_phase_counts": {
+        "call:failed": 7,
+        "call:passed": 2727,
+        "setup:passed": 2678,
+        "teardown:passed": 2678
+      },
+      "expected_progress_reports": 8090,
+      "expected_wrapper_and_runner_exit": 1,
+      "new_passes_predicted": 17,
+      "old_ordinary_ids": 2661,
+      "ordinary_ids": 2678,
+      "separate_passing_subtests": 56,
+      "status": "NOT_RUN"
+    },
+    {
+      "baseline_warning_count": 2,
+      "cell": "sa20",
+      "dependency_cell": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/s25-installed-20261014/sa20/bin/python",
+      "expected_outcomes": {
+        "failure": 7,
+        "passed": 2625,
+        "skipped": 46
+      },
+      "expected_phase_counts": {
+        "call:failed": 7,
+        "call:passed": 2681,
+        "call:skipped": 28,
+        "setup:passed": 2660,
+        "setup:skipped": 18,
+        "teardown:passed": 2678
+      },
+      "expected_progress_reports": 8072,
+      "expected_wrapper_and_runner_exit": 1,
+      "new_passes_predicted": 17,
+      "old_ordinary_ids": 2661,
+      "ordinary_ids": 2678,
+      "separate_passing_subtests": 56,
+      "status": "NOT_RUN"
+    }
+  ],
+  "main_distinct_ids": 2678,
+  "main_instances": 5356,
+  "main_outcomes": {
+    "failure": 14,
+    "passed": 5296,
+    "skipped": 46
+  },
+  "optional38": "HOLD: separate source218 overlay preparation/review needed; no command here",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "subtests_separate": 112
+}

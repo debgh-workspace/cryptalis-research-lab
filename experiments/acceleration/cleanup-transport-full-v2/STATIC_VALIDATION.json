@@ -1,0 +1,42 @@
+{
+  "2678_oracle_maps_byte_identical_to_v1": true,
+  "admission_branches": "SOURCE_INSPECTED_ONLY; no mutation/runtime experiment",
+  "all_v1_member_hashes_preserved": true,
+  "bash_n": "PASS; entries not executed",
+  "bounded_single_writer_contract": true,
+  "clearance_run_evidence_destinations": "ABSENT",
+  "entry_checks": [
+    {
+      "actual_wrapper_and_separate_after_status_preserved": true,
+      "after_failure_does_not_interpret_helper": true,
+      "both_interpretations_immediately_guarded": true,
+      "cell": "sa21",
+      "exact_admission_function": true,
+      "wrapper_argv_byte_identical_to_v1": true
+    },
+    {
+      "actual_wrapper_and_separate_after_status_preserved": true,
+      "after_failure_does_not_interpret_helper": true,
+      "both_interpretations_immediately_guarded": true,
+      "cell": "sa20",
+      "exact_admission_function": true,
+      "wrapper_argv_byte_identical_to_v1": true
+    }
+  ],
+  "external_inputs_byte_identical_to_v1": true,
+  "full217_parent_and218_candidate_checked": true,
+  "helper_AST": "PASS; helper not executed",
+  "hostile_concurrent_race_guarantee": false,
+  "independent_review": "PENDING",
+  "inherited_v1_preparation_failures_preserved": 2,
+  "optional38": "HOLD",
+  "prohibited_payload_reads": false,
+  "revision": "V2",
+  "runtime_import_collection_tests_DB_install_network_Git": "NOT_RUN",
+  "safe_input_count": 571,
+  "sealed_members": 29,
+  "status": "STATIC_ONLY_PASS",
+  "v1_hold_preserved": true,
+  "v2_preparation_failures": 0,
+  "verifier_only_three_control_paths_changed": true
+}

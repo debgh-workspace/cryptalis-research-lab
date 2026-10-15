@@ -1,0 +1,32 @@
+{
+  "added": [
+    "tests/test_crypto_failure_transport.py"
+  ],
+  "baseline_files": 217,
+  "bounded_single_writer_only": true,
+  "candidate_files": 218,
+  "changed_existing": [
+    "src/cryptalis/crypto/keys.py"
+  ],
+  "clearance": "ABSENT",
+  "corpus_originals": 26,
+  "external571_inputs_byte_identical_to_v1": true,
+  "forbidden_raw_phase_or_cache_payload_reads": false,
+  "independent_review": "PENDING",
+  "new_ids": 17,
+  "new_ids_literal_AST_match": true,
+  "old_ids_per_cell": 2661,
+  "old_maps_match_accepted_JUnit_and_auditor_maps": true,
+  "planned_ids_per_cell": 2678,
+  "repeated_admission": "Immediately before both helper interpretations; failure branch skips helper",
+  "revision": "V2",
+  "runtime_import_collection_tests_DB_install_network_Git": "NOT_RUN",
+  "safe_inputs": 571,
+  "source_delta_exact": true,
+  "source_or_checklist_writes": false,
+  "status": "SOURCE_DATA_ONLY",
+  "v1_hold_sha256": "a3b7a448a6282b8f993b03a943a8bc587a7e803e0ee35d72a98e5b4ad484600a",
+  "v1_preserved": true,
+  "v2_preparation_failures": 0,
+  "verifier_change": "Only three fixed control paths"
+}
