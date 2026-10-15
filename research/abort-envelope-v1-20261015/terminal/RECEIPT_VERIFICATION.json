@@ -1,0 +1,253 @@
+{
+  "verdict": "19 unique methods individually PASS across preserved attempts; original 19-method invocation remains incomplete SIGKILL",
+  "scope": "Data and AST audit only; no test/reference/helper import, collection, execution or rerun",
+  "methods_defined_in_source": [
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_cursor_domains_and_exact_widths",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_forward_and_reverse_abort_never_grow_maximum",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_frozen_fields_unknown_fields_and_bool_aliases",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_invalid_json_inputs_stay_explicit",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_lineage_is_explicit_frozen_input_not_inferred_authority",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_nesting_and_reused_subtrees",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_no_invented_sixteen_digit_journal_cap",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_omission_controls_expose_missing_reservations",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_pre_sql_next_counter_guard",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_proposed_summary_shapes_are_finite_and_exact",
+    "sealed_abort_envelope_vectors_0.ReferenceVectors.test_scalar_and_separator_vectors",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_both_codecs_and_directions_have_hand_derived_totals",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_full_state_nested_guard_proconfig_depth_edges",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_literal_complete_one_model_canonical_wire",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_rejected_next_chunk_preserves_committed_prefix_and_abort_copy",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_two_models_require_the_complete_verification_map",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_verification_missing_extra_wrong_keys_and_bad_digests",
+    "sealed_abort_envelope_vectors_1.DecidingVectors.test_zero_scope_reserves_null_for_both_record_codecs"
+  ],
+  "successful_methods_by_attempt": {
+    "v2": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_cursor_domains_and_exact_widths"
+    ],
+    "light17": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_forward_and_reverse_abort_never_grow_maximum",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_frozen_fields_unknown_fields_and_bool_aliases",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_invalid_json_inputs_stay_explicit",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_lineage_is_explicit_frozen_input_not_inferred_authority",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_nesting_and_reused_subtrees",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_no_invented_sixteen_digit_journal_cap",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_omission_controls_expose_missing_reservations",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_pre_sql_next_counter_guard",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_proposed_summary_shapes_are_finite_and_exact",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_scalar_and_separator_vectors",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_both_codecs_and_directions_have_hand_derived_totals",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_full_state_nested_guard_proconfig_depth_edges",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_literal_complete_one_model_canonical_wire",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_rejected_next_chunk_preserves_committed_prefix_and_abort_copy",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_two_models_require_the_complete_verification_map",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_verification_missing_extra_wrong_keys_and_bad_digests",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_zero_scope_reserves_null_for_both_record_codecs"
+    ],
+    "boundary1": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"
+    ]
+  },
+  "started_methods_by_attempt": {
+    "v2": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_cursor_domains_and_exact_widths",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"
+    ],
+    "light17": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_forward_and_reverse_abort_never_grow_maximum",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_frozen_fields_unknown_fields_and_bool_aliases",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_invalid_json_inputs_stay_explicit",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_lineage_is_explicit_frozen_input_not_inferred_authority",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_nesting_and_reused_subtrees",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_no_invented_sixteen_digit_journal_cap",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_omission_controls_expose_missing_reservations",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_pre_sql_next_counter_guard",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_proposed_summary_shapes_are_finite_and_exact",
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_scalar_and_separator_vectors",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_both_codecs_and_directions_have_hand_derived_totals",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_full_state_nested_guard_proconfig_depth_edges",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_literal_complete_one_model_canonical_wire",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_rejected_next_chunk_preserves_committed_prefix_and_abort_copy",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_two_models_require_the_complete_verification_map",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_verification_missing_extra_wrong_keys_and_bad_digests",
+      "sealed_abort_envelope_vectors_1.DecidingVectors.test_zero_scope_reserves_null_for_both_record_codecs"
+    ],
+    "boundary1": [
+      "sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges"
+    ]
+  },
+  "total_method_starts": 20,
+  "unique_successful_methods": 19,
+  "successful_method_repeats": 0,
+  "incomplete_method_retried_only": "sealed_abort_envelope_vectors_0.ReferenceVectors.test_exact_canonical_and_native_candidate_budget_edges",
+  "missing_methods": [],
+  "source_subtest_call_sites_not_separate_result_counts": [
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/test_envelope_reference.py",
+      "line": 49
+    },
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/test_envelope_reference.py",
+      "line": 62
+    },
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/correction-v2/test_deciding_vectors.py",
+      "line": 114
+    }
+  ],
+  "source_imports": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/envelope_reference.py": [
+      "copy",
+      "dataclasses",
+      "uuid"
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/test_envelope_reference.py": [
+      "copy",
+      "json",
+      "unittest",
+      "envelope_reference"
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/correction-v2/test_deciding_vectors.py": [
+      "copy",
+      "json",
+      "unittest",
+      "envelope_reference"
+    ]
+  },
+  "resource_results": {
+    "v2": {
+      "exit_code": -9,
+      "timeout": false,
+      "wall_seconds": 32.526492753007915,
+      "source_pins_unchanged": true,
+      "stdout_bytes": 64,
+      "stderr_bytes": 297,
+      "scope": "Unit observation only; independent terminal audit pending"
+    },
+    "light17": {
+      "mode": "light17",
+      "exit_code": 0,
+      "signaled": false,
+      "signal": null,
+      "timeout": false,
+      "wall_seconds": 0.1528762700036168,
+      "child_user_cpu_seconds": 0.10486899999999999,
+      "child_system_cpu_seconds": 0.012008999999999999,
+      "child_peak_rss_kib": 14976,
+      "resource_scope": "wait4 for this exact child; Linux KiB RSS",
+      "source_pins_unchanged": true,
+      "stdout_bytes": 11245,
+      "stderr_bytes": 2742
+    },
+    "boundary1": {
+      "mode": "boundary1",
+      "exit_code": 0,
+      "signaled": false,
+      "signal": null,
+      "timeout": false,
+      "wall_seconds": 100.77630372799467,
+      "child_user_cpu_seconds": 100.68768,
+      "child_system_cpu_seconds": 0.054236,
+      "child_peak_rss_kib": 64004,
+      "resource_scope": "wait4 for this exact child; Linux KiB RSS",
+      "source_pins_unchanged": true,
+      "stdout_bytes": 1086,
+      "stderr_bytes": 267
+    }
+  },
+  "all_current_source_review_and_launcher_pins_match": true,
+  "both_split_selections_pin_identical_six_inputs": true,
+  "original_failure_receipts_unchanged_against_prior_audit": true,
+  "interpreter_verification": "Root helpers record a fixed digest assertion; this audit did not independently hash or execute the interpreter.",
+  "metadata_and_sha256": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/UNIT_ATTEMPT_V2_AUDIT.md": {
+      "bytes": 9795,
+      "sha256": "fe3e942d2610220b6c4f3fec0058bb0de6dc3b2f411a613b451a73d63bf1f455"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/SPLIT_V3_PREPARATION.md": {
+      "bytes": 6294,
+      "sha256": "081720008501e6d728a5a0eae16cbd080830a0f04203836c60c0aee57afe7dc2"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/UNIT_RUNNER_SPLIT_V3.py": {
+      "bytes": 5580,
+      "sha256": "f9b36facdb5d208fd217f243152ac79642aa5bd5fb4b80fb33d63b1d1bd1e546"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v2-root/selection.json": {
+      "bytes": 1610,
+      "sha256": "b5d8769c81d84f4f35f21f2d7ce13d34d1101fbc6cd5c951d75505d8835fdd22"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v2-root/RESULT.json": {
+      "bytes": 230,
+      "sha256": "3b98eede1f30323effea064c624a4bc8bcf5253dd06ff4d2d8adba2977d3843b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v2-root/stdout.log": {
+      "bytes": 64,
+      "sha256": "171eb50fc9892a5c6f5a14d495fcb1de62d02c7908de00c28434972f4047584d"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v2-root/stderr.log": {
+      "bytes": 297,
+      "sha256": "d958399eebedddb65c1947058088a715f9967f9d90823d6fedcfec3a99309c6f"
+    },
+    "/tmp/cryptalis_abort_envelope_unit_root_1757.py": {
+      "bytes": 2672,
+      "sha256": "c7ea7a108aaf0755f3f873397c0684e8972220d3adb305a4ae4d8bef43d7002c"
+    },
+    "/tmp/cryptalis_abort_envelope_split_root_1810.py": {
+      "bytes": 3342,
+      "sha256": "c8bd81c9b330f2c6a8f3b902d1a4cd67950029014105ebfbbfea9dd32d1f2c34"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/test_envelope_reference.py": {
+      "bytes": 11980,
+      "sha256": "152f8c605be07d5a63877f09942f66c3f89045457dad051cd8b85a780aa60d6c"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/correction-v2/test_deciding_vectors.py": {
+      "bytes": 12375,
+      "sha256": "e631a11f36b346984cee7304d22abefa2099e61c760d08a414af93d32fccf8cc"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/aborted-successor-envelope-v1-20261015/envelope_reference.py": {
+      "bytes": 16279,
+      "sha256": "27584299ffaac34c2bb9a0a51671a5873ab76354649052fd8f7725b62f38564c"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-light17-root/selection.json": {
+      "bytes": 1878,
+      "sha256": "fe8ab7495232ca868a3c1bb2d21c01f0bbbba233cb85aa686db9b74bf3d8018f"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-light17-root/RESULT.json": {
+      "bytes": 418,
+      "sha256": "a638ad6b06171765f6cbb4d7373e2aed46ab35520187280fcec3fe87afab8451"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-light17-root/stdout.log": {
+      "bytes": 11245,
+      "sha256": "dfee268d675b1c935784d34f611b195a6ed8769e204adad50171ba5d12b07589"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-light17-root/stderr.log": {
+      "bytes": 2742,
+      "sha256": "b7fba7d641f31ab86f5ec534bf1364677a214cdc912e2b93979f01a658fdcbf3"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-boundary1-root/selection.json": {
+      "bytes": 1884,
+      "sha256": "9f75974634b830f081d02297c1a8c32234ee9417b67ad64e41c0e38a5a2dc3d7"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-boundary1-root/RESULT.json": {
+      "bytes": 396,
+      "sha256": "6271206b4102d7b427a48fdb5c5fb02f484cc8f2e8fade410b0df200e582e365"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-boundary1-root/stdout.log": {
+      "bytes": 1086,
+      "sha256": "986881100585b558e7d87af31a3b7fe8bf592b3e282eaa7ab5fbb31e8554a626"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/abort-envelope-unit-v3-boundary1-root/stderr.log": {
+      "bytes": 267,
+      "sha256": "dcf9b5d72d348d39a9ce1e519dbc361bed3a56e6b21be651078696c5c31a21da"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/REVIEW.md": {
+      "bytes": 10113,
+      "sha256": "a15a3cc81b5ad65734a22d9691538ad94cd26b28e7c52961586a9ac2eb77c021"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/aborted-successor-envelope-independent-20261015/UNIT_RUNNER.py": {
+      "bytes": 2551,
+      "sha256": "665cfa4894726559623e7d56511c76890f18e8a40f617460f9f68712503d63e9"
+    }
+  }
+}
