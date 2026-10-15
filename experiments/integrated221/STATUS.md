@@ -1,9 +1,11 @@
-# Integrated221 current status
+# Integrated221 selected bounded installed candidate
 
-Updated2026-10-15 14:08 UTC. Source221 manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520.
+Selected2026-10-15 15:49 UTC. Source221 manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520.
 
-Both focused111 cells and both full-source cells independently accepted. Full SA21:2684 PASS/0 FAIL/0 SKIP,56 passing subtests,471.98s. Full SA20:2638 PASS/0 FAIL/46 expected native-version SKIP,56 passing subtests,465.98s. Separate source SQLModel38:38 PASS/114 phases,8.28s, independent complete dependency/corpus/stop closure.
+Independent installed terminal results: SQLAlchemy2.1.3:2684PASS/0FAIL/0SKIP+56subtests,500.87s. SQLAlchemy2.0.51:2638PASS/0FAIL/46 exact native-version SKIP+56subtests,499.47s. SQLModel0.0.47/Python3.14.8 optional:38PASS/114phases,7.32s. Source main/optional results, exact artifact/runtime43-module identity, payload/RECORD/inode controls, cold namespaces, corpus26 restoration and shutdown are separately accepted.
 
-Seven historical expectation failures resolved with independent PostgreSQL and mutation controls. Original failures and failed self-reversing constraint mutation remain preserved; V3 fixture-only successor retains unchanged product221 and critical refusal assertions.
+Wheel144298B dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6; sdist154158B1f447ac32bac75803826df6e2e66a1df5a8dd515448484c271175c279ef98b6c. Same-host reproducibility only.41 inherited missing noncache optional dependency RECORD targets remain explicit.
 
-Actual bounded reproducible package build exited0; independent five-artifact review pending. No installed221 acceptance or fresh-host provenance claimed. Highest accepted installed baseline remainsTransport218 with its recorded seven historical failures. Generic legacy recovery, all34 objectives and all7 UNKNOWN gates remain active.
+Seven historical expectation failures resolved with native/mutation evidence; original failures and all earlier candidates remain retained. Installed focused111 historical-consumer controls are an additional pending boundary. Public smoke awaits finite fixtureACL approval. A README-only package correction is being prepared. The source/package supplement is locally recoverable but rejected opaque part05 publication awaits exact owner approval.
+
+All34 objectives and7UNKNOWN qualification gates remain active. No Git main promotion, complete-preview delivery, clean-host proof or production qualification.
