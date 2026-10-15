@@ -1,0 +1,37 @@
+{
+  "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch": {
+    "message": "sqlalchemy.exc.NoResultFound: No row was found when one was required",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:36: in test_changed_public_staging_refuses_switch\n    name=c.exec_driver_sql(\"SELECT column_name FROM information_schema.columns WHERE table_schema=%s AND column_name LIKE '%%_copy_%%'\",(app.schema,)).scalar_one()\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n../release-lab/wheel-venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py:1066: in scalar_one\n    return self._only_one_row(\nlib/sqlalchemy/engine/_result_cy.py:538: in sqlalchemy.engine._result_cy.BaseResultInternal._only_one_row\n    ???\nE   sqlalchemy.exc.NoResultFound: No row was found when one was required"
+  },
+  "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:47: in test_public_copy_participates_in_chunk_byte_bound\n    with pytest.raises(app.m.TransitionFailure,match='row_exceeds_chunk_byte_limit'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  },
+  "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:25: in test_reverse_refuses_unhandled_public_suffix_comment_before_staging\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  },
+  "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  },
+  "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  },
+  "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  },
+  "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]": {
+    "message": "Failed: DID NOT RAISE TransitionFailure",
+    "outcome": "failure",
+    "text": "tests/test_deprotection_ordinals.py:88: in test_reverse_refuses_unhandled_suffix_attributes\n    with pytest.raises(app.m.TransitionFailure,match='unsupported_reverse_suffix_metadata') as failure:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE   Failed: DID NOT RAISE TransitionFailure"
+  }
+}

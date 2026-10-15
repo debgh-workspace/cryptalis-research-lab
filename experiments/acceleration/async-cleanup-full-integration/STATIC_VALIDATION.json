@@ -1,0 +1,12 @@
+{
+  "ast_parsed_python_files": 2,
+  "candidate_source_unchanged": true,
+  "independent_review": "PENDING",
+  "input_count": 566,
+  "optional_test_and_helper_behavior_regions_byte_identical": true,
+  "product_imports_tests_db_install_network": "NOT_RUN",
+  "raw_phase_json_or_secrets_read_or_hashed": false,
+  "shell_syntax": "bash -n passed for all three proposed single-cell entry scripts",
+  "status": "STATIC_ONLY_PASS",
+  "verifier_runtime": "NOT_RUN; no fictitious clearance created"
+}

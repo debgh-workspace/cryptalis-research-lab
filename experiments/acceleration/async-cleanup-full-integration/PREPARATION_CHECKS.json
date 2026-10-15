@@ -1,0 +1,25 @@
+{
+  "added": [
+    "tests/test_sqlalchemy_async_exit_double_failure.py"
+  ],
+  "baseline_files": 216,
+  "candidate_files": 217,
+  "candidate_or_checklist_writes": false,
+  "changed_existing": [
+    "src/cryptalis/sqlalchemy.py"
+  ],
+  "corpus_count": 26,
+  "focused_green": "Both accepted bounded GREEN; source/command full integration review remains pending",
+  "forbidden_phase_files_opened_or_hashed": false,
+  "independent_source_and_terminal_reviews": "PENDING",
+  "main_original_ids_per_cell": 2639,
+  "main_planned_ids_per_cell": 2661,
+  "new_planned_nodes": 22,
+  "optional_helper_original_still_S25_bound": true,
+  "optional_overlay_is_separate": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-sqlmodel-overlay-plan-20261014",
+  "product_imports": false,
+  "runtime_executed": false,
+  "safe_main_inputs": 566,
+  "safe_optional_inputs": 589,
+  "status": "SOURCE_DATA_ONLY"
+}
