@@ -1,0 +1,5154 @@
+[
+  {
+    "candidate_native_bytes": 378,
+    "canonical_bytes": 357,
+    "canonical_sha256": "1ea0f361b4d509bd0d48ba9ce3b69bbff63207c661b0713029c940b38a3aeadd",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 378,
+    "native_sha256": "4184e12227bbbff97157836ea45fc6305fe77f4a661c9b310cbbc3823bdf4a11",
+    "native_within_limit": true,
+    "received_native_bytes": 378,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 357,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 250,
+    "canonical_bytes": 232,
+    "canonical_sha256": "9e426dd21b231d40f975c3da3641dd3555df1502560b93996017907ca649afa3",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 250,
+    "native_sha256": "619bd525e0305d2fc6397473ab5b245f91df56c9bf83f89b1a0f12cb1b74b776",
+    "native_within_limit": true,
+    "received_native_bytes": 250,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 232,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 252,
+    "canonical_bytes": 234,
+    "canonical_sha256": "1018c34b27a7326697e97413ec7a602521b0f630d616acbd74d289163a9dc2d0",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 252,
+    "native_sha256": "97b5490d4f3ada91200c6e444b2d975682419c2c6fb189c2cabae74b355b9fd5",
+    "native_within_limit": true,
+    "received_native_bytes": 252,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 234,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 376,
+    "canonical_bytes": 355,
+    "canonical_sha256": "6ff052ea4a5b447807e4604a253bb095170003fb5137b01d817ea583c27290bf",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 376,
+    "native_sha256": "d3d5c0dd0dbb71bcea9ff414cfee1bc7f50e50b5c3c064627002833690bba0ef",
+    "native_within_limit": true,
+    "received_native_bytes": 376,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 355,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 249,
+    "canonical_bytes": 231,
+    "canonical_sha256": "3c6d95f4b8c3ef779c287b0efeceb2523b712ad9543b22903835f075f0ed5efa",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 249,
+    "native_sha256": "fdb062d5e8e3453b8a882c81ed74d75c7f79b86123bdbb39305bd1d4119fed5d",
+    "native_within_limit": true,
+    "received_native_bytes": 249,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 231,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 249,
+    "canonical_bytes": 231,
+    "canonical_sha256": "3c6d95f4b8c3ef779c287b0efeceb2523b712ad9543b22903835f075f0ed5efa",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 249,
+    "native_sha256": "fdb062d5e8e3453b8a882c81ed74d75c7f79b86123bdbb39305bd1d4119fed5d",
+    "native_within_limit": true,
+    "received_native_bytes": 249,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 231,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 375,
+    "canonical_bytes": 354,
+    "canonical_sha256": "9a6fbcdc79d503155afd6b854fe2cabcdaf7ba15b30988774a4b9a59819841af",
+    "canonical_within_limit": true,
+    "case": "f_uuid_empty",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 375,
+    "native_sha256": "f105890fc61eb0916226280a80ccfad7b427de82390d93a749efd68dcfa1ce22",
+    "native_within_limit": true,
+    "received_native_bytes": 375,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 354,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 428,
+    "canonical_bytes": 404,
+    "canonical_sha256": "4e44ad16ec1bbf9957b51f71fc5ea6c514f08c13ec4130b76ae137a6ab44309c",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 428,
+    "native_sha256": "d77719c11c9c6aa0dc079eb17a01f6bd4926d3d99885c1e829d01ccdc919f16d",
+    "native_within_limit": true,
+    "received_native_bytes": 428,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 404,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 426,
+    "canonical_bytes": 402,
+    "canonical_sha256": "848a26c62b9814e7af5d7be74328eda01659807b3614b759686b09e782b652d8",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 426,
+    "native_sha256": "336afadfdbeab0542eb6dc54bf7387d29df615b555613a8e12530859263c0b83",
+    "native_within_limit": true,
+    "received_native_bytes": 426,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 402,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 428,
+    "canonical_bytes": 404,
+    "canonical_sha256": "4e44ad16ec1bbf9957b51f71fc5ea6c514f08c13ec4130b76ae137a6ab44309c",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 428,
+    "native_sha256": "d77719c11c9c6aa0dc079eb17a01f6bd4926d3d99885c1e829d01ccdc919f16d",
+    "native_within_limit": true,
+    "received_native_bytes": 428,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 404,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 426,
+    "canonical_bytes": 402,
+    "canonical_sha256": "6ca05be2d139366f2b471b5fa41116116fa9526c8c65f56db81fe0a2730d996c",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 426,
+    "native_sha256": "24d24b739744ca4c787e6b2567e2d91c37a565857ecd405f1fb76e74e57e504e",
+    "native_within_limit": true,
+    "received_native_bytes": 426,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 402,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 425,
+    "canonical_bytes": 401,
+    "canonical_sha256": "7bdf62b52285defae8da56aeef1a9c84e59fa14194432b817264cda6f5497d39",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 425,
+    "native_sha256": "c75f3ddf59f0644a753c617607930582ca037ebc795885cb56d4b580de20bbf2",
+    "native_within_limit": true,
+    "received_native_bytes": 425,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 401,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 425,
+    "canonical_bytes": 401,
+    "canonical_sha256": "7bdf62b52285defae8da56aeef1a9c84e59fa14194432b817264cda6f5497d39",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 425,
+    "native_sha256": "c75f3ddf59f0644a753c617607930582ca037ebc795885cb56d4b580de20bbf2",
+    "native_within_limit": true,
+    "received_native_bytes": 425,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 401,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 425,
+    "canonical_bytes": 401,
+    "canonical_sha256": "7bdf62b52285defae8da56aeef1a9c84e59fa14194432b817264cda6f5497d39",
+    "canonical_within_limit": true,
+    "case": "r_uuid_empty",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 425,
+    "native_sha256": "c75f3ddf59f0644a753c617607930582ca037ebc795885cb56d4b580de20bbf2",
+    "native_within_limit": true,
+    "received_native_bytes": 425,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 401,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 412,
+    "canonical_bytes": 391,
+    "canonical_sha256": "afe1c1adf7aa8113519c445a3815a21faa43621fff8376646fab3c2c0bae52d3",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 412,
+    "native_sha256": "20e6a235d360cd2a2bf1be86a603535b0fbd0f90970b5ed0c23387b0be3bc720",
+    "native_within_limit": true,
+    "received_native_bytes": 412,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 391,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 250,
+    "canonical_bytes": 232,
+    "canonical_sha256": "26f335098a0f20f7b98e39e2b7dd7a8160e48c327e6d744547609491c440bf19",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 250,
+    "native_sha256": "63cef4d27ee23522568d5ac8a787b6f2bad60c0f7cf4ffc77895196369824403",
+    "native_within_limit": true,
+    "received_native_bytes": 250,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 232,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 284,
+    "canonical_bytes": 266,
+    "canonical_sha256": "4a62ae8daf4c62a2a80d896c6d644ca28ccdbc6d36dc8db4119bafda73186292",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 284,
+    "native_sha256": "7d77193fd56a3f7ad8c0864640ae6f83df9c61955ee393094a28176be7f1ba07",
+    "native_within_limit": true,
+    "received_native_bytes": 284,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 266,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 286,
+    "canonical_bytes": 268,
+    "canonical_sha256": "94232d7e7e946f8ad425d4cee50dc75e0fe5029027fe434b6222f3be7ade3760",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 286,
+    "native_sha256": "efc2cde5f91c4f757649991944de86f8f48b738aa68071eae931627547540119",
+    "native_within_limit": true,
+    "received_native_bytes": 286,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 268,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 410,
+    "canonical_bytes": 389,
+    "canonical_sha256": "56cbae3904944b9aa43cc03b4b64abff17dd8738646a54a6a4619b9a58e982a8",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 410,
+    "native_sha256": "b15ae43d4bc7cb6c876db0f8e1b000d5c3d7c61abb517a9107d0355aac17d80e",
+    "native_within_limit": true,
+    "received_native_bytes": 410,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 389,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 249,
+    "canonical_bytes": 231,
+    "canonical_sha256": "881d9444b7907991fc24ff789b06cf2ba7e9f631fd70422d92729d4e255c381d",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 249,
+    "native_sha256": "5b1f19fd83f80ce110d8bf095f64583f48e6a923753fe7a729fd458a7407e8e3",
+    "native_within_limit": true,
+    "received_native_bytes": 249,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 231,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 283,
+    "canonical_bytes": 265,
+    "canonical_sha256": "38b717057fd412abde31530adcbccfb5288212668fb594acd8feb49f0d6a9a45",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 283,
+    "native_sha256": "002277b2a820798f32b0350640e4b8b2054014cc3e00a12c5cba5fdb9bb86f07",
+    "native_within_limit": true,
+    "received_native_bytes": 283,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 265,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 283,
+    "canonical_bytes": 265,
+    "canonical_sha256": "38b717057fd412abde31530adcbccfb5288212668fb594acd8feb49f0d6a9a45",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 283,
+    "native_sha256": "002277b2a820798f32b0350640e4b8b2054014cc3e00a12c5cba5fdb9bb86f07",
+    "native_within_limit": true,
+    "received_native_bytes": 283,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 265,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 409,
+    "canonical_bytes": 388,
+    "canonical_sha256": "717e4b2cad6a4a3720a5aef8aeeb8931161df140fd0299ab71eda0d56621ec19",
+    "canonical_within_limit": true,
+    "case": "f_uuid_one",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 409,
+    "native_sha256": "eecf3445af9bff3280901652ff5035a944cc19014ca092b545f5aa039e7494c5",
+    "native_within_limit": true,
+    "received_native_bytes": 409,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 388,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 462,
+    "canonical_bytes": 438,
+    "canonical_sha256": "fc0827b734bef53569d248958a0c82a430c6d2dc3943f4b652d47320425f7be4",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 462,
+    "native_sha256": "e6f7c06d01a1376be18f49f9561e8a09fac08940c3ee1df1d7afab537650eb8a",
+    "native_within_limit": true,
+    "received_native_bytes": 462,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 438,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 426,
+    "canonical_bytes": 402,
+    "canonical_sha256": "b1dbea806510c2c8bc7cb2aa61ba6ecb07bd16d58588a3e73cef39ea1fe91fe6",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 426,
+    "native_sha256": "3e6d1764fe332cbaa1906d14bd70cfc69bac97cb569f9ae1b05edbf360772b55",
+    "native_within_limit": true,
+    "received_native_bytes": 426,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 402,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 460,
+    "canonical_bytes": 436,
+    "canonical_sha256": "284db23fd2cc6da429afc0aafe8de28e3f2ae4c765ace4c471bb5fccd4be1bc8",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 460,
+    "native_sha256": "d5d6bbc4a4a7e51aabf8c15de1656a653dc50a98232d224e2551c68ac29b0242",
+    "native_within_limit": true,
+    "received_native_bytes": 460,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 436,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 462,
+    "canonical_bytes": 438,
+    "canonical_sha256": "138f9ab713babdb2adc0a19380e3b83f419d3322877a975447bc0f35c6bbc336",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 462,
+    "native_sha256": "cec70e72be4718d9b18c04546ba0f5b237950286f1a9e670e2bda36c8e43eb29",
+    "native_within_limit": true,
+    "received_native_bytes": 462,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 438,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 460,
+    "canonical_bytes": 436,
+    "canonical_sha256": "598d4a0a9df51868ea27ef9e32bdd2247f9c550a015957dc01a9e8d77f2884a5",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 460,
+    "native_sha256": "32056be73d03f18999ba6d53f854605f8d9e52322877544d6ade4a5b7715dc51",
+    "native_within_limit": true,
+    "received_native_bytes": 460,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 436,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 425,
+    "canonical_bytes": 401,
+    "canonical_sha256": "36414b5c83b064473d3fbb8c4b4e3b79965281b15cabd9bcf04232864f88671f",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 425,
+    "native_sha256": "87f03f37ebf2112b438a46f5d22912202ae89b9f871809141418abf6baf26544",
+    "native_within_limit": true,
+    "received_native_bytes": 425,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 401,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 459,
+    "canonical_bytes": 435,
+    "canonical_sha256": "cff134a9cff44a94b7fae3f5a549f13b9b4964d7538de7ec0757f9c96af42690",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 459,
+    "native_sha256": "7fc74b079c191a56a30aff7d592704837dede4c782396d8916e8da8c3f27c869",
+    "native_within_limit": true,
+    "received_native_bytes": 459,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 435,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 459,
+    "canonical_bytes": 435,
+    "canonical_sha256": "cff134a9cff44a94b7fae3f5a549f13b9b4964d7538de7ec0757f9c96af42690",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 459,
+    "native_sha256": "7fc74b079c191a56a30aff7d592704837dede4c782396d8916e8da8c3f27c869",
+    "native_within_limit": true,
+    "received_native_bytes": 459,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 435,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 459,
+    "canonical_bytes": 435,
+    "canonical_sha256": "cff134a9cff44a94b7fae3f5a549f13b9b4964d7538de7ec0757f9c96af42690",
+    "canonical_within_limit": true,
+    "case": "r_uuid_one",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 459,
+    "native_sha256": "7fc74b079c191a56a30aff7d592704837dede4c782396d8916e8da8c3f27c869",
+    "native_within_limit": true,
+    "received_native_bytes": 459,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 435,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 396,
+    "canonical_bytes": 375,
+    "canonical_sha256": "e99155cfbc0d897c5227d5fa8560aa38acb82a3beb64bcd21859f3b66be9f929",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 396,
+    "native_sha256": "fdcbe4886964e56c752d89018bfc586ebec3e8bf5d22ff9c797e9adc0ac13cfc",
+    "native_within_limit": true,
+    "received_native_bytes": 396,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 375,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 250,
+    "canonical_bytes": 232,
+    "canonical_sha256": "26f335098a0f20f7b98e39e2b7dd7a8160e48c327e6d744547609491c440bf19",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 250,
+    "native_sha256": "63cef4d27ee23522568d5ac8a787b6f2bad60c0f7cf4ffc77895196369824403",
+    "native_within_limit": true,
+    "received_native_bytes": 250,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 232,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 268,
+    "canonical_bytes": 250,
+    "canonical_sha256": "fe45bdd1e40af37408170d6f45eb0d1a2425c94f60cd4516a3c9f436af41ec86",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 268,
+    "native_sha256": "9f17128c28bd31841ef6b0b592b1deb83d0c90ade9d586a6b44153ec9e5e9fa9",
+    "native_within_limit": true,
+    "received_native_bytes": 268,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 250,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 270,
+    "canonical_bytes": 252,
+    "canonical_sha256": "851d0cc86a9fde30968d13108a945c573920f7cce20c037d9f5a2d0e8cf5d9d1",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 270,
+    "native_sha256": "4c7e3a080cd1b8bafc7026c7d04bb7eab458667f5f5153d6f14b7dc095b6f254",
+    "native_within_limit": true,
+    "received_native_bytes": 270,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 252,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 394,
+    "canonical_bytes": 373,
+    "canonical_sha256": "3230d467fe7d43d2f4fe8b8628960e686c249ee53810ce976eea46775cc7fc92",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 394,
+    "native_sha256": "cd9613eb57cf54eb97ab9089df78743ce0ad663eec1a68849f44f8a0bbe8ac54",
+    "native_within_limit": true,
+    "received_native_bytes": 394,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 373,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 249,
+    "canonical_bytes": 231,
+    "canonical_sha256": "881d9444b7907991fc24ff789b06cf2ba7e9f631fd70422d92729d4e255c381d",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 249,
+    "native_sha256": "5b1f19fd83f80ce110d8bf095f64583f48e6a923753fe7a729fd458a7407e8e3",
+    "native_within_limit": true,
+    "received_native_bytes": 249,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 231,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 267,
+    "canonical_bytes": 249,
+    "canonical_sha256": "06b86fc2f19c470c8140f6dcd2f5cdcf5657874a2f00897a4c41fde0cc7819be",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 267,
+    "native_sha256": "bb4692c6ac8e53fe49713130d27aa7602de7943bdca41faf48e87e8b1cc38803",
+    "native_within_limit": true,
+    "received_native_bytes": 267,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 249,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 267,
+    "canonical_bytes": 249,
+    "canonical_sha256": "06b86fc2f19c470c8140f6dcd2f5cdcf5657874a2f00897a4c41fde0cc7819be",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 267,
+    "native_sha256": "bb4692c6ac8e53fe49713130d27aa7602de7943bdca41faf48e87e8b1cc38803",
+    "native_within_limit": true,
+    "received_native_bytes": 267,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 249,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 393,
+    "canonical_bytes": 372,
+    "canonical_sha256": "e4f8e894b122b795ff674675e2c89c05d4eda6e0a5e0cf8df67478a565815ac3",
+    "canonical_within_limit": true,
+    "case": "f_int64_one",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 393,
+    "native_sha256": "4f8b88ed2033a34594486deef2be3c8f047c1c6ac0fd18a44afce6670b92b1c6",
+    "native_within_limit": true,
+    "received_native_bytes": 393,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 372,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 446,
+    "canonical_bytes": 422,
+    "canonical_sha256": "1e28c2124b0c7bd746ed8a9e50185987417e5d6f156833ffba600014755b980a",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 446,
+    "native_sha256": "520553269e6a67d1772a11c9ddf23c68e2f3fa8ba2e0ec53b6858acec1bf4678",
+    "native_within_limit": true,
+    "received_native_bytes": 446,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 422,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 426,
+    "canonical_bytes": 402,
+    "canonical_sha256": "b1dbea806510c2c8bc7cb2aa61ba6ecb07bd16d58588a3e73cef39ea1fe91fe6",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 426,
+    "native_sha256": "3e6d1764fe332cbaa1906d14bd70cfc69bac97cb569f9ae1b05edbf360772b55",
+    "native_within_limit": true,
+    "received_native_bytes": 426,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 402,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 444,
+    "canonical_bytes": 420,
+    "canonical_sha256": "a3350b6b3a297d62d3b47deaacc80e436ce265a086d1d1698cdf8773645aa6a6",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 444,
+    "native_sha256": "d652fc64c0f6bb08f9a862ccd3aba6f61d5cbac4674f1fc30286e7603355b901",
+    "native_within_limit": true,
+    "received_native_bytes": 444,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 420,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 446,
+    "canonical_bytes": 422,
+    "canonical_sha256": "1e28c2124b0c7bd746ed8a9e50185987417e5d6f156833ffba600014755b980a",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 446,
+    "native_sha256": "520553269e6a67d1772a11c9ddf23c68e2f3fa8ba2e0ec53b6858acec1bf4678",
+    "native_within_limit": true,
+    "received_native_bytes": 446,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 422,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 444,
+    "canonical_bytes": 420,
+    "canonical_sha256": "3567b2f2f63f64e11fa2407672e1b89d70abbb361db7028ed456e28419ec96f6",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 444,
+    "native_sha256": "341a7c5ff8a2d5ef679b04ac312e4c13646295450dca1d3c70057032048650ac",
+    "native_within_limit": true,
+    "received_native_bytes": 444,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 420,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 425,
+    "canonical_bytes": 401,
+    "canonical_sha256": "36414b5c83b064473d3fbb8c4b4e3b79965281b15cabd9bcf04232864f88671f",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 425,
+    "native_sha256": "87f03f37ebf2112b438a46f5d22912202ae89b9f871809141418abf6baf26544",
+    "native_within_limit": true,
+    "received_native_bytes": 425,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 401,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 443,
+    "canonical_bytes": 419,
+    "canonical_sha256": "6d55b8be0b9a43990931bd7bb7ad55ba166809b52df4d7052e344cc4b7d459ec",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 443,
+    "native_sha256": "5541b685d05a61607898b1fbc864482152ddca6c9fed4cae4833697de7a280bf",
+    "native_within_limit": true,
+    "received_native_bytes": 443,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 419,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 443,
+    "canonical_bytes": 419,
+    "canonical_sha256": "6d55b8be0b9a43990931bd7bb7ad55ba166809b52df4d7052e344cc4b7d459ec",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 443,
+    "native_sha256": "5541b685d05a61607898b1fbc864482152ddca6c9fed4cae4833697de7a280bf",
+    "native_within_limit": true,
+    "received_native_bytes": 443,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 419,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 443,
+    "canonical_bytes": 419,
+    "canonical_sha256": "6d55b8be0b9a43990931bd7bb7ad55ba166809b52df4d7052e344cc4b7d459ec",
+    "canonical_within_limit": true,
+    "case": "r_int64_one",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 443,
+    "native_sha256": "5541b685d05a61607898b1fbc864482152ddca6c9fed4cae4833697de7a280bf",
+    "native_within_limit": true,
+    "received_native_bytes": 443,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 419,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 761,
+    "canonical_bytes": 722,
+    "canonical_sha256": "a924591e36611afbb109e67bac006bce2f921d0bee08fce541aadab47f57464e",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 761,
+    "native_sha256": "12de98ae48b9a7fb86b1a2161f8aa2cf888fc18be83da5b4903ff364dca305e6",
+    "native_within_limit": true,
+    "received_native_bytes": 761,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 722,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 469,
+    "canonical_bytes": 435,
+    "canonical_sha256": "b7b8e3af12247d809476ee8829660189ac9ae3a4b71086bcb4cf6b0cea41f2bf",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 469,
+    "native_sha256": "49ae716bc82f6dfb2037dc34ed20899783565120ee168259818f5eebb59cd165",
+    "native_within_limit": true,
+    "received_native_bytes": 469,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 435,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 521,
+    "canonical_bytes": 487,
+    "canonical_sha256": "34ca7a814fb542a03b4fd75eb035cca38de5cbcd7afa339ee516832f3b7e4613",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 521,
+    "native_sha256": "ba665d7413443df8603ca5729882f32ddd6ef1834fa7cfe5deaa3391932a7cce",
+    "native_within_limit": true,
+    "received_native_bytes": 521,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 487,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 525,
+    "canonical_bytes": 491,
+    "canonical_sha256": "ab20ea20719372a8ae09d922158cb4058e46f4f36410d95021748e5de9c519bd",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 525,
+    "native_sha256": "fe6f1dcd934428d0796f47c3d844a86b25a289adc6e8d856808f628b5fd2759e",
+    "native_within_limit": true,
+    "received_native_bytes": 525,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 491,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 757,
+    "canonical_bytes": 718,
+    "canonical_sha256": "a40e5301baf6f0e8a478a4cd156b2619ff22c7f83f44275f10b4a42d3003bc04",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 757,
+    "native_sha256": "94face759ceae1db10a3b67b6311551a87329e0776554aef2075d351965de197",
+    "native_within_limit": true,
+    "received_native_bytes": 757,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 718,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 468,
+    "canonical_bytes": 434,
+    "canonical_sha256": "7f51a7cb8dee96c642c59fb9228d971a0e5001c4da5660de6fabff327c0b7e11",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 468,
+    "native_sha256": "1b6d4df033551ce46bc0e388640e5ea14a829645d0687dcb5dbaf16833f7c5de",
+    "native_within_limit": true,
+    "received_native_bytes": 468,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 434,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 520,
+    "canonical_bytes": 486,
+    "canonical_sha256": "b7bcd97fb35641b1773f64d201d0e80cad1b87f3d84fbea935d368fb190f5063",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 520,
+    "native_sha256": "5df3526ced20871a2fb33a9e51df665939c44ceb5ee6e0877b3a9f7df437867c",
+    "native_within_limit": true,
+    "received_native_bytes": 520,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 486,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 522,
+    "canonical_bytes": 488,
+    "canonical_sha256": "f424c8c3b8e28e1834f2162510b2cf9781be71869cb276320a869d54577b3eb8",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 522,
+    "native_sha256": "bc89f767fb1d11e7929297521046a8003e092bcbf1a4493cb2c84fd3e03278fb",
+    "native_within_limit": true,
+    "received_native_bytes": 522,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 488,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 756,
+    "canonical_bytes": 717,
+    "canonical_sha256": "5f36b37a082d9fc1bef0bf7719d429676ad3c8c0a50dcfffd3963747a16058e4",
+    "canonical_within_limit": true,
+    "case": "f_two_mixed",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 756,
+    "native_sha256": "c2a1db716445a338d055c336dfcdf43761e916af7048a21d033d304f7913906f",
+    "native_within_limit": true,
+    "received_native_bytes": 756,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 717,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 703,
+    "canonical_bytes": 663,
+    "canonical_sha256": "26bc7592b3b0bf51f0214c434d1127041a55d0adebdb57938f801a9a487359f3",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 703,
+    "native_sha256": "8120f52d9cf2f6f3464437ed2c5ec2444f89fe9b69e5b71e2e0542dec5228b0c",
+    "native_within_limit": true,
+    "received_native_bytes": 703,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 663,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 645,
+    "canonical_bytes": 605,
+    "canonical_sha256": "053fe5aae9d95587a602e867cd338b231014921e27c52ccd8448886014fb5c22",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 645,
+    "native_sha256": "0eff478fdbe8e6ebb4e5b37edd0d1143950f7532d9f4a11258b8677c96948e44",
+    "native_within_limit": true,
+    "received_native_bytes": 645,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 605,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 697,
+    "canonical_bytes": 657,
+    "canonical_sha256": "7ff001ce6a653de18bf88b8f5ebb8cfe6f585c17e21ef6b6eb8c3258d5154cb3",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 697,
+    "native_sha256": "802e08016cf0d3c5ec20ebe13175317025a4f604db4b42d01b265062244caf9a",
+    "native_within_limit": true,
+    "received_native_bytes": 697,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 657,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 701,
+    "canonical_bytes": 661,
+    "canonical_sha256": "7e1e36b92c034a13b6f4254f63788d1cac148aeede7875e924283e4383c6cbbe",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 701,
+    "native_sha256": "09ffc795f9dd329a622d694d12a653b73f9733e7b435b7aa213681dead6446e2",
+    "native_within_limit": true,
+    "received_native_bytes": 701,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 661,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 699,
+    "canonical_bytes": 659,
+    "canonical_sha256": "5995136ad87c27dded63273507ad2baf5c1b7c0011ab9d2f821e79dfeaa6fb99",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 699,
+    "native_sha256": "af246941db2cb8d73486625d7bfcfe0cd5641e038e6c4e800b13bad7b74c78c1",
+    "native_within_limit": true,
+    "received_native_bytes": 699,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 659,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 644,
+    "canonical_bytes": 604,
+    "canonical_sha256": "be302e502d16990ed07aaf886dfd77298066f5596f64028fe58f254d9a726c0e",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 644,
+    "native_sha256": "32356fc472bd3078aa320fb346ad6e908fb6625d36d256b52c51fb6df86cf80d",
+    "native_within_limit": true,
+    "received_native_bytes": 644,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 604,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 696,
+    "canonical_bytes": 656,
+    "canonical_sha256": "fb3f4d6843a419362a8d87408fc0ba4396ebff747d2e399f4c20d4dd3562db65",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 696,
+    "native_sha256": "c43d45fe655f459a80c1bb4ddb37c1b9d56a7ed43599e739972e107443db49f8",
+    "native_within_limit": true,
+    "received_native_bytes": 696,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 656,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 698,
+    "canonical_bytes": 658,
+    "canonical_sha256": "1fbe2b2af53acdf580b5a5c05ffc511b4adbb1c7ff259110a4adb4bcaa970fcf",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 698,
+    "native_sha256": "a6152111427a0a71adcc325485467b58a30fd39e1d943a5de4aee073f158941f",
+    "native_within_limit": true,
+    "received_native_bytes": 698,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 658,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 698,
+    "canonical_bytes": 658,
+    "canonical_sha256": "1fbe2b2af53acdf580b5a5c05ffc511b4adbb1c7ff259110a4adb4bcaa970fcf",
+    "canonical_within_limit": true,
+    "case": "r_two_mixed",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 698,
+    "native_sha256": "a6152111427a0a71adcc325485467b58a30fd39e1d943a5de4aee073f158941f",
+    "native_within_limit": true,
+    "received_native_bytes": 698,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 658,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 873,
+    "canonical_bytes": 829,
+    "canonical_sha256": "b9eb17c016590279713d5c083d52a13824c3cce85957c8a9eb41102ebcf732eb",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 873,
+    "native_sha256": "e32b3c19ae481c1345badf3a892e21f6d5fbc2da9342e5f267df179a3fc1c9e8",
+    "native_within_limit": true,
+    "received_native_bytes": 873,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 829,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 709,
+    "canonical_bytes": 668,
+    "canonical_sha256": "fd59e662074a6fa87105129759187207c282dea2ce4f550efc79d6165ba45261",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 709,
+    "native_sha256": "843954dd037a3eeedf1d995f4ed78c83e91d05b92c2a04a047f64baf01577f2a",
+    "native_within_limit": true,
+    "received_native_bytes": 709,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 668,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 743,
+    "canonical_bytes": 702,
+    "canonical_sha256": "00b598ea0f69a94af7cab2b76380e52bee4c0783d4cc34f2e333a0c5a40700a2",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 743,
+    "native_sha256": "3699ab8fc3e55c758f70ad19bb23a720cd53e1726a631a22d28cf053dfe21477",
+    "native_within_limit": true,
+    "received_native_bytes": 743,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 702,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 746,
+    "canonical_bytes": 705,
+    "canonical_sha256": "b5d6b4ad2ceb1e19dc2823607cad66c301ca3e50bfb8c44a5c73585cf98e2742",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 746,
+    "native_sha256": "4bd5312f7c173a6adad9919a724099cb61d551022d3d80291a366c631635bfcb",
+    "native_within_limit": true,
+    "received_native_bytes": 746,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 705,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 870,
+    "canonical_bytes": 826,
+    "canonical_sha256": "bfce35c88a5b33f9807956125080ca440bc57e96a210328ef50a7b97cc64e77b",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 870,
+    "native_sha256": "bfa010e43a413f5fb02573020b8674a8f86981210eb3a248214e073fd601c2f4",
+    "native_within_limit": true,
+    "received_native_bytes": 870,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 826,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 708,
+    "canonical_bytes": 667,
+    "canonical_sha256": "655325a728f0329e970212680dff802e1ae5eb139328742ff0e6cf749074233f",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 708,
+    "native_sha256": "0959e520839dd7c444b625a31e7a208ea635b7998ef07d1242e116ecd5cf3019",
+    "native_within_limit": true,
+    "received_native_bytes": 708,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 667,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 742,
+    "canonical_bytes": 701,
+    "canonical_sha256": "7ca940f4c7c75aec8e71521448197797ad2928e5d4e538b8bffb3b9cd5be7b8b",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 742,
+    "native_sha256": "e41374a2b13fe3dd30a6875a451bd4f7c4ac82f31ef7a7758a028e373dc04bd9",
+    "native_within_limit": true,
+    "received_native_bytes": 742,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 701,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 743,
+    "canonical_bytes": 702,
+    "canonical_sha256": "0752627f12c03c5357e5241f3d7569b9691167b5f922b70fa689d0ba80efd073",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 743,
+    "native_sha256": "ec65ca715508144301b66f724cd497a883a086e355c69597cb31579613c7d5d9",
+    "native_within_limit": true,
+    "received_native_bytes": 743,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 702,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 869,
+    "canonical_bytes": 825,
+    "canonical_sha256": "d416c7d2448d023838978af52ef32e1745b90e6c4e90d43cd829cab67d7ae0b8",
+    "canonical_within_limit": true,
+    "case": "f_unicode",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 869,
+    "native_sha256": "6ebf20b66428845b5dccbb98fb4ae55183905a85acbed765a4b1591b064d5c88",
+    "native_within_limit": true,
+    "received_native_bytes": 869,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 825,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 923,
+    "canonical_bytes": 876,
+    "canonical_sha256": "a5c6228347d7d0e50d1655a33c9b575d00077fba874f0a325e3db7f0b9c8781c",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 923,
+    "native_sha256": "c25cc60fec7ae312659491fd94b5c78ab98cb9e22d3cb15797d3418373262958",
+    "native_within_limit": true,
+    "received_native_bytes": 923,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 876,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 885,
+    "canonical_bytes": 838,
+    "canonical_sha256": "655e57a81047d2b291fe3d6d0130201455d3bd5b856ed3c1da890109a52217d1",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 885,
+    "native_sha256": "17c4540d489daa383e81eb402f013f3bdb8e1f439f7fb3d8ac88f96980d62ffb",
+    "native_within_limit": true,
+    "received_native_bytes": 885,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 838,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 919,
+    "canonical_bytes": 872,
+    "canonical_sha256": "b21f1a37094cd60edc0ecabfcc2cb5a231b34cfd06d4cbd647df4c0efa99fe0b",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 919,
+    "native_sha256": "ec25c8a35f81b75a4bc81c5b7ade89548b63745bde4fad42594a2e7bae958dfb",
+    "native_within_limit": true,
+    "received_native_bytes": 919,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 872,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 922,
+    "canonical_bytes": 875,
+    "canonical_sha256": "97d587258ba08b04e5ef42f1f3ecad6b35c0a8a9ee09cee32869416acd2bcd0c",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 922,
+    "native_sha256": "44b568bba83e09ee807e31704c60a1595cc842f10c0e7612105372579dbb203e",
+    "native_within_limit": true,
+    "received_native_bytes": 922,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 875,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 920,
+    "canonical_bytes": 873,
+    "canonical_sha256": "d3764fe8e45345cc973f48fd55ba6f1c72061c2b64e0fba1bcfda9937aadcbeb",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 920,
+    "native_sha256": "a21a8e883772bee651546938119f360a76a175f0cd2826ab7c43f3365790eaf3",
+    "native_within_limit": true,
+    "received_native_bytes": 920,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 873,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 884,
+    "canonical_bytes": 837,
+    "canonical_sha256": "79d1d57ba555732a8cd870265fc6af0c931642873c13214f57c20a3598eb1c24",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 884,
+    "native_sha256": "e3199a8dcb4a0eb6c5dfe6c3f9708f6d3c593684ed77e6836c215f11980e9722",
+    "native_within_limit": true,
+    "received_native_bytes": 884,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 837,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 918,
+    "canonical_bytes": 871,
+    "canonical_sha256": "5633935f2f56e5d07b43ecde00959035f1023307e95a394a6966b80f7998a333",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 918,
+    "native_sha256": "088a7ad91a3d25de75a6ab0f795849d27abc658527e44281d06306b523deb8da",
+    "native_within_limit": true,
+    "received_native_bytes": 918,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 871,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 919,
+    "canonical_bytes": 872,
+    "canonical_sha256": "6f96c35b48c5cea79f51a1bbbfbbb04f060ced83c34f7f864e435748bf53a917",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 919,
+    "native_sha256": "82cd5aaa3f4fe5ea960b279777095f0a74134a37bbb333899a27a9950ff4cfb0",
+    "native_within_limit": true,
+    "received_native_bytes": 919,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 872,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 919,
+    "canonical_bytes": 872,
+    "canonical_sha256": "6f96c35b48c5cea79f51a1bbbfbbb04f060ced83c34f7f864e435748bf53a917",
+    "canonical_within_limit": true,
+    "case": "r_unicode",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 919,
+    "native_sha256": "82cd5aaa3f4fe5ea960b279777095f0a74134a37bbb333899a27a9950ff4cfb0",
+    "native_within_limit": true,
+    "received_native_bytes": 919,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 872,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1665,
+    "canonical_bytes": 1621,
+    "canonical_sha256": "a2a7f00a6f851f5f51aee0e6ed90b08c5cd6c6f1dcc78979d7cd5eb4d1cc4467",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1665,
+    "native_sha256": "2f4a360dfa6f935d69397942423898dfe540890be283ecb743f958de0f8c1461",
+    "native_within_limit": true,
+    "received_native_bytes": 1665,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1621,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1501,
+    "canonical_bytes": 1460,
+    "canonical_sha256": "eb1ce79c61ca4ecce54832b59469af7d86cd51e1aaa6c784153b509dd9597aaf",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1501,
+    "native_sha256": "ce9ade8ad0499ec6e29ba1252530364b5d085b3c5aab556871380b9900d7c758",
+    "native_within_limit": true,
+    "received_native_bytes": 1501,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1460,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1535,
+    "canonical_bytes": 1494,
+    "canonical_sha256": "f3da8f2af2669b9ce222945596064d12e8d8edb86c1c12118bdecd930e1431a3",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1535,
+    "native_sha256": "8a597744cb435515fc946268c332673f28453d7e7815c154646aad1e1539f199",
+    "native_within_limit": true,
+    "received_native_bytes": 1535,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1494,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1538,
+    "canonical_bytes": 1497,
+    "canonical_sha256": "954fab23387bf61dc07cdcd159013233a7639b97bd306e72801dc68d8f6981a7",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1538,
+    "native_sha256": "71d5e311766a423eaa816ed04313f30e2891e1fbcbf5431b27070a420bc6bc3f",
+    "native_within_limit": true,
+    "received_native_bytes": 1538,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1497,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1662,
+    "canonical_bytes": 1618,
+    "canonical_sha256": "80a89ff93093495762f8628956f1e59ce027df9ab9efc49dfbbb62d0ee13ea61",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1662,
+    "native_sha256": "9b950f273042ca0faa09f095fd2ea9bdbcd08597a3dc23d8beed6065a7878df0",
+    "native_within_limit": true,
+    "received_native_bytes": 1662,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1618,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1500,
+    "canonical_bytes": 1459,
+    "canonical_sha256": "488899cb1e07614b6df9bda1a635493a4fdaa11b96f88af1cfa21780dd52728e",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1500,
+    "native_sha256": "756515e319b70f5322ff468a8dc682247b8f7c0dcfa943d31eccd9c24fe4a0f2",
+    "native_within_limit": true,
+    "received_native_bytes": 1500,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1459,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1534,
+    "canonical_bytes": 1493,
+    "canonical_sha256": "d782e91c9aa73aa11519182ca6005e5d55fd46d81f5fb16d7d99a55a37e7c92f",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1534,
+    "native_sha256": "8e225b08ef3efd58d38eec3c7eb46a2289e29318cc31ae37179636a2d3bdbbc6",
+    "native_within_limit": true,
+    "received_native_bytes": 1534,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1493,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1535,
+    "canonical_bytes": 1494,
+    "canonical_sha256": "d86c297770d27a5586b6fa861586021ea52e25d77c86b2c1af71edd667f64c30",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1535,
+    "native_sha256": "99b41583d751189173459509baa0a48c19ab7d03e54f060328430c4b7878172d",
+    "native_within_limit": true,
+    "received_native_bytes": 1535,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1494,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1661,
+    "canonical_bytes": 1617,
+    "canonical_sha256": "cc0df96d287f8959ee1b248b65a43b59c12dc3868193993dffc7eeb0140d2baf",
+    "canonical_within_limit": true,
+    "case": "f_controls",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1661,
+    "native_sha256": "2c39b1f514891d5de8869a59088237dbc1233c4fdf4f3448388a8386de119424",
+    "native_within_limit": true,
+    "received_native_bytes": 1661,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1617,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1715,
+    "canonical_bytes": 1668,
+    "canonical_sha256": "426f43248b5b6d9fe2840efe43284b89a5fdb92924c7d29f1d1a5a9dcd2bf049",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1715,
+    "native_sha256": "0e84b04fb057fe93e07e18e1d624c4085c33a777233f03cc4d61d0b5427de6e9",
+    "native_within_limit": true,
+    "received_native_bytes": 1715,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1668,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1677,
+    "canonical_bytes": 1630,
+    "canonical_sha256": "1f0f6b08c69e2d9f8a8c9f2a15b151aa386623bd7e74a32aeb98c8ef97945c5d",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1677,
+    "native_sha256": "a1e1a607b6fea9656f5c9463469ab97fb7143242bfd295354e6f4f177e7da0d2",
+    "native_within_limit": true,
+    "received_native_bytes": 1677,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1630,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1711,
+    "canonical_bytes": 1664,
+    "canonical_sha256": "559ed4750b149af001eaae5458ee759183f4762b7e4e2eecc1e37ed421a4670e",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1711,
+    "native_sha256": "edf8d8f76493b1634d433e34d78527f973715eba15104b559b69de7ef08b8c7d",
+    "native_within_limit": true,
+    "received_native_bytes": 1711,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1664,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1714,
+    "canonical_bytes": 1667,
+    "canonical_sha256": "0df568c0ce7f08d7e23cae335a4b87410be5745e92d196adde14d1419bcb0fb1",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1714,
+    "native_sha256": "e5092b5bab70dab6298968964c8e12a7c419d9643beae4d1960db3bdc2971504",
+    "native_within_limit": true,
+    "received_native_bytes": 1714,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1667,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1712,
+    "canonical_bytes": 1665,
+    "canonical_sha256": "374568fb8f0703a0a85dbd6739207b815061fde56a8656fa0bafd88560321506",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1712,
+    "native_sha256": "c389c7d159038afc9bda720eae8d72868b63af834269dbedb2e641633d608aa5",
+    "native_within_limit": true,
+    "received_native_bytes": 1712,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1665,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1676,
+    "canonical_bytes": 1629,
+    "canonical_sha256": "5686392ed9d25b05b38e8f4b4c7eaa9ddb2cc91a67d83907724dea088c559be1",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1676,
+    "native_sha256": "277b9bc495c08ee02902daff15ea5431d8b49bb52aabc0f6e63f331e9e679ea7",
+    "native_within_limit": true,
+    "received_native_bytes": 1676,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1629,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1710,
+    "canonical_bytes": 1663,
+    "canonical_sha256": "a77d6f4e0ec8bfb991c0a1b090e22d1217816dc92c77a8729fa3eceeb655e6a9",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1710,
+    "native_sha256": "e1ca9f1149862b944245e5dafc00375b3a2ee37566c78b99eeb30079445ba9b9",
+    "native_within_limit": true,
+    "received_native_bytes": 1710,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1663,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1711,
+    "canonical_bytes": 1664,
+    "canonical_sha256": "4d27f20697cc46887cb5a80070be138bb57febe13b1268bef2f846da3a308e2e",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1711,
+    "native_sha256": "2971370325aa3d596897773fb12b99c166dd542cfab4658629bfb81478437da0",
+    "native_within_limit": true,
+    "received_native_bytes": 1711,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1664,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 1711,
+    "canonical_bytes": 1664,
+    "canonical_sha256": "4d27f20697cc46887cb5a80070be138bb57febe13b1268bef2f846da3a308e2e",
+    "canonical_within_limit": true,
+    "case": "r_controls",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 1711,
+    "native_sha256": "2971370325aa3d596897773fb12b99c166dd542cfab4658629bfb81478437da0",
+    "native_within_limit": true,
+    "received_native_bytes": 1711,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 1664,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 412,
+    "canonical_bytes": 391,
+    "canonical_sha256": "2d905d0aaa906dda0f09adcb36724659044830b18506564faebc73aef0397ff4",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 412,
+    "native_sha256": "de3df07e60ce29c2f9770ad3f118604ddd454f598809ddf8af15e61dd40c983d",
+    "native_within_limit": true,
+    "received_native_bytes": 412,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 391,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 250,
+    "canonical_bytes": 232,
+    "canonical_sha256": "09ee3e18099d7f22036e7651f091fb62f4715375b8e8e1b5734eddfffe991f41",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 250,
+    "native_sha256": "75e5f74298bac7f4ac18d50edde9451d06e112bae785c23fe451d969886de631",
+    "native_within_limit": true,
+    "received_native_bytes": 250,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 232,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 284,
+    "canonical_bytes": 266,
+    "canonical_sha256": "e6489e7eb65a42eaf4e48e9735c5748e0d426df051fed8792533e10c56e21bef",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 284,
+    "native_sha256": "7fc6e8209f1ff5f9b86b9c0e4f701fcffc2ee21e4cd2f074f9a0f56d54f11236",
+    "native_within_limit": true,
+    "received_native_bytes": 284,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 266,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 286,
+    "canonical_bytes": 268,
+    "canonical_sha256": "8e16345d3505463a37b8dcc633a333e445e1a5d8d86aadd1d0f02eae1e3eba8a",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 286,
+    "native_sha256": "489dbcfaaaf844a6e803712879a50061879ae6547e42f297a734ad87ede5aa13",
+    "native_within_limit": true,
+    "received_native_bytes": 286,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 268,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 410,
+    "canonical_bytes": 389,
+    "canonical_sha256": "47cfac936046e4c5d7be6c280f1e59ab2a9f91f55d1c350687ffbcffdba9246e",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 410,
+    "native_sha256": "1e1bf38a077b59052cb8ffa527bc75b9b7ac70ab8265889a32463a5c16bc867f",
+    "native_within_limit": true,
+    "received_native_bytes": 410,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 389,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 249,
+    "canonical_bytes": 231,
+    "canonical_sha256": "8ff56f644b3d5cce6a07691ac4fbc33fa8279328e17fc62fab60bf271416afe1",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 249,
+    "native_sha256": "d8b74e5e4f75fdba25e5845a5ec002132279fcdd5fe2b7709172030e05158354",
+    "native_within_limit": true,
+    "received_native_bytes": 249,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 231,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 283,
+    "canonical_bytes": 265,
+    "canonical_sha256": "597768bc3f2cf3749252d67232794ac9028d0f505b0cff016209194547cd62ba",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 283,
+    "native_sha256": "f18173e3f73d651df492358dc8de463c542f13063de41a822c6c34f3f2a6fc5f",
+    "native_within_limit": true,
+    "received_native_bytes": 283,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 265,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 283,
+    "canonical_bytes": 265,
+    "canonical_sha256": "2aeb8b06f8d27d5946cef643bea79ea10f7b287a0a1a9872004a97d077bd05d3",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 283,
+    "native_sha256": "f15d1d3dee4c21fc539c5b6c7a52a4b5a608b317d68c5dea4ebb3bc112a08b90",
+    "native_within_limit": true,
+    "received_native_bytes": 283,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 265,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 409,
+    "canonical_bytes": 388,
+    "canonical_sha256": "a971888832f4c5bc172c80a45f04216f5c2783cc0cb1e85322d92c9539327fd0",
+    "canonical_within_limit": true,
+    "case": "f_count9",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 409,
+    "native_sha256": "28e0a82a374bca646fb8e908347ebe606a95aa64866e62e6443ae7b02e7a915b",
+    "native_within_limit": true,
+    "received_native_bytes": 409,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 388,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 415,
+    "canonical_bytes": 394,
+    "canonical_sha256": "84e6b17b89be3ff81a13b7f3d6e813293703635bb07fa2bffec39b7873818fa0",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 415,
+    "native_sha256": "347f239319a58728172532d7c1e949e80ccca1efa08325bcaa54d00683bdf608",
+    "native_within_limit": true,
+    "received_native_bytes": 415,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 394,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 251,
+    "canonical_bytes": 233,
+    "canonical_sha256": "c4f0b34ce644dccafb6b0ca91c98849e8ef41876aaef1bee49d9ff840b46a8ea",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 251,
+    "native_sha256": "30ac5a5a42d74858bc49f06a47e19cccddf4111b89d6a93367381d664cf3a15d",
+    "native_within_limit": true,
+    "received_native_bytes": 251,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 233,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 285,
+    "canonical_bytes": 267,
+    "canonical_sha256": "6800b4383bb5dcb0b7afe7fcbc77fe5b859f35b0bde57fa9420b4a8a11250524",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 285,
+    "native_sha256": "016a589f0b12899e36aee4b2772f4f775655d5c623dd5ba72e77abc1570a7ce0",
+    "native_within_limit": true,
+    "received_native_bytes": 285,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 267,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 288,
+    "canonical_bytes": 270,
+    "canonical_sha256": "e832194c5943bbd13b6b3a4afdd59fb816bd2d9654c3bbdbcedd98313a1d81a3",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 288,
+    "native_sha256": "94d3fdeca485f0b4b6ca39450c7950d7dedc1aa791666b3980a2b7d2e88bece9",
+    "native_within_limit": true,
+    "received_native_bytes": 288,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 270,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 412,
+    "canonical_bytes": 391,
+    "canonical_sha256": "85ad27e2031302a179b6a1708dfea8a8d38b525a187f27504f7fcf13671ca2cd",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 412,
+    "native_sha256": "2c170024d7c33bd31ca1e2c5ec5cf1873fecaa1a81a1ce5877043cf15319641b",
+    "native_within_limit": true,
+    "received_native_bytes": 412,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 391,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 250,
+    "canonical_bytes": 232,
+    "canonical_sha256": "804adfc14cb935ece0e6db73fc9b65e8fe1b6dec617f9a7659bd7f3840a0313a",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 250,
+    "native_sha256": "588da11db88d5f646c13b11e58fc8958bee6e677404b5d93e463838a7ebd71e6",
+    "native_within_limit": true,
+    "received_native_bytes": 250,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 232,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 284,
+    "canonical_bytes": 266,
+    "canonical_sha256": "00cb7b2606dcd70d049f620e6cdf1d20dd200ed9006cf47e615302e1169e8d3f",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 284,
+    "native_sha256": "cf5b666d8977e9ae79cdc4ed7aef68cdec37e4bda06fa5f6f7e9ec4663c11061",
+    "native_within_limit": true,
+    "received_native_bytes": 284,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 266,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 285,
+    "canonical_bytes": 267,
+    "canonical_sha256": "da72841e51830b7eb0019443a044b07021efd7fba447df113a2a0e60b7dbd818",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 285,
+    "native_sha256": "8e3c6ab57d038292815b93184d8eb2086fd8c9e175f2f4141055af2d4a9f6c71",
+    "native_within_limit": true,
+    "received_native_bytes": 285,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 267,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 411,
+    "canonical_bytes": 390,
+    "canonical_sha256": "b7b77c4b94bd3415ca740e3daaadfdde1deb7ea00df30754dfa459d6620461df",
+    "canonical_within_limit": true,
+    "case": "f_count10",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 411,
+    "native_sha256": "f463ab7a60609067aac6b2186cb92ce663c57d886e4391b5537d2071b2a33947",
+    "native_within_limit": true,
+    "received_native_bytes": 411,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 390,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 421,
+    "canonical_bytes": 400,
+    "canonical_sha256": "85db96acbf5526cd2854c52961a7afd1c1a1ca701c01d0e597b08438119d9368",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 421,
+    "native_sha256": "29fefbd3021e3972ce24b4232326879d44de45ca38a5810e7e302889c4ce84b2",
+    "native_within_limit": true,
+    "received_native_bytes": 421,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 400,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 253,
+    "canonical_bytes": 235,
+    "canonical_sha256": "daed488aace7dd1fb075b3d33470cd76864bbb1042249b36f6f1bca9286252f7",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 253,
+    "native_sha256": "686432c0b6431cb2d4bcd05074b720f0759aae96bef0dc30983b541b0253c22d",
+    "native_within_limit": true,
+    "received_native_bytes": 253,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 235,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 287,
+    "canonical_bytes": 269,
+    "canonical_sha256": "596d23a8b77817d3c885e96ab74ea594ad8dfd38869fad8686d2e30968251fe7",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 287,
+    "native_sha256": "47b236c1292db4dea1d5d77ca97ffc67a157a9261fda4802532af2789872a388",
+    "native_within_limit": true,
+    "received_native_bytes": 287,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 269,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 292,
+    "canonical_bytes": 274,
+    "canonical_sha256": "b95587bcd6f6b04386b079c5b90b7468788c8408d091443737afba033e548e09",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 292,
+    "native_sha256": "cef8e3fcd6dd97815dc882166805c4dc57054502c98d37e80f6ee30edaf9e88e",
+    "native_within_limit": true,
+    "received_native_bytes": 292,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 274,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 416,
+    "canonical_bytes": 395,
+    "canonical_sha256": "6dcecd8455d2e52057b90f4b51d7d48e6ecc01981eb86f42c1851fb065d301eb",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 416,
+    "native_sha256": "cd23bf4e3fe2558da7236140c3d41b8ec697e2dee0cc3b597fb6f2539f8da3cc",
+    "native_within_limit": true,
+    "received_native_bytes": 416,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 395,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 252,
+    "canonical_bytes": 234,
+    "canonical_sha256": "3ff2015ff2ce0f852cbd1137a2260f44a518796535a013eead1a4dbef76bef7e",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 252,
+    "native_sha256": "b7315fae41effdb2a75114d53c02c01d982f3a81e1179b320297ec41c1888f55",
+    "native_within_limit": true,
+    "received_native_bytes": 252,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 234,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 286,
+    "canonical_bytes": 268,
+    "canonical_sha256": "36df737c776af856bf8afedb04c6c5962ba400c51917bd59f12ad3b1ffb6d052",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 286,
+    "native_sha256": "a42f0ad4946684b509bdf5e647885561c3f355e86ee0b5c3d568271fb0202a9f",
+    "native_within_limit": true,
+    "received_native_bytes": 286,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 268,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 289,
+    "canonical_bytes": 271,
+    "canonical_sha256": "4bba11c90e550b0947d7a1b2c5db471682b3d558e60f7d29283f9af279c1e136",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 289,
+    "native_sha256": "55acbc9dd4b115f295fc29d5a2c02c9fa40792083ada71412f6d2f54620d6ff2",
+    "native_within_limit": true,
+    "received_native_bytes": 289,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 271,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 415,
+    "canonical_bytes": 394,
+    "canonical_sha256": "625f358aa518f08a084658ac2ce88f45232cd6399f067c851662fbba29a3a263",
+    "canonical_within_limit": true,
+    "case": "f_count9999",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 415,
+    "native_sha256": "7d753d68f13a0cb6e8d7881c399b5091fd3f26c7e90c36faea084dcef9e63bff",
+    "native_within_limit": true,
+    "received_native_bytes": 415,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 394,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 424,
+    "canonical_bytes": 403,
+    "canonical_sha256": "77a1ddea191b53b54119060db374c6d8666918bbbd528aee498dcd8a334f08c0",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 424,
+    "native_sha256": "835be6027a3b79b3918d5e1dc6fcae1fac56de2d8a4b0d39c4e66ec2d3644f42",
+    "native_within_limit": true,
+    "received_native_bytes": 424,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 403,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 254,
+    "canonical_bytes": 236,
+    "canonical_sha256": "a329a164678b0cf8e859a8a7843d79c5b0d7061f1041b3f0216eaec5dea8db7e",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 254,
+    "native_sha256": "548734c268b8c2053e44e72f2f6bc5015b86ae5f70e8e60e8f3c9de36fbbaa6b",
+    "native_within_limit": true,
+    "received_native_bytes": 254,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 236,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 288,
+    "canonical_bytes": 270,
+    "canonical_sha256": "a7e3cb7f1d492bc13077fefdfea5087e780d7c3205b4813c77899295ddf5276d",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 288,
+    "native_sha256": "2588a4ac1e27ca05c81ded3bf955677e3b111a5ba7bb057e82a7e65bdd3c7d94",
+    "native_within_limit": true,
+    "received_native_bytes": 288,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 270,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 294,
+    "canonical_bytes": 276,
+    "canonical_sha256": "37b2185435c021a221f48461763c24e34122db4ad3f9a7301a7243620aaa6548",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 294,
+    "native_sha256": "4947f684f316756af1eac0f27b644b96e8ddf031b00ebc4059f2419279905172",
+    "native_within_limit": true,
+    "received_native_bytes": 294,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 276,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 418,
+    "canonical_bytes": 397,
+    "canonical_sha256": "b43d8dca9145764f44a3c88883da1c3b10f5e4c7bcc53cf229fc77c3804f2c3b",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 418,
+    "native_sha256": "45c97e0943ae2b2e047cd2ddd43dacb573b48fe046447041f755a641d564a82a",
+    "native_within_limit": true,
+    "received_native_bytes": 418,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 397,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 253,
+    "canonical_bytes": 235,
+    "canonical_sha256": "7ee6125b6b569c1ecc07211caa758e58fa04b2c05461b940a621ebf3399081d5",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 253,
+    "native_sha256": "007f600175b6cab3d0ce470159c58e10393359145d43272fd97a336fce4ee730",
+    "native_within_limit": true,
+    "received_native_bytes": 253,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 235,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 287,
+    "canonical_bytes": 269,
+    "canonical_sha256": "91dbe2eee48ec945f2bc53aa76acf5f26c44a668d9fbc4f9de60fdfeceacedc0",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 287,
+    "native_sha256": "4f8636cad1d2b7c4041cf134ea700026bd9a094261526d9324dcf86248589085",
+    "native_within_limit": true,
+    "received_native_bytes": 287,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 269,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 291,
+    "canonical_bytes": 273,
+    "canonical_sha256": "f3f2ba2a413360613d4fd597ebf89c2c92a29fdafb6fbab8d94f2cdbd887b29c",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 291,
+    "native_sha256": "cd520c83858f461261f1642532dafd56aa009d0f76383d61b556ae50f6048373",
+    "native_within_limit": true,
+    "received_native_bytes": 291,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 273,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 417,
+    "canonical_bytes": 396,
+    "canonical_sha256": "fea7734f6d66ba0732972f105b6b34ff239d5dc9f5e9ad37639223b043ca9492",
+    "canonical_within_limit": true,
+    "case": "f_count10000",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 417,
+    "native_sha256": "ab0c80ac76a1bd6ff2aefe0d7ea791f0c729e90c6bde2383eaeb36d952145727",
+    "native_within_limit": true,
+    "received_native_bytes": 417,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 396,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 457,
+    "canonical_bytes": 436,
+    "canonical_sha256": "46beaef7d409da6ae9d740b392a91e23e3ae8050ca2986aa7d7f1ca838e0c4f1",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 457,
+    "native_sha256": "92b41d0f789f83a1137c13caa05c89d90240bb808afa8d25cca02a3b712b6183",
+    "native_within_limit": true,
+    "received_native_bytes": 457,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 436,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 265,
+    "canonical_bytes": 247,
+    "canonical_sha256": "eba5468ea31fd0479a78ff3f137740189c54afc757aeab4004330898474236b0",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 265,
+    "native_sha256": "92f65a11eeb4bddf449b2ba0bfa5bb61cace55a6c027d9af1ee73442a7368588",
+    "native_within_limit": true,
+    "received_native_bytes": 265,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 247,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 299,
+    "canonical_bytes": 281,
+    "canonical_sha256": "20a2350ef052b52672a97922d180e02671a39b1e43ca1f1e9f2a69e3985c5166",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 299,
+    "native_sha256": "3253038dce3db37ef014a95a46d22814627f9b7a7ba45eca66a2d26880aeb2bf",
+    "native_within_limit": true,
+    "received_native_bytes": 299,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 281,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 328,
+    "canonical_bytes": 310,
+    "canonical_sha256": "34c2c13f4eefb33e316e66dbd1c0b2bf803db3c00b1e398541fe46f46bc7d833",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 328,
+    "native_sha256": "151f4aad2f3a2ee94a17c3df759daefffbed5c1f2007072243f9b5d0ebfcce40",
+    "native_within_limit": true,
+    "received_native_bytes": 328,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 310,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 452,
+    "canonical_bytes": 431,
+    "canonical_sha256": "f1b8cfa997ef762f7e4a977aac65207fe6112752dc7305e0c1ffd9c3b6ba0b87",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 452,
+    "native_sha256": "a588c4e38e6fe13b7a8fe687c6ea5a00afe1c0d0c37fbde4161f24f3003589c4",
+    "native_within_limit": true,
+    "received_native_bytes": 452,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 431,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 264,
+    "canonical_bytes": 246,
+    "canonical_sha256": "4ec773464b42031e04f21180d7c8f6d6f4e47433e89a9aa9f23e7cd4a95ade61",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 264,
+    "native_sha256": "9008476449637b4c0cfa218e570caec0ac06f38b097f4e0ae7f863639b631475",
+    "native_within_limit": true,
+    "received_native_bytes": 264,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 246,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 298,
+    "canonical_bytes": 280,
+    "canonical_sha256": "bd20c9c1a9ca49ec38fc27ef59f7ed4a746c1af6699965cea541bd285eb227ba",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 298,
+    "native_sha256": "0f202e1226654b63d5cbca61ac1659f5b5acea5afc7c81f885a841d2fbd930d1",
+    "native_within_limit": true,
+    "received_native_bytes": 298,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 280,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 325,
+    "canonical_bytes": 307,
+    "canonical_sha256": "aa9b640587e58d9fc36725c044b9c6297cea9fb8852a2dcc3b7d226d008353d4",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 325,
+    "native_sha256": "39ddbee3febf8d12bf3184d915ac79fb176e9c21443a990f840ce345f8b94c9b",
+    "native_within_limit": true,
+    "received_native_bytes": 325,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 307,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 451,
+    "canonical_bytes": 430,
+    "canonical_sha256": "d5b35933b34416da4496cc8d483ca20e70aae9c44b7da61ec88c7edda97b0022",
+    "canonical_within_limit": true,
+    "case": "f_count2p53m1",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 451,
+    "native_sha256": "42331bf054f7f7dcbf9bece19a5b647fbbbbbf6f318bb1278b7eefc3183d4400",
+    "native_within_limit": true,
+    "received_native_bytes": 451,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 430,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 457,
+    "canonical_bytes": 436,
+    "canonical_sha256": "ab60bdd1fcd4875c5bc98a618b13694e9f6d8ee876ea1c5bd94572933e63988c",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 457,
+    "native_sha256": "eb757d54db006475dc5a813986a78c00db4179e29e1bc79bc7c155ca586f1c55",
+    "native_within_limit": true,
+    "received_native_bytes": 457,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 436,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 265,
+    "canonical_bytes": 247,
+    "canonical_sha256": "3f42607bd9b91b3276cde23fa9d948a85efcfed4dcbd23fbe48696b665fc2ace",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 265,
+    "native_sha256": "37d9d8e0da6e7d0bb83b9b4cc97d30daad50b30a9eb31c08c721bcc55b0181ea",
+    "native_within_limit": true,
+    "received_native_bytes": 265,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 247,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 299,
+    "canonical_bytes": 281,
+    "canonical_sha256": "3c81f1c35cc62eb4f9ea5373d84a19cf1056d52bef0baf2d0cfbcf4a01023329",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 299,
+    "native_sha256": "c7155f6407fd1f0eadc09d683c19364fda720083701d065b8fe34a62b20eeeaf",
+    "native_within_limit": true,
+    "received_native_bytes": 299,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 281,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 328,
+    "canonical_bytes": 310,
+    "canonical_sha256": "bd5dfa642c1e7c43dab59a622dd33ff61d95b1fbce8f56c4f302dcf544d71cc9",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 328,
+    "native_sha256": "9b283b734970e69b02b7cd6d9382e32e1da198f014e568098d60dad2c902b353",
+    "native_within_limit": true,
+    "received_native_bytes": 328,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 310,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 452,
+    "canonical_bytes": 431,
+    "canonical_sha256": "73ad73297cdd45da9134bee34f1e3c16315b50fa8c52925e8fd1cf139cdf785f",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 452,
+    "native_sha256": "4a8b463b047fe439bf4382ebf8776c93d79baeca50a690b2c2df7c4b59ca36fd",
+    "native_within_limit": true,
+    "received_native_bytes": 452,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 431,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 264,
+    "canonical_bytes": 246,
+    "canonical_sha256": "280be3467273e5f54bd6f7bfad4c05b44cde4ac48522cfe0dbb099703e7edc3d",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 264,
+    "native_sha256": "5823b200e252be2e2300f7b1ef4ea5271546695efb67904bb446dc85da997e87",
+    "native_within_limit": true,
+    "received_native_bytes": 264,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 246,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 298,
+    "canonical_bytes": 280,
+    "canonical_sha256": "d428ae16bef2a17c2498368c45189e239678b9ee8e0b988942c54bdf90c9db20",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 298,
+    "native_sha256": "fd57d50e3ff88a048b6564417c4bbfd3c7b3733040c0ca61e513378fa0fec927",
+    "native_within_limit": true,
+    "received_native_bytes": 298,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 280,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 325,
+    "canonical_bytes": 307,
+    "canonical_sha256": "609b585d396d8869719b9870709cc3cb97b42eadb0568950a0415083b609e704",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 325,
+    "native_sha256": "a4cdcb63eb0d69131ae6ed4476e09ffb271bb14b93c9e9304f062fef55abd9c9",
+    "native_within_limit": true,
+    "received_native_bytes": 325,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 307,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 451,
+    "canonical_bytes": 430,
+    "canonical_sha256": "1210a7106df8b996352752db7b4495bc71a07b92d728daf452fee575a4424004",
+    "canonical_within_limit": true,
+    "case": "f_count2p53",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 451,
+    "native_sha256": "6e4375890454a814a8f87c28edfad48602e0190bb9cfdd846d3a81204f681c69",
+    "native_within_limit": true,
+    "received_native_bytes": 451,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 430,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 460,
+    "canonical_bytes": 439,
+    "canonical_sha256": "87220b28a6f5f6cb7d8c2490953dafbd7c7ff9bf8ddf3303ffe7c7db61470e94",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 460,
+    "native_sha256": "df0d407fdba849a7b10905e9cf3d12a1d90d17c74302cc986d7501fce26c67a8",
+    "native_within_limit": true,
+    "received_native_bytes": 460,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 439,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 266,
+    "canonical_bytes": 248,
+    "canonical_sha256": "ebcf4c7b32d7747596697afebbc6510b98011f2134b49191eda6696b69462740",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 266,
+    "native_sha256": "e27a47284fbfb10d7c46f98740a73c0d7f732998004ec3907e42f870322830f6",
+    "native_within_limit": true,
+    "received_native_bytes": 266,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 248,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 300,
+    "canonical_bytes": 282,
+    "canonical_sha256": "6c4e82bea2eee96c800d6d985d3db43f8a97b74233e51f35e9bbf018d035226b",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 300,
+    "native_sha256": "a07ecc79e1b7995eecded82feea2c02bee99837f84d1811622fed7ed6dec927c",
+    "native_within_limit": true,
+    "received_native_bytes": 300,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 282,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 330,
+    "canonical_bytes": 312,
+    "canonical_sha256": "dd56caa9b3e65e2f11eeb7efc18e8bce59765f7ee0546a7e11a34f4d81af1d6d",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 330,
+    "native_sha256": "a64f8fd7c969dd7bcf16759e765fad2424ef39f726f7b4f840cea82e40eb3a73",
+    "native_within_limit": true,
+    "received_native_bytes": 330,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 312,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 454,
+    "canonical_bytes": 433,
+    "canonical_sha256": "876a205c1983738ef187f83501f0df7a7599af61a0867d334ecc7a6f44effc1f",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 454,
+    "native_sha256": "044eab8eea45f2e2d94f01d9ee0a9fc5aaef8c7b8ff2ac5585c06100e24b9cdc",
+    "native_within_limit": true,
+    "received_native_bytes": 454,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 433,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 265,
+    "canonical_bytes": 247,
+    "canonical_sha256": "366593c5c4250b38ec56e3a8e8bf048640f2992a9d46f6e5d14dcf6ac4ebc070",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "abort_expanded",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 265,
+    "native_sha256": "7cfd69c51d88b9fd87bdabee1a61813bbf2871f3b5002ed9c33961b0b0246882",
+    "native_within_limit": true,
+    "received_native_bytes": 265,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 247,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 299,
+    "canonical_bytes": 281,
+    "canonical_sha256": "b7b39654296586b773874be1b99028db3f2edbcd0acaaae26275ad28c1677dd4",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "abort_partial",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 299,
+    "native_sha256": "f3fcc1d68ca45888ef11ad6ad0552cf3bb6ac75ac2521810589556d86d843355",
+    "native_within_limit": true,
+    "received_native_bytes": 299,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 281,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 327,
+    "canonical_bytes": 309,
+    "canonical_sha256": "66f6317430248584d0b9fdb4425c2f5fc17bb3ec215d5ca8a4ada561198bc828",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "abort_backfilled",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 327,
+    "native_sha256": "0feeeb9f64e30058bb7b3b27d5caaf0f4d53e59a08e53a32bced3625fa858e11",
+    "native_within_limit": true,
+    "received_native_bytes": 327,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 309,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 453,
+    "canonical_bytes": 432,
+    "canonical_sha256": "79d50819cd95e3663656f9b1a53d597440adac7cdcab28e7b27873ffbf95cf86",
+    "canonical_within_limit": true,
+    "case": "f_count17digits",
+    "kind": "state",
+    "label": "abort_verified",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 453,
+    "native_sha256": "5fe841e64f12ee8948df0e070c801a0235d60f2cb78553fb1cb60a8626ece417",
+    "native_within_limit": true,
+    "received_native_bytes": 453,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 432,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777237,
+    "canonical_bytes": 16777215,
+    "canonical_sha256": "2554ed6ae2da0bab92dbd550891b0ce06f3e2e59a0385c69a13011a24a91a544",
+    "canonical_within_limit": true,
+    "case": "canonical_below",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777237,
+    "native_sha256": "e80f05802167c58f7e5ad998f2469d7e0fd2b0de4fddc8356e0f8b0088113f57",
+    "native_within_limit": false,
+    "received_native_bytes": 16777237,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777215,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777234,
+    "canonical_bytes": 16777212,
+    "canonical_sha256": "47ffd568f894b54683a03183e4f9761ff07d86a299caf63109e48c6f0436fd46",
+    "canonical_within_limit": true,
+    "case": "canonical_below",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777234,
+    "native_sha256": "97d11eea982f6b3d4c5744bc82cb0e647ebedf0235158172340020a6b4317bc9",
+    "native_within_limit": false,
+    "received_native_bytes": 16777234,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777212,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777238,
+    "canonical_bytes": 16777216,
+    "canonical_sha256": "2228ca239d181b86258a6ccf5e40a2677ba556afea367b484f59a0dab80b20f4",
+    "canonical_within_limit": true,
+    "case": "canonical_equal",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777238,
+    "native_sha256": "1996c69f79ec31867e323c6cb0d18fd877b1bfc4017f25c2ed86e4c78ce3f9c4",
+    "native_within_limit": false,
+    "received_native_bytes": 16777238,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777216,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777235,
+    "canonical_bytes": 16777213,
+    "canonical_sha256": "cf3ad6c920bdb115b8baaeef7cb553cb77b1242472c00e93317e2c0f6a57e422",
+    "canonical_within_limit": true,
+    "case": "canonical_equal",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777235,
+    "native_sha256": "94672022542e6e943c67c8729dc925f0163eb887cd70d61f50e05d05869c8ea5",
+    "native_within_limit": false,
+    "received_native_bytes": 16777235,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777213,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777239,
+    "canonical_bytes": 16777217,
+    "canonical_sha256": "afa3035e6f42bc77f49daec776606abef7517e24064b24980f7c8b218f1d2585",
+    "canonical_within_limit": false,
+    "case": "canonical_above",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777239,
+    "native_sha256": "4f53459851c3505b9f364aac2cc435a1a5cfdc3aee9998e3d9341d0ee7595d2a",
+    "native_within_limit": false,
+    "received_native_bytes": 16777239,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777217,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777236,
+    "canonical_bytes": 16777214,
+    "canonical_sha256": "6e2e93a205c49a7c561a5c286dcedf002c0bcad00c6dc8a5b6394f6af70b1c76",
+    "canonical_within_limit": true,
+    "case": "canonical_above",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777236,
+    "native_sha256": "f9898d485ccb88875aaba53755a7a94e6c8ad81f5304070f075172c01d06d8ae",
+    "native_within_limit": false,
+    "received_native_bytes": 16777236,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777214,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777215,
+    "canonical_bytes": 16777193,
+    "canonical_sha256": "0798aed5eb066e0f0f31b7c666e8c47d265a9adc7362a4948eb16b9a05c2c1b7",
+    "canonical_within_limit": true,
+    "case": "native_below",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777215,
+    "native_sha256": "774ebd28203fbb6b0f8f5fd328cff45b7a130a92848364dd614ddc6e1d461fbd",
+    "native_within_limit": true,
+    "received_native_bytes": 16777215,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777193,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777212,
+    "canonical_bytes": 16777190,
+    "canonical_sha256": "2a69255fa63b80b1f581c37eacbee9d72fccfda54f1cc7c75bdf77eb33ddca82",
+    "canonical_within_limit": true,
+    "case": "native_below",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777212,
+    "native_sha256": "a532ea5604c1ba23d6e523e16e54c06f1b307b3ff80890bad9c62ef703906529",
+    "native_within_limit": true,
+    "received_native_bytes": 16777212,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777190,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777216,
+    "canonical_bytes": 16777194,
+    "canonical_sha256": "a53afd92e436e5d28bc464070bb2eab64f84e9e317ea43426e93be502fe0ec34",
+    "canonical_within_limit": true,
+    "case": "native_equal",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777216,
+    "native_sha256": "98f503341afb5dce68aac6d9f39b4039bfaad163afc9e0a08451d31e34c27ffb",
+    "native_within_limit": true,
+    "received_native_bytes": 16777216,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777194,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777213,
+    "canonical_bytes": 16777191,
+    "canonical_sha256": "4507d21926294490add469c9cb0c5c7e3c76257bcc8df96ce004700065a6ddff",
+    "canonical_within_limit": true,
+    "case": "native_equal",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777213,
+    "native_sha256": "8e5fe3aade9651b7768a6041c05db510aeae598540bec761c9b79d4fad7724f2",
+    "native_within_limit": true,
+    "received_native_bytes": 16777213,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777191,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777217,
+    "canonical_bytes": 16777195,
+    "canonical_sha256": "51b5c0a4b0fe96e22dd774d3ca47643066e9d4978da881c341c0950a9747d40a",
+    "canonical_within_limit": true,
+    "case": "native_above",
+    "kind": "state",
+    "label": "envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777217,
+    "native_sha256": "eaa20447789bf88ecce21300cef65108f1992ca1464f5bf88f493cd3f0cf78aa",
+    "native_within_limit": false,
+    "received_native_bytes": 16777217,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777195,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 16777214,
+    "canonical_bytes": 16777192,
+    "canonical_sha256": "9748f6842f7869f6103d846292ab2744ad67b233e68fcbee9996d609f1c6cddb",
+    "canonical_within_limit": true,
+    "case": "native_above",
+    "kind": "state",
+    "label": "aborted",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 16777214,
+    "native_sha256": "2decd1afbbb1ed6dcf1319e57511b2fa9aa1c24f71c4edef07d0a8fbf48fffe0",
+    "native_within_limit": true,
+    "received_native_bytes": 16777214,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 16777192,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 460,
+    "canonical_bytes": 439,
+    "canonical_sha256": "87220b28a6f5f6cb7d8c2490953dafbd7c7ff9bf8ddf3303ffe7c7db61470e94",
+    "canonical_within_limit": true,
+    "case": "omission_controls",
+    "kind": "state",
+    "label": "correct_envelope",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 460,
+    "native_sha256": "df0d407fdba849a7b10905e9cf3d12a1d90d17c74302cc986d7501fce26c67a8",
+    "native_within_limit": true,
+    "received_native_bytes": 460,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 439,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 457,
+    "canonical_bytes": 436,
+    "canonical_sha256": "216b6c6f9aa26c744f704798b2200c520102e15a4e588affe89be2d339d233ff",
+    "canonical_within_limit": true,
+    "case": "omission_controls",
+    "kind": "state",
+    "label": "independent_abort",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 457,
+    "native_sha256": "4d548d93ec8176c55a717cd4ab530d12d23643a8e3a86108cc86fc9c66672054",
+    "native_within_limit": true,
+    "received_native_bytes": 457,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 436,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 334,
+    "canonical_bytes": 316,
+    "canonical_sha256": "47e26afae822fc7b7c0bdff13b362397974c04c07a3a0af3fa10961ac6bda79b",
+    "canonical_within_limit": true,
+    "case": "omission_controls",
+    "kind": "state",
+    "label": "omit_verification",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 334,
+    "native_sha256": "c7d5f7b59d4d4381afd110f7ad8a0710bf43e161291c42afdc646fa5d6e6ddbb",
+    "native_within_limit": true,
+    "received_native_bytes": 334,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 316,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 426,
+    "canonical_bytes": 405,
+    "canonical_sha256": "91e82efc95d3dc43688d0fc50c44be1532289e03487e9ee095e2236bc330d5e7",
+    "canonical_within_limit": true,
+    "case": "omission_controls",
+    "kind": "state",
+    "label": "omit_cursor",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 426,
+    "native_sha256": "746cdbc7ab53dde0bd24cc0b69556c2f0a3a618a778692cf7c896d7635fd88e3",
+    "native_within_limit": true,
+    "received_native_bytes": 426,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 405,
+    "text_format": 0,
+    "text_oid": 25
+  },
+  {
+    "candidate_native_bytes": 428,
+    "canonical_bytes": 407,
+    "canonical_sha256": "f5c48090a78c9412167e28dc363cdfd05cfa65d28b8b99629345dcde8dfd2950",
+    "canonical_within_limit": true,
+    "case": "omission_controls",
+    "kind": "state",
+    "label": "omit_counters",
+    "length_formats": [
+      0,
+      0,
+      0
+    ],
+    "length_oids": [
+      23,
+      23,
+      25
+    ],
+    "native_bytes": 428,
+    "native_sha256": "8f11f0cac9a249a59bd14e460ce83a45747f51b2dd62a20b88a536c78bb1bb4c",
+    "native_within_limit": true,
+    "received_native_bytes": 428,
+    "root_type": "object",
+    "status": "OBSERVED_BEFORE_ASSERTIONS",
+    "supplied_bytes": 407,
+    "text_format": 0,
+    "text_oid": 25
+  }
+]
