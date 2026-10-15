@@ -1654,10 +1654,10 @@
     "smoke_fixture_acl_approval": "PENDING Sentinel_d4be0bfc407881d19ce0ef871aa5304d"
   },
   "current_coordinator_status": {
-    "updated_utc": "2026-10-15T21:43:00Z",
+    "updated_utc": "2026-10-15T22:46:00Z",
     "owner": "current root coordinator",
-    "database": "Stopped; native V2 fully independently accepted; no active DB tests",
-    "remote_head_verified": "90ddfa57e605228a347dac046033610a041b2526",
+    "database": "Stopped; source GREEN independently accepted; no active DB tests",
+    "remote_head_verified": "4d6601e3d6e436f76c38c3315fd31bcb5728dbee",
     "candidate_source": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
     "source_main": "both accepted zero failures",
     "source_optional": "38 accepted",
@@ -1668,11 +1668,11 @@
     "focused_recovery": "independently accepted actual remote-byte restore",
     "smoke": "V2 source accepted and12files remoteexact; limited historical helper route provenance reconciled; current role continuity not claimed; fixture approval pending",
     "pending_approval_message": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
-    "next": "Doctor text-remedy one-line patch/unit proof source review; preserve native proof findings without new journal policy; pending approvals remain held",
+    "next": "Review and select offline bundled-uv build packet after clearance; independently verify packages; fresh installed SA21 then separately bound SA20 seven-case checks. Current installed preview unchanged until promotion gates. All four owner decisions remain held.",
     "preview_docs": "v4 all16files exact remote bytes; docs-only package README correction proposed",
     "active_exec_session": null,
-    "active_root_capture": "persistence-recovery-20261013/abort-envelope-native-v2-sa21-root",
-    "active_evidence": "cryptalis-executable/evidence/abort-envelope-native-probe-v2-sa21-20261015",
+    "active_root_capture": "persistence-recovery-20261013/doctor-real-green-v1-root",
+    "active_evidence": "cryptalis-executable/evidence/doctor-remedy-real-source-green-sa21-v1-20261015",
     "main_runtime_source_review": "0ce0a286dbf8fbd049976dc37f8c8624043a70d03b5c34d9389b34f1f1296169",
     "stage_binding": "b6bf904e2efe3e9a5ec28118e8ed2d3b0f76cf4085153e6bcaad1024263daec5",
     "source_package_supplement_upload": "part05 rejected twice, exact archive approval requested; no bypass",
@@ -1696,8 +1696,13 @@
     "pending_native_timing_approval": "Sentinel_4f098287705081d189fcf808f0148c97",
     "native_envelope_v1": "CLOSED_FAILURE14492777a41a76912c1f5d92ae473d44ac6f9aa6c6d594ed3f9f084d0340ed0e;zeroPASS1FAIL;preserved",
     "native_envelope_v2": "CLOSED_PASS66be8d8b513f40dfd7620e54494c850e22cae726b8f938ce1b48c1012f4cdd00;31PASS93phases221records184statepairs;archive249/runtime/corpus26/stop0/status3;no productv3 or current journalpolicy change",
-    "remote_tree_verified": "1d05e40e04cad9ad2f14e13b6a81912af321f7d5",
+    "remote_tree_verified": "43781159edc5efdaee2047f50c626e9b3620bf55",
     "native_remote": "26selectedsource/entry/evidencefiles byteverified through9000743ede262529f2a725d9810d791c6a1bbfac; independent inert remote restore ongoing",
-    "doctor_remedy": "one-lineisolatedpatch31e117393dd77d40a8d10733434defe55c6b590958ec25d73afaaa5821592e10 under source/proof review, no execution/integrationyet"
+    "doctor_remedy": "Actual-dependency source RED2FAIL4PASS and GREEN6PASS independently accepted. GREEN review1632e84f5b85fddfeafe165489598895ea9e699514fa17207e49b9ce7a250368 verifies only two safe remedy-line changes; original3025/new3267/source221/corpus26/binding/origin/stop closure. Source8files remoteexact4d6601e3d6e436f76c38c3315fd31bcb5728dbee. All custom proof holds and helper failures retained.",
+    "doctor_candidate": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+    "doctor_candidate_manifest": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+    "doctor_green_binding": "cryptalis-executable/experiments/doctor-remedy-integration-plan-v1-20261015/SOURCE_GREEN_BINDING.json",
+    "bootstrap_scope": "Current source RED/GREEN directly use pinned host -I-B-S cold launcher. Historical main43 target closure alone did not admit coordinator repo/.venv site startup; do not claim comprehensive startup provenance for that earlier route.",
+    "record_scope": "Pre-publication coordinator snapshot; later verified commits are recorded separately."
   }
 }

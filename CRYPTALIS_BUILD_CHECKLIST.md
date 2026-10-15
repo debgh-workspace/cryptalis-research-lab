@@ -1614,3 +1614,49 @@ Root selected nativeV2 after independent minimal source and outerentry reviews, 
 Review66be8d8b513f40dfd7620e54494c850e22cae726b8f938ce1b48c1012f4cdd00 accepts CLOSED_PASS_SCOPED_NATIVE_REPRESENTATION_OBSERVATIONS:31exactcalls/93PASSphases/221orderedrecords,184independently reconstructed compact/native SHA256-lengthpairs including12fullsize observations,all3omissioncontrols,UUID/int64domains and22P05/22P02rejections. NativeJSONB formatting makes the compact-equal16MiB specimen22byteslarger; actualnative-equal specimencompact16777194bytes. Full249archive/3025runtime/main43/corpus26/stop0/status3 closure verified. OriginalV1failure preserved.
 
 Current-product feasibility clarification:16MiB is existing canonical artifact cap and proposed experimental journal cap, not an existing journal admission contract. Syntheticnear16MiBfill-schema vectors are serializerprobes; actual forward expansion alreadylimitsactive-schema reservation4MiB. No reachable current abort-size defect established by this proof; do not impose new ceiling on legacy/current artifacts or claimproductfix. DurableABORTEDreplan and futurelineagephysicalvalidation remain open.
+
+## 2026-10-15 21:50 UTC — selected native checkpoint restored independently
+
+Review446fe51c7e44b39aded9df77fa135fe8483a4b759c199837c59b0a7cc1c02162 accepts exact26remote files411657bytes at9000743ede262529f2a725d9810d791c6a1bbfac restoredinert0600,Gitblob/seal/review/selection joins,221orderedobservations184complete statejoins. Explicit externalarchive/runtime/corpus/V1dependencies remain; notcompleteenvironmentrecovery. Laterseparate6filephase/rootreceipt supplement e20532cd85f0203f32a1b964da626b4596260477 byteverified byroot, notretroactively partof26filereview.
+
+Doctor remedy proof-v1 source prepared11cases×4serialvariants, with exactrealCLI/doctor/parser copies and explicit dynamicdependency stubs. It can prove boundedtext/JSON/exit/redaction behavior only; installeddependency/import/public integration remains separate. Source reviewfinishing,no unit executionyet.
+
+## 2026-10-15 21:52 UTC — doctor baseline proof harness held before cases
+
+Source reviewfc08468d4f368cb87c638c4de89726bb05f826a27f445c9eda7c63cfb48e3bb4 accepted boundedstubbedCLIproof source. Root selected baseline-red only with actualPopenenv{},pinnedPython and-I-B-S/freshbytecodeprefix. Actualchildexit2/harness_error root_must_supply_empty_environment before any cases. Parentwall0.201546s,CPU0.188684s,peakRSS40576KiB,sourcepinsunchanged,prefixabsent,no signal/timeout. This is a harness-startup HOLD, not expectedproductRED. Remaining3variantsunrun. Minimal no-project childstartup diagnostic proposed to establish interpreterlocale environment behavior before correction; no cause invented, originalattemptretained.
+
+## 2026-10-15 21:56 UTC — interpreter startup behavior directly observed
+
+Separate pinned no-project diagnostic used two fresh childenvmaps. Emptyenv{} produced onlyLC_CTYPE and matched knownC.UTF-8 augmentation; fixed{'LC_ALL':'C.UTF-8'} produced onlyLC_ALL and matched exactlysuppliedmap. Bothexit0,empty stderr,no timeout or bytecodeprefix; diagnostics emittedkeynames/booleans only,no inheritedenvironmentvalues. This establishes the startup effect for these invocations; independentreceipt reviewpending. Exactfixedlocale successor proposed,notgeneralenvironmentwhitelist. OriginalV1threepinpostcheckdoesnotclaim21-filepostrunverification because failureprecededchildpreflight.
+
+## 2026-10-15 22:02 UTC — second isolated proof HOLD; actual-dependency route prioritized
+
+Fixed-locale proofV2 source review1258b2285248dd1f84d8beb0fadc36ead331263f08830444dbf9810597fd2c82 accepted minimalpath/env correction. Root baselineexit1 with9CLIcaseERROR/ProofRejected and2positivecontrolsPASS,0caseFAIL; terminalmatchesplannedfalse. It is not intendedRED. Childrechecked21inputs/stdlibrarypreflight; root3pins/prefixstable. Errorrecords omitguardcode so no preciseguardcause established. Separateminimaldiagnostic canaddsafeexistingfailure_code only; allguardsremain. Remaining3variantsunrun.
+
+To avoid overinvesting in customunit plumbing, prioritized a no-stub six-case actualdependency CLI regression through existing unchanged laboratorywrapper/preflights/lock, with genuine baseline2FAIL4PASS and derivative6PASS expectations. This new route is sourcepreparationonly; currentcandidate/artifactunchanged. Build/installedcandidate binding remains independently required.
+
+## 2026-10-15 22:05 UTC — custom unit diagnostic identifies denied read class
+
+ProofV3 diagnostic source review7a0e9150d2b6b71af152464413fd16ccc5c8a333fe923e4728c16ecd5f41c637 accepted onlyfreshpath/safeProofRejected.code field,guardsunchanged. Baseline-only runexit1,9ERROR2PASS,all9code unadmitted_runtime_read. No actualunadmittedpath captured or identityinferred; sourcepins/prefixstable. This closes the narrow diagnostic question, not the rendering regression. Stubbedroute remainsHOLD and no guardrelaxation/automaticrerun is selected. Independently authorized actualdependency route with unchanged established guards/coldwrapper/preflights is beingprepared; it must not chase unknown deniedpaths or inherit falseproofacceptance.
+
+## 2026-10-15 22:29 UTC — actual-dependency RED bootstrap source corrections
+
+Prepared two exact clean221source copies; green differs onlyapprovedREADME/CLI. Composite root helper source review found and corrected unpinned corpusmap and incomplete packetnamespace admission before execution; original drafts preserved. Review also identified that the prepared shell entry's coordinator-venv site startup is outside main43's SA21/SA20 ordinarynamespace closure. New selected design uses isolated pinnedhost/no-site coldlauncher directly, unchanged child/role/corpus controls; no deniedpath is followed. Historical observations remain, but historical coordinator-startup provenance must not be described as fully admitted by those3025rows.
+
+First direct helper attempt9f44aa... stopped before guard/status/wrapper because generic8MiBread cap rejected the alreadyapproved30,894,944byte interpreter. Exit1; onlycandidate-before.json created, noDBstage/binding. Failure retained as PRE_GUARD_FAILURE.json with explicit transcript-derived provenance. Fresh-root helper2f03c34a9565365dd3e6efda216dbb491f4688d595567c9d8a2859e13b1359d3 adds exactpath/exactsize exception for that pinnedbinary only; independentminimalreview pending. No realCLI regression result yet.
+
+All22sealedproofV1source/inputfiles are now remote byteverified through196cf37699cc38fe6b9ce3ea1234f2d2a858a8cf; this preserves a held route, not a successful test claim.
+
+## 2026-10-15 22:30 UTC — actual-dependency RED observed
+
+After bounded interpreter-size correction and source reviewcdb1023ca73c60a5eed2e4e77e90d65019ab3504f9023a0b998f95434a9e8014, root selected the single six-case source RED through pinned isolated/no-site host coldlauncher and unchanged rolepreflights. Observedexact2text-remedy assertionFAIL/4PASS0.72s. Rootentry1 preservesRED,poststatus3,guardafter0,old3025maps/newcandidatepacket/corpus26equal,binding-after0,stop0/serverstopped andexactsourcepackageorigin. Independent exactJUnit/output/closure acceptance pending; GREEN unselected. This is the first actual CLI regression evidence for the proposedone-linefix; earlierstubbedproofHOLDs remain separate.
+
+## 2026-10-15 22:41 UTC — narrow doctor source fix independently verified
+
+Actual GREEN review1632e84f5b85fddfeafe165489598895ea9e699514fa17207e49b9ce7a250368 accepts6PASS/18PASSphases after REDa4817e237d082eee340232126e4b9cc27683a776ca5017aa3632ce7afca80483 accepted2intendedFAIL/4PASS. Only two rejected-text outputs differ by exactly one library-owned remedy line; all other captured outputs/exit/input hashes/redaction checks match. Original3025/new3267union,derivative221,packet/priorREDbinding,corpus26,prefixes,binding-after0,exactorigin,stop0/status3 verified. Sourcefix is VERIFIED within this narrow actual-dependency boundary. Build, installed-successor, full doctor objective and qualification gates remain unproved. Current installed preview remains unchanged pending package and fresh-cell acceptance.
+
+## 2026-10-15 22:47 UTC — verified source successor published; build and installed routes separated
+
+Eight source/overlay/test/status files are remote byteverified at4d6601e3d6e436f76c38c3315fd31bcb5728dbee. Offline proper bundled-uv build packet f2c617f48161a55b36539702a5b3195967edf80153e302dea4e173ab29c9f591 is under independent source review; fresh clearance and outputs absent. It preserves three-wheel/two-sdist reproducibility checks, isolates host startup and allows only CLI/RECORD deltas against approved README-v2 distributions. No repack fallback selected.
+
+Fresh installed continuation is source preparation only: SA21 first, then separately bound SA20 narrow seven-case CLI checks if prior stage closes. Existing installed221 remains untouched; no main/optional full-suite repeats selected. Opaque cache-marker bodies and preexisting bytecode remain excluded. No package, installed-successor or production completion claim yet.

@@ -65,3 +65,6 @@ The original15-commit mailbox remains9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe
 - DurableABORTED forward replan remains unresolved: retained journal blocks fresh planning. Physical journal/authority/ancestry and safe reverse/removal requirements remain mandatory.
 - Confirmed bounded preview DX defect: plain-text doctor omits its existing constant remedy on invalid declarations although JSON retains it. Proposedone-line renderer patch31e117393dd77d40a8d10733434defe55c6b590958ec25d73afaaa5821592e10 remains separate; source/unit proof review underway. No integrated/runtime claim yet.
 - Final public preview smoke remains dependent on exact fixtureACL permission; archive publication decisions and nativeCF1 timing policy remain separately pending. General continuation is not approval for those actions.
+
+### 2026-10-15 22:41 UTC update: doctor remedy text
+The one-line fix is independently verified at source level through real dependencies: accepted RED2FAIL4PASS and GREEN6PASS, with only two intended remedy-line changes and all other outputs unchanged. Packaging and new installed-artifact tests remain pending. The failed stubbed routes are retained and are not counted as successful regression evidence.
