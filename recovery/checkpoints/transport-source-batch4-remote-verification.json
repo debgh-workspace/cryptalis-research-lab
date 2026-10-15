@@ -1,0 +1,37 @@
+{
+  "commit": "cfc23d796aa4edd34c3242de40e1ceeefdc3e050",
+  "tree": "0584bacf5ef749e8744d1df90e3ce28d9eea4bb2",
+  "method": "authenticated same-commit exact utf8 readbacks",
+  "files": [
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_VERIFICATION.log",
+      "sha256": "5c83adf16728892cedc1e7c7ecfb8ec5342a3d5f4e807c76b7b9b7445c7f8fc1",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INPUTS_VERIFICATION.log",
+      "sha256": "3251fe7fe05b900229b1219ea3a966a974770f9d0b74e4774f3750256f15c54e",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/NATIVE_SOURCE_PIN_VERIFICATION.log",
+      "sha256": "de933cf58fee9cceb0ca3bf9d540c784657ca2a2fc0e2ed34c958dab7469b17e",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/ORIGINAL_MAILBOX_VERIFICATION.log",
+      "sha256": "118b33f40f3fd11de6dbe7f83a18bf0c0d5b92f0ed853b9a32ff340aadee9fe1",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/PREPARATION_STATUS.json",
+      "sha256": "f0ddd49f070b8e15b10cc63cacdc59bb27620e42460ae61f64797df633f0a9ee",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/RED_FINAL_VERIFICATION.log",
+      "sha256": "c8ac5f288ea795521221ef2880e40af9d085fed1072ded43c4da0d64bc7dd2dd",
+      "exact": true
+    }
+  ]
+}

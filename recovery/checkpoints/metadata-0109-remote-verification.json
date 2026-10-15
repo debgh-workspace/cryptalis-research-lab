@@ -1,0 +1,56 @@
+{
+  "commit": "32317c21c4bb991966d3d24eba6a45812372f11b",
+  "tree": "a26bcb0f496a926fafca541261a88a23c0a10898",
+  "verified_at_utc": "2026-10-15T01:11:24Z",
+  "method": "authenticated same-commit fetch_file utf-8 content exact equality for all8 entries",
+  "files": [
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha256": "a940e1d609c5dffb68585375711947d7647d0218fdf26a65d95e25cb0ef98eca",
+      "bytes": 263975,
+      "exact": true
+    },
+    {
+      "path": "recovery/RECOVERY_STATE.json",
+      "sha256": "ec26ad8d6fb4c0435a899278e52909328b919bb42728beee8760c760647364dc",
+      "bytes": 67691,
+      "exact": true
+    },
+    {
+      "path": "recovery/async-cleanup-focused/REMOTE_RESTORE_VERIFICATION.json",
+      "sha256": "c83fbc9e129e6d95f2705d82ff3ff55703e3652d705b5bd5b6750107d89d1d92",
+      "bytes": 3106,
+      "exact": true
+    },
+    {
+      "path": "recovery/async-cleanup-focused/REMOTE_PROVENANCE.json",
+      "sha256": "93b32a8e71db994724409f506c3040e3aad64c9b03a650cf14df7f970e1d7995",
+      "bytes": 9314,
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/async-cleanup-full-integration/SA20_INDEPENDENT_REVIEW.md",
+      "sha256": "704ab558a25e69fc17aecfe056fa4130f8d12d717469786776c07780a84c2b2a",
+      "bytes": 12275,
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/async-cleanup-sqlmodel/TERMINAL_INDEPENDENT_REVIEW.md",
+      "sha256": "41972f42313c765c0a7c927ac8c068ba88559889c744edcbc41be76b65af980d",
+      "bytes": 10974,
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/async-cleanup-release/PACKAGING_INDEPENDENT_REVIEW.md",
+      "sha256": "275f4e0bbe4b9ce74e5b285393a499c5496f5af9edc9cb77c330fa630d137144",
+      "bytes": 9673,
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/GREEN_SA21_REVIEW.md",
+      "sha256": "773923ddee6e3e5d7a26be697b23c8a4716200748698758e2ef27b13cde1cea5",
+      "bytes": 12096,
+      "exact": true
+    }
+  ]
+}

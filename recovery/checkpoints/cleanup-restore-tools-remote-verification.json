@@ -1,0 +1,28 @@
+{
+  "commit": "e48f85a1306d741f83d90a19054f659e98cadabe",
+  "tree": "265612c3478bb6a33dcb717cc7759f4be55621d6",
+  "method": "all4 authenticated exact same-commit utf8 readbacks",
+  "cancelled_tree_reconciliation": "branch32317c21 unchanged and restore script404 before identical retry",
+  "files": [
+    {
+      "path": "recovery/async-cleanup-focused/restore_authenticated_remote_v1.py",
+      "sha256": "4d5337b8cfa752cb5bd41a2260a6c799c099de43d4cef720dbcb446185d4b0aa",
+      "exact": true
+    },
+    {
+      "path": "recovery/async-cleanup-focused/EXACT_MEMBER_PINS-v1.json",
+      "sha256": "7250be3ebdc9874e7406f63ca7cfc3c4cd5a0cfbe0870d515b35d54043e66f43",
+      "exact": true
+    },
+    {
+      "path": "recovery/async-cleanup-focused/PART_PROVENANCE_ATTESTATION.md",
+      "sha256": "b0066ace2eec712ae458a06270ddfe780fa12b7b1d429f95f7e45a29af111abb",
+      "exact": true
+    },
+    {
+      "path": "recovery/async-cleanup-focused/RESTORE_SOURCE_REVIEW.md",
+      "sha256": "cb3653c1743549e8a9f597f62500a8e2bab6531de0f4b67a3348515a2e349ec4",
+      "exact": true
+    }
+  ]
+}

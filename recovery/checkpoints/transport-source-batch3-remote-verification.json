@@ -1,0 +1,57 @@
+{
+  "commit": "42b8a031d79af1ca318ddf4c1f4b900cb7f3addd",
+  "tree": "6204e7525358f0207133beaf7aa76e190b418fd6",
+  "method": "authenticated same-commit exact utf8 readbacks",
+  "files": [
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/BASELINE_keys.py",
+      "sha256": "b76d60f32011705726cc73f6211fa52e5624e475fc63573e578aa9e5078aea56",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/COPY_VERIFICATION.log",
+      "sha256": "5c83adf16728892cedc1e7c7ecfb8ec5342a3d5f4e807c76b7b9b7445c7f8fc1",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/GREEN_FINAL_VERIFICATION.log",
+      "sha256": "c8ac5f288ea795521221ef2880e40af9d085fed1072ded43c4da0d64bc7dd2dd",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/GREEN_keys.py",
+      "sha256": "ea67be78edbbe7489dd296c57f337fea1dedf84a42e73a6ede2d3aa6d3ab1cae",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_FILES.txt",
+      "sha256": "7b96b7f254b1e2f7a5e26acf2d8504c889b89181457d96e9b0705f3d199a3f60",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_FINAL_VERIFICATION.log",
+      "sha256": "5c83adf16728892cedc1e7c7ecfb8ec5342a3d5f4e807c76b7b9b7445c7f8fc1",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_RECHECK.sha256",
+      "sha256": "e77144847a3ba00c94952fa26e4d1d508e217aed3ee3db6b750006138b114f63",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_REVIEW.md",
+      "sha256": "422136702e525755e0ee61c48fb6833e76e6d06ed969e93354b4cb4cded67ca3",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_SOURCE.sha256",
+      "sha256": "e77144847a3ba00c94952fa26e4d1d508e217aed3ee3db6b750006138b114f63",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INHERITED_SOURCE_MANIFEST.json",
+      "sha256": "4ba41f40c8dc32c80b2f863e5bc60fa7ce8434070c45b8b8f9cfc2a3cb145649",
+      "exact": true
+    }
+  ]
+}

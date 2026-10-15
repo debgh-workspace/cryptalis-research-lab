@@ -1,0 +1,57 @@
+{
+  "commit": "4e17ca8ae287c5b97386da3040409dcbef1c19fe",
+  "tree": "6157c40a9ee3020abe1370c871caa06d9360f953",
+  "method": "10 authenticated same-commit exact utf8 readbacks",
+  "files": [
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/PROPOSED_COMMANDS.txt",
+      "sha256": "0498464d43dc5c7779fbbb1cb435bac440f701ac1b4c5441e1533de11ade9293",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/PACKET.sha256",
+      "sha256": "6a7257031d8e38e7712aa037c14fa704579d6cb994c9be205ba6e8f39c8247d3",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/INPUTS.sha256",
+      "sha256": "e43e79d7521ce2afccd96e88e20d485eb95c28aa4f2aabdaf063ebb075d372a9",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/NATIVE_SOURCE_PINS.sha256",
+      "sha256": "9cc74cbd6ab6cd9e174c6eaa8763c307341c9d18322b40697af62778542a7b64",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/ORIGINAL_MAILBOX.sha256",
+      "sha256": "80879adce46f47d21b63c13ab03f77186efb4e2542b2c0eb13b10073c9a37f65",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/GREEN_SOURCE.sha256",
+      "sha256": "8834d8b6303a349d1508e6c729c77eda6b134298dcdba3bc39ffc25929a06eb1",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/RED_SOURCE.sha256",
+      "sha256": "87fb38d2b7efe6a577ab36fb628a1c57e2317fe49437889f77b90cbf1dc43e11",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/PREPARATION_INCIDENTS.md",
+      "sha256": "9d9e707f5d47d47ebc1404200b6fab9f44d61771e46e5fd5f79d161f0611340b",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/GREEN_SA20_REVIEW.md",
+      "sha256": "16a920242c20a763212e06249e458395ab2949e47d188a9ebe5d526f69bfd9cd",
+      "exact": true
+    },
+    {
+      "path": "experiments/acceleration/cleanup-transport-metadata/run-reviewed-block.py",
+      "sha256": "877a8691e87ace5771c4e9d3994b645bc62d736de8b265456fc71da107e359ab",
+      "exact": true
+    }
+  ]
+}
