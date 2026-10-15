@@ -1,0 +1,1070 @@
+{
+  "title": "Cryptalis 48-hour audit evidence map",
+  "kind": "48H_AUDIT_PREPARED_FOR_COORDINATOR_RELEASE",
+  "snapshot_utc": "2026-10-15T12:34:00Z",
+  "assembled_utc": "2026-10-15T12:34:00Z",
+  "sprint_start_utc": "2026-10-13T12:36:11Z",
+  "scheduled_48h_boundary_utc": "2026-10-15T12:36:11Z",
+  "stop_speculative_starts_utc": "2026-10-16T00:36:11Z",
+  "target_72h_utc": "2026-10-16T12:36:11Z",
+  "authority": "Reporting draft only; no checklist/candidate/source edit or promotion",
+  "baseline": {
+    "candidate": "S14",
+    "commit": "2065cb78f3c7126f207fc62c35887ddd204925af",
+    "source_files": 183,
+    "manifest_sha256": "7d0fbca30b4cf09e784ac06fbf2afeeee9a71180316aa6c5465a8087913f8121",
+    "source_refs": [
+      "baseline",
+      "baseline_counts"
+    ],
+    "later_six_tests_excluded": true
+  },
+  "highest_bounded_installed": {
+    "candidate": "Transport218",
+    "source_files": 218,
+    "manifest_sha256": "b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204",
+    "main": "S14",
+    "cells": {
+      "sa21": {
+        "baseline": {
+          "passed": 1831,
+          "failed": 7,
+          "errors": 0,
+          "skipped": 0,
+          "pytest_seconds": 315.4,
+          "subtests": null
+        },
+        "current": {
+          "passed": 2671,
+          "failed": 7,
+          "skipped": 0,
+          "errors": 0,
+          "passing_subtests_separate": 56,
+          "pytest_seconds": 421.57
+        },
+        "delta": {
+          "passed": 840,
+          "failed": 0,
+          "skipped": 0
+        },
+        "source_refs": [
+          "baseline_counts",
+          "installed_sa21"
+        ],
+        "interpretation": "Ordinary regression-suite counts; not unique capabilities or product performance"
+      },
+      "sa20": {
+        "baseline": {
+          "passed": 1813,
+          "failed": 7,
+          "errors": 0,
+          "skipped": 18,
+          "pytest_seconds": 315.98,
+          "subtests": null
+        },
+        "current": {
+          "passed": 2625,
+          "failed": 7,
+          "skipped": 46,
+          "errors": 0,
+          "passing_subtests_separate": 56,
+          "pytest_seconds": 398.45
+        },
+        "delta": {
+          "passed": 812,
+          "failed": 0,
+          "skipped": 28
+        },
+        "source_refs": [
+          "baseline_counts",
+          "installed_sa20"
+        ],
+        "interpretation": "Ordinary regression-suite counts; not unique capabilities or product performance"
+      }
+    },
+    "optional": {
+      "passed": 38,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "pytest_seconds": 5.82,
+      "passing_phases": 114,
+      "baseline_comparison": null,
+      "scope": "Safe recorded result accepted; independent live corpus boundary unavailable after cluster reuse; prior tainted review HOLD/excluded",
+      "source_ref": "installed_optional"
+    }
+  },
+  "historical_installed_failure_ids": [
+    "tests.test_deprotection_ordinals::test_changed_public_staging_refuses_switch",
+    "tests.test_deprotection_ordinals::test_public_copy_participates_in_chunk_byte_bound",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_public_suffix_comment_before_staging",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[column_grant]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[compression]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[statistics]",
+    "tests.test_deprotection_ordinals::test_reverse_refuses_unhandled_suffix_attributes[storage]"
+  ],
+  "separate_evidence": {
+    "cluster_opt_in": {
+      "source_overlay_only": true,
+      "passed_per_cell": 39,
+      "seconds": {
+        "sa21": 14.88,
+        "sa20": 13.83
+      },
+      "independent_live_corpus_boundary_each": true,
+      "not_qualified": [
+        "changed default",
+        "legacy follow-on",
+        "installed union",
+        "physical heap clustering"
+      ],
+      "source_refs": [
+        "cluster_sa21",
+        "cluster_sa20"
+      ]
+    },
+    "safe_default_v2": {
+      "status": "SOURCE_AND_FINITE_DESIGN_ACCEPTED_CONDITIONALLY",
+      "runtime_result": null,
+      "planned_outer_cases_per_cell": 95,
+      "planned_subordinate_producer_cases_per_cell": 28,
+      "source_ref": "safe_default_v2"
+    },
+    "retained_contract": {
+      "status": "FOCUSED_SOURCE_OVERLAY_ACCEPTED_BOTH_CELLS",
+      "green_passes_per_cell": 16,
+      "green_phases_per_cell": 48,
+      "red_failures_per_cell": 6,
+      "red_passes_per_cell": 3,
+      "red_outcome": "Intended FAIL receipts retained; not ordinary PASS",
+      "limits": [
+        "Not full or installed integration",
+        "Mutation demonstrates acceptance-oracle sensitivity, not product detection after apply",
+        "Buffer byte bound is not RSS/WAL/storage bound"
+      ],
+      "source_refs": [
+        "contract_green_sa21",
+        "contract_green_sa20",
+        "contract_red_sa21",
+        "contract_red_sa20",
+        "contract_timing"
+      ]
+    },
+    "union221": {
+      "status": "MATERIALIZED_SOURCE_ADMITTED_FIRST_SA21_FOCUSED_RUN_HOLD",
+      "materialized_at_review": true,
+      "planned_outer_cases_per_cell": 111,
+      "planned_subordinate_producer_cases_per_cell": 28,
+      "runtime_result": {
+        "cell": "sa21",
+        "planned_outer_cases": 111,
+        "executed_outer_cases": 78,
+        "passed": 77,
+        "failed": 1,
+        "unexecuted": 33,
+        "seconds": 42.69,
+        "failure": "genuine v0-schema_abort-link expected TransitionFailure not raised",
+        "terminal_audit": "FAILED_RUN_PRESERVED_CLOSED_BOUNDARY_VERIFIED",
+        "native_two_case_diagnosis": "INDEPENDENTLY_ACCEPTED",
+        "classification": "Paired-rename fixture no-op demonstrated; no product acceptance gap for real drift established",
+        "passing_setup_phases": 78,
+        "passing_teardown_phases": 78,
+        "total_phases": 234,
+        "actual_subordinate_producer_cases": 12,
+        "unexecuted_partition": {
+          "native": 16,
+          "contract": 16,
+          "final_positive_activation": 1
+        }
+      },
+      "coordinator_update": {
+        "received_utc": "2026-10-15T11:54:45Z",
+        "source": "Parent coordination message; no stable message ID provided",
+        "scope": "Minimal updates authorized across all identified shared helpers/assertions; work underway; no acceptance or promotion inferred"
+      },
+      "source_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+      "routed_controls": 17,
+      "source_refs": [
+        "integration_source_review",
+        "ledger",
+        "integrated_failed_terminal",
+        "native_diagnosis"
+      ],
+      "runtime_delta_commit": "50b4b00f42f3a10b4234e91a294126bdf9de99e5",
+      "tests_delta_commit": "5be7e581cbf0512a297dbb772dae92d53409e1ae",
+      "original_hold_source_ref": "union_hold",
+      "fixture_successor": "AUTHORIZED_IN_PREPARATION",
+      "product221_unchanged": true,
+      "corrected111_run": false
+    },
+    "native_diagnosis": {
+      "passed": 2,
+      "passing_phases": 6,
+      "native_checks": 16,
+      "scope": "Native-only PostgreSQL semantics; no product lifecycle or subordinate producer selected",
+      "result": "Paired rename returns exact native state; drop/recreate causes real constraint-link loss; rollback restores original",
+      "source_ref": "native_diagnosis",
+      "not_added_to_integrated_or_installed_totals": true
+    }
+  },
+  "product_facing_classification": {
+    "retained_s14_core": [
+      "Authenticated application-side encryption",
+      "Admitted exact encrypted search",
+      "Tenant/query guards",
+      "Manifest-based attachment"
+    ],
+    "integrated_runtime_additions_or_improvements": [
+      {
+        "capability": "Bounded public-only UPDATE",
+        "boundary": "Off-by-default/private admitted profile; not protected-field bulk UPDATE",
+        "source_refs": [
+          "ledger",
+          "audit24"
+        ]
+      },
+      {
+        "capability": "Async SQLModel public session hook",
+        "boundary": "Opt-in exact SQLModel0.0.47/SA2.0.51 cell",
+        "source_refs": [
+          "s24_s25_blueprint",
+          "installed_optional"
+        ]
+      },
+      {
+        "capability": "Supported index/UNIQUE comment preservation",
+        "boundary": "S24 bounded lifecycle correction; CLUSTER remains separate",
+        "source_refs": [
+          "ledger"
+        ]
+      },
+      {
+        "capability": "Offline setup feedback and scanner binding accuracy",
+        "boundary": "Advisory; not complete doctor or measured setup-line reduction",
+        "source_refs": [
+          "ledger",
+          "audit24"
+        ]
+      }
+    ],
+    "hardening_not_new_broad_features": [
+      "Reverse predecessor/digest validation",
+      "Transaction/result/error cleanup and logging refusals",
+      "Typed plan and numeric-budget handling",
+      "Sanitized policy snapshot",
+      "Trusted-local error metadata transport"
+    ],
+    "proof_not_new_runtime_features": [
+      "S15 bridge used existing installed S14 bytes",
+      "Versioning/SAVEPOINT/fence oracles",
+      "Genuine historical handoff",
+      "Finite compatibility corpus"
+    ],
+    "delivery_infrastructure_not_features": [
+      "Artifact builds and install/RECORD audits",
+      "Evidence archives and remote reconstruction"
+    ],
+    "preview_blockers": [
+      "Fixture-only successor with proven mutation preconditions, then corrected Source221 cross-feature qualification; native no-op cause accepted, product source unchanged",
+      "Final integrated source and installed matrix plus applicable application/lifecycle proof",
+      "Fresh authorized installation/quickstart/recovery and dependency/interpreter/builder provenance",
+      "Source-aligned usability/transparency documentation and durable handoff"
+    ],
+    "full_product_additional_blockers": [
+      "Advanced SQL/types/DML/framework scope",
+      "Online concurrent-write migration and pause SLO",
+      "All three active key operations and real provider custody",
+      "Generic disaster/legacy recovery",
+      "Stronger search privacy and matched performance/scale qualification",
+      "Complete operations and seven independent qualification gates"
+    ],
+    "acceptance_source_ref": "ship_first_mandate",
+    "no_feature_count_or_percent_inferred": true
+  },
+  "qualification_gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  },
+  "objectives": [
+    {
+      "id": "OBJ-SEC-01",
+      "requirement": "Encrypt sensitive values in the trusted application **before PostgreSQL receives plaintext**, with proof at SQL/driver boundaries and independent connections.",
+      "original_requirement_mapping": "R01",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-02",
+      "requirement": "Preserve confidentiality and authenticated integrity under declared tenant/field/row/key-generation context, detect swapped or malformed frames and unauthorized release.",
+      "original_requirement_mapping": "R01",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-03",
+      "requirement": "Enforce application authorization, result lineage and tenant boundaries; handle SQL injection through parameterization, guarded operations and least privilege without falsely claiming that encryption prevents arbitrary application authorization flaws.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-04",
+      "requirement": "Detect plaintext bypasses via ORM, bulk DML, direct SQL, COPY, external writers, migrations, sessions, background jobs, triggers, caches, logs, exports, backups and privilege paths.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-05",
+      "requirement": "Keep payload/search keys isolated, never silently choose fallback keys, bound nonces/usage/leases, test memory/fork/cancellation/rotation and use robust existing cryptography.",
+      "original_requirement_mapping": "R01/R03",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-06",
+      "requirement": "Reduce equality, frequency and access-pattern leakage with a threat-modelled, independently benchmarked search-profile design; document residual leakage, low-entropy domains, adaptive leakage and query-pattern trade-offs.",
+      "original_requirement_mapping": "R05",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-SEC-07",
+      "requirement": "Independent red-team/security, cryptography, SQL adapter, provider and supply-chain qualification; the seven gates pass only with real evidence.",
+      "original_requirement_mapping": "R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-QUERY-01",
+      "requirement": "Exact protected equality, `IN`, scoped uniqueness, SQL NULL/three-valued logic, empty lists, bound types, collision resistance/verification and concurrency races.",
+      "original_requirement_mapping": "R01/R05",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-QUERY-02",
+      "requirement": "Ordinary SQL correctness: `IS NULL`, `IS NOT NULL`, `!=`, `NOT IN`, `IS DISTINCT FROM`, `IS NOT DISTINCT FROM`, nested Boolean expressions, aliases, outer joins, scalar/entity projections, relationships, subqueries.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-QUERY-03",
+      "requirement": "Advanced SQL: ordering, keyset/offset pagination, ranges/comparisons, `LIKE`/`ILIKE`, prefix, suffix, substring, fuzzy, regex, full-text, `DISTINCT`, aggregates, `GROUP BY`, joins, JSON/array/numeric/datetime and other protected types. Each gets native semantics, a viable scheme/profile or an explicit, researched `REJECTED-LOUD` alternative\u2014never silent omission.",
+      "original_requirement_mapping": "R01/R05/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-QUERY-04",
+      "requirement": "ORM/Core and data-modification coverage: INSERT/UPSERT/UPDATE/DELETE, bulk DML, `RETURNING`, triggers, cascades, FKs, savepoints, retries, autocommit/isolation, idempotency and connection/transaction state.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-QUERY-05",
+      "requirement": "Full, versioned compatibility corpus and pre-adoption read-only scanner, with exact native-versus-protected classification and reproducible cases.",
+      "original_requirement_mapping": "R01/R06/R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-01",
+      "requirement": "Declarative, deterministic, safe plan \u2192 apply \u2192 verify; schema/writer/permission inventory; irreversible-step preview and actionable diagnostics.",
+      "original_requirement_mapping": "R02",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-02",
+      "requirement": "Resumable, byte-bounded backfill, full final integrity/metadata verification, journaling, restart and crash-safe atomic chunks, failure fencing.",
+      "original_requirement_mapping": "R02",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-03",
+      "requirement": "**Near-zero-writer-downtime migration**: concurrent writes, captured changes, ordered catch-up, deletion/PK-change handling, stale-worker fencing, verification, short publish/cutover, recoverability and measured pause SLO. Preserve native semantics and current secure maintenance fallback until this is proven.",
+      "original_requirement_mapping": "R04",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-04",
+      "requirement": "Parallel/adaptive migration and verification without double processing, lost updates, unsafe memory, or unbounded locks/WAL.",
+      "original_requirement_mapping": "R02/R04",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-05",
+      "requirement": "Exact decrypt-back of **current edited data**, constraints, types, defaults, order, indexes, FKs, views, ACLs, owners and permissions; complete metadata removal; fresh application operation with Cryptalis uninstalled.",
+      "original_requirement_mapping": "R02",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-06",
+      "requirement": "Safe rollback, restore, redeployment, stale snapshot/pin refusal, retained encrypted-backup readers, RPO/RTO and deployment-disaster drills; no false secure-erasure claim.",
+      "original_requirement_mapping": "R02",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-07",
+      "requirement": "Three separate key operations: root/wrapping rewrap, payload-key rotation/re-encryption and search-root reindex/rotation, with separate correctness and recovery proofs.",
+      "original_requirement_mapping": "R02/R03",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-08",
+      "requirement": "Real production KMS, initially AWS KMS where authorized, robust credential/region/outage/throttling/revocation/cost testing, with a provider-independent contract and no hard dependency on AWS for local functionality.",
+      "original_requirement_mapping": "R03",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-LIFE-09",
+      "requirement": "Safe install, upgrades, compatibility across versions, decommission and explicit clean uninstall, including unsupported legacy-layout repair or a tracked safe alternative.",
+      "original_requirement_mapping": "R02/R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-DX-01",
+      "requirement": "Almost zero business/model/query changes; one manifest, named profiles, one attach call, usable status/plan/apply/verify/deprotect/rotate operations and precise startup feedback.",
+      "original_requirement_mapping": "R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-DX-02",
+      "requirement": "`cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-DX-03",
+      "requirement": "Fully working independent FastAPI/SQLModel integration; a second unrelated application; measure source edit lines, dependency and deployment requirements. Extend thoughtfully to Flask and Django via actually suitable adapters.",
+      "original_requirement_mapping": "R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-DX-04",
+      "requirement": "Normal SQLAlchemy semantics: ORM identity map, lazy/eager loading, `Session.exec`, sync/async, pooling, migrations, background jobs, serializers, errors and result metadata.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-DX-05",
+      "requirement": "Accessible, complete docs: one small quickstart, profiles, threat model, leakage, boundaries, operations, recovery, practical examples, diagnostic errors and learning walkthroughs explaining what/why/how for each slice.",
+      "original_requirement_mapping": "R06/R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-PERF-01",
+      "requirement": "Continuous native ORM vs driver-only vs protected measurements of p50/p95/p99, write rate, steady-state throughput, CPU, RSS/allocations, WAL, storage/index sizes, query plans, provider RPC and recovery costs.",
+      "original_requirement_mapping": "R01/R04/R05/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-PERF-02",
+      "requirement": "Profile-guided optimizations in Python, SQLAlchemy, PostgreSQL and crypto: batching, psycopg pipeline/executemany, pooling, safe cache use, allocations, projections, indexing, native accelerators and bounded key caching.",
+      "original_requirement_mapping": "R01/R04/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-PERF-03",
+      "requirement": "Multithreading, multiprocessing, async and adaptive worker processing with 1/4/16/saturation tests, isolation, retries, process/fork safety, backpressure, cancellation and measured speedup **or regression**.",
+      "original_requirement_mapping": "R01/R04/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-PERF-04",
+      "requirement": "Performance targets on agreed comparable conditions: repository's current added read p95 \u22643 ms for point/equality, \u22648 ms for `IN`-20 and \u22642\u00d7 protected-column-plus-equality-index storage. Define write-throughput and pause SLOs through a documented stakeholder decision; do not invent an approved target or relax an existing target because a test fails. Evaluate million-row scale and a documented growth path to billion-row workloads without claiming the latter has already been tested.",
+      "original_requirement_mapping": "R01/R06",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-OPS-01",
+      "requirement": "Reproducible installed wheels/source releases, verified license, SBOM, dependencies/provenance, locked builds, supported-version matrix, rollback documentation and independent reviewers.",
+      "original_requirement_mapping": "R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-OPS-02",
+      "requirement": "Recoverable research environment, immutable evidence hashes, source-to-test traceability, live Markdown checklist and durable local/authorized remote snapshots.",
+      "original_requirement_mapping": "R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-RESEARCH-01",
+      "requirement": "Comparative, source-backed reverse engineering and potential novel mechanism research; demonstrate independent novelty/prior art and repeatable advantages rather than claiming novelty from an interesting idea.",
+      "original_requirement_mapping": "R01/R02/R03/R04/R05/R06/R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    },
+    {
+      "id": "OBJ-RESEARCH-02",
+      "requirement": "One finished, coherently integrated **working software candidate** that passes its admitted native-compatibility contract, end-to-end reversible lifecycle, real-app adoption proof and all relevant acceptance gates before a qualified release.",
+      "original_requirement_mapping": "R01/R02/R03/R04/R05/R06/R07",
+      "active": true,
+      "done": false,
+      "source_ref": "mapping",
+      "note": "Requirement text only; stale per-objective evidence/status not promoted"
+    }
+  ],
+  "completion_percentage": null,
+  "qualification_eta": null,
+  "internal_preview_shipment_established": false,
+  "production_qualified": false,
+  "performance": {
+    "accepted_new_product_speedup_established": false,
+    "c10_status": "HOLD; both relative and absolute frozen gates FAIL in both cells",
+    "benchmark_source_refs": [
+      "audit24",
+      "performance_c10",
+      "ledger"
+    ],
+    "limits": "No application performance delta derived from suite durations, profile attribution or native component ratios"
+  },
+  "recovery": {
+    "cleanup_installed_evidence": {
+      "local_rebuild_restore": "ACCEPTED_PER_LEDGER",
+      "archive_sha256": "4191955448fc3670cf907c27fb4f346e38b39c1089f3d47ab482d68d35436403",
+      "members": 550,
+      "bytes": 3948788,
+      "remote_parts_verified": 42,
+      "remote_parts_total": 42,
+      "same_commit_complete_remote_restore_established": true,
+      "source_refs": [
+        "installed_complete_provenance",
+        "installed_complete_restore",
+        "installed_complete_review"
+      ],
+      "complete_commit": "a36b75e60903288c71b185cc4909ae16083e0043",
+      "actual_remote_files": 43,
+      "restore_total_files": 5541,
+      "restore_data_files": 5538,
+      "restore_receipts": 3,
+      "three_archive_members": 1421,
+      "logical_files": 3818,
+      "separate_controls": 79,
+      "status": "AUTHENTICATED_THREE_ARCHIVE_INERT_RESTORE_INDEPENDENTLY_ACCEPTED",
+      "historical_partial_batches": [
+        {
+          "commit": "c8855a83a69a0ab48a152784cb14f37f558b6ab8",
+          "parts": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_ref": "installed_remote_batch1"
+        },
+        {
+          "commit": "c32752b27f4c3e9abd82ec57ad092bc87a8a7486",
+          "parts": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "source_ref": "installed_remote_batch2"
+        },
+        {
+          "commit": "607fe42d0297b80a45b8b6edfcfbd6e649d11933",
+          "parts": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "source_ref": "installed_remote_batch3"
+        },
+        {
+          "commit": "405c53edeea8e27a1ca774aa270938c3a7caa6f2",
+          "parts": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "source_ref": "installed_remote_batch4"
+        },
+        {
+          "commit": "829e131e0f7ecd4deaa22895c551e6a1dbceed8c",
+          "parts": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "source_ref": "installed_remote_batch5"
+        }
+      ]
+    },
+    "transport218": {
+      "archive_sha256": "48d7557b817402928d8921a310b36a8828432e578c9ff85347faa600dc92b6e7",
+      "bytes": 1628896,
+      "members": 574,
+      "logical_files_restored": 4834,
+      "separate_controls": 54,
+      "status": "LOCAL_INDEPENDENT_BYTE_REBUILD_AND_INERT_RESTORE_ACCEPTED",
+      "remote_complete_established": false,
+      "source_ref": "transport_recovery"
+    },
+    "cleanup_paired_remote": {
+      "status": "ACCEPTED_RETAINED_ACTUAL_REMOTE_BYTE_RESTORE",
+      "source_ref": "cleanup_remote_restore"
+    },
+    "limits": "Inert evidence/source recovery only; no fresh runtime/dependency/database/host reconstruction"
+  },
+  "superseded_snapshots": [
+    {
+      "source_ref": "mapping",
+      "as_of_utc": "2026-10-15T10:26:00Z",
+      "superseded": [
+        "Transport installed SA20/optional pending",
+        "CLUSTER source correction unaccepted",
+        "owner contract approval pending"
+      ],
+      "replacement_refs": [
+        "current_candidate",
+        "installed_sa20",
+        "installed_optional",
+        "cluster_sa21",
+        "cluster_sa20",
+        "ledger",
+        "contract_green_sa20"
+      ]
+    },
+    {
+      "source_ref": "ledger",
+      "claim": "Installed archive remote18/42",
+      "replacement": "34/42 per retained batch1\u20135 receipts; complete same-commit restoration still pending",
+      "replacement_refs": [
+        "installed_remote_batch1",
+        "installed_remote_batch2",
+        "installed_remote_batch3",
+        "installed_remote_batch4",
+        "installed_remote_batch5"
+      ]
+    },
+    {
+      "source_ref": "ledger",
+      "claim": "Older18/26/34-of42 archive progress",
+      "replacement": "All42+manifest exact at one immutable commit; independent inert restoration accepted",
+      "replacement_refs": [
+        "installed_complete_provenance",
+        "installed_complete_restore",
+        "installed_complete_review"
+      ]
+    }
+  ],
+  "boundary_refresh_required": [
+    "Any material fixture-successor or corrected111 result since12:34 cutoff",
+    "Any changed installed candidate or qualification verdict",
+    "Any changed external authorization/blocker"
+  ],
+  "method_limits": [
+    "No runtime reproduction",
+    "No tests/product imports/DB/server/install/network/Git action",
+    "No raw phase JSON, environment, credentials or cache payloads read",
+    "No source/checklist/candidate pointer edits",
+    "No continuous live corpus/process/import or hostile-race attestation",
+    "SHA256 pins identify safe report bytes, not independent reproduction of underlying experiments"
+  ],
+  "sources": {
+    "ledger": {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "relative_link": "../../CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha256": "6d0563141ca85c1df3f48bfe87eb8849f1bc5fde4d428dec7838ac5e68077cf5",
+      "bytes": 285856,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "ship_first_mandate": {
+      "path": "CRYPTALIS_SHIP_FIRST_MANDATE_20261015.md",
+      "relative_link": "../../CRYPTALIS_SHIP_FIRST_MANDATE_20261015.md",
+      "sha256": "83ffccf29121631c69e4d0157987965dc6636b26e3f2551f5ecc44deeb6a883d",
+      "bytes": 24959,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "s24_s25_blueprint": {
+      "path": "cryptalis-executable/checkpoints/S24_S25_BLUEPRINT_EVIDENCE_ADDENDUM_20261014.md",
+      "relative_link": "../../cryptalis-executable/checkpoints/S24_S25_BLUEPRINT_EVIDENCE_ADDENDUM_20261014.md",
+      "sha256": "41871fa6bf8b18d0bb7213e4ae3d6806ebba56b8a4780c3bb380b4ad82c73cb2",
+      "bytes": 2125,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "s24_s25_correctness": {
+      "path": "cryptalis-executable/checkpoints/S24_S25_CORRECTNESS_ADDENDUM_20261014.md",
+      "relative_link": "../../cryptalis-executable/checkpoints/S24_S25_CORRECTNESS_ADDENDUM_20261014.md",
+      "sha256": "0d909ecd37edafb4db5a4950d98106909899165c9133d1283de230db22ed9590",
+      "bytes": 5430,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "current_candidate": {
+      "path": "CURRENT_CANDIDATE.json",
+      "relative_link": "../../CURRENT_CANDIDATE.json",
+      "sha256": "af6d3a21ff041a6129c43008ec0073cc554b84a92cecc254e0e3cf618f6b7b7b",
+      "bytes": 1090,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "baseline": {
+      "path": "persistence-recovery-20261013/ACCELERATION_BASELINE_20261013.md",
+      "relative_link": "../../persistence-recovery-20261013/ACCELERATION_BASELINE_20261013.md",
+      "sha256": "e8bc440f68cccf19a475909efe532c0b9619a143a616d393f4a447dfcae20efd",
+      "bytes": 2839,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "baseline_counts": {
+      "path": "persistence-recovery-20261013/s14-qualification-summary.json",
+      "relative_link": "../../persistence-recovery-20261013/s14-qualification-summary.json",
+      "sha256": "35cd105333dc93e69f64abe69a469b7a414b1e237c8a161ae222686cca6652eb",
+      "bytes": 1812,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "audit24": {
+      "path": "persistence-recovery-20261013/ACCELERATION_24H_AUDIT_20261014.md",
+      "relative_link": "../../persistence-recovery-20261013/ACCELERATION_24H_AUDIT_20261014.md",
+      "sha256": "1b6e07e75f0c9947095916c684c6a42bbfc7cd87eed79562ad1c0d03645d5c4e",
+      "bytes": 7293,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "mapping": {
+      "path": "deliverables/status-mapping-20261015/status-mapping.json",
+      "relative_link": "../../deliverables/status-mapping-20261015/status-mapping.json",
+      "sha256": "e222fb6376f86f02e74234c473eb16a5001febfb3f8505197ccf52afbcecc9ac",
+      "bytes": 58864,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "mapping_readable": {
+      "path": "deliverables/status-mapping-20261015/status-mapping.md",
+      "relative_link": "../../deliverables/status-mapping-20261015/status-mapping.md",
+      "sha256": "2ec41b5450b6a161bd00d321a74e80da1dff7a84a5ae4c88d219276069a488dd",
+      "bytes": 56462,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "mapping_validation": {
+      "path": "deliverables/status-mapping-20261015/VALIDATION.json",
+      "relative_link": "../../deliverables/status-mapping-20261015/VALIDATION.json",
+      "sha256": "7ef95e19cc399b417f277ea1a3f4bb6690e6a2b0872697a4106f1c313fa64add",
+      "bytes": 612,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_sa21": {
+      "path": "cryptalis-executable/reviewer-notes/cleanup-transport-installed-full-sa21-independent-20261015/review.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cleanup-transport-installed-full-sa21-independent-20261015/review.md",
+      "sha256": "7bc674754843fdc7669d7811df29e26e1ddf575fd67a82a493372c4a7164b3be",
+      "bytes": 14178,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_sa20": {
+      "path": "cryptalis-executable/reviewer-notes/cleanup-transport-installed-full-sa20-independent-20261015/review.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cleanup-transport-installed-full-sa20-independent-20261015/review.md",
+      "sha256": "df54aaa456cc085a8d7d6f7d510aa881d42c0d2cc207ccfe8faa67240fe3190f",
+      "bytes": 7711,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_optional": {
+      "path": "cryptalis-executable/reviewer-notes/cleanup-transport-installed-optional38-clean-independent-20261015/review.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cleanup-transport-installed-optional38-clean-independent-20261015/review.md",
+      "sha256": "d5c4b4c55303a1a4ee2acf8db171c57b575888b13c44769f478ef067c5b972f9",
+      "bytes": 11159,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "cluster_sa21": {
+      "path": "cryptalis-executable/reviewer-notes/cluster-designation-correction-independent-20261015/terminal-sa21/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cluster-designation-correction-independent-20261015/terminal-sa21/REVIEW.md",
+      "sha256": "ed83c4bccd6b42b66180df61103e9adcfd28dba1101e867f89d3a5d36cf0effd",
+      "bytes": 5006,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "cluster_sa20": {
+      "path": "cryptalis-executable/reviewer-notes/cluster-designation-correction-independent-20261015/terminal-sa20/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cluster-designation-correction-independent-20261015/terminal-sa20/REVIEW.md",
+      "sha256": "228350ff5942b7cd1aeccac4b7f9a19462e5ba47da8d6c611b837e7076a138d5",
+      "bytes": 4899,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "safe_default_v2": {
+      "path": "cryptalis-executable/reviewer-notes/cluster-designation-safe-default-v2-independent-20261015/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cluster-designation-safe-default-v2-independent-20261015/REVIEW.md",
+      "sha256": "8ce7dfbd1440eb08e7cada0ad728380d5dd1b1799fd730ba88f6071975b54d0c",
+      "bytes": 14981,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "contract_green_sa21": {
+      "path": "cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/GREEN_SA21_TERMINAL_REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/GREEN_SA21_TERMINAL_REVIEW.md",
+      "sha256": "8b9e985874909543c257fe39bd4405caec53c9f353aa833aeb29f8aa9acb6442",
+      "bytes": 6483,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "contract_green_sa20": {
+      "path": "cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/GREEN_SA20_TERMINAL_REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/GREEN_SA20_TERMINAL_REVIEW.md",
+      "sha256": "a1dcf2f6ef4836ad1ca034cac6572d89374a67c83cd59842890da9b474ecb750",
+      "bytes": 7107,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "contract_red_sa21": {
+      "path": "cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/RED_SA21_TERMINAL_REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/RED_SA21_TERMINAL_REVIEW.md",
+      "sha256": "ae5be9fdaed80b5b44a3f0c59f3a4db74b046faee716ef41f2d3bfe4f875b303",
+      "bytes": 6020,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "contract_red_sa20": {
+      "path": "cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/RED_SA20_TERMINAL_REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/RED_SA20_TERMINAL_REVIEW.md",
+      "sha256": "587830d7a823ecf08b259d7042cbe046fdbba98883d2cdf02654cbb735c98219",
+      "bytes": 5432,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "contract_timing": {
+      "path": "cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/CAMPAIGN_TIMINGS_CORRECTED.json",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/retained-contract-correction-independent-20261015/CAMPAIGN_TIMINGS_CORRECTED.json",
+      "sha256": "406984e31fca9716f956bd97b0f0902b760fbe6da1640bdf4c9aec2608870a7a",
+      "bytes": 2602,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "union_hold": {
+      "path": "cryptalis-executable/experiments/cluster-retained-union-integration-preparation-20261015/HOLD_AND_RECIPE.md",
+      "relative_link": "../../cryptalis-executable/experiments/cluster-retained-union-integration-preparation-20261015/HOLD_AND_RECIPE.md",
+      "sha256": "851b17d81f5e7b7405c30d65baa18bd99a18dfe459e976e98bec882d11f8ae87",
+      "bytes": 3648,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "transport_recovery": {
+      "path": "cryptalis-executable/reviewer-notes/transport218-recovery-independent-20261015/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/transport218-recovery-independent-20261015/REVIEW.md",
+      "sha256": "8d17bd5a0a8fb3b21cade7533966190b55103947761fd81f9d82bf217540a341",
+      "bytes": 6286,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "cleanup_remote_restore": {
+      "path": "persistence-recovery-20261013/async-cleanup-full-source-additive-remote-paired-restore-v2/RESTORE_VERIFICATION.json",
+      "relative_link": "../../persistence-recovery-20261013/async-cleanup-full-source-additive-remote-paired-restore-v2/RESTORE_VERIFICATION.json",
+      "sha256": "e33e0d3f3a9bc7202fd2b49c3cbbf03fee66893f67cc270db5461222de73e3b2",
+      "bytes": 4349,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "performance_c10": {
+      "path": "persistence-recovery-20261013/c10-timing-final-receipt.json",
+      "relative_link": "../../persistence-recovery-20261013/c10-timing-final-receipt.json",
+      "sha256": "6fb6b32fee6dfe17b70a9c276d4eedddde16cf00bae19cae1b167ae2825b1aa1",
+      "bytes": 19427,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_remote_batch1": {
+      "path": "persistence-recovery-20261013/installed-batch1-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/installed-batch1-remote-verification.json",
+      "sha256": "79ab8c117768a7ba3d1a3b5b293e8ea9e8027a8d8cf2c94939dc1d5a26095325",
+      "bytes": 1604,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_remote_batch2": {
+      "path": "persistence-recovery-20261013/installed-batch2-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/installed-batch2-remote-verification.json",
+      "sha256": "a2b047a8a70586fbc7eb4571ffe110f22e8d9780131571901dfe8008eb9998dd",
+      "bytes": 1823,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_remote_batch3": {
+      "path": "persistence-recovery-20261013/installed-batch3-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/installed-batch3-remote-verification.json",
+      "sha256": "363a0f2f79423d63fd4f0b8ed2edc3daaa91346797bc254901f97632b76c6e67",
+      "bytes": 275,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_remote_batch4": {
+      "path": "persistence-recovery-20261013/installed-batch4-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/installed-batch4-remote-verification.json",
+      "sha256": "85cf3a179d032e51da4d68b367286496c7f10969263d9f0729f1c0f6f953b831",
+      "bytes": 1268,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_remote_batch5": {
+      "path": "persistence-recovery-20261013/installed-batch5-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/installed-batch5-remote-verification.json",
+      "sha256": "314a05dcbd07c11db7f6455f25ce3708475f1ef551c46e09214271647e020971",
+      "bytes": 1268,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "integration_source_review": {
+      "path": "cryptalis-executable/reviewer-notes/cluster-retained-union-integration-v2-independent-20261015/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/cluster-retained-union-integration-v2-independent-20261015/REVIEW.md",
+      "sha256": "ea59c3003ca0e6f70e0a7d0e119a445557f5f2bf9827d83fa6b4db6bb855fc61",
+      "bytes": 11506,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "integration_runtime_delta": {
+      "path": "persistence-recovery-20261013/integrated221-runtime-delta-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/integrated221-runtime-delta-remote-verification.json",
+      "sha256": "7ba22394b65354e537967e7d9292536e9d7a62d07f33e2b51282ce45982fe047",
+      "bytes": 1570,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "integration_tests_delta": {
+      "path": "persistence-recovery-20261013/integrated221-tests-delta-remote-verification.json",
+      "relative_link": "../../persistence-recovery-20261013/integrated221-tests-delta-remote-verification.json",
+      "sha256": "398af4922633a92ccd1d4ea7cfaa06dd806c02c8beda6d9f8279eaf10b8ca756",
+      "bytes": 1859,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_complete_provenance": {
+      "path": "persistence-recovery-20261013/async-cleanup-installed-remote-parts/REMOTE_PROVENANCE.json",
+      "relative_link": "../../persistence-recovery-20261013/async-cleanup-installed-remote-parts/REMOTE_PROVENANCE.json",
+      "sha256": "1b4d571709690d9d7be2bf81d9280b8686afd1e0d03d7179e06a61a629136af3",
+      "bytes": 29271,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_complete_restore": {
+      "path": "persistence-recovery-20261013/async-cleanup-installed-remote-fresh-restore-v1/RESTORE_VERIFICATION.json",
+      "relative_link": "../../persistence-recovery-20261013/async-cleanup-installed-remote-fresh-restore-v1/RESTORE_VERIFICATION.json",
+      "sha256": "410269c788695376274bcadf99006390caf302b48d275828cf732177161cd0a8",
+      "bytes": 1567,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "installed_complete_review": {
+      "path": "cryptalis-executable/reviewer-notes/async-cleanup-installed-remote-result-independent-20261015/REPORT.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/async-cleanup-installed-remote-result-independent-20261015/REPORT.md",
+      "sha256": "30c95b886b614d8ae491e0624807e239d96a4b922ef18ec782d8312cd92fccbf",
+      "bytes": 5388,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "native_diagnosis": {
+      "path": "cryptalis-executable/reviewer-notes/native-constraint-link-control-independent-20261015/TERMINAL_REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/native-constraint-link-control-independent-20261015/TERMINAL_REVIEW.md",
+      "sha256": "3d22ed59b976288bae9f2e829228721139648e3cf24c641f1f89454e07ed39cf",
+      "bytes": 3653,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    },
+    "integrated_failed_terminal": {
+      "path": "cryptalis-executable/reviewer-notes/integrated221-focused111-sa21-independent-20261015/REVIEW.md",
+      "relative_link": "../../cryptalis-executable/reviewer-notes/integrated221-focused111-sa21-independent-20261015/REVIEW.md",
+      "sha256": "6c1f03612713b1570906195830bd86de37fc2e59a17ead1ad0a48f2c7eb48653",
+      "bytes": 9227,
+      "verification": "Named safe report bytes read/hash-pinned; no experiment rerun"
+    }
+  },
+  "historical_audit_location_reconciliation": {
+    "available": true,
+    "source_ref": "audit24",
+    "path": "persistence-recovery-20261013/ACCELERATION_24H_AUDIT_20261014.md",
+    "sha256": "1b6e07e75f0c9947095916c684c6a42bbfc7cd87eed79562ad1c0d03645d5c4e",
+    "note": "Actual recovered artifact read. Distinct from earlier absent evidence/acceleration path; absence there does not imply this artifact is missing."
+  },
+  "release_not_before_utc": "2026-10-15T12:36:11Z",
+  "actual_release_utc": null,
+  "current_workstreams": {
+    "integration_correctness": "PARTIAL: fixture successor and corrected111 pending",
+    "lifecycle": "PARTIAL: separate CLUSTER39x2 and contract16x2 accepted; combined qualification incomplete",
+    "independent_verification": "Named finite audits accepted; no external gates",
+    "packaging_recovery": "Bounded remote inert restore COMPLETE; final changed candidate/fresh environment PARTIAL/BLOCKED",
+    "adoption_docs": "PARTIAL/HOLD: explicit file-backed-policy binding for smoke oracle remains",
+    "performance_privacy": "Failed/limited research retained; no new promotion or current active-run claim",
+    "provider_security": "External resources/review BLOCKED; all seven gates UNKNOWN"
+  },
+  "prepared_release_note": "Coordinator owns release at/after boundary and any material-change addendum; no release recorded by preparation."
+}

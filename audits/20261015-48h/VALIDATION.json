@@ -1,0 +1,27 @@
+{
+  "result": "PASS_PREPARED_AUDIT_ARTIFACT_CHECKS",
+  "cutoff_utc": "2026-10-15T12:34:00Z",
+  "release_not_before_utc": "2026-10-15T12:36:11Z",
+  "actual_release_claimed": false,
+  "all34_objectives_retained": true,
+  "all_links_resolve": true,
+  "preaudit_versions_preserved": true,
+  "files": {
+    "48h-audit.md": {
+      "bytes": 29271,
+      "sha256": "23a3d2eda816b67ef9f88eeae5f0d3207e83d6313784eae63a4c3c12a7985b7a"
+    },
+    "48h-evidence-map.json": {
+      "bytes": 51342,
+      "sha256": "9d616c3205abe1feffdaffe35de2e2bac6293d9ad3f4c5746749ce1325c9a691"
+    },
+    "user-summary-draft.txt": {
+      "bytes": 1322,
+      "sha256": "ed8410a6c4671fe979b857e9a0b12f03c5b1ffda25f6c581ddb5dddf8cb0424b"
+    },
+    "prepare_final.py": {
+      "bytes": 12513,
+      "sha256": "22aded226beb02b92d025f4e9c77a90374bab44d0373215da8f4ae437b532c3d"
+    }
+  }
+}
