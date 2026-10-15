@@ -1,0 +1,19 @@
+{
+  "selected_at_utc": "2026-10-15T01:28:41.828397+00:00",
+  "selection": "exact reviewed main V2 outer only",
+  "originals_quiescent": "Coordinator confirms no active original S23 or cp84 execution; all workers data-only; DB idle after transport counterpart stopped",
+  "bootstrap_alias": "python3 -> python3.12",
+  "metadata_admitted_before_hash": true,
+  "external_anchor_checks": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/preflight.py": "141852db07cab0350ca15d0708357f034bb26f63addf488710c84e29ea2d38e2",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/outer-frozen.sha256": "899bf2d59b2c28c5a2308a34185005b5caf8585946698b65c28b0c1e6b0fdd09",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/frozen-inputs.sha256": "65f9668e941f0b64c6344b3726a0c932249fff4b961405a071320a316be03124",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/PROPOSED_COMMANDS.txt": "f92304b4cc46e231e5f4eab4abc4b06159aa531b902e5b82f4740358943970ad",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-install-plan-independent-20261015/SOURCE_COMMAND_REVIEW_V2.md": "d0a02a438740fa321dd8c5b2e2a325e5c9cfddda9c35e7df8e11d50e30cda8ef"
+  },
+  "argv": [
+    "/bin/bash",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/PROPOSED_COMMANDS.txt"
+  ],
+  "runtime_authorized": false
+}

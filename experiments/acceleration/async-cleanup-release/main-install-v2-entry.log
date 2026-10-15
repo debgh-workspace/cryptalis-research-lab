@@ -1,0 +1,6 @@
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3: OK
+/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015/preflight.py: OK
+PASS_METADATA_FIRST_LAUNCH_ADMISSION; no install or runtime executed by preflight
+outer.py: OK
+supervisor_v2.py: OK
+frozen-inputs.sha256: OK

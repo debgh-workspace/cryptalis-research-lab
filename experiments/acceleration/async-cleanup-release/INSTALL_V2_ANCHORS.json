@@ -1,0 +1,47 @@
+{
+  "main": {
+    "admission_sha256": "cbf24f59d1380be9937311d6b05d698574df7535199e736b6dacc905f19d5f2a",
+    "frozen_inputs_sha256": "65f9668e941f0b64c6344b3726a0c932249fff4b961405a071320a316be03124",
+    "frozen_targets": 3565,
+    "install_executed": false,
+    "new_environment_absent": true,
+    "no_packet_helper_executed": true,
+    "original_counts": {
+      "sa20": 1658,
+      "sa21": 1658
+    },
+    "original_snapshots_unchanged": true,
+    "outer_sha256": "899bf2d59b2c28c5a2308a34185005b5caf8585946698b65c28b0c1e6b0fdd09",
+    "plan": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-main-installed-plan-v2-20261015",
+    "preflight_sha256": "141852db07cab0350ca15d0708357f034bb26f63addf488710c84e29ea2d38e2",
+    "proposed_command_sha256": "f92304b4cc46e231e5f4eab4abc4b06159aa531b902e5b82f4740358943970ad",
+    "runtime_executed": false,
+    "source_files": 217,
+    "status": "SOURCE_ONLY_V2_EXECUTION_HOLD",
+    "supervisor_unchanged": true,
+    "targets_sha256": "dae5b3975bc4cdaba158f87123abec30dca162e60cda0ab1e31616e23fd06177",
+    "wheel_sha256": "77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b"
+  },
+  "optional": {
+    "admission_sha256": "4852efca76c61776ae3b4e5d227fa1036c12738c338525261df7b9830964bd59",
+    "frozen_inputs_sha256": "994a94405a2822e77e4aea7b487a309313be267d541899bca14ffa361b4df656",
+    "frozen_targets": 6152,
+    "install_executed": false,
+    "new_environment_absent": true,
+    "no_packet_helper_executed": true,
+    "original_counts": {
+      "sqlmodel": 5900
+    },
+    "original_snapshots_unchanged": true,
+    "outer_sha256": "5a3eb516a74f2a1206fe4fdc710e58c01faa4e422963d6abd4ca020185730468",
+    "plan": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-async-cleanup-optional-installed-plan-v2-20261015",
+    "preflight_sha256": "50039248ca7589391cf67e6f0fd5caefd7dcbdc641101bf4278d4ee69c021c72",
+    "proposed_command_sha256": "c20c5209c379b808e1e8b6b7a259dcc3e70337c43fb1c1ca32879f9c2eb3630b",
+    "runtime_executed": false,
+    "source_files": 217,
+    "status": "SOURCE_ONLY_V2_EXECUTION_HOLD",
+    "supervisor_unchanged": true,
+    "targets_sha256": "f93ca064d73c5f715e802a65b41fb75afd6790c253c45da4b59d1a9d46d2f3af",
+    "wheel_sha256": "77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b"
+  }
+}

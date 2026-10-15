@@ -1322,3 +1322,25 @@ Final checkpoint86fb0e26ac4032a405b8c077939eb3e288e69db5 preserves11parts+manife
 Optional38 independent review SHA256 41972f42313c765c0a7c927ac8c068ba88559889c744edcbc41be76b65af980d accepts all 38 cases and 114 phases, unchanged original oracles, exact source/dependency pins, corpus restoration and explicit shutdown. Packaging review SHA256 275f4e0bbe4b9ce74e5b285393a499c5496f5af9edc9cb77c330fa630d137144 accepts exact 217-file source, 41 modules, 46 RECORD rows/45 hashes, two identical sdists and direct/roundtrip wheel, expected S25 delta only, all pre/post checks and terminal exit0. Wheel 77e30cac714c74c01a143ebf9976029d6d56a167390eab51c07d12ddde043f3b; sdist f921da5830bcb3b0c7befb10e05f23346b2ab874c487175217be4a5e752706f7. The 120-second receipt value is a configured deadline, not measured elapsed time. Installed correction and broader release qualification remain pending.
 
 Transport GREEN SA21 independently accepted all17 cases/51 phases; review SHA256773923ddee6e3e5d7a26be697b23c8a4716200748698758e2ef27b13cde1cea5. Counterpart SA20 recorded17PASS0.18s, outer/wrapper0 and all driver pre/post pins0; final independent audit pending. This isolated 218-file transport candidate is not promoted into the packaged217-file correction.
+
+### Transport counterpart accepted and recovery implementation published — 2026-10-15 01:18 UTC
+
+Transport GREEN SA20 independent review16a920242c20a763212e06249e458395ab2949e47d188a9ebe5d526f69bfd9cd accepts17 exact cases/all51phases, eight corrected RED regressions and nine controls, source/packet/native/mailbox pins, all26corpus files and explicitstop0. Both dependency cells are accepted for trusted-local synthetic protocol5 serialization only. Source218 full integration remains separately gated and unrun; packaged cleanup217 is unchanged.
+
+Verified commits:32317c21c4bb991966d3d24eba6a45812372f11b eight exact metadata/review/recovery files; e48f85a1306d741f83d90a19054f659e98cadabe four exact strict restoration implementation/member-pin/review files;4e17ca8ae287c5b97386da3040409dcbef1c19fe ten exact transport command/pin/review files. All authenticated same-commit content readbacks matched. Cancelled restore-tree request was reconciled with unchanged branch and missing target before identical retry.
+
+Statistics V2 source-only independent HOLD a3765ce4ac81a86cc3edececc81ea5d4a2284fa58f321723865b89d8195d41a6: original INPUTS.sha256 can be opened by an unconditional postcheck without local path/type admission after earlier rejection. All current548pins and originaloracle remain valid, but no launch admitted. V2 unchanged; fresh V3 preparation corrects this and checks related read paths. No mutation result is claimed.
+
+### Installer validation correction retained — 2026-10-15 01:26 UTC
+
+V1 installer source review HOLD8e270a10f71d8ffbada35efdb45661556424233937897925691396c718b719e4: independent original-inventory postcheck could read local plan/snapshot files after manifest admission rejected them. No installation occurred. V1 and exact held packets remain preserved. Fresh V2 plans add own local fixed-name/type admission before both reads and inner pre-try inputs; no runtime behavior/supervisor/wheel change. Source-only V2 handoff328bc6fdc3a63aa03435f747d236c380775f636ceec5a184499268dffb6c91ab and anchors616745750d90c876b03b48463135b3a2a08c794d6eb8db55bae451d49833b742 require renewed review and coordinator selection. Original inventories1658/1658/5900 and source217 remain unchanged.
+
+Transport preparation remaining16files are remotely exact across42b8a031d79af1ca318ddf4c1f4b900cb7f3addd and cfc23d796aa4edd34c3242de40e1ceeefdc3e050. New full source218 plan is sealed for independent review:2678ordinaryIDs expected2671PASS7FAIL SA21 and2625PASS7FAIL46SKIP SA20,56subtests separate; no full218 runtime result yet.
+
+Cleanup additive safe inventory prepared2386logicalfiles/65285835bytes;295newcontentobjects/27031716bytes plus accepted base references. Independent input review underway; no additive archive/restore claim. Original15commit mailbox freshly rechecked01:18UTC with unchanged9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd.
+
+### Main corrected installation terminal; audit pending — 2026-10-15 01:32 UTC
+
+V2 source/command review d0a02a438740fa321dd8c5b2e2a325e5c9cfddda9c35e7df8e11d50e30cda8ef accepted the corrected local-admission contract. Coordinator selected only the exact main V2 entry after metadata-first bootstrap, both external manifest anchors, final review hash, absent output checks and renewed original quiescence. Entry exited0; parent records PASS_BOUNDED_INSTALLATION, child0, empty errors/cleanup errors, leader reaped, all pre/post groups passing and parent limits restored. Complete main installed payload/inode/RECORD audit is in progress; no runtime test started. Optional installer remains unrun.
+
+Installer V2 eight source/entry files remotely exact at5f5ae264cbbb5183a4f7f4eaae627d79ffb991ed. Prior7held-review/checkpoint-receipt files remotely exact ataa9408aae45f80d9a362c219faa0a2f1dde40c7a. Old failures remain visible.
