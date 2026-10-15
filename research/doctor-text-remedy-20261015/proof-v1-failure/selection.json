@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v1/no-bytecode-use",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v1/prove_doctor_remedy.py",
+    "baseline-red",
+    "25690581b4618f67c0debfb4e74fc3985c805bcd228e7fa90571ed2045d71c9f"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v1",
+  "environment": {},
+  "input_pins": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v1/INPUTS.sha256": "25690581b4618f67c0debfb4e74fc3985c805bcd228e7fa90571ed2045d71c9f",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v1/prove_doctor_remedy.py": "4faeab05a1a44483b6573331e8e7ae24e3dee6013c85d4afde71d08c5a8c6544",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-slice-independent-20261015/REVIEW.md": "fc08468d4f368cb87c638c4de89726bb05f826a27f445c9eda7c63cfb48e3bb4"
+  },
+  "wall_limit_seconds": 30,
+  "output_file_limit_bytes": 2097152,
+  "expected_exit": 1
+}

@@ -1,0 +1,11 @@
+{
+  "exit_code": 2,
+  "signal": null,
+  "termination_reason": null,
+  "parent_wall_seconds": 0.2015460460097529,
+  "child_user_cpu_seconds": 0.17614,
+  "child_system_cpu_seconds": 0.012544,
+  "child_peak_rss_kib": 40576,
+  "pins_unchanged": true,
+  "bytecode_prefix_absent": true
+}
