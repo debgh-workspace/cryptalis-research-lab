@@ -1,0 +1,35 @@
+{
+  "schema": "cryptalis-preview-documentation-artifacts-v1",
+  "status": "SCOPED_PACKAGING_ACCEPTED_PUBLIC_SMOKE_PENDING",
+  "source_manifest_sha256": "152ed80306b1cf9f5893242b499d54b7155efde33ef9ac43fc4edf8516cd53cc",
+  "runtime_baseline_source_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+  "artifact_review_sha256": "e143bec9997d3b81177e37e4ffc811d759addcc147ca96b9a0a66230f5b4d4ab",
+  "artifacts": [
+    {
+      "filename": "cryptalis-0.1.0-py3-none-any.whl",
+      "bytes": 140936,
+      "sha256": "ce4817376f25411c8685c676802cce25c1799c85a87277b1dcc099556a40229c",
+      "identical_builds": 3
+    },
+    {
+      "filename": "cryptalis-0.1.0.tar.gz",
+      "bytes": 150389,
+      "sha256": "7988fb28baa4dec5804d4779b8a1d626c7dae5e3d7d5e597a7a12a69e0d9a036",
+      "identical_builds": 2
+    }
+  ],
+  "evidence_transfer": "All220 non-README source bodies and43 runtime package modules unchanged; independent documentation-only source evidence transfer accepted. Full installed tests remain bound to predecessor artifact dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6; no successor installed execution claimed.",
+  "public_smoke": "UNEXECUTED_PENDING_FIXTURE_ACL_APPROVAL_AND_COMMAND_ADMISSION",
+  "clean_host_provenance": "INCOMPLETE",
+  "all34_objectives_active": true,
+  "qualification_gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  },
+  "held_recovery_archive": "Separate original source/package recovery supplement remains held; these standalone files neither contain nor reconstruct that capsule."
+}
