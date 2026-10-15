@@ -1,0 +1,47 @@
+{
+  "status": "PASS_SCOPED_DOCTOR_REMEDY_SOURCE_BACKEND_PACKAGING",
+  "sdist_sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+  "wheel_sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+  "unchanged_original_source_files": 219,
+  "unchanged_runtime_modules": 42,
+  "readme_v2_metadata_unchanged": true,
+  "source_files": 221,
+  "runtime_modules": 43,
+  "sdist_payload_files": 49,
+  "wheel_payload_files": 48,
+  "record_hashed_entries": 47,
+  "sdist_count": 2,
+  "wheel_count": 3,
+  "direct_repeat_roundtrip_identical": true,
+  "cli_entrypoint": "cryptalis.cli:main",
+  "source_changed": [
+    "README.md",
+    "src/cryptalis/cli.py"
+  ],
+  "source_added": [],
+  "sdist_changed": [
+    "cryptalis-0.1.0/src/cryptalis/cli.py"
+  ],
+  "sdist_added": [],
+  "wheel_changed": [
+    "cryptalis-0.1.0.dist-info/RECORD",
+    "cryptalis/cli.py"
+  ],
+  "wheel_added": [],
+  "negative_controls": [
+    {
+      "id": "missing_lock",
+      "rejected": true
+    },
+    {
+      "id": "altered_lock",
+      "rejected": true
+    }
+  ],
+  "gates": "ALL_SEVEN_UNKNOWN",
+  "limits": [
+    "Same-host pinned-builder byte equality only; no independent-host reproducibility or backend source-to-binary provenance.",
+    "Original dependency wheels unavailable; clean-host provenance remains blocked.",
+    "No installation, CLI invocation, runtime test, database action or release qualification."
+  ]
+}

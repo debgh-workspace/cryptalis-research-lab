@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "bytes": 150427,
+      "directories": 6,
+      "files": 49,
+      "kind": "sdist",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/sdist-1/cryptalis-0.1.0.tar.gz",
+      "sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+      "uncompressed_payload_bytes": 581851
+    },
+    {
+      "bytes": 150427,
+      "directories": 6,
+      "files": 49,
+      "kind": "sdist",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/sdist-2/cryptalis-0.1.0.tar.gz",
+      "sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+      "uncompressed_payload_bytes": 581851
+    },
+    {
+      "bytes": 140953,
+      "directories": 6,
+      "files": 48,
+      "kind": "wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "uncompressed_payload_bytes": 475528
+    },
+    {
+      "bytes": 140953,
+      "directories": 6,
+      "files": 48,
+      "kind": "wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/repeat-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "uncompressed_payload_bytes": 475528
+    },
+    {
+      "bytes": 140953,
+      "directories": 6,
+      "files": 48,
+      "kind": "wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/roundtrip-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "uncompressed_payload_bytes": 475528
+    }
+  ],
+  "clearance_sha256": "9d91dd42afeb7fb54d04082344da367f85bf150e6d8ee1393e2460b0ebbf8bc7",
+  "packet_sha256": "23866b15d6c4751bce88a19dacf9c5e706469fc113ad47f8aea11045393a5e36",
+  "schema": "doctor-remedy-v2-actual-artifacts-independent",
+  "source_manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7"
+}
