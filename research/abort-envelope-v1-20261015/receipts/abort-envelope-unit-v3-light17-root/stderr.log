@@ -1,0 +1,22 @@
+test_forward_and_reverse_abort_never_grow_maximum (sealed_abort_envelope_vectors_0.ReferenceVectors.test_forward_and_reverse_abort_never_grow_maximum) ... ok
+test_frozen_fields_unknown_fields_and_bool_aliases (sealed_abort_envelope_vectors_0.ReferenceVectors.test_frozen_fields_unknown_fields_and_bool_aliases) ... ok
+test_invalid_json_inputs_stay_explicit (sealed_abort_envelope_vectors_0.ReferenceVectors.test_invalid_json_inputs_stay_explicit) ... ok
+test_lineage_is_explicit_frozen_input_not_inferred_authority (sealed_abort_envelope_vectors_0.ReferenceVectors.test_lineage_is_explicit_frozen_input_not_inferred_authority) ... ok
+test_nesting_and_reused_subtrees (sealed_abort_envelope_vectors_0.ReferenceVectors.test_nesting_and_reused_subtrees) ... ok
+test_no_invented_sixteen_digit_journal_cap (sealed_abort_envelope_vectors_0.ReferenceVectors.test_no_invented_sixteen_digit_journal_cap) ... ok
+test_omission_controls_expose_missing_reservations (sealed_abort_envelope_vectors_0.ReferenceVectors.test_omission_controls_expose_missing_reservations) ... ok
+test_pre_sql_next_counter_guard (sealed_abort_envelope_vectors_0.ReferenceVectors.test_pre_sql_next_counter_guard) ... ok
+test_proposed_summary_shapes_are_finite_and_exact (sealed_abort_envelope_vectors_0.ReferenceVectors.test_proposed_summary_shapes_are_finite_and_exact) ... ok
+test_scalar_and_separator_vectors (sealed_abort_envelope_vectors_0.ReferenceVectors.test_scalar_and_separator_vectors) ... ok
+test_both_codecs_and_directions_have_hand_derived_totals (sealed_abort_envelope_vectors_1.DecidingVectors.test_both_codecs_and_directions_have_hand_derived_totals) ... ok
+test_full_state_nested_guard_proconfig_depth_edges (sealed_abort_envelope_vectors_1.DecidingVectors.test_full_state_nested_guard_proconfig_depth_edges) ... ok
+test_literal_complete_one_model_canonical_wire (sealed_abort_envelope_vectors_1.DecidingVectors.test_literal_complete_one_model_canonical_wire) ... ok
+test_rejected_next_chunk_preserves_committed_prefix_and_abort_copy (sealed_abort_envelope_vectors_1.DecidingVectors.test_rejected_next_chunk_preserves_committed_prefix_and_abort_copy) ... ok
+test_two_models_require_the_complete_verification_map (sealed_abort_envelope_vectors_1.DecidingVectors.test_two_models_require_the_complete_verification_map) ... ok
+test_verification_missing_extra_wrong_keys_and_bad_digests (sealed_abort_envelope_vectors_1.DecidingVectors.test_verification_missing_extra_wrong_keys_and_bad_digests) ... ok
+test_zero_scope_reserves_null_for_both_record_codecs (sealed_abort_envelope_vectors_1.DecidingVectors.test_zero_scope_reserves_null_for_both_record_codecs) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.044s
+
+OK

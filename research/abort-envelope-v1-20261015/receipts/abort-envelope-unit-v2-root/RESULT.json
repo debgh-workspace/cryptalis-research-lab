@@ -1,0 +1,9 @@
+{
+  "exit_code": -9,
+  "timeout": false,
+  "wall_seconds": 32.526492753007915,
+  "source_pins_unchanged": true,
+  "stdout_bytes": 64,
+  "stderr_bytes": 297,
+  "scope": "Unit observation only; independent terminal audit pending"
+}

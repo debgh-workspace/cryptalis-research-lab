@@ -1,0 +1,15 @@
+{
+  "mode": "light17",
+  "exit_code": 0,
+  "signaled": false,
+  "signal": null,
+  "timeout": false,
+  "wall_seconds": 0.1528762700036168,
+  "child_user_cpu_seconds": 0.10486899999999999,
+  "child_system_cpu_seconds": 0.012008999999999999,
+  "child_peak_rss_kib": 14976,
+  "resource_scope": "wait4 for this exact child; Linux KiB RSS",
+  "source_pins_unchanged": true,
+  "stdout_bytes": 11245,
+  "stderr_bytes": 2742
+}
