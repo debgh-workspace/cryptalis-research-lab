@@ -1,0 +1,19 @@
+{
+  "selected_at_utc": "2026-10-15T02:50:27.755561+00:00",
+  "argv": [
+    "/bin/bash",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-installed-full-controls-20261015/run-full-sa21.sh",
+    "10c8eeb0ab9d632121bd1d0eeffa624639ba7197e219e082ad6c62cc3bdf866e"
+  ],
+  "anchors": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-installed-full-controls-20261015/BINDING_SA21.json": "10c8eeb0ab9d632121bd1d0eeffa624639ba7197e219e082ad6c62cc3bdf866e",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-installed-full-controls-20261015/CLEARANCE_SA21.sha256": "fe365586a84ac09e64573b0e1c2d78921e3bbbd7793b948bb20190758861ef61",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-installed-full-controls-20261015/run-full-sa21.sh": "99d12275f1e18c45797d7035d5f42d75ef3f25637d4850029fcdd92f7bac5ea3",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/async-cleanup-installed-full-controls-20261015/verify_runtime_binding.py": "3eee13ea4a94277350908217c3a235579a0b68868354c0ee90fcbcb65586b430",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/async-cleanup-installed-runtime-independent-20261015/SA21_GATE_ACCEPTANCE.md": "0fb3ba6c655dad856128404f50d548349eba5273074c97fcfaf7fecaf5319edb",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/cleanup-transport-full-v2-sa21-independent-20261015/corpus-restoration-boundary.json": "8fabd2ef72f4bc7f5e2ac4fd030480aa0afee85b486d2338d2b36fd2668f5485"
+  },
+  "expected_exit": 1,
+  "shared_state": "Accepted complete transport primary-corpus restoration and explicitstop; no DB run active; coordinator sole DB writer",
+  "scope": "Installed217 main SA21 only; no chained counterpart/optional execution"
+}
