@@ -1,0 +1,1 @@
+{"schema":"cryptalis.protection/v1","profile":"cf1","domain_id":"00000000-0000-4000-8000-000000000001","models":[{"model":"SyntheticModel","table_id":"00000000-0000-4000-8000-000000000002","tenancy":{"single_tenant":true},"fields":[{"name":"synthetic_field","field_id":"00000000-0000-4000-8000-000000000003","protect":true,"queries":[],"accept_leakage":[]}]}]}
