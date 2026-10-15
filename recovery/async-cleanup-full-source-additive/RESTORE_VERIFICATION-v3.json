@@ -1,0 +1,86 @@
+{
+  "accepted_historical_observations": {
+    "focused_green_each": {
+      "nodes": 46,
+      "passed": 46
+    },
+    "focused_red_each": {
+      "failed": 13,
+      "nodes": 22,
+      "passed": 9
+    },
+    "optional38": {
+      "passed": 38
+    },
+    "ordinary_sa20": {
+      "failed": 7,
+      "passed": 2608,
+      "skipped": 46
+    },
+    "ordinary_sa21": {
+      "failed": 7,
+      "passed": 2654
+    }
+  },
+  "accepted_review_method_files": 97,
+  "actual_additive_remote_file_bodies": 24,
+  "additive_archive_sha256": "bab72dad661711acc3d8fdf2ab5e84f6abc7eaafd0d1f976023004b08e371262",
+  "additive_manifest_sha256": "b664ead41a5196f410589ef4d8626d3105107e56ac4ac34f8c83603cb71df26a",
+  "additive_part_manifest_sha256": "a35df3805ba8a2d0f730acd8c6589d2ddc3ba89b079a439f6af7d3e6492cabfc",
+  "additive_parts": 23,
+  "additive_provenance_sha256": "3c822410850b54d23a83e468151bcf4d2af5f951585eba8d862f21436e4378e0",
+  "additive_regular_members": 355,
+  "additive_remote_commit": "0c74347b6d89cfc82d766973e14d2450fd294032",
+  "additive_remote_prefix": "recovery/async-cleanup-full-source-additive/parts",
+  "all_input_bytes_rechecked": true,
+  "all_output_bytes_read_back": true,
+  "all_restored_directory_mode": "0700",
+  "all_restored_file_mode": "0600",
+  "all_seven_gates": "UNKNOWN",
+  "archive_code_execution": false,
+  "authentication_boundary": "Offline validation depends on independently pinned actual authenticated observations. The checker cannot authenticate a service or detect dishonest relabeling of identical staging bytes.",
+  "base_archive_input": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/async-cleanup-focused-remote-reconstructed.tar.xz",
+  "base_archive_sha256": "1c6f9900389f61826d1f1d427a0bfc94e5f3cc20fee0f758281b928a896129af",
+  "base_manifest_sha256": "e755ba583e885515848bc4334925ba57c11a03f88708f5ad2e44ee5a7792d174",
+  "base_parts_reread_or_relabelled": false,
+  "base_provenance_sha256": "93b32a8e71db994724409f506c3040e3aad64c9b03a650cf14df7f970e1d7995",
+  "base_referenced_members": 253,
+  "base_regular_members": 516,
+  "base_remote_commit": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+  "base_remote_prefix": "recovery/async-cleanup-focused/parts",
+  "base_restore_receipt_sha256": "c83fbc9e129e6d95f2705d82ff3ff55703e3652d705b5bd5b6750107d89d1d92",
+  "baseline216_files": 216,
+  "both_full_headers_before_member_bodies": true,
+  "durable_prior_corpus_copies": 78,
+  "evidence_claim": "Preserved accepted byte evidence only; no fresh runtime or new supplemental linkage reconciliation claimed.",
+  "explicit_empty_directory": "workspace/cryptalis-executable/evidence/async-cleanup-full-integration-optional38-20261014/candidate-corpus",
+  "focused_synthetic_fixture_disposition_sha256": "640f4a4727d588a5f5b03d11941d9e482b2430dfecc12f4252a4850589c3a022",
+  "green217_files": 217,
+  "historical_seven_failures": "Unresolved prior disposition preserved",
+  "independent_paired_review_closure_sha256": "5206c09b75f1f309dab0614fe826e61550399c659ae6ec38829ca673f3bb552c",
+  "independent_paired_review_sha256": "7ce42517888ec76230d8ae4015e97a5d283e3ff047919b0baf0d65b8b5796255",
+  "live_source_reads": 0,
+  "logical_base_uses": 1954,
+  "logical_bytes": 65285835,
+  "logical_files": 2386,
+  "logical_listing_sha256": "d08d157801d02aecee0136ac4e2bbe2136b473e575b00d965b52136a9cc5fd8c",
+  "logical_new_object_uses": 432,
+  "nested_packaging_bodies": "Opaque; not decompressed, executed or used to recreate extracted47.",
+  "nested_packaging_distinct_bodies": 4,
+  "new_objects": 295,
+  "product_import_test_build_install_database_server_network_git_operations": false,
+  "qualification_nonclaims": [
+    "No installed qualification",
+    "No fresh-host or independent-builder product reproducibility",
+    "No physical-release guarantee",
+    "No runtime environment",
+    "No release or production approval"
+  ],
+  "raw_phase_secret_environment_cache_reads": false,
+  "red217_files": 217,
+  "repeated_source_copies": 1770,
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "reviewed_archived_synthetic_fixtures": "Remain archived and labeled by preserved accepted bounded input-review dispositions; matched values not printed and no new secret scan.",
+  "runtime_dependency_database_restore": false,
+  "status": "PASS_COORDINATOR_AUTHENTICATED_REMOTE_PAIRED_DATA_ONLY_CLEANUP_RESTORE"
+}

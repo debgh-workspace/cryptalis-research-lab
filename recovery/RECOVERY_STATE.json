@@ -1,10 +1,10 @@
 {
-  "observed_at_utc": "2026-10-15T02:44:00Z",
+  "observed_at_utc": "2026-10-15T04:09:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "S25 remains highest broadly verified installed candidate; cleanup217 full source matrices and optional38 plus packaging independently accepted; fresh installed qualification pending; seven historical failures and all gates unresolved.",
+  "latest_candidate_status": "Cleanup217 highest fully audited bounded installed matrix; transport218 source accepted and packaging result under final artifact review; seven historical failures unresolved; all seven gates UNKNOWN.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "86fb0e26ac4032a405b8c077939eb3e288e69db5",
+  "latest_verified_remote_commit": "0c74347b6d89cfc82d766973e14d2450fd294032",
   "latest_integrated_candidate": "S25: highest broadly verified bounded candidate,216files.",
   "current_experiment": "ASYNC-EXIT-PRIMARY-01 focused RED/GREEN verified in both dependency cells, full source and installed matrix pending; internal transport metadata follow-on remains source-only.",
   "s5_remote_byte_restore_files": 3579,
@@ -1534,8 +1534,8 @@
     "statistics_mutation_v2": "HOLD: original INPUTS.sha256 local admission missing in independent postcheck; V3 source correction in preparation; no mutation executed"
   },
   "last_remote_verified_checkpoint": {
-    "commit": "f06ce1b550e74ee2bcb60fed132361354b614380",
-    "tree": "157e73906a008827abe78aa46fef30d0d22a2248",
+    "commit": "31bd432d99ab4d76e768aa5549c601802650094f",
+    "tree": "eb217ae9a06850075c665d147914ef8ee9320a42",
     "verified_files": 5,
     "branch": "accel/integration-s20-20261014"
   },
@@ -1562,10 +1562,44 @@
     "subtests_passed": 56,
     "warnings": 50,
     "seconds": 403.36,
-    "independent_audit": "pending",
+    "independent_audit": "ACCEPTED review99d6b5530db189ccc74ba356d2d76424135ce9b7aa9dd9a13c543fedd736c422",
     "outer_exit": 1,
     "wrapper_exit": 1,
     "before_after_admission_pins": 0,
     "explicit_stop_exit": 0
+  },
+  "cleanup_installed_sa21": {
+    "passed": 2654,
+    "failed": 7,
+    "skipped": 0,
+    "subtests_passed": 56,
+    "warnings": 50,
+    "seconds": 398.3,
+    "independent_audit": "ACCEPTED reviewfe5427ac4fb49231e17a9ac862d931e25c4680d505bf217259d633e1a7f69e60",
+    "outer_exit": 1,
+    "wrapper_exit": 1,
+    "before_after_admission_pins": 0,
+    "explicit_stop_exit": 0
+  },
+  "transport_full_v2_sa20": {
+    "passed": 2625,
+    "failed": 7,
+    "skipped": 46,
+    "subtests_passed": 56,
+    "warnings": 2,
+    "seconds": 388.06,
+    "independent_full_audit": "pending",
+    "shared_state_boundary": "ACCEPTED8dfd89712a70535b129292b40720a4357bdb8a70451b314ae8b6a9651a5b084f",
+    "outer_exit": 1,
+    "wrapper_exit": 1,
+    "before_after_admission_pins": 0,
+    "explicit_stop_exit": 0
+  },
+  "continuation_0409": {
+    "cleanup217_installed": "all three terminal audits accepted",
+    "transport218": "source SA21/SA20/optional accepted; packaging exit0, audit finalizing; installation pending",
+    "remote_additive": "24 bodies exact at 0c74347b; V2 restore failure preserved; reviewed V3 restore exit0, actual audit pending",
+    "statistics_mutation": "V3 evidence HOLD retained; V4 expected3F2P94deselected2.91s, actual audit pending",
+    "installed_recovery": "3807 origins/474 new bodies; independent input review underway"
   }
 }

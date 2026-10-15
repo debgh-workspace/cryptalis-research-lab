@@ -1,0 +1,40 @@
+{
+  "artifacts": {
+    "run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "bytes": 139445,
+      "directories": 6,
+      "files": 46,
+      "sha256": "73c066adfce04d4efc3dd02c713e0d8ae0610497fb045ebb1484f54a8bb55e88",
+      "uncompressed_bytes": 466797
+    },
+    "run/roundtrip-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "bytes": 139445,
+      "directories": 6,
+      "files": 46,
+      "sha256": "73c066adfce04d4efc3dd02c713e0d8ae0610497fb045ebb1484f54a8bb55e88",
+      "uncompressed_bytes": 466797
+    },
+    "run/sdist-1/cryptalis-0.1.0.tar.gz": {
+      "bytes": 149965,
+      "directories": 6,
+      "files": 47,
+      "sha256": "fddf753a815e4babcb628f248c399d8cb9d31f6ab7621824c6327ba4b0debf34",
+      "uncompressed_bytes": 581068
+    },
+    "run/sdist-2/cryptalis-0.1.0.tar.gz": {
+      "bytes": 149965,
+      "directories": 6,
+      "files": 47,
+      "sha256": "fddf753a815e4babcb628f248c399d8cb9d31f6ab7621824c6327ba4b0debf34",
+      "uncompressed_bytes": 581068
+    }
+  },
+  "clearance_sha256": "ce3a0e46ec9da8873b49954cce6ca8fe2011d91ad6c394d3bb2dfd24da7f3eb4",
+  "decision": "ACCEPT_SCOPED_TRANSPORT218_PACKAGING_V2",
+  "gates": "ALL_SEVEN_UNKNOWN",
+  "installation_authorized": false,
+  "packet_sha256": "5bd4c2fc946c97707b1f4e8c9bb7c0be7d9253bc5838da0b6efd4d2775d46af8",
+  "schema": "transport218-accepted-packaging-artifacts-v1",
+  "source_command_review_sha256": "1f1ba6d41637a4eb8ae46b9dc9dc20be28b52f53b840d942f3c82e2a6b42e787",
+  "source_manifest_sha256": "b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204"
+}
