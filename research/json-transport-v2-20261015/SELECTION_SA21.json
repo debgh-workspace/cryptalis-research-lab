@@ -1,0 +1,19 @@
+{
+  "status": "SELECTED_BY_ROOT_AFTER_INDEPENDENT_ACCEPTANCE",
+  "cell": "sa21",
+  "packet_seal_sha256": "d5f457b3968d86adaa2a4f0ecaa70bd7a2a1ab73e6ebaca924de907550716377",
+  "command_sha256": "93abc4fc4ca83c3e421095caa1f6415d0e4fdbbc5fe48a5ad4e578e7d0d03b06",
+  "source_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/json-transport-native-probe-independent-20261015/REVIEW.md",
+    "sha256": "d3d1c24896b6d6e5c1454ba60a21cbaf15ab9e7d50f497707db58b9e1e3e6b58",
+    "root_semantic_verdict_confirmed": true
+  },
+  "preceding_terminal_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/integrated221-installed-focused111-sa20-v2-independent-20261015/REVIEW.md",
+    "sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678",
+    "root_semantic_verdict_confirmed": true
+  },
+  "root_current_read_only_authority_confirmed": true,
+  "root_exclusive_selection": true,
+  "no_intervening_lab_stage": true
+}
