@@ -4,13 +4,15 @@
 
 ## Identity and recovery
 
-### Current reconciled boundary — 2026-10-15 12:33 UTC
+### Current reconciled boundary — 2026-10-15 14:01 UTC
 
-Transport218 is the highest audited bounded installed candidate: candidate-cleanup-transport-metadata-20261014, 218 files, manifest b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204. Installed SA21: 2671 PASS / 7 FAIL / 0 SKIP, 56 passing subtests, 421.57s. Installed SA20: 2625 PASS / 7 FAIL / 46 SKIP, 56 passing subtests, 398.45s. Installed optional SQLModel: 38 PASS, 5.82s. Main terminal audits accepted; clean optional audit accepts safe recorded results and restoration records but does not independently establish a live corpus boundary after cluster reuse. The previous optional reviewer directory remains HOLD and excluded from publication because it accessed prohibited raw phase files. The clean review does not use it as proof. Seven historical failures remain unresolved in this candidate.
+Integrated221 is the highest verified engineering source candidate: candidate-cluster-retained-integrated-v2-20261015, 221 files, manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520. Full source SA21 independently accepted2684 PASS/0 FAIL/0 SKIP plus56 passing subtests,471.98s. Full source SA20 independently accepted2638 PASS/0 FAIL/46 exact allowed native-version SKIP plus56 passing subtests,465.98s. All13 replacement/new historical-contract cases pass. Both corrected focused111 suites independently accepted, with native mutation and genuine historical-producer evidence. Product source is unchanged by the fixture-only V3 correction. The earlier77PASS/1FAIL fixture result and native2 diagnosis remain preserved.
 
-The separate opt-in CLUSTER-designation correction passed 39 native PostgreSQL scenarios on each SQLAlchemy version (SA21 14.88s; SA20 13.83s), including rollback, drift refusal, current values and approved activation. Both terminal reviews independently closed the 26-file corpus boundary. This is source-overlay evidence; safe-default/legacy behavior and integrated installed qualification are not yet accepted. Safe-default V1 was held for a real legacy reverse-abort regression; V2 source correction was reviewed and materialized into integrated221. First integrated111 SA21 run:77 PASS,1 FAIL,33 unexecuted. Native-only controls independently proved the failing constraint-link mutation undid itself; a fixture-only successor is being prepared, with product source and refusal assertions unchanged.
+Seven historical failures are resolved in this integrated source candidate using independent native metadata and mutation evidence, with no safety assertions skipped. This does not establish installed221 qualification or general legacy recovery. Transport218 remains the highest audited installed baseline, with2671/2625 passes and7 historical failures in each main cell, plus46 native-version skips on SA20 and56 passing subtests per cell. Its installed optional38 recorded results remain accepted with the previously documented live-boundary limitation.
 
-Owner ship-first approval preserves all 34 objectives, reversible legacy recovery and all seven gates. It authorizes evidence-backed replacement of obsolete historical expectations, never skipped or weakened invariants. Both contract cells have independently verified RED6 intended failures+3 positive passes and GREEN16 passes each. These source-overlay focused results do not establish a corrected full-suite or installed integration. No corrected full-suite green result is claimed. Existing local cutover helper received explicit action-time approval for the isolated positive activation tests only; no new cluster, credentials or provider access approval is inferred.
+Integrated221 optional38 has completed with coordinator entry0, post PostgreSQL status3 and26 corpus hashes restored; its independent terminal review is pending. The additional dependency guard checks5841 files,4 links and655 directories before/after while retaining the sealed531-input inner map. Reproducible221 packaging has source-command approval but has not run; it requires optional terminal acceptance. Installed221 matrix and installed preview smoke remain pending. Read-only identityV3 passed1 case across both roles/routes; it is not a completed smoke test.
+
+Owner ship-first approval preserves all34 objectives and all7 qualification gates. The existing cutover-helper approval is scoped to existing isolated test roles/cluster; no new credentials, clusters, provider access or broader grants are inferred. Generic legacy repair, active rotations, online migration, stronger search privacy, performance and external qualification remain open. Preview remains the first delivery milestone.
 
 Cleanup focused and full-source/additive remote restoration remain accepted at their retained commits. Installed-evidence archive has accepted local independent rebuild/restoration and exact whole-archive publication-content review. All42 parts and manifest are exact same-commit remote readbacks at a36b75e60903288c71b185cc4909ae16083e0043; actual authenticated restore and independent result audit accepted5541 files including3 receipts. Transport218 source/packaging archive is frozen at SHA48d7557b817402928d8921a310b36a8828432e578c9ff85347faa600dc92b6e7; independent byte rebuild/inert restore accepted4834 logical files+54controls. These are inert evidence restores, not runtime/database restores.
 
@@ -18,7 +20,7 @@ Official PyPI metadata matches all 13 locked dependency wheel hashes. Exact offi
 
 All 34 objectives remain active. Main remains S14. G-ADAPTER, G-CRYPTO, G-QUERY, G-LIFECYCLE, G-PROVIDER, G-POLICY and G-RELEASE remain UNKNOWN. Preview delivery is the first milestone, not production qualification.
 
-- Last updated UTC: `2026-10-15T12:33:00Z`
+- Last updated UTC: `2026-10-15T14:01:00Z`
 - Public GitHub SHA (read-only rechecked): `2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43` via git ls-remote,2026-10-12T20:14Z
 - Highest audited bounded installed candidate: Transport218, as described above, with seven known historical failures and the explicit optional live-boundary limitation. Cleanup217 and all prior checkpoints are retained.
 - Preserved 15-commit mailbox SHA-256: `9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd` (freshly checked)
@@ -1424,3 +1426,35 @@ Unchanged approved PostgreSQL wrapper/preflights ran a separate native-only two-
 ## 2026-10-15 12:32 UTC — native cause independently verified
 
 Native2 terminalreview3d22ed59b976288bae9f2e829228721139648e3cf24c641f1f89454e07ed39cf accepted2PASS/6phases/16nativechecks, bothcleanups,2363pins,26corpus andstoppedserver. The failed integrated schema_abort-link mutation is demonstrated to undo itself under PostgreSQL backing-index/constraint rename propagation. This does not establish a product acceptance gap for realconstraintdrift. Real drop/recreate linkloss retainsindexdefinition/data androllbackrestoresoriginalOIDs/links/comments/rows. Authorized separatefixture-only successor will preservetypedrefusal/rollback/recovery/accessassertions, addimmediatemutationpreconditions, andleaveproduct221sourceunchanged. Failed111receipt remainsFAIL; no corrected111resultyet.
+
+## 2026-10-15 12:50 UTC — 48-hour audit delivered; corrected111 SA21 observed
+
+48-hour audit delivered in the existing conversation at12:39UTC, evidencecutoff12:34with12:37releaseaddendum. UserartifactSHAf2cbe8edc5c09505fc83317ccea83779b8a93d49927c99d8def1a55a93cc0101; audit/evidencemap/validation publishedandremoteexact7a3b16a0e417c5ac76a86bc02b3a36e9daffcf57. It preservesall34objectives/sevenUNKNOWNgates, comparesS14ordinaryinstalled1831/7/0 and1813/7/18 toTransport2182671/7/0 and2625/7/46, anddoesnotclaimspeedupfromtestsuitecounts/durations.
+
+V3fixture-onlysuccessor independentlysource-admitted, product221unchanged. Rootcorrected111SA21 run completedwrapper0/111PASS74.14s; independentreview reports exact111/333,28producerreceipts,508nativechecks,2388pins/link/corpusclosed allmatching, finalreviewseal pending. SA20notstarted. PriorV2failed77/1/33unexecuted unchanged. No fullsource/installed221qualificationclaimed. PreviewadapterV3fixedSQLcatalogcolumns; separate read-onlyidentitycaptureV2source-admitted, notexecuted; publicsmokestillneedsobservedbackendidentity/frozeninputs/authorityreconciliation.
+
+## 2026-10-15 12:52 UTC — corrected111 SA21 independently accepted
+
+Review937fd0a8e5ee88497c4d00e26764afab84db62d64595ea4af180f30ee0e7e4a3 accepts exact111PASS74.14s/333passedphases,28genuineproducerreceipts and508nativechecks, includingall6strengthenedrealmutations/exacttypedrefusal/rollback/authenticatedrecovery. 2388runtimepins/221source17controls/links/26corpus unchanged, shutdownclosed. Sameproduct221; fixture-onlyV3changed2controlfiles. SA20selectedseparately withacceptedSA21reviewpinnedandfreshadmission; running, noresultclaimed. Full-source/packaging/installedqualificationstillpending.
+
+## 2026-10-15 13:09 UTC — both corrected111 accepted; full-source SA21 running
+
+SA20 corrected111 independentlyaccepted111PASS78.53s/333phases/28producerreceipts/508nativechecks; review05b0e5c564b9a89ac18aee555c6c60d580a9a96f73d70487f69c72b722298f0e, priorSA21unchanged. Full-source packet4b34e4be1cc38a1a75f3d02cff7a1f3579523445e2563f4969970e38639bdd7b reviewed e0009279c2592faecfd4b4217232c39903220a7a948be4eeb8ab58bebdd7b284; explicitmainruntimeaddendum92b1f6c09c0908e565fa60578fd34082f620eeb08e75f60192c019a91c4ba1c8. RootfullSA21 selectedexact2684maincases excludingseparatelyrequiredoptional38; currentlyrunning, noresultclaim. Source221 unchanged.
+
+Read-onlypreviewidentitycaptureV2 failed1case0.34s actual_identity_mismatch, noidentityreceipt/DDL/keys. Independentclosureacceptedreview18beb489553cf50a8949542c4a97dfa614213625e08f6f6a6275439ccaf6ee08:2400pins/links/corpusunchanged,stop0/status3. PostgreSQL16.15 sourceprovesinet-to-text appendsmask, makingbareIPv4predicateimpossible. Actualsuppressedrowdoesnotprovewhichotherfieldswouldmatch; backendidentityremainsunaccepted. Source-onlynormalizedhost successor withstrictfullmask/loopback/port/db/roles andsafe booleandiagnosticsunderpreparation; smokeheld.
+
+## 2026-10-15 13:19 UTC — first full integrated source result observed
+
+Full-source SA21 rootentry/wrapper0:2684PASS0FAIL0SKIP,56passing subtests,50warnings471.98s. Rootindependentpoststatus3 and26corpusbefore/afterequal; detailedindependentterminalauditpending. Source221 unchanged; priorTransport218installed7fail receipts andV2focusedfailurepreserved. NoSA20full-source orinstalled221resultyet. Fullsuiteelapsednotproductlatencybenchmark; hostresource snapshot13:15:56 shows9visibleCPUs,load0.92/0.61/0.31,MemAvailable8161344kB; cgroupquota/pressuremetricsunavailable, noattribution/performanceclaim.
+
+## 2026-10-15 13:33 UTC — fullSA21 accepted; identity accepted; fullSA20 running
+
+FullSA21review0cfcaf87e7bffddb788da32df75d16e132e7d281160cefe64f15e81a62476de0 accepts2684ordinaryPASS/56subtests/8108passedreports,13replacement/newcoverage,2429unionpins/sourcearchive221,50warnings(2fork+48SQLAlchemydeprecations), exactshutdown/corpus. SA20separatelyselectedwiththisreviewpinnedandsameentry/preflights; currentlyrunning.
+
+IdentitycaptureV3accepted1PASS0.39s/3phases,strictbothrole/Python+psql routes,2420pins/26corpusclosed. Review2a7e989e55721bc60ff1bf4f3bb4a7f55997a9f6eadeb1bdc54505b1d0fafd60; safeidentityreceipt089bac088003d7921f755409509afed5544741ebfee8af66faea0776fbfbb92c. V2failure remainsrejected; nohistoricalidentityfabricated. Smokeremainsseparatelygated.
+
+Recoverypreparationstabilizedall112successfulV3temporaryrelease/cleanupreceiptbodiesagainstpriorhashesbefore furtherpytestcleanup.24failedV2temporaryoriginalsabsent; theirpriorindependentSHA256anchorsmatchtwoalreadyretainedactualV3bodies(117/74bytes). Content-addressedaliasrecoveryproposedwithoriginal_temp_absent=true andunavailableoriginalsizemetadataexplicit, no synthesis/newV2observation; independentcapsuleadmissionpending.
+
+## 2026-10-15 14:01 UTC — both full source221 cells independently accepted
+
+SA21 review SHA0cfcaf87e7bffddb788da32df75d16e132e7d281160cefe64f15e81a62476de0. SA20 review SHAdcfd32012ee0f9fe13cc73e78013a5bee1be6dd8783552b8f0486a0a8848e625. Exact SA20 reports8090 include18 setup skips and28 call skips, with all46 reasons checked against frozen source. SA21 reports8108. Each has56 passing subtests, counted separately from ordinary cases. Source221 archives, all input pins, wrapper stop, independent stopped status and26 corpus receipts close. No performance improvement inferred from suite durations. Optional38 terminal audit now pending after entry0/closed boundary; build/install qualification remains unexecuted. Focused recovery capsule1611936B SHA1f76f9bf50e7e757430edfe45b5ecb81afee67283675f2465c0d0b102f05822b is frozen with664 members; independent rebuild/restore is running. All34 objectives and seven UNKNOWN qualification gates remain active.
