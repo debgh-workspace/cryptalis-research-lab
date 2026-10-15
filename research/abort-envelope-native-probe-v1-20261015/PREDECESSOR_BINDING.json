@@ -1,0 +1,11 @@
+{
+  "status": "PENDING_LATEST_INDEPENDENT_TERMINAL_AUDIT",
+  "latest_intervening_source_packet": "experiments/json-transport-native-probe-v2-20261015",
+  "terminal_review_path": null,
+  "terminal_review_sha256": null,
+  "root_semantic_closure_accepted": false,
+  "root_current_read_only_authority_confirmed": false,
+  "root_exclusive_selection": false,
+  "no_intervening_lab_stage": false,
+  "note": "Inert source reference only. Root reported an unsuccessful intervening transport stage whose failure audit is ongoing. No live output was read. Do not copy its old predecessor or assume successful closure. Any selection requires a separately reviewed successor binding."
+}

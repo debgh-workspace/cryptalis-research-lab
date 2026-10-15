@@ -1,0 +1,20 @@
+{
+  "status": "FINITE_SOURCE_ONLY_INPUTS_NO_LIVE_REFERENT_EXPANSION",
+  "root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "selected_source221_manifest_identity_inert": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+  "inputs": [
+    {"path": "reviewer-notes/abort-envelope-unit-terminal-independent-20261015/AUDIT.md", "bytes": 10962, "sha256": "2e31beb778ec9b3ebd0b2c78c57f8cce53bbbe9b848a107301edd61cfdd39e1e"},
+    {"path": "experiments/aborted-successor-envelope-v1-20261015/NATIVE_PROTOCOL.md", "bytes": 8586, "sha256": "03c7d773f3c000718cf9ce8d01c342abce4dfc9ab5d679610675eaaf5cc5f193"},
+    {"path": "experiments/aborted-successor-envelope-v1-20261015/correction-v2/CORRECTION.md", "bytes": 4437, "sha256": "53edcb4d141327c3b9b64865c929388919a55938a508e852de8ad7b01cf9043b"},
+    {"path": "experiments/json-transport-native-probe-v2-20261015/run-probe.sh", "bytes": 5765, "sha256": "5e62d22d32ee3e406a0885f86c6166c875c6f45733102650927993e82668ab44"},
+    {"path": "experiments/json-transport-native-probe-v2-20261015/admit_packet.py", "bytes": 10987, "sha256": "096f201196f4a6a5ce17e2be31b5b29db0c1c6876cdad72729408dae2886b47e"},
+    {"path": "experiments/json-transport-native-probe-v2-20261015/COMMAND_ARGV.json", "bytes": 3682, "sha256": "93abc4fc4ca83c3e421095caa1f6415d0e4fdbbc5fe48a5ad4e578e7d0d03b06"},
+    {"path": "experiments/json-transport-native-probe-v2-20261015/conftest.py", "bytes": 1584, "sha256": "fa521d4bec6b84320304ad59d22e7551c342d7e60f2c254c8b6495b07bdf06dd"},
+    {"path": "experiments/json-transport-native-probe-v2-20261015/test_native_transport.py", "bytes": 18114, "sha256": "8f848a77c42067c79f9070cfc7ce2c8c2cd1c6eff64a08cc6e33e938b4f00faa"},
+    {"path": "reviewer-notes/json-transport-native-probe-independent-20261015/REVIEW.md", "bytes": 11701, "sha256": "d3d1c24896b6d6e5c1454ba60a21cbaf15ab9e7d50f497707db58b9e1e3e6b58"},
+    {"path": "experiments/integrated221-installed-full-controls-v3-20261015/launch_cold_wrapper.py", "bytes": 1321, "sha256": "fe7eb1d38cf826c79ecf201a330522f96501d4edc4d40b2f56f779df24f2acbc"},
+    {"path": "experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py", "bytes": 24848, "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861"},
+    {"path": "candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py", "bytes": 10046, "sha256": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453"}
+  ],
+  "read_boundary": "Metadata first, finite source/review ranges only. No prepared Python, product, reference, test, launcher or guard was imported, compiled, collected or executed. No runtime/status, installed/live/corpus/cache/environment/credential/raw-phase read occurred. Underlying runtime maps and interpreter paths are inert identities only. Original source/failure records unchanged."
+}
