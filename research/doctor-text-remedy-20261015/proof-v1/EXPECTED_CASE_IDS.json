@@ -1,0 +1,13 @@
+[
+  "D01_malformed_text_remedy",
+  "D02_wrong_schema_text_remedy",
+  "D03_valid_text_unchanged",
+  "D04_rejected_json_unchanged",
+  "D05_valid_json_unchanged",
+  "D06_stdout_write_failure",
+  "D07_stdout_short_write",
+  "D08_stdout_flush_failure",
+  "D09_stderr_failure_stays_operational",
+  "D10_dynamic_sentinels_are_effective",
+  "D11_redaction_collector_positive_control"
+]

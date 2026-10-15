@@ -1,0 +1,10 @@
+--- a/src/cryptalis/cli.py
++++ b/src/cryptalis/cli.py
+@@ -496,6 +496,7 @@
+     else:
+         output = "Doctor: incomplete; no deployment qualification.\n" + "\n".join(
+             f"{name}: {check['status']}" + (f" ({check['code']})" if "code" in check else "")
++            + (f"\n  remedy: {check['remedy']}" if "remedy" in check else "")
+             for name, check in result["checks"].items()
+         ) + "\nDynamic inspection requires explicitly supplied host objects through cryptalis.doctor.doctor."
+     _write_output(output + "\n", sys.stdout, "stdout")
