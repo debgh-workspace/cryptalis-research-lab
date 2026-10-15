@@ -1,0 +1,34 @@
+{
+  "status": "INERT_SOURCE_MAP_ONLY_NOT_MATERIALIZED_NOT_SELECTED",
+  "candidate_root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+  "membership": "Exactly the 221 relative paths in CANDIDATE_SOURCE_MANIFEST.json; no additional path or recursive copy is admitted.",
+  "candidate_manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+  "baseline_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+  "default_source_root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+  "default_source_rule": "For each manifest relative path other than the two overrides, use the identical relative path under default_source_root; admit names, regular-file types, ancestors, sizes and expected original hashes before copying. Recheck copied bytes and require distinct inodes. Do not traverse or open opaque caches.",
+  "overrides_relative_to_this_packet": {
+    "README.md": "overlays/README.md",
+    "src/cryptalis/cli.py": "overlays/cli.py"
+  },
+  "source_delta": {
+    "changed": ["README.md", "src/cryptalis/cli.py"],
+    "added": [],
+    "removed": [],
+    "unchanged_hash_entries": 219,
+    "runtime_modules": 43,
+    "changed_runtime_modules": ["src/cryptalis/cli.py"]
+  },
+  "readme_provenance": {
+    "approved_published_source": "https://github.com/debgh-workspace/cryptalis-research-lab/blob/b64ff0d76281678a168ae5ce67135abf4e96e079/preview/artifacts/readme-v2-20261015/source-README.md",
+    "supplied_publication_binding": "Publication identity supplied by coordinator; no remote access performed in this preparation.",
+    "local_exact_copy_source": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-readme-release-plan-v2-20261015/source/README.md",
+    "sha256": "0101bed8e6cc533e438d9a718281f7f15781fea170de91b788389938798cdcb5"
+  },
+  "cli_provenance": {
+    "original_sha256": "0df0b4f0101933b3a069024965b7bc5a3374747aff53d37099d2f22efc105efe",
+    "overlay_sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409",
+    "patch_sha256": "31e117393dd77d40a8d10733434defe55c6b590958ec25d73afaaa5821592e10"
+  },
+  "preservation": "All existing docs, tests, examples, scripts, pyproject.toml and uv.lock remain in the 221-path map. The external regression test remains outside candidate membership and runtime archives.",
+  "limitations": "Manifest entries and copied overlay hashes checked as data only. This is not a fresh 221-body source admission, materialized candidate, build, installation, runtime result, promotion or publication. Unit-proof acceptance remains pending."
+}
