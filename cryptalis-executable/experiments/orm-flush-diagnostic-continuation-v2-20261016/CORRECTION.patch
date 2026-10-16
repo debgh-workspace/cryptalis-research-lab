@@ -1,0 +1,62 @@
+--- selected221/src/cryptalis/sqlalchemy.py
++++ proposed/src/cryptalis/sqlalchemy.py
+@@ -943,7 +943,14 @@
+ 
+ def _failed_flush_preparation(session, failure):
+     session._prepared = None
+-    failure.add_note('Roll back the failed Session or SAVEPOINT before retrying.')
++    def note(message):
++        try:
++            BaseException.add_note(failure, message)
++        except BaseException:
++            # Diagnostic delivery must not replace the primary failure or
++            # prevent the native failed-flush cleanup attempt.
++            pass
++    note('Roll back the failed Session or SAVEPOINT before retrying.')
+     try:
+         # A fresh async cleanup greenlet has no active exception state.
+         # Native rollback captures sys.exc_info(), so restore that context
+@@ -953,10 +960,10 @@
+         try:
+             fail_prepared_flush(session)
+         except BaseException as cleanup:
+-            failure.add_note("Cryptalis flush rollback failed (" + type(cleanup).__name__
++            note("Cryptalis flush rollback failed (" + type(cleanup).__name__
+                              + "); discard this failed unit and inspect cleanup.")
+             if getattr(cleanup, "_cryptalis_quarantine_incomplete", False):
+-                failure.add_note("Physical quarantine is incomplete; connection outcome is unknown. "
++                note("Physical quarantine is incomplete; connection outcome is unknown. "
+                                  "Keep the workload stopped and inspect the database session.")
+ 
+ 
+--- selected221/src/cryptalis/_sqlalchemy_transactions.py
++++ proposed/src/cryptalis/_sqlalchemy_transactions.py
+@@ -165,19 +165,26 @@
+             transaction._begin().rollback(_capture_exception=True)
+     except BaseException as failure:
+         failure._cryptalis_quarantine_incomplete = False
++        def note(message):
++            try:
++                BaseException.add_note(failure, message)
++            except BaseException:
++                # Keep physical fallback and later connection cleanup running
++                # even when the rollback error cannot accept a safe note.
++                pass
+         # Failed rollback cannot leave a committable prefix in a pooled socket.
+         for connection in connections:
+             try:
+                 connection.invalidate()
+             except BaseException as invalidation:
+-                failure.add_note("Connection quarantine failed: " + type(invalidation).__name__)
++                note("Connection quarantine failed: " + type(invalidation).__name__)
+                 driver = drivers.get(connection)
+                 if driver is not None:
+                     try:
+                         driver.close()
+                     except BaseException as closing:
+                         failure._cryptalis_quarantine_incomplete = True
+-                        failure.add_note("Physical close failed: " + type(closing).__name__)
++                        note("Physical close failed: " + type(closing).__name__)
+                 elif not connection.closed and not connection.invalidated:
+                     failure._cryptalis_quarantine_incomplete = True
+         raise
