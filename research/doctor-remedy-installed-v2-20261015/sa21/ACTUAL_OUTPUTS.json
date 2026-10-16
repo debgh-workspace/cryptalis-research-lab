@@ -1,0 +1,58 @@
+{
+  "test_installed_module_process_has_safe_remedy": {
+    "exit_code": 2,
+    "input_sha256_after": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "input_sha256_before": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "mode": "installed-process-text",
+    "stderr_hex": "",
+    "stdout_hex": "446f63746f723a20696e636f6d706c6574653b206e6f206465706c6f796d656e74207175616c696669636174696f6e2e0a6d616e69666573743a2052454a45435445442028696e76616c69645f70726f74656374696f6e5f6465636c61726174696f6e290a202072656d6564793a20537570706c7920612076616c696420626f756e646564206372797074616c69732e70726f74656374696f6e2f7631206465636c61726174696f6e2e0a73657475703a204e4f545f494e535045435445440a6e61746976655f61646d697373696f6e3a204e4f545f494e535045435445440a6465706c6f796d656e743a204e4f545f494e535045435445440a636f6d7061746962696c6974793a204e4f545f494e535045435445440a726f6c65733a204e4f545f494e535045435445440a70726f76696465723a204e4f545f494e535045435445440a636970686572746578743a204e4f545f494e535045435445440a44796e616d696320696e7370656374696f6e207265717569726573206578706c696369746c7920737570706c69656420686f7374206f626a65637473207468726f756768206372797074616c69732e646f63746f722e646f63746f722e0a"
+  },
+  "test_rejected_json_is_unchanged[malformed]": {
+    "exit_code": 2,
+    "input_sha256_after": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "input_sha256_before": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "mode": "json",
+    "stderr": "",
+    "stdout": "{\"authority\":\"ADVISORY_NOT_AUTHENTICATED\",\"checks\":{\"ciphertext\":{\"status\":\"NOT_INSPECTED\"},\"compatibility\":{\"status\":\"NOT_INSPECTED\"},\"deployment\":{\"status\":\"NOT_INSPECTED\"},\"manifest\":{\"code\":\"invalid_protection_declaration\",\"remedy\":\"Supply a valid bounded cryptalis.protection/v1 declaration.\",\"status\":\"REJECTED\"},\"native_admission\":{\"status\":\"NOT_INSPECTED\"},\"provider\":{\"status\":\"NOT_INSPECTED\"},\"roles\":{\"status\":\"NOT_INSPECTED\"},\"setup\":{\"status\":\"NOT_INSPECTED\"}},\"complete\":false,\"effects\":\"NONE\",\"format\":\"cryptalis.doctor/v1\",\"limits\":[\"Native pre-adoption and active deployment metadata use distinct inspection modes.\",\"Writer completeness and value-domain reviews are host assertions, not independent discovery.\",\"Provider custody is not inspected; ciphertext authentication requires explicit active-mode opt-in and bounds.\",\"Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.\",\"All seven production gates and actual query routing require separate qualification.\"],\"phase\":\"pre_adoption\",\"ready\":false}\n"
+  },
+  "test_rejected_json_is_unchanged[unsupported-schema]": {
+    "exit_code": 2,
+    "input_sha256_after": "2b5743c0d1d92149850c4884ff3defc7e607a73829f0ca524e173b115cc57b4f",
+    "input_sha256_before": "2b5743c0d1d92149850c4884ff3defc7e607a73829f0ca524e173b115cc57b4f",
+    "mode": "json",
+    "stderr": "",
+    "stdout": "{\"authority\":\"ADVISORY_NOT_AUTHENTICATED\",\"checks\":{\"ciphertext\":{\"status\":\"NOT_INSPECTED\"},\"compatibility\":{\"status\":\"NOT_INSPECTED\"},\"deployment\":{\"status\":\"NOT_INSPECTED\"},\"manifest\":{\"code\":\"invalid_protection_declaration\",\"remedy\":\"Supply a valid bounded cryptalis.protection/v1 declaration.\",\"status\":\"REJECTED\"},\"native_admission\":{\"status\":\"NOT_INSPECTED\"},\"provider\":{\"status\":\"NOT_INSPECTED\"},\"roles\":{\"status\":\"NOT_INSPECTED\"},\"setup\":{\"status\":\"NOT_INSPECTED\"}},\"complete\":false,\"effects\":\"NONE\",\"format\":\"cryptalis.doctor/v1\",\"limits\":[\"Native pre-adoption and active deployment metadata use distinct inspection modes.\",\"Writer completeness and value-domain reviews are host assertions, not independent discovery.\",\"Provider custody is not inspected; ciphertext authentication requires explicit active-mode opt-in and bounds.\",\"Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.\",\"All seven production gates and actual query routing require separate qualification.\"],\"phase\":\"pre_adoption\",\"ready\":false}\n"
+  },
+  "test_rejected_text_has_safe_remedy[malformed]": {
+    "exit_code": 2,
+    "input_sha256_after": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "input_sha256_before": "1074a01ae26372d67c0f47188f908e2107618fe81e819f17926d8b8a940ed365",
+    "mode": "text",
+    "stderr": "",
+    "stdout": "Doctor: incomplete; no deployment qualification.\nmanifest: REJECTED (invalid_protection_declaration)\n  remedy: Supply a valid bounded cryptalis.protection/v1 declaration.\nsetup: NOT_INSPECTED\nnative_admission: NOT_INSPECTED\ndeployment: NOT_INSPECTED\ncompatibility: NOT_INSPECTED\nroles: NOT_INSPECTED\nprovider: NOT_INSPECTED\nciphertext: NOT_INSPECTED\nDynamic inspection requires explicitly supplied host objects through cryptalis.doctor.doctor.\n"
+  },
+  "test_rejected_text_has_safe_remedy[unsupported-schema]": {
+    "exit_code": 2,
+    "input_sha256_after": "2b5743c0d1d92149850c4884ff3defc7e607a73829f0ca524e173b115cc57b4f",
+    "input_sha256_before": "2b5743c0d1d92149850c4884ff3defc7e607a73829f0ca524e173b115cc57b4f",
+    "mode": "text",
+    "stderr": "",
+    "stdout": "Doctor: incomplete; no deployment qualification.\nmanifest: REJECTED (invalid_protection_declaration)\n  remedy: Supply a valid bounded cryptalis.protection/v1 declaration.\nsetup: NOT_INSPECTED\nnative_admission: NOT_INSPECTED\ndeployment: NOT_INSPECTED\ncompatibility: NOT_INSPECTED\nroles: NOT_INSPECTED\nprovider: NOT_INSPECTED\nciphertext: NOT_INSPECTED\nDynamic inspection requires explicitly supplied host objects through cryptalis.doctor.doctor.\n"
+  },
+  "test_valid_json_is_unchanged": {
+    "exit_code": 3,
+    "input_sha256_after": "09ab01bcfd546d42f5eba2bdedf8e7a9e6307de21389fadd42381e803aa4b492",
+    "input_sha256_before": "09ab01bcfd546d42f5eba2bdedf8e7a9e6307de21389fadd42381e803aa4b492",
+    "mode": "json",
+    "stderr": "",
+    "stdout": "{\"authority\":\"ADVISORY_NOT_AUTHENTICATED\",\"checks\":{\"ciphertext\":{\"status\":\"NOT_INSPECTED\"},\"compatibility\":{\"status\":\"NOT_INSPECTED\"},\"deployment\":{\"status\":\"NOT_INSPECTED\"},\"manifest\":{\"model_count\":1,\"scope\":\"declaration_grammar_only\",\"sha256\":\"09ab01bcfd546d42f5eba2bdedf8e7a9e6307de21389fadd42381e803aa4b492\",\"status\":\"CHECKED\"},\"native_admission\":{\"status\":\"NOT_INSPECTED\"},\"provider\":{\"status\":\"NOT_INSPECTED\"},\"roles\":{\"status\":\"NOT_INSPECTED\"},\"setup\":{\"status\":\"NOT_INSPECTED\"}},\"complete\":false,\"effects\":\"NONE\",\"format\":\"cryptalis.doctor/v1\",\"limits\":[\"Native pre-adoption and active deployment metadata use distinct inspection modes.\",\"Writer completeness and value-domain reviews are host assertions, not independent discovery.\",\"Provider custody is not inspected; ciphertext authentication requires explicit active-mode opt-in and bounds.\",\"Read-only database inspection is not a sandbox for trusted host objects or engine callbacks.\",\"All seven production gates and actual query routing require separate qualification.\"],\"phase\":\"pre_adoption\",\"ready\":false}\n"
+  },
+  "test_valid_text_is_unchanged": {
+    "exit_code": 3,
+    "input_sha256_after": "09ab01bcfd546d42f5eba2bdedf8e7a9e6307de21389fadd42381e803aa4b492",
+    "input_sha256_before": "09ab01bcfd546d42f5eba2bdedf8e7a9e6307de21389fadd42381e803aa4b492",
+    "mode": "text",
+    "stderr": "",
+    "stdout": "Doctor: incomplete; no deployment qualification.\nmanifest: CHECKED\nsetup: NOT_INSPECTED\nnative_admission: NOT_INSPECTED\ndeployment: NOT_INSPECTED\ncompatibility: NOT_INSPECTED\nroles: NOT_INSPECTED\nprovider: NOT_INSPECTED\nciphertext: NOT_INSPECTED\nDynamic inspection requires explicitly supplied host objects through cryptalis.doctor.doctor.\n"
+  }
+}
