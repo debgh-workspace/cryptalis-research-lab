@@ -1,0 +1,266 @@
+{
+  "scope": "synthetic deterministic observations; no native execution or authority",
+  "model_sha256": "0e2a079102c496e613ef69ab4473a365e6373ff926c81cdc369be0dd414f5bc0",
+  "cases_sha256": "bd46e233af1fb6c69983e1443bf9e3ef327d60b46df454f1d4ae687f3381d352",
+  "case_count": 22,
+  "results": [
+    {
+      "id": "claim_effect_observed",
+      "expected": "CLAIM_EFFECT_OBSERVED",
+      "actual": {
+        "outcome": "CLAIM_EFFECT_OBSERVED",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "claim_effect_with_other_obligation",
+      "expected": "CLAIM_EFFECT_OBSERVED_OTHER_OBLIGATION",
+      "actual": {
+        "outcome": "CLAIM_EFFECT_OBSERVED_OTHER_OBLIGATION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "original_obligation_observed",
+      "expected": "ORIGINAL_OBLIGATION_OBSERVED",
+      "actual": {
+        "outcome": "ORIGINAL_OBLIGATION_OBSERVED",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "different_obligation",
+      "expected": "DIFFERENT_OBLIGATION_OBSERVED",
+      "actual": {
+        "outcome": "DIFFERENT_OBLIGATION_OBSERVED",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "different_lower_token_no_order_inference",
+      "expected": "DIFFERENT_OBLIGATION_OBSERVED",
+      "actual": {
+        "outcome": "DIFFERENT_OBLIGATION_OBSERVED",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "empty_without_stage",
+      "expected": "UNKNOWN_NO_MATCHING_EFFECT_OR_OBLIGATION",
+      "actual": {
+        "outcome": "UNKNOWN_NO_MATCHING_EFFECT_OR_OBLIGATION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "empty_other_stage",
+      "expected": "UNKNOWN_NO_MATCHING_EFFECT_OR_OBLIGATION",
+      "actual": {
+        "outcome": "UNKNOWN_NO_MATCHING_EFFECT_OR_OBLIGATION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "unresolved_original_dirty",
+      "expected": "UNKNOWN_ORIGINAL_TRANSACTION",
+      "actual": {
+        "outcome": "UNKNOWN_ORIGINAL_TRANSACTION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "unresolved_empty",
+      "expected": "UNKNOWN_ORIGINAL_TRANSACTION",
+      "actual": {
+        "outcome": "UNKNOWN_ORIGINAL_TRANSACTION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "unresolved_matching_stage",
+      "expected": "UNKNOWN_ORIGINAL_TRANSACTION",
+      "actual": {
+        "outcome": "UNKNOWN_ORIGINAL_TRANSACTION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "identity_unverified",
+      "expected": "UNKNOWN_IDENTITY",
+      "actual": {
+        "outcome": "UNKNOWN_IDENTITY",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "wrong_operation",
+      "expected": "UNKNOWN_IDENTITY",
+      "actual": {
+        "outcome": "UNKNOWN_IDENTITY",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "wrong_attempt",
+      "expected": "UNKNOWN_IDENTITY",
+      "actual": {
+        "outcome": "UNKNOWN_IDENTITY",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "wrong_key",
+      "expected": "UNKNOWN_IDENTITY",
+      "actual": {
+        "outcome": "UNKNOWN_IDENTITY",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "stale_pin",
+      "expected": "BLOCKED_PIN_OR_PHASE",
+      "actual": {
+        "outcome": "BLOCKED_PIN_OR_PHASE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "paused_refusal",
+      "expected": "BLOCKED_PIN_OR_PHASE",
+      "actual": {
+        "outcome": "BLOCKED_PIN_OR_PHASE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "incoherent_observation",
+      "expected": "UNKNOWN_OBSERVATION",
+      "actual": {
+        "outcome": "UNKNOWN_OBSERVATION",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "same_token_stage_and_dirty",
+      "expected": "HOLD_CONFLICTING_EVIDENCE",
+      "actual": {
+        "outcome": "HOLD_CONFLICTING_EVIDENCE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "matching_token_wrong_effect",
+      "expected": "HOLD_CONFLICTING_EVIDENCE",
+      "actual": {
+        "outcome": "HOLD_CONFLICTING_EVIDENCE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "invalid_bool_token",
+      "expected": "UNKNOWN_INVALID_EVIDENCE",
+      "actual": {
+        "outcome": "UNKNOWN_INVALID_EVIDENCE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "invalid_stage_presence",
+      "expected": "UNKNOWN_INVALID_EVIDENCE",
+      "actual": {
+        "outcome": "UNKNOWN_INVALID_EVIDENCE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    },
+    {
+      "id": "non_boolean_terminal_attestation",
+      "expected": "UNKNOWN_INVALID_EVIDENCE",
+      "actual": {
+        "outcome": "UNKNOWN_INVALID_EVIDENCE",
+        "retry_authorized": false,
+        "closure_established": false,
+        "publication_authorized": false
+      },
+      "pass": true
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "empty_queue_means_success",
+      "case": "empty_without_stage",
+      "counterfeit_outcome": "CLAIM_EFFECT_OBSERVED",
+      "rejected": true
+    },
+    {
+      "id": "dirty_token_means_transaction_finished",
+      "case": "unresolved_original_dirty",
+      "counterfeit_outcome": "ORIGINAL_OBLIGATION_OBSERVED",
+      "rejected": true
+    }
+  ],
+  "inputs_unchanged": true,
+  "failures": []
+}

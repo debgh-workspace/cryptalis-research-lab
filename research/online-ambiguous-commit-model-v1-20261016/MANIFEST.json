@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_ONLY_UNEXECUTED",
+  "scope": "Pure synthetic model; no native adapter or authority inference",
+  "files": [
+    {
+      "path": "CASES.json",
+      "bytes": 14784,
+      "sha256": "bd46e233af1fb6c69983e1443bf9e3ef327d60b46df454f1d4ae687f3381d352"
+    },
+    {
+      "path": "PROPOSAL.md",
+      "bytes": 10078,
+      "sha256": "5ddf72cc43f3d1a5f02f338ac5a869c55dd706408c54b56b5700e58721a74cd4"
+    },
+    {
+      "path": "driver.py",
+      "bytes": 2292,
+      "sha256": "1ead060d1505f9dacc9f542eb7c3fdb7707d66a610c67fa3e37f927192847638"
+    },
+    {
+      "path": "model.py",
+      "bytes": 3524,
+      "sha256": "0e2a079102c496e613ef69ab4473a365e6373ff926c81cdc369be0dd414f5bc0"
+    }
+  ]
+}
