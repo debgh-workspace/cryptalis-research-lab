@@ -1,8 +1,8 @@
 # Cryptalis current defect and qualification register
 
-Updated 2026-10-15 16:46 UTC. This is an additive current register; historical candidate registers and failed observations are unchanged. Current bounded installed candidate: Integrated221, manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520. Scope and all34 objectives remain governed by CRYPTALIS_BUILD_CHECKLIST.md.
+Updated 2026-10-16 04:12 UTC. Selected frozen bounded preview: candidate-doctor-remedy-integrated221-v1-20261015, manifest40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7. Current installed evidence is exactly seven doctor cases per profile. Original Integrated221 full/optional/focused results below remain historical evidence on its original artifact, not fresh successor executions. All34 objectives and seven UNKNOWN gates remain governed by CRYPTALIS_BUILD_CHECKLIST.md. The former opening is preserved in persistence-recovery-20261013/defect-front-before-reconciliation-20261016-0412.md.
 
-## Closed within the selected contract
+## Historical original Integrated221 corrections within the admitted contract
 
 The seven historical ordinal/copy expectations are resolved in both full installed suites, with their original failures preserved. Five original refusals concerned metadata now preserved by retained-native storage; they were replaced only after independent PostgreSQL evidence. The other two now exercise actual protected staging and actual bounded transport. This is a correction of the contract tests and evidence, not a claim that seven generic data-loss bugs were patched.
 
@@ -20,7 +20,7 @@ Six real post-apply mutation controls establish sensitivity of the native accept
 
 Other accepted bounded corrections include CLUSTER designation preservation and safe-default/conditional legacy behavior. Source focused111 cells pass with genuine historical producers; both installed-focused111 boundaries are independently accepted with111PASS/333phases/28genuine historical producers/508native checks per cell. Physical heap clustering and generic lost-metadata recovery are not implied.
 
-Independent installed evidence:
+Historical original Integrated221 installed evidence (not rerun on the doctor successor):
 - SA21:2684PASS/0FAIL/0SKIP +56subtests; review9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223.
 - SA20:2638PASS/0FAIL/46 exact native-version SKIP +56subtests; reviewd685131a3818ed9cafb74810505af53fe723d47f12ce296b6c126e14f5021ee0.
 - SQLModel:38PASS/114phases; reviewb035f5acb36931515a11adfaa25dc5aa69c3634c85f08eaa683edf0b813f3c1d.
@@ -71,3 +71,12 @@ The one-line fix is independently verified at source level through real dependen
 
 ### 2026-10-16 00:40 UTC — bounded doctor remedy defect resolved in selected preview
 The frozen successor includes the exact one-line safe remedy rendering correction. Source RED/GREEN, reproducible package payloads, fresh installed payload audits and seven-case runtime checks on both existing SQLAlchemy profiles are independently accepted. SA21:7PASS1.62s; SA20:7PASS1.59s;21 phases each; unchanged JSON/exits/other outputs, input preservation and clean stopped/corpus closure. Selection does not complete the broader doctor objective or transfer old full-suite executions to a new artifact. All unrelated defects and external qualification blockers remain active.
+
+## 2026-10-16 04:16 UTC — externally corrected frozen-preview guidance
+
+- DOC-SNAPSHOT-DRAIN: concrete operator-guide omission; selected migration requires database-wide account-bearing snapshot holders to finish/roll back before switch. External clarification preserves authorized operator action, original operation/staging and writer exclusion on refusal; no automatic session termination or guard bypass. Static independently reviewed correction only.
+- DOC-ALTERNATE-ATTACH: older packaged walkthrough omits required deployment tuple after product protection. Current preferred quickstart is correct; external addendum directs use of exact approved plan/current ACTIVE pin. Frozen old artifact retained.
+- DOC-DOCTOR-EXIT: onboarding omitted intentional exit3 for valid incomplete static report and stdout rejection report with exit2. External source-reviewed template handles2/3/4 without swallowing failures; not a new runtime result.
+- DOC-CURRENT-FRONTS: checklist/defect opening selection was stale despite later correct entries. Current fronts corrected, old bytes retained, all34 objectives/seven UNKNOWN gates/history preserved.
+
+These documentation corrections do not close public end-to-end smoke, clean-host installation, full doctor capabilities or independent product qualification.

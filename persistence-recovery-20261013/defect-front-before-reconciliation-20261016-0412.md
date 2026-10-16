@@ -1,0 +1,1 @@
+Updated 2026-10-15 16:46 UTC. This is an additive current register; historical candidate registers and failed observations are unchanged. Current bounded installed candidate: Integrated221, manifest202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520. Scope and all34 objectives remain governed by CRYPTALIS_BUILD_CHECKLIST.md.
