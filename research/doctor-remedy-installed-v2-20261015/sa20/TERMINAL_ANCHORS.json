@@ -1,0 +1,34 @@
+{
+  "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/doctor-remedy-real-installed-sa20-v2-20261015/junit.xml": {
+    "bytes": 11640,
+    "sha256": "ca428ae5d7be464d60e668def2f75b1bbabb1a0b55fae6b0f9fef4f03e8b321c"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/doctor-remedy-real-installed-sa20-v2-20261015/progress.jsonl": {
+    "bytes": 4584,
+    "sha256": "136b1df4e7eaf059c59dc534955fda099ef610bf5f53099f4d7dc2d88b019bd8"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/doctor-remedy-real-installed-sa20-v2-20261015/runner-receipt.json": {
+    "bytes": 20285,
+    "sha256": "e9219d5b1abbddb670e9c879a92edbd65386aa4e51e6be3ea501c09c0caf4a2a"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/doctor-remedy-real-installed-sa20-v2-20261015/tests.log": {
+    "bytes": 144,
+    "sha256": "2d070ae710efb0ca3af217ce37d85eb1d3d27e42278205f2aebe29e4ead184f4"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-plan-v2-20261015/run/sa20/RESULT.json": {
+    "bytes": 2741,
+    "sha256": "9cb279c4fdaa236433978a211898d1bec9f5881b2b35dd8bed64b7ce9c0dbd74"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/doctor-remedy-real-installed-sa20-v1-root/RESULT.json": {
+    "bytes": 416,
+    "sha256": "a0230d5b9df2562d2c864da90e01543888394f047966d6a66adb821291c10cbe"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/doctor-remedy-real-installed-sa20-v1-root/corpus-after.json": {
+    "bytes": 3170,
+    "sha256": "cab736e3bce08fda1df7e1efa56dac7993ecddb10573dcc72210e4e1779685b1"
+  },
+  "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/doctor-remedy-real-installed-sa20-v1-root/guard-after.stdout": {
+    "bytes": 700326,
+    "sha256": "ec494be1e07cc2140419dbcf781d508cdcfcdc990ed54512056c39a07919da9c"
+  }
+}
