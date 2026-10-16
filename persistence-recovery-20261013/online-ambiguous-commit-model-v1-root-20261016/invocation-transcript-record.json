@@ -1,0 +1,25 @@
+{
+  "record_kind": "Post-run transcription of actual root exec_command invocation and returned tool result; not a new run or in-process receipt",
+  "tool_chunk_id": "439487",
+  "actual_execution_fragment": "(ulimit -f 128; timeout 10s env -i HOME=\"$B/runtime/home\" PATH=/usr/bin:/bin LANG=C.UTF-8 TZ=UTC \"$H\" -I -B -S -X \"pycache_prefix=$O/bytecode-absent\" \"$D/driver.py\") > \"$O/stdout.json\" 2> \"$O/stderr.txt\"",
+  "variables": {
+    "B": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+    "D": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/online-ambiguous-commit-model-v1-20261016",
+    "H": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "O": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/online-ambiguous-commit-model-v1-root-20261016"
+  },
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "environment_exact": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "PATH": "/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "TZ": "UTC"
+  },
+  "tool_returned": {
+    "exit_code": 0,
+    "wall_time_seconds": 0.099437494,
+    "output": "exit=0 stdout_bytes=7441\nstderr_bytes=0\n324ca51267c55c0224556cb334fca46854c119e2f8c2aca0df551dd3fdf1ae53  /workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/online-ambiguous-commit-model-v1-root-20261016/stdout.json\n"
+  },
+  "limit_scope": "External timeout10s and shell ulimit-f128 in actual command. No separate in-process timeout/overflow telemetry. Successful exit and finite captured output are recorded.",
+  "prepost_scope": "Exact expected.sha256 covers interpreter plus model.py,CASES.json,driver.py,MANIFEST.json. PROPOSAL.md was not in pre/post receipt; it is nonexecuted source proposal and is not retroactively claimed checked there."
+}
