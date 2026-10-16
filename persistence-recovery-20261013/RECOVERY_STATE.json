@@ -1752,5 +1752,25 @@
     "new_product_tests": 0,
     "new_database_actions": 0,
     "production_qualified": false
+  },
+  "owner_priority_20261016_0952": {
+    "message_id": "Sentinel_0dd61e9abb3081d18878e3ec4d798e11",
+    "priority": "Correctness/security/reversibility and measured optimization over deadline",
+    "frozen_preview_preserved": true,
+    "separate_engineering_resumed": true,
+    "new_action_time_permissions": false,
+    "successor_promoted": false
+  },
+  "rigor_first_checkpoint_20261016_1027": {
+    "model_commit": "0056fe224fb9f5562c4ef79bb6c3c212bf0e6a1c",
+    "model_cases": 22,
+    "model_authority_flags_false": 66,
+    "model_native_qualification": false,
+    "flush_unit_v5_baseline": "HOLD_IMPORT_ADMISSION beforetests; concurrent.futures source origin unadmitted",
+    "flush_actual_test_outcomes": null,
+    "preservation_after": 0,
+    "new_db_actions": 0,
+    "native_regression_approval_request": "Sentinel_c036892d525881d1b49d0638ba50941e",
+    "selected_preview_changed": false
   }
 }
