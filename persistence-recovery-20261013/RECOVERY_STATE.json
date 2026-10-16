@@ -1711,5 +1711,16 @@
     "doctor_installed_sa20": "Installer exit0 with clean child/preservation; independent actual payload audit ongoing; no runtime selected",
     "doctor_runtime_sa20": "ACCEPTED9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9;7PASS21phases1.59s; full scoped closure/stopped",
     "freeze": "Product source frozen: integration/validation/recovery/delivery only until12:36UTC"
+  },
+  "publication_checkpoint_20261016_0059": {
+    "root_commit": "86121fc5b8870cef455190e416cf8300488877a7",
+    "root_files_verified": 7,
+    "sa20_commit": "7ba6e99844132d1971a5c1227ce8bb655cb059a2",
+    "sa20_files_verified": 9,
+    "handoff_commit": "6709c967d368d413f2bd669feb0d0f763ffa95cf",
+    "handoff_files_verified": 6,
+    "smoke_v2": "recipe-only accepted; ACL/current-role/actual execution gates unresolved",
+    "new_tests": 0,
+    "new_db_actions": 0
   }
 }

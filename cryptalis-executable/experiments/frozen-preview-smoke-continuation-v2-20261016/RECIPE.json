@@ -1,0 +1,139 @@
+{
+  "schema": "frozen-preview-smoke-continuation-recipe-v1",
+  "status": "HELD_SOURCE_RECIPE_ONLY",
+  "scope": "One existing synchronous public-API synthetic smoke using the selected frozen doctor wheel in the already accepted fresh SA21 cell. No reinstall, full-suite repeat or additional smoke cell.",
+  "future_source_directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/frozen-preview-smoke-continuation-v2-20261016",
+  "behavioral_sources": [
+    {
+      "name": "test_public_preview_smoke.py",
+      "from": {
+        "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/test_public_preview_smoke.py",
+        "sha256": "2d52d488649c7a34332b8cf6aa363a7c6fd1802d53f2a4fd63313bd17843513b"
+      },
+      "change": "Only CANDIDATE = BASE / 'candidate-doctor-remedy-integrated221-v1-20261015'",
+      "proposed_sha256": "b29eef35ec958cf59b5382cecbbac4433f6c91fc6ce24f76b60994cd1053d362"
+    },
+    {
+      "name": "smoke_proposal.py",
+      "from": {
+        "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/smoke_proposal.py",
+        "sha256": "4943e93e4aa55beaca1f88b580f5ad4c7dc7b7eb1fede7714f9f82f07caae890"
+      },
+      "change": "BYTE_IDENTICAL"
+    },
+    {
+      "name": "target_guard.py",
+      "from": {
+        "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/target_guard.py",
+        "sha256": "6deaa0ff8b94c043ca742df0ffffe56fc5a5bc66709e2ede6ea8fcd7e4439ac4"
+      },
+      "change": "BYTE_IDENTICAL"
+    }
+  ],
+  "control_deltas": [
+    "Retain original admit_smoke.py selection/approval schema, exact support-set and all refusal checks; change only new packet member/path pins, selected source/wheel/fresh-cell bindings and exact latest terminal to9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9. Add explicit accepted current-role evidence requirement; no true value is supplied now.",
+    "Retain archive_smoke.py metadata-before-payload, checked exit, exact membership/copied-hash gate and partial-failure preservation. Bind selected source221 manifest40c9787..., new finite sealed control members and original sealed V5. Compute exact new file/directory sets; do not reuse historical251/25 totals.",
+    "Use accepted doctor SA21 root-adapter.py as the guard/host/fresh-map pattern, with new smoke capture/entry and source/authority/archive gates before expanded runtime reads or DB/status. Keep original verify_runtime_binding.py and BINDING_SA21.json unchanged, including its3025 rows and three alias checks.",
+    "Reconstruct an explicit new smoke union from original3022 ordinary targets, selected source221, accepted freshSA21 ordinary1254, host472/direct host and finite named smoke controls/reviews. Reject conflicts/missing/extra targets. Do not reuse doctor4990 count/map as acceptance of smoke controls. Keep cyclic binding/map/self identities externally anchored.",
+    "Reuse launch_cold_smoke.py byte-identically; it supplies the same three finite-operation acknowledgement strings and exact safe identity binding to the unchanged wrapper. Replace every coordinator repo/.venv invocation with pinned host -I -B -S and distinct fresh absent pycache prefixes, using accepted doctor startup admission.",
+    "Keep independent original guard, fresh namespace/hash, host/source maps, corpus26 and status-before/after checks under one root-selected owner. Avoid duplicate wrappers/status stages or a second guard framework; preserve independent finally checks even after wrapper failure."
+  ],
+  "archive_recipe": {
+    "groups": {
+      "source221": 221,
+      "original_v5_packet": 15,
+      "new_smoke_packet": "exact sealed-member count + seal + actual selection",
+      "selection_support": 2
+    },
+    "total": "Derived from actual finite member sets before selection; no output or archive exists from this preparation.",
+    "gate_order": "source/real approval admission -> complete checked archive -> live runtime/fresh-cell/host admission -> independent stopped status -> one unchanged wrapper"
+  },
+  "proposed_wrapper_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/frozen-preview-smoke-continuation-v2-20261016/run/wrapper-bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/launch_cold_smoke.py",
+    "--candidate-root",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+    "--installed-candidate",
+    "--python",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/doctor-remedy-installed-sa21-v2-20261015/sa21/bin/python",
+    "--evidence",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/frozen-preview-smoke-sa21-v2-20261016",
+    "--",
+    "-q",
+    "-c",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015/pyproject.toml",
+    "--confcutdir=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/frozen-preview-smoke-continuation-v2-20261016",
+    "-p",
+    "no:cacheprovider",
+    "-o",
+    "junit_family=xunit1",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/frozen-preview-smoke-continuation-v2-20261016/test_public_preview_smoke.py::test_public_preview_smoke",
+    "--tb=short",
+    "-x",
+    "--basetemp=/tmp/cryptalis-frozen-preview-smoke-sa21-v2-20261016"
+  ],
+  "proposed_output_paths": {
+    "packet_run": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/frozen-preview-smoke-continuation-v2-20261016/run",
+    "root_capture": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/frozen-preview-smoke-sa21-v2-root",
+    "evidence": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/frozen-preview-smoke-sa21-v2-20261016",
+    "private_basetemp": "/tmp/cryptalis-frozen-preview-smoke-sa21-v2-20261016",
+    "absence_observed": false
+  },
+  "required_future_review": [
+    "Independent minimal source/command review, complete new union and finite archive-set reconstruction; no permission derives from that review.",
+    "Root binds actual exact ACL approval, current selected role/target evidence, prior helper scope and immediate accepted DB predecessor. If an intervening task occurs, bind its actual accepted terminal instead through a fresh reviewed successor.",
+    "Only after explicit selection: unchanged dual-role preflights/lock, owner/runtime/plaintext Python and psql identities, sole expected lab_admin identity before privileged SQL, frozen/fresh cutover inventories, no old-role sessions and unchanged non-fixture security boundary."
+  ],
+  "terminal_acceptance": {
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "error": 0,
+    "skip": 0,
+    "phases": [
+      "setup:passed",
+      "call:passed",
+      "teardown:passed"
+    ],
+    "wrapper_exit": 0,
+    "independent_status_before_and_after": 3,
+    "explicit_stop": 0,
+    "closure": "Exact selected source221/43 imported modules, new fresh namespace/ordinary closure, original guard3025, admitted host/source/control hashes, checked archive sets/copied hashes, corpus26 restoration and absent prefixes; inspect safe logs/XML/maps only.",
+    "product_observations": "Preserve every original V5 independent value/native/lifecycle/restore/removal oracle, two explicit plaintext approvals and one cutover helper call.",
+    "limits": "Same-host/schema recovery and same-process custody reopen only. Two existing package-free -I -S workers retain their documented host-stdlib boundary. No fresh-host, public async, full-suite, broad provenance or production claim.",
+    "failure_policy": "Stop and retain actual failures/partial archive/private recovery artifacts; no automatic retry, cleanup, repair, grant relaxation or next stage."
+  },
+  "implementation_or_execution_selected": false,
+  "proposed_process_environments": {
+    "status": "PROPOSED_FIXED_MAPS_ONLY_EXECUTION_HELD",
+    "root_adapter": {
+      "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+      "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "TZ": "UTC"
+    },
+    "cold_smoke_wrapper": {
+      "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+      "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "TZ": "UTC",
+      "CRYPTALIS_PREVIEW_IDENTITY_FILE": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/preview-identity-capture-v3-sa21-20261015/safe-identity.json",
+      "CRYPTALIS_PREVIEW_IDENTITY_SHA256": "089bac088003d7921f755409509afed5544741ebfee8af66faea0776fbfbb92c"
+    },
+    "guard_and_status": {
+      "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+      "PATH": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/toolchain/pg16/bin:/usr/bin:/bin",
+      "LANG": "C.UTF-8",
+      "TZ": "UTC"
+    },
+    "inherit_ambient": false,
+    "passing_rule": "Construct this complete literal six-key map and pass it as subprocess env, or use env -i with exactly these six assignments. Do not merge os.environ. The two identity values must be present on the incoming cold-smoke-launcher process; it checks them before adding the same fixed values to the unchanged wrapper ENV.",
+    "identity_rule": "The fixed existing safe-identity file describes recorded owner/runtime/backend identity, not current plaintext/admin continuity. Its pinned hash must still match, and unchanged current role/target checks plus root exact-scope acceptance remain hard gates. Do not substitute another path/hash silently.",
+    "activation_rule": "No selection or subprocess environment is active until real exact fixture ACL approval, accepted current role identity evidence, reviewed command/binding and explicit root selection all exist."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema": "frozen-preview-smoke-held-inputs-v1",
+  "prepared_utc": "2026-10-16T00:50:00Z",
+  "status": "SOURCE_ONLY_RECIPE_NOT_EXECUTABLE_NOT_SELECTED",
+  "selected_source": {
+    "root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+    "files": 221,
+    "manifest": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-plan-v2-20261015/CANDIDATE_SOURCE_MANIFEST.reference.json",
+      "sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7"
+    }
+  },
+  "selected_wheel": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+    "sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+    "bytes": 140953
+  },
+  "selected_sa21": {
+    "root": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/release-lab/doctor-remedy-installed-sa21-v2-20261015/sa21",
+    "namespace": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/SA21_INSTALLED_NAMESPACE.json",
+      "sha256": "933fa3d2611b6a82d41b0fb253f0274a5cfe341727626265612a62854309ad1d"
+    },
+    "ordinary": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/SA21_INSTALLED_ORDINARY.json",
+      "sha256": "20428bf087742a34249df5cd12527fcb1b2a77b17777fbbf175af6aa1e261201"
+    },
+    "counts": {
+      "directories": 111,
+      "regular": 1255,
+      "ordinary_hashed": 1254,
+      "links": 4,
+      "opaque_metadata_only": 1
+    }
+  },
+  "latest_closed_database_boundary": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-real-installed-sa20-v2-terminal-independent-20261016/REVIEW.md",
+    "sha256": "9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9"
+  },
+  "fixture_acl": {
+    "request_message_id": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
+    "approval": null,
+    "root_scope_confirmed": false,
+    "status": "UNAPPROVED",
+    "exact_scope": "One fresh synthetic cryptalis_migration_<uuid> fixture: setup PUBLIC revocation/runtime USAGE and customer CRUD; forward journal PUBLIC revocation/runtime SELECT; new forward and two reverse SECURITY INVOKER guard PUBLIC EXECUTE revocations; two exact schema-scoped protected dump restores replaying that fixture owner/ACL state. No new role, credential, membership, default ACL, database setting, non-fixture ACL or definer grant.",
+    "last_authority_information": "Root reports latest 00:18 UTC approval check found no affirmative reaction; this preparation does not reread or infer consent."
+  },
+  "current_role_identity": {
+    "status": "UNRESOLVED_HARD_GATE",
+    "accepted_nonsecret_current_evidence": null,
+    "root_exact_target_and_helper_scope_confirmation": false,
+    "rule": "Use unchanged applicable current preflight/identity checks and exact authorized role targets. Historical successful helper use, reader identity, hashes and acknowledgement strings do not establish current identity continuity or consent."
+  },
+  "distinct_cutover_authority": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cluster-designation-correction-supplement-v2-20261015/ACTIVATION_APPROVAL.txt",
+    "sha256": "ce641ec0edb672f4350060cf75ebbd08a9ccd89cee818c107a4a02039980489d",
+    "substitutes_for_fresh_fixture_approval": false,
+    "requires_root_exact_scope_reconciliation": true
+  },
+  "uncreated": {
+    "selection": null,
+    "source_command_acceptance": null,
+    "root_runtime_inputs": null,
+    "complete_smoke_runtime_map": null,
+    "host_and_fresh_cell_current_admission": null,
+    "execution": null,
+    "terminal_result": null
+  },
+  "references": {
+    "selected": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/CURRENT_CANDIDATE.json",
+      "sha256": "96970253998d2f86b7eb58d11778093629e19994b078bb1dfd1175d98b9d16a3"
+    },
+    "freeze": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/PREVIEW_FREEZE_20261016.json",
+      "sha256": "1cacdb574fd3a44720c86a05b70a7f86e5c2d5fb92d79b8da6f5a5a5d12d4417"
+    },
+    "prior_readiness": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/preview-freeze-readiness-independent-20261015/READINESS.md",
+      "sha256": "81e57291ef46ee355a44aab753f1dfb82f5057ffab5f556ab238d04cc7f57195"
+    },
+    "v5_seal": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/SHA256SUMS.txt",
+      "sha256": "b3615d28e04bb6613807050059674eb1a3b0f8aabc51092ac643f54a49b7f79c"
+    },
+    "smoke_v2_seal": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/SHA256SUMS.txt",
+      "sha256": "9c18b202040b75219264b0e17a32d0ed09dc63a8c99b745d71291b4bdc6cdbec"
+    },
+    "smoke_v2_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/preview-smoke-installed221-binding-v2-independent-20261015/SOURCE-REVIEW.md",
+      "sha256": "a185aefc69cd3f89f52ca70c356e93067fe8abc0ab3e0995946ec1326e61fdad"
+    },
+    "role_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/preview-smoke-role-provenance-20261015/REVIEW.md",
+      "sha256": "633a801359214fb41b9393ec879ca1992c6981863e8ff99773af4ead9b64e2eb"
+    },
+    "latest_sa20": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-real-installed-sa20-v2-terminal-independent-20261016/REVIEW.md",
+      "sha256": "9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9"
+    },
+    "sa21_terminal": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-real-installed-sa21-v2-terminal-independent-20261016/REVIEW.md",
+      "sha256": "4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c"
+    },
+    "root_adapter": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-runtime-bound-sa21-v1-20261015/root-adapter.py",
+      "sha256": "312be737af79a0474cc7104a2b1c6b8cff28b2b1152f507501235e9265abea90"
+    },
+    "root_adapter_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installed-runtime-root-source-v3-independent-20261015/REVIEW.md",
+      "sha256": "2af8fdbefe66360621f84da454fa2cf080d7f1d79897b24b18b565ba249284a0"
+    },
+    "runtime_binding_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-runtime-binding-independent-20261016/REVIEW.md",
+      "sha256": "3171001d61a852742752be0494b86a532e599cb34f4c05c0d9ee6050a69d6654"
+    },
+    "old_sa21_binding": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-plan-v2-20261015/INSTALLED_SA21_BINDING.json",
+      "sha256": "a65301e5c8be0d81a873c8f588b027239e60fe2af09e50d8ae8830e4680b5ab8"
+    },
+    "fresh_namespace": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/SA21_INSTALLED_NAMESPACE.json",
+      "sha256": "933fa3d2611b6a82d41b0fb253f0274a5cfe341727626265612a62854309ad1d"
+    },
+    "fresh_ordinary": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/SA21_INSTALLED_ORDINARY.json",
+      "sha256": "20428bf087742a34249df5cd12527fcb1b2a77b17777fbbf175af6aa1e261201"
+    },
+    "fresh_payload_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/ACTUAL_SA21_V2_REVIEW.md",
+      "sha256": "a521192751544e0107dd0d8d4daa2719714ef297087d9382e3e1cf9c0f687928"
+    },
+    "source_manifest": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-installed-plan-v2-20261015/CANDIDATE_SOURCE_MANIFEST.reference.json",
+      "sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7"
+    },
+    "host_map": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/HOST_STDLIB_SHA256.txt",
+      "sha256": "a57c71aec1c9ddaeda162e088e4b18d94fa1bf978d7ae506f20906abcf6a6132"
+    },
+    "host_paths": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/HOST_STDLIB_PATHS.txt",
+      "sha256": "6553eb0e32c8cd7f5121e351ecc195a3f772d8c409736da67abe9218bb8f2945"
+    },
+    "build_artifact_review": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-build-v2-artifacts-independent-20261015/REVIEW.md",
+      "sha256": "20efb7f7e9b43ef78bd8fbb2adae668b1b7697017ecded51178942170a614404"
+    },
+    "build_actual_artifacts": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/doctor-remedy-build-v2-artifacts-independent-20261015/ACTUAL_ARTIFACTS.json",
+      "sha256": "0a8a7d1a996a9cd5f14e03a60edbc09e330bc4746648181ed511220aa9bbd089"
+    },
+    "original_guard": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/verify_runtime_binding.py",
+      "sha256": "c84e168fd2f9dc5a5e8af943ea52d868f495b542ae00c2e9da47c470d391c861"
+    },
+    "original_binding": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/integrated221-installed-full-controls-v3-20261015/BINDING_SA21.json",
+      "sha256": "669cb3c408144f597cc70de5d8c23295e26ba47f9c68888b1d986e431171cf54"
+    },
+    "wrapper": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/candidate-corpus-wrapper-v2-20261014/lab_session_corpus_v2.py",
+      "sha256": "e5201530c7816a63e606b26352417daff6ca71aedeeccb7b569cea0edb309453"
+    },
+    "v5_test": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/test_public_preview_smoke.py",
+      "sha256": "2d52d488649c7a34332b8cf6aa363a7c6fd1802d53f2a4fd63313bd17843513b"
+    },
+    "v5_behavior": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/smoke_proposal.py",
+      "sha256": "4943e93e4aa55beaca1f88b580f5ad4c7dc7b7eb1fede7714f9f82f07caae890"
+    },
+    "v5_guard": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/target_guard.py",
+      "sha256": "6deaa0ff8b94c043ca742df0ffffe56fc5a5bc66709e2ede6ea8fcd7e4439ac4"
+    },
+    "v5_authority": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-adapter-v5-installed221-20261015/AUTHORITY-AND-ACTIONS.md",
+      "sha256": "3078c90a2a7347369d7a6c094312c7f210b4354ccf0b7ec6f32796c6f753fd3a"
+    },
+    "old_smoke_entry": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/run-smoke.sh",
+      "sha256": "d2150cae4d34641f263887fb71cac4937aaba9a280103c36b9603f279237d3e8"
+    },
+    "old_smoke_launcher": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/launch_cold_smoke.py",
+      "sha256": "d8896e68795b5a50d7e49ce399adc4a5a82f71b1f6149b1d5511ef3528f7c9cc"
+    },
+    "old_smoke_admit": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/admit_smoke.py",
+      "sha256": "c135fb94da3d011a1a7fb2a97c2d6abe0f3fcde6d8909d0c7eb17dfb8c7ed8ba"
+    },
+    "old_smoke_archive": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/archive_smoke.py",
+      "sha256": "87f34db5691695b71a75c203f5ddf9f3b0ae8eff3b1a0420595ad175522a7ff0"
+    },
+    "old_authority_pending": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-smoke-installed221-binding-v2-20261015/AUTHORITY-PENDING.json",
+      "sha256": "92890ec51c7590bd947c8cf95ba3b7b103ff2a8bae4c16b3b0c87a69650d74be"
+    },
+    "safe_identity": {
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/evidence/preview-identity-capture-v3-sa21-20261015/safe-identity.json",
+      "sha256": "089bac088003d7921f755409509afed5544741ebfee8af66faea0776fbfbb92c"
+    }
+  },
+  "observation_scope": "Only finite named source, safe review/selection data, inert namespace/hash maps and hashes of those files. Map entries were not followed to live bodies. No candidate source change, DB/status, import/collect/test/build/install, grant/revoke, provider, credential/raw-phase/cache/corpus-body or Git action."
+}
