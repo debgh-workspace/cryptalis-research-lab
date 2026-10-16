@@ -1,0 +1,28 @@
+{"event": "start", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "monotonic": 251299.29468867}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "setup", "outcome": "passed", "duration": 0.0015741780225653201, "monotonic": 251299.296729295}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "call", "outcome": "passed", "duration": 0.678828500007512, "monotonic": 251299.980384593}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[malformed]", "when": "teardown", "outcome": "passed", "duration": 0.00024149601813405752, "monotonic": 251299.980874284}
+{"event": "start", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "monotonic": 251299.981342743}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "setup", "outcome": "passed", "duration": 0.0006351959891617298, "monotonic": 251299.98206698}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "call", "outcome": "passed", "duration": 0.0010991280141752213, "monotonic": 251299.983317371}
+{"event": "report", "nodeid": "::test_rejected_text_has_safe_remedy[unsupported-schema]", "when": "teardown", "outcome": "passed", "duration": 0.000115760019980371, "monotonic": 251299.983617413}
+{"event": "start", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "monotonic": 251299.983889413}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "setup", "outcome": "passed", "duration": 0.0006757750234100968, "monotonic": 251299.984649693}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "call", "outcome": "passed", "duration": 0.0010442969796713442, "monotonic": 251299.98583633}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[malformed]", "when": "teardown", "outcome": "passed", "duration": 0.00010115900659002364, "monotonic": 251299.98604717}
+{"event": "start", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "monotonic": 251299.986331399}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "setup", "outcome": "passed", "duration": 0.0003891429805662483, "monotonic": 251299.98680107}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "call", "outcome": "passed", "duration": 0.0013870619877707213, "monotonic": 251299.98831555}
+{"event": "report", "nodeid": "::test_rejected_json_is_unchanged[unsupported-schema]", "when": "teardown", "outcome": "passed", "duration": 0.00010076799662783742, "monotonic": 251299.988531648}
+{"event": "start", "nodeid": "::test_valid_text_is_unchanged", "monotonic": 251299.988841194}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "setup", "outcome": "passed", "duration": 0.0003696640196722001, "monotonic": 251299.989294692}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "call", "outcome": "passed", "duration": 0.0009185620001517236, "monotonic": 251299.990342645}
+{"event": "report", "nodeid": "::test_valid_text_is_unchanged", "when": "teardown", "outcome": "passed", "duration": 0.00024243700318038464, "monotonic": 251299.990701724}
+{"event": "start", "nodeid": "::test_valid_json_is_unchanged", "monotonic": 251299.990925443}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "setup", "outcome": "passed", "duration": 0.00039038501563481987, "monotonic": 251299.9913916}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "call", "outcome": "passed", "duration": 0.0010069120035041124, "monotonic": 251299.992586579}
+{"event": "report", "nodeid": "::test_valid_json_is_unchanged", "when": "teardown", "outcome": "passed", "duration": 9.636199683882296e-05, "monotonic": 251299.992796368}
+{"event": "start", "nodeid": "::test_installed_module_process_has_safe_remedy", "monotonic": 251299.992998976}
+{"event": "report", "nodeid": "::test_installed_module_process_has_safe_remedy", "when": "setup", "outcome": "passed", "duration": 0.0003157450119033456, "monotonic": 251299.993389802}
+{"event": "report", "nodeid": "::test_installed_module_process_has_safe_remedy", "when": "call", "outcome": "passed", "duration": 0.9070775200088974, "monotonic": 251300.900716529}
+{"event": "report", "nodeid": "::test_installed_module_process_has_safe_remedy", "when": "teardown", "outcome": "passed", "duration": 0.00015440699644386768, "monotonic": 251300.901178098}

@@ -1,0 +1,16 @@
+{
+  "absent_prefixes": true,
+  "corpus_equal": true,
+  "entry_exit": 0,
+  "errors": [],
+  "fresh_namespace_equal": true,
+  "frozen_inputs_equal": true,
+  "guard_after_exit": 0,
+  "independent_stopped": true,
+  "no_next_stage_selected": true,
+  "original_maps_equal": true,
+  "post_status": 3,
+  "source_namespace_equal": true,
+  "terminal_acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "wrapper_stop_observed": true
+}
