@@ -1,0 +1,10 @@
+{
+  "question": "Does the exact official archive route now supply original wheel bytes, after prior dated timeout evidence?",
+  "command_scope": "HTTPS GET of one fixed cffi2.1.1 official wheel;5sconnect/15stotal/2MiBcap; scrubbed environment; no installation/execution",
+  "exit_code": 6,
+  "http_code": "000",
+  "bytes_received": 0,
+  "stderr": "curl: (6) Could not resolve host: files.pythonhosted.org",
+  "source": "exact exec_command result, not live shell stdout file",
+  "pending": "one same-URL escalated request; no alternate route or approval inference"
+}

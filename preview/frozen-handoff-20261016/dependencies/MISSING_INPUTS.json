@@ -1,0 +1,382 @@
+{
+  "schema": "frozen-doctor-portability-missing-inputs-v1",
+  "as_of_utc": "2026-10-16T01:01:00Z",
+  "scope": "Existing finite safe accepted records only; no acquisition, installation, execution, new experiment, ambient environment/cache/credential read or Git action.",
+  "selected_product": {
+    "source_manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+    "wheel": {
+      "filename": "cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "bytes": 140953
+    },
+    "sdist": {
+      "filename": "cryptalis-0.1.0.tar.gz",
+      "sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+      "bytes": 150427,
+      "includes_uv_lock": true
+    },
+    "artifact_base": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/doctor-remedy-package-continuation-v2-20261015/build/run",
+    "remote_commit": "220d35ce796b913c0cced2bd19b416cf287011c9",
+    "remote_directory": "preview/artifacts/doctor-remedy-v2-20261015",
+    "source_full221_note": "Full221 source is bound by its manifest and independent layered inert restoration; the49-payload sdist is not the entire221-file research/test/docs tree."
+  },
+  "declared_lock": {
+    "sha256": "faae077d223037c4a7d9a54e1aafc4760cf217057eb18fbd93fc021908be343e",
+    "unchanged_from_prior_artifact_metadata_review": true,
+    "sa21_requirement_file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/preview-dependency-provenance-20261015/sa21-requirements-hashed.txt",
+    "sa20_requirement_file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/preview-dependency-provenance-20261015/sa20-requirements-hashed.txt",
+    "counts": {
+      "runtime_per_profile": 8,
+      "test_additions_per_profile": 5,
+      "all_per_profile": 13,
+      "dependency_wheel_union_two_profiles": 14
+    }
+  },
+  "required_original_dependency_archives": [
+    {
+      "package": "cffi",
+      "version": "2.1.1",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "c1453022f490d2459a11819d83ad1d586e9ff65a12ac3e705ffebd46d3685dcf",
+      "official_url": "https://files.pythonhosted.org/packages/b1/db/dceb9dd5b231e1da801793f8acc9f3c52a7e1afe40bb1aae37e02b0faad5/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "cryptography",
+      "version": "50.0.2",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "cryptography-50.0.2-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "630ebfea3bf689d075f82316324ff7433dc447fe6bc1bfc76524b74b4a9567d2",
+      "official_url": "https://files.pythonhosted.org/packages/21/69/64cef1f702bf6657e0cc186ed1a2891d50d29fb41586b254e1c07adea261/cryptography-50.0.2-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "greenlet",
+      "version": "3.5.6",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "975736b002ed080d124cf81a79cb7e05cb26d6b3f5c7a7b651c0fcce70353aa1",
+      "official_url": "https://files.pythonhosted.org/packages/66/6a/1594f3869c57c149abdb380492529e04d4c0229b5e4d79572c5bd0aaa673/greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.0",
+      "role": "test_only",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "iniconfig-2.3.0-py3-none-any.whl",
+      "sha256": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "official_url": "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "role": "test_only",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "official_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "role": "test_only",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "pluggy-1.6.0-py3-none-any.whl",
+      "sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "official_url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "psycopg",
+      "version": "3.3.6",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "psycopg-3.3.6-py3-none-any.whl",
+      "sha256": "a1db9f7148b06a28606767efaca51fa6f9398c5c0a3810519be69d7000bdb631",
+      "official_url": "https://files.pythonhosted.org/packages/4e/de/748bd7609c71cae5d737f0ba9192f19329f70180ecda8fff3cac02c5abe3/psycopg-3.3.6-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "psycopg-binary",
+      "version": "3.3.6",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "1679a1cb93fbe5a6d1fd58d82cbddcc6fcb8c61446ba7cae6eb2a7b19bc585de",
+      "official_url": "https://files.pythonhosted.org/packages/0a/42/948bb3d2617795093512613fd96ba380e922992c7908fbc073858147d196/psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "pycparser",
+      "version": "3.0",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "pycparser-3.0-py3-none-any.whl",
+      "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+      "official_url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "pygments",
+      "version": "2.21.0",
+      "role": "test_only",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "pygments-2.21.0-py3-none-any.whl",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "official_url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "pytest",
+      "version": "9.1.1",
+      "role": "test_only",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "pytest-9.1.1-py3-none-any.whl",
+      "sha256": "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c",
+      "official_url": "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "2.1.3",
+      "role": "runtime",
+      "profiles": [
+        "sa21"
+      ],
+      "filename": "sqlalchemy-2.1.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "f68fb01c2bea9d6e362f37f8109974d285718880ee59eefff1c9a11e5e5df6a9",
+      "official_url": "https://files.pythonhosted.org/packages/ab/1c/d306dbb3bcb7d529099fbcc7e4a4bdf99059622ca53311831ac6349b5b31/sqlalchemy-2.1.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.16.0",
+      "role": "runtime",
+      "profiles": [
+        "sa21",
+        "sa20"
+      ],
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "official_url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "2.0.51",
+      "role": "runtime",
+      "profiles": [
+        "sa20"
+      ],
+      "filename": "sqlalchemy-2.0.51-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "1d21ce524ab86c23046e992a5b81cb54c21079c6df6e78b8fc77d77cac70a6b9",
+      "official_url": "https://files.pythonhosted.org/packages/2b/7c/7ab9f9aadc5944fdd06612484ed7918fe376ad871a5f50404dc1536e0194/sqlalchemy-2.0.51-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "status": "ORIGINAL_ARCHIVE_BYTES_NOT_AUTHENTICATED_IN_ACCEPTED_RECORDS",
+      "basis": "Official metadata comparison dated2026-10-15; not a fresh fetch or current filesystem search."
+    }
+  ],
+  "installer_builder": {
+    "version": "uv0.12.23",
+    "archive_filename": "uv-0.12.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "archive_sha256": "565c6e2874dbeae86c02f3dea97255e878fec672659a73d4930c6b93fcab2fff",
+    "url": "https://files.pythonhosted.org/packages/e5/83/85a6c63c24905af4924fddb11a499b934913f59a134248367a1ef1a4716f/uv-0.12.23-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "accepted_local_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+    "accepted_executable_sha256": "abdc39eab8b4ad341dca91f3823a23a343fae94bdb22ebdd9e91694415206f2f",
+    "archive_available_or_verified": false,
+    "archive_to_executable_equivalence": "UNKNOWN",
+    "route": "Accepted installer uses offline/no-index/no-deps/no-cache/copy-link one-product replacement in a separately copied admitted cell; accepted builder uses bundled uv build-backend with SOURCE_DATE_EPOCH=0 and isolated host controls.",
+    "source_requirement": "uv_build>=0.12.12,<0.13 remains a range; uv.lock does not lock build backend.",
+    "uv_build_shim": "Informational0.12.23 wheel4e620fd0cc2c43dac47e5292dfcde8d7e7acd05fc19f40156cfeed2a9030f5ff is not the accepted bundled route and is not an extra requirement for it."
+  },
+  "interpreter_platform": {
+    "accepted_version": "Python3.12.14",
+    "accepted_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "accepted_executable_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+    "missing": "Approved reproducible interpreter distribution/image digest, OS/base-image identity, glibc identity and native/system linkage closure.",
+    "wheel_target": "CPython3.12/Linux x86_64; aggregate declared wheel tag floor glibc>=2.24. These are tags, not observed new-platform compatibility.",
+    "python_source_xz_sha256": "5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a",
+    "python_source_limit": "Recorded official source hash cannot authenticate hosted executable; source compilation would add unqualified build inputs.",
+    "other_platforms": "No portable Windows/macOS closure established. Windows-conditional tzdata2026.5 and colorama are outside this Linux request."
+  },
+  "current_dependency_evidence": {
+    "source": "Accepted fresh namespace names plus payload audits preserving all donor nonproduct hashes; no live metadata or code reread.",
+    "dist_info_names": {
+      "SA21": [
+        "cffi-2.1.1.dist-info",
+        "cryptography-50.0.2.dist-info",
+        "greenlet-3.5.6.dist-info",
+        "iniconfig-2.3.1.dist-info",
+        "packaging-26.3.dist-info",
+        "pluggy-1.6.0.dist-info",
+        "psycopg-3.3.6.dist-info",
+        "psycopg_binary-3.3.6.dist-info",
+        "pycparser-3.11.dist-info",
+        "pygments-2.21.0.dist-info",
+        "pytest-9.1.1.dist-info",
+        "sqlalchemy-2.1.3.dist-info",
+        "typing_extensions-4.16.0.dist-info"
+      ],
+      "SA20": [
+        "cffi-2.1.1.dist-info",
+        "cryptography-50.0.2.dist-info",
+        "greenlet-3.5.6.dist-info",
+        "iniconfig-2.3.1.dist-info",
+        "packaging-26.3.dist-info",
+        "pluggy-1.6.0.dist-info",
+        "psycopg-3.3.6.dist-info",
+        "psycopg_binary-3.3.6.dist-info",
+        "pycparser-3.11.dist-info",
+        "pygments-2.21.0.dist-info",
+        "pytest-9.1.1.dist-info",
+        "sqlalchemy-2.0.51.dist-info",
+        "typing_extensions-4.16.0.dist-info"
+      ]
+    },
+    "sa21": {
+      "dependency_records": 13,
+      "record_rows": 1186,
+      "absent_dependency_rows": 0,
+      "nonproduct_ordinary": 1202,
+      "ordinary_total": 1254
+    },
+    "sa20": {
+      "dependency_records": 13,
+      "record_rows": 1184,
+      "absent_dependency_rows": 0,
+      "nonproduct_ordinary": 1200,
+      "ordinary_total": 1252
+    },
+    "both": {
+      "opaque_product_marker": "Exactly one uv_cache.json body excluded per main cell; metadata/RECORD presence checked."
+    },
+    "drift": [
+      {
+        "package": "pycparser",
+        "lock": "3.0",
+        "current_admitted_namespace": "3.11",
+        "affects": "runtime",
+        "original_current_version_wheel_filename": null,
+        "original_current_version_wheel_sha256": null
+      },
+      {
+        "package": "iniconfig",
+        "lock": "2.3.0",
+        "current_admitted_namespace": "2.3.1",
+        "affects": "test_only",
+        "original_current_version_wheel_filename": null,
+        "original_current_version_wheel_sha256": null
+      }
+    ],
+    "sa20_override": "SQLAlchemy2.0.51 instead of locked2.1.3 is intentional supported-cell override, not unexplained drift.",
+    "exact_reproduction_gap": "The declared-lock wheel list does not reproduce the current two differing versions. Exact observed-cell archive reproduction needs authenticated originals/digests for those versions and archive-to-installed-payload comparison for all dependencies; ordinary file pins are not ZIP hashes.",
+    "results": "Seven doctor cases passed in each actual copied-dependency cell. Broader2684/2638/optional38 counts belong to original Integrated221 artifact, not fresh doctor full suites."
+  },
+  "optional_boundary": {
+    "scope": "Historical separately installed laboratory-enabled SQLModel38 cell only; no current doctor optional installation or portable optional dependency set.",
+    "inherited_missing_noncache_record_rows": 41,
+    "main_cell_applicability": false,
+    "missing_resource": "Separate exact optional dependency/version/archive closure and its existing inherited omissions must be reconciled before proposing optional portable installation.",
+    "default_async_refusal_preserved": true
+  },
+  "sbom_license": {
+    "project_license": "MIT, LICENSE SHA7f5a6a6ca9e6e2d6e75ec8530612396f3eebd2659c79a6ca123bf30a933f23df; selected archive payload unchanged and accepted.",
+    "historical_static_sbom": "Nine runtime-union components and six test-only including platform conditionals; no complete new selected-artifact/current-cell SBOM is established by those old checks.",
+    "accepted_declared_license_inventory": {
+      "exact_lock_components": 8,
+      "notices": 12,
+      "vendor_sboms": 3,
+      "bundled_libraries": 15
+    },
+    "native_components": {
+      "rust": {
+        "components": 39,
+        "declared_license_fields": 39
+      },
+      "openssl": {
+        "components": 1,
+        "declared_license_fields": 0
+      },
+      "auditwheel": {
+        "components": 10,
+        "declared_license_fields": 0
+      }
+    },
+    "gaps": [
+      "Original wheel authentication",
+      "Mapping all bundled native libraries to exact component provenance and notices",
+      "Missing OpenSSL/auditwheel component license fields",
+      "Platform-variant coverage",
+      "Current observed dependency deviations in a selected-artifact-bound SBOM",
+      "Legal compatibility/compliance independently unestablished"
+    ],
+    "not_reopened": "No installed notice, cache, native-library or vendor-SBOM body was reread."
+  },
+  "minimum_resource_request": {
+    "first_choice": "One approved digest-pinned CPython3.12/Linux x86_64 runtime/base image with explicit OS/glibc>=2.24, the eight declared-lock SA21 runtime wheel originals, and the pinned uv archive or independently admitted equivalent installer. Product wheel already exists.",
+    "qualification_additions": "Five test wheels; add the single SQLAlchemy2.0.51 original for SA20. Existing bounded list totals14 dependency archives +uv =15. Do not request optional frameworks or database credentials for this artifact admission step.",
+    "alternative_exact_observed_cells": "If reproducing the tested dependency versions is the goal, replace the two lock-version requests with authenticated pycparser3.11/iniconfig2.3.1 originals and their verified filenames/hashes; they are absent from existing exact-target evidence.",
+    "delivery_method": "Provide the hash-matching originals through an already authorized artifact route, or an authorized working HTTPS route to the exact recorded files.pythonhosted.org URLs. Prior bounded direct and escalated attempts timed out with zero bytes; no retry was performed.",
+    "claim_boundary": "A new lock-faithful environment changes two tested dependency versions and needs separately selected qualification. Do not claim prior tested-cell byte equivalence."
+  },
+  "supported_install_path": [
+    "Currently evidenced: leave accepted fresh SA21/SA20 cells intact and use their admitted selected wheel/payload binding; these are same-host copied-donor installations.",
+    "Portable path, pending resources and separate execution approval: verify exact original archive digests and interpreter/platform/installer identities; use a new isolated environment with local-only, hash-required, no-index/no-build dependency installation and the already accepted product wheel.",
+    "Install dependencies from the exact profile requirements; then selected product wheel with no dependency resolution and no cache sharing. Preserve originals; independently inspect complete namespace/RECORD/payload and origins before runtime.",
+    "Only run the separately reviewed changed-boundary/application qualification needed for the chosen dependency profile; no automatic full-suite or DB stage.",
+    "Rebuilding the source is optional for installation. If separately selected, reuse exact admitted bundled-uv backend and controlled environment. Generic pip install dot/uv sync/unconstrained build is not an equivalent reproduction claim."
+  ],
+  "all_seven_qualification_gates": "UNKNOWN"
+}

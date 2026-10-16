@@ -1,0 +1,21 @@
+{
+  "scope": "Same exact official cffi wheel URL, bounded5sconnect/15stotal/2MiBcap; no installation/execution",
+  "exit_code": 6,
+  "http_code": "000",
+  "bytes_received": 0,
+  "stderr": "curl: (6) Could not resolve host: files.pythonhosted.org",
+  "source": "exact escalated exec_command result",
+  "status": "RESOURCE_ROUTE_UNAVAILABLE_DNS",
+  "permission_denial": false,
+  "archive_outputs_exist": [
+    [
+      "cffi.whl",
+      false
+    ],
+    [
+      "cffi-escalated.whl",
+      false
+    ]
+  ],
+  "next_step": "Supply exact original hash-matching archives through an authorized file route or restore permitted official package-host DNS/network access; do not alter network security or substitute repacked cache."
+}

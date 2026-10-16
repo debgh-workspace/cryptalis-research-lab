@@ -1,0 +1,24 @@
+{
+  "branch": "accel/integration-s20-20261014",
+  "head": "7a713efae28a3f200a57b52f6a9320c7adfe2751",
+  "tree": "06c99433b04b9aaf7013860dbca397d582bdac00",
+  "batches": [
+    {
+      "commit": "7ba6e99844132d1971a5c1227ce8bb655cb059a2",
+      "exact_remote_files": 9
+    },
+    {
+      "commit": "86121fc5b8870cef455190e416cf8300488877a7",
+      "exact_remote_files": 7
+    },
+    {
+      "commit": "6709c967d368d413f2bd669feb0d0f763ffa95cf",
+      "exact_remote_files": 6
+    },
+    {
+      "commit": "7a713efae28a3f200a57b52f6a9320c7adfe2751",
+      "exact_remote_files": 10
+    }
+  ],
+  "scope": "Every complete UTF-8 content matched its staged string; verification through connector. No new database stage or product test. Pending approvals not inferred."
+}
