@@ -28,3 +28,7 @@ The [capability/refusal matrix](https://github.com/debgh-workspace/cryptalis-res
 [Recovery/removal](https://github.com/debgh-workspace/cryptalis-research-lab/blob/d952c505a4666266019e32f27c77f93edd5151ca/preview/docs/source221-v4/RECOVERY.md) remains a source-aligned procedure template. Before any approved use, preserve exact artifacts/pins, key policy/custody and retained encrypted-backup readers. Old snapshots are not lossless rollback of current edited data. No clean-host disaster drill, secure erasure or general post-loss metadata repair is established.
 
 All external links are in the private project repository and require authorized access. No PyPI publication, production deployment or security-qualified distribution is authorized.
+
+## 16 October operator corrections
+
+Read [current operator clarifications](OPERATOR-CLARIFICATIONS.md) before following the older examples. They add the database-wide snapshot-holder drain prerequisite, correct an alternate packaged attach walkthrough, and explain the static doctor command and its intentional exit 3. These are independently source-reviewed documentation corrections; the public workflow remains unexecuted. Product artifacts and qualification gates are unchanged.
