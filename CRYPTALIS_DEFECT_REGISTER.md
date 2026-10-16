@@ -68,3 +68,6 @@ The original15-commit mailbox remains9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe
 
 ### 2026-10-15 22:41 UTC update: doctor remedy text
 The one-line fix is independently verified at source level through real dependencies: accepted RED2FAIL4PASS and GREEN6PASS, with only two intended remedy-line changes and all other outputs unchanged. Packaging and new installed-artifact tests remain pending. The failed stubbed routes are retained and are not counted as successful regression evidence.
+
+### 2026-10-16 00:40 UTC — bounded doctor remedy defect resolved in selected preview
+The frozen successor includes the exact one-line safe remedy rendering correction. Source RED/GREEN, reproducible package payloads, fresh installed payload audits and seven-case runtime checks on both existing SQLAlchemy profiles are independently accepted. SA21:7PASS1.62s; SA20:7PASS1.59s;21 phases each; unchanged JSON/exits/other outputs, input preservation and clean stopped/corpus closure. Selection does not complete the broader doctor objective or transfer old full-suite executions to a new artifact. All unrelated defects and external qualification blockers remain active.

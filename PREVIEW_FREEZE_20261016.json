@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-10-16T00:36:11Z",
+  "deadline_utc": "2026-10-16T12:36:00Z",
+  "mode": "INTEGRATION_AND_VALIDATION_ONLY_NO_SPECULATIVE_PRODUCT_CHANGES",
+  "integration_candidate": {
+    "source": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+    "manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+    "wheel_sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+    "sdist_sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+    "source_files": 221,
+    "runtime_modules": 43,
+    "sa21_terminal_review": "4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c",
+    "sa20_observed": {
+      "passed": 7,
+      "failed": 0,
+      "seconds": 1.59,
+      "root_exit": 0,
+      "independent_terminal_review": "PENDING"
+    }
+  },
+  "current_selected_fallback": {
+    "source": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "selection_unchanged_pending_successor_acceptance": true
+  },
+  "allowed_remaining_work": [
+    "Independent terminal acceptance and integration decision for already built successor",
+    "Evidence, restore verification, checklist and reproducible preview delivery",
+    "Existing authorized validation only; dependent smoke and held uploads still require their specific approvals"
+  ],
+  "objectives": "All 34 remain active; preview is first delivery milestone",
+  "qualification_gates": "all seven UNKNOWN",
+  "pending_owner_decisions": [
+    "Synthetic smoke fixture ACL permission",
+    "Exact original source/package compressed archive upload",
+    "Exact original installed-evidence compressed archive upload",
+    "Native benchmark error-policy decision"
+  ],
+  "no_production_qualification": true
+}

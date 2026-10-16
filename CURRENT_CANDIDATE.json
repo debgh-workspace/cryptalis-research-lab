@@ -1,118 +1,142 @@
 {
-  "selected_at": "2026-10-15T15:49:00Z",
-  "candidate": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+  "selected_at": "2026-10-16T00:39Z",
+  "candidate": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
   "files": 221,
-  "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
-  "status": "highest verified bounded installed candidate; zero failures in both admitted main suites and optional38; preview delivery still pending",
+  "manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+  "status": "Selected bounded installable preview successor after source, packaging, both installed CLI regression and inert full-source recovery acceptance; public smoke and production qualification remain incomplete",
   "terminal_reviews": {
-    "integrated221-installed-full-sa21-v3-independent-20261015/REVIEW.md": "9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223",
-    "integrated221-installed-full-sa20-v3-independent-20261015/REVIEW.md": "d685131a3818ed9cafb74810505af53fe723d47f12ce296b6c126e14f5021ee0",
-    "integrated221-installed-optional38-v2-independent-20261015/REVIEW.md": "b035f5acb36931515a11adfaa25dc5aa69c3634c85f08eaa683edf0b813f3c1d"
+    "doctor-remedy-real-installed-sa21-v2-terminal-independent-20261016/REVIEW.md": "4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c",
+    "doctor-remedy-real-installed-sa20-v2-terminal-independent-20261016/REVIEW.md": "9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9",
+    "doctor-remedy-build-v2-artifacts-independent-20261015/REVIEW.md": "20efb7f7e9b43ef78bd8fbb2adae668b1b7697017ecded51178942170a614404",
+    "doctor-full-source-restore-independent-20261016/REVIEW.md": "fea27c96519f3f9c52b6e6722f4e5f052df858b294a94cdbd9d1fca0df35fc38"
   },
   "installed_results": {
     "sa21": {
-      "pass": 2684,
+      "pass": 7,
       "fail": 0,
+      "error": 0,
       "skip": 0,
-      "subtests_pass": 56,
-      "seconds": 500.87
+      "phases_pass": 21,
+      "seconds": 1.62,
+      "scope": "Exactly the seven doctor CLI regression cases, including real installed module process; not a new full suite."
     },
     "sa20": {
-      "pass": 2638,
+      "pass": 7,
       "fail": 0,
-      "skip": 46,
-      "subtests_pass": 56,
-      "seconds": 499.47,
-      "skip_scope": "exact native-version allowlist"
-    },
-    "sqlmodel": {
-      "pass": 38,
-      "fail": 0,
+      "error": 0,
       "skip": 0,
-      "phases_pass": 114,
-      "seconds": 7.32,
-      "scope": "bounded internal laboratory-enabled async SQLModel profile; default async refusal remains; not public opt-in API availability"
+      "phases_pass": 21,
+      "seconds": 1.59,
+      "scope": "Exactly the seven doctor CLI regression cases, including real installed module process; not a new full suite."
     }
   },
   "artifacts": {
-    "wheel_sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
-    "wheel_bytes": 144298,
-    "sdist_sha256": "1f447ac32bac75803826df6e2e66a1df5a8dd515448484c271175c279ef98b6c",
-    "sdist_bytes": 154158
+    "wheel_sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+    "wheel_bytes": 140953,
+    "sdist_sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+    "sdist_bytes": 150427,
+    "remote_commit": "220d35ce796b913c0cced2bd19b416cf287011c9",
+    "remote_directory": "preview/artifacts/doctor-remedy-v2-20261015"
   },
   "integrated_bounded_corrections": [
     "CLUSTER designation preservation",
     "safe-default and conditional legacy handling",
-    "historical retained-native contract correction with independent native/mutation evidence"
+    "historical retained-native contract correction with independent native/mutation evidence",
+    "Plain-text doctor retains its constant actionable remedy on rejected declarations; JSON/exits/other outputs unchanged"
   ],
+  "historical_full_suite_evidence": {
+    "candidate": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "source_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "wheel_sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
+    "results": {
+      "sa21": {
+        "pass": 2684,
+        "fail": 0,
+        "skip": 0,
+        "subtests_pass": 56,
+        "seconds": 500.87
+      },
+      "sa20": {
+        "pass": 2638,
+        "fail": 0,
+        "skip": 46,
+        "subtests_pass": 56,
+        "seconds": 499.47,
+        "skip_scope": "exact native-version allowlist"
+      },
+      "sqlmodel": {
+        "pass": 38,
+        "fail": 0,
+        "skip": 0,
+        "phases_pass": 114,
+        "seconds": 7.32,
+        "scope": "bounded internal laboratory-enabled async SQLModel profile; default async refusal remains; not public opt-in API availability"
+      }
+    },
+    "focused111": {
+      "sa21": {
+        "passed": 111,
+        "failed": 0,
+        "skipped": 0,
+        "phases": 333,
+        "seconds": 101.49,
+        "subordinate_producers": 28,
+        "native_checks": 508,
+        "review_sha256": "f8d89657d61ce621515351dc818ef5872c11f0d1161472cd642f4bc54b30fba6"
+      },
+      "sa20": {
+        "passed": 111,
+        "failed": 0,
+        "skipped": 0,
+        "phases": 333,
+        "seconds": 104.34,
+        "subordinate_producers": 28,
+        "native_checks": 508,
+        "review_sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678"
+      },
+      "scope": "Bounded installed consumer against genuine historical source producers; no all-version, lost-metadata importer or durable ABORTED replan qualification"
+    },
+    "terminal_reviews": {
+      "integrated221-installed-full-sa21-v3-independent-20261015/REVIEW.md": "9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223",
+      "integrated221-installed-full-sa20-v3-independent-20261015/REVIEW.md": "d685131a3818ed9cafb74810505af53fe723d47f12ce296b6c126e14f5021ee0",
+      "integrated221-installed-optional38-v2-independent-20261015/REVIEW.md": "b035f5acb36931515a11adfaa25dc5aa69c3634c85f08eaa683edf0b813f3c1d"
+    },
+    "scope": "These broader suites actually ran on original Integrated221. They were not rerun on this doctor successor. Other42 runtime modules are byte-identical; changed doctor branch has separate source RED/GREEN and installed seven-case evidence."
+  },
+  "retained_predecessor": {
+    "candidate": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+    "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+    "snapshot": "persistence-recovery-20261013/candidate-before-doctor-selection-20261016-0039.json",
+    "snapshot_sha256": "5d66b221d0f6bb00064d93b79410f92d8cc53a9a416b43e45b90e3e56ee23310",
+    "artifacts": {
+      "wheel_sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
+      "wheel_bytes": 144298,
+      "sdist_sha256": "1f447ac32bac75803826df6e2e66a1df5a8dd515448484c271175c279ef98b6c",
+      "sdist_bytes": 154158
+    },
+    "preserved": true
+  },
   "pending_preview_work": [
-    "public quickstart smoke including backup/restore/removal; fixture ACL approval pending",
-    "source/package supplement remote publication approval; complete final recovery delivery"
+    "Public manifest-first quickstart/backup/restore/removal smoke remains unexecuted; exact fixture ACL permission pending",
+    "Two exact original compressed recovery uploads remain held for owner approval",
+    "Clean-host dependency reproduction/provenance remains unestablished"
   ],
   "remaining_product_scope": "all34 objectives remain active; generic legacy repair, rotations, online migration, stronger search privacy, production KMS, broader SQL/frameworks, performance and external qualification remain incomplete",
-  "limits": [
-    "same-host copied dependency cells only",
-    "41 inherited noncache optional dependency RECORD omissions explicitly preserved",
-    "no clean-host provenance or production qualification",
-    "bounded origin/file identity is not continuous code attestation"
-  ],
   "qualification_gates": "all seven UNKNOWN",
-  "retained_predecessor": {
-    "candidate": "cryptalis-executable/candidate-cleanup-transport-metadata-20261014",
-    "manifest_sha256": "b8a8a6b00c597b63f4851defb74a2baa3dde8f3ff4c2e46d789699792600a204",
-    "files": 218,
-    "terminal_reviews": {
-      "cleanup-transport-installed-full-sa21-independent-20261015/review.md": "7bc674754843fdc7669d7811df29e26e1ddf575fd67a82a493372c4a7164b3be",
-      "cleanup-transport-installed-full-sa20-independent-20261015/review.md": "df54aaa456cc085a8d7d6f7d510aa881d42c0d2cc207ccfe8faa67240fe3190f",
-      "cleanup-transport-installed-optional38-clean-independent-20261015/review.md": "d5c4b4c55303a1a4ee2acf8db171c57b575888b13c44769f478ef067c5b972f9"
-    },
-    "known_historical_failures_per_main_cell": 7,
-    "prior_pointer_snapshot": "persistence-recovery-20261013/candidate-before-integrated221-selection-1549.json"
-  },
   "source_preserved": true,
   "original_mailbox_preserved": true,
   "git_main_promoted": false,
-  "documentation_successor": {
-    "source_manifest_sha256": "152ed80306b1cf9f5893242b499d54b7155efde33ef9ac43fc4edf8516cd53cc",
-    "wheel_sha256": "ce4817376f25411c8685c676802cce25c1799c85a87277b1dcc099556a40229c",
-    "sdist_sha256": "7988fb28baa4dec5804d4779b8a1d626c7dae5e3d7d5e597a7a12a69e0d9a036",
-    "artifact_review_sha256": "e143bec9997d3b81177e37e4ffc811d759addcc147ca96b9a0a66230f5b4d4ab",
-    "remote_commit": "83bea5c2962a725ccd0c6f377728180d507d711d",
-    "remote_directory": "preview/artifacts/readme-v2-20261015",
-    "all6_files_remote_byte_verified": true,
-    "scope": "README-only packaging/source evidence transfer accepted; original runtime artifact retains actual installed results; no successor installed/public smoke execution claimed.",
-    "remote_inert_restore": {
-      "commit": "b64ff0d76281678a168ae5ce67135abf4e96e079",
-      "exact_remote_files": 10,
-      "restored_files": 318,
-      "source_files": 221,
-      "sdist_payload_files": 49,
-      "wheel_payload_files": 48,
-      "independent_review_sha256": "be4e370fd0dd8e325ba0666667cd0018754fb5443faca46eb4b8dc1a2f28e43f",
-      "scope": "Inert delivery/source/package restoration only, no installed execution or clean-host qualification"
-    }
+  "freeze": {
+    "record": "PREVIEW_FREEZE_20261016.json",
+    "record_sha256": "1cacdb574fd3a44720c86a05b70a7f86e5c2d5fb92d79b8da6f5a5a5d12d4417",
+    "scope": "Selection integrates the exact source frozen at60hours; no speculative product change after freeze."
   },
-  "installed_focused111": {
-    "sa21": {
-      "passed": 111,
-      "failed": 0,
-      "skipped": 0,
-      "phases": 333,
-      "seconds": 101.49,
-      "subordinate_producers": 28,
-      "native_checks": 508,
-      "review_sha256": "f8d89657d61ce621515351dc818ef5872c11f0d1161472cd642f4bc54b30fba6"
-    },
-    "sa20": {
-      "passed": 111,
-      "failed": 0,
-      "skipped": 0,
-      "phases": 333,
-      "seconds": 104.34,
-      "subordinate_producers": 28,
-      "native_checks": 508,
-      "review_sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678"
-    },
-    "scope": "Bounded installed consumer against genuine historical source producers; no all-version, lost-metadata importer or durable ABORTED replan qualification"
-  }
+  "full_source_restore": {
+    "review_sha256": "fea27c96519f3f9c52b6e6722f4e5f052df858b294a94cdbd9d1fca0df35fc38",
+    "files": 221,
+    "bytes": 4451072,
+    "scope": "Reverified independently restored baseline plus newly fetched immutable remote CLI overlay; inert recovery, not clean-host/environment qualification."
+  },
+  "production_qualified": false,
+  "selection_time_precision": "minute"
 }

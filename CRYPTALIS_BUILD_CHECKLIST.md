@@ -1690,3 +1690,77 @@ Combined materializer/bootstrap source review 1563d454875315f479ec6d92686d615f6a
 Review 7ce9bf7d67a55e1aa9b34462fd335abc97b6cd4fe5f9876d6d812204f9f5cc5a accepts six-file delivery at exact commit 220d35ce796b913c0cced2bd19b416cf287011c9: remote/local bytes, four trees/six blob identities, safe inert 49/48-member archive restoration, source43 and RECORD checks. Raw commit-object reconstruction was not established; optional failed reconstruction and connector 422 remain preserved. No installed/environment/clean-host claim.
 
 Root receipt-only admission exited 0 with safe host receipt d1da39e2737abf6376ae16d4c8bcf2a29411ceac5772d287b8efad9960b6d47e. Actual materialization binding 684f22dab8f2e3846b7d9d9e3531b1ca4c67a647aed1ea604bc98c64b1c1713d then selected only source rendering. Root shell/materializer/after-admission exits all 0; stderr empty; full current donor/source preservation reports no error. Exactly 17 bound controls and 2007 frozen targets prepared; source-only status pending independent concrete review. No install or DB stage selected.
+
+## 2026-10-15 23:28 UTC — fresh SA21 installer completed, independent payload audit pending
+
+Concrete source-command review aaf2e08811a09745780823ee7c472f6bc59b43287e47c6913fbc759cdceb1811 accepted actual controls and separately pinned entry. Root selected one exact installer. Entry preflight, repeated admission, bounded outer and after-admission exited 0. Parent PASS_BOUNDED_INSTALLATION; child exit 0, null reason, no cleanup errors, reaped leader, restored limits and absent host bytecode prefixes. Before/after groups 3 outer, 2007 frozen, 1259 donor snapshot and 221 source all passed.
+
+Fresh SA21 output exists separately from original installed221. Independent actual namespace/payload/RECORD/inode audit remains pending; no installed runtime or database test has run for the doctor successor. Current selected preview remains unchanged. Runtime root adapter is being prepared/reviewed in parallel around the unchanged seven-case entry and existing root/role/corpus protections.
+
+Authoritative root checklist/defect/state snapshot is remote-byte verified at633bccf16fb3bb268867dbbf7f88db7af64fbed3 (snapshot precedes this installer terminal).
+
+## 2026-10-15 23:32 UTC — installed runtime adapter V1 held before execution
+
+Independent source review d304ad0c1bade0142b5b1f95708536e9b94f2340500749bc74db0dfce0fecf7d found five concrete control defects in proposed runtime adapter V1: ordinary reader conflicted with three original interpreter aliases; map coverage was subset rather than exact; metadata/read admission was too broad; host/status executable closure was incomplete; fresh namespace schema needed stricter validation. V1 is sealed and unexecuted. V2 must preserve full original3025 guard and exact aliases while hashing only its3022 ordinary projection plus direct pinned tools, with exact finite closure and whole-set metadata admission. No product failure or runtime result is attributed to this held adapter.
+
+Root independently observed the existing pg_ctl regular file (84832 bytes, one link, mode755, SHA256739c4dea1430f6e3d1fa3f79670c2a219c848245c9ea509258d47f6b52e053ec) without executing it, supplying a separate status-tool identity rather than incorrectly treating it as an original3025 row. Actual installed payload audit and corrected runtime preparation continue independently.
+
+## 2026-10-15 23:40 UTC — actual SA21 installed payload independently accepted
+
+Review a521192751544e0107dd0d8d4daa2719714ef297087d9382e3e1cf9c0f687928 accepts completed installer and payload: exact111 directories/1255 single-link regular files/four aliases; source43/wheel47 identity;53 product RECORD rows with explicit one-marker body exclusion;13 dependency RECORDs/1186 rows;1202 nonproduct ordinary files preserved; complete inode separation and end checks. Accepted fresh namespace map933fa3d2611b6a82d41b0fb253f0274a5cfe341727626265612a62854309ad1d and ordinary map20428bf087742a34249df5cd12527fcb1b2a77b17777fbbf175af6aa1e261201 supplied.
+
+Runtime remains unselected. New8MiB admission policy needs only exact cryptography _rust.abi3.so exceptions at14434376 bytes and pinned digest1e5d23fa66915204b9b67202a46993844d81cda56f6ad52cead2def37617ee29 for fresh/original SA21 and original SA20. Root metadata-only SA20 scan of1252 declared paths confirmed it is the sole >8MiB ordinary target; no body read or namespace-completeness claim. V2 source correction/review includes those narrow exceptions. Current candidate pointer records the unselected successor separately; original installed preview remains selected.
+
+## 2026-10-15 23:48 UTC — runtime controls corrected before selection
+
+Runtime source V3 review2af8fdbefe66360621f84da454fa2cf080d7f1d79897b24b18b565ba249284a0 accepts corrected exact ordinary projection/finite union, whole-set metadata admission, explicit host/status-tool closure, strict namespace and private-path rules, and exact three crypto size/digest exceptions. V1 and V2 holds remain preserved. Root has made only byte-identical concrete source copies; actual first-host/prebinding input and later runtime binding gates remain. No new DB or seven-case runtime result exists yet.
+
+Actual installed SA21 audit and both exact runtime maps are published and remote-byte verified at65e1308a6b7bf4cbfeb28bb0ebc109b0fbfe79ad. This is evidence/map recovery, not a complete dependency environment restore. Original15-commit mailbox rechecked at23:29 remained219914 bytes with SHA2569b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd.
+
+## 2026-10-15 23:59 UTC — current admission accepted; final runtime binding under review
+
+Host-only admission exited0 and generated exact safe receipt5fa9ab72cb93ae90e02250e029e48ce790f2217213f1c80ea45e9f242cfa9e4f. Actual prebinding input/command review ab4452ea4599f1b3f2aa968420c478c3745a1a40976aeff625bb19398a91d17a preceded the current-admission stage. Root prebinding exit0; exact argv/cwd/selection retained, streams empty. Independent terminal review3fb31f2fde8d7b2d426e74ae05e8cca84042df85fe443b324732e328e9b7dded accepts original3025, stopped status3, corpus26 and source221/fresh1254/host472 observations. No database start or test occurred.
+
+Root semantically accepted those real receipts and constructed an exact4990-row ordinary runtime union, hashfb81a79b3ad5f0b46596ca6d2d8e40bf6bdff8256a9929981c1ab1906b9d5dc8; actual bindinga65301e5c8be0d81a873c8f588b027239e60fe2af09e50d8ae8830e4680b5ab8; INPUTS23b30b156351396c02e8cba42c7e82e836a73442f97004b7c77e16981db3b932. These are under independent actual binding/argv review. No runtime selected yet. Conditional SA20 source preparation may proceed, but no materialization/install/runtime selection until independently accepted actual SA21 terminal.
+
+## 2026-10-16 00:06 UTC — installed SA21 seven-case run observed successful
+
+Actual runtime binding/argv review3171001d61a852742752be0494b86a532e599cb34f4c05c0d9ee6050a69d6654 accepted exact4990-row union and selected seven nodes. Root explicitly selected one unchanged-wrapper installed SA21 stage. Coordinator and entry exited0; tests.log reports7 passed in1.62s. Root postchecks record guard-after0, independent stopped status3, full original/frozen/source/fresh/corpus equality, absent prefixes and observed wrapper stop, with no errors. Independent exact-case/output/origin/closure terminal audit remains pending; no SA20 execution or product promotion yet.
+
+Conditional SA20 source-only minimal successors are prepared and under review; they hard-gate on the reserved actual SA21 terminal review with unresolved hash. No SA20 binding, bound control directory, installed copy or runtime exists. All original contracts and seven UNKNOWN qualification gates remain unchanged.
+
+## 2026-10-16 00:19 UTC — SA21 accepted and preserved; SA20 installer completed
+
+SA21 terminal review4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c independently accepts7PASS/21phases1.62s, exact first-six property equality to source GREEN and exact installed-process output, origin43, original3025/packet27/frozen4990 closure, all26 corpus restoration and explicit plus independent stop. Actual results and four acceptance artifacts are remote-byte verified throughbcde8e1ac7b0b5ad17c3b1e51439ee4698128219.
+
+Conditional SA20 source1dc6c064db3968500d4eea449487b0e4bcfa180b2a18b55bb8a3f536737748ed and actual concrete controlsf1bcab237752992e2e05279fc0ae2289198a77d428ccdb9b4915a7467874c681 were accepted with the real SA21 predecessor. Root selected one installer; entry/child exit0, null reason, clean reaping, restored limits, no errors and all3/2006/1257/221 before/after groups passed. Independent actual SA20 payload audit remains pending. No SA20 runtime or promotion occurred.
+
+Four pending owner decisions rechecked at00:18UTC have no affirmative reaction; held dependent steps remain held. Existing independent integration continues.
+
+## 2026-10-16 00:25 UTC — actual SA20 payload accepted; current admission pending
+
+Actual SA20 reviewf0a845fd2c8777b6cfef43505bbfc8449c4140c5cc8fd591657fe3d31d3cd916 accepts full113-directory/1253-regular/four-alias namespace;1252 permitted ordinary hashes;source43/wheel47 identity;53 product RECORD rows with explicit marker-body exclusion;13 dependency RECORDs/1184 rows;1200 nonproduct ordinary identities;complete inode separation and unchanged end hashes/metadata. Accepted maps7ad1c48a87bee0443be6802a0791c64cd24950fc075c7947b3dde3152ee0ad27 and43405491013155c401651189b32cff4aa1e6097578b3fa70a1844c7340c30e90. No runtime result is implied.
+
+Conditional runtime sourceef4cffe5b685add6799ea3f16853c44a466dc6a7f6cf8b5826c0d5d57b957267 and concrete first-host review1a77f861c8ef4140e625e52cd22eda6d3ba59a3d5aea5767de3dffb0f4cc91d2 accepted minimal continuation. Root host-only command exited0 with full argv/cwd/selection, empty streams and safe receipt5fa9ab72cb93ae90e02250e029e48ce790f2217213f1c80ea45e9f242cfa9e4f. Actual12-role prebinding INPUTS46de17cbd90bfd6cf46bb368985299c10419719f1097cfc84d31d61872e8b0bc is under independent review. It binds actual accepted SA21 terminal and its restored corpus path, not historical GREEN. No SA20 prebinding/status/runtime selected yet.
+
+## 2026-10-16 00:32 UTC — full source recovery accepted; SA20 binding reviewed next
+
+Independent full-source restoration reviewfea27c96519f3f9c52b6e6722f4e5f052df858b294a94cdbd9d1fca0df35fc38 accepts221 ordinary inert0600 files/4451072 bytes, exact candidate manifest40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7. Only CLI differs from reverified README-v2 baseline;220 files including all116 test-tree files remain. Runtime43 matches both accepted package payload sets;97 package payloads rehashed. Eight remote blobs/four trees independently verified. Scope is reverified previously restored baseline plus freshly fetched published overlay, not wholly new remote/environment recovery; no product execution.
+
+SA20 current-admission review5a48bca4e14ac1de438ea677a3a954d9696a9b84c2a9bb33ba23740f13af71f3 accepts rootexit0, original3025/packet27, corpus26, status3, source221/fresh1252/host472 observations. Final actual runtime union has4989 rows, SHA164192808f64e59ebf53e674ac84c0f4ee2aa805f19e26143b244e1a72a4c45b; binding06a702da96e05d4f0502f3c9644ef16bb8c893b1f261ae62b36b38ae92993b45; INPUTSdc8fb73673ed89f3f871c9901e7071d37207c2e3cfa18cc0e406a55478a3aaaf. Independent exact-map/argv review pending; no runtime selected.
+
+A root data-generation attempt retained one stale SA21 output-absence check and failed before any of the three final JSON outputs existed. Original script and transcript-derived failure receipt preserved; a freshV2 changed only that check to SA20 and produced the controls above. No product test, DB action or partial-output overwrite occurred.
+
+## 2026-10-16 00:36 UTC — 60-hour product-source freeze; both installed runs observed green
+
+Speculative product changes are frozen. Remaining work is integration/validation/recovery/delivery of existing source221 manifest40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7 and wheel053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965, with original selected Integrated221 retained as fallback until successor terminal acceptance. PREVIEW_FREEZE_20261016.json records exact identities and allowed work through12:36UTC. All34 objectives and seven UNKNOWN gates remain active.
+
+SA20 actual binding/argv reviewfab8dc1871c71e613931e48f455927731e517452706d3e83830631229597fb47 accepted exact4989 rows. Root selected one seven-case installed stage at00:34; coordinator/entry exited0. Actual tests report7 passed in1.59s, role preflight success; root postchecks show original/frozen/source/fresh/corpus equality, guard-after0, independent stopped status3, observed wrapper stop, absent prefixes and no errors. Independent terminal audit is pending. This is a narrow installed CLI result, not a new full-suite or production qualification. No next DB stage or promotion is selected.
+
+## 2026-10-16 00:40 UTC — frozen doctor successor selected as bounded preview
+
+SA20 terminal review9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9 independently accepts7PASS/21phases1.59s, output equality with accepted SA21, installed origin43, original3025/packet27/frozen4989 closure, corpus26, explicit stop and independent stopped status. Both new installed profiles now pass the exact seven-case doctor regression.
+
+Coordinator selected the already-frozen doctor source221 manifest40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7 as the bounded preview successor; no product source changed at selection. Prior CURRENT_CANDIDATE bytes retained in persistence-recovery-20261013/candidate-before-doctor-selection-20261016-0039.json, SHA5d66b221d0f6bb00064d93b79410f92d8cc53a9a416b43e45b90e3e56ee23310. Original source/distributions and all earlier checkpoints remain intact.
+
+New pointer separates current7-case results from historical original Integrated221 full-suite/optional/focused111 evidence, preserving its original artifact identity and explicitly stating those broader suites did not rerun on the successor. Runtime42 modules are byte-identical; only the approved doctor rendering branch changes. The bounded text-remedy defect is resolved on both admitted SQLAlchemy profiles, not the entire doctor objective. Public smoke, clean-host/provenance, held archive uploads and all34 final objectives/seven UNKNOWN qualification gates remain explicit. Full source recovery proof is remote-byte verified at93432cd4f9b1cf60508fc649407a26e6386e3a3a.
