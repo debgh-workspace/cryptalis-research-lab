@@ -1,0 +1,547 @@
+{
+  "schema": "cryptalis-frozen-preview-handoff-v1",
+  "selection_as_of_utc": "2026-10-16T00:40:00Z",
+  "document_status": "DRAFT_ROOT_REVIEW_AND_PUBLICATION_PENDING",
+  "schedule": {
+    "feature_freeze_utc": "2026-10-16T00:36:00Z",
+    "integration_and_verification_end_utc": "2026-10-16T06:36:00Z",
+    "installation_and_recovery_end_utc": "2026-10-16T10:36:00Z",
+    "deadline_utc": "2026-10-16T12:36:00Z"
+  },
+  "freeze_record": {
+    "frozen_at_utc": "2026-10-16T00:36:11Z",
+    "deadline_utc": "2026-10-16T12:36:00Z",
+    "mode": "INTEGRATION_AND_VALIDATION_ONLY_NO_SPECULATIVE_PRODUCT_CHANGES",
+    "integration_candidate": {
+      "source": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+      "manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+      "wheel_sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "sdist_sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+      "source_files": 221,
+      "runtime_modules": 43,
+      "sa21_terminal_review": "4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c",
+      "sa20_observed": {
+        "passed": 7,
+        "failed": 0,
+        "seconds": 1.59,
+        "root_exit": 0,
+        "independent_terminal_review": "PENDING"
+      }
+    },
+    "current_selected_fallback": {
+      "source": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+      "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+      "selection_unchanged_pending_successor_acceptance": true
+    },
+    "allowed_remaining_work": [
+      "Independent terminal acceptance and integration decision for already built successor",
+      "Evidence, restore verification, checklist and reproducible preview delivery",
+      "Existing authorized validation only; dependent smoke and held uploads still require their specific approvals"
+    ],
+    "objectives": "All 34 remain active; preview is first delivery milestone",
+    "qualification_gates": "all seven UNKNOWN",
+    "pending_owner_decisions": [
+      "Synthetic smoke fixture ACL permission",
+      "Exact original source/package compressed archive upload",
+      "Exact original installed-evidence compressed archive upload",
+      "Native benchmark error-policy decision"
+    ],
+    "no_production_qualification": true
+  },
+  "selected": {
+    "selected_at": "2026-10-16T00:39Z",
+    "candidate": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015",
+    "files": 221,
+    "manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+    "status": "Selected bounded installable preview successor after source, packaging, both installed CLI regression and inert full-source recovery acceptance; public smoke and production qualification remain incomplete",
+    "terminal_reviews": {
+      "doctor-remedy-real-installed-sa21-v2-terminal-independent-20261016/REVIEW.md": "4633efb83069dbbaa8ffd45c1b910b1d0a9ae968069d594adbbe7cc43def9a6c",
+      "doctor-remedy-real-installed-sa20-v2-terminal-independent-20261016/REVIEW.md": "9019b66466a94c67e559fcfccd2eda07f73a0ca89d76c85a123b1b121e9522a9",
+      "doctor-remedy-build-v2-artifacts-independent-20261015/REVIEW.md": "20efb7f7e9b43ef78bd8fbb2adae668b1b7697017ecded51178942170a614404",
+      "doctor-full-source-restore-independent-20261016/REVIEW.md": "fea27c96519f3f9c52b6e6722f4e5f052df858b294a94cdbd9d1fca0df35fc38"
+    },
+    "installed_results": {
+      "sa21": {
+        "pass": 7,
+        "fail": 0,
+        "error": 0,
+        "skip": 0,
+        "phases_pass": 21,
+        "seconds": 1.62,
+        "scope": "Exactly the seven doctor CLI regression cases, including real installed module process; not a new full suite."
+      },
+      "sa20": {
+        "pass": 7,
+        "fail": 0,
+        "error": 0,
+        "skip": 0,
+        "phases_pass": 21,
+        "seconds": 1.59,
+        "scope": "Exactly the seven doctor CLI regression cases, including real installed module process; not a new full suite."
+      }
+    },
+    "artifacts": {
+      "wheel_sha256": "053f06f9277cc5f15f38887f79a44d91dac98a5b94f2ef2fae5329d0f3086965",
+      "wheel_bytes": 140953,
+      "sdist_sha256": "2e2a3cfc266602b958e4f4b2206c4d7ccc9e8d1de154ef0412141f529446a330",
+      "sdist_bytes": 150427,
+      "remote_commit": "220d35ce796b913c0cced2bd19b416cf287011c9",
+      "remote_directory": "preview/artifacts/doctor-remedy-v2-20261015"
+    },
+    "integrated_bounded_corrections": [
+      "CLUSTER designation preservation",
+      "safe-default and conditional legacy handling",
+      "historical retained-native contract correction with independent native/mutation evidence",
+      "Plain-text doctor retains its constant actionable remedy on rejected declarations; JSON/exits/other outputs unchanged"
+    ],
+    "historical_full_suite_evidence": {
+      "candidate": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+      "source_manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+      "wheel_sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
+      "results": {
+        "sa21": {
+          "pass": 2684,
+          "fail": 0,
+          "skip": 0,
+          "subtests_pass": 56,
+          "seconds": 500.87
+        },
+        "sa20": {
+          "pass": 2638,
+          "fail": 0,
+          "skip": 46,
+          "subtests_pass": 56,
+          "seconds": 499.47,
+          "skip_scope": "exact native-version allowlist"
+        },
+        "sqlmodel": {
+          "pass": 38,
+          "fail": 0,
+          "skip": 0,
+          "phases_pass": 114,
+          "seconds": 7.32,
+          "scope": "bounded internal laboratory-enabled async SQLModel profile; default async refusal remains; not public opt-in API availability"
+        }
+      },
+      "focused111": {
+        "sa21": {
+          "passed": 111,
+          "failed": 0,
+          "skipped": 0,
+          "phases": 333,
+          "seconds": 101.49,
+          "subordinate_producers": 28,
+          "native_checks": 508,
+          "review_sha256": "f8d89657d61ce621515351dc818ef5872c11f0d1161472cd642f4bc54b30fba6"
+        },
+        "sa20": {
+          "passed": 111,
+          "failed": 0,
+          "skipped": 0,
+          "phases": 333,
+          "seconds": 104.34,
+          "subordinate_producers": 28,
+          "native_checks": 508,
+          "review_sha256": "7318b0b3f7bac950a8e2311dd6d546d6c5f5b376c168d9eec0e0f4c4d97d7678"
+        },
+        "scope": "Bounded installed consumer against genuine historical source producers; no all-version, lost-metadata importer or durable ABORTED replan qualification"
+      },
+      "terminal_reviews": {
+        "integrated221-installed-full-sa21-v3-independent-20261015/REVIEW.md": "9c87be5cef0fbede3ce78ae8b0534b202b4e70455394d261c62a0d99f45b1223",
+        "integrated221-installed-full-sa20-v3-independent-20261015/REVIEW.md": "d685131a3818ed9cafb74810505af53fe723d47f12ce296b6c126e14f5021ee0",
+        "integrated221-installed-optional38-v2-independent-20261015/REVIEW.md": "b035f5acb36931515a11adfaa25dc5aa69c3634c85f08eaa683edf0b813f3c1d"
+      },
+      "scope": "These broader suites actually ran on original Integrated221. They were not rerun on this doctor successor. Other42 runtime modules are byte-identical; changed doctor branch has separate source RED/GREEN and installed seven-case evidence."
+    },
+    "retained_predecessor": {
+      "candidate": "cryptalis-executable/candidate-cluster-retained-integrated-v2-20261015",
+      "manifest_sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520",
+      "snapshot": "persistence-recovery-20261013/candidate-before-doctor-selection-20261016-0039.json",
+      "snapshot_sha256": "5d66b221d0f6bb00064d93b79410f92d8cc53a9a416b43e45b90e3e56ee23310",
+      "artifacts": {
+        "wheel_sha256": "dcff0ec62af960715627d0cb247a267b0068a4d61eae35aacbdd2e879da1bee6",
+        "wheel_bytes": 144298,
+        "sdist_sha256": "1f447ac32bac75803826df6e2e66a1df5a8dd515448484c271175c279ef98b6c",
+        "sdist_bytes": 154158
+      },
+      "preserved": true
+    },
+    "pending_preview_work": [
+      "Public manifest-first quickstart/backup/restore/removal smoke remains unexecuted; exact fixture ACL permission pending",
+      "Two exact original compressed recovery uploads remain held for owner approval",
+      "Clean-host dependency reproduction/provenance remains unestablished"
+    ],
+    "remaining_product_scope": "all34 objectives remain active; generic legacy repair, rotations, online migration, stronger search privacy, production KMS, broader SQL/frameworks, performance and external qualification remain incomplete",
+    "qualification_gates": "all seven UNKNOWN",
+    "source_preserved": true,
+    "original_mailbox_preserved": true,
+    "git_main_promoted": false,
+    "freeze": {
+      "record": "PREVIEW_FREEZE_20261016.json",
+      "record_sha256": "1cacdb574fd3a44720c86a05b70a7f86e5c2d5fb92d79b8da6f5a5a5d12d4417",
+      "scope": "Selection integrates the exact source frozen at60hours; no speculative product change after freeze."
+    },
+    "full_source_restore": {
+      "review_sha256": "fea27c96519f3f9c52b6e6722f4e5f052df858b294a94cdbd9d1fca0df35fc38",
+      "files": 221,
+      "bytes": 4451072,
+      "scope": "Reverified independently restored baseline plus newly fetched immutable remote CLI overlay; inert recovery, not clean-host/environment qualification."
+    },
+    "production_qualified": false,
+    "selection_time_precision": "minute"
+  },
+  "objective_count": 34,
+  "objectives": [
+    {
+      "id": "OBJ-SEC-01",
+      "requirement": "Encrypt sensitive values in the trusted application **before PostgreSQL receives plaintext**, with proof at SQL/driver boundaries and independent connections.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded CF1/adapter/role tests; full threat coverage open",
+      "next_action": "Audit untested writer/auth/provider boundaries; do not treat encryption as host authorization",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-02",
+      "requirement": "Preserve confidentiality and authenticated integrity under declared tenant/field/row/key-generation context, detect swapped or malformed frames and unauthorized release.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded CF1/adapter/role tests; full threat coverage open",
+      "next_action": "Audit untested writer/auth/provider boundaries; do not treat encryption as host authorization",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-03",
+      "requirement": "Enforce application authorization, result lineage and tenant boundaries; handle SQL injection through parameterization, guarded operations and least privilege without falsely claiming that encryption prevents arbitrary application authorization flaws.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded CF1/adapter/role tests; full threat coverage open",
+      "next_action": "Audit untested writer/auth/provider boundaries; do not treat encryption as host authorization",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-04",
+      "requirement": "Detect plaintext bypasses via ORM, bulk DML, direct SQL, COPY, external writers, migrations, sessions, background jobs, triggers, caches, logs, exports, backups and privilege paths.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded CF1/adapter/role tests; full threat coverage open",
+      "next_action": "Audit untested writer/auth/provider boundaries; do not treat encryption as host authorization",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-05",
+      "requirement": "Keep payload/search keys isolated, never silently choose fallback keys, bound nonces/usage/leases, test memory/fork/cancellation/rotation and use robust existing cryptography.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded CF1/adapter/role tests; full threat coverage open",
+      "next_action": "Audit untested writer/auth/provider boundaries; do not treat encryption as host authorization",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-06",
+      "requirement": "Reduce equality, frequency and access-pattern leakage with a threat-modelled, independently benchmarked search-profile design; document residual leakage, low-entropy domains, adaptive leakage and query-pattern trade-offs.",
+      "recorded_stage": "RESEARCHED — current equality/frequency/access leakage explicit; improved privacy not integrated",
+      "next_action": "Compare threat/semantics/performance alternatives before approved admission",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-SEC-07",
+      "requirement": "Independent red-team/security, cryptography, SQL adapter, provider and supply-chain qualification; the seven gates pass only with real evidence.",
+      "recorded_stage": "EXTERNAL QUALIFICATION OPEN",
+      "next_action": "Obtain independent reviewers and required resources; do not self-certify",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-QUERY-01",
+      "requirement": "Exact protected equality, `IN`, scoped uniqueness, SQL NULL/three-valued logic, empty lists, bound types, collision resistance/verification and concurrency races.",
+      "recorded_stage": "PARTIALLY VERIFIED — admitted finite semantics; unadmitted grammar rejects",
+      "next_action": "Reconcile any new grammar against exact native oracles and security contracts",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-QUERY-02",
+      "requirement": "Ordinary SQL correctness: `IS NULL`, `IS NOT NULL`, `!=`, `NOT IN`, `IS DISTINCT FROM`, `IS NOT DISTINCT FROM`, nested Boolean expressions, aliases, outer joins, scalar/entity projections, relationships, subqueries.",
+      "recorded_stage": "PARTIALLY VERIFIED — admitted finite semantics; unadmitted grammar rejects",
+      "next_action": "Reconcile any new grammar against exact native oracles and security contracts",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-QUERY-03",
+      "requirement": "Advanced SQL: ordering, keyset/offset pagination, ranges/comparisons, `LIKE`/`ILIKE`, prefix, suffix, substring, fuzzy, regex, full-text, `DISTINCT`, aggregates, `GROUP BY`, joins, JSON/array/numeric/datetime and other protected types. Each gets native semantics, a viable scheme/profile or an explicit, researched `REJECTED-LOUD` alternative—never silent omission.",
+      "recorded_stage": "RESEARCH/ADMISSION OPEN — advanced objectives retained",
+      "next_action": "Research viable profiles and leakage/semantic contracts; keep loud refusals meanwhile",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-QUERY-04",
+      "requirement": "ORM/Core and data-modification coverage: INSERT/UPSERT/UPDATE/DELETE, bulk DML, `RETURNING`, triggers, cascades, FKs, savepoints, retries, autocommit/isolation, idempotency and connection/transaction state.",
+      "recorded_stage": "PARTIALLY VERIFIED — ORM routes and private bounded DELETE/cascade profile",
+      "next_action": "Preserve exact effect inventory; qualify each broader operation separately",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-QUERY-05",
+      "requirement": "Full, versioned compatibility corpus and pre-adoption read-only scanner, with exact native-versus-protected classification and reproducible cases.",
+      "recorded_stage": "FINITE CORPUS VERIFIED; pre-adoption scanner incomplete",
+      "next_action": "Build meaningful read-only scanner and explicitly reconcile later source revisions",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-01",
+      "requirement": "Declarative, deterministic, safe plan → apply → verify; schema/writer/permission inventory; irreversible-step preview and actionable diagnostics.",
+      "recorded_stage": "PARTIALLY VERIFIED — maintenance protocol and numeric/diagnostic corrections",
+      "next_action": "Keep legacy failures visible and qualify missing failure/recovery boundaries",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-02",
+      "requirement": "Resumable, byte-bounded backfill, full final integrity/metadata verification, journaling, restart and crash-safe atomic chunks, failure fencing.",
+      "recorded_stage": "PARTIALLY VERIFIED — maintenance protocol and numeric/diagnostic corrections",
+      "next_action": "Keep legacy failures visible and qualify missing failure/recovery boundaries",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-03",
+      "requirement": "**Near-zero-writer-downtime migration**: concurrent writes, captured changes, ordered catch-up, deletion/PK-change handling, stale-worker fencing, verification, short publish/cutover, recoverability and measured pause SLO. Preserve native semantics and current secure maintenance fallback until this is proven.",
+      "recorded_stage": "DESIGN/IMPLEMENTATION OPEN — maintenance fallback only",
+      "next_action": "Design and review capture/fencing/catch-up/recovery; define pause budget with owner",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-04",
+      "requirement": "Parallel/adaptive migration and verification without double processing, lost updates, unsafe memory, or unbounded locks/WAL.",
+      "recorded_stage": "DESIGN/IMPLEMENTATION OPEN — maintenance fallback only",
+      "next_action": "Design and review capture/fencing/catch-up/recovery; define pause budget with owner",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-05",
+      "requirement": "Exact decrypt-back of **current edited data**, constraints, types, defaults, order, indexes, FKs, views, ACLs, owners and permissions; complete metadata removal; fresh application operation with Cryptalis uninstalled.",
+      "recorded_stage": "PARTIALLY VERIFIED — retained-layout same-host current-value recovery",
+      "next_action": "Qualify independent fresh restore and broader metadata/old-layout paths",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-06",
+      "requirement": "Safe rollback, restore, redeployment, stale snapshot/pin refusal, retained encrypted-backup readers, RPO/RTO and deployment-disaster drills; no false secure-erasure claim.",
+      "recorded_stage": "PARTIALLY VERIFIED — retained-layout same-host current-value recovery",
+      "next_action": "Qualify independent fresh restore and broader metadata/old-layout paths",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-07",
+      "requirement": "Three separate key operations: root/wrapping rewrap, payload-key rotation/re-encryption and search-root reindex/rotation, with separate correctness and recovery proofs.",
+      "recorded_stage": "PARTIAL EXPERIMENT — rewrap preparation; all three full workflows open",
+      "next_action": "Separate protocols, stale-policy/pin recovery and acceptance proof for each operation",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-08",
+      "requirement": "Real production KMS, initially AWS KMS where authorized, robust credential/region/outage/throttling/revocation/cost testing, with a provider-independent contract and no hard dependency on AWS for local functionality.",
+      "recorded_stage": "EXTERNAL AUTHORIZATION/PROVIDER QUALIFICATION OPEN",
+      "next_action": "Use authorized real provider resources only; never generate new access implicitly",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-LIFE-09",
+      "requirement": "Safe install, upgrades, compatibility across versions, decommission and explicit clean uninstall, including unsupported legacy-layout repair or a tracked safe alternative.",
+      "recorded_stage": "PARTIALLY VERIFIED — installed artifacts and retained removal; bounded S15 legacy plaintext bridge, generic repair open",
+      "next_action": "Qualify broader legacy/version routes and fresh restore; preserve old mailbox",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-DX-01",
+      "requirement": "Almost zero business/model/query changes; one manifest, named profiles, one attach call, usable status/plan/apply/verify/deprotect/rotate operations and precise startup feedback.",
+      "recorded_stage": "PARTIALLY VERIFIED — manifest/attach path; complete operations CLI incomplete",
+      "next_action": "Unify safe public operational entrypoints without claiming prototype flags as product API",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-DX-02",
+      "requirement": "`cryptalis doctor`: meaningful read-only static **and** dynamic diagnostics, policy/manifest/schema/ciphertext/role/provider/compatibility checks, with clear limits and no silent repair of privileges.",
+      "recorded_stage": "PARTIALLY VERIFIED — S14 bounded declaration/schema/planned-role/ciphertext/source diagnostics; provider and full coverage OPEN",
+      "next_action": "Design/read-only implement doctor with explicit checked/unknown outcomes and no privilege repair",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-DX-03",
+      "requirement": "Fully working independent FastAPI/SQLModel integration; a second unrelated application; measure source edit lines, dependency and deployment requirements. Extend thoughtfully to Flask and Django via actually suitable adapters.",
+      "recorded_stage": "PARTIALLY VERIFIED — one pinned real app; second app unresolved",
+      "next_action": "Establish clean unrelated PostgreSQL app baseline; choose suitable adapters honestly",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-DX-04",
+      "requirement": "Normal SQLAlchemy semantics: ORM identity map, lazy/eager loading, `Session.exec`, sync/async, pooling, migrations, background jobs, serializers, errors and result metadata.",
+      "recorded_stage": "PARTIALLY VERIFIED — bounded sync/async SQLAlchemy/SQLModel",
+      "next_action": "Cover remaining supported semantics and real application boundaries",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-DX-05",
+      "requirement": "Accessible, complete docs: one small quickstart, profiles, threat model, leakage, boundaries, operations, recovery, practical examples, diagnostic errors and learning walkthroughs explaining what/why/how for each slice.",
+      "recorded_stage": "PARTIAL DOCUMENTATION; authoritative front tables reconciled",
+      "next_action": "Finish concise quickstart/diagnostics/recovery docs tied to integrated APIs",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-PERF-01",
+      "requirement": "Continuous native ORM vs driver-only vs protected measurements of p50/p95/p99, write rate, steady-state throughput, CPU, RSS/allocations, WAL, storage/index sizes, query plans, provider RPC and recovery costs.",
+      "recorded_stage": "MEASURED LIMITED — warm retained baseline and isolated allocation prototype",
+      "next_action": "Finish qualification; measure cold/concurrent/tail/resource/storage/provider effects",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-PERF-02",
+      "requirement": "Profile-guided optimizations in Python, SQLAlchemy, PostgreSQL and crypto: batching, psycopg pipeline/executemany, pooling, safe cache use, allocations, projections, indexing, native accelerators and bounded key caching.",
+      "recorded_stage": "MEASURED LIMITED — warm retained baseline and isolated allocation prototype",
+      "next_action": "Finish qualification; measure cold/concurrent/tail/resource/storage/provider effects",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-PERF-03",
+      "requirement": "Multithreading, multiprocessing, async and adaptive worker processing with 1/4/16/saturation tests, isolation, retries, process/fork safety, backpressure, cancellation and measured speedup **or regression**.",
+      "recorded_stage": "QUALIFICATION OPEN — prescribed budgets retained",
+      "next_action": "Reconcile matched scale evidence and agreed budgets; keep regressions visible",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-PERF-04",
+      "requirement": "Performance targets on agreed comparable conditions: repository's current added read p95 ≤3 ms for point/equality, ≤8 ms for `IN`-20 and ≤2× protected-column-plus-equality-index storage. Define write-throughput and pause SLOs through a documented stakeholder decision; do not invent an approved target or relax an existing target because a test fails. Evaluate million-row scale and a documented growth path to billion-row workloads without claiming the latter has already been tested.",
+      "recorded_stage": "QUALIFICATION OPEN — prescribed budgets retained",
+      "next_action": "Reconcile matched scale evidence and agreed budgets; keep regressions visible",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-OPS-01",
+      "requirement": "Reproducible installed wheels/source releases, verified license, SBOM, dependencies/provenance, locked builds, supported-version matrix, rollback documentation and independent reviewers.",
+      "recorded_stage": "PARTIALLY VERIFIED — repeated local builds and installed matrix",
+      "next_action": "Complete SBOM/licensing/reviewer/fresh-environment requirements",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-OPS-02",
+      "requirement": "Recoverable research environment, immutable evidence hashes, source-to-test traceability, live Markdown checklist and durable local/authorized remote snapshots.",
+      "recorded_stage": "VERIFIED LIMITED — remote byte persistence and composite file recovery",
+      "next_action": "Continue small verified batches and test fresh restore only with required approval",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-RESEARCH-01",
+      "requirement": "Comparative, source-backed reverse engineering and potential novel mechanism research; demonstrate independent novelty/prior art and repeatable advantages rather than claiming novelty from an interesting idea.",
+      "recorded_stage": "ONGOING — source-backed alternatives and finite experiments",
+      "next_action": "Triangulate mechanisms and preserve failed alternatives before product integration",
+      "final_objective_closed": false
+    },
+    {
+      "id": "OBJ-RESEARCH-02",
+      "requirement": "One finished, coherently integrated **working software candidate** that passes its admitted native-compatibility contract, end-to-end reversible lifecycle, real-app adoption proof and all relevant acceptance gates before a qualified release.",
+      "recorded_stage": "INTEGRATED EXPERIMENTAL CANDIDATE; COMPLETE PRODUCT OPEN",
+      "next_action": "Continue correctness/integration work; obtain external resources only for dependent gaps",
+      "final_objective_closed": false
+    }
+  ],
+  "objective_stage_basis": "Exact recorded stages and next actions preserved from readiness REGISTER at 2026-10-15T23:09:30Z. Later accepted bounded doctor selection and handoff progress are separate updates below; no final objective is closed.",
+  "objective_updates": [
+    {
+      "id": "OBJ-DX-02",
+      "update": "Rejected-text constant remedy accepted in both current installed seven-case cells; full diagnostic/provider coverage remains open."
+    },
+    {
+      "id": "OBJ-DX-05",
+      "update": "External current handoff drafted; root review/publication and exact public smoke remain incomplete."
+    },
+    {
+      "id": "OBJ-OPS-02",
+      "update": "Full inert source221 recovery accepted by reverified previously restored baseline plus freshly fetched immutable remote CLI overlay; clean-host/environment reproduction unestablished."
+    }
+  ],
+  "gates": {
+    "G-ADAPTER": "UNKNOWN",
+    "G-CRYPTO": "UNKNOWN",
+    "G-QUERY": "UNKNOWN",
+    "G-LIFECYCLE": "UNKNOWN",
+    "G-PROVIDER": "UNKNOWN",
+    "G-POLICY": "UNKNOWN",
+    "G-RELEASE": "UNKNOWN"
+  },
+  "preview_blockers": [
+    {
+      "id": "PREVIEW-DOCTOR",
+      "kind": "optional_correctness_successor_integration",
+      "status": "CLOSED_BOUNDED_SELECTION_ACCEPTED",
+      "next": "Preserve exact accepted current source/package and both installed seven-case reviews; no full doctor objective or full-suite completion inferred."
+    },
+    {
+      "id": "PREVIEW-SMOKE",
+      "kind": "execution_and_authority",
+      "status": "HOLD_EXACT_FIXTURE_APPROVAL_AND_CURRENT_ROUTE_BINDING",
+      "request": "Sentinel_d4be0bfc407881d19ce0ef871aa5304d",
+      "next": "Await explicit fixture ACL approval. Then root binds exact approved targets to unchanged current preflight/identity checks, current accepted terminal and admitted isolated host startup. Reuse the existing reviewed smoke only after necessary source review; no new mechanism is prepared here.",
+      "limits": "Historical helper provenance cannot establish current plaintext-role identity/continuity or consent. Existing smoke V2 binds an older terminal and original wheel only."
+    },
+    {
+      "id": "PREVIEW-HANDOFF",
+      "kind": "documentation_and_delivery",
+      "status": "DRAFT_PREPARED_ROOT_REVIEW_AND_PUBLICATION_PENDING",
+      "next": "Root reviews this new external five-file packet, reconciles exact identities and publishes only within authorized scope."
+    },
+    {
+      "id": "RECOVERY-SUPPLEMENTS",
+      "kind": "separate_publication_authority",
+      "status": "PENDING_EXACT_OPAQUE_UPLOAD_APPROVALS",
+      "next": "Preserve held source/package part05 and installed-recovery part01; use only exact separately authorized publication. Existing README-v2 standalone delivery is already accepted and does not authorize these opaque archives.",
+      "installed_request": "Sentinel_165ceddf893081d18608ff32203a2685"
+    },
+    {
+      "id": "CLEAN-HOST",
+      "kind": "external_resources_and_provenance",
+      "status": "NOT_ESTABLISHED",
+      "next": "Disclose same-host limitation. Original locked artifact acquisition, clean builder/installation and authorized fresh environment remain required for full provenance; new cluster/credentials/provider access remain unapproved."
+    },
+    {
+      "id": "NATIVE-TIMING-POLICY",
+      "kind": "separate_owner_policy_decision",
+      "status": "PENDING",
+      "next": "Obtain the exact native benchmark error-policy decision; preserve existing budgets and failed evidence. No performance qualification inferred."
+    }
+  ],
+  "pending_owner_decisions": [
+    "Synthetic smoke fixture ACL permission",
+    "Exact original source/package compressed archive upload",
+    "Exact original installed-evidence compressed archive upload",
+    "Native benchmark error-policy decision"
+  ],
+  "input_identity_basis": [
+    {
+      "path": "CURRENT_CANDIDATE.json",
+      "sha256": "96970253998d2f86b7eb58d11778093629e19994b078bb1dfd1175d98b9d16a3",
+      "bytes": 6900
+    },
+    {
+      "path": "PREVIEW_FREEZE_20261016.json",
+      "sha256": "1cacdb574fd3a44720c86a05b70a7f86e5c2d5fb92d79b8da6f5a5a5d12d4417",
+      "bytes": 1882
+    },
+    {
+      "path": "CRYPTALIS_BUILD_CHECKLIST.md",
+      "sha256": "b5021de580409a1cc6da144bd30236389439b6e24fe3369f9ce11b85ff7c8dc0",
+      "bytes": 347568
+    },
+    {
+      "path": "cryptalis-executable/reviewer-notes/preview-freeze-readiness-independent-20261015/REGISTER.json",
+      "sha256": "882aef7702ebbd4d19516146a372daa52c3e7bd3cbfd5e725dd30ce18d5f69eb",
+      "bytes": 32554
+    },
+    {
+      "path": "cryptalis-executable/reviewer-notes/preview-freeze-readiness-independent-20261015/READINESS.md",
+      "sha256": "81e57291ef46ee355a44aab753f1dfb82f5057ffab5f556ab238d04cc7f57195",
+      "bytes": 6835
+    },
+    {
+      "path": "cryptalis-executable/candidate-doctor-remedy-integrated221-v1-20261015/README.md",
+      "sha256": "0101bed8e6cc533e438d9a718281f7f15781fea170de91b788389938798cdcb5",
+      "bytes": 5607
+    }
+  ],
+  "historical_guide_commit": "d952c505a4666266019e32f27c77f93edd5151ca",
+  "historical_guides_read": [
+    "INSTALL.md",
+    "QUICKSTART.md",
+    "CAPABILITIES.md",
+    "MANIFEST.md",
+    "HOST-INPUTS.md",
+    "RECOVERY.md"
+  ],
+  "boundary": "External documentation only. No product/embedded README edit; no build/install/test/import/database/status/live data/credentials/Git writes. Root alone reviews/promotes/publishes."
+}
