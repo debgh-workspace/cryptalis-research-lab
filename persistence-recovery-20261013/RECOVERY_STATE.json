@@ -4,7 +4,7 @@
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "Transport218 bounded installed matrix audited; seven historical failures remain; optional live restoration limitation explicit; all seven gates UNKNOWN.",
+  "latest_candidate_status": "Frozen doctor-remedy preview preserved; separate note-only cleanup correction has accepted four-cell unit evidence, not promoted.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -32,9 +32,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "5be7e581cbf0512a297dbb772dae92d53409e1ae",
-  "latest_integrated_candidate": "Transport218 selected bounded installed baseline; CLUSTER and corrected test contracts not yet integrated.",
-  "current_experiment": "Native2 diagnosis verified; fixture-only corrected111 successor preparing; product221 unchanged and fullintegrationheld.",
+  "latest_verified_remote_commit": "fc5977427f8593325947320de487e3790073c165",
+  "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
+  "current_experiment": "Caller-owned cleanup-state successor static review accepted; runtime packet preparing.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-15T12:33:00Z",
-  "current_operation": "Preserve failure; audit boundary; verify native mutation then authorize narrow correction. No SA20/full source until resolved.",
-  "notes": "All seven qualification gates UNKNOWN. Exact seven historical suffix-copy assertions still fail retained profile; full suites not green. No new cluster/credentials/provider approval inferred.",
+  "updated_utc": "2026-10-16T10:59:00Z",
+  "current_operation": "Publish exact unit evidence and prepare isolated successor validation; native fixture permission pending.",
+  "notes": "All 34 objectives active; all seven qualification gates UNKNOWN. Historical state preserved in recovery-state-before-flush-unit-20261016-1059.json.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "5be7e581cbf0512a297dbb772dae92d53409e1ae",
+  "latest_verified_remote_head": "fc5977427f8593325947320de487e3790073c165",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -57,7 +57,7 @@
     "known_failures_each": 7,
     "restored_files": 175
   },
-  "next_task": "Accept expected-RED boundary then reviewed GREEN; independently review safe-default V2 before execution.",
+  "next_task": "Review finite successor runtime packet and execute only after exact admission; continue search correctness preparation.",
   "latest_remote_tree": "1dc6331a1b5a060cc852fb969fc6d21ffc38cfb2",
   "s11": {
     "status": "integrated; full suites1789/1771PASS withsame7FAIL;176file composite recovery verified",
@@ -1772,5 +1772,30 @@
     "new_db_actions": 0,
     "native_regression_approval_request": "Sentinel_c036892d525881d1b49d0638ba50941e",
     "selected_preview_changed": false
+  },
+  "flush_note_unit_20261016_1048": {
+    "source_commit": "fc5977427f8593325947320de487e3790073c165",
+    "profiles": [
+      "SA21",
+      "SA20"
+    ],
+    "same_arm_identities": 15,
+    "baseline_each": {
+      "assertion_failures": 10,
+      "controls_pass": 5,
+      "errors": 0,
+      "skips": 0
+    },
+    "amended_each": {
+      "pass": 15,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0
+    },
+    "scope": "Real imported modules with synthetic connection/session doubles; no DB or physical release evidence",
+    "independent_terminal_reviews": 4,
+    "selected_preview_changed": false,
+    "native_permission": "PENDING Sentinel_c036892d525881d1b49d0638ba50941e",
+    "neighboring_state_and_name_faults": "Separate source successor accepted statically; unexecuted"
   }
 }

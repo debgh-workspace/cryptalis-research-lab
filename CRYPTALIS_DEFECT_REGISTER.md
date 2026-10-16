@@ -80,3 +80,9 @@ The frozen successor includes the exact one-line safe remedy rendering correctio
 - DOC-CURRENT-FRONTS: checklist/defect opening selection was stale despite later correct entries. Current fronts corrected, old bytes retained, all34 objectives/seven UNKNOWN gates/history preserved.
 
 These documentation corrections do not close public end-to-end smoke, clean-host installation, full doctor capabilities or independent product qualification.
+
+## 2026-10-16 10:59 UTC — note-only cleanup correction unit evidence
+
+Checkpoint `fc5977427f8593325947320de487e3790073c165` preserves exact isolated two-file correction, regression and four-cell summary; all nine remote files byte-verified. Same 15 arms in each profile: SA21 and SA20 baselines each reproduce 10 intended assertion failures with 5 passing controls, zero errors/skips; amended views each pass all 15 with zero failures/errors/skips. Four independent terminal reviews accept source binding and unchanged closure receipts. These are real-module direct-helper tests with doubles, not native database/physical release or full-suite evidence. V5/V6 import setup holds remain preserved and are not product failures.
+
+Frozen doctor preview is unchanged. Marker assignment/getter, stale-False and dynamic exception-name hazards remain separate: caller-owned-state successor V2 has static acceptance only; runtime unexecuted. Native 48-case/up-to-68-fixture regression needs the exact pending ACL approval. Search optimization V2 and its 468-case declared harness remain unexecuted. All 34 objectives and seven UNKNOWN gates remain active; owner priority is rigor and optimization over deadline.
