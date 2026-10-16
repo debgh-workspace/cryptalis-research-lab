@@ -1,0 +1,12 @@
+{
+  "remote_eight_outputs_reread_equal": true,
+  "source221_distinct_inodes_from_baseline": true,
+  "remote_original_baseline_to_readme_v2_delta": [
+    "README.md"
+  ],
+  "readme_v2_to_doctor_delta": [
+    "src/cryptalis/cli.py"
+  ],
+  "external_regression_test_not_inserted_into_source221": true,
+  "mapping_historical_referents_not_followed": true
+}

@@ -1,0 +1,36 @@
+{
+  "baseline_unchanged_files": 220,
+  "changed_paths": [
+    "src/cryptalis/cli.py"
+  ],
+  "cli_sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409",
+  "decision": "ACCEPTED_REVERIFIED_BASELINE_PLUS_REMOTE_OVERLAY_FULL_SOURCE221_RESTORE",
+  "input_and_output_continuity_leaves": 554,
+  "package_commit": "220d35ce796b913c0cced2bd19b416cf287011c9",
+  "readme_delivery_commit": "b64ff0d76281678a168ae5ce67135abf4e96e079",
+  "remote_paths": [
+    "BASELINE_SOURCE_MANIFEST.json",
+    "CANDIDATE_SOURCE_MANIFEST.json",
+    "GREEN_TERMINAL_REVIEW.md",
+    "SOURCE_MAPPING.json",
+    "STATUS.md",
+    "overlays/README.md",
+    "overlays/cli.py",
+    "test_doctor_text_remedy_real.py"
+  ],
+  "restored_manifest_sha256": "f704908bfb482b78312865f79400b0455fc3fced41664b8d3598e4084f6fd985",
+  "reverified_prior_package_payloads": 97,
+  "runtime_modules_equal_both_packages": 43,
+  "scope": "Fresh inert source restoration using a reverified previously independently restored README-v2 source baseline plus newly fetched immutable doctor overlay. Existing restored package payloads reverified; no new package archive extraction or wholly new full remote/environment recovery. No product execution/import/compile, tests, database, install, Git write or upload.",
+  "source_bytes": 4451072,
+  "source_commit": "4d6601e3d6e436f76c38c3315fd31bcb5728dbee",
+  "source_files": 221,
+  "target_manifest_sha256": "40c9787c974d38e030ace0b985ffb8a78de76196b28afea071a511eb7bd132e7",
+  "test_tree_files": 116,
+  "tree_chain": [
+    "43781159edc5efdaee2047f50c626e9b3620bf55",
+    "5054ebbac5d2af1806a2ebc0bc1ced2564e7b1f9",
+    "7b615bcf471ff93b8439aea6de43dc1361b02704",
+    "01a90c65b3e2f171288addf5eac74243ae62fa06"
+  ]
+}
