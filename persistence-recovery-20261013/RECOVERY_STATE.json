@@ -1722,5 +1722,20 @@
     "smoke_v2": "recipe-only accepted; ACL/current-role/actual execution gates unresolved",
     "new_tests": 0,
     "new_db_actions": 0
+  },
+  "delivery_resource_checkpoint_20261016_0111": {
+    "commit": "d0e071bda74ddf40227319bcb668d56026647003",
+    "verified_files": 10,
+    "operator_matrix_checkpoints": 22,
+    "recovery_layers": 8,
+    "dependency_runtime_wheels_per_profile": 8,
+    "dependency_union_archives": 14,
+    "installer_archives": 1,
+    "current_archive_probe": "default and escalated DNS failure exit6/http000/0bytes; no outputs",
+    "smoke_renewed_request": "Sentinel_b4fa6837938481d1b4ff1ad18e0c5719",
+    "smoke_authorized": false,
+    "new_product_tests": 0,
+    "new_db_actions": 0,
+    "remaining": "Exact smoke ACL approval/current identity and binding; original dependency archives/clean environment; two held uploads; native timing policy; all34 objectives/seven UNKNOWN gates"
   }
 }
