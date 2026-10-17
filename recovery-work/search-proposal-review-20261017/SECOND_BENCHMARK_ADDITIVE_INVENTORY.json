@@ -1,0 +1,1212 @@
+{
+  "status": "PROPOSED_ADDITIVE_PUBLICATION_ONLY",
+  "existing_payload_files": 38,
+  "total_proposed_files_including_this_inventory_and_readme": 40,
+  "existing_payload_bytes": 1409617,
+  "files": [
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/SOURCE.sha256",
+      "role": "sealed_benchmark_source",
+      "bytes": 10572,
+      "sha256": "d176ed1773d01d731dca7c8406a04ed552e692ba6ae159ae36c962a57a7daeec"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/benchmark.py",
+      "role": "sealed_benchmark_source",
+      "bytes": 12658,
+      "sha256": "58410799880858721a463bc51954e62e33cd62fd408ae1e8408b653c8b76d68d"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/reduce.py",
+      "role": "sealed_benchmark_source",
+      "bytes": 8753,
+      "sha256": "9a707390488f7d398f9cb98543d39711c4db79688560d291e2c58e67108d491b"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/VIEWS.json",
+      "role": "sealed_benchmark_source",
+      "bytes": 24595,
+      "sha256": "4908c92ebe957927c8bf150669f6fac7d4bb26d66fbca9f1a17d9b1b73e805dc"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/PLAN.md",
+      "role": "sealed_benchmark_source",
+      "bytes": 14212,
+      "sha256": "230974082b909e32609aa710f25b204e1a15d4dc7bd89f8832a0515c3cf849b1"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/CORRECTNESS_BINDING.json",
+      "role": "sealed_benchmark_source",
+      "bytes": 1444,
+      "sha256": "51ce57edfcedfdffda7bc4f40f7644e9cb5a49b50ceb699a0b92b22490ac43c0"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/sqlalchemy.py",
+      "role": "sealed_benchmark_source",
+      "bytes": 66312,
+      "sha256": "5ec115163c8c53ba01c34613a9140b4506cd3a38a8280224ea9c21f032743f6a"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76498,
+      "sha256": "6f178d4a6614fed117b5fa59ce7a5466de07d0d0a491607ed392bc22be1f3a0b"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/1/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76542,
+      "sha256": "a4734e7b18fb888b80728545a678fe9572303ce189b965b538f7bd65c0e9b8c1"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/2/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76542,
+      "sha256": "91037fd57f5a8fba05fef8d072f9f020b09add87d3b0fa6342e036fb5177a14f"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/3/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76498,
+      "sha256": "2e03bba931d3af90eacb5cb3bf29a6afe14d3577e32264d63f798741da3cb7d3"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/4/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76498,
+      "sha256": "dff5d1504154b9ba92bac72432df0d3e7284113c729fc11201ff77392d0df472"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/5/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76542,
+      "sha256": "7d262fab060fc15f33f1d024ce88a85578bb4093a0b1533dc15207e883233b16"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/6/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76542,
+      "sha256": "a8e7d4a44ce8bd258448543dbe5533238d71999480ff21ba2dcb6ccee1c317cf"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/7/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76498,
+      "sha256": "485d20337d434b29fb11037d0731d532d1356863ed35d4694e4f20640b3fa21b"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/8/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76500,
+      "sha256": "1c4680e432fcf5b761c20446a5dca3a84a7510c74cccefd53529d0cba4153caa"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/9/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76544,
+      "sha256": "ce1e5c650fc3d27c2bcd7fbd990aa28e7fd4bd4abaef5a590afc9f1c9a72ad70"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/10/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76546,
+      "sha256": "45e821dc172ba9e1b704a171632e5e915d9170a7e799b76db6ab24de094bc752"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/11/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76501,
+      "sha256": "e52d86eacf6e271b96bc05e3d2ef11f1961c9e19d9b1ee35def3e4d4a5be9632"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/12/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76500,
+      "sha256": "0a0616eaf87ca6146752d64f7bfe3add3fc0dc282619ba5176a738b78ec2044c"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/13/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76545,
+      "sha256": "3fa653c95d25d6cac2e08ff3450d12e5dcbb5130240faca3215602a01d7615c7"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/14/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76543,
+      "sha256": "469a66422f2e58b1e1f5b738d346e2a30aa0d12bcd48cae9fe598937053089f8"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/15/stdout.txt",
+      "role": "raw_timing_samples",
+      "bytes": 76499,
+      "sha256": "fa4664a50963080c479f5a7578462c384d90b38f944b2223d970f0d7e8d1f3e5"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/CAPTURE_MANIFEST.json",
+      "role": "schedule_manifest",
+      "bytes": 18182,
+      "sha256": "6009d67980d89db5e264c4b812b7d922e38a577d1a0871c6915fc449e3b21d9f"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/reducer/stdout.json",
+      "role": "reducer_evidence",
+      "bytes": 11984,
+      "sha256": "594b05d9d01060386745c9a1141242eaa3726a3249898dd2e19aa8ba92af2b85"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/resources-before.txt",
+      "role": "schedule_manifest",
+      "bytes": 253,
+      "sha256": "81e35c16d13b5e916f6e7e7fecb6d760f7fa33bf9e90045183738168a535828b"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/resources-after.txt",
+      "role": "schedule_manifest",
+      "bytes": 255,
+      "sha256": "49639d1ccaf649eede8e4915c4e05276415f45454aa8461239c305ec23aa0c6f"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/QUIET_WINDOW.txt",
+      "role": "schedule_manifest",
+      "bytes": 394,
+      "sha256": "e54ffde71efc5a6488fa9d1238d8aabdd7572432eaaa1cf2a5e34d6f37f8f8e7"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/reducer/exit.txt",
+      "role": "reducer_evidence",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "role": "per_process_evidence",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "role": "per_process_evidence",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/schedule-elapsed.txt",
+      "role": "schedule_manifest",
+      "bytes": 3,
+      "sha256": "90d7ec0f0acef104d8b6252794295f661a0149634868d02a1ae0c358099638f5"
+    },
+    {
+      "path": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/schedule-exit.txt",
+      "role": "schedule_manifest",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "recovery-work/search-proposal-review-20261017/FALLBACK_BENCHMARK_TERMINAL_REVIEW.md",
+      "role": "independent_review",
+      "bytes": 4768,
+      "sha256": "d9ba528e9a392befa16bf0abfc8c292605f0050a1872df42e6fc96090f5ae27c"
+    },
+    {
+      "path": "recovery-work/search-proposal-review-20261017/FALLBACK_ORDER_BENCHMARK_V1_REVIEW.md",
+      "role": "independent_review",
+      "bytes": 2831,
+      "sha256": "799aaaa39fb1a5f1b8be8174d19d6fb5a32a7ecb352f31d49ec993ac4c622dcc"
+    },
+    {
+      "path": "recovery-work/search-proposal-review-20261017/FALLBACK_ORDER_TERMINAL_REVIEW.md",
+      "role": "independent_review",
+      "bytes": 2875,
+      "sha256": "2704c87b5d4d182b7a4f650360c893755c58058b513d7d2300142a7842eedde0"
+    },
+    {
+      "path": "recovery-work/search-proposal-review-20261017/FALLBACK_BENCHMARK_RECOMPUTED.json",
+      "role": "independent_review",
+      "bytes": 4697,
+      "sha256": "228520f6bc53df969c396f9f7b64ae7805e469308bc3265ef6915fa851b5b958"
+    },
+    {
+      "path": "recovery-work/search-next-slice-20261017/fallback-order-v1/candidate.diff",
+      "role": "candidate_delta",
+      "bytes": 485,
+      "sha256": "29caa989e9ca1c6ae329d747fcd320983e1c50c01a08cae0b0dc494350b05d88"
+    }
+  ],
+  "unchanged_remote_references": [
+    {
+      "commit": "de70fdd0e747051d29d883bddb4ffd5820491840",
+      "path": "recovery-work/search-next-slice-20261017/runner-v2/DEPENDENCIES.json",
+      "target": "DEPENDENCIES.json",
+      "sha256": "6e46df3839a262b6855efba632c1a0445685a9469f93ea049ba36e14d5422823",
+      "git_blob_sha": "4ce65c01d5d5e1bf7a6fe8f5f7cf121b5dd26d4d",
+      "url": "https://github.com/debgh-workspace/cryptalis-research-lab/blob/de70fdd0e747051d29d883bddb4ffd5820491840/recovery-work/search-next-slice-20261017/runner-v2/DEPENDENCIES.json",
+      "verified_exact_remote_text": true
+    },
+    {
+      "commit": "a7d75f002b40c757705d4de509ba577a5452c85e",
+      "path": "recovery-work/search-next-slice-20261017/benchmark-v2/WORKLOAD.json",
+      "target": "WORKLOAD.json",
+      "sha256": "c518ceb007b13587dc429bcf892da848d19a03ebbb45557eaa8e227dcca75119",
+      "git_blob_sha": "71240b898c8316d11263b4cd0fbf0e267ec931cf",
+      "url": "https://github.com/debgh-workspace/cryptalis-research-lab/blob/a7d75f002b40c757705d4de509ba577a5452c85e/recovery-work/search-next-slice-20261017/benchmark-v2/WORKLOAD.json",
+      "verified_exact_remote_text": true
+    },
+    {
+      "commit": "194ace1c5c9e6da8bf795847603e441e93b0ad00",
+      "path": "recovery-work/search-next-slice-20261017/runner-v2/views/candidate/src/cryptalis/sqlalchemy.py",
+      "target": null,
+      "sha256": "5393819f2f312b9196bd2ffe185713d7d8ce6487eeb0b55b1b4e50cc7baa8395",
+      "git_blob_sha": "c31f941be201b4539f4d8d4690cc1a84ff267b86",
+      "url": "https://github.com/debgh-workspace/cryptalis-research-lab/blob/194ace1c5c9e6da8bf795847603e441e93b0ad00/recovery-work/search-next-slice-20261017/runner-v2/views/candidate/src/cryptalis/sqlalchemy.py",
+      "verified_exact_remote_text": true
+    }
+  ],
+  "source_restore": {
+    "evidence_commit": "e980e4a19a86ed1cc9c199075495726aeac3354a",
+    "receipt_path": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/RECEIPT.json",
+    "parts_commit": "2b5124c47e6b3188f22282af547bdc330eca8abb",
+    "archive_sha256": "1f76f9bf50e7e757430edfe45b5ecb81afee67283675f2465c0d0b102f05822b",
+    "tar_sha256": "8e6c5233a98295872d30cd45bb5c79c27dda6e233ba20eb87497436c8caac50d",
+    "manifest_sha256": "e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c",
+    "overlay_commit": "eed4482d824c87004c6df280a038f0b24ac17d8d",
+    "remote_input_bindings": [
+      {
+        "bytes": 4204,
+        "git_blob_sha": "c7a92b7176d1e2c69ffcff871bf759582dc82340",
+        "local": "PARTS_MANIFEST_EXACT.json",
+        "remote": "recovery/integrated221-focused-20261015/MANIFEST.json",
+        "sha256": "307fdbeaea8bb60c829d77cee11a97c23a3d960ac115c3abb5978c4f885d185f"
+      },
+      {
+        "bytes": 24682,
+        "git_blob_sha": "90298858fc84b6e3b99b826d46e41ceb80c83d59",
+        "local": "BASE_MANIFEST.json",
+        "remote": "experiments/integrated221/VIRTUAL_221_MANIFEST.json",
+        "sha256": "202661a5c2650521bbd4f57164a9e9c2f88803d0eeda3dd8acd88cd9d46a4520"
+      },
+      {
+        "bytes": 24956,
+        "git_blob_sha": "4a406b8d2bee13de7c59b320a5c6d909254303d2",
+        "local": "COMBINED_MANIFEST.json",
+        "remote": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/CANDIDATE_SOURCE_MANIFEST.json",
+        "sha256": "e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c"
+      },
+      {
+        "bytes": 7196,
+        "git_blob_sha": "c5918d2a2a42da1a79d643daf9e7e2a714f5e4d0",
+        "local": "ARCHIVE_REVIEW.md",
+        "remote": "recovery/integrated221-focused-20261015/INDEPENDENT_REVIEW.md",
+        "sha256": "63fc609c7977f621c9db95751249f900869f01992d45bf4489c9fb3b06e4e05b"
+      },
+      {
+        "bytes": 7179,
+        "git_blob_sha": "8e55c6d73235045b746cc98fe6e93649ca69965c",
+        "local": "REMOTE_REVIEW.md",
+        "remote": "cryptalis-executable/reviewer-notes/integrated221-remote-independent-20261015/REVIEW.md",
+        "sha256": "6e3f7db8c8b4071ac683323ed88c6290578a7f1b2112c116ed13b00af7f9df98"
+      },
+      {
+        "bytes": 130938,
+        "git_blob_sha": "83ae69719bdf93613dee0ecc6cd3bb2f45e434ce",
+        "local": "old-focused-parser.py",
+        "remote": "recovery/async-cleanup-focused/restore_authenticated_remote_v1.py",
+        "sha256": "4d5337b8cfa752cb5bd41a2260a6c799c099de43d4cef720dbcb446185d4b0aa"
+      },
+      {
+        "bytes": 5607,
+        "git_blob_sha": "5c2962d4744f75265a6f776d6ff77806ad5c1b09",
+        "local": "overlays/README.md",
+        "remote": "research/doctor-remedy-source221-20261015/overlays/README.md",
+        "sha256": "0101bed8e6cc533e438d9a718281f7f15781fea170de91b788389938798cdcb5"
+      },
+      {
+        "bytes": 17960,
+        "git_blob_sha": "e4559c836655e7957187c25de9e7babe6294c8f9",
+        "local": "overlays/src/cryptalis/cli.py",
+        "remote": "research/doctor-remedy-source221-20261015/overlays/cli.py",
+        "sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409"
+      },
+      {
+        "bytes": 65862,
+        "git_blob_sha": "dfd1fa3438ae557d3d1f6e2d50964a673dc66847",
+        "local": "overlays/src/cryptalis/sqlalchemy.py",
+        "remote": "cryptalis-executable/experiments/orm-flush-diagnostic-state-source-v2-20261016/source/src/cryptalis/sqlalchemy.py",
+        "sha256": "bd36700fd6ee58afdad9b90943ce5b119967fe5ebde14d1f4cacd26c2a8160f1"
+      },
+      {
+        "bytes": 8642,
+        "git_blob_sha": "c9bb9b4f499fd4fe1773a4caa68d74f3b6920048",
+        "local": "overlays/src/cryptalis/_sqlalchemy_transactions.py",
+        "remote": "cryptalis-executable/experiments/orm-flush-diagnostic-state-source-v2-20261016/source/src/cryptalis/_sqlalchemy_transactions.py",
+        "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+      },
+      {
+        "bytes": 15866,
+        "git_blob_sha": "bb212be24a5499155cf7d2c11fbd70394734cb0b",
+        "local": "overlays/docs/doctor.md",
+        "remote": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/source221/docs/doctor.md",
+        "sha256": "f12555c95d267064d0bcbe6407651b81e0cd2fdb96312828de1f718afb23fe76"
+      },
+      {
+        "bytes": 30717,
+        "git_blob_sha": "c1f43549561130379870ceb3ad62a2dea6aceb61",
+        "local": "overlays/docs/lifecycle.md",
+        "remote": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/source221/docs/lifecycle.md",
+        "sha256": "4d1f50ba12cca1eb5d4a6f4c314e36f52ef9f4198d4b911dee7be2e0177931a5"
+      },
+      {
+        "bytes": 6974,
+        "git_blob_sha": "714dc8a43acd1e4d5e79d8f0bf5eae6944c56fd1",
+        "local": "overlays/docs/walkthrough-migration.md",
+        "remote": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/source221/docs/walkthrough-migration.md",
+        "sha256": "811e91fc79fe1c143fd1f9e3a17c586df105356cad28fc14426718c523e2819e"
+      },
+      {
+        "bytes": 4181,
+        "git_blob_sha": "4228ace68c65a005c81b4e3500265b34fae3f272",
+        "local": "overlays/docs/walkthrough-sqlalchemy.md",
+        "remote": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/source221/docs/walkthrough-sqlalchemy.md",
+        "sha256": "2442b3aac7d132ea7cb17ec13a73c80a00e45e9d4c94761688020f2874876bf5"
+      }
+    ],
+    "scope": "source-data-only restoration, no claim view files are individually published"
+  },
+  "source_restore_aliases": [
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/__init__.py",
+      "bytes": 36,
+      "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/__main__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/__main__.py",
+      "bytes": 58,
+      "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_cluster_designation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_cluster_designation.py",
+      "bytes": 6958,
+      "sha256": "c3a2a4f4ef6595939b5285b1009edac6d2221b2cbd3c163032ec7f11f8ae5279"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_doctor_ciphertext.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_doctor_ciphertext.py",
+      "bytes": 4359,
+      "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_doctor_setup.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_doctor_setup.py",
+      "bytes": 10364,
+      "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_experimental_public_delete.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_experimental_public_delete.py",
+      "bytes": 18468,
+      "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_experimental_public_update.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_experimental_public_update.py",
+      "bytes": 10285,
+      "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_legacy_designation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_legacy_designation.py",
+      "bytes": 3689,
+      "sha256": "d2cbc8248613eb75e4b6f32ad56c8696590d6abd265e9425517c25d78ed2d5ab"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_native_text.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_native_text.py",
+      "bytes": 2237,
+      "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_object_comments.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_object_comments.py",
+      "bytes": 13637,
+      "sha256": "25cf4c00173c6de336382ea7e6f0be26e009a32cd2e3ccbfad37032d3a09a0d8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_guard.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_guard.py",
+      "bytes": 4807,
+      "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_search.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_search.py",
+      "bytes": 9557,
+      "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_transactions.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_transactions.py",
+      "bytes": 8642,
+      "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlmodel_support.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlmodel_support.py",
+      "bytes": 2566,
+      "sha256": "c3b30313e0078bf39b16eef15802fb412d5f5ac9dc10938fa4c311fcb9ac449d"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_transition_json.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_transition_json.py",
+      "bytes": 2150,
+      "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/cli.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/cli.py",
+      "bytes": 17960,
+      "sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/__init__.py",
+      "bytes": 58,
+      "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/active_state.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/active_state.py",
+      "bytes": 8925,
+      "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/development_authority.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/development_authority.py",
+      "bytes": 3337,
+      "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/transition.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/transition.py",
+      "bytes": 6485,
+      "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/__init__.py",
+      "bytes": 961,
+      "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_envelope.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_envelope.py",
+      "bytes": 3964,
+      "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_scalar.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_scalar.py",
+      "bytes": 7050,
+      "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_wrap.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_wrap.py",
+      "bytes": 3518,
+      "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_payload_rotation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_payload_rotation.py",
+      "bytes": 5027,
+      "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_rewrap.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_rewrap.py",
+      "bytes": 2708,
+      "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/cf1.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/cf1.py",
+      "bytes": 9977,
+      "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/development_file.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/development_file.py",
+      "bytes": 5207,
+      "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/keys.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/keys.py",
+      "bytes": 14563,
+      "sha256": "ea67be78edbbe7489dd296c57f337fea1dedf84a42e73a6ede2d3aa6d3ab1cae"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/cutover.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/cutover.py",
+      "bytes": 12254,
+      "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/deprotection.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/deprotection.py",
+      "bytes": 33755,
+      "sha256": "de1a3dadd276cfce204c18d74aa62dff3828caff2eef7ef8103f316d4880e6d6"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/doctor.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/doctor.py",
+      "bytes": 11085,
+      "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/__init__.py",
+      "bytes": 79,
+      "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/canonical.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/canonical.py",
+      "bytes": 759,
+      "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/compatibility.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/compatibility.py",
+      "bytes": 24725,
+      "sha256": "ba8ce979234426f0e16961fa065fd54dda7bceb50c7019e2bc5e11b33d092920"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/compiler.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/compiler.py",
+      "bytes": 51172,
+      "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/declaration.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/declaration.py",
+      "bytes": 7156,
+      "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/descriptor.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/descriptor.py",
+      "bytes": 2984,
+      "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/header.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/header.py",
+      "bytes": 5449,
+      "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/parser.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/parser.py",
+      "bytes": 3380,
+      "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/routines.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/routines.py",
+      "bytes": 4219,
+      "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/migration.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/migration.py",
+      "bytes": 54457,
+      "sha256": "94344b2f98e0969d9f8b3d41cc9dca6e7d01a5e785a5b3af33431c41e55d2014"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/sqlalchemy.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/sqlalchemy.py",
+      "bytes": 65862,
+      "sha256": "bd36700fd6ee58afdad9b90943ce5b119967fe5ebde14d1f4cacd26c2a8160f1"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/__init__.py",
+      "bytes": 36,
+      "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/__main__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/__main__.py",
+      "bytes": 58,
+      "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_cluster_designation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_cluster_designation.py",
+      "bytes": 6958,
+      "sha256": "c3a2a4f4ef6595939b5285b1009edac6d2221b2cbd3c163032ec7f11f8ae5279"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_doctor_ciphertext.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_doctor_ciphertext.py",
+      "bytes": 4359,
+      "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_doctor_setup.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_doctor_setup.py",
+      "bytes": 10364,
+      "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_experimental_public_delete.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_experimental_public_delete.py",
+      "bytes": 18468,
+      "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_experimental_public_update.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_experimental_public_update.py",
+      "bytes": 10285,
+      "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_legacy_designation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_legacy_designation.py",
+      "bytes": 3689,
+      "sha256": "d2cbc8248613eb75e4b6f32ad56c8696590d6abd265e9425517c25d78ed2d5ab"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_native_text.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_native_text.py",
+      "bytes": 2237,
+      "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_object_comments.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_object_comments.py",
+      "bytes": 13637,
+      "sha256": "25cf4c00173c6de336382ea7e6f0be26e009a32cd2e3ccbfad37032d3a09a0d8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_guard.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_guard.py",
+      "bytes": 4807,
+      "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_search.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_search.py",
+      "bytes": 9557,
+      "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_transactions.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlalchemy_transactions.py",
+      "bytes": 8642,
+      "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlmodel_support.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_sqlmodel_support.py",
+      "bytes": 2566,
+      "sha256": "c3b30313e0078bf39b16eef15802fb412d5f5ac9dc10938fa4c311fcb9ac449d"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_transition_json.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/_transition_json.py",
+      "bytes": 2150,
+      "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/cli.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/cli.py",
+      "bytes": 17960,
+      "sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/__init__.py",
+      "bytes": 58,
+      "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/active_state.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/active_state.py",
+      "bytes": 8925,
+      "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/development_authority.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/development_authority.py",
+      "bytes": 3337,
+      "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/transition.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/contracts/transition.py",
+      "bytes": 6485,
+      "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/__init__.py",
+      "bytes": 961,
+      "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_envelope.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_envelope.py",
+      "bytes": 3964,
+      "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_scalar.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_scalar.py",
+      "bytes": 7050,
+      "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_wrap.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_candidate_wrap.py",
+      "bytes": 3518,
+      "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_payload_rotation.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_payload_rotation.py",
+      "bytes": 5027,
+      "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_rewrap.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/_rewrap.py",
+      "bytes": 2708,
+      "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/cf1.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/cf1.py",
+      "bytes": 9977,
+      "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/development_file.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/development_file.py",
+      "bytes": 5207,
+      "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/keys.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/crypto/keys.py",
+      "bytes": 14563,
+      "sha256": "ea67be78edbbe7489dd296c57f337fea1dedf84a42e73a6ede2d3aa6d3ab1cae"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/cutover.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/cutover.py",
+      "bytes": 12254,
+      "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/deprotection.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/deprotection.py",
+      "bytes": 33755,
+      "sha256": "de1a3dadd276cfce204c18d74aa62dff3828caff2eef7ef8103f316d4880e6d6"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/doctor.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/doctor.py",
+      "bytes": 11085,
+      "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/__init__.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/__init__.py",
+      "bytes": 79,
+      "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/canonical.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/canonical.py",
+      "bytes": 759,
+      "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/compatibility.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/compatibility.py",
+      "bytes": 24725,
+      "sha256": "ba8ce979234426f0e16961fa065fd54dda7bceb50c7019e2bc5e11b33d092920"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/compiler.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/compiler.py",
+      "bytes": 51172,
+      "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/declaration.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/declaration.py",
+      "bytes": 7156,
+      "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/descriptor.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/descriptor.py",
+      "bytes": 2984,
+      "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/header.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/header.py",
+      "bytes": 5449,
+      "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/parser.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/parser.py",
+      "bytes": 3380,
+      "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/routines.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/manifest/routines.py",
+      "bytes": 4219,
+      "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+    },
+    {
+      "target": "recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/migration.py",
+      "restored_source": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221/src/cryptalis/migration.py",
+      "bytes": 54457,
+      "sha256": "94344b2f98e0969d9f8b3d41cc9dca6e7d01a5e785a5b3af33431c41e55d2014"
+    }
+  ],
+  "capture_restore_aliases": [
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/1/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/1/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/1/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/2/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/2/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/2/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/3/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/3/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/3/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/4/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/4/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/4/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/5/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/5/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/5/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/6/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/6/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/6/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/7/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/7/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/7/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/8/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/8/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/8/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/9/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/9/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/9/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/10/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/10/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/10/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/11/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/11/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/11/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/12/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/12/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/12/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/13/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/13/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/13/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/14/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/14/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/14/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/15/stderr.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/15/exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    },
+    {
+      "target": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/15/after-exit.txt",
+      "source": "persistence-recovery-20261013/search-fallback-order-benchmark-20261017/0/exit.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "meaning": "byte-preserving restoration alias for previously reviewed actual receipt; not a fresh execution assertion"
+    }
+  ],
+  "omitted_receipt_scope": "Individual invocation/stat/hash/readback receipts remain local and are covered by the published independent terminal review, not individually transported in this minimal additive set. This is arithmetic/source restoration, not full raw resource-receipt publication."
+}

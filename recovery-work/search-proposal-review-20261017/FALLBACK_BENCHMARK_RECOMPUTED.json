@@ -1,0 +1,237 @@
+{
+  "rows": [
+    {
+      "cell": "storage-canonical-16",
+      "wall": 0.9140036437965027,
+      "cpu": 0.9134826047620361,
+      "rss": -96,
+      "wallBelow1": 7,
+      "wallAtMost110": 8,
+      "cpuBelow1": 8,
+      "cpuAtMost110": 8
+    },
+    {
+      "cell": "storage-canonical-1024",
+      "wall": 0.9266309535002533,
+      "cpu": 0.9241388522493899,
+      "rss": -96,
+      "wallBelow1": 6,
+      "wallAtMost110": 8,
+      "cpuBelow1": 7,
+      "cpuAtMost110": 8
+    },
+    {
+      "cell": "storage-uppercase-16",
+      "wall": 1.0331424241105602,
+      "cpu": 1.0407939812476323,
+      "rss": -96,
+      "wallBelow1": 2,
+      "wallAtMost110": 7,
+      "cpuBelow1": 3,
+      "cpuAtMost110": 7
+    },
+    {
+      "cell": "storage-uppercase-1024",
+      "wall": 0.9903796632371944,
+      "cpu": 1.008948472514203,
+      "rss": -96,
+      "wallBelow1": 4,
+      "wallAtMost110": 7,
+      "cpuBelow1": 4,
+      "cpuAtMost110": 7
+    },
+    {
+      "cell": "equality-canonical-16",
+      "wall": 0.9430357249690554,
+      "cpu": 0.9345957768756012,
+      "rss": -96,
+      "wallBelow1": 8,
+      "wallAtMost110": 8,
+      "cpuBelow1": 8,
+      "cpuAtMost110": 8
+    },
+    {
+      "cell": "equality-canonical-1024",
+      "wall": 0.9734577513027354,
+      "cpu": 0.9588812912187626,
+      "rss": -96,
+      "wallBelow1": 5,
+      "wallAtMost110": 8,
+      "cpuBelow1": 6,
+      "cpuAtMost110": 8
+    },
+    {
+      "cell": "equality-uppercase-16",
+      "wall": 1.0210345422051095,
+      "cpu": 1.027877800684755,
+      "rss": -96,
+      "wallBelow1": 1,
+      "wallAtMost110": 7,
+      "cpuBelow1": 3,
+      "cpuAtMost110": 7
+    },
+    {
+      "cell": "equality-uppercase-1024",
+      "wall": 1.0268534108763927,
+      "cpu": 1.0249161758878484,
+      "rss": -96,
+      "wallBelow1": 2,
+      "wallAtMost110": 7,
+      "cpuBelow1": 1,
+      "cpuAtMost110": 7
+    }
+  ],
+  "flags": [
+    [
+      0,
+      "equality-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      1,
+      "storage-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      3,
+      "storage-canonical-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      4,
+      "storage-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      6,
+      "equality-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      8,
+      "equality-uppercase-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "equality-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "storage-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "storage-uppercase-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "storage-canonical-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "storage-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "equality-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "equality-uppercase-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      11,
+      "equality-canonical-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      14,
+      "equality-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "equality-uppercase-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "equality-canonical-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "equality-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "storage-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "storage-uppercase-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "storage-canonical-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "storage-canonical-16",
+      "scheduling_or_major_fault"
+    ],
+    [
+      15,
+      "equality-uppercase-1024",
+      "scheduling_or_major_fault"
+    ],
+    [
+      "storage-canonical-1024",
+      "wall",
+      "canonical_benefit_not_established"
+    ],
+    [
+      "storage-uppercase-16",
+      "wall",
+      "fallback_regression_screen"
+    ],
+    [
+      "storage-uppercase-16",
+      "cpu",
+      "fallback_regression_screen"
+    ],
+    [
+      "equality-canonical-1024",
+      "wall",
+      "canonical_benefit_not_established"
+    ],
+    [
+      "equality-canonical-1024",
+      "cpu",
+      "canonical_benefit_not_established"
+    ]
+  ],
+  "exactReducerFlags": true,
+  "exactReducerMedians": true,
+  "status": "HOLD",
+  "flagKinds": {
+    "scheduling_or_major_fault": 23,
+    "canonical_benefit_not_established": 3,
+    "fallback_regression_screen": 2
+  },
+  "majorFaults": 0,
+  "minWall": 54170452,
+  "maxInvoluntary": 8
+}

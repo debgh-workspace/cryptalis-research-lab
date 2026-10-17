@@ -1,0 +1,11 @@
+--- accepted-candidate/sqlalchemy.py
++++ fallback-order-v1/sqlalchemy.py
+@@ -169,7 +169,7 @@
+                 raise AuthenticationFailed()
+             cached = self._tenant_fastpath
+             if (cached is not None and type(tenant) is str and
+-                    self.tenant is cached[0] and tenant == cached[1]):
++                    tenant == cached[1] and self.tenant is cached[0]):
+                 tenant = cached[0]
+             else:
+                 tenant = UUID(tenant)
