@@ -1,0 +1,342 @@
+{
+  "status": "PROSPECTIVE_NOT_EXECUTED",
+  "A": "aaaaaaaa-1111-4111-8111-111111111111",
+  "B": "22222222-2222-4222-8222-222222222222",
+  "observer_scope": "Parsing/control forwarding only; real CF1 requirements in PROPOSAL.md",
+  "cases": [
+    {
+      "id": "canonical",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "uppercase",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "AAAAAAAA-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "hex",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa111141118111111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "braced",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "{aaaaaaaa-1111-4111-8111-111111111111}"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "urn",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "urn:uuid:aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "wrong-tenant",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "22222222-2222-4222-8222-222222222222"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "malformed",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        "not-a-uuid"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "tenant-none",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        null
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "tenant-int",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7,
+        7
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "wrong-point",
+      "setup": "P:tenant=A,keys=keys-A,points=(7,),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        8,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "bad-hex",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        "zz",
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "bad-shape",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        7
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "outer-null",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        null,
+        null
+      ],
+      "expected": {
+        "result": null,
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "outer-null-wrong-scope",
+      "setup": "P:tenant=A,keys=keys-A,points=(),record_codec=int64-be/v1,tenant_codec=uuid16/v1",
+      "row": [
+        null,
+        null,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "rebind-tenant-reject-old",
+      "setup": "Construct P at A; rebind P.tenant to fresh UUID B; keys remain keys-A; observer only",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "rebind-tenant-parse-new",
+      "setup": "Construct P at A; rebind P.tenant to fresh UUID B; keys remain keys-A; observer only, not real-CF1 success",
+      "row": [
+        null,
+        7,
+        "22222222-2222-4222-8222-222222222222"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "22222222-2222-4222-8222-222222222222",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "rebind-equal-distinct",
+      "setup": "Construct P at A object A1; rebind P.tenant to equal distinct UUID A2; assert A1 is not A2",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "restore-original-object",
+      "setup": "Construct P at A1; rebind tenant B; restore tenant A1",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "rebind-keys",
+      "setup": "Construct P at A/keys-A; rebind P.keys=keys-B; observer only, not real-CF1 success",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-B",
+        "payload": null
+      }
+    },
+    {
+      "id": "rebind-points",
+      "setup": "Construct P at A/points=(); rebind P.points=(8,)",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "error": "AuthenticationFailed",
+        "open_text_calls": 0
+      }
+    },
+    {
+      "id": "operation-rebound-after-construction",
+      "setup": "Construct P from operation A; change original operation tenant=B, keys=keys-B, points=(8,); P retains captured fields",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "ambient-operation-changed",
+      "setup": "Construct P from operation A; set ambient _operation to B; invoke P; restore ContextVar token",
+      "row": [
+        null,
+        7,
+        "aaaaaaaa-1111-4111-8111-111111111111"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "aaaaaaaa-1111-4111-8111-111111111111",
+        "record": 7,
+        "keys": "keys-A",
+        "payload": null
+      }
+    },
+    {
+      "id": "new-processor-B",
+      "setup": "Construct distinct Q from operation B/keys-B; interleave P(A), Q(B), P(A) and assert each literal outcome",
+      "row": [
+        null,
+        7,
+        "22222222-2222-4222-8222-222222222222"
+      ],
+      "expected": {
+        "open_text_calls": 1,
+        "tenant": "22222222-2222-4222-8222-222222222222",
+        "record": 7,
+        "keys": "keys-B",
+        "payload": null
+      }
+    }
+  ]
+}
