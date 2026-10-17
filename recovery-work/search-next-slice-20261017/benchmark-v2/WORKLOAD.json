@@ -1,0 +1,94 @@
+{
+  "cells": [
+    {
+      "id": "storage-canonical-16",
+      "payload_bytes": 16,
+      "representation": "storage",
+      "tenant_form": "canonical"
+    },
+    {
+      "id": "storage-canonical-1024",
+      "payload_bytes": 1024,
+      "representation": "storage",
+      "tenant_form": "canonical"
+    },
+    {
+      "id": "storage-uppercase-16",
+      "payload_bytes": 16,
+      "representation": "storage",
+      "tenant_form": "uppercase"
+    },
+    {
+      "id": "storage-uppercase-1024",
+      "payload_bytes": 1024,
+      "representation": "storage",
+      "tenant_form": "uppercase"
+    },
+    {
+      "id": "equality-canonical-16",
+      "payload_bytes": 16,
+      "representation": "equality",
+      "tenant_form": "canonical"
+    },
+    {
+      "id": "equality-canonical-1024",
+      "payload_bytes": 1024,
+      "representation": "equality",
+      "tenant_form": "canonical"
+    },
+    {
+      "id": "equality-uppercase-16",
+      "payload_bytes": 16,
+      "representation": "equality",
+      "tenant_form": "uppercase"
+    },
+    {
+      "id": "equality-uppercase-1024",
+      "payload_bytes": 1024,
+      "representation": "equality",
+      "tenant_form": "uppercase"
+    }
+  ],
+  "not_claimed": [
+    "DB",
+    "service latency",
+    "production",
+    "independent-host",
+    "SA20",
+    "installed-artifact",
+    "provider custody",
+    "statistical significance"
+  ],
+  "scope": "same-host-SA21-noDB-realCF1-ReadText",
+  "screen": {
+    "canonical_improved_pairs_min": 7,
+    "canonical_median_ratio_max": 0.98,
+    "fallback_median_ratio_max": 1.03,
+    "fallback_pairs_under_1_10_min": 7,
+    "involuntary_switch_max": 2,
+    "max_rss_regression_kib": 8192,
+    "minimum_wall_ns": 50000000,
+    "relative_mad_max": 0.1,
+    "wall_cpu_gap_max": 0.1
+  },
+  "sequence": [
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline"
+  ],
+  "timed_calls": 4096,
+  "warmup_calls": 128
+}
