@@ -1,0 +1,112 @@
+{
+  "status": "PASS_EXACT_ACQUISITION_ONLY",
+  "commit": "2b5124c47e6b3188f22282af547bdc330eca8abb",
+  "repository": "debgh-workspace/cryptalis-research-lab",
+  "parts": [
+    {
+      "name": "part-01.bin",
+      "bytes": 96000,
+      "sha256": "46771b4bcb5fc4709dfb9cd74360a8d4fa8ba238093f7d2e67fe845faf0ee448",
+      "git_blob_sha": "ed725eb92accba410548123f51d96b89bca90e6c"
+    },
+    {
+      "name": "part-02.bin",
+      "bytes": 96000,
+      "sha256": "cbf200f7b3f1feab213c2fe375425ed0d5e93048287df1f491a0662cc2af2f3c",
+      "git_blob_sha": "04694d5d6c72738a844809749e091b421d8a4894"
+    },
+    {
+      "name": "part-03.bin",
+      "bytes": 96000,
+      "sha256": "e8b80afb71130adaa3552563ac48e92a978326bc8880079678954bf01f4fb96f",
+      "git_blob_sha": "d8989270bde9622ed05583fce0a4c86e5da43c3e"
+    },
+    {
+      "name": "part-04.bin",
+      "bytes": 96000,
+      "sha256": "baffef44f5545892f0e75492a270ce37eac38dc9e2dcefdd68c5e3263cf605ae",
+      "git_blob_sha": "50ac11f7f166d41ff8b190e4ccba476b0a841ab3"
+    },
+    {
+      "name": "part-05.bin",
+      "bytes": 96000,
+      "sha256": "a5795006e167bcb939b1cdd92f40591770cb2ef9b5888def930d296a81252dfb",
+      "git_blob_sha": "f4c77d113988ad3bd7caaae0e33faf81021ceb5e"
+    },
+    {
+      "name": "part-06.bin",
+      "bytes": 96000,
+      "sha256": "b5305a3d8385dc7ead1281dd9407e0f37271e74f7ce67e32cfba65a1c7d2c323",
+      "git_blob_sha": "5c2c310e021873cf1b441ffe2ebf5758807ca8aa"
+    },
+    {
+      "name": "part-07.bin",
+      "bytes": 96000,
+      "sha256": "e205c7f2028882a43d7285871d095e52e203f909b679434adbadd07de724283b",
+      "git_blob_sha": "f21a041f4e8821ad78f650cfd182aa05636538c7"
+    },
+    {
+      "name": "part-08.bin",
+      "bytes": 96000,
+      "sha256": "fc9511c4bbaa42dea4183409a8272fe4272f6602df5fa3968d022d57c74cc484",
+      "git_blob_sha": "e89159b317ad92b6eaaaed7dcd9683bf297ad229"
+    },
+    {
+      "name": "part-09.bin",
+      "bytes": 96000,
+      "sha256": "cb667547c37019a07bff39c3a09b91b5ef6b8b389a9178a06e32b3b94c0b2518",
+      "git_blob_sha": "babc930d36c14f36128597d26ab235176ec506a5"
+    },
+    {
+      "name": "part-10.bin",
+      "bytes": 96000,
+      "sha256": "2c9cc4173247940f17abc16a4a3fae4e6758be73d523da2c41d33b9ba44c7c10",
+      "git_blob_sha": "f65b347234fa3646e3259c12ca9314870d6ff401"
+    },
+    {
+      "name": "part-11.bin",
+      "bytes": 96000,
+      "sha256": "fc548a7395522594488306cfe6814fb685961f6967d8159025ed9a8a644d5db5",
+      "git_blob_sha": "0398f2f6589595a60c67b715d1b594961928da66"
+    },
+    {
+      "name": "part-12.bin",
+      "bytes": 96000,
+      "sha256": "5d1c47c4dc34144129b458d7ec6205280908443cdaee5eea608a18edf4dee912",
+      "git_blob_sha": "ce7fdea7e5842cf044ec03c7abe10de814148262"
+    },
+    {
+      "name": "part-13.bin",
+      "bytes": 96000,
+      "sha256": "ee19bbbb37a9bc6ab3adc4d1a50973a453afc0451d13963d111fc886e6f48dea",
+      "git_blob_sha": "750228b948e4c6860e4d480bb685c02511bd3f2e"
+    },
+    {
+      "name": "part-14.bin",
+      "bytes": 96000,
+      "sha256": "2010c4b9c6be00b3e29582a38bae275bc37b8d3874088160730a6193880a0ca5",
+      "git_blob_sha": "5a4b0ec24e2e98819e60523f43d1b343cbf552de"
+    },
+    {
+      "name": "part-15.bin",
+      "bytes": 96000,
+      "sha256": "480ed8a40b3c06ac4b86dc91fa65f45123eb4f2b656873b3cf523ebd14cca1d5",
+      "git_blob_sha": "9e8ab100c36a5b725b54a45d9f4372691a526355"
+    },
+    {
+      "name": "part-16.bin",
+      "bytes": 96000,
+      "sha256": "1f794dbef361508eff8c7f0b540c31b5a400fbbe47653acbdc6d0365c2868df5",
+      "git_blob_sha": "01883d0f600cb1d4f839b9db25e512488794a456"
+    },
+    {
+      "name": "part-17.bin",
+      "bytes": 75936,
+      "sha256": "4241f2b28680fd9c13f2e0b20d21695b1227f940e54810a12637ac29612e381b",
+      "git_blob_sha": "92559af2c4c46142e9a650c845a259217143a450"
+    }
+  ],
+  "archive_bytes": 1611936,
+  "archive_sha256": "1f76f9bf50e7e757430edfe45b5ecb81afee67283675f2465c0d0b102f05822b",
+  "scope": "Opaque acquisition, strict base64 decode, exact perpart and aggregate hashes; no decompression/extraction/product execution"
+}
