@@ -1,0 +1,10 @@
+--- a/src/cryptalis/migration.py
++++ b/src/cryptalis/migration.py
+@@ -41,4 +41,7 @@
+         cleanup = ''.join(f' cleanup={stage}:{cause}:{state or "UNKNOWN"};'
+                           for stage,cause,state in self.cleanup_errors)
+         remedy = {
++            'operation_aborted': ' This forward identity cannot be resumed. Preserve the retained journal and original artifact. A different operation identity does not authorize reuse or replacement of that journal; forward-successor integration is not implemented.',
++            'journal_identity_mismatch': ' Preserve the journal and authenticated current artifact. Do not delete, relabel or replace a journal row to make this plan fit; the mismatch does not authorize another operation or a successor.',
++            'database_effect_requires_inspection': ' A connection or COMMIT acknowledgement failure does not establish rollback or completion. Preserve the original attempt evidence and current external policy. Do not blindly repeat the operation or infer completion from an empty queue; no native ambiguous-COMMIT reconciler is implemented.',
+             'legacy_profile_creation_disabled': ' New plans require the versioned native-designation inventory. Omit preserve_cluster_designation or set it to True. Existing artifact readers and safe recovery remain available.',
