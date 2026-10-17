@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "193d52daa50cd7e41fb012bab15485b0bd0048e2",
+  "latest_verified_remote_commit": "89e19f3d9d463cfe6d04346d0858f89e4df7294e",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
   "current_experiment": "Exact combined221 source restored after workspace rollback; new portable checkpoint being prepared. Installed environments absent; no new runtime or DB test.",
   "s5_remote_byte_restore_files": 3579,
@@ -1970,5 +1970,14 @@
       "G-POLICY": "UNKNOWN",
       "G-RELEASE": "UNKNOWN"
     }
+  },
+  "engineering_update_20261017_1453": {
+    "diagnostic_module_pair": "Accepted genuine module20baseline+20candidate;6message-only delta;644preservation each",
+    "packaging": "OriginalV3FAIL retained afterfirstsdist; separatefourbuildcontinuation completed0/after0/700closure, independentartifactacceptance pending",
+    "nullsafe_advisory": "Accepted scanner6methods and directreport4methods GREEN; baseline14 and1 intendedassertions;312closure each. Source/test checkpoint89e19f3d9d463cfe6d04346d0858f89e4df7294e exactremote verified",
+    "next_composition": "222files source-only accepted;notmaterialized/integrated",
+    "legacy_guidance": "isolatedmessageonly derivative;baseline5cases2expectedRED3PASS actual,independentreviewpending",
+    "all_seven_qualification_gates": "UNKNOWN",
+    "preview_selection": "unchanged"
   }
 }
