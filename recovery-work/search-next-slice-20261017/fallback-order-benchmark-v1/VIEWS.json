@@ -1,0 +1,436 @@
+{
+  "baseline": [
+    {
+      "bytes": 36,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/__init__.py",
+      "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+    },
+    {
+      "bytes": 58,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/__main__.py",
+      "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+    },
+    {
+      "bytes": 6958,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_cluster_designation.py",
+      "sha256": "c3a2a4f4ef6595939b5285b1009edac6d2221b2cbd3c163032ec7f11f8ae5279"
+    },
+    {
+      "bytes": 4359,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_doctor_ciphertext.py",
+      "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+    },
+    {
+      "bytes": 10364,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_doctor_setup.py",
+      "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+    },
+    {
+      "bytes": 18468,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_experimental_public_delete.py",
+      "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+    },
+    {
+      "bytes": 10285,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_experimental_public_update.py",
+      "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+    },
+    {
+      "bytes": 3689,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_legacy_designation.py",
+      "sha256": "d2cbc8248613eb75e4b6f32ad56c8696590d6abd265e9425517c25d78ed2d5ab"
+    },
+    {
+      "bytes": 2237,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_native_text.py",
+      "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+    },
+    {
+      "bytes": 13637,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_object_comments.py",
+      "sha256": "25cf4c00173c6de336382ea7e6f0be26e009a32cd2e3ccbfad37032d3a09a0d8"
+    },
+    {
+      "bytes": 4807,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_guard.py",
+      "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+    },
+    {
+      "bytes": 9557,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_search.py",
+      "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+    },
+    {
+      "bytes": 8642,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlalchemy_transactions.py",
+      "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+    },
+    {
+      "bytes": 2566,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_sqlmodel_support.py",
+      "sha256": "c3b30313e0078bf39b16eef15802fb412d5f5ac9dc10938fa4c311fcb9ac449d"
+    },
+    {
+      "bytes": 2150,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/_transition_json.py",
+      "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+    },
+    {
+      "bytes": 17960,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/cli.py",
+      "sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409"
+    },
+    {
+      "bytes": 58,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/__init__.py",
+      "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+    },
+    {
+      "bytes": 8925,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/active_state.py",
+      "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+    },
+    {
+      "bytes": 3337,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/development_authority.py",
+      "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+    },
+    {
+      "bytes": 6485,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/contracts/transition.py",
+      "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+    },
+    {
+      "bytes": 961,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/__init__.py",
+      "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+    },
+    {
+      "bytes": 3964,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_envelope.py",
+      "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+    },
+    {
+      "bytes": 7050,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_scalar.py",
+      "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+    },
+    {
+      "bytes": 3518,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_candidate_wrap.py",
+      "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+    },
+    {
+      "bytes": 5027,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_payload_rotation.py",
+      "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+    },
+    {
+      "bytes": 2708,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/_rewrap.py",
+      "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+    },
+    {
+      "bytes": 9977,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/cf1.py",
+      "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+    },
+    {
+      "bytes": 5207,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/development_file.py",
+      "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+    },
+    {
+      "bytes": 14563,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/crypto/keys.py",
+      "sha256": "ea67be78edbbe7489dd296c57f337fea1dedf84a42e73a6ede2d3aa6d3ab1cae"
+    },
+    {
+      "bytes": 12254,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/cutover.py",
+      "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+    },
+    {
+      "bytes": 33755,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/deprotection.py",
+      "sha256": "de1a3dadd276cfce204c18d74aa62dff3828caff2eef7ef8103f316d4880e6d6"
+    },
+    {
+      "bytes": 11085,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/doctor.py",
+      "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+    },
+    {
+      "bytes": 79,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/__init__.py",
+      "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+    },
+    {
+      "bytes": 759,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/canonical.py",
+      "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+    },
+    {
+      "bytes": 24725,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/compatibility.py",
+      "sha256": "ba8ce979234426f0e16961fa065fd54dda7bceb50c7019e2bc5e11b33d092920"
+    },
+    {
+      "bytes": 51172,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/compiler.py",
+      "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+    },
+    {
+      "bytes": 7156,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/declaration.py",
+      "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+    },
+    {
+      "bytes": 2984,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/descriptor.py",
+      "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+    },
+    {
+      "bytes": 5449,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/header.py",
+      "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+    },
+    {
+      "bytes": 3380,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/parser.py",
+      "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+    },
+    {
+      "bytes": 4219,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/manifest/routines.py",
+      "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+    },
+    {
+      "bytes": 54457,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/migration.py",
+      "sha256": "94344b2f98e0969d9f8b3d41cc9dca6e7d01a5e785a5b3af33431c41e55d2014"
+    },
+    {
+      "bytes": 65862,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/baseline/src/cryptalis/sqlalchemy.py",
+      "sha256": "bd36700fd6ee58afdad9b90943ce5b119967fe5ebde14d1f4cacd26c2a8160f1"
+    }
+  ],
+  "candidate": [
+    {
+      "bytes": 36,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/__init__.py",
+      "sha256": "c1a82f9f958187e4b5423d11df5a035b17d75b34a0947af6be4aac436cd2fed2"
+    },
+    {
+      "bytes": 58,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/__main__.py",
+      "sha256": "9967032819ce6f18e02a40d033958d5f4f7c328faf8693bc07ecc42a1a525707"
+    },
+    {
+      "bytes": 6958,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_cluster_designation.py",
+      "sha256": "c3a2a4f4ef6595939b5285b1009edac6d2221b2cbd3c163032ec7f11f8ae5279"
+    },
+    {
+      "bytes": 4359,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_doctor_ciphertext.py",
+      "sha256": "42e9424fbe55e982463032668a9365bed2c796714ff17649da2adf725fa6e755"
+    },
+    {
+      "bytes": 10364,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_doctor_setup.py",
+      "sha256": "6637ff4aee2b4ac27628d56ea9b73ad5e2380782eebc0bba23192c3eff1583e6"
+    },
+    {
+      "bytes": 18468,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_experimental_public_delete.py",
+      "sha256": "074c0e41cd728ec5e59bb20665b22bc2a2cf6d1b51d5b5dcca0b8ee262126270"
+    },
+    {
+      "bytes": 10285,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_experimental_public_update.py",
+      "sha256": "bfd2e84e30acab549f7b221110b7bec3aa150bc16084669ea32a462a4e8c20c3"
+    },
+    {
+      "bytes": 3689,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_legacy_designation.py",
+      "sha256": "d2cbc8248613eb75e4b6f32ad56c8696590d6abd265e9425517c25d78ed2d5ab"
+    },
+    {
+      "bytes": 2237,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_native_text.py",
+      "sha256": "39460e5f75f72b15c8f98c5b4c333a18a432668990f31bc80f0c6887c1bbd170"
+    },
+    {
+      "bytes": 13637,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_object_comments.py",
+      "sha256": "25cf4c00173c6de336382ea7e6f0be26e009a32cd2e3ccbfad37032d3a09a0d8"
+    },
+    {
+      "bytes": 4807,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_guard.py",
+      "sha256": "e4dfb340fadb36ba2544267e714e2414c465bf64313ae6b27c058d1da4c7f819"
+    },
+    {
+      "bytes": 9557,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_search.py",
+      "sha256": "857bb89d2f0aae0dc8b41f7c14bcc9dcd5285640fbe0969fbd8421ef2059ee63"
+    },
+    {
+      "bytes": 8642,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlalchemy_transactions.py",
+      "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+    },
+    {
+      "bytes": 2566,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_sqlmodel_support.py",
+      "sha256": "c3b30313e0078bf39b16eef15802fb412d5f5ac9dc10938fa4c311fcb9ac449d"
+    },
+    {
+      "bytes": 2150,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/_transition_json.py",
+      "sha256": "2110f79fc1f38500daaaa2da814224afda9a9a92a5e8e776420d9168736d8a19"
+    },
+    {
+      "bytes": 17960,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/cli.py",
+      "sha256": "060cb66057f66c6d22c2b455bfba918545a3fabc251e72a30ab8fbfe61b0f409"
+    },
+    {
+      "bytes": 58,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/__init__.py",
+      "sha256": "7a621ddfa3ed2dd543a3495b8cedaed3f892fc6b1fae0b6e8d04285741bd8660"
+    },
+    {
+      "bytes": 8925,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/active_state.py",
+      "sha256": "b22608114fda5f49b2fa054fef24763bc9735c37612edfce0b13e16ca0df7532"
+    },
+    {
+      "bytes": 3337,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/development_authority.py",
+      "sha256": "1fe8519fe06fd0121829b92e04f1b5be2b8b72e39f3b8eecc3d60b6e168810d7"
+    },
+    {
+      "bytes": 6485,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/contracts/transition.py",
+      "sha256": "407c8028827ac7660cf6c4d3d4cfae30ca2dacf69ca80749e4e52f07d5c3d923"
+    },
+    {
+      "bytes": 961,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/__init__.py",
+      "sha256": "15ab27443d10863330631cf53c48e5643934919e470f9e2138db7f59434befc2"
+    },
+    {
+      "bytes": 3964,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_envelope.py",
+      "sha256": "9c28cb84a85123130328b2273eb27786a95f7953a41f0ec27f1c11100e28e55f"
+    },
+    {
+      "bytes": 7050,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_scalar.py",
+      "sha256": "b97a21a29b4bc9453af8c4c0a8f22b4860892b85854b5d1196ebca2f5094269a"
+    },
+    {
+      "bytes": 3518,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_candidate_wrap.py",
+      "sha256": "18cd89777178a5938848c51d47b48603dab902f57e83a6b330a8643f92748dc4"
+    },
+    {
+      "bytes": 5027,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_payload_rotation.py",
+      "sha256": "eb1117e9f03710bcd04d4139c181930102573c5f3de7f9167a7178c2660c295e"
+    },
+    {
+      "bytes": 2708,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/_rewrap.py",
+      "sha256": "797d1789c983e8c4eba36a792c8d4b5c00cba734bd25b61d6a970f1711be734b"
+    },
+    {
+      "bytes": 9977,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/cf1.py",
+      "sha256": "d74abd2558023bf5ce1598fba0b61bb27198623dc56fb94ace24753531705278"
+    },
+    {
+      "bytes": 5207,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/development_file.py",
+      "sha256": "12e3ace1bf41a551c3ce98719c1b6f06aa004125afb79f72eed1e746f6b858a4"
+    },
+    {
+      "bytes": 14563,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/crypto/keys.py",
+      "sha256": "ea67be78edbbe7489dd296c57f337fea1dedf84a42e73a6ede2d3aa6d3ab1cae"
+    },
+    {
+      "bytes": 12254,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/cutover.py",
+      "sha256": "bef95a5d97b256ea1fa56565fcb9e1a1d2786748757777cf366b453d3cf42783"
+    },
+    {
+      "bytes": 33755,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/deprotection.py",
+      "sha256": "de1a3dadd276cfce204c18d74aa62dff3828caff2eef7ef8103f316d4880e6d6"
+    },
+    {
+      "bytes": 11085,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/doctor.py",
+      "sha256": "c2f4e7523ffe496bd8d0bac44d541c24bf532eea78e8cd42823014dae6875a72"
+    },
+    {
+      "bytes": 79,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/__init__.py",
+      "sha256": "d2dc8653181d66161df9d9eb29ea79fb36b38fd93848d4da4a25184cda6885cd"
+    },
+    {
+      "bytes": 759,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/canonical.py",
+      "sha256": "6fe7e3d22cece14e5d85de912acdaf782a5421bfaa5c4dd796f78ab5bd4c2ec8"
+    },
+    {
+      "bytes": 24725,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/compatibility.py",
+      "sha256": "ba8ce979234426f0e16961fa065fd54dda7bceb50c7019e2bc5e11b33d092920"
+    },
+    {
+      "bytes": 51172,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/compiler.py",
+      "sha256": "dca174cba23517abfcb03e8a1df7ef12f9f7e1171b765e3c1b2da26edb23951b"
+    },
+    {
+      "bytes": 7156,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/declaration.py",
+      "sha256": "ea4162c8686f46ad8fe1ffdd1500186c55a3f4eee861469e64de603dca79d35b"
+    },
+    {
+      "bytes": 2984,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/descriptor.py",
+      "sha256": "739d0438451c47746850c6aa488add4cfd7782ddeebd743741cccd290d2ce20d"
+    },
+    {
+      "bytes": 5449,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/header.py",
+      "sha256": "6e450d8565e3d7c19ecedd6c6b3120715ea5c7ee3b1ee439fef9e5080bb5eb6a"
+    },
+    {
+      "bytes": 3380,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/parser.py",
+      "sha256": "47cd75cc2ca611fe186d36d5d046317b0746714945c11fd2f84917d2f1020448"
+    },
+    {
+      "bytes": 4219,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/manifest/routines.py",
+      "sha256": "aad088b76dc9f2a16604d80d1210d80b99e9efb691948b0392bfcd881f73c4b8"
+    },
+    {
+      "bytes": 54457,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/migration.py",
+      "sha256": "94344b2f98e0969d9f8b3d41cc9dca6e7d01a5e785a5b3af33431c41e55d2014"
+    },
+    {
+      "bytes": 66312,
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-next-slice-20261017/fallback-order-benchmark-v1/views/candidate/src/cryptalis/sqlalchemy.py",
+      "sha256": "5ec115163c8c53ba01c34613a9140b4506cd3a38a8280224ea9c21f032743f6a"
+    }
+  ]
+}

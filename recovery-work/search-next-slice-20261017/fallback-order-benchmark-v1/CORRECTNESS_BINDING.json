@@ -1,0 +1,27 @@
+{
+  "runner_v2_source_seal": "4747b053405eafe60a656f95adda95ea483bc3d3cfd676570517206d0e85059c",
+  "reviews": [
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-proposal-review-20261017/BASELINE_TERMINAL_REVIEW.md",
+      "bytes": 4329,
+      "sha256": "6a8ad808705be2e8a99bb79ee3423e52451bfb4ce11f1e7dc337bbeb6dc9b85f"
+    },
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-proposal-review-20261017/CANDIDATE_TERMINAL_REVIEW.md",
+      "bytes": 2846,
+      "sha256": "523a4b66121b41d27c518abd4c53f7a8815b03b2d473488eb4cad156deee94f4"
+    },
+    {
+      "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-proposal-review-20261017/NEGATIVE_CONTROLS_TERMINAL_REVIEW.md",
+      "bytes": 6077,
+      "sha256": "ff8da77c702b72018849f81f3d1fcf11fb6f6a16aae82b409233340cb4bd6797"
+    }
+  ],
+  "scope": "new candidate-only25-method/448-closure accepted result; predecessor baseline and mutant reviews remain historical, not newly executed successor controls; original baseline resource-record limitation preserved",
+  "fallback_order_runner_source_seal": "763819ac3068ce8fce5a58af757c9c2a0a82c969579da03ceb381c069bee0c1b",
+  "successor_candidate_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/recovery-work/search-proposal-review-20261017/FALLBACK_ORDER_TERMINAL_REVIEW.md",
+    "bytes": 2875,
+    "sha256": "2704c87b5d4d182b7a4f650360c893755c58058b513d7d2300142a7842eedde0"
+  }
+}
