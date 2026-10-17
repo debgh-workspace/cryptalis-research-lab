@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "773685ce330b66fb649eba22c2c61e0a32d3994f",
+  "latest_verified_remote_commit": "b389fbf74650b0eca98199b14ba5ebacd9a33909",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
   "current_experiment": "Caller-owned cleanup-state correction: both profiles independently accepted in isolated no-DB unit views; not promoted.",
   "s5_remote_byte_restore_files": 3579,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-17T01:30:00Z",
-  "current_operation": "Publish exact unit evidence and prepare isolated successor validation; native fixture permission pending.",
+  "updated_utc": "2026-10-17T03:10:00Z",
+  "current_operation": "State unit slice accepted and source restore verified; search bootstrap namespace policy reconciliation remains source-only, native regression ACL pending.",
   "notes": "All 34 objectives active; all seven qualification gates UNKNOWN. Historical state preserved in recovery-state-before-flush-unit-20261016-1059.json.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "773685ce330b66fb649eba22c2c61e0a32d3994f",
+  "latest_verified_remote_head": "b389fbf74650b0eca98199b14ba5ebacd9a33909",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -1823,5 +1823,15 @@
     "source_and_dependency_preservation": true,
     "selected_preview_changed": false,
     "native_acl_permission": "PENDING"
+  },
+  "cleanup_state_recovery_20261017": {
+    "recovery_commit": "18d22371b45dea1af5490add004e2ca67d9d020a",
+    "source_files": 221,
+    "bytes": 4451697,
+    "kind": "Reverified existing frozen base plus freshly root-fetched exact remote two-file overlay",
+    "raw_result_commit": "b389fbf74650b0eca98199b14ba5ebacd9a33909",
+    "raw_result_files": 4,
+    "full_remote_runtime_closure_archive": false,
+    "environment_reproduction": false
   }
 }
