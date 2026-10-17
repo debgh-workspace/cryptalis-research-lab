@@ -1,0 +1,27 @@
+{
+  "schema": "combined222-research-wheel-v1",
+  "source_files": 222,
+  "source_bytes": 4469599,
+  "wheel": {
+    "path": "cryptalis-0.1.0-py3-none-any.whl",
+    "bytes": 141600,
+    "sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8"
+  },
+  "sdist": {
+    "bytes": 151115,
+    "sha256": "1d647b06f61550b2220937c4642926b91ff16afb3ef5be3a031d23c2b4084a9c",
+    "publication": "Not included; compressed-source upload approvals remain pending"
+  },
+  "reproducibility": {
+    "same_host_identical_wheels": 3,
+    "same_host_identical_sdists": 2
+  },
+  "accepted_source_boundaries": {
+    "report_methods": 4,
+    "genuine_module_cases": 5
+  },
+  "wheel_origin_runtime": "pending separate selection",
+  "selected_preview": "unchanged",
+  "production_gates": "all seven UNKNOWN",
+  "packaging_review_sha256": "63ba68f1753cda12dad6f399901ca0530f7e49077f9a715a934805e7519f8605"
+}

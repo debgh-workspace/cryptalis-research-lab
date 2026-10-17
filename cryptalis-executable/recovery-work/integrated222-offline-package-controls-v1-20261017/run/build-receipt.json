@@ -1,0 +1,149 @@
+{
+  "artifacts": [
+    {
+      "bytes": 151115,
+      "kind": "sdist-1",
+      "sha256": "1d647b06f61550b2220937c4642926b91ff16afb3ef5be3a031d23c2b4084a9c"
+    },
+    {
+      "bytes": 151115,
+      "kind": "sdist-2",
+      "sha256": "1d647b06f61550b2220937c4642926b91ff16afb3ef5be3a031d23c2b4084a9c"
+    },
+    {
+      "bytes": 141600,
+      "kind": "direct-wheel",
+      "sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8"
+    },
+    {
+      "bytes": 141600,
+      "kind": "repeat-wheel",
+      "sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8"
+    },
+    {
+      "bytes": 141600,
+      "kind": "roundtrip-wheel",
+      "sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+        "build",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/source-1",
+        "--offline",
+        "--no-sources",
+        "--no-config",
+        "--no-cache",
+        "--sdist",
+        "--out-dir",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/sdist-1"
+      ],
+      "exit_code": 0,
+      "label": "sdist-1"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+        "build",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/source-2",
+        "--offline",
+        "--no-sources",
+        "--no-config",
+        "--no-cache",
+        "--sdist",
+        "--out-dir",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/sdist-2"
+      ],
+      "exit_code": 0,
+      "label": "sdist-2"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+        "build",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/source-1",
+        "--offline",
+        "--no-sources",
+        "--no-config",
+        "--no-cache",
+        "--wheel",
+        "--out-dir",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/direct-wheel"
+      ],
+      "exit_code": 0,
+      "label": "direct-wheel"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+        "build",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/source-2",
+        "--offline",
+        "--no-sources",
+        "--no-config",
+        "--no-cache",
+        "--wheel",
+        "--out-dir",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/repeat-wheel"
+      ],
+      "exit_code": 0,
+      "label": "repeat-wheel"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/uv",
+        "build",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/extracted/cryptalis-0.1.0",
+        "--offline",
+        "--no-sources",
+        "--no-config",
+        "--no-cache",
+        "--wheel",
+        "--out-dir",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/roundtrip-wheel"
+      ],
+      "exit_code": 0,
+      "label": "roundtrip-wheel"
+    }
+  ],
+  "completed_output_after": [
+    {
+      "complete_equal": true,
+      "directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/sdist-1"
+    },
+    {
+      "complete_equal": true,
+      "directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/sdist-2"
+    },
+    {
+      "complete_equal": true,
+      "directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/direct-wheel"
+    },
+    {
+      "complete_equal": true,
+      "directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/repeat-wheel"
+    },
+    {
+      "complete_equal": true,
+      "directory": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/roundtrip-wheel"
+    }
+  ],
+  "owned_after": [
+    {
+      "complete_equal": true,
+      "tree": "source-1"
+    },
+    {
+      "complete_equal": true,
+      "tree": "source-2"
+    },
+    {
+      "complete_equal": true,
+      "tree": "extracted"
+    }
+  ],
+  "prior_attempt_remains": "FAIL",
+  "status": "PASS_SAME_HOST_PACKAGING_PENDING_INDEPENDENT_REVIEW"
+}
