@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_IMMUTABLE_REMOTE_WHEEL_RESTORED_INERT",
+  "commit": "4dd18360c470b99e87567295aff4f22778847ca6",
+  "repository_path": "preview/artifacts/composite230-v1-20261017/cryptalis-0.1.0-py3-none-any.whl",
+  "bytes": 150261,
+  "sha256": "534e61aa90279fc084b164a07fbc2959d641585778914460d3f0730544e91507",
+  "executed": false,
+  "scope": "wheel bytes only; no source/dependency/native restore or qualification"
+}

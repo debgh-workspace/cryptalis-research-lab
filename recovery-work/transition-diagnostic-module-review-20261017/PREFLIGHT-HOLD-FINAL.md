@@ -1,0 +1,3 @@
+# Preflight HOLD final binding
+
+The frozen review PREFLIGHT-CONNECTION-DESIGN-V1.md (SHA256 12a67bdcf8969a16c4fafb03ac84a7c8adb8acacceee2bf9a282e540780c6fc4) is supplemented by the independently read/hash-verified author REVIEW_ADDENDUM.md at recovery-work/preflight-connection-admission-design-v1-20261017, SHA256 c2cf0d6a00813c89324e43aa1315a6e4a3927fd4d4a01f791c00ff95f558695a. It accurately records internal get_defaults and bound-classmethod identity qualifications. FINAL_POLICY_ADMITTED remains false. No further wrapper implementation, speculative policy change or connection is selected. Target/ordering design acceptance does not remove this pre-network HOLD.

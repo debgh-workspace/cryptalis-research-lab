@@ -129,3 +129,11 @@ Standalone read-only progress inspector has68 accepted recordingconnection cases
 - Newly source-confirmed fixture safety concern: finalizer may DROP generated name even after failed CREATE; role preflight occurs after initial fixture writes. Hardening pending independent verification; no native execution.
 - Current native48 source entails84 fixture lifecycles across both profiles, correcting historical68 estimate. Existing resources survive; ownership/server state and exact runnable packet unverified. Earlier permission questions are not owner denials; root scope assessment remains open.
 - All34 objectives and sevenUNKNOWN qualification gates retained; both performance candidates remain HOLD.
+
+## 2026-10-17 18:42 UTC — current source230 and explicit remaining boundaries
+- Fixture ownership/cleanup hardening passed19 recording cases on actual230; native84-lifecycle coverage remains unexecuted. Initial startup failure and rejected source/control proposals preserved.
+- Offline retained-journal diagnostic passed38 on229 and has separately verified byte-identical230 applicability. It grants no native-metadata truth, recovery authority or silent legacy recovery.
+- Source230 reproducible package accepted and wheel4dd1836 exactremote-restored. Current230 installed-origin/publicAPI and actualuvtarget evidence still pending.
+- Installed public38 control V1 failure-aftercheck issues and V2 stale-path binding are source-review HOLDs; no target attempt occurred. Immutable corrected controls required.
+- Native preflight remains blocked by unproved preserving native-authentication/default behavior before network, despite recovering nonsecret endpoint/role setup intent. No silent security policy changes or credential-derived logs.
+- All34 full objectives active and G-ADAPTER,G-CRYPTO,G-QUERY,G-LIFECYCLE,G-PROVIDER,G-POLICY,G-RELEASE remain UNKNOWN.
