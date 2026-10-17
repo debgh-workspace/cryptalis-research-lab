@@ -104,3 +104,21 @@ TRANSITION-REMEDIES: three fixed actionable recovery messages pass20 extracted-c
 PORTABLE-CHECKPOINT: exact221 source archive was built and restored successfully locally, but part04 upload remains denied after one identical retry with bounded content review. Explicit owner approval pending; no bypass or complete remote archive claim. Existing verified focused archive plus overlays remains recoverable.
 
 All34 objectives remain active. G-ADAPTER UNKNOWN; G-CRYPTO UNKNOWN; G-QUERY UNKNOWN; G-LIFECYCLE UNKNOWN; G-PROVIDER UNKNOWN; G-POLICY UNKNOWN; G-RELEASE UNKNOWN.
+## 2026-10-17 15:21 UTC — verified diagnostic and report increments
+
+Three actionable recovery messages now have accepted genuine-module20+20 source evidence and20 exact source-equivalent wheel-origin checks. The independently reproducible141416-byte wheel55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03 is remote-byte verified/restored at5099b0f6c10a386f0ee16471c7816ece40f060e1. Deterministic materialization is not package-manager/launcher/clean-host qualification. These messages do not implement durable recovery.
+
+NULLSAFE-ADVISORY omission corrected through real scanner6-method RED/GREEN and direct report4-method RED/GREEN. Runtime refusal of both NULL-safe operators remains. Actual combined222 source passes report4 and genuine legacy-diagnostic5 boundaries; no combined wheel yet. Documented ProtectionPlan wrapper remains unverified because no provenance-backed persisted compiler lock plus reconstructable registry fixture was found;509 dependencies solve imports only. No signed-artifact requirement is invented for the ordinary dataclass.
+
+Legacy comments guidance now distinguishes v0 missing evidence from proven NULL, retaining comments-v1 inventory. Baseline2literal-message failures+3controlPASS, derivative5PASS,644preserved each; actual combined5PASS/558preserved. No metadata importer or historical reconstruction is implemented.
+
+JOURNAL-SUCCESSOR remains substantive OPEN: ABORTED retains old expanded schema/guard/progress but no abort_from or post-abort snapshot. Historical shape cannot prove cleanup/current authority. Read-only non-authorizing progress inspection is being designed; no operational admission change, successor insertion, retry, deletion or reverse/removal reinterpretation is approved or implemented.
+
+Native48-fixture ACL, original/public smoke permissions and exact compressed-source uploads remain pending. Approval messages checked15:17 show no owner reactions. All34 objectives active and all seven gates UNKNOWN: G-ADAPTER,G-CRYPTO,G-QUERY,G-LIFECYCLE,G-PROVIDER,G-POLICY,G-RELEASE.
+## 2026-10-17 15:46 UTC — combined artifact and read-only inspection boundaries
+
+Combined222 wheel141600B/898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8 is reproducible, published38c627a3123a9f3bdb10e45cbafa2f0516d71889 and exactly restored. Actual wheel-origin legacy5/report4 checks accepted53090d5a3cb1170656f8d118457892c3818bdb65c256e8d2b7fcdab3d12ceb0e with563/564inner and1323outer closures. This supersedes the earlier no-combined-wheel status but does not close any full objective.
+
+Actual offline package-manager attempt remains FAIL before targetcreation: uvexit2 rejects supplied bytecode option combination. All274inputs unchanged; no forbiddenmetadata body read. Fixedenv UV_COMPILE_BYTECODE='0' binds the positiveoption in officialsource, but observed conflict does not establish compilation was enabled. Minimal immutable correction removes redundantenvkey and retains explicitno-compileflag; unexecuted pendingreview. Failure556731cdc29c8a8e1c5018e0915eb84feb195986d3fee93502bd5c06363e1c53 retained.
+
+Standalone read-only progress inspector has68 accepted recordingconnection cases through actual_save/_state,560preservedinputs. It grants no native/metadata/successor authority and is not wired into operationaladmission. Separate columns-inspection39-case run completed0/after0, independentterminalreview pending. Recovery/rotation/onlinecapture/publicwrapper/provider/nativeverification andallsevenqualificationgates remainopen.

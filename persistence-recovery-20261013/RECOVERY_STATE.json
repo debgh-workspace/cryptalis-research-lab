@@ -1,10 +1,10 @@
 {
-  "observed_at_utc": "2026-10-15T12:33:00Z",
+  "observed_at_utc": "2026-10-17T15:56:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "Recovered source-data only:221files/4461022B match exact combined manifest. Selected frozen preview not promoted.",
+  "latest_candidate_status": "Combined222 source and reproducible wheel verified; wheel-origin legacy5/report4 and actual offline no-deps target installation/generated-help accepted. Frozen prior preview selection unchanged; no production qualification.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -22,7 +22,7 @@
   },
   "remote": "https://github.com/debgh-workspace/cryptalis-research-lab",
   "remote_authentication": "GitHub connector verified read/write with expected-head lease and exact remote byte checks; SSH remains unverified",
-  "remote_visibility": "VERIFIED private via authenticated repository metadata 2026-10-17T13:13Z",
+  "remote_visibility": "VERIFIED private via authenticated repository metadata2026-10-17T15:40Z",
   "secret_storage": "No supported durable-secret API found among currently available tools; local workspace has demonstrated rollback. Do not claim private key survives reset.",
   "github_connector_identity": "debgh-workspace",
   "repository_id": "1416574626",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "89e19f3d9d463cfe6d04346d0858f89e4df7294e",
+  "latest_verified_remote_commit": "b222aab348cc34fe3207f86214fe3b4f0280524b",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
   "current_experiment": "Exact combined221 source restored after workspace rollback; new portable checkpoint being prepared. Installed environments absent; no new runtime or DB test.",
   "s5_remote_byte_restore_files": 3579,
@@ -1979,5 +1979,61 @@
     "legacy_guidance": "isolatedmessageonly derivative;baseline5cases2expectedRED3PASS actual,independentreviewpending",
     "all_seven_qualification_gates": "UNKNOWN",
     "preview_selection": "unchanged"
+  },
+  "engineering_update_20261017_1527": {
+    "diagnostic_wheel": {
+      "commit": "5099b0f6c10a386f0ee16471c7816ece40f060e1",
+      "bytes": 141416,
+      "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03",
+      "remote_restored": true,
+      "wheel_origin_cases": 20,
+      "inner_closure": 563,
+      "outer_closure": 1090,
+      "scope": "deterministic wheel materialization, not package-manager/launcher/clean-host proof"
+    },
+    "combined222": {
+      "manifest": "486f900e78cf426f33a5fba71a8d4e992657572c5af10254ec7602c0c707ae5d",
+      "source_files": 222,
+      "source_bytes": 4469599,
+      "report_methods": 4,
+      "module_cases": 5,
+      "wheel_bytes": 141600,
+      "wheel_sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8",
+      "sdist_bytes": 151115,
+      "sdist_sha256": "1d647b06f61550b2220937c4642926b91ff16afb3ef5be3a031d23c2b4084a9c",
+      "reproducible_wheels": 3,
+      "reproducible_sdists": 2,
+      "packaging_review": "63ba68f1753cda12dad6f399901ca0530f7e49077f9a715a934805e7519f8605",
+      "fresh_wheel_runtime": "not yet selected"
+    },
+    "sdist_upload_hold": "exact diagnostic tar approval Sentinel_840ac69a2ce481d19913739a12be1504; no retry",
+    "native_acl_hold": "Sentinel_c036892d525881d1b49d0638ba50941e no owner reaction checked15:17",
+    "selected_preview": "unchanged",
+    "gates": {
+      "G-ADAPTER": "UNKNOWN",
+      "G-CRYPTO": "UNKNOWN",
+      "G-QUERY": "UNKNOWN",
+      "G-LIFECYCLE": "UNKNOWN",
+      "G-PROVIDER": "UNKNOWN",
+      "G-POLICY": "UNKNOWN",
+      "G-RELEASE": "UNKNOWN"
+    }
+  },
+  "engineering_update_20261017_1556": {
+    "wheel_commit": "38c627a3123a9f3bdb10e45cbafa2f0516d71889",
+    "wheel_sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8",
+    "offline_uv_target_install": "accepted, no dependencies resolved,50exactoutputs/298inputs",
+    "installer_review": "8c375cb6177be671ea8c93abd1d5e3ef32a20bb0f5acfff1c87cc46630d6e735",
+    "generated_help": "accepted,SystemExit0,6installedorigins,50outputs/349inputs;explicitPython,notOSshebang/PATH",
+    "launcher_review": "9ef9f740f44a6d6ee0516f4ad60435553a58a2bada66fa2ca9b91b3f9816b098",
+    "standalone_non_authorizing_research": {
+      "progress_cases": 68,
+      "columns_cases": 39,
+      "in_wheel": false
+    },
+    "full_objectives_complete": false,
+    "all_seven_gates": "UNKNOWN",
+    "native_acl_and_compressed_upload_approvals": "stillpending; no retry",
+    "prior_failures": "preserved"
   }
 }
