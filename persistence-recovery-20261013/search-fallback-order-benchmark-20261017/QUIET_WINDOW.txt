@@ -1,0 +1,5 @@
+selected_source=d176ed1773d01d731dca7c8406a04ed552e692ba6ae159ae36c962a57a7daeec
+quiet_window=A,E,F confirmed local pause; B,C,D completed; no other root local job selected
+not globally exclusive host; all measured counters retained
+schedule_deadline=240s plus termination grace and afterchecks
+new_question=changed fallback predicate; same workload/gates as prior HOLD, not an unchanged rerun
