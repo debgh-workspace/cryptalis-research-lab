@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/bin/bash",
+    "-c",
+    "ulimit -t 30 || exit 125; ulimit -v 1048576 || exit 125; ulimit -f 512 || exit 125; ulimit -c 0 || exit 125; ulimit -a > \"$1/limits.txt\"; exec /usr/bin/timeout --signal=TERM --kill-after=2s 60s \"$2\" -I -B -S -X \"pycache_prefix=$3/bytecode-absent\" \"$3/run_module_diagnostics.py\" combined \"$4\"",
+    "root-bounded",
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/fixture-hardening-v2-20261017-1805",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "/workspace/scratch/cb28ee9f5f4a/recovery-work/native-fixture-hardening-runner-v2-20261017",
+    "07769e9545bb30fa0233ec6b9eebaa7147edd1304d8ec86a1dd9eaeffb7ab0f0"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/recovery-work/native-fixture-hardening-runner-v2-20261017",
+  "env": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "TZ": "UTC",
+    "PSYCOPG_IMPL": "binary"
+  },
+  "scope": "19 no-DB recording cases"
+}
