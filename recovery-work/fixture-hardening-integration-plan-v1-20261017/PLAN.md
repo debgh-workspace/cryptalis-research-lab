@@ -1,0 +1,21 @@
+# Fixture ownership hardening: manifest-only integration
+
+Proposed source230 extends the materialized composite229 by exactly one replacement and one addition. No existing source tree is changed or copied. The new map has230 files,4,537,908 bytes,48 product Python modules;228 entries are byte-identical to composite229.
+
+## Exact delta
+
+Replace tests/test_sqlalchemy_search.py with the accepted hardeningV2 body113c40932fe7e84ccc309ce33362fa3fdcb8893b606e9938cc1676f8dfbd7c95. Add tests/test_fixture_ownership_recording.py with unchanged accepted recording bodyf781b541d04954dee8eec7b6aff370f177b48d373113649b2d3136e66d552eb1. Donors are the preserved hardeningV2 packet, not edited replicas.
+
+The replacement moves existing runtime role/version checks before acquiring engines or fixture mutations; registers acquisition-aware cleanup with ExitStack; disposes runtime once-attempted before schema DROP on acquired paths; and only enters schema cleanup after CREATE transaction returns successfully. Failed CREATE or ambiguous commit authorizes no guessed DROP. Disposal exceptions retain standard chaining and may supersede an earlier failure. No complete exception-chain theorem or cleanup-success guarantee is claimed.
+
+All22 original test definitions, their parameter decorators and assertion bodies remain byte-identical: the entire suffix beginning def _row is identical. Existing native48 selection remains48 selected parameterized cases and84 fixture lifecycles across its two profiles, with its separate prior authority and native-resource requirements. This manifest does not run that selection. Four fixture ACL statements remain unchanged. No new role, membership, default grant, global setting or session termination is introduced. Public diagnostics and every product source are unchanged from composite229. No performance candidate or new dependency profile is added.
+
+The added recording test contains the same five functions yielding19 selected cases: preflight refusal3, successful preflight1, unacquired schema2, acquired body cleanup3, full acquisition/disposal boundaries10. It imports the actual test_sqlalchemy_search module. Future execution must bind that name explicitly to the new target/tests sibling, not an older donor, and load the full module without AST extraction or translated assertions.
+
+## Evidence and what remains
+
+Independent source acceptance of hardeningV2 and runnerV2, actual fixture19 terminal review, materialized composite receipt and composite runtime acceptance are pinned in EVIDENCE.json. The earlier19 pass binds43 integrated222 runtime modules. It proves the accepted fixture/recording bytes under that exact run; it is not a230-source integration result.
+
+Before any future combined selection: independently accept this map; root separately selects exact source materialization and verifies the230-file namespace/hash/metadata/inode separation; prepare a reviewed genuine-module runner bound to that materialization and receipt. Preserve625 admitted dependency bodies and exact closed origin/native/typing policy, unless a separately reviewed concrete import need is established. Bind all48 composite runtime sources, the two target test files and the unchanged19-case driver; derive the new total from actual controls instead of reusing678. Retain complete post-case sys.modules classification, prebound identity checks, primary outcome, all-source afterchecks and bounded reports. Corrected root invocation must reset the exact four-key environment immediately before Python, as the accepted actual run did. Source acceptance alone does not select execution.
+
+The smallest new execution boundary, if authorized later, is the19 unchanged recording cases against the integrated230 source. The prior composite38 evidence and diagnostic evidence stay separately attributed; do not repeat them solely to inflate counts. Importing combined product modules does not prove new native database behavior, public-wrapper coverage, packaging, provider provenance, full-suite compatibility or any of the seven release gates. Root may select broader overlap tests only for a concrete changed boundary. No DB, tests, imports, syntax checks, builds, installs, Git operations or materialization occurred in this preparation.

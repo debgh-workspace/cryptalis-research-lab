@@ -1,0 +1,19 @@
+# Fixture hardening230 manifest-only integration accepted
+
+Decision: ACCEPTED_SOURCE_MAP_ONLY. No materialization, import, compilation, tests or DB operation was performed. Future materialization and combined-runtime recording remain separate root selections.
+
+Packet recovery-work/fixture-hardening-integration-plan-v1-20261017 SOURCE.sha256 84b78cb21cd1010866472d620be3464bc1fb6389943e0aeb50936f712d6883bf; all five member hashes match. PROPOSED_INTEGRATION_MANIFEST.json SHA256 fa86e1917f631f8d7698faf444b993f412b27bf5ffa39e251392e91d7152c740.
+
+Independent reconciliation establishes230 unique source entries totaling4,537,908 bytes. Relative to composite229 manifest01d98c51cdadf07e3796da0e012d51ad7e8538cba843788883b2e39cfbb7a795, exactly228 entries are unchanged and use actual composite229-materialized-v1-20261017/source donors. All48 product runtime hashes are identical. No product, diagnostics, dependency or performance candidate change is introduced.
+
+The only replacement is tests/test_sqlalchemy_search.py,66844 bytes,SHA256113c40932fe7e84ccc309ce33362fa3fdcb8893b606e9938cc1676f8dfbd7c95. The only addition is tests/test_fixture_ownership_recording.py,8506 bytes,SHA256f781b541d04954dee8eec7b6aff370f177b48d373113649b2d3136e66d552eb1. Both use the exact preserved hardeningV2 donors. The entire original native-test suffix beginning def _row is byte-identical, retaining helper/test definitions, decorators and assertion bodies. Fixture ACL statements remain unchanged; no assertion weakening or new authority is introduced.
+
+All230 donor leaves were metadata-admitted before stable nofollow body reads; sizes and hashes match the map, with final metadata unchanged. Source conftest, where included, was treated only as inert hash input and never imported. No destination tree was created.
+
+All five EVIDENCE.json references independently match their stated sizes and hashes, including composite materialization receipt fc985659f13e303921a82f18d6d169641cbaae6706b1e9867ea70f3461a516f6; composite public38 terminal review7399b077292ac6cce53533b90f474b0ad9f7182e0c8e2ccda45eec6b63f7441e; actual fixture19 terminal review386cda5a0a7ad4621d8ac477bc43f423069b713c4c2474cbab6d42f941e319a4; hardeningV2 source acceptance8fb200dc1167f3da7cd2c4e5e29a17ba54a506ed3a0bd904a5c2b05307a39032; and runnerV2 source acceptance38cfd0fe884acb15d0c19bc81c9fbee3973c02ed3d5b5a9f33c28ca94eebd806.
+
+The earlier actual19 run binds43 integrated222 runtime files, not this48-runtime composition. It establishes exact fixture/test bytes under the former environment; it is not a completed230-source test. The minimal new runtime boundary is the same19 direct genuine recording calls, using full materialized target fixture imports and an explicitly rebound48-runtime map. Preserve625 dependencies, exact closed native/origin policy, full post-case classification, original case driver and corrected inner four-key env reset. Recompute the closure from actual fixed controls rather than retaining678 mechanically.
+
+Before that selection, root must separately materialize a fresh exact230 namespace with stable hashes and independent donor/destination inodes, obtain actual materialization acceptance and independently review the new runner binding. Existing public38 and other diagnostic evidence remains separately attributed; no repetition is required merely to inflate counts. This review does not independently certify the proposed84 native lifecycle count or authorize native fixtures, ACL operations, DB, packaging, installation, publication or production qualification.
+
+Initial lookup used an absent generic INTEGRATION_MANIFEST.json name; actual sealed PROPOSED_INTEGRATION_MANIFEST.json was then read. This was a filename diagnostic, not an access denial. Original source and all held prior packets remain untouched.
