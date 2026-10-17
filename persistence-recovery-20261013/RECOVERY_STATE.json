@@ -32,9 +32,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "fc5977427f8593325947320de487e3790073c165",
+  "latest_verified_remote_commit": "773685ce330b66fb649eba22c2c61e0a32d3994f",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
-  "current_experiment": "Caller-owned cleanup-state successor static review accepted; runtime packet preparing.",
+  "current_experiment": "Caller-owned cleanup-state correction: both profiles independently accepted in isolated no-DB unit views; not promoted.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-16T10:59:00Z",
+  "updated_utc": "2026-10-17T01:30:00Z",
   "current_operation": "Publish exact unit evidence and prepare isolated successor validation; native fixture permission pending.",
   "notes": "All 34 objectives active; all seven qualification gates UNKNOWN. Historical state preserved in recovery-state-before-flush-unit-20261016-1059.json.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "fc5977427f8593325947320de487e3790073c165",
+  "latest_verified_remote_head": "773685ce330b66fb649eba22c2c61e0a32d3994f",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -1797,5 +1797,31 @@
     "selected_preview_changed": false,
     "native_permission": "PENDING Sentinel_c036892d525881d1b49d0638ba50941e",
     "neighboring_state_and_name_faults": "Separate source successor accepted statically; unexecuted"
+  },
+  "flush_state_unit_20261017": {
+    "source_commit": "773685ce330b66fb649eba22c2c61e0a32d3994f",
+    "baseline_each": {
+      "intended_assertion_failures": 8,
+      "controls_pass": 2,
+      "errors": 0,
+      "skips": 0
+    },
+    "amended_each": {
+      "subtests_pass": 29,
+      "ordinary_interruption_pass": 1,
+      "methods": 6,
+      "failures": 0,
+      "errors": 0,
+      "skips": 0
+    },
+    "profiles": [
+      "SA21",
+      "SA20"
+    ],
+    "scope": "Real modules and synthetic doubles; native/full-suite/installed-product qualification pending",
+    "independent_terminal_acceptance": true,
+    "source_and_dependency_preservation": true,
+    "selected_preview_changed": false,
+    "native_acl_permission": "PENDING"
   }
 }

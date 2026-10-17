@@ -1,0 +1,21 @@
+--- state-v1/regression/test_flush_cleanup_state_contract.py
++++ state-v2/regression/test_flush_cleanup_state_contract.py
+@@ -9,8 +9,10 @@
+ 
+ class CleanupStateContract(unittest.TestCase):
+     def test_unknown_outcomes_preserve_primary_and_warn_without_truth_dispatch(self):
++        truth_hook_calls = []
+         class FalseLike:
+             def __bool__(self):
++                truth_hook_calls.append("bool")
+                 raise AssertionError("Outcome objects must not be truth-tested")
+ 
+         missing = object()
+@@ -40,6 +42,7 @@
+                         self.assertIs(caught, primary)
+                     else:
+                         self.fail("Primary failure must survive unknown cleanup")
++                self.assertEqual(truth_hook_calls, [])
+                 self.assertEqual(len(observations), 1)
+                 self.assertIs(observations[0][0], session)
+                 self.assertIs(observations[0][1], dict)
