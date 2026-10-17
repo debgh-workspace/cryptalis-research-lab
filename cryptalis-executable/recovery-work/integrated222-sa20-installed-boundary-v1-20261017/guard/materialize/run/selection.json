@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/materialize/run/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/materialize.py",
+    "ROOT_SELECTS_DATA_ONLY_WHEEL_MATERIALIZATION"
+  ],
+  "environment": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "PATH": "/usr/bin:/bin",
+    "TZ": "UTC"
+  },
+  "original_patch_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "review_sha256": "94d21ad04bbcace03e245d0d704b36d507caead620dc5dc4c3c9c08d39543348",
+  "self_sha256": "e9e305e66d494cb339422bcf784251ae1f241aa4a94171f7e1ba578fe02b596e",
+  "stream_bytes": 2097152,
+  "wall_seconds": 120
+}
