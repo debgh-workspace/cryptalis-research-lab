@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/runners/run_installed_legacy.py",
+    "combined",
+    "743ec15431ded8810cf001290109abe57250609422b8230f8c486a43048a9a92"
+  ],
+  "environment": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "PSYCOPG_IMPL": "binary",
+    "TZ": "UTC"
+  },
+  "original_patch_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "review_sha256": "94d21ad04bbcace03e245d0d704b36d507caead620dc5dc4c3c9c08d39543348",
+  "self_sha256": "90bb6aaf211d8b0a72371c1ea94e73b4b235aca51b5171572eae45a4a7cd351f",
+  "stream_bytes": 2097152,
+  "wall_seconds": 60
+}

@@ -1,0 +1,55 @@
+{
+  "descendants_verified_absent": false,
+  "installed_directories": 57,
+  "installed_files": 552,
+  "legacy": {
+    "case_count": 5,
+    "cases": [
+      {
+        "failures": [],
+        "id": "legacy_designation_evidence_required:omitted_defaults",
+        "status": "PASS"
+      },
+      {
+        "failures": [],
+        "id": "legacy_designation_evidence_required:context_cleanup",
+        "status": "PASS"
+      },
+      {
+        "failures": [],
+        "id": "operation_aborted:omitted_defaults",
+        "status": "PASS"
+      },
+      {
+        "failures": [],
+        "id": "journal_identity_mismatch:omitted_defaults",
+        "status": "PASS"
+      },
+      {
+        "failures": [],
+        "id": "database_effect_requires_inspection:omitted_defaults",
+        "status": "PASS"
+      }
+    ],
+    "dependency_origins": 246,
+    "inner_inputs": 558,
+    "native_receipt_count": 5,
+    "outer_inputs": 1320,
+    "product_origins": 17,
+    "status": "ACCEPTED",
+    "stdout_bytes": 184403,
+    "stdout_sha256": "d95f928803209bf7ab792369f558d463c018cb0744d0045ed3f81177f463ceeb",
+    "terminal_sha256": "db3b6d2e9f919dff05a042beda1cf28fc81f6149bd7b61927d23d4a3bb9b7472",
+    "unique_native_names": [
+      "_cython_3_2_5",
+      "_cython_3_3_0",
+      "_openssl",
+      "_openssl.lib",
+      "cython_runtime"
+    ],
+    "unique_typing_aliases": [
+      "typing.io",
+      "typing.re"
+    ]
+  }
+}
