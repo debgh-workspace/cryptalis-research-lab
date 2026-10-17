@@ -1,0 +1,57 @@
+{
+  "all700_current_input_hashes_and_metadata_match": true,
+  "artifacts": [
+    {
+      "bytes": 150917,
+      "kind": "sdist-1",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/diagnostic-offline-package-controls-v3-20261017/run/sdist-1/cryptalis-0.1.0.tar.gz",
+      "sha256": "f8520edb34bb20af9a348a2e68f4073346548057d8d7e52b1489d2d0608632d8"
+    },
+    {
+      "bytes": 150917,
+      "kind": "sdist-2",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/diagnostic-offline-package-continuation-v1-20261017/run/sdist-2/cryptalis-0.1.0.tar.gz",
+      "sha256": "f8520edb34bb20af9a348a2e68f4073346548057d8d7e52b1489d2d0608632d8"
+    },
+    {
+      "bytes": 141416,
+      "kind": "direct-wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/diagnostic-offline-package-continuation-v1-20261017/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03"
+    },
+    {
+      "bytes": 141416,
+      "kind": "repeat-wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/diagnostic-offline-package-continuation-v1-20261017/run/repeat-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03"
+    },
+    {
+      "bytes": 141416,
+      "kind": "roundtrip-wheel",
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/diagnostic-offline-package-continuation-v1-20261017/run/roundtrip-wheel/cryptalis-0.1.0-py3-none-any.whl",
+      "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03"
+    }
+  ],
+  "descendants_verified_absent": false,
+  "directories_per_archive": 6,
+  "exact_sidecars": 5,
+  "extracted_readbacks": 49,
+  "four_new_command_exits": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "identical_sdists": 2,
+  "identical_wheels": 3,
+  "negative_lock_controls": "successful reviewed driver path necessarily checked both shared-validator rejections; reviewer did not rerun controls",
+  "original_v3_status": "FAIL",
+  "record_hashes": 47,
+  "record_rows": 48,
+  "reused_first_build_repeated": false,
+  "runtime_payloads": 43,
+  "sdist_payloads": 49,
+  "source_readbacks": 442,
+  "status": "ACCEPTED_SAME_HOST_DIAGNOSTIC_PACKAGING",
+  "wheel_payloads": 48
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "diagnostic-remedies-distribution-checkpoint-v1",
+  "scope": "Same-host reproducible package, unpromoted; installed verification pending. Original V3 failure preserved.",
+  "wheel": {
+    "path": "cryptalis-0.1.0-py3-none-any.whl",
+    "bytes": 141416,
+    "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03"
+  },
+  "sdist": {
+    "bytes": 150917,
+    "sha256": "f8520edb34bb20af9a348a2e68f4073346548057d8d7e52b1489d2d0608632d8",
+    "publication": "HELD pending exact owner approval; not included"
+  },
+  "review_sha256": "2e31712d9d3ce1393a125115b2ba16b579609c3a36276f3fed42cf190b5a7b95",
+  "reproducibility": {
+    "identical_wheels": 3,
+    "identical_sdists": 2
+  },
+  "qualification_gates": "All seven UNKNOWN"
+}
