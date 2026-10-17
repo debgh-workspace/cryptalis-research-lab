@@ -1,0 +1,17 @@
+{
+  "all_input_continuity": true,
+  "archive_sha256": "1f76f9bf50e7e757430edfe45b5ecb81afee67283675f2465c0d0b102f05822b",
+  "full_qualification": false,
+  "historical_original_metadata_reconstructed": false,
+  "inputs_sha256": "ba2191f1e8ff82eb2bef2e90ce7b28bfeff0987736356e4b491b83227a25afb3",
+  "overlay_commit": "eed4482d824c87004c6df280a038f0b24ac17d8d",
+  "parts_commit": "2b5124c47e6b3188f22282af547bdc330eca8abb",
+  "root_provenance_sha256": "525dfd82da1523a2b647d237819170cd35390c4ced780424cadfe9e5d5f26048",
+  "runtime_or_environment_recovery": false,
+  "source_bytes": 4461022,
+  "source_files": 221,
+  "source_manifest_sha256": "e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c",
+  "status": "PASS_INERT_COMBINED221_SOURCE_RESTORE",
+  "tar_sha256": "8e6c5233a98295872d30cd45bb5c79c27dda6e233ba20eb87497436c8caac50d",
+  "tests_executed": false
+}

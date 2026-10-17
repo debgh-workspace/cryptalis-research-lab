@@ -1,0 +1,671 @@
+{
+  "after": [
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/PARTS_MANIFEST_EXACT.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/BASE_MANIFEST.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/COMBINED_MANIFEST.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/ARCHIVE_REVIEW.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/REMOTE_REVIEW.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/old-focused-parser.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/README.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/cli.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/sqlalchemy.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/_sqlalchemy_transactions.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/doctor.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/lifecycle.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/walkthrough-migration.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/walkthrough-sqlalchemy.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-01.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-02.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-03.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-04.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-05.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-06.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-07.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-08.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-09.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-10.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-11.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-12.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-13.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-14.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-15.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-16.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-17.bin"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/restore_combined221.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/INPUTS.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-review-20261017/REVIEW.md"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/supervisor.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/published_supervisor_v2.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/Outputs/CRYPTALIS_FINAL.patch"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/published_v11_supervisor.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/FINITE_INPUTS.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/controller.py"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/inputs/REMOTE_PROVENANCE.json"
+    },
+    {
+      "bytes_equal": true,
+      "metadata_equal": true,
+      "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-review-v2-20261017/REVIEW.md"
+    }
+  ],
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/run/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/restore_combined221.py",
+    "--select",
+    "ROOT_SELECTS_ONE_INERT_SOURCE_RESTORE",
+    "--self-sha256",
+    "a6390c2b66ad8ba4d70456c09dbc8c107d68de7cf0f57bf76fc461b30e71cf34",
+    "--inputs-sha256",
+    "ba2191f1e8ff82eb2bef2e90ce7b28bfeff0987736356e4b491b83227a25afb3",
+    "--provenance-sha256",
+    "525dfd82da1523a2b647d237819170cd35390c4ced780424cadfe9e5d5f26048",
+    "--provenance-bytes",
+    "4554"
+  ],
+  "before_metadata": {
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12": [
+      27,
+      9223372036854861869,
+      33261,
+      1,
+      30894944,
+      1791948610000000000,
+      1791948610000000000
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/Outputs/CRYPTALIS_FINAL.patch": [
+      27,
+      786699,
+      33188,
+      1,
+      219914,
+      1791686924390237940,
+      1792215122496207446
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/ARCHIVE_REVIEW.md": [
+      27,
+      1212380,
+      33188,
+      1,
+      7196,
+      1792241040576457437,
+      1792241040576457437
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/BASE_MANIFEST.json": [
+      27,
+      1212378,
+      33188,
+      1,
+      24682,
+      1792241035308558585,
+      1792241035308558585
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/COMBINED_MANIFEST.json": [
+      27,
+      1212379,
+      33188,
+      1,
+      24956,
+      1792241037896508865,
+      1792241037896508865
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/INPUTS.json": [
+      27,
+      1212398,
+      33188,
+      1,
+      8882,
+      1792241281870171031,
+      1792241281870171031
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/PARTS_MANIFEST_EXACT.json": [
+      27,
+      1212396,
+      33188,
+      1,
+      4204,
+      1792241159845706839,
+      1792241159845706839
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/REMOTE_REVIEW.md": [
+      27,
+      1212381,
+      33188,
+      1,
+      7179,
+      1792241043304405087,
+      1792241043304405087
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/inputs/REMOTE_PROVENANCE.json": [
+      27,
+      1212404,
+      33152,
+      1,
+      4554,
+      1792241565472465136,
+      1792241565472465136
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/old-focused-parser.py": [
+      27,
+      1212382,
+      33188,
+      1,
+      130938,
+      1792241046536342689,
+      1792241046536342689
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/README.md": [
+      27,
+      1212384,
+      33188,
+      1,
+      5607,
+      1792241052540222616,
+      1792241052540222616
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/doctor.md": [
+      27,
+      1212391,
+      33188,
+      1,
+      15866,
+      1792241073259815742,
+      1792241073259815742
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/lifecycle.md": [
+      27,
+      1212392,
+      33188,
+      1,
+      30717,
+      1792241076651748762,
+      1792241076651748762
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/walkthrough-migration.md": [
+      27,
+      1212393,
+      33188,
+      1,
+      6974,
+      1792241079263695844,
+      1792241079263695844
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/docs/walkthrough-sqlalchemy.md": [
+      27,
+      1212394,
+      33188,
+      1,
+      4181,
+      1792241081839645522,
+      1792241081839645522
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/_sqlalchemy_transactions.py": [
+      27,
+      1212389,
+      33188,
+      1,
+      8642,
+      1792241067639927064,
+      1792241067639927064
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/cli.py": [
+      27,
+      1212387,
+      33188,
+      1,
+      17960,
+      1792241058716101991,
+      1792241058716101991
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/overlays/src/cryptalis/sqlalchemy.py": [
+      27,
+      1212388,
+      33188,
+      1,
+      65862,
+      1792241064459988988,
+      1792241064459988988
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/restore_combined221.py": [
+      27,
+      1212397,
+      33188,
+      1,
+      14929,
+      1792241345929763560,
+      1792241345929763560
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-review-20261017/REVIEW.md": [
+      27,
+      1212402,
+      33188,
+      1,
+      5968,
+      1792241452539141600,
+      1792241452539141600
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/published_supervisor_v2.py": [
+      27,
+      1212406,
+      33188,
+      1,
+      3895,
+      1792241579677072373,
+      1792241579677072373
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/FINITE_INPUTS.json": [
+      27,
+      1212417,
+      33188,
+      1,
+      9690,
+      1792241803870121022,
+      1792241803870121022
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/controller.py": [
+      27,
+      1212418,
+      33188,
+      1,
+      8518,
+      1792241803870383458,
+      1792241803870383458
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/published_v11_supervisor.py": [
+      27,
+      1212415,
+      33188,
+      1,
+      18478,
+      1792241803092689089,
+      1792241803092689089
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/supervisor.py": [
+      27,
+      1212416,
+      33188,
+      1,
+      4640,
+      1792241803869678251,
+      1792241803869678251
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-review-v2-20261017/REVIEW.md": [
+      27,
+      1212422,
+      33188,
+      1,
+      4322,
+      1792241910199512081,
+      1792241910199512081
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-01.bin": [
+      27,
+      788078,
+      33152,
+      1,
+      96000,
+      1792241432651510379,
+      1792241432651510379
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-02.bin": [
+      27,
+      788077,
+      33152,
+      1,
+      96000,
+      1792241432652076841,
+      1792241432652076841
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-03.bin": [
+      27,
+      788076,
+      33152,
+      1,
+      96000,
+      1792241432652450940,
+      1792241432652450940
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-04.bin": [
+      27,
+      788075,
+      33152,
+      1,
+      96000,
+      1792241432652968911,
+      1792241432652968911
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-05.bin": [
+      27,
+      788074,
+      33152,
+      1,
+      96000,
+      1792241432653378924,
+      1792241432653378924
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-06.bin": [
+      27,
+      788073,
+      33152,
+      1,
+      96000,
+      1792241432653789547,
+      1792241432653789547
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-07.bin": [
+      27,
+      788072,
+      33152,
+      1,
+      96000,
+      1792241432654189715,
+      1792241432654189715
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-08.bin": [
+      27,
+      788071,
+      33152,
+      1,
+      96000,
+      1792241432654929452,
+      1792241432654929452
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-09.bin": [
+      27,
+      788070,
+      33152,
+      1,
+      96000,
+      1792241432655376679,
+      1792241432655376679
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-10.bin": [
+      27,
+      788069,
+      33152,
+      1,
+      96000,
+      1792241432655818928,
+      1792241432655818928
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-11.bin": [
+      27,
+      788068,
+      33152,
+      1,
+      96000,
+      1792241432656185116,
+      1792241432656185116
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-12.bin": [
+      27,
+      788067,
+      33152,
+      1,
+      96000,
+      1792241432656642388,
+      1792241432656642388
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-13.bin": [
+      27,
+      788066,
+      33152,
+      1,
+      96000,
+      1792241432657132849,
+      1792241432657132849
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-14.bin": [
+      27,
+      786708,
+      33152,
+      1,
+      96000,
+      1792241432657636769,
+      1792241432657636769
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-15.bin": [
+      27,
+      786707,
+      33152,
+      1,
+      96000,
+      1792241432658107170,
+      1792241432658107170
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-16.bin": [
+      27,
+      786706,
+      33152,
+      1,
+      96000,
+      1792241432658717507,
+      1792241432658717507
+    ],
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/reacquisition-20261017-1245/part-17.bin": [
+      27,
+      786705,
+      33152,
+      1,
+      75936,
+      1792241432659223320,
+      1792241432659223320
+    ]
+  },
+  "child": {
+    "cleanup_errors": [],
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "-I",
+      "-B",
+      "-S",
+      "-X",
+      "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-supervisor-20261017/v2/run/bytecode-absent",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/recovery-work/restore-combined221-20261017/restore_combined221.py",
+      "--select",
+      "ROOT_SELECTS_ONE_INERT_SOURCE_RESTORE",
+      "--self-sha256",
+      "a6390c2b66ad8ba4d70456c09dbc8c107d68de7cf0f57bf76fc461b30e71cf34",
+      "--inputs-sha256",
+      "ba2191f1e8ff82eb2bef2e90ce7b28bfeff0987736356e4b491b83227a25afb3",
+      "--provenance-sha256",
+      "525dfd82da1523a2b647d237819170cd35390c4ced780424cadfe9e5d5f26048",
+      "--provenance-bytes",
+      "4554"
+    ],
+    "descendants_verified_absent": false,
+    "environment": {
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "PATH": "/usr/bin:/bin",
+      "TZ": "UTC"
+    },
+    "exit_code": 0,
+    "group_signals": [],
+    "leader_reaped": true,
+    "reason": null,
+    "stderr": "",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout": "{\"all_input_continuity\": true, \"archive_sha256\": \"1f76f9bf50e7e757430edfe45b5ecb81afee67283675f2465c0d0b102f05822b\", \"full_qualification\": false, \"historical_original_metadata_reconstructed\": false, \"inputs_sha256\": \"ba2191f1e8ff82eb2bef2e90ce7b28bfeff0987736356e4b491b83227a25afb3\", \"overlay_commit\": \"eed4482d824c87004c6df280a038f0b24ac17d8d\", \"parts_commit\": \"2b5124c47e6b3188f22282af547bdc330eca8abb\", \"root_provenance_sha256\": \"525dfd82da1523a2b647d237819170cd35390c4ced780424cadfe9e5d5f26048\", \"runtime_or_environment_recovery\": false, \"source_bytes\": 4461022, \"source_files\": 221, \"source_manifest_sha256\": \"e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c\", \"status\": \"PASS_INERT_COMBINED221_SOURCE_RESTORE\", \"tar_sha256\": \"8e6c5233a98295872d30cd45bb5c79c27dda6e233ba20eb87497436c8caac50d\", \"tests_executed\": false}\n",
+    "stdout_bytes": 840,
+    "stdout_sha256": "edee3087a40470677b24dbe79bc95dda4db455496fa627ad43ec9f89c2a4f313"
+  },
+  "cold_prefix_absent": true,
+  "descendants_verified_absent": false,
+  "received_signal": null,
+  "scope": "inert source reconstruction only; existing host trust, no native provenance",
+  "status": "PASS_GUARDED_INERT_RESTORE_PENDING_TERMINAL_REVIEW"
+}

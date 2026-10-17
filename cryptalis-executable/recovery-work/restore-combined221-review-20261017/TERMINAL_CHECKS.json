@@ -1,0 +1,16 @@
+{
+  "bytes": 4461022,
+  "child_exit": 0,
+  "controller_exit": 0,
+  "descendants_verified_absent": false,
+  "directories": 21,
+  "files": 221,
+  "inputs_current_metadata_and_hash_verified": 43,
+  "member_observations_sha256": "94c0404fb6d43c94b966a4e6d6ff08d5bd455b68b5f49ac255559f9afbc3b0f0",
+  "original_patch_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
+  "receipt_sha256": "ef79efc1f7f838638ae36fd9b90f26a8e9b8b33f93674fee0432e0ad314b165d",
+  "restored_manifest_sha256": "8fb4d6fae1236cda344da7966975927141ee4c1abd20badeda93167d81c3ddb3",
+  "status": "ACCEPTED_INERT_COMBINED221_SOURCE_RESTORE",
+  "terminal_sha256": "eed09746b07e9457facee3da0255595cea95098eac5f5743b4f68bff0abb98e4",
+  "tests_executed": false
+}

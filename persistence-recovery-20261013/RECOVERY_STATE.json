@@ -4,7 +4,7 @@
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "Frozen doctor-remedy preview preserved; separate note-only cleanup correction has accepted four-cell unit evidence, not promoted.",
+  "latest_candidate_status": "Recovered source-data only:221files/4461022B match exact combined manifest. Selected frozen preview not promoted.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -22,7 +22,7 @@
   },
   "remote": "https://github.com/debgh-workspace/cryptalis-research-lab",
   "remote_authentication": "GitHub connector verified read/write with expected-head lease and exact remote byte checks; SSH remains unverified",
-  "remote_visibility": "VERIFIED private via authenticated GitHub repository metadata 2026-10-13T06:49Z",
+  "remote_visibility": "VERIFIED private via authenticated repository metadata 2026-10-17T04:20Z",
   "secret_storage": "No supported durable-secret API found among currently available tools; local workspace has demonstrated rollback. Do not claim private key survives reset.",
   "github_connector_identity": "debgh-workspace",
   "repository_id": "1416574626",
@@ -32,9 +32,9 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "b389fbf74650b0eca98199b14ba5ebacd9a33909",
+  "latest_verified_remote_commit": "227913776538e737e35316119ed723e21ebd6154",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
-  "current_experiment": "Caller-owned cleanup-state correction: both profiles independently accepted in isolated no-DB unit views; not promoted.",
+  "current_experiment": "Exact combined221 source restored after workspace rollback; new portable checkpoint being prepared. Installed environments absent; no new runtime or DB test.",
   "s5_remote_byte_restore_files": 3579,
   "s6_composite_source_restore_files": 168,
   "history_bundle_published": true,
@@ -42,13 +42,13 @@
   "research_repository_checkpoint_writes_authorized": true,
   "unattended_hourly_schedule_enabled": true,
   "fresh_cluster_credential_approval": "PENDING",
-  "updated_utc": "2026-10-17T03:10:00Z",
+  "updated_utc": "2026-10-17T13:02:00Z",
   "current_operation": "State unit slice accepted and source restore verified; search bootstrap namespace policy reconciliation remains source-only, native regression ACL pending.",
   "notes": "All 34 objectives active; all seven qualification gates UNKNOWN. Historical state preserved in recovery-state-before-flush-unit-20261016-1059.json.",
   "s7_composite_source_restore_files": 170,
   "s8_composite_source_restore_files": 173,
   "s9_composite_source_restore_files": 174,
-  "latest_verified_remote_head": "b389fbf74650b0eca98199b14ba5ebacd9a33909",
+  "latest_verified_remote_head": "8aafb47935487edc9f9d4d5c711cad0bde091289",
   "s10": {
     "status": "integrated; installed full suites and composite recovery verified",
     "candidate": "cryptalis-executable/candidate-tuple-encoding-20261013",
@@ -1833,5 +1833,115 @@
     "raw_result_files": 4,
     "full_remote_runtime_closure_archive": false,
     "environment_reproduction": false
+  },
+  "unpromoted_combined_candidate": {
+    "path": "cryptalis-executable/experiments/candidate-cleanup-docs-integrated-v1-20261017/source221",
+    "manifest_sha256": "e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c",
+    "files": 221,
+    "changed_paths": 6,
+    "build_test_install_performed": false,
+    "selected": false
+  },
+  "pure_lifecycle38_20261017": {
+    "cases": 38,
+    "ordinary": 10,
+    "precise_refusal": 26,
+    "limitations": 2,
+    "all_six_authority_flags_false": true,
+    "native_qualification": false,
+    "commit": "b93d8ab2be005de9d13b7ba4f8b2ccfa7d00907c"
+  },
+  "search_v11_materialized": {
+    "prepared_sha256": "0ee0e251481d6bd01e5eda6dbf67e3e568c25ed643570c565c635ae3fdc2f7a2",
+    "files": 2566,
+    "bytes": 91831517,
+    "independent_acceptance": true,
+    "runtime_selected": false,
+    "next": "Review additive signal-safe runtime supervisor and outer binding; preserve materialized outputs"
+  },
+  "search_v11_runtime": {
+    "status": "HOLD_SETUP_BEFORE_COLLECTION",
+    "selected_children": 1,
+    "selected_profile": "SA20 baseline",
+    "primary_setup_error": "ImportError importlib.resources.readers unadmitted",
+    "secondary_final_origin_error": "AssertionError missing_spec typing.io",
+    "collected_tests": 0,
+    "product_import_reached": false,
+    "monitored_identities_unchanged": 5411,
+    "copied_files_reverified": 2566,
+    "remaining_children_run": false,
+    "timing_selected": false,
+    "retry": "Requires independently reviewed fresh version; preserve actual failure"
+  },
+  "combined_packaging_attempt": {
+    "status": "FAIL_TIMEOUT",
+    "child_seconds": 120,
+    "child_exit": -9,
+    "verification_completed": false,
+    "all_six_after_integrity_groups_pass": true,
+    "host_after_exit": 0,
+    "descendants_verified_absent": false,
+    "next": "Independent retained-artifact audit then separately admitted verification-only continuation; no repeat build by default"
+  },
+  "active_operations": {
+    "database": false,
+    "pending_git_write": false
+  },
+  "search_v12_materialization": {
+    "accepted": true,
+    "prepared_sha256": "c7c1eb365ddf374847a46a7cf0ae545fd7f5bfde110a82ca477b8621f3cb3e5f",
+    "files": 2566,
+    "bytes": 91838781
+  },
+  "combined_packaging_verification_only": {
+    "status": "PASS_VERIFICATION_ONLY_INDEPENDENTLY_ACCEPTED",
+    "original_build": "FAIL_TIMEOUT_PRESERVED",
+    "wheel_sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b",
+    "wheel_bytes": 141155,
+    "sdist_sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334",
+    "sdist_bytes": 150623,
+    "installation_selected": false
+  },
+  "search_v12_runtime": {
+    "status": "HOLD_BEFORE_COLLECTION",
+    "collected": 0,
+    "harness_exit": 3,
+    "primary": "pytest defaultlogging write guard",
+    "postcheck": "missing_spec cython_runtime",
+    "monitored_unchanged": 5416,
+    "copies_rehashed": 2566,
+    "no_other_children": true
+  },
+  "cleanup_artifact_remote_restore": {
+    "commit": "8aafb47935487edc9f9d4d5c711cad0bde091289",
+    "binary_files": 2,
+    "text_evidence_files": 5,
+    "exact_byte_readback": true,
+    "local_binary_restore": true,
+    "installation": false,
+    "selected_preview_changed": false
+  },
+  "cleanup_installed_successor_20261017": {
+    "wheel_sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b",
+    "sa21_unit_review_sha256": "4cdac89f71f051d499e25053e84252bcddc15bc4bf63dabffacfc4ae8ade725a",
+    "sa20_unit_review_sha256": "f48c331ccf109680fdd5ef5ed612c1ac48ed34924ef005c5510e28df1669880b",
+    "methods_per_profile": 6,
+    "subcases_per_profile": 29,
+    "ordinary_interruption_per_profile": 1,
+    "failures": 0,
+    "errors": 0,
+    "scope": "Installed real modules with synthetic cleanup doubles; no native/full-suite transfer",
+    "promoted": false
+  },
+  "workspace_rollback_recovery_20261017": {
+    "source_path": "cryptalis-executable/recovery-work/restore-combined221-20261017/run/source221",
+    "source_manifest_sha256": "e8a69b212e8a1759e7641d6bb1227a3aa728e76badd515a54421d98811e5552c",
+    "terminal_review_sha256": "313f8b116aecc32e1674f3bc33487bd2c8df3e0448385515d9eec00fb6dfe6fc",
+    "source_files": 221,
+    "source_bytes": 4461022,
+    "input_continuities": 43,
+    "installed_environment_restored": false,
+    "no_historical_test_rerun": true,
+    "archive_commit": "2b5124c47e6b3188f22282af547bdc330eca8abb"
   }
 }
