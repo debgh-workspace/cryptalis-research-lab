@@ -1,0 +1,46 @@
+{
+  "descendants_verified_absent": false,
+  "installed_directories": 57,
+  "installed_files": 552,
+  "report": {
+    "case_count": 4,
+    "cases": [
+      {
+        "id": "test_actual_report_validation_rejects_invalid_mapping_and_lock_shape",
+        "status": "PASS"
+      },
+      {
+        "id": "test_empty_and_unparseable_sources_do_not_become_clean_admission",
+        "status": "PASS"
+      },
+      {
+        "id": "test_real_mapping_aggregates_two_diagnostics_and_snapshot_metadata",
+        "status": "PASS"
+      },
+      {
+        "id": "test_real_table_identity_mismatch_stays_unresolved",
+        "status": "PASS"
+      }
+    ],
+    "dependency_origins": 246,
+    "inner_inputs": 559,
+    "native_receipt_count": 10,
+    "outer_inputs": 1320,
+    "product_origins": 18,
+    "status": "ACCEPTED",
+    "stdout_bytes": 184914,
+    "stdout_sha256": "a989108793856826a8f12f98aa1ece64186445623ec4e1b1452ce1ffc1d6b67d",
+    "terminal_sha256": "1a6c5f59042198d0fda1d3c08bba6f9fb654b4c6c5ecee462e6328cdac79005c",
+    "unique_native_names": [
+      "_cython_3_2_5",
+      "_cython_3_3_0",
+      "_openssl",
+      "_openssl.lib",
+      "cython_runtime"
+    ],
+    "unique_typing_aliases": [
+      "typing.io",
+      "typing.re"
+    ]
+  }
+}
