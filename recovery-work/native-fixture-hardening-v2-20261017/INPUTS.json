@@ -1,0 +1,6 @@
+{
+  "source": "/workspace/scratch/cb28ee9f5f4a/recovery-work/integrated222-v2-20261017/source/tests/test_sqlalchemy_search.py",
+  "bytes": 65223,
+  "sha256": "0d9de8f210d482db210b982e0aa2b027e989e0deb589114a753ee4dfbf869015",
+  "scope": "isolated fixture-only successor; source review required; no execution"
+}
