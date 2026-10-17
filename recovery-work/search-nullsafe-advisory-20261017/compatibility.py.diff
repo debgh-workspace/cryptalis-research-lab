@@ -1,0 +1,13 @@
+--- baseline/src/cryptalis/manifest/compatibility.py
++++ candidate/src/cryptalis/manifest/compatibility.py
+@@ -354,6 +354,10 @@
+                 self.add("encrypted_operation_refused_if_attached", node,
+                          "This encrypted pattern, text-search or ordering operation is not admitted.",
+                          "Use declared equality/IN or an explicitly reviewed alternative; never use a plaintext fallback.")
++            if field is not None and method in ("is_distinct_from", "is_not_distinct_from"):
++                self.add("encrypted_nullsafe_comparison_refused_if_attached", node,
++                         "This encrypted NULL-safe comparison is not admitted through the attached factory.",
++                         "Review exact NULL-aware alternatives in staging; ordinary equality or inequality is not a general replacement. Never bypass the attached factory or use a plaintext fallback.")
+             if field is not None and method in ("in_", "not_in", "notin_") and not field["queries"]:
+                 self.add("storage_only_comparison_refused_if_attached", node,
+                          "Set-membership search is not declared for this storage-only field.",
