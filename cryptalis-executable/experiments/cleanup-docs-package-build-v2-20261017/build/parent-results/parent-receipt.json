@@ -1,0 +1,146 @@
+{
+  "after": [
+    {
+      "checked": 247,
+      "errors": [],
+      "group": "packet",
+      "pass": true
+    },
+    {
+      "checked": 3,
+      "errors": [],
+      "group": "outer",
+      "pass": true
+    },
+    {
+      "checked": 1929,
+      "errors": [],
+      "group": "inputs",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "baseline",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "derivative",
+      "pass": true,
+      "unchanged_original_source_bodies": 213
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "candidate",
+      "pass": true
+    }
+  ],
+  "before": [
+    {
+      "checked": 247,
+      "errors": [],
+      "group": "packet",
+      "pass": true
+    },
+    {
+      "checked": 3,
+      "errors": [],
+      "group": "outer",
+      "pass": true
+    },
+    {
+      "checked": 1929,
+      "errors": [],
+      "group": "inputs",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "baseline",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "derivative",
+      "pass": true,
+      "unchanged_original_source_bodies": 213
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "candidate",
+      "pass": true
+    }
+  ],
+  "captured_stream_cap_each": 2097152,
+  "child": {
+    "cleanup_errors": [],
+    "command": [
+      "/bin/bash",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run-after-review.sh",
+      "d42f5e7f8523d3ef304702eef0d9b226bcd80a799be60b5429b0b4c6aab72640",
+      "03052667c7c7b17d61b226038595dafc7b7084114dcde3a0db1e34b335d3c0fa"
+    ],
+    "descendants_verified_absent": false,
+    "environment": {
+      "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/home",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "PATH": "/usr/bin:/bin",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "SOURCE_DATE_EPOCH": "0",
+      "TMPDIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/tmp",
+      "TZ": "UTC",
+      "UV_CACHE_DIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/cache",
+      "UV_OFFLINE": "1"
+    },
+    "exit_code": -9,
+    "group_signals": [
+      {
+        "leader_reaped": false,
+        "pid": 3846,
+        "signal": "SIGKILL"
+      }
+    ],
+    "leader_reaped": true,
+    "reason": "timeout",
+    "stderr": "",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout": "{\n  \"checks\": [\n    {\n      \"group\": \"packet\",\n      \"pass\": true,\n      \"checked\": 247,\n      \"errors\": []\n    },\n    {\n      \"group\": \"outer\",\n      \"pass\": true,\n      \"checked\": 3,\n      \"errors\": []\n    },\n    {\n      \"group\": \"inputs\",\n      \"pass\": true,\n      \"checked\": 1929,\n      \"errors\": []\n    },\n    {\n      \"group\": \"baseline\",\n      \"pass\": true,\n      \"checked\": 221,\n      \"errors\": []\n    },\n    {\n      \"group\": \"derivative\",\n      \"pass\": true,\n      \"checked\": 221,\n      \"errors\": [],\n      \"unchanged_original_source_bodies\": 213\n    },\n    {\n      \"group\": \"candidate\",\n      \"pass\": true,\n      \"checked\": 221,\n      \"errors\": []\n    }\n  ],\n  \"authorization_scope\": \"one separately authorized bounded build only\"\n}\n",
+    "stdout_bytes": 742,
+    "stdout_sha256": "4d2a6b341b9e45a81d1d892cd9c5eac2815a47bf58150de555ceaf84f14e6263"
+  },
+  "child_regular_file_limit_bytes": 8388608,
+  "clearance_sha256": "03052667c7c7b17d61b226038595dafc7b7084114dcde3a0db1e34b335d3c0fa",
+  "errors": [
+    "ValueError('child_failed_or_cleanup_incomplete')"
+  ],
+  "inner_environment_note": "Inner replaces HOME/TMPDIR/UV_CACHE_DIR with fresh run/home, run/tmp, run/cache; all other declared constants match.",
+  "outer_environment": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/home",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "PATH": "/usr/bin:/bin",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "SOURCE_DATE_EPOCH": "0",
+    "TMPDIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/tmp",
+    "TZ": "UTC",
+    "UV_CACHE_DIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/parent-results/cache",
+    "UV_OFFLINE": "1"
+  },
+  "packet_sha256": "d42f5e7f8523d3ef304702eef0d9b226bcd80a799be60b5429b0b4c6aab72640",
+  "parent_fsize_limits_restored": true,
+  "parent_original_fsize_limits": [
+    -1,
+    -1
+  ],
+  "prior_artifacts_preserved": true,
+  "status": "FAIL",
+  "wall_seconds": 120
+}

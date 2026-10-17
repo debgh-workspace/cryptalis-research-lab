@@ -1,0 +1,304 @@
+{
+  "after": [
+    {
+      "checked": 247,
+      "errors": [],
+      "group": "packet",
+      "pass": true
+    },
+    {
+      "checked": 3,
+      "errors": [],
+      "group": "outer",
+      "pass": true
+    },
+    {
+      "checked": 1929,
+      "errors": [],
+      "group": "inputs",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "baseline",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "derivative",
+      "pass": true,
+      "unchanged_original_source_bodies": 213
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "candidate",
+      "pass": true
+    }
+  ],
+  "artifacts_after": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1974992,
+        33188,
+        1,
+        141155,
+        1792209400240848382,
+        1792209400240848382
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/repeat-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1974995,
+        33188,
+        1,
+        141155,
+        1792209400260848286,
+        1792209400260848286
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/roundtrip-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1975055,
+        33188,
+        1,
+        141155,
+        1792209400700846178,
+        1792209400700846178
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/sdist-1/cryptalis-0.1.0.tar.gz": {
+      "metadata": [
+        27,
+        1974986,
+        33188,
+        1,
+        150623,
+        1792209400204848555,
+        1792209400204848555
+      ],
+      "sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/sdist-2/cryptalis-0.1.0.tar.gz": {
+      "metadata": [
+        27,
+        1974989,
+        33188,
+        1,
+        150623,
+        1792209400224848459,
+        1792209400224848459
+      ],
+      "sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334"
+    }
+  },
+  "artifacts_before": {
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1974992,
+        33188,
+        1,
+        141155,
+        1792209400240848382,
+        1792209400240848382
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/repeat-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1974995,
+        33188,
+        1,
+        141155,
+        1792209400260848286,
+        1792209400260848286
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/roundtrip-wheel/cryptalis-0.1.0-py3-none-any.whl": {
+      "metadata": [
+        27,
+        1975055,
+        33188,
+        1,
+        141155,
+        1792209400700846178,
+        1792209400700846178
+      ],
+      "sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/sdist-1/cryptalis-0.1.0.tar.gz": {
+      "metadata": [
+        27,
+        1974986,
+        33188,
+        1,
+        150623,
+        1792209400204848555,
+        1792209400204848555
+      ],
+      "sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334"
+    },
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/run/sdist-2/cryptalis-0.1.0.tar.gz": {
+      "metadata": [
+        27,
+        1974989,
+        33188,
+        1,
+        150623,
+        1792209400224848459,
+        1792209400224848459
+      ],
+      "sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334"
+    }
+  },
+  "before": [
+    {
+      "checked": 247,
+      "errors": [],
+      "group": "packet",
+      "pass": true
+    },
+    {
+      "checked": 3,
+      "errors": [],
+      "group": "outer",
+      "pass": true
+    },
+    {
+      "checked": 1929,
+      "errors": [],
+      "group": "inputs",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "baseline",
+      "pass": true
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "derivative",
+      "pass": true,
+      "unchanged_original_source_bodies": 213
+    },
+    {
+      "checked": 221,
+      "errors": [],
+      "group": "candidate",
+      "pass": true
+    }
+  ],
+  "child": {
+    "cleanup_errors": [],
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "-I",
+      "-B",
+      "-S",
+      "-X",
+      "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-verification-only-v1-20261017/verification-bytecode-absent",
+      "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-package-build-v2-20261017/build/verify.py"
+    ],
+    "descendants_verified_absent": false,
+    "environment": {
+      "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-verification-only-v1-20261017/run/home",
+      "LANG": "C.UTF-8",
+      "LC_ALL": "C.UTF-8",
+      "PATH": "/usr/bin:/bin",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "SOURCE_DATE_EPOCH": "0",
+      "TMPDIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-verification-only-v1-20261017/run/tmp",
+      "TZ": "UTC",
+      "UV_CACHE_DIR": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/cleanup-docs-verification-only-v1-20261017/run/cache",
+      "UV_OFFLINE": "1"
+    },
+    "exit_code": 0,
+    "group_signals": [],
+    "leader_reaped": true,
+    "reason": null,
+    "stderr": "",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout": "{\n  \"status\": \"PASS_SCOPED_CLEANUP_DOCS_SOURCE_BACKEND_PACKAGING\",\n  \"sdist_sha256\": \"8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334\",\n  \"wheel_sha256\": \"e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b\",\n  \"unchanged_original_source_files\": 213,\n  \"unchanged_doctor_source_files\": 215,\n  \"unchanged_runtime_modules\": 41,\n  \"doctor_metadata_unchanged\": true,\n  \"source_files\": 221,\n  \"runtime_modules\": 43,\n  \"sdist_payload_files\": 49,\n  \"wheel_payload_files\": 48,\n  \"record_hashed_entries\": 47,\n  \"sdist_count\": 2,\n  \"wheel_count\": 3,\n  \"direct_repeat_roundtrip_identical\": true,\n  \"cli_entrypoint\": \"cryptalis.cli:main\",\n  \"source_changed\": [\n    \"README.md\",\n    \"docs/doctor.md\",\n    \"docs/lifecycle.md\",\n    \"docs/walkthrough-migration.md\",\n    \"docs/walkthrough-sqlalchemy.md\",\n    \"src/cryptalis/_sqlalchemy_transactions.py\",\n    \"src/cryptalis/cli.py\",\n    \"src/cryptalis/sqlalchemy.py\"\n  ],\n  \"source_added\": [],\n  \"sdist_changed\": [\n    \"cryptalis-0.1.0/src/cryptalis/_sqlalchemy_transactions.py\",\n    \"cryptalis-0.1.0/src/cryptalis/sqlalchemy.py\"\n  ],\n  \"sdist_added\": [],\n  \"wheel_changed\": [\n    \"cryptalis-0.1.0.dist-info/RECORD\",\n    \"cryptalis/_sqlalchemy_transactions.py\",\n    \"cryptalis/sqlalchemy.py\"\n  ],\n  \"wheel_added\": [],\n  \"negative_controls\": [\n    {\n      \"id\": \"missing_lock\",\n      \"rejected\": true\n    },\n    {\n      \"id\": \"altered_lock\",\n      \"rejected\": true\n    }\n  ],\n  \"gates\": \"ALL_SEVEN_UNKNOWN\",\n  \"limits\": [\n    \"Same-host pinned-builder byte equality only; no independent-host reproducibility or backend source-to-binary provenance.\",\n    \"Original dependency wheels unavailable; clean-host provenance remains blocked.\",\n    \"No installation, CLI invocation, runtime test, database action or release qualification.\"\n  ]\n}\n",
+    "stdout_bytes": 1798,
+    "stdout_sha256": "e69af82e4bd967b016b7ba9f588402b3ea2049973090781c8de2087e91ddf0fd"
+  },
+  "clearance_sha256": "e9b9112fd919e90308c804dddb311d513ee06a0f6caae032d7456caec8a195ea",
+  "errors": [],
+  "limits_restored": true,
+  "loaded_code_attestation": false,
+  "operation": "VERIFICATION_ONLY",
+  "original_status": "FAIL_TIMEOUT_PRESERVED",
+  "packet_sha256": "4c3e64eb1e4dddb8c50e507b28f7e8924ae4721060b9319472b24df21b44f332",
+  "regular_file_limit_bytes": 8388608,
+  "status": "PASS_VERIFICATION_ONLY",
+  "verifier_result": {
+    "cli_entrypoint": "cryptalis.cli:main",
+    "direct_repeat_roundtrip_identical": true,
+    "doctor_metadata_unchanged": true,
+    "gates": "ALL_SEVEN_UNKNOWN",
+    "limits": [
+      "Same-host pinned-builder byte equality only; no independent-host reproducibility or backend source-to-binary provenance.",
+      "Original dependency wheels unavailable; clean-host provenance remains blocked.",
+      "No installation, CLI invocation, runtime test, database action or release qualification."
+    ],
+    "negative_controls": [
+      {
+        "id": "missing_lock",
+        "rejected": true
+      },
+      {
+        "id": "altered_lock",
+        "rejected": true
+      }
+    ],
+    "record_hashed_entries": 47,
+    "runtime_modules": 43,
+    "sdist_added": [],
+    "sdist_changed": [
+      "cryptalis-0.1.0/src/cryptalis/_sqlalchemy_transactions.py",
+      "cryptalis-0.1.0/src/cryptalis/sqlalchemy.py"
+    ],
+    "sdist_count": 2,
+    "sdist_payload_files": 49,
+    "sdist_sha256": "8850a20e997e998862c7d44273bcaf8e1cf6022d108f59f04f123731ae7af334",
+    "source_added": [],
+    "source_changed": [
+      "README.md",
+      "docs/doctor.md",
+      "docs/lifecycle.md",
+      "docs/walkthrough-migration.md",
+      "docs/walkthrough-sqlalchemy.md",
+      "src/cryptalis/_sqlalchemy_transactions.py",
+      "src/cryptalis/cli.py",
+      "src/cryptalis/sqlalchemy.py"
+    ],
+    "source_files": 221,
+    "status": "PASS_SCOPED_CLEANUP_DOCS_SOURCE_BACKEND_PACKAGING",
+    "unchanged_doctor_source_files": 215,
+    "unchanged_original_source_files": 213,
+    "unchanged_runtime_modules": 41,
+    "wheel_added": [],
+    "wheel_changed": [
+      "cryptalis-0.1.0.dist-info/RECORD",
+      "cryptalis/_sqlalchemy_transactions.py",
+      "cryptalis/sqlalchemy.py"
+    ],
+    "wheel_count": 3,
+    "wheel_payload_files": 48,
+    "wheel_sha256": "e1f9af85ce3c4e2bc6458d6bf3c1163e227cb2e09fea7365b4d6f7ef52bca28b"
+  }
+}
