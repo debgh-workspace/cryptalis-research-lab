@@ -1,0 +1,354 @@
+--- frozen-doctor/docs/doctor.md
++++ candidate/docs/doctor.md
+@@ -1,6 +1,6 @@
+ # Bounded read-only doctor
+ 
+-Status: bounded diagnostic implementation through S14; exact source and installed evidence below. This is a partial implementation of OBJ-DX-02, not completion of the full doctor objective.
++Status: bounded static, setup and active diagnostic implementation, including the selected safe rejected-text remedy correction. This remains a partial implementation of OBJ-DX-02. Dated source/installed evidence below describes earlier S12–S17 boundaries, not current full-suite execution. The selected doctor successor has separate accepted seven-case installed regression evidence on each main SQLAlchemy profile; public smoke and full doctor/provider qualification remain open.
+ 
+ ## Static CLI
+ 
+@@ -9,6 +9,33 @@
+ This accepts the product `cryptalis.protection/v1` declaration, using the CLI's existing bounded file reader. It checks declaration grammar only. It does not discover or import application code, open a database, obtain credentials, inspect provider custody, authenticate ciphertext, or repair permissions.
+ 
+ Exit status:3 means a valid but incomplete diagnostic report;2 means a rejected declaration or invalid input;4 means existing CLI I/O/unavailable-output failure. A zero-success exit is deliberately not returned for incomplete qualification. JSON includes `complete:false`, `ready:false`, and an explicit status per check. Plain output includes check names/statuses and static failure codes. A readable report is not deployment authorization.
++
++### Installed command and shell exit handling
++
++Use the same approved Python interpreter/environment that installed the exact current wheel. The supported module entrypoint is `python -m cryptalis`; the installed console equivalent is `cryptalis`. The static command takes a declaration filename, whereas the Python `doctor(...)` API takes declaration bytes.
++
++Supply an approved local copy of [manifest.example.json](https://github.com/debgh-workspace/cryptalis-research-lab/blob/d952c505a4666266019e32f27c77f93edd5151ca/preview/docs/source221-v4/manifest.example.json), or your separately reviewed declaration. The wheel does not install that example or create `protection.json`. `/APPROVED/manifest.example.json` below is a mandatory local input substitution. Run in an approved output directory; the two report paths are new output files.
++
++This is an unexecuted command template, not installation or smoke authorization:
++
++```sh
++if python -m cryptalis doctor /APPROVED/manifest.example.json --json \
++    >doctor-report.json 2>doctor-error.json; then
++    doctor_status=0
++else
++    doctor_status=$?
++fi
++case "$doctor_status" in
++    3) printf '%s\n' 'Declaration report produced; qualification remains incomplete.' ;;
++    2) printf '%s\n' 'Rejected declaration or invalid input; inspect both output files.'; exit 2 ;;
++    4) printf '%s\n' 'I/O or output unavailable; inspect available diagnostics.'; exit 4 ;;
++    *) printf '%s\n' 'Unexpected doctor exit for this frozen candidate; stop and investigate.'; exit 1 ;;
++esac
++```
++
++Exit 3 is the expected result for a valid static declaration: `complete` and `ready` remain false. Do not use `&&` or an unguarded `set -e` invocation to interpret it as exit-0 success, and do not ignore every nonzero result with `|| true`. A readable rejected declaration produces its JSON report on stdout with exit 2. Invalid arguments and file-open/read failures report on stderr; missing/inaccessible input is normally exit 2, while unavailable I/O/output is exit 4. Empty stderr therefore does not prove declaration acceptance.
++
++The static doctor subcommand accepts `doctor PATH [--json]`; setup, database, roles and ciphertext inspection require the separately documented explicit host API and its approved inputs. This command does not establish database readiness, perform migration, or grant any authority.
+ 
+ ## Explicit host API
+ 
+@@ -32,7 +59,7 @@
+ 
+ ## Offline manifest-first setup prototype
+ 
+-**IMPLEMENTED and pure-tested in an isolated S17-derived candidate.** This new
++**IMPLEMENTED in the selected source; initial isolated S17-derived evidence is recorded below.** This
+ explicit phase reuses the existing host API. It does not change the static CLI
+ or the default pre-adoption and active inspection paths.
+ 
+@@ -103,7 +130,7 @@
+ lines plus four fixture lines and zero application-source edits. No reduction
+ in those runtime integration lines is claimed. See [the research receipt](research/MANIFEST_SETUP_20261013.md).
+ 
+-## Evidence
++## Historical S12 evidence
+ 
+ Initial76PASS2.81s. Expanded169PASS6.24s including existing compiler/scanner/CLI tests. Removing only compiler read-only enforcement/assertion makes both new ordinary/AUTOCOMMIT write-refusal controls fail; exact compiler bytes restored, then14 doctor tests PASS0.43s. This mutation uses a zero-row DELETE against disposable synthetic tables; it does not mutate customer data.
+ 
+@@ -117,7 +144,7 @@
+ 
+ The inspector reuses the admitted lifecycle attachment checks inside its own read-only transaction. A successful roles check covers the planned runtime role's effective privileges and routine policy at that snapshot, not complete discovery of every external writer. Journal/pin agreement is not cryptographic authentication of the pin's origin. Provider and, without the explicit S14 opt-in below, ciphertext checks remain NOT_INSPECTED; complete/ready remain false. It never calls the maintenance verifier or bypasses its approval requirement. The static CLI continues to inspect only declaration grammar.
+ 
+-S13 installed focused suites157PASS on each dependency cell; source hashes unchanged. Last full-suite baseline remains S12; S13 full suite NOT RUN. All seven independent gates remain UNKNOWN.
++At the historical S13 checkpoint, installed focused suites had157PASS on each dependency cell with source hashes unchanged; its last full-suite baseline was S12 and S13 full suite was NOT RUN. These dated results do not describe the selected successor's current full-suite status. All seven independent gates remain UNKNOWN.
+ 
+ ## Explicit bounded ciphertext observation (S14)
+ 
+@@ -129,6 +156,6 @@
+ 
+ CHECKED means only that the observed non-NULL cells authenticated at this snapshot. It cannot prove NULL substitution, absent rows, same-context replay/freshness or complete external membership. Any generation admitted by the exact key policy may authenticate; this is not active-write-generation readiness verification. A fixture that deletes a row and replaces all remaining frames with NULL deliberately demonstrates this limit. Provider custody remains NOT_INSPECTED. `ready` and `complete` remain false. This operation never calls the maintenance verifier, changes a journal/pin, or issues a lifecycle certificate. Existing transition approval requirements remain unchanged.
+ 
+-Source evidence: initial missing-API regression3FAIL; expanded audit90PASS after correcting one test SQL expression (the failed setup is retained). Removing authentication causes1FAIL; removing the byte bound causes1FAIL. Exact restoration and added boundary controls:19PASS. Independent CF1/native-value oracles cover multiple tables, fields and tenants. Repeated wheel SHA25643c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080;37 installed modules byte-match. Full installed suites:1831PASS/7FAIL/0SKIP315.40s on2.1.3;1813PASS/7FAIL/18SKIP315.98s on2.0.51. Same seven known legacy-profile failures; source hashes stable. Six later snapshot/projection/READ ONLY/global-row/empty-data controls pass separately on each installed cell, without runtime changes. The isolation-level mutation fails and exact restoration passes. Full-suite acceptance remains open.
++Source evidence: initial missing-API regression3FAIL; expanded audit90PASS after correcting one test SQL expression (the failed setup is retained). Removing authentication causes1FAIL; removing the byte bound causes1FAIL. Exact restoration and added boundary controls:19PASS. Independent CF1/native-value oracles cover multiple tables, fields and tenants. Repeated wheel SHA25643c98cb0128c0a8cfda090febc8f485bd9b4883f3c9c047aefd155fe263ac080;37 installed modules byte-match. Full installed suites:1831PASS/7FAIL/0SKIP315.40s on2.1.3;1813PASS/7FAIL/18SKIP315.98s on2.0.51. Same seven known legacy-profile failures; source hashes stable. Six later snapshot/projection/READ ONLY/global-row/empty-data controls pass separately on each installed cell, without runtime changes. The isolation-level mutation fails and exact restoration passes. At that historical S14 checkpoint, full-suite acceptance remained open. Preserve its seven failures as historical results; later original Integrated221 acceptance does not rewrite them or imply a fresh full-suite run on the selected doctor successor.
+ 
+ AEAD's interface does not itself provide anti-replay, consistent with RFC5116 section1.2: https://www.rfc-editor.org/info/rfc5116/ . This is an established limitation, not a novelty claim.
+--- frozen-doctor/docs/lifecycle.md
++++ candidate/docs/lifecycle.md
+@@ -1,7 +1,9 @@
+ # One transition engine
+ 
+-**SPECIFIED:** lifecycle contract. **IMPLEMENTED:** bounded product protection transition with plan/apply/verify and pre-switch abort.
+-Decrypt-back, removal and rotation remain unimplemented product slices. [Status](status.md) states the evidence limits.
++**SPECIFIED:** full lifecycle contract. **IMPLEMENTED:** bounded maintenance protection with plan/apply/verify and pre-switch abort, plus current-data decrypt-back and removal for admitted retained-native profiles.
++Complete root rewrap, payload rotation and search reindex remain unfinished product workflows. Generic legacy repair, independent fresh-host recovery and full lifecycle qualification remain open.
++Use the [current recovery/removal procedure](https://github.com/debgh-workspace/cryptalis-research-lab/blob/d952c505a4666266019e32f27c77f93edd5151ca/preview/docs/source221-v4/RECOVERY.md) for the implemented Python APIs and their explicit authority, plaintext, package-free workload and retained-backup prerequisites. The exact public workflow smoke remains unexecuted.
++Dated receipts and earlier slice labels below are historical; they do not establish current-artifact execution or completion. [Status](status.md) retains historical evidence and its limits.
+ The protection engine verifies and switches in one transaction; saved verification checkpoints require a fresh pass on resume.
+ Plain reads continue during verification. Writes and locking reads wait; schema DDL can pause all access.
+ VERIFIED paragraphs below describe recorded receipts, not current product qualification. All other requirements remain SPECIFIED.
+@@ -49,6 +51,10 @@
+ The deployment operator stops known workers/jobs and excludes unsupported writers before transformation.
+ The runtime principal cannot change schema, operation metadata, or lifecycle privileges.
+ Unknown writer coverage blocks apply. An empty connection snapshot alone does not prove that excluded writers cannot reconnect.
++Before protection or reversal cutover, also follow the [snapshot-holder drain prerequisite](walkthrough-migration.md#snapshot-holder-drain-before-cutover).
++It covers other account-bearing snapshot holders across this database, not only writers or protected-table users.
++Idle connections without snapshots need not be disconnected. A refusal can follow committed staging/backfill;
++preserve the original operation and inspect progress/current authority before any approved resume.
+ 
+ One PostgreSQL journal stores the immutable operation ID/plan digest, target binding, source/desired lock, phase, and chunk outcomes.
+ Chunk data and its completion marker commit in one transaction.
+@@ -98,7 +104,7 @@
+ The default is decrypt-back or transform-back from **current** active data.
+ It is the same verified engine used for deprotect. A static pre-switch snapshot is not a lossless rollback after post-switch writes.
+ 
+-Before switch, `apply --abort OPERATION` can remove operation-owned shadows and retain the unchanged source.
++Before protection switch, `cryptalis.migration.abort(p, engine, pin=..., approval=...)` can remove operation-owned shadows and retain the unchanged source and durable ABORTED journal. This is a Python API; a general operational `apply --abort` CLI is not supplied. Automatic forward replan/journal deletion remains unavailable.
+ After switch, rollback pauses writers, reads current values, transforms the previous representation, verifies, and performs a new switch.
+ It requires compatible readers/keys and a lossless prior type/constraint contract.
+ If current values cannot fit that contract, report the exact conflict class and keep the active representation.
+@@ -134,7 +140,7 @@
+ 
+ ## Restore and authority loss
+ 
+-These are deployment requirements. Only a local policy model ran; no authenticated restore test passed.
++These are deployment requirements. Bounded retained-backup and stale-pin tests do not establish authenticated fresh-host deployment recovery, independent custody restoration or current authority. Those qualifications remain open.
+ A restore starts in quarantine with production writers stopped.
+ The operator inspects trusted schema, target identity, current deployment policy, key wrappers, formats, and backup lineage.
+ A restored operation journal is progress evidence, not current authority.
+@@ -191,7 +197,7 @@
+ 
+ ### Safe-default remembered-index designation research profile
+ 
+-SOURCE-ONLY FOLLOW-ON, NOT VERIFIED: new `migration.plan(...)` calls default to
++IMPLEMENTED bounded research profile with accepted original Integrated221 source/installed evidence: new `migration.plan(...)` calls default to
+ `preserve_cluster_designation=True` and explicitly select
+ `cryptalis.transition/retained-native-comments-cluster-research-v2`. Its reverse
+ artifact uses `cryptalis.reverse/retained-native-comments-cluster-research-v2`.
+@@ -227,16 +233,16 @@
+ The new inventory and longer format names are included in the existing forward
+ artifact/reverse-envelope budget. A failed reverse transaction must retain the
+ previous durable phase; inspect it before resuming the same operation. The new
+-tests are prepared only. No expanded lifecycle or production qualification follows.
++tests and their independently accepted original Integrated221 results remain historical evidence; the doctor successor did not rerun those full suites. No universal metadata preservation, expanded lifecycle or production qualification follows.
+ PostgreSQL can also retain dropped-column bytes in existing heap tuples: `DROP COLUMN` hides the column from SQL,
+ but does not immediately remove its stored data ([PostgreSQL 16 ALTER TABLE](https://www.postgresql.org/docs/16/sql-altertable.html)).
+-Protection switch retires the original SQL column after verification. It does not establish plaintext erasure.
++The retained-native protection switch preserves the original column/type slot and clears its current values after verification; CF1 remains in the payload column. Reverse restores current verified plaintext to the retained slot and retires its admitted staging/payload columns. Neither transition establishes plaintext erasure.
+ Historical plaintext and encrypted-reader obligations remain explicit after application exit.
+ 
+ ## Recovery behavior
+ 
+-`status` reports the original operation, last durable phase, attempted effect, pending work, and remedy.
+-`apply --resume` reinspects that operation and actual state before another effect.
++The specified operations interface must report the original operation, last durable phase, attempted effect, pending work, and remedy; a complete operations CLI is not implemented.
++Current Python `cryptalis.migration.apply(...)` and `cryptalis.deprotection.apply(...)` resume their original plans with current matching pins and required approvals, reinspecting recorded state before further effects. Do not treat `apply --resume` as an available CLI command.
+ An expired initial plan cannot authorize changed effects. It can identify an already approved operation for current reinspection.
+ Unknown provider effect requires native inspection before retry. Advisory locks do not fence an already dispatched KMS request.
+ No separate reconcile, break-glass, receipt repair, or restore-admission language is required for the normal product.
+@@ -248,7 +254,7 @@
+ The operator controls worker termination, database credentials, deployment artifacts, and restore quarantine.
+ No profile qualifies yet. Multi-deployment writer coordination is unavailable until that exact host procedure passes its tests.
+ 
+-1. Stop affected writers and wait for their transactions to finish. Confirm that alternate credentials cannot restart a writer.
++1. Stop affected writers and wait for their transactions to finish. Confirm that alternate credentials cannot restart a writer. Arrange authorized completion or rollback of other same-database snapshot holders before cutover, as described in the linked prerequisite.
+ 2. Run the database transition and full verification under the maintenance principal. Record the exact pending policy artifact digest.
+ 3. Switch the database representation. Leave writers stopped. `status` names the operator and the required artifact publication.
+ 4. Publish the exact artifact through the trusted deployment tool. Restart workers with fresh target credentials and empty key caches.
+--- frozen-doctor/docs/walkthrough-migration.md
++++ candidate/docs/walkthrough-migration.md
+@@ -1,11 +1,23 @@
+ # Protect an existing text column
+ 
+-**IMPLEMENTED research prototype.** No production provider or independent review exists.
++**IMPLEMENTED research prototype.** Production-provider and independent production-security qualification remain incomplete.
+ All seven gates remain UNKNOWN. Use the authorized disposable PostgreSQL 16 cell.
+ 
+ 1. Keep the original application mapping as `Text`. Assign primary keys in the application.
+ 2. Declare tenancy, protected fields, query leakage, writers, and searchable value domains.
+ 3. Use owner maintenance and restricted runtime roles. Approve measured costs and pause.
++
++Before the first `apply`, stop and drain known workers and exclude all alternate writers
++with owner or DDL credentials. Follow the snapshot-holder prerequisite below as well.
++A maintenance-approval record does not prove either prerequisite.
++
++## Snapshot-holder drain before cutover
++
++Alongside actual exclusion of every affected writer, arrange an authorized cutover window in which other account-bearing transactions holding snapshots in this database can finish or roll back. This includes read-only repeatable-read/serializable transactions, exported snapshots, server-side cursors and account-bearing background workers, even when they do not access protected tables. Idle connections without a snapshot need not be disconnected. The library checks this barrier at switch; a planning result or maintenance-approval record does not prove it. If `other_database_snapshots_active` occurs, keep writers stopped, preserve the original operation/artifact and staging, have the responsible operators finish or roll back the relevant transactions, inspect actual progress and current external authority, then resume the same operation only within approval. Do not bypass the guard, delete the journal, terminate sessions without separate authority, or blindly replay business writes.
++
++This is a database-wide snapshot-holder condition, not a requirement to disconnect every open connection. The guard can refuse after earlier staging/backfill transactions have committed. Preserve actual progress; do not assume the operation had no effects. Existing source tests cover this boundary; no tests were rerun for this clarification. This does not establish near-zero-downtime migration or continuous quiescence.
++
++## Plan and apply under the approved cutover window
+ 
+ ```python
+ from cryptalis.migration import plan, apply, MaintenanceApproval
+@@ -25,11 +37,11 @@
+ 
+ `plan` changes no schema or data. It rejects incompatible keys, types, tenancy, and search domains.
+ Save `p.artifact` and the authenticated current pin outside restore; bind target, operation, digest, and phase. The host supplies pin provenance.
+-Stop and drain known workers. Exclude all alternate writers with owner or DDL credentials.
++Keep the writer exclusion and the approved cutover window in force through publication and activation.
+ The journal is progress evidence. Never reconstruct current authority from a restored journal.
+ 
+ Expand installs bytea shadows, indexes, and durable per-table maintenance triggers. Tables in one schema share the operation guard function.
+-Runtime writes during maintenance fail with SQLSTATE `55000`; callers must roll back and retry later. Concurrent plaintext commits are refused.
++Admitted restricted-runtime writes during maintenance fail with SQLSTATE `55000`; roll back and resume only after inspection and matching deployment publication. The host must separately exclude owner/DDL-capable and unsupported writers; the maintenance trigger does not prove their exclusion.
+ Backfill commits each bounded chunk with its marker. Resume with the same artifact and current pin.
+ Committed chunks retain their ciphertext. Failed chunks leave neither rows nor markers partially changed.
+ Verification decrypts every value and checks source equality, types, NULLs, membership, generations, and schema.
+@@ -38,10 +50,9 @@
+ 
+ Plain reads continue during verification; writes and locking reads wait. DDL can pause reads after its lock is granted.
+ Strong locks retry three 100 ms attempts with 50 ms gaps; exhaustion reports `table_lock_busy_retry`. Other lock waits retain the 5 s default.
+-Switch drops the original column and renames the ciphertext shadow. There is no live plaintext rollback mirror.
+-**Plaintext-at-rest remains possible:** dropped-column bytes can remain in heap tuples, WAL, snapshots, and backups.
+-`DROP COLUMN` is not erasure ([PostgreSQL 16](https://www.postgresql.org/docs/16/sql-altertable.html)). Retain recovery dependencies until explicit finalization.
+-Decrypt-back from current data belongs to slice 6 and is not implemented by this slice.
++The retained-native protection switch keeps the original column/type slot and clears its values according to the admitted nullability contract; authenticated CF1 remains in the bytea payload column. Original affected indexes/constraints are retired as recorded by the plan. The switch does not drop/rename the original column and does not keep a live plaintext rollback mirror.
++**Plaintext-at-rest remains possible:** prior row versions, WAL, snapshots and backups can retain plaintext. Neither updates nor later `DROP COLUMN` operations establish erasure. Retain recovery dependencies until explicit finalization.
++Bounded decrypt-back of current edited data and removal are implemented through `cryptalis.deprotection` for admitted profiles. Follow the [recovery/removal guide](https://github.com/debgh-workspace/cryptalis-research-lab/blob/d952c505a4666266019e32f27c77f93edd5151ca/preview/docs/source221-v4/RECOVERY.md) with distinct plaintext-role admission, separate reverse authority, explicit plaintext consent and actual package-free/backup evidence. Public workflow smoke, generic lost-metadata repair and independent fresh-host recovery remain unestablished.
+ 
+ Publish the exact artifact through the trusted host deployment tool while writers stay stopped.
+ Supply its `ACTIVATING` pin to `apply(..., until="ACTIVE")` to acknowledge publication and remove the fence.
+--- frozen-doctor/docs/walkthrough-sqlalchemy.md
++++ candidate/docs/walkthrough-sqlalchemy.md
+@@ -1,7 +1,7 @@
+ # SQLAlchemy storage attachment
+ 
+ **IMPLEMENTED:** bounded sync/async text attachment; research prototype.
+-All seven gates remain **UNKNOWN**. No production provider or independent review exists.
++All seven gates remain **UNKNOWN**. Production-provider and independent production-security qualification remain incomplete.
+ [Status](status.md) owns revision-bound tests and the corrective row-isolation evidence.
+ 
+ The adapter prepares row-bound CF1 frames before SQL and keeps ORM attributes as text or NULL.
+@@ -11,21 +11,33 @@
+ Unprotected SELECTs retain native caching.
+ 
+ Use the [product protection transition](walkthrough-migration.md) before attachment.
+-Decrypt-back and removal are not implemented. Test fixtures can transform empty disposable targets only.
++Bounded current-data decrypt-back and removal are implemented for admitted schema profiles through `cryptalis.deprotection`; they are not limited to empty targets.
++Follow the [recovery/removal guide](https://github.com/debgh-workspace/cryptalis-research-lab/blob/d952c505a4666266019e32f27c77f93edd5151ca/preview/docs/source221-v4/RECOVERY.md) with the exact forward/reverse artifacts, current external pins, maintenance and plaintext consent, and a distinct plaintext runtime role.
++Removal also requires actual package-free workload and retained encrypted-backup recovery evidence. Those are host attestations, not checks performed by the removal API.
++The exact public quickstart/backup/restore/removal smoke remains unexecuted; generic legacy repair, clean-host recovery and complete lifecycle qualification remain open.
+ Supply a trusted compiler lock, admitted tenant keyrings and an engine with parameter logging hidden.
+ Attach before sessions or model use. Close existing connections first.
++Supply the exact approved plan and its current authoritative ACTIVE pin after confirmed activation.
++Missing or stale authority must remain a refusal; do not fabricate a pin to bypass the check.
++The deployment tuple does not create or approve authority. Use the restricted runtime engine.
+ The host authenticates tenant scope and authorizes queries; attachment adds no tenant filter.
+ Assign row IDs and declared tenant values before flush. A Python default does not replace assignment.
+ 
+ ```python
+ from cryptalis.sqlalchemy import attach
+ 
+-sessions = attach(Base.registry, engine, lock=plan.lock_bytes, keys=tenant_keys.__getitem__)
++sessions = attach(
++    Base.registry, runtime_engine, lock=plan.lock_bytes,
++    keys=tenant_keys.__getitem__, deployment=(plan, active_pin),
++)
+ with sessions(tenant_id=authenticated_tenant) as session:
+     session.add(Customer(id=app_assigned_uuid, tenant_id=authenticated_tenant, note="text"))
+     session.commit()
+ # AsyncEngine: await attach(...); use async with and await Session methods.
+ ```
++
++The AsyncEngine note applies to supported ordinary SQLAlchemy mappings. Default async SQLModel
++attachment remains refused; do not enable private flags as an adoption workaround.
+ 
+ Storage-only locks reject protected search. [Equality/IN/uniqueness](walkthrough-search.md) require declared capabilities.
+ Opaque SQL, COPY, protocol handles, Core/bulk writes and unsupported expressions reject.
+--- frozen-doctor/src/cryptalis/_sqlalchemy_transactions.py
++++ candidate/src/cryptalis/_sqlalchemy_transactions.py
+@@ -145,12 +145,13 @@
+     engine.dialect.do_rollback_to_savepoint = lambda connection, name: execute('rollback', connection, name)
+ 
+ 
+-def fail_prepared_flush(session):
++def fail_prepared_flush(session, *, cleanup_state):
+     """Use the native failed-flush child boundary for early preparation errors.
+ 
+     Version-qualified against SQLAlchemy 2.0.51 and 2.1.3. Their own _flush
+     uses _begin/rollback(_capture_exception=True) for the same state transition.
+-    Called only while propagating an exception from our before_flush callback.
++    The internal caller owns an exact dict initialized to an unknown outcome.
++    Publish only after all fallback attempts; never store state on an exception.
+     """
+     transaction = session.get_nested_transaction() or session.get_transaction()
+     if transaction is None or not transaction.is_active:
+@@ -164,20 +165,28 @@
+         with native_scope(session, transaction):
+             transaction._begin().rollback(_capture_exception=True)
+     except BaseException as failure:
+-        failure._cryptalis_quarantine_incomplete = False
++        incomplete = False
++        def note(message):
++            try:
++                BaseException.add_note(failure, message)
++            except BaseException:
++                # Keep physical fallback and later connection cleanup running
++                # even when the rollback error cannot accept a safe note.
++                pass
+         # Failed rollback cannot leave a committable prefix in a pooled socket.
+         for connection in connections:
+             try:
+                 connection.invalidate()
+-            except BaseException as invalidation:
+-                failure.add_note("Connection quarantine failed: " + type(invalidation).__name__)
++            except BaseException:
++                note("Connection quarantine failed; physical close will be attempted when a captured driver is available.")
+                 driver = drivers.get(connection)
+                 if driver is not None:
+                     try:
+                         driver.close()
+-                    except BaseException as closing:
+-                        failure._cryptalis_quarantine_incomplete = True
+-                        failure.add_note("Physical close failed: " + type(closing).__name__)
++                    except BaseException:
++                        incomplete = True
++                        note("Physical close failed; connection outcome is unknown.")
+                 elif not connection.closed and not connection.invalidated:
+-                    failure._cryptalis_quarantine_incomplete = True
++                    incomplete = True
++        cleanup_state["quarantine_incomplete"] = incomplete
+         raise
+--- frozen-doctor/src/cryptalis/sqlalchemy.py
++++ candidate/src/cryptalis/sqlalchemy.py
+@@ -943,7 +943,15 @@
+ 
+ def _failed_flush_preparation(session, failure):
+     session._prepared = None
+-    failure.add_note('Roll back the failed Session or SAVEPOINT before retrying.')
++    cleanup_state = {"quarantine_incomplete": None}
++    def note(message):
++        try:
++            BaseException.add_note(failure, message)
++        except BaseException:
++            # Diagnostic delivery must not replace the primary failure or
++            # prevent the native failed-flush cleanup attempt.
++            pass
++    note('Roll back the failed Session or SAVEPOINT before retrying.')
+     try:
+         # A fresh async cleanup greenlet has no active exception state.
+         # Native rollback captures sys.exc_info(), so restore that context
+@@ -951,12 +959,11 @@
+         raise failure
+     except BaseException:
+         try:
+-            fail_prepared_flush(session)
+-        except BaseException as cleanup:
+-            failure.add_note("Cryptalis flush rollback failed (" + type(cleanup).__name__
+-                             + "); discard this failed unit and inspect cleanup.")
+-            if getattr(cleanup, "_cryptalis_quarantine_incomplete", False):
+-                failure.add_note("Physical quarantine is incomplete; connection outcome is unknown. "
++            fail_prepared_flush(session, cleanup_state=cleanup_state)
++        except BaseException:
++            note("Cryptalis flush rollback failed; discard this failed unit and inspect cleanup.")
++            if cleanup_state.get("quarantine_incomplete") is not False:
++                note("Physical quarantine is incomplete or unconfirmed; connection outcome is unknown. "
+                                  "Keep the workload stopped and inspect the database session.")
+ 
+ 
