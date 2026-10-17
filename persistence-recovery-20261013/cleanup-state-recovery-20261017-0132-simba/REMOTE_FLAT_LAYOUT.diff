@@ -1,0 +1,22 @@
+--- restore_source221.py
++++ restore_source221_remote_flat.py
+@@ -52,9 +52,9 @@
+  namespace(BASE,bm)
+  # Admit the entire finite leaf set before any source-body read.
+  pins={BASE/k:admit(BASE/k,v['bytes']) for k,v in bm.items()}
+- pins.update({overlay/k:admit(overlay/k,am[k]['bytes']) for k in KEYS})
++ pins.update({overlay/Path(k).name:admit(overlay/Path(k).name,am[k]['bytes']) for k in KEYS})
+  bodies={k:read(BASE/k,pins[BASE/k],v['sha256']) for k,v in bm.items()}
+- for k in KEYS:bodies[k]=read(overlay/k,pins[overlay/k],am[k]['sha256'])
++ for k in KEYS:bodies[k]=read(overlay/Path(k).name,pins[overlay/Path(k).name],am[k]['sha256'])
+  out.mkdir(mode=0o700)
+  for k,b in bodies.items():
+   p=out/k;p.parent.mkdir(parents=True,exist_ok=True,mode=0o700)
+@@ -68,6 +68,6 @@
+   if admit(p)!=m:raise ValueError('Input metadata changed')
+  # Rehash the inputs after output verification; preserve any failure and never retry in place.
+  for k,v in bm.items():read(BASE/k,pins[BASE/k],v['sha256'])
+- for k in KEYS:read(overlay/k,pins[overlay/k],am[k]['sha256'])
++ for k in KEYS:read(overlay/Path(k).name,pins[overlay/Path(k).name],am[k]['sha256'])
+  print(json.dumps({'status':'PASS_INERT_SOURCE221_RECONSTRUCTION','files':221,'bytes':sum(v['bytes'] for v in am.values()),'amended_source_map_sha256':MAPS[1][1],'overlay_paths':KEYS,'output':str(out),'provenance':a.provenance,'remote_fetch_verified_by_this_script':False,'product_execution':False,'environment_recovery':False},indent=2))
+ if __name__=='__main__':main()

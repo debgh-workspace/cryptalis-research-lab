@@ -1,0 +1,429 @@
+{
+  "created_utc": "2026-10-17T01:33:27.335518+00:00",
+  "prior_inventory": {
+    "path": "persistence-recovery-20261013/CLEANUP_PUBLICATION_RECOVERY_INVENTORY_20261017_0129_simba_v1.json",
+    "sha256": "7ccfb79089664b05518f37a1140268ea26870f088b2dcc9c1fa664c52a5c344b",
+    "unchanged_verified": true
+  },
+  "supersedes_pending_status_only": "State four-cell terminal evidence now complete and independently accepted. Previous inventory remains historical unchanged.",
+  "completed": "Both baselines: 8 intended assertion failures/2 controls; both amended: 29 subtests plus ordinary interruption PASS; zero errors/skips.",
+  "source_reconstruction": "LOCAL_ONLY_TESTED; exact 221-file amended map; no product execution",
+  "remote_reconstruction": "PENDING_ROOT_REMOTE_BYTES",
+  "inventory": {
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/AFTER.json": {
+      "bytes": 844594,
+      "sha256": "fe82454cce4dfd31d66c4d4e991887f1373049fd8dd3431b9b18b3a985caf298",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/LOADED_MODULES.json": {
+      "bytes": 96536,
+      "sha256": "d76c941a3cc4acd458e3da2f77678601ee98e5e8055a65d2cd22742f29e67c6b",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/RESULT.json": {
+      "bytes": 202500,
+      "sha256": "d16c9be1f6a34d5f8fc23c692634518a5a4bbeddfa87c45d8266bca0deda6f36",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/amended-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/amended-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/baseline-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/baseline-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/host-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/preservation-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/preservation-after.txt": {
+      "bytes": 220495,
+      "sha256": "5e3103059919fd58bc7593d7c7ceb77dffb82930f59af5e88abb0d961fc2b1e9",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/preservation-before.txt": {
+      "bytes": 220495,
+      "sha256": "5e3103059919fd58bc7593d7c7ceb77dffb82930f59af5e88abb0d961fc2b1e9",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/stderr.txt": {
+      "bytes": 15916,
+      "sha256": "3b2449a55b983154d980045039c929794e3debef9ac3c8c891df30b0cd5b6264",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-baseline/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_completed_output"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-baseline-root-20261017/exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-baseline-root-20261017/invocation-transcript.json": {
+      "bytes": 818,
+      "sha256": "aaa5d0538ed9b798cf448ec77fcf3eedf4b580db91ee579f1d9d1c97cc19575c",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-baseline-root-20261017/selection.txt": {
+      "bytes": 204,
+      "sha256": "a4509b60ee847383ee5aa4bd9b39097cbc56ba9221313c5549bfe8e44c4b8dd6",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-baseline-root-20261017/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-baseline-root-20261017/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/AFTER.json": {
+      "bytes": 844827,
+      "sha256": "7ff4662794bf657fb3abb581a10dc4d26b7746f5fb636ab4107f8f236d359f7f",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/LOADED_MODULES.json": {
+      "bytes": 96737,
+      "sha256": "7979682d7afa16d110b96e1cf0c41fb89cab26697f27aced6c3c33125854c399",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/RESULT.json": {
+      "bytes": 211258,
+      "sha256": "06e0bda43b436d2459ea7aeb4069dbf7bbb96e5c4c9f55835a55649260b3cc70",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/amended-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/amended-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/baseline-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/baseline-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/host-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/preservation-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/preservation-after.txt": {
+      "bytes": 220495,
+      "sha256": "5e3103059919fd58bc7593d7c7ceb77dffb82930f59af5e88abb0d961fc2b1e9",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/preservation-before.txt": {
+      "bytes": 220495,
+      "sha256": "5e3103059919fd58bc7593d7c7ceb77dffb82930f59af5e88abb0d961fc2b1e9",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/stderr.txt": {
+      "bytes": 1258,
+      "sha256": "ea3fa6bd21d21e2c6559cdd522fb9b802752869ad2efed95716efb763ec47e09",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa21-amended/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_completed_output"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-amended-root-20261017/exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-amended-root-20261017/invocation-transcript.json": {
+      "bytes": 817,
+      "sha256": "0ae1644fc0c3f7d4d09c45642dff083f4a1a707444ada080be176b5fb0bfdd18",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-amended-root-20261017/selection.txt": {
+      "bytes": 129,
+      "sha256": "6b3d3fcbf2cd386ee6ed2fc524f1602ee2dfbdb3264e725f59127ca29cf5bf0a",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-amended-root-20261017/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa21-amended-root-20261017/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/AFTER.json": {
+      "bytes": 840878,
+      "sha256": "08a03acae06b9b6ba0e361af86f198525b795cff68de85055a753aafb389451e",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/LOADED_MODULES.json": {
+      "bytes": 96161,
+      "sha256": "26511d58a87afb69ada9486370b0e7436383accea394a47fa7935ec9a17ca529",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/RESULT.json": {
+      "bytes": 201484,
+      "sha256": "437ba603b84782b6dc32da3e31cbe9a38c733ebb7f47a45484a138a95b5350ca",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/amended-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/amended-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/baseline-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/baseline-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/host-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/preservation-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/preservation-after.txt": {
+      "bytes": 219022,
+      "sha256": "30208d7a73f0ccdf8acd2a56794792f1906a860edf3a268774033659c9a46b9c",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/preservation-before.txt": {
+      "bytes": 219022,
+      "sha256": "30208d7a73f0ccdf8acd2a56794792f1906a860edf3a268774033659c9a46b9c",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/stderr.txt": {
+      "bytes": 15916,
+      "sha256": "3b2449a55b983154d980045039c929794e3debef9ac3c8c891df30b0cd5b6264",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-baseline/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_completed_output"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-baseline-root-20261017/exit.txt": {
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-baseline-root-20261017/invocation-transcript.json": {
+      "bytes": 809,
+      "sha256": "88780e9455d851c33b6a5d2656eae52fc5be286744c5c437a460e5906e556f88",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-baseline-root-20261017/selection.txt": {
+      "bytes": 162,
+      "sha256": "6783842570d51a2eb91d2288aa0177c5cfcc540ccc521e597b7e959f08d53a1e",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-baseline-root-20261017/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-baseline-root-20261017/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/AFTER.json": {
+      "bytes": 841111,
+      "sha256": "0e2cba982b95960c6c334fd0b7ad4a246dde071cbaa78cb8c9ef9e8dfaa61bbb",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/LOADED_MODULES.json": {
+      "bytes": 96362,
+      "sha256": "c46878c5294dcb944689f6c5ea3d96d4256812411c011c84613c0063fc5d0945",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/RESULT.json": {
+      "bytes": 210242,
+      "sha256": "05abf704e0a656807678e19e5b94f7ebe96f225a1acd34d4d2bca0060b75284f",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/amended-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/amended-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/baseline-namespace-after.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/baseline-namespace-before.txt": {
+      "bytes": 8751,
+      "sha256": "33d3c9ec5d6a3b3898133a03835bab71aad75803549dff71c5986c88ad567300",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/host-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/preservation-after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/preservation-after.txt": {
+      "bytes": 219022,
+      "sha256": "30208d7a73f0ccdf8acd2a56794792f1906a860edf3a268774033659c9a46b9c",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/preservation-before.txt": {
+      "bytes": 219022,
+      "sha256": "30208d7a73f0ccdf8acd2a56794792f1906a860edf3a268774033659c9a46b9c",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/stderr.txt": {
+      "bytes": 1258,
+      "sha256": "ea3fa6bd21d21e2c6559cdd522fb9b802752869ad2efed95716efb763ec47e09",
+      "group": "state_completed_output"
+    },
+    "cryptalis-executable/experiments/orm-flush-state-unit-packet-v1-20261016/run/sa20-amended/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_completed_output"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-amended-root-20261017/exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-amended-root-20261017/invocation-transcript.json": {
+      "bytes": 808,
+      "sha256": "f954398504384c92d3dc06df70a33ea9c7a140d55db30916f491777f78ec2fc5",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-amended-root-20261017/selection.txt": {
+      "bytes": 120,
+      "sha256": "e2948f316c734cd691c7103971dfbc9f16514cbafda83010fe10d67e9eae750f",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-amended-root-20261017/stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "persistence-recovery-20261013/flush-state-sa20-amended-root-20261017/stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "group": "state_root_capture"
+    },
+    "cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/FLUSH_STATE_V1_FOUR_CELL_SUMMARY_20261017.md": {
+      "bytes": 2923,
+      "sha256": "ea3d634e668c017ade19c11f01864691f7f4469c4d6dc77f5c8b4d6d153e24aa",
+      "group": "independent_acceptance"
+    },
+    "cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/FLUSH_STATE_V1_SA21_BASELINE_RED_REVIEW_20261017.md": {
+      "bytes": 3025,
+      "sha256": "c379228e832a3d0c0ec0ac2c123fd850a6c33997e56267f5a781030dcb5b84b4",
+      "group": "independent_acceptance"
+    },
+    "cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/FLUSH_STATE_V1_SA21_AMENDED_PASS_REVIEW_20261017.md": {
+      "bytes": 3059,
+      "sha256": "360c7741d94ee4bcd784880d36af4637e52a8dd57169480a5fdd6dcb6883e31e",
+      "group": "independent_acceptance"
+    },
+    "cryptalis-executable/reviewer-notes/doctor-remedy-installer-source-independent-20261015/FLUSH_STATE_V1_SA20_PAIR_TERMINAL_REVIEW_20261017.md": {
+      "bytes": 3557,
+      "sha256": "7eb818eb9a1dbebe6f8daea8e7b6743a480cdb5875e1559be85811b7bebda119",
+      "group": "independent_acceptance"
+    },
+    "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/restore_source221.py": {
+      "bytes": 4691,
+      "sha256": "b22abc444cb5be9a382f2129bf9d513e773fdd0f69b3a1cd8166eda74a057849",
+      "group": "recovery_procedure_and_local_test"
+    },
+    "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/LOCAL_RESTORE_RESULT.json": {
+      "bytes": 583,
+      "sha256": "66887a8077bb5dc28d68fac0d8e2842ea79f8b4a561270eeb2987a04255127e9",
+      "group": "recovery_procedure_and_local_test"
+    },
+    "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/PROCEDURE.md": {
+      "bytes": 3349,
+      "sha256": "89986bcd1c5620aea38a4f5fee41774e8117c0746f7746f8fd813ee63836aace",
+      "group": "recovery_procedure_and_local_test"
+    }
+  }
+}

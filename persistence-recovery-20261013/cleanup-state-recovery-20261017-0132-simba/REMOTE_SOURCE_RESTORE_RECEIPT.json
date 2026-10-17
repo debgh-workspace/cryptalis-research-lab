@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-10-17T01:34:22.817155+00:00",
+  "decision": "PASS_INERT_REVERIFIED_BASE_PLUS_ROOT_FETCHED_REMOTE_TWO_FILE_OVERLAY_SOURCE221_RESTORE",
+  "remote_provenance": {
+    "immutable_commit": "773685ce330b66fb649eba22c2c61e0a32d3994f",
+    "acquisition": "Root reports fresh exact-body GitHub connector acquisition; this worker independently admitted and rehashed the supplied local overlay files, but did not independently fetch remote bodies.",
+    "overlay_files": [
+      {
+        "path": "persistence-recovery-20261013/state-remote-overlay-20261017/sqlalchemy.py",
+        "bytes": 65862,
+        "sha256": "bd36700fd6ee58afdad9b90943ce5b119967fe5ebde14d1f4cacd26c2a8160f1"
+      },
+      {
+        "path": "persistence-recovery-20261013/state-remote-overlay-20261017/_sqlalchemy_transactions.py",
+        "bytes": 8642,
+        "sha256": "676e87d50468129de692de6ed86f020ae248cf1601d4dda2b94f791e901da415"
+      }
+    ]
+  },
+  "result": {
+    "status": "PASS_INERT_SOURCE221_RECONSTRUCTION",
+    "files": 221,
+    "bytes": 4451697,
+    "amended_source_map_sha256": "d2ace8320a60b6cf9b7d8472ca4819efe5129f6130e800a5958951266ef2f6ff",
+    "overlay_paths": [
+      "src/cryptalis/_sqlalchemy_transactions.py",
+      "src/cryptalis/sqlalchemy.py"
+    ],
+    "output": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/remote-overlay-restored-source221",
+    "provenance": "root-supplied-remote-bytes",
+    "remote_fetch_verified_by_this_script": false,
+    "product_execution": false,
+    "environment_recovery": false
+  },
+  "entry": {
+    "exit_code": 0,
+    "tool_chunk": "tool exec completed 2026-10-17T01:33:53Z",
+    "argv": [
+      "python",
+      "-I",
+      "-B",
+      "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/restore_source221_remote_flat.py",
+      "--overlay-root",
+      "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/state-remote-overlay-20261017",
+      "--output",
+      "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/remote-overlay-restored-source221",
+      "--provenance",
+      "root-supplied-remote-bytes"
+    ],
+    "capture_limit": "Exact argv is post-run transcription from the tool call, not in-process telemetry."
+  },
+  "preparatory_failures_preserved": {
+    "description": "Two pre-write source-generation assertions guessed wrong occurrence counts (5 then 7; actual 6). Neither created the successor script. First shell continued to a missing-script error and created an empty REMOTE_OVERLAY_RESTORE_RESULT.json. That empty result remains unchanged. Correct count 6 then created flat-layout script; actual restore ran once to a fresh output and result-v2. No product execution or partial source reconstruction occurred during these preparation failures.",
+    "empty_result": {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/REMOTE_OVERLAY_RESTORE_RESULT.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "checks": [
+    "Pinned frozen baseline map f704908bfb482b78312865f79400b0455fc3fced41664b8d3598e4084f6fd985",
+    "Pinned amended map d2ace8320a60b6cf9b7d8472ca4819efe5129f6130e800a5958951266ef2f6ff",
+    "All221 base leaves and2 overlays metadata-admitted before source body reads",
+    "Exact base namespace; regular single-link UTF8 files; no symlink ancestors",
+    "All223 source inputs hashed before restoration and again after output verification",
+    "All221 output sizes/hashes and namespace verified; output files0600 and separate base inodes",
+    "Exactly two path changes; no product/test imports, compilation, execution, DB or Git"
+  ],
+  "scope_limits": [
+    "Not a wholly fresh remote baseline acquisition",
+    "Not environment/dependency/clean-host reproduction",
+    "Not native DB, physical release, installed/full-suite, performance or external qualification",
+    "Root publication and independent final review remain separate"
+  ],
+  "artifacts": [
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/STATE_COMPLETED_INVENTORY.json",
+      "bytes": 22781,
+      "sha256": "9f03c275adec5e8c467ae133309a7f20e61ad0e495bab14c0be667f7382cd2b7"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/restore_source221.py",
+      "bytes": 4691,
+      "sha256": "b22abc444cb5be9a382f2129bf9d513e773fdd0f69b3a1cd8166eda74a057849"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/restore_source221_remote_flat.py",
+      "bytes": 4757,
+      "sha256": "e7e24b6f521349ca5257d68a3f1b36c70c58ff7fee312bbb327a41929667fc01"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/REMOTE_FLAT_LAYOUT.diff",
+      "bytes": 1518,
+      "sha256": "b6c0606905d0881b3ed08715185baba947cd6442f88236ae8256b0b6890516bf"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/LOCAL_RESTORE_RESULT.json",
+      "bytes": 583,
+      "sha256": "66887a8077bb5dc28d68fac0d8e2842ea79f8b4a561270eeb2987a04255127e9"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/REMOTE_OVERLAY_RESTORE_RESULT_v2.json",
+      "bytes": 610,
+      "sha256": "a8c53ff5705ff644c1c01029197398da16dbeeac6763e3af34a51e6ed5aa22f6"
+    },
+    {
+      "path": "persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/PROCEDURE.md",
+      "bytes": 3349,
+      "sha256": "89986bcd1c5620aea38a4f5fee41774e8117c0746f7746f8fd813ee63836aace"
+    }
+  ]
+}

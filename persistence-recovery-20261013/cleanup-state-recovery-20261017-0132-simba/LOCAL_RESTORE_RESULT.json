@@ -1,0 +1,15 @@
+{
+  "status": "PASS_INERT_SOURCE221_RECONSTRUCTION",
+  "files": 221,
+  "bytes": 4451697,
+  "amended_source_map_sha256": "d2ace8320a60b6cf9b7d8472ca4819efe5129f6130e800a5958951266ef2f6ff",
+  "overlay_paths": [
+    "src/cryptalis/_sqlalchemy_transactions.py",
+    "src/cryptalis/sqlalchemy.py"
+  ],
+  "output": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/cleanup-state-recovery-20261017-0132-simba/local-tested-source221",
+  "provenance": "local-only",
+  "remote_fetch_verified_by_this_script": false,
+  "product_execution": false,
+  "environment_recovery": false
+}
