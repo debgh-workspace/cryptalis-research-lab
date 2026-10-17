@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/usr/bin/bash",
+    "-c",
+    "ulimit -t 30 || exit 125; ulimit -v 1048576 || exit 125; ulimit -f 512 || exit 125; ulimit -c 0 || exit 125; ulimit -a > \"$1/limits.txt\" || exit 125; exec /usr/bin/timeout --signal=TERM --kill-after=2s 60s /usr/bin/env -i LANG=C.UTF-8 LC_ALL=C.UTF-8 TZ=UTC PSYCOPG_IMPL=binary \"$2\" -I -B -S -X \"pycache_prefix=$3/bytecode-absent\" \"$3/run_module_diagnostics.py\" combined \"$4\" \"$5\"",
+    "root-bounded",
+    "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/fixture230-recording-v1-20261017",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "/workspace/scratch/cb28ee9f5f4a/recovery-work/fixture230-recording-runner-v1-20261017",
+    "9879217a68b075b0868a35fa8a427f87f250cf9380a28687b8db4f707f1e9fbf",
+    "e36828e3c95502e26d2cfaf0b45c031c387c2d404719683e39e9e4cebad0cd28"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/recovery-work/fixture230-recording-runner-v1-20261017",
+  "env": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "TZ": "UTC",
+    "PSYCOPG_IMPL": "binary"
+  },
+  "stdin": "DEVNULL",
+  "capture": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/fixture230-recording-v1-20261017",
+  "scope": "one root-selected integrated230 recording19; no DB",
+  "shell_binding": "/usr/bin/bash is canonical target of historical /bin/bash, avoiding symlink ancestor in external admission"
+}

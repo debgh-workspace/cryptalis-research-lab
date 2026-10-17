@@ -1,0 +1,44 @@
+{
+  "status": "ACCEPTED_RECORDING_19",
+  "case_count": 19,
+  "inner": 863,
+  "outer": 893,
+  "product_origins": 23,
+  "dependency_origins": 353,
+  "native_unique": 4,
+  "initial_hold_preserved": true,
+  "pins": {
+    "stdout.txt": {
+      "bytes": 235029,
+      "sha256": "1f0020b4b3b06a510ca4efd982edfe68a9cd4cf40d75abd903620d87f03bde77"
+    },
+    "stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "INVOCATION.json": {
+      "bytes": 1427,
+      "sha256": "26de90f91cbb80cdd85597b3a12cafc661b422b61f4ea8b34efa73945a6cab85"
+    },
+    "before.json": {
+      "bytes": 434728,
+      "sha256": "d7b3658f169cc50ad0d7bf90779b821e4c490702ad47f05423138aeade57f185"
+    },
+    "after.json": {
+      "bytes": 188083,
+      "sha256": "a894c3a750c750bea126b800dad891b0b575814756cbf3f240f66ce490c527bb"
+    },
+    "limits.txt": {
+      "bytes": 802,
+      "sha256": "4648330265ce92518154458975457ffc7626ceeeaa0b893befb68880e92bafc9"
+    },
+    "exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "after-exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    }
+  }
+}
