@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py", line 90, in main
+    runpy.run_path(str(runner),run_name='__main__')
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/harness/run_correctness.py", line 78, in <module>
+    if __name__=='__main__': raise SystemExit(main())
+                                              ^^^^^^
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/harness/run_correctness.py", line 30, in main
+    import pytest
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/sa20/dependencies/pytest/__init__.py", line 9, in <module>
+    from _pytest.assertion import register_assert_rewrite
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/sa20/dependencies/_pytest/assertion/__init__.py", line 12, in <module>
+    from _pytest.assertion import rewrite
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/sa20/dependencies/_pytest/assertion/rewrite.py", line 37, in <module>
+    from importlib.resources.readers import FileReader
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py", line 51, in find_spec
+    raise ImportError('unadmitted module origin or namespace package: '+fullname)
+ImportError: unadmitted module origin or namespace package: importlib.resources.readers
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py", line 95, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py", line 93, in main
+    module_origins(allowed,Path(__file__).absolute())
+  File "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/io_guard.py", line 104, in module_origins
+    assert spec is not None,('missing_spec',name)
+           ^^^^^^^^^^^^^^^^
+AssertionError: ('missing_spec', 'typing.io')

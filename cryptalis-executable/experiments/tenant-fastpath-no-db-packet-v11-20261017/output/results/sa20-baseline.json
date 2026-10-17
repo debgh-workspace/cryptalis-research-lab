@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py",
+    "correctness",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/sa20-baseline.json",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/ALLOW.json",
+    "17413de2a8f341f221355e288b1fef3d0e8f759912d5dfbd0366be93d18cbb17"
+  ],
+  "bytes": 15969,
+  "cleanup_failure_types": [],
+  "exit": 1,
+  "failure_type": null,
+  "group_cleanup_before_reap": true,
+  "leader_observed_before_cleanup": true,
+  "limits": {
+    "combined_output_bytes": 2097152,
+    "seconds": 60
+  },
+  "ownership_lost": false,
+  "received_signal": null,
+  "stage": "OWNED_CLEANUP_COMPLETE",
+  "stderr_sha256": "22dc3e1eba08090a7916fed231eb49bb634e0ec7b0adb6ed0fda3730a896637e",
+  "stdout_sha256": "d194daf24d5bbf323c8f369bbe72c19bbda2822a8ff19d2c556564142a4feae0",
+  "stop_reason": null
+}

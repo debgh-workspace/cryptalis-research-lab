@@ -1,0 +1,470 @@
+{
+  "child_history": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "-I",
+        "-S",
+        "-B",
+        "-X",
+        "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/bytecode-absent",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/child.py",
+        "correctness",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/sa20-baseline.json",
+        "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/output/ALLOW.json",
+        "17413de2a8f341f221355e288b1fef3d0e8f759912d5dfbd0366be93d18cbb17"
+      ],
+      "bytes": 15969,
+      "cleanup_failure_types": [],
+      "exit": 1,
+      "failure_type": null,
+      "group_cleanup_before_reap": true,
+      "leader_observed_before_cleanup": true,
+      "limits": {
+        "combined_output_bytes": 2097152,
+        "seconds": 60
+      },
+      "ownership_lost": false,
+      "received_signal": null,
+      "stage": "OWNED_CLEANUP_COMPLETE",
+      "stderr_sha256": "22dc3e1eba08090a7916fed231eb49bb634e0ec7b0adb6ed0fda3730a896637e",
+      "stdout_sha256": "d194daf24d5bbf323c8f369bbe72c19bbda2822a8ff19d2c556564142a4feae0",
+      "stop_reason": null
+    }
+  ],
+  "closure_failures": [],
+  "namespaces": {
+    "baseline": "PASS",
+    "candidate": "PASS",
+    "harness": "PASS",
+    "sa20": "PASS",
+    "sa21": "PASS"
+  },
+  "primary_failure": "AssertionError",
+  "received_signal": null,
+  "trusted_bootstrap_inventory": {
+    "__main__": {
+      "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/tenant-fastpath-v11-runtime-supervisor-v1-20261017/supervisor.py",
+      "origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/tenant-fastpath-v11-runtime-supervisor-v1-20261017/supervisor.py",
+      "package_locations": null
+    },
+    "_abc": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_blake2": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_codecs": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_collections": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_collections_abc": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_collections_abc.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "_frozen_importlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/_bootstrap.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "_frozen_importlib_external": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/_bootstrap_external.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "_functools": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_hashlib": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_imp": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_io": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_json": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_locale": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_operator": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_posixsubprocess": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_signal": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_sre": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_stat": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_thread": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_warnings": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_weakref": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "_weakrefset": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "package_locations": null
+    },
+    "abc": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/abc.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "builtins": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "codecs": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/codecs.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "collections": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections"
+      ]
+    },
+    "collections.abc": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections/abc.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections/abc.py",
+      "package_locations": null
+    },
+    "contextlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "package_locations": null
+    },
+    "copyreg": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copyreg.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copyreg.py",
+      "package_locations": null
+    },
+    "encodings": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings"
+      ]
+    },
+    "encodings.aliases": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/aliases.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/aliases.py",
+      "package_locations": null
+    },
+    "encodings.utf_8": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/utf_8.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/encodings/utf_8.py",
+      "package_locations": null
+    },
+    "enum": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "package_locations": null
+    },
+    "errno": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "fcntl": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "fnmatch": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/fnmatch.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/fnmatch.py",
+      "package_locations": null
+    },
+    "functools": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "package_locations": null
+    },
+    "genericpath": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/genericpath.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "hashlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/hashlib.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/hashlib.py",
+      "package_locations": null
+    },
+    "importlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib"
+      ]
+    },
+    "importlib._bootstrap": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/_bootstrap.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "importlib._bootstrap_external": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/_bootstrap_external.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "importlib.machinery": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/machinery.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "io": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/io.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "io_guard": {
+      "file": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/io_guard.py",
+      "origin": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/tenant-fastpath-no-db-packet-v11-20261017/io_guard.py",
+      "package_locations": null
+    },
+    "ipaddress": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/ipaddress.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/ipaddress.py",
+      "package_locations": null
+    },
+    "itertools": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "json": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json"
+      ]
+    },
+    "json.decoder": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+      "package_locations": null
+    },
+    "json.encoder": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "package_locations": null
+    },
+    "json.scanner": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/scanner.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/scanner.py",
+      "package_locations": null
+    },
+    "keyword": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/keyword.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/keyword.py",
+      "package_locations": null
+    },
+    "locale": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/locale.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/locale.py",
+      "package_locations": null
+    },
+    "marshal": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "math": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "ntpath": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/ntpath.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "operator": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/operator.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/operator.py",
+      "package_locations": null
+    },
+    "os": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/os.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "os.path": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/posixpath.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "pathlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py",
+      "package_locations": null
+    },
+    "posix": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "posixpath": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/posixpath.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "re": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re"
+      ]
+    },
+    "re._casefix": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_casefix.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_casefix.py",
+      "package_locations": null
+    },
+    "re._compiler": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "package_locations": null
+    },
+    "re._constants": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_constants.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_constants.py",
+      "package_locations": null
+    },
+    "re._parser": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "package_locations": null
+    },
+    "reprlib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/reprlib.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/reprlib.py",
+      "package_locations": null
+    },
+    "select": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "selectors": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "package_locations": null
+    },
+    "signal": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "package_locations": null
+    },
+    "stat": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/stat.py",
+      "origin": "frozen",
+      "package_locations": null
+    },
+    "subprocess": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py",
+      "package_locations": null
+    },
+    "sys": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "threading": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py",
+      "package_locations": null
+    },
+    "time": {
+      "file": null,
+      "origin": "built-in",
+      "package_locations": null
+    },
+    "types": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/types.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/types.py",
+      "package_locations": null
+    },
+    "urllib": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/__init__.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/__init__.py",
+      "package_locations": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib"
+      ]
+    },
+    "urllib.parse": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/parse.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/parse.py",
+      "package_locations": null
+    },
+    "warnings": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/warnings.py",
+      "origin": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/warnings.py",
+      "package_locations": null
+    },
+    "zipimport": {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipimport.py",
+      "origin": "frozen",
+      "package_locations": null
+    }
+  },
+  "unchanged": true
+}
