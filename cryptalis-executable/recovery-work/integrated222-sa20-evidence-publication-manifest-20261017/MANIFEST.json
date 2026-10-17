@@ -1,0 +1,202 @@
+{
+  "batches": [
+    {
+      "file_count": 6,
+      "files": [
+        {
+          "bytes": 4352,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-materialization-review-v1-20261017/REVIEW.md",
+          "sha256": "030fe5d6c2c4e36b84a1de5fa3f6e4eb6411f5145824993b813a9e9e1c1332fb"
+        },
+        {
+          "bytes": 384977,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/materialize/run/terminal.json",
+          "sha256": "2a179d1c6f2a46a09002f463cc8813df234ce0981faecd4ee4ac805b58596299"
+        },
+        {
+          "bytes": 945,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/materialize/run/selection.json",
+          "sha256": "97b16920bf7acf763b7e4f4612547daedabf4af3b9d20021357d66a8d8412a26"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-materialization-20261017-1619/exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-materialization-20261017-1619/after-exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 264510,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/run/MATERIALIZATION_RECEIPT.json",
+          "sha256": "72ee533f398a6e20e5c87cd100d41030034d4a37ba386bc88c88aecce9dcf429"
+        }
+      ],
+      "name": "materialization",
+      "raw_result": "Guard terminal child.stdout retains exact JSON result; materialization also includes raw MATERIALIZATION_RECEIPT.json."
+    },
+    {
+      "file_count": 6,
+      "files": [
+        {
+          "bytes": 4813,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-legacy-review-v1-20261017/REVIEW.md",
+          "sha256": "0c54a518a4dce5f67612d952248a7d183da310189cc543fa504a98b7b440d2f7"
+        },
+        {
+          "bytes": 889714,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/legacy/run/terminal.json",
+          "sha256": "db3b6d2e9f919dff05a042beda1cf28fc81f6149bd7b61927d23d4a3bb9b7472"
+        },
+        {
+          "bytes": 976,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/legacy/run/selection.json",
+          "sha256": "d712447a7bd0e20f68eb887e161798a37a75e0a3a4550b711e58f9062e6e926c"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-legacy-20261017-1630/exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-legacy-20261017-1630/after-exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 1407,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-legacy-review-v1-20261017/CHECKS.json",
+          "sha256": "609b0b2c4ac9f7b7d77047a0588c6c41c742a82af79b3b3ef30af5bd79378831"
+        }
+      ],
+      "name": "legacy",
+      "raw_result": "Guard terminal child.stdout retains exact JSON result; materialization also includes raw MATERIALIZATION_RECEIPT.json."
+    },
+    {
+      "file_count": 6,
+      "files": [
+        {
+          "bytes": 4816,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-report-review-v1-20261017/REVIEW.md",
+          "sha256": "4068ec2d10f99d67c383e22414e9806e8df25a103cecb7717402b68c5630b5a0"
+        },
+        {
+          "bytes": 890235,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/report/run/terminal.json",
+          "sha256": "1a6c5f59042198d0fda1d3c08bba6f9fb654b4c6c5ecee462e6328cdac79005c"
+        },
+        {
+          "bytes": 976,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/guard/report/run/selection.json",
+          "sha256": "e00af59e6a395c2114c7e7cc9b539aac46f1db6d4643b71478c94c2d0e35de3b"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-report-20261017-1630/exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 2,
+          "path": "persistence-recovery-20261013/integrated222-sa20-report-20261017-1630/after-exit.txt",
+          "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+        },
+        {
+          "bytes": 1243,
+          "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-report-review-v1-20261017/CHECKS.json",
+          "sha256": "bc16ba15d6cb5ead1bb2a16f79cde62786962b51aa4b077454ab8746f3cf74e6"
+        }
+      ],
+      "name": "report",
+      "raw_result": "Guard terminal child.stdout retains exact JSON result; materialization also includes raw MATERIALIZATION_RECEIPT.json."
+    }
+  ],
+  "diagnostic": "Initial full-stat stable-read assertion stopped before manifest creation. Reconciliation used explicit dev/ino/mode/nlink/size/mtime_ns/ctime_ns comparison, excluding read-induced access-time changes. No access denial occurred.",
+  "exclusions": [
+    "all donor/dependency/native bodies and installed prefixes",
+    "wheel/source uploads without separate approval",
+    "home/environment/credentials/cache/pyc/pyo bodies",
+    "tests.json/readiness.json/package-origin.json/postgres-start.json/postgres-stop.json/uv_cache.json and opaque private markers",
+    "database/key/provider state",
+    "Git, archive creation, upload/retry or publication action"
+  ],
+  "limits": [
+    "Nine selected cases only; no fullsuite/DB/production claim.",
+    "Existing-host provenance trusted; descendants_verified_absent=false.",
+    "Existing blocked archive upload remains held; this is no retry or workaround."
+  ],
+  "reference_only_pins": [
+    {
+      "bytes": 1764,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/PACKET.sha256",
+      "sha256": "f412020e7f5ee41151cf0308bfe3312b435a395c8010dd35c3d4ca582507012e"
+    },
+    {
+      "bytes": 1240,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/SOURCE.sha256",
+      "sha256": "743ec15431ded8810cf001290109abe57250609422b8230f8c486a43048a9a92"
+    },
+    {
+      "bytes": 311862,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/INSTALLED_EXPECTED.json",
+      "sha256": "b3b60588d2787aaf90c1d7becc6f61c1c204c908ae95b57d5b786cf79d7092ee"
+    },
+    {
+      "bytes": 254898,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/COPY_PLAN.json",
+      "sha256": "79bdc10941a5e510e8506113b1e40eff4d619cb7757ba04724255b5fb066dfd4"
+    },
+    {
+      "bytes": 199272,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/DEPENDENCY_INPUT_MAP.json",
+      "sha256": "adfbc90a9232c76cca2e55449b3fe391d6947eb201bd3245dd4ff11759c25e29"
+    },
+    {
+      "bytes": 106089,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/INTEGRATION_MANIFEST.json",
+      "sha256": "486f900e78cf426f33a5fba71a8d4e992657572c5af10254ec7602c0c707ae5d"
+    },
+    {
+      "bytes": 24793,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-v1-20261017/SOURCE_MANIFEST.json",
+      "sha256": "41cbcd1c6a379a947fd46a301961d78519916dc76c00c768effaea89f778e222"
+    },
+    {
+      "bytes": 6769,
+      "path": "cryptalis-executable/recovery-work/integrated222-sa20-installed-boundary-executable-review-v1-20261017/REVIEW.md",
+      "sha256": "94d21ad04bbcace03e245d0d704b36d507caead620dc5dc4c3c9c08d39543348"
+    },
+    {
+      "bytes": 159,
+      "path": "recovery-work/sa20-native-abi-observation-20261017/SOURCE.sha256",
+      "sha256": "7f481c37c3b45f47208f1f1cc10c09fd7ba3fa01747329403af3fb51fe4aa3fd"
+    },
+    {
+      "bytes": 4129,
+      "path": "recovery-work/search-proposal-review-20261017/SA20_COMBINED222_DEPENDENCY_SOURCE_REVIEW.md",
+      "sha256": "906b4db0b93d5879b49010a4730ba80501f3c3abb26c5d59e29e80a89eaa7c27"
+    },
+    {
+      "bytes": 4626,
+      "path": "cryptalis-executable/recovery-work/integrated222-package-terminal-review-v1-20261017/REVIEW.md",
+      "sha256": "63ba68f1753cda12dad6f399901ca0530f7e49077f9a715a934805e7519f8605"
+    }
+  ],
+  "restore_prerequisites": [
+    "Exact222 source bodies under recovery-work/integrated222-v2-20261017/source matching both pinned source maps, including43 runtime files. A wheel is not full source.",
+    "All20 sealed packet members and external finite input bodies/review pins. Seals or reference hashes alone do not restore bytes.",
+    "Exact504 dependency bodies/51154717 bytes matching the pinned source map; wheel48 plus these yields552 installed leaves. Dependency bodies are excluded from proposed publication.",
+    "Original221 portable archive alone is insufficient: retain exact combined222 replacements/addition or independently admitted complete222 source.",
+    "Fresh destination only, no overwrite/delete. Any relocated executable recipe requires independent path rebinding review and root selection. Data restoration does not authorize imports/tests/DB.",
+    "Actual accepted materialization must precede separately selected legacy5/report4; prior receipts cannot establish a fresh environment result.",
+    "Immutable remote commit and all required byte retrieval/hash checks remain pending; this proposal supplies no remote restore-completeness proof."
+  ],
+  "status": "PROPOSAL_ONLY_NO_UPLOAD_OR_ARCHIVE_CREATED",
+  "wheel_reference": {
+    "bytes": 141600,
+    "path": "cryptalis-executable/recovery-work/integrated222-offline-package-controls-v1-20261017/run/direct-wheel/cryptalis-0.1.0-py3-none-any.whl",
+    "sha256": "898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b7d8a390c8",
+    "upload_selected": false
+  }
+}

@@ -122,3 +122,10 @@ Combined222 wheel141600B/898e2548a0943d3d718aec7e2c2346d434b3131ef68c1cfe243ae9b
 Actual offline package-manager attempt remains FAIL before targetcreation: uvexit2 rejects supplied bytecode option combination. All274inputs unchanged; no forbiddenmetadata body read. Fixedenv UV_COMPILE_BYTECODE='0' binds the positiveoption in officialsource, but observed conflict does not establish compilation was enabled. Minimal immutable correction removes redundantenvkey and retains explicitno-compileflag; unexecuted pendingreview. Failure556731cdc29c8a8e1c5018e0915eb84feb195986d3fee93502bd5c06363e1c53 retained.
 
 Standalone read-only progress inspector has68 accepted recordingconnection cases through actual_save/_state,560preservedinputs. It grants no native/metadata/successor authority and is not wired into operationaladmission. Separate columns-inspection39-case run completed0/after0, independentterminalreview pending. Recovery/rotation/onlinecapture/publicwrapper/provider/nativeverification andallsevenqualificationgates remainopen.
+
+## 2026-10-17 16:35 UTC — current verification and fixture safety
+- Current combined222 wheel: separate SA20 legacy5/report4 accepted; no full-suite/native evidence inherited.
+- Standalone guard74/remaining-schema98 accepted as recording/shape diagnostics only, not in shipped wheel.
+- Newly source-confirmed fixture safety concern: finalizer may DROP generated name even after failed CREATE; role preflight occurs after initial fixture writes. Hardening pending independent verification; no native execution.
+- Current native48 source entails84 fixture lifecycles across both profiles, correcting historical68 estimate. Existing resources survive; ownership/server state and exact runnable packet unverified. Earlier permission questions are not owner denials; root scope assessment remains open.
+- All34 objectives and sevenUNKNOWN qualification gates retained; both performance candidates remain HOLD.

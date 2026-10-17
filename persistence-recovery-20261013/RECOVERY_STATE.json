@@ -1,10 +1,10 @@
 {
-  "observed_at_utc": "2026-10-17T15:56:00Z",
+  "observed_at_utc": "2026-10-17T16:35:00Z",
   "original_git_head": "2ff72ea4fe7871f31a9fabbbf63f19a5cc714e43",
   "original_history_bundle_sha256": "420953054bde0f99be2893de92612221c793cd3bd701f74c3b3d3dd35071a1e1",
   "original_mailbox_sha256": "9b725abc6cc9baa86d98f88ac076f3beb67cc596dbe6d7c7d06b2eda8512e6cd",
   "original_mailbox_messages": 15,
-  "latest_candidate_status": "Combined222 source and reproducible wheel verified; wheel-origin legacy5/report4 and actual offline no-deps target installation/generated-help accepted. Frozen prior preview selection unchanged; no production qualification.",
+  "latest_candidate_status": "Combined222 wheel accepted for separate legacy5/report4 on fresh SA21 and newly measured SA20 profiles; actual offline no-deps installation/generated help accepted. Prior preview pointer unchanged; no production qualification.",
   "latest_archive": {
     "name": "CRYPTALIS_S25_FULL_SOURCE_EVIDENCE_20261014_v1.tar.xz",
     "sha256": "8afcee82e8ac3c22a527c8dca7fd3e8a159c646e5b3cdb89a23d5e780d2e81fd",
@@ -2035,5 +2035,33 @@
     "all_seven_gates": "UNKNOWN",
     "native_acl_and_compressed_upload_approvals": "stillpending; no retry",
     "prior_failures": "preserved"
+  },
+  "engineering_update_20261017_1635": {
+    "remote_checkpoint_verified": "5a10aeff8f7de22b7d7a35915d55135fb429467e",
+    "sa20_materialization_review": "030fe5d6c2c4e36b84a1de5fa3f6e4eb6411f5145824993b813a9e9e1c1332fb",
+    "sa20_legacy_review": "0c54a518a4dce5f67612d952248a7d183da310189cc543fa504a98b7b440d2f7",
+    "sa20_report_review": "4068ec2d10f99d67c383e22414e9806e8df25a103cecb7717402b68c5630b5a0",
+    "sa20_cases": {
+      "legacy": 5,
+      "report": 4,
+      "scope": "separate finite wheel-origin checks only"
+    },
+    "standalone_recording_cases": {
+      "guard": 74,
+      "remaining_schema": 98,
+      "in_wheel": false
+    },
+    "native_readiness": "Existing resources survive; current server/ownership unverified; no DB action selected. Source fixture safety hardening pending. Authority assessment distinguishes unanswered assistant questions from owner restrictions.",
+    "native_full_fixture_lifecycles": 84,
+    "all_34_objectives_active": true,
+    "gates": {
+      "G-ADAPTER": "UNKNOWN",
+      "G-CRYPTO": "UNKNOWN",
+      "G-QUERY": "UNKNOWN",
+      "G-LIFECYCLE": "UNKNOWN",
+      "G-PROVIDER": "UNKNOWN",
+      "G-POLICY": "UNKNOWN",
+      "G-RELEASE": "UNKNOWN"
+    }
   }
 }
