@@ -22,7 +22,7 @@
   },
   "remote": "https://github.com/debgh-workspace/cryptalis-research-lab",
   "remote_authentication": "GitHub connector verified read/write with expected-head lease and exact remote byte checks; SSH remains unverified",
-  "remote_visibility": "VERIFIED private via authenticated repository metadata 2026-10-17T04:20Z",
+  "remote_visibility": "VERIFIED private via authenticated repository metadata 2026-10-17T13:13Z",
   "secret_storage": "No supported durable-secret API found among currently available tools; local workspace has demonstrated rollback. Do not claim private key survives reset.",
   "github_connector_identity": "debgh-workspace",
   "repository_id": "1416574626",
@@ -32,7 +32,7 @@
   },
   "transport_decision": "Use owner-authorized existing GitHub connector in batches of at most10 files; reconcile cancelled requests before retrying",
   "current_research_repository": "debgh-workspace/cryptalis-research-lab",
-  "latest_verified_remote_commit": "227913776538e737e35316119ed723e21ebd6154",
+  "latest_verified_remote_commit": "193d52daa50cd7e41fb012bab15485b0bd0048e2",
   "latest_integrated_candidate": "candidate-doctor-remedy-integrated221-v1-20261015",
   "current_experiment": "Exact combined221 source restored after workspace rollback; new portable checkpoint being prepared. Installed environments absent; no new runtime or DB test.",
   "s5_remote_byte_restore_files": 3579,
@@ -1943,5 +1943,32 @@
     "installed_environment_restored": false,
     "no_historical_test_rerun": true,
     "archive_commit": "2b5124c47e6b3188f22282af547bdc330eca8abb"
+  },
+  "engineering_update_20261017_1422": {
+    "source": "Exact221 restored; frozen preview unchanged",
+    "search": "Both new SA21 candidates passed25 correctness methods; both performance screens HOLD; baseline retained",
+    "first_benchmark": {
+      "samples": 128,
+      "timed_calls": 524288,
+      "flags": 24,
+      "raw_remote_verified": true
+    },
+    "second_benchmark": {
+      "samples": 128,
+      "timed_calls": 524288,
+      "flags": 28,
+      "review_sha256": "d9ba528e9a392befa16bf0abfc8c292605f0050a1872df42e6fc96090f5ae27c"
+    },
+    "diagnostic_module": "V8 baseline HOLD before cases: dependency_spec_origin cryptography.hazmat.primitives.ciphers.algorithms;644 preserved. No candidate execution",
+    "portable_upload": "Exact part04 rejected twice; explicit owner approval pending; no retry",
+    "qualification": {
+      "G-ADAPTER": "UNKNOWN",
+      "G-CRYPTO": "UNKNOWN",
+      "G-QUERY": "UNKNOWN",
+      "G-LIFECYCLE": "UNKNOWN",
+      "G-PROVIDER": "UNKNOWN",
+      "G-POLICY": "UNKNOWN",
+      "G-RELEASE": "UNKNOWN"
+    }
   }
 }
