@@ -1,0 +1,97 @@
+{
+  "status": "SOURCE_ONLY_HELD_UNEXECUTED",
+  "root_selection": null,
+  "static_test_review": null,
+  "current_identity_admission": null,
+  "scope": "One finite stdlib-only synthetic 38-case vector run; no product/native/DB use",
+  "source_review": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/reviewer-notes/forward-aborted-successor-pure-v3-agent1-independent-20261016/REVIEW.md",
+    "sha256": "3a8335364315a39861ddd7909f706d63529dc0998bf3cfa48a89ef309d1aed0b"
+  },
+  "source_packet": {
+    "path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/forward-aborted-successor-pure-v3-v1-20261016/PACKET.sha256",
+    "sha256": "a2acfa6afffd75167d6e82ff6db422a30c72bcf543b32c53c8877cd868e96af7",
+    "require_all_four_members_and_seal_prepost": true
+  },
+  "interpreter": {
+    "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+    "bytes": 30894944
+  },
+  "stdlib": {
+    "map_path": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/preview-doctor-dx-slice-20261015/proof-v2/STDLIB_SHA256.txt",
+    "map_sha256": "a57c71aec1c9ddaeda162e088e4b18d94fa1bf978d7ae506f20906abcf6a6132",
+    "relative_root": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12",
+    "declared_file_count": 472,
+    "require_each_declared_file_current_prepost": true,
+    "claim_limit": "File identity and inspected module-origin membership only; no continuous loaded-code, native linker or supply-chain attestation. The old stub proof remains HOLD."
+  },
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/forward-aborted-successor-pure-v3-vectors-v1-root-20261016/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/forward-aborted-successor-pure-v3-vectors-v1-20261016/driver.py"
+  ],
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "shell": false,
+  "environment_exact": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "PATH": "/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "TZ": "UTC"
+  },
+  "ambient_environment_merge": false,
+  "output": {
+    "root": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/forward-aborted-successor-pure-v3-vectors-v1-root-20261016",
+    "require_root_fresh_exclusive": true,
+    "require_prefix_absent_before_after": true,
+    "driver_stdout_max_bytes": 65536,
+    "external_combined_stdout_stderr_max_bytes": 131072,
+    "external_timeout_seconds": 10,
+    "required_capture": [
+      "selection.json",
+      "invocation.json",
+      "admission-before.json",
+      "stdout.json",
+      "stderr.txt",
+      "exit-and-limits.json",
+      "admission-after.json"
+    ],
+    "driver_file_writes": false
+  },
+  "preflight_requirements": [
+    "Before interpreter startup, bind final vector PACKET.sha256 and every declared member, all five original source-packet files, accepted source review, separate static-test review, interpreter and each of the 472 stdlib file identities.",
+    "Use the existing metadata-first canonical regular-file/parent admission; require no symlink route, exact names and expected sizes/hashes, no '..' or absolute stdlib relative names, no duplicate names. Do not follow/read opaque caches.",
+    "Require the host lib/python312.zip route absent and the new capture/prefix absent before creation. Retain the first collision rather than overwrite.",
+    "Freeze admitted packet/source/host inputs against concurrent edits for this one invocation. This is scoped identity admission, not a claim of continuous loaded-code attestation.",
+    "Write a fresh root selection binding exact argv/cwd/four-key environment, review hashes, complete admission maps, final packet seal and literal timeout/combined-output bounds. No review or selection is inferred from this recipe.",
+    "Enforce timeout and combined capture bound externally; a per-file ulimit alone is not the combined-stream bound. Retain partial stdout/stderr and actual timeout/overflow/exit status; no automatic retry.",
+    "After exit, repeat the exact packet/source/interpreter/472-file admissions, require prefix absence and independently inspect complete actual output using EXPECTED_RESULT.json. Preserve any failure."
+  ],
+  "terminal_oracle": {
+    "expected_fixed_report": "EXPECTED_RESULT.json fixed_report_fields (all keys and ordered 38 result objects)",
+    "dynamic_field": "loaded_stdlib_files must be exactly one sorted unique subset of the admitted 472-name map; independently reconcile to current external admission",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "all_38_case_pass_true": true,
+    "ordinary_cases": 10,
+    "precise_refusal_cases": 26,
+    "disclosed_limitation_cases": 2,
+    "all_six_authority_fields_false": true,
+    "input_files_unchanged": true,
+    "bytecode_prefix_absent": true,
+    "failure_list_empty": true,
+    "driver_failure_absent": true,
+    "not_established": [
+      "full journal decoder or nested-state admission",
+      "genuine historical producer compatibility",
+      "native PK/snapshot/exact membership",
+      "row transfer/expansion reservation",
+      "ACL/catalog/locks or journal mutation",
+      "retry, closure, authority, publication or full lifecycle"
+    ]
+  }
+}

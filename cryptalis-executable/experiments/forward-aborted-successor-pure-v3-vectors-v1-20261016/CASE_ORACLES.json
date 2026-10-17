@@ -1,0 +1,463 @@
+{
+  "status": "EXPECTED_ONLY_UNEXECUTED",
+  "case_count": 38,
+  "authority_established": false,
+  "cases": [
+    {
+      "id": "scope_literal",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "bytes_sha256": "0880dbaa106b52db0e44f91d2d1635760960015e11186cd7e42879f62166a956",
+          "bytes": 876
+        }
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "construct_v0",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-research-v0",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+          },
+          "predecessor": {
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+          },
+          "count": 1,
+          "digest": "c1b2efbef0e718e861152ae3a9cc1edcfcfb6946b5b2398a0b4f497478e13dc6"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "construct_v1",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-research-v1",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+          },
+          "predecessor": {
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+          },
+          "count": 1,
+          "digest": "954d4b9ffbe13e433b74a48502ea529ec08968709ade4ab984572b860d72bef4"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "construct_v2",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "count": 1,
+          "digest": "cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "construct_second_ancestor",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "55555555-5555-4555-8555-555555555555",
+            "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+          },
+          "count": 2,
+          "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "construct_third_ancestor",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "66666666-6666-4666-8666-666666666666",
+            "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0"
+          },
+          "count": 3,
+          "digest": "ef0587db099ef56c75e7939b3f271e2e753f94e80e32a13798f654ab611ff5e1"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "verify_three_ancestors",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "66666666-6666-4666-8666-666666666666",
+            "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0"
+          },
+          "count": 3,
+          "digest": "ef0587db099ef56c75e7939b3f271e2e753f94e80e32a13798f654ab611ff5e1"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "paired_absent",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": null
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "missing_pin",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "unpaired_predecessor_inputs"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "missing_artifact",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "unpaired_predecessor_inputs"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "wrong_pin_phase",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "predecessor_pin_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "wrong_pin_digest",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "predecessor_pin_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "noncanonical_artifact",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "predecessor_bytes_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "scope_bool_int_alias",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "successor_scope_changed"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "scope_reader_order",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "successor_scope_changed"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "scope_target_owner",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "successor_scope_changed"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "changed_tenant_fingerprint",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "successor_tenant_policy_changed"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "allowed_observation_refresh",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": "0880dbaa106b52db0e44f91d2d1635760960015e11186cd7e42879f62166a956"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "summary_unknown_member",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "invalid_lineage"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "summary_bool_count",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "invalid_lineage_count"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "summary_zero_count",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "invalid_lineage_count"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "summary_reverse_root",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "unsupported_root_format"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "summary_noncanonical_uuid",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "invalid_uuid"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "phase_not_aborted",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "not_forward_terminal"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "reverse_state_field",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "invalid_forward_state_members"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "terminal_member_tamper",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "lineage_commitment_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "missing_ancestor",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "missing_ancestor"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "extra_ancestor",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "extra_ancestor"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "reordered_ancestor",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "journal_reference_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "wrong_head_digest",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "journal_reference_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "prefix_count_mismatch",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "lineage_prefix_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "artifact_prefix_mismatch",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "predecessor_artifact_prefix_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "journal_count_mismatch",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "journal_count_mismatch"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "new_identity_is_ancestor",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "successor_identity_reused"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "historical_prefix_forbidden",
+      "kind": "refusal",
+      "expected_actual": {
+        "kind": "refusal",
+        "code": "historical_lineage_field_forbidden"
+      },
+      "expected_detached_output": null
+    },
+    {
+      "id": "nested_state_boundary",
+      "kind": "boundary_limitation",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "count": 1,
+          "digest": "65bc006e0ade7a507099e26cc36591b2ede28a974e1bcc9a19a16fc8f771544e"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "unstable_snapshot_boundary",
+      "kind": "boundary_limitation",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "55555555-5555-4555-8555-555555555555",
+            "plan_digest": "f85c4b49723e499583b2f6988bfecd93e9ab855af203899aedbc8c855a486409"
+          },
+          "count": 3,
+          "digest": "fa76142b54868c0bafb1ee3f2197ba09f4b2a05618a2ec9dffbea33f6761bee6"
+        }
+      },
+      "expected_detached_output": true
+    },
+    {
+      "id": "journal_integer_above_artifact_range",
+      "kind": "ordinary",
+      "expected_actual": {
+        "kind": "value",
+        "value": {
+          "bytes_sha256": "7e4e3fc22526f174924e7dec17efd8b5832bf40bdba8b3a8f56deb6572463f90",
+          "bytes": 25
+        }
+      },
+      "expected_detached_output": null
+    }
+  ],
+  "integer_canonical_oracle": {
+    "canonical_utf8": "{\"rows\":9007199254740992}",
+    "sha256": "7e4e3fc22526f174924e7dec17efd8b5832bf40bdba8b3a8f56deb6572463f90"
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "status": "PREEXECUTION_EXPECTED_FIELDS_ONLY",
+  "fixed_report_fields": {
+    "scope": "synthetic pure component only; native and decoder premises remain held",
+    "component_sha256": "f1fabd4fd24dbf0532c0bc030f11799f76b9da186ac5c6388c7233352d7817cf",
+    "case_count": 38,
+    "results": [
+      {
+        "id": "scope_literal",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "bytes_sha256": "0880dbaa106b52db0e44f91d2d1635760960015e11186cd7e42879f62166a956",
+            "bytes": 876
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "construct_v0",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-research-v0",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+            },
+            "predecessor": {
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+            },
+            "count": 1,
+            "digest": "c1b2efbef0e718e861152ae3a9cc1edcfcfb6946b5b2398a0b4f497478e13dc6"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "construct_v1",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-research-v1",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+            },
+            "predecessor": {
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+            },
+            "count": 1,
+            "digest": "954d4b9ffbe13e433b74a48502ea529ec08968709ade4ab984572b860d72bef4"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "construct_v2",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "count": 1,
+            "digest": "cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "construct_second_ancestor",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "55555555-5555-4555-8555-555555555555",
+              "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+            },
+            "count": 2,
+            "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "construct_third_ancestor",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "66666666-6666-4666-8666-666666666666",
+              "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0"
+            },
+            "count": 3,
+            "digest": "ef0587db099ef56c75e7939b3f271e2e753f94e80e32a13798f654ab611ff5e1"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "verify_three_ancestors",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "66666666-6666-4666-8666-666666666666",
+              "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0"
+            },
+            "count": 3,
+            "digest": "ef0587db099ef56c75e7939b3f271e2e753f94e80e32a13798f654ab611ff5e1"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "paired_absent",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": null
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "missing_pin",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "unpaired_predecessor_inputs"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "missing_artifact",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "unpaired_predecessor_inputs"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "wrong_pin_phase",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "predecessor_pin_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "wrong_pin_digest",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "predecessor_pin_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "noncanonical_artifact",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "predecessor_bytes_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "scope_bool_int_alias",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "successor_scope_changed"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "scope_reader_order",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "successor_scope_changed"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "scope_target_owner",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "successor_scope_changed"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "changed_tenant_fingerprint",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "successor_tenant_policy_changed"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "allowed_observation_refresh",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": "0880dbaa106b52db0e44f91d2d1635760960015e11186cd7e42879f62166a956"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "summary_unknown_member",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "invalid_lineage"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "summary_bool_count",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "invalid_lineage_count"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "summary_zero_count",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "invalid_lineage_count"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "summary_reverse_root",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "unsupported_root_format"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "summary_noncanonical_uuid",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "invalid_uuid"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "phase_not_aborted",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "not_forward_terminal"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "reverse_state_field",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "invalid_forward_state_members"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "terminal_member_tamper",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "lineage_commitment_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "missing_ancestor",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "missing_ancestor"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "extra_ancestor",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "extra_ancestor"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "reordered_ancestor",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "journal_reference_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "wrong_head_digest",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "journal_reference_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "prefix_count_mismatch",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "lineage_prefix_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "artifact_prefix_mismatch",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "predecessor_artifact_prefix_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "journal_count_mismatch",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "journal_count_mismatch"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "new_identity_is_ancestor",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "successor_identity_reused"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "historical_prefix_forbidden",
+        "kind": "refusal",
+        "actual": {
+          "kind": "refusal",
+          "code": "historical_lineage_field_forbidden"
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      },
+      {
+        "id": "nested_state_boundary",
+        "kind": "boundary_limitation",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "count": 1,
+            "digest": "65bc006e0ade7a507099e26cc36591b2ede28a974e1bcc9a19a16fc8f771544e"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "unstable_snapshot_boundary",
+        "kind": "boundary_limitation",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "schema": "cryptalis.aborted-forward-lineage/research-v1",
+            "root": {
+              "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+              "operation_id": "44444444-4444-4444-8444-444444444444",
+              "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+            },
+            "predecessor": {
+              "operation_id": "55555555-5555-4555-8555-555555555555",
+              "plan_digest": "f85c4b49723e499583b2f6988bfecd93e9ab855af203899aedbc8c855a486409"
+            },
+            "count": 3,
+            "digest": "fa76142b54868c0bafb1ee3f2197ba09f4b2a05618a2ec9dffbea33f6761bee6"
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": true,
+        "pass": true
+      },
+      {
+        "id": "journal_integer_above_artifact_range",
+        "kind": "ordinary",
+        "actual": {
+          "kind": "value",
+          "value": {
+            "bytes_sha256": "7e4e3fc22526f174924e7dec17efd8b5832bf40bdba8b3a8f56deb6572463f90",
+            "bytes": 25
+          }
+        },
+        "inputs_unchanged": true,
+        "detached_output": null,
+        "pass": true
+      }
+    ],
+    "failures": [],
+    "input_files_unchanged": true,
+    "bytecode_prefix_absent": true,
+    "stdlib_map_sha256": "a57c71aec1c9ddaeda162e088e4b18d94fa1bf978d7ae506f20906abcf6a6132",
+    "authority": {
+      "host_authenticated": false,
+      "native_state_admitted": false,
+      "exact_native_membership": false,
+      "retry_authorized": false,
+      "closure_established": false,
+      "publication_authorized": false
+    }
+  },
+  "dynamic_report_fields": {
+    "loaded_stdlib_files": "Exactly one sorted unique list; every entry must be a relative name in the pinned 472-file stdlib map and independently covered by fresh root pre/post identity admission. Origin inventory is not a continuous loaded-code trace."
+  },
+  "success_requirements": {
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "driver_failure_absent": true,
+    "actual_stdout_max_bytes": 65536,
+    "root_combined_capture_max_bytes": 131072
+  }
+}

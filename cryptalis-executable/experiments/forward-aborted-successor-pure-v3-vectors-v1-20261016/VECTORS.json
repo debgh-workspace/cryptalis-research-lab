@@ -1,0 +1,1008 @@
+{
+  "status": "SOURCE_ONLY_UNEXECUTED_SYNTHETIC",
+  "scope": "Independent literal canonical commitments; no compiler-valid historical artifacts or native evidence",
+  "derivation": "Canonical ASCII object-key ordering with literal UTF-8 strings, outside the Python component; SHA-256 computed only over these data preimages using sha256sum. No candidate function imported or executed.",
+  "ids": {
+    "target": "11111111-1111-4111-8111-111111111111",
+    "table": "22222222-2222-4222-8222-222222222222",
+    "field": "33333333-3333-4333-8333-333333333333",
+    "root": "44444444-4444-4444-8444-444444444444",
+    "first": "55555555-5555-4555-8555-555555555555",
+    "second": "66666666-6666-4666-8666-666666666666",
+    "fresh": "77777777-7777-4777-8777-777777777777",
+    "domain": "88888888-8888-4888-8888-888888888888"
+  },
+  "formats": {
+    "v0": "cryptalis.transition/retained-native-research-v0",
+    "v1": "cryptalis.transition/retained-native-comments-research-v1",
+    "v2": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+    "v3": "cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3"
+  },
+  "scope_digest": "0880dbaa106b52db0e44f91d2d1635760960015e11186cd7e42879f62166a956",
+  "documents": {
+    "v0": {
+      "format": "cryptalis.transition/retained-native-research-v0",
+      "kind": "protect",
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      }
+    },
+    "v1": {
+      "format": "cryptalis.transition/retained-native-comments-research-v1",
+      "kind": "protect",
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      },
+      "object_comments": {
+        "synthetic_only": true
+      }
+    },
+    "v2": {
+      "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+      "kind": "protect",
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      },
+      "object_comments": {
+        "synthetic_only": true
+      },
+      "cluster_designation": {
+        "synthetic_only": true
+      }
+    },
+    "first": {
+      "format": "cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3",
+      "kind": "protect",
+      "operation_id": "55555555-5555-4555-8555-555555555555",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      },
+      "object_comments": {
+        "synthetic_only": true
+      },
+      "cluster_designation": {
+        "synthetic_only": true
+      },
+      "aborted_forward": {
+        "schema": "cryptalis.aborted-forward-lineage/research-v1",
+        "root": {
+          "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+          "operation_id": "44444444-4444-4444-8444-444444444444",
+          "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+        },
+        "predecessor": {
+          "operation_id": "44444444-4444-4444-8444-444444444444",
+          "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+        },
+        "count": 1,
+        "digest": "cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd"
+      }
+    },
+    "second": {
+      "format": "cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3",
+      "kind": "protect",
+      "operation_id": "66666666-6666-4666-8666-666666666666",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      },
+      "object_comments": {
+        "synthetic_only": true
+      },
+      "cluster_designation": {
+        "synthetic_only": true
+      },
+      "aborted_forward": {
+        "schema": "cryptalis.aborted-forward-lineage/research-v1",
+        "root": {
+          "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+          "operation_id": "44444444-4444-4444-8444-444444444444",
+          "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+        },
+        "predecessor": {
+          "operation_id": "55555555-5555-4555-8555-555555555555",
+          "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+        },
+        "count": 2,
+        "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+      }
+    },
+    "unstable_second": {
+      "format": "cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3",
+      "kind": "protect",
+      "operation_id": "55555555-5555-4555-8555-555555555555",
+      "target_id": "11111111-1111-4111-8111-111111111111",
+      "target": [
+        "synthetic_db",
+        "12345",
+        null,
+        null,
+        "synthetic_owner"
+      ],
+      "runtime_role": "synthetic_reader",
+      "journal_schema": "synthetic",
+      "lock": {
+        "schema": "cryptalis.lock/v1",
+        "profile": "cf1",
+        "domain_id": "88888888-8888-4888-8888-888888888888",
+        "database": {
+          "major": 16,
+          "encoding": "UTF8"
+        },
+        "declaration": {
+          "schema": "synthetic-contract-vector",
+          "ordered_fields": [
+            "33333333-3333-4333-8333-333333333333"
+          ],
+          "scope_marker": 1
+        },
+        "models": [
+          {
+            "table_id": "22222222-2222-4222-8222-222222222222",
+            "schema": "synthetic",
+            "table": "records",
+            "model": "SyntheticRecord",
+            "record": {
+              "column": "id",
+              "codec": "int64-be/v1"
+            },
+            "fields": [
+              {
+                "field_id": "33333333-3333-4333-8333-333333333333",
+                "column": "secret",
+                "codec": "utf8-exact/v1"
+              }
+            ],
+            "source_schema": {
+              "relation": "synthetic-only",
+              "columns": [],
+              "constraints": [],
+              "indexes": [],
+              "dependencies": []
+            }
+          }
+        ],
+        "required_readers": [
+          "cf1/v1",
+          "int64-be/v1",
+          "utf8-exact/v1"
+        ],
+        "writer_inventory": {
+          "complete": true,
+          "evidence_kind": "synthetic-only",
+          "writers": []
+        },
+        "search_reviews": [],
+        "ddl": []
+      },
+      "source_lock_digest": null,
+      "key_policies": {
+        "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "scopes": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "estimated_rows": 7
+        }
+      ],
+      "estimates": {
+        "rows": 7,
+        "backfill_rows_per_second": 1,
+        "verify_rows_per_second": 1
+      },
+      "object_comments": {
+        "synthetic_only": true
+      },
+      "cluster_designation": {
+        "synthetic_only": true
+      },
+      "aborted_forward": {
+        "schema": "cryptalis.aborted-forward-lineage/research-v1",
+        "root": {
+          "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+          "operation_id": "44444444-4444-4444-8444-444444444444",
+          "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+        },
+        "predecessor": {
+          "operation_id": "55555555-5555-4555-8555-555555555555",
+          "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+        },
+        "count": 2,
+        "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+      }
+    }
+  },
+  "artifacts": {
+    "v0": "{\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-research-v0\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}",
+    "v1": "{\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-comments-research-v1\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"object_comments\":{\"synthetic_only\":true},\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}",
+    "v2": "{\"cluster_designation\":{\"synthetic_only\":true},\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-comments-cluster-research-v2\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"object_comments\":{\"synthetic_only\":true},\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}",
+    "first": "{\"aborted_forward\":{\"count\":1,\"digest\":\"cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd\",\"predecessor\":{\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"plan_digest\":\"322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b\"},\"root\":{\"format\":\"cryptalis.transition/retained-native-comments-cluster-research-v2\",\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"plan_digest\":\"322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b\"},\"schema\":\"cryptalis.aborted-forward-lineage/research-v1\"},\"cluster_designation\":{\"synthetic_only\":true},\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"object_comments\":{\"synthetic_only\":true},\"operation_id\":\"55555555-5555-4555-8555-555555555555\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}",
+    "second": "{\"aborted_forward\":{\"count\":2,\"digest\":\"4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0\",\"predecessor\":{\"operation_id\":\"55555555-5555-4555-8555-555555555555\",\"plan_digest\":\"bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f\"},\"root\":{\"format\":\"cryptalis.transition/retained-native-comments-cluster-research-v2\",\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"plan_digest\":\"322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b\"},\"schema\":\"cryptalis.aborted-forward-lineage/research-v1\"},\"cluster_designation\":{\"synthetic_only\":true},\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"object_comments\":{\"synthetic_only\":true},\"operation_id\":\"66666666-6666-4666-8666-666666666666\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}",
+    "unstable_second": "{\"aborted_forward\":{\"count\":2,\"digest\":\"4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0\",\"predecessor\":{\"operation_id\":\"55555555-5555-4555-8555-555555555555\",\"plan_digest\":\"bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f\"},\"root\":{\"format\":\"cryptalis.transition/retained-native-comments-cluster-research-v2\",\"operation_id\":\"44444444-4444-4444-8444-444444444444\",\"plan_digest\":\"322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b\"},\"schema\":\"cryptalis.aborted-forward-lineage/research-v1\"},\"cluster_designation\":{\"synthetic_only\":true},\"estimates\":{\"backfill_rows_per_second\":1,\"rows\":7,\"verify_rows_per_second\":1},\"format\":\"cryptalis.transition/retained-native-comments-cluster-aborted-successor-research-v3\",\"journal_schema\":\"synthetic\",\"key_policies\":{\"22222222-2222-4222-8222-222222222222\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"},\"kind\":\"protect\",\"lock\":{\"database\":{\"encoding\":\"UTF8\",\"major\":16},\"ddl\":[],\"declaration\":{\"ordered_fields\":[\"33333333-3333-4333-8333-333333333333\"],\"schema\":\"synthetic-contract-vector\",\"scope_marker\":1},\"domain_id\":\"88888888-8888-4888-8888-888888888888\",\"models\":[{\"fields\":[{\"codec\":\"utf8-exact/v1\",\"column\":\"secret\",\"field_id\":\"33333333-3333-4333-8333-333333333333\"}],\"model\":\"SyntheticRecord\",\"record\":{\"codec\":\"int64-be/v1\",\"column\":\"id\"},\"schema\":\"synthetic\",\"source_schema\":{\"columns\":[],\"constraints\":[],\"dependencies\":[],\"indexes\":[],\"relation\":\"synthetic-only\"},\"table\":\"records\",\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"profile\":\"cf1\",\"required_readers\":[\"cf1/v1\",\"int64-be/v1\",\"utf8-exact/v1\"],\"schema\":\"cryptalis.lock/v1\",\"search_reviews\":[],\"writer_inventory\":{\"complete\":true,\"evidence_kind\":\"synthetic-only\",\"writers\":[]}},\"object_comments\":{\"synthetic_only\":true},\"operation_id\":\"55555555-5555-4555-8555-555555555555\",\"runtime_role\":\"synthetic_reader\",\"scopes\":[{\"estimated_rows\":7,\"table_id\":\"22222222-2222-4222-8222-222222222222\"}],\"source_lock_digest\":null,\"target\":[\"synthetic_db\",\"12345\",null,null,\"synthetic_owner\"],\"target_id\":\"11111111-1111-4111-8111-111111111111\"}"
+  },
+  "rows": {
+    "v0": {
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "7",
+            "rows": 7,
+            "chunks": 1,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "verification": {
+          "22222222-2222-4222-8222-222222222222": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      }
+    },
+    "v1": {
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "7",
+            "rows": 7,
+            "chunks": 1,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "verification": {
+          "22222222-2222-4222-8222-222222222222": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      }
+    },
+    "v2": {
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "7",
+            "rows": 7,
+            "chunks": 1,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "verification": {
+          "22222222-2222-4222-8222-222222222222": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        }
+      }
+    },
+    "first": {
+      "operation_id": "55555555-5555-4555-8555-555555555555",
+      "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "5",
+            "rows": 5,
+            "chunks": 1,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "aborted_forward": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "count": 1,
+          "digest": "cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd"
+        }
+      }
+    },
+    "second": {
+      "operation_id": "66666666-6666-4666-8666-666666666666",
+      "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "7",
+            "rows": 7,
+            "chunks": 2,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "verification": {
+          "22222222-2222-4222-8222-222222222222": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        },
+        "aborted_forward": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "55555555-5555-4555-8555-555555555555",
+            "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+          },
+          "count": 2,
+          "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+        }
+      }
+    },
+    "nested_boundary": {
+      "operation_id": "44444444-4444-4444-8444-444444444444",
+      "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": "deliberately invalid nested progress; this slice hashes only"
+        }
+      }
+    },
+    "unstable_second": {
+      "operation_id": "55555555-5555-4555-8555-555555555555",
+      "plan_digest": "f85c4b49723e499583b2f6988bfecd93e9ab855af203899aedbc8c855a486409",
+      "state": {
+        "phase": "ABORTED",
+        "models": {
+          "22222222-2222-4222-8222-222222222222": {
+            "scope": {
+              "count": 7,
+              "membership": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+            },
+            "cursor": "7",
+            "rows": 7,
+            "chunks": 2,
+            "schema": {
+              "label": "synthetic native π\n"
+            },
+            "guard": {
+              "label": "synthetic guard"
+            }
+          }
+        },
+        "verification": {
+          "22222222-2222-4222-8222-222222222222": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        },
+        "aborted_forward": {
+          "schema": "cryptalis.aborted-forward-lineage/research-v1",
+          "root": {
+            "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+            "operation_id": "44444444-4444-4444-8444-444444444444",
+            "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+          },
+          "predecessor": {
+            "operation_id": "55555555-5555-4555-8555-555555555555",
+            "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+          },
+          "count": 2,
+          "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+        }
+      }
+    }
+  },
+  "summaries": {
+    "v0": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-research-v0",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+      },
+      "predecessor": {
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "4c9a838d30b05a25b15c20d586952b02d1bc59b47823f07a8155c354c8f40f7a"
+      },
+      "count": 1,
+      "digest": "c1b2efbef0e718e861152ae3a9cc1edcfcfb6946b5b2398a0b4f497478e13dc6"
+    },
+    "v1": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-research-v1",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+      },
+      "predecessor": {
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "84150572045ebdd3ad0cfeee0e4cfc21a389c103e6d1ac15cfa81ec24ee8f887"
+      },
+      "count": 1,
+      "digest": "954d4b9ffbe13e433b74a48502ea529ec08968709ade4ab984572b860d72bef4"
+    },
+    "v2": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "predecessor": {
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "count": 1,
+      "digest": "cfcf0f603b8522ff60262526cf942e2f7bd3772246cd7791ca14dffa92419fcd"
+    },
+    "first": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "predecessor": {
+        "operation_id": "55555555-5555-4555-8555-555555555555",
+        "plan_digest": "bc31f126025be814b03a07d298d808a6bcff7f5acef1dc27a8c8cf2c597bc24f"
+      },
+      "count": 2,
+      "digest": "4a57e87fc5e346f6907b1f78be1dd42c8d5e1261e59b2ec6e494f66aa4c525e0"
+    },
+    "second": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "predecessor": {
+        "operation_id": "66666666-6666-4666-8666-666666666666",
+        "plan_digest": "495e9ad3fa3f5fb591b58636c91a5a5224ff452fffaba6236368c829bb1fa2b0"
+      },
+      "count": 3,
+      "digest": "ef0587db099ef56c75e7939b3f271e2e753f94e80e32a13798f654ab611ff5e1"
+    },
+    "nested_boundary": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "predecessor": {
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "count": 1,
+      "digest": "65bc006e0ade7a507099e26cc36591b2ede28a974e1bcc9a19a16fc8f771544e"
+    },
+    "unstable_second": {
+      "schema": "cryptalis.aborted-forward-lineage/research-v1",
+      "root": {
+        "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+        "operation_id": "44444444-4444-4444-8444-444444444444",
+        "plan_digest": "322a05e144d2dd850bb563dbab0783c65664a6dbcbe8fe9a4b2152c01a69300b"
+      },
+      "predecessor": {
+        "operation_id": "55555555-5555-4555-8555-555555555555",
+        "plan_digest": "f85c4b49723e499583b2f6988bfecd93e9ab855af203899aedbc8c855a486409"
+      },
+      "count": 3,
+      "digest": "fa76142b54868c0bafb1ee3f2197ba09f4b2a05618a2ec9dffbea33f6761bee6"
+    }
+  },
+  "current_proposal": {
+    "format": "cryptalis.transition/retained-native-comments-cluster-research-v2",
+    "kind": "protect",
+    "operation_id": "77777777-7777-4777-8777-777777777777",
+    "target_id": "11111111-1111-4111-8111-111111111111",
+    "target": [
+      "synthetic_db",
+      "12345",
+      null,
+      null,
+      "synthetic_owner"
+    ],
+    "runtime_role": "synthetic_reader",
+    "journal_schema": "synthetic",
+    "lock": {
+      "schema": "cryptalis.lock/v1",
+      "profile": "cf1",
+      "domain_id": "88888888-8888-4888-8888-888888888888",
+      "database": {
+        "major": 16,
+        "encoding": "UTF8"
+      },
+      "declaration": {
+        "schema": "synthetic-contract-vector",
+        "ordered_fields": [
+          "33333333-3333-4333-8333-333333333333"
+        ],
+        "scope_marker": 1
+      },
+      "models": [
+        {
+          "table_id": "22222222-2222-4222-8222-222222222222",
+          "schema": "synthetic",
+          "table": "records",
+          "model": "SyntheticRecord",
+          "record": {
+            "column": "id",
+            "codec": "int64-be/v1"
+          },
+          "fields": [
+            {
+              "field_id": "33333333-3333-4333-8333-333333333333",
+              "column": "secret",
+              "codec": "utf8-exact/v1"
+            }
+          ],
+          "source_schema": {
+            "relation": "synthetic-only",
+            "columns": [],
+            "constraints": [],
+            "indexes": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "required_readers": [
+        "cf1/v1",
+        "int64-be/v1",
+        "utf8-exact/v1"
+      ],
+      "writer_inventory": {
+        "complete": true,
+        "evidence_kind": "synthetic-only",
+        "writers": []
+      },
+      "search_reviews": [],
+      "ddl": []
+    },
+    "source_lock_digest": null,
+    "key_policies": {
+      "22222222-2222-4222-8222-222222222222": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "scopes": [
+      {
+        "table_id": "22222222-2222-4222-8222-222222222222",
+        "estimated_rows": 7
+      }
+    ],
+    "estimates": {
+      "rows": 7,
+      "backfill_rows_per_second": 1,
+      "verify_rows_per_second": 1
+    },
+    "object_comments": {
+      "synthetic_only": true
+    },
+    "cluster_designation": {
+      "synthetic_only": true
+    }
+  }
+}
