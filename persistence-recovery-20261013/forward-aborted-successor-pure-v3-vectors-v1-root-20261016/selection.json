@@ -1,0 +1,6 @@
+{
+  "controller_seal_sha256": "072f256d7c965f5a65d0b557404cbe859e07b0f9aae23bb729bee6b2cdf119df",
+  "output_root": "/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/forward-aborted-successor-pure-v3-vectors-v1-root-20261016",
+  "packet_sha256": "cb4a9487895efb4ad4d780b93099c3e91fb813707b8f2122e4459407ff7aeacd",
+  "pure38_selected": true
+}

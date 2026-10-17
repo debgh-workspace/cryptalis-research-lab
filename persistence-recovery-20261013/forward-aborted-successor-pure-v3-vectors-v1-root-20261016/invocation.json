@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "-X",
+    "pycache_prefix=/workspace/scratch/cb28ee9f5f4a/persistence-recovery-20261013/forward-aborted-successor-pure-v3-vectors-v1-root-20261016/bytecode-absent",
+    "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/experiments/forward-aborted-successor-pure-v3-vectors-v1-20261016/driver.py"
+  ],
+  "combined_stream_bytes": 131072,
+  "cwd": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable",
+  "deadline_seconds": 10,
+  "environment_exact": {
+    "HOME": "/workspace/scratch/cb28ee9f5f4a/cryptalis-executable/runtime/home",
+    "LANG": "C.UTF-8",
+    "PATH": "/usr/bin:/bin",
+    "TZ": "UTC"
+  },
+  "owned_cleanup_seconds": 2,
+  "shell": false,
+  "stdin": "DEVNULL"
+}
