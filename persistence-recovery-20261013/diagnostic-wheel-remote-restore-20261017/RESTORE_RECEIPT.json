@@ -1,0 +1,8 @@
+{
+  "commit": "5099b0f6c10a386f0ee16471c7816ece40f060e1",
+  "remote_path": "preview/artifacts/diagnostic-remedies-v1-20261017/cryptalis-0.1.0-py3-none-any.whl",
+  "bytes": 141416,
+  "sha256": "55fde72147caddf2be41fa397fc855682a347f2fcbb26c527262810117b90b03",
+  "status": "EXACT_REMOTE_BYTES_RESTORED_NO_EXECUTION",
+  "sdist": "held pending owner approval"
+}
